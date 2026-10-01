@@ -2061,5 +2061,42 @@ window.VOCAB_DATA = {
       {w:"흰색",p:"noun",def:"white color",tr:"oq rang",ex:"저는 흰색 운동화를 좋아해서 자주 신어요."},
       {w:"힘",p:"noun",def:"power",tr:"kuch, quvvat",ex:"저는 운동을 해서 힘이 많이 세졌어요."}
     ]
+  },
+  "0057": {
+    slug: "topik-ii-001-030",
+    title: "TOPIK II · Words 1–30",
+    desc: "Essential TOPIK II intermediate vocabulary, words 1–30 (가계부 – 각종), with Uzbek translations and CEFR example sentences.",
+    words: [
+      {w:"가계부",p:"noun",def:"household account book",tr:"xarajatlar daftari, uy byudjeti daftari",ex:"이번 달에는 가계부를 보니까 식비가 너무 많이 나갔어요."},
+      {w:"가구점",p:"noun",def:"furniture store",tr:"mebel do'koni",ex:"이사한 집에 어울리는 소파를 찾으려고 가구점 세 곳을 돌아다녔어요."},
+      {w:"가까이",p:"adverb",def:"near",tr:"yaqinida, yaqin",ex:"동물원에서 기린을 가까이 보니까 정말 크더라고요."},
+      {w:"가꾸다",p:"verb",def:"to cultivate",tr:"parvarish qilmoq, o'stirmoq, ko'kalamzorlashtirmoq",ex:"아버지는 주말마다 마당의 나무를 정성껏 가꾸십니다."},
+      {w:"가난",p:"noun",def:"poverty",tr:"qashshoqlik, kambag'allik",ex:"어릴 때 가난했지만 가족이 함께 있어서 행복했어요."},
+      {w:"가늘다",p:"adjective",def:"to be thin",tr:"ingichka, nozik",ex:"가는 펜으로 쓰면 글씨가 더 예쁘게 보여요."},
+      {w:"가능",p:"noun",def:"possibility, potentiality",tr:"imkoniyat, mumkinlik",ex:"사진 촬영은 가능하지만 동영상은 안 돼요."},
+      {w:"가능성",p:"noun",def:"possibility",tr:"ehtimol, imkoniyat, salohiyat",ex:"사고가 다시 일어날 가능성은 거의 없다고 들었어요."},
+      {w:"가능하다",p:"adjective",def:"to be possible",tr:"mumkin bo'lmoq",ex:"이 방법이 가능한지 한번 확인해 볼게요."},
+      {w:"가득",p:"adverb",def:"full",tr:"to'la, liq",ex:"시장에는 신선한 과일을 사려는 사람들이 가득했어요."},
+      {w:"가라앉다",p:"verb",def:"to sink",tr:"cho'kmoq, tinchimoq, pasaymoq",ex:"약을 먹고 나니까 열이 조금 가라앉았어요."},
+      {w:"가렵다",p:"adjective",def:"to be itchy",tr:"qichimoq",ex:"피부가 건조해서 겨울만 되면 온몸이 가려워요."},
+      {w:"가루비누",p:"noun",def:"powder soap",tr:"kukun sovun, kir yuvish kukuni",ex:"마트에서 세일하는 가루비누를 두 개 샀어요."},
+      {w:"가리다",p:"verb",def:"to distinguish",tr:"ajratmoq, tanlamoq, to'smoq, yashirmoq",ex:"앞사람 키가 커서 무대가 잘 안 보이게 가렸어요."},
+      {w:"가리키다",p:"verb",def:"to indicate",tr:"ko'rsatmoq, ishora qilmoq",ex:"저 사람이 가리키는 방향으로 가면 지하철역이 나온다고 했어요."},
+      {w:"가만히",p:"adverb",def:"motionlessly",tr:"jim, qimirlamay, sokin",ex:"선생님 말씀을 가만히 듣고 있으면 이해가 돼요."},
+      {w:"가뭄",p:"noun",def:"drought",tr:"qurg'oqchilik",ex:"오랫동안 비가 안 와서 가뭄이 들었어요."},
+      {w:"가사",p:"noun",def:"housework",tr:"uy ishlari",ex:"요리와 청소 같은 가사는 힘든 일이에요."},
+      {w:"가상",p:"noun",def:"virtual",tr:"virtual, xayoliy, taxminiy",ex:"가상 현실 안경을 쓰면 바다 속에 있는 것 같아요."},
+      {w:"가스",p:"noun",def:"gas",tr:"gaz",ex:"가스 요금이 지난달보다 많이 나왔어요."},
+      {w:"가습기",p:"noun",def:"humidifier",tr:"namlagich",ex:"겨울에는 가습기를 틀어 놓고 자는 게 좋아요."},
+      {w:"가입",p:"noun",def:"entry",tr:"a'zo bo'lish, ro'yxatdan o'tish, qo'shilish",ex:"보험에 가입하려면 먼저 신분증이 필요해요."},
+      {w:"가전제품",p:"noun",def:"home appliances",tr:"maishiy texnika",ex:"이사하면서 낡은 가전제품을 모두 새것으로 바꿨어요."},
+      {w:"가정",p:"noun",def:"family",tr:"oila, xonadon",ex:"화목한 가정에서 자란 아이는 마음이 따뜻해요."},
+      {w:"가족적",p:"noun",def:"being family-oriented",tr:"oilaviy, oilaparvar",ex:"이 식당은 가족적인 분위기여서 편하게 먹을 수 있어요."},
+      {w:"가축",p:"noun",def:"livestock",tr:"chorva, uy hayvonlari",ex:"할아버지는 시골에서 가축을 키우며 사세요."},
+      {w:"가치",p:"noun",def:"value",tr:"qiymat, ahamiyat",ex:"이 책은 한 번 읽어 볼 만한 가치가 있어요."},
+      {w:"각각",p:"adverb",def:"separately, each",tr:"har biri, alohida-alohida",ex:"친구와 저는 각각 다른 대학교에 다녀요."},
+      {w:"각자",p:"noun",def:"each one",tr:"har kim, har biri o'zi",ex:"우리는 각자 맡은 일을 열심히 했어요."},
+      {w:"각종",p:"noun",def:"various",tr:"turli, har xil",ex:"이 시장에서는 각종 생선을 싸게 살 수 있어요."}
+    ]
   }
 };
