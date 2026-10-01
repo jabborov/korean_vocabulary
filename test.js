@@ -31,7 +31,7 @@ async function load(url){
     assert.strictEqual(entries.length, t.VOCAB_DATA[k].words.length, k);
     assert.strictEqual(t.document.querySelectorAll('.level-btn').length, 6);
     assert.strictEqual(entries[0].querySelectorAll('.status-btn').length, 3);
-    assert.ok(entries[0].querySelector('.dict-link').href.startsWith('https://www.oxfordlearnersdictionaries.com/search/english/?q='));
+    assert.ok(!entries[0].querySelector('.dict-link'), 'no dictionary link');
     assert.strictEqual(entries[0].querySelector('.entry-ex').textContent, t.VOCAB_DATA[k].words[0].ex);
   }
 
@@ -107,7 +107,8 @@ async function load(url){
       assert.strictEqual(d.getElementById('rw-uz').textContent, e.it.tr || e.it.def);
       const en = d.getElementById('rw-en');
       if (e.it.tr) assert.strictEqual(en.textContent, e.it.def);
-      else assert.ok(en.querySelector('a').href.includes('oxfordlearnersdictionaries.com'));
+      else assert.strictEqual(en.textContent, 'Not in this reference yet');
+      assert.ok(!d.getElementById('rw-oxford'), 'no Oxford link in random card');
       assert.strictEqual(d.getElementById('rw-ex').textContent, e.it.ex);
       assert.ok(d.getElementById('rw-topic').getAttribute('href') === 'topic.html?topic=' + e.k);
     }

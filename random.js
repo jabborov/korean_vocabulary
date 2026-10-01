@@ -56,14 +56,11 @@
   .rw-ex{ font-size:14.5px; color:var(--muted); font-style:italic; }
   .rw-ex::before{ content:"\\201C"; } .rw-ex::after{ content:"\\201D"; }
   .rw-missing{ font-size:14px; color:var(--muted); }
-  .rw-missing a{ color:var(--accent); }
   .rw-actions{ display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;
     margin-top:18px; padding-top:14px; border-top:1px dashed var(--line); }
   .rw-btn{ font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--accent); background:none;
     border:1px solid var(--accent); border-radius:6px; padding:6px 14px; cursor:pointer; }
   .rw-btn:hover{ background:var(--accent-dim); }
-  .rw-oxford{ font-family:'JetBrains Mono',monospace; font-size:12.5px; color:var(--muted); }
-  .rw-oxford:hover{ color:var(--accent); }
   @media print{ .rw-backdrop{ display:none !important; } [data-random-word]{ display:none !important; } }`;
   const style = document.createElement('style');
   style.textContent = css;
@@ -88,13 +85,11 @@
       <div class="rw-row"><div class="rw-label" id="rw-ex-label">Example</div><div class="rw-ex" id="rw-ex"></div></div>
       <div class="rw-actions">
         <button class="rw-btn" type="button" id="rw-next">↻ Another random word</button>
-        <a class="rw-oxford" id="rw-oxford" target="_blank" rel="noopener">Oxford ↗</a>
       </div>
     </div>`;
   document.body.appendChild(backdrop);
 
   const $ = id => backdrop.querySelector('#' + id);
-  const oxfordUrl = w => `https://www.oxfordlearnersdictionaries.com/search/english/?q=${encodeURIComponent(w)}`;
   let lastIndex = -1, opener = null;
 
   function show(){
@@ -114,16 +109,11 @@
     en.className = f.en ? 'rw-en' : 'rw-missing';
     if(f.en){ en.textContent = f.en; }
     else{
-      en.textContent = 'Not in this reference yet — ';
-      const a = document.createElement('a');
-      a.href = oxfordUrl(it.w); a.target = '_blank'; a.rel = 'noopener';
-      a.textContent = 'see Oxford';
-      en.appendChild(a);
+      en.textContent = 'Not in this reference yet';
     }
     $('rw-uz').textContent = f.uz;
     $('rw-ex-label').textContent = f.level ? `Example · ${f.level}` : 'Example';
     $('rw-ex').textContent = f.ex;
-    $('rw-oxford').href = oxfordUrl(it.w);
 
     if(!backdrop.classList.contains('open')){
       opener = document.activeElement;

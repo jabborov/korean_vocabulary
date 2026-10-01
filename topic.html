@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>English Vocabulary</title>
+<title>Korean Vocabulary</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -148,8 +148,6 @@
   .entry.is-memorized{ border-left: 3px solid var(--ok); }
   .entry.is-weak{ border-left: 3px solid var(--weak); }
   .entry.is-learn{ border-left: 3px solid var(--accent); }
-  .dict-link{ font-family:'JetBrains Mono',monospace; font-size: 12px; color: var(--muted); }
-  .dict-link:hover{ color: var(--accent); }
 
   .no-results{ color: var(--muted); text-align:center; padding: 48px 0; font-size: 15px; }
 
@@ -220,7 +218,7 @@
 </main>
 
 <footer>
-  <div class="wrap">English Vocabulary · Self-study topic-based reference · Dictionary source: <a href="https://www.oxfordlearnersdictionaries.com/" target="_blank" rel="noopener">Oxford Learner's Dictionaries</a></div>
+  <div class="wrap">Korean Vocabulary · Self-study topic-based reference</div>
 </footer>
 
 <script src="data.js"></script>
@@ -232,7 +230,7 @@
   const topicKey = params.get('topic') || keys[0];
   const data = window.VOCAB_DATA[topicKey] || window.VOCAB_DATA[keys[0]];
 
-  document.title = `${data.title} — English Vocabulary`;
+  document.title = `${data.title} — Korean Vocabulary`;
   document.getElementById('topic-number').textContent = topicKey;
   document.getElementById('topic-title').textContent = data.title;
   document.getElementById('topic-title-nav').textContent = `${topicKey} · ${data.title}`;
@@ -319,9 +317,6 @@
     applyStatus(div, next);
   });
 
-  // ----- Dictionary source: Oxford Learner's Dictionaries only -----
-  const oxfordUrl = w => `https://www.oxfordlearnersdictionaries.com/search/english/?q=${encodeURIComponent(w)}`;
-
   function render(filter){
     const q = (filter || '').trim().toLowerCase();
     const filtered = data.words.filter(item =>
@@ -351,7 +346,6 @@
             <div class="status-group" role="group" aria-label="Learning status">
               ${STATUSES.map(s => `<button type="button" class="pill status-btn" data-status="${s.key}">${s.label}</button>`).join('')}
             </div>
-            <a class="dict-link" href="${oxfordUrl(item.w)}" target="_blank" rel="noopener">Oxford ↗</a>
           </div>
         `;
         applyStatus(div, statusMap[div.dataset.id] || null);
