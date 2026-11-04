@@ -4,6 +4,7 @@
 (function(){
   const DATA = window.VOCAB_DATA || {};
   const EXAMPLES = window.VOCAB_EXAMPLES || {};
+  const EXAMPLES_UZ = window.VOCAB_EXAMPLES_UZ || {};  // Uzbek: topic -> word -> [A1, A2, ...]
   const LEVELS = ['A1','A2','B1','B2','C1','C2'];
 
   // Flatten every topic into one pool: [{ topicKey, topicTitle, item }]
@@ -22,10 +23,12 @@
     const set = (EXAMPLES[entry.topicKey] || {})[it.w];
     const idx = LEVELS.indexOf(level);
     const ex = (idx >= 0 && set && set[idx]) || it.ex;
+    const uzSet = (EXAMPLES_UZ[entry.topicKey] || {})[it.w];
+    const exUz = (idx >= 0 && set && set[idx] && uzSet && uzSet[idx]) || '';
     return {
       en: it.tr ? it.def : null,
       uz: it.tr || it.def,
-      ex, level: (idx >= 0 && set && set[idx]) ? level : null
+      ex, exUz, level: (idx >= 0 && set && set[idx]) ? level : null
     };
   }
 
@@ -53,6 +56,7 @@
   .rw-en{ font-size:15px; }
   .rw-uz{ font-size:15px; color:var(--accent); }
   .rw-ex{ font-size:14.5px; color:var(--muted); font-style:italic; }
+  .rw-ex-uz{ font-size:14px; color:var(--accent); margin-top:4px; }
   .rw-ex::before{ content:"\\201C"; } .rw-ex::after{ content:"\\201D"; }
   .rw-missing{ font-size:14px; color:var(--muted); }
   .rw-actions{ display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;
@@ -80,7 +84,7 @@
       </div>
       <div class="rw-row"><div class="rw-label">English meaning</div><div id="rw-en"></div></div>
       <div class="rw-row"><div class="rw-label">Uzbek translation</div><div class="rw-uz" id="rw-uz"></div></div>
-      <div class="rw-row"><div class="rw-label" id="rw-ex-label">Example</div><div class="rw-ex" id="rw-ex"></div></div>
+      <div class="rw-row"><div class="rw-label" id="rw-ex-label">Example</div><div class="rw-ex" id="rw-ex"></div><div class="rw-ex-uz" id="rw-ex-uz" lang="uz"></div></div>
       <div class="rw-actions">
         <button class="rw-btn" type="button" id="rw-next">↻ Another random word</button>
       </div>
@@ -111,6 +115,8 @@
     $('rw-uz').textContent = f.uz;
     $('rw-ex-label').textContent = f.level ? `Example · ${f.level}` : 'Example';
     $('rw-ex').textContent = f.ex;
+    $('rw-ex-uz').textContent = f.exUz;
+    $('rw-ex-uz').style.display = f.exUz ? '' : 'none';
 
     if(!backdrop.classList.contains('open')){
       opener = document.activeElement;

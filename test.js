@@ -192,5 +192,57 @@ async function load(url){
     assert.strictEqual(t.document.getElementById('search').value, it2.w);
     assert.ok([...t.document.querySelectorAll('.entry-word')].some(x => x.textContent === it2.w)); }
 
+  // ---- Uzbek translations of TOPIK I A1 + A2 + B1 sentences (examples_uz.js) ----
+  { store['vocab-level'] = '"A1"';
+    let t = await load('topic.html?topic=0001');
+    const UZ = t.VOCAB_EXAMPLES_UZ, D = t.VOCAB_DATA;
+    const isII = k => /^TOPIK II\b/.test(D[k].title);
+    // every TOPIK I word has non-empty A1, A2 and B1 translations; TOPIK II has none
+    for (const k of Object.keys(D)) {
+      if (isII(k)) { assert.ok(!UZ[k], 'no Uzbek A1 for ' + k); continue; }
+      for (const it of D[k].words) for (const i of [0, 1, 2]) {
+        const v = UZ[k] && UZ[k][it.w] && UZ[k][it.w][i];
+        assert.ok(v && !/[\uAC00-\uD7A3]/.test(v), 'uz ' + ['A1','A2','B1'][i] + ' ' + k + ' ' + it.w);
+      }
+    }
+    const it0 = D['0001'].words[0], e0 = t.document.querySelector('.entry');
+    assert.strictEqual(e0.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][0]);
+    assert.strictEqual(e0.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][0]);
+    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
+    // A2: Korean A2 sentence + its Uzbek translation
+    t.document.querySelector('.level-btn[data-level="A2"]').click();
+    assert.strictEqual(t.document.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][1]);
+    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][1]);
+    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
+    // B1: Korean B1 sentence + its Uzbek translation
+    t.document.querySelector('.level-btn[data-level="B1"]').click();
+    assert.strictEqual(t.document.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][2]);
+    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][2]);
+    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
+    // levels without translations (B2–C2): no Uzbek line
+    t.document.querySelector('.level-btn[data-level="B2"]').click();
+    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, 0);
+    t.document.querySelector('.level-btn[data-level="B2"]').click();   // back to original
+    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, 0);
+    // TOPIK II with A1: no Uzbek line
+    store['vocab-level'] = '"A1"';
+    const kII = Object.keys(D).find(isII);
+    t = await load('topic.html?topic=' + kII);
+    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, 0);
+
+    // random card shows the Uzbek A1 line for TOPIK I words only
+    const r = await load('index.html'), rd = r.document;
+    rd.querySelector('[data-random-word]').click();
+    let sawI = false, sawII = false;
+    for (let n = 0; n < 300 && !(sawI && sawII); n++) {
+      const k = rd.getElementById('rw-topic').getAttribute('href').split('topic=')[1];
+      const word = rd.getElementById('rw-word').textContent, uz = rd.getElementById('rw-ex-uz');
+      if (isII(k)) { sawII = true; assert.strictEqual(uz.style.display, 'none'); }
+      else { sawI = true; assert.strictEqual(uz.textContent, UZ[k][word][0]); assert.notStrictEqual(uz.style.display, 'none'); }
+      rd.getElementById('rw-next').click();
+    }
+    assert.ok(sawI && sawII, 'saw words from both levels');
+    store['vocab-level'] = 'null'; }
+
   console.log('ALL TESTS PASSED');
 })().catch(e => { console.error('FAIL', e.message); process.exit(1); });

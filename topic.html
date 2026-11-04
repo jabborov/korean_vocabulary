@@ -134,6 +134,7 @@
   .entry-ex{ font-size: 14px; color: var(--muted); font-style: italic; }
   .entry-ex::before{ content: "“"; }
   .entry-ex::after{ content: "”"; }
+  .entry-ex-uz{ font-size: 13.5px; color: var(--accent); margin-top: 4px; }
 
   .entry-actions{
     display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap: 10px;
@@ -222,6 +223,7 @@
 
 <script src="data.js"></script>
 <script src="examples.js"></script>
+<script src="examples_uz.js"></script>
 <script src="random.js"></script>
 <script>
   const params = new URLSearchParams(window.location.search);
@@ -263,6 +265,14 @@
     if(!level) return item.ex;
     const set = examples[item.w];
     return (set && set[LEVELS.indexOf(level)]) || item.ex;
+  }
+
+  // Uzbek translation of the selected level's sentence (examples_uz.js: word -> [A1, A2, ...]).
+  // Shown only for levels that have a translation.
+  const examplesUz = (window.VOCAB_EXAMPLES_UZ || {})[topicKey] || {};
+  function exampleUzFor(item){
+    const i = LEVELS.indexOf(level), set = examples[item.w], uz = examplesUz[item.w];
+    return (i >= 0 && set && set[i] && uz && uz[i]) || '';
   }
 
   const levelBar = document.getElementById('level-bar');
@@ -345,6 +355,7 @@
           <div class="entry-def">${esc(item.def)}</div>
           ${item.tr ? `<div class="entry-tr">${esc(item.tr)}</div>` : ''}
           <div class="entry-ex">${esc(exampleFor(item))}</div>
+          ${exampleUzFor(item) ? `<div class="entry-ex-uz" lang="uz">${esc(exampleUzFor(item))}</div>` : ''}
           <div class="entry-actions">
             <div class="status-group" role="group" aria-label="Learning status">
               ${STATUSES.map(s => `<button type="button" class="pill status-btn" data-status="${s.key}">${s.label}</button>`).join('')}
