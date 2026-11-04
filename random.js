@@ -55,7 +55,7 @@
     text-transform:uppercase; letter-spacing:.04em; margin-bottom:2px; }
   .rw-en{ font-size:15px; }
   .rw-uz{ font-size:15px; color:var(--accent); }
-  .rw-ex{ font-size:14.5px; color:var(--text); font-style:normal; }
+  .rw-ex{ font-family:'Noto Sans KR','Inter',sans-serif; font-size:16.5px; line-height:1.7; color:var(--text); font-style:normal; }
   .rw-ex-uz{ font-size:14px; color:var(--accent); margin-top:4px; }
   .rw-ex::before{ content:"\\201C"; } .rw-ex::after{ content:"\\201D"; }
   .rw-missing{ font-size:14px; color:var(--muted); }
