@@ -72,13 +72,49 @@
   .eyebrow{ font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--accent); margin-bottom:16px; }
   header.hero h1{ font-size: 34px; margin-bottom: 14px; }
   header.hero p{ color: var(--muted); max-width: 58ch; font-size: 15.5px; }
+  .hero-actions{ display:flex; flex-wrap:wrap; gap:10px; margin-top: 24px; }
   .random-btn{
-    margin-top: 24px; padding: 9px 16px; border-radius: 8px;
+    padding: 9px 16px; border-radius: 8px;
     border: 1px solid var(--accent); background: none; color: var(--accent);
     font-family:'JetBrains Mono',monospace; font-size: 13.5px; cursor: pointer;
     transition: background .15s ease;
   }
   .random-btn:hover{ background: var(--accent-dim); }
+  .topik-btn{
+    padding: 9px 16px; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--bg-alt); color: var(--muted);
+    font-family:'JetBrains Mono',monospace; font-size: 13.5px; cursor: pointer;
+    transition: border-color .15s ease, color .15s ease;
+  }
+  .topik-btn:hover{ color: var(--text); border-color: var(--text); }
+  .topik-btn.active{ color: var(--bg); background: var(--accent); border-color: var(--accent); }
+
+  .search-box{
+    display:flex; align-items:center; gap: 10px; margin-top: 16px;
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 10px 14px; background: var(--bg-alt);
+  }
+  .search-box:focus-within{ border-color: var(--accent); }
+  .search-box input{
+    flex:1; min-width:0; background:none; border:none; outline:none; color:var(--text);
+    font-family:'Inter',sans-serif; font-size: 15px;
+  }
+  .search-box input::placeholder{ color: var(--muted); }
+  .search-icon{ color: var(--muted); font-size: 15px; }
+
+  #list-info{ font-family:'JetBrains Mono',monospace; font-size: 13px; color: var(--muted); margin-bottom: 18px; }
+  .hit{
+    display:block; border:1px solid var(--line); border-radius: 10px;
+    padding: 14px 18px; margin-bottom: 10px; transition: border-color .15s ease;
+  }
+  .hit:hover{ border-color: var(--accent); }
+  .hit-top{ display:flex; align-items:baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+  .hit-word{ font-family:'Space Grotesk',sans-serif; font-size: 17px; font-weight: 600; }
+  .hit-pos{ font-family:'JetBrains Mono',monospace; font-size: 11.5px; color: var(--accent); border:1px solid var(--accent-dim); border-radius:4px; padding: 1px 7px; }
+  .hit-topic{ font-family:'JetBrains Mono',monospace; font-size: 12px; color: var(--muted); margin-left:auto; }
+  .hit-def{ font-size: 14.5px; }
+  .hit-tr{ font-size: 13.5px; color: var(--accent); }
+  .no-results{ color: var(--muted); text-align:center; padding: 40px 0; font-size: 15px; }
 
   main{ padding: 56px 0 40px; }
 
@@ -119,15 +155,29 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="eyebrow mono">EN</div>
+    <div class="eyebrow mono">TOPIK I · TOPIK II</div>
     <h1>Korean Vocabulary</h1>
-    <p>A self-study vocabulary reference organized by topic. Each topic is a single page with word, part of speech, pronunciation, translation, and an example sentence. Search instantly within any topic.</p>
-    <button class="random-btn" type="button" data-random-word>↻ Random word</button>
+    <p>A self-study vocabulary reference organized by topic. Each topic is a single page with word, part of speech, English meaning, Uzbek translation, and an example sentence. Search instantly within any topic.</p>
+    <div class="hero-actions">
+      <button class="random-btn" type="button" data-random-word>↻ Random word</button>
+      <div role="group" aria-label="TOPIK level" style="display:contents">
+        <button class="topik-btn" type="button" data-topik="I" aria-pressed="false">TOPIK I</button>
+        <button class="topik-btn" type="button" data-topik="II" aria-pressed="false">TOPIK II</button>
+      </div>
+    </div>
+    <div class="search-box">
+      <span class="search-icon mono">/</span>
+      <input id="search" type="search" placeholder="Search words, translations or definitions..." autocomplete="off" aria-label="Search words, translations or definitions">
+    </div>
   </div>
 </header>
 
 <main>
-  <div class="wrap" id="topic-list"></div>
+  <div class="wrap">
+    <div id="list-info"></div>
+    <div id="topic-list"></div>
+    <div id="search-results"></div>
+  </div>
 
   <div class="wrap notes">
     <h3>About this reference</h3>
@@ -149,24 +199,111 @@
 <script src="random.js"></script>
 <script>
   const list = document.getElementById('topic-list');
-  Object.keys(window.VOCAB_DATA).forEach(key => {
+  const resultsEl = document.getElementById('search-results');
+  const infoEl = document.getElementById('list-info');
+  const searchEl = document.getElementById('search');
+  const topikBtns = document.querySelectorAll('.topik-btn');
+  // Escape text before inserting it with innerHTML.
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  // TOPIK level of a topic, read from its title ("TOPIK I · …" / "TOPIK II · …").
+  const topikOf = t => /^TOPIK II\b/.test(t.title) ? 'II' : 'I';
+  const keys = Object.keys(window.VOCAB_DATA);
+
+  // Selected level is remembered between visits (default TOPIK I).
+  let topik = 'I';
+  try{ const v = localStorage.getItem('vocab-topik'); if(v === 'I' || v === 'II') topik = v; }catch(e){}
+
+  // Flat word index for search: [{ key, title, topik, item }]
+  const index = [];
+  keys.forEach(k => {
+    const t = window.VOCAB_DATA[k];
+    t.words.forEach(item => index.push({ key: k, title: t.title, topik: topikOf(t), item }));
+  });
+
+  keys.forEach(key => {
     const t = window.VOCAB_DATA[key];
     const a = document.createElement('a');
     a.className = 'topic-card';
-    a.href = `topic.html?topic=${key}`;
+    a.dataset.topik = topikOf(t);
+    a.dataset.key = key;
+    a.href = `topic.html?topic=${encodeURIComponent(key)}`;
     a.innerHTML = `
       <div class="topic-top">
         <div class="topic-name">
-          <span class="topic-number mono">${key}</span>
-          <h2>${t.title}</h2>
+          <span class="topic-number mono">${esc(key)}</span>
+          <h2>${esc(t.title)}</h2>
         </div>
         <span class="topic-count mono">${t.words.length} words</span>
       </div>
-      <p>${t.desc}</p>
+      <p>${esc(t.desc)}</p>
       <span class="topic-open">Open reference →</span>
     `;
     list.appendChild(a);
   });
+
+  const MAX_HITS = 100;
+  function render(){
+    topikBtns.forEach(b => {
+      const on = b.dataset.topik === topik;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+
+    const q = searchEl.value.trim().toLowerCase();
+    const label = `TOPIK ${topik}`;
+
+    if(!q){
+      // Topic list for the selected level
+      let topics = 0, words = 0;
+      list.querySelectorAll('.topic-card').forEach(card => {
+        const show = card.dataset.topik === topik;
+        card.style.display = show ? '' : 'none';
+        if(show){ topics++; words += window.VOCAB_DATA[card.dataset.key].words.length; }
+      });
+      list.style.display = '';
+      resultsEl.innerHTML = '';
+      infoEl.textContent = `${label} · ${topics} topics · ${words.toLocaleString('en-US')} words`;
+      return;
+    }
+
+    // Search across both TOPIK I and TOPIK II: word, English definition, Uzbek translation.
+    // Ranking: exact word, word starts with query, then any other match.
+    const hits = [];
+    index.forEach(e => {
+      const it = e.item, w = it.w.toLowerCase();
+      let rank = -1;
+      if(w === q) rank = 0;
+      else if(w.startsWith(q)) rank = 1;
+      else if(w.includes(q) || it.def.toLowerCase().includes(q) || (it.tr || '').toLowerCase().includes(q)) rank = 2;
+      if(rank >= 0) hits.push({ e, rank });
+    });
+    hits.sort((a, b) => a.rank - b.rank);
+
+    list.style.display = 'none';
+    infoEl.textContent = `${hits.length} ${hits.length === 1 ? 'match' : 'matches'} in TOPIK I + II` +
+      (hits.length > MAX_HITS ? ` · showing first ${MAX_HITS}` : '');
+    resultsEl.innerHTML = hits.length
+      ? hits.slice(0, MAX_HITS).map(({ e }) => `
+        <a class="hit" href="topic.html?topic=${encodeURIComponent(e.key)}&q=${encodeURIComponent(e.item.w)}">
+          <div class="hit-top">
+            <span class="hit-word">${esc(e.item.w)}</span>
+            <span class="hit-pos">${esc(e.item.p)}</span>
+            <span class="hit-topic">${esc(e.key)} · ${esc(e.title)}</span>
+          </div>
+          <div class="hit-def">${esc(e.item.def)}</div>
+          ${e.item.tr ? `<div class="hit-tr">${esc(e.item.tr)}</div>` : ''}
+        </a>`).join('')
+      : `<div class="no-results">No words match your search.</div>`;
+  }
+
+  topikBtns.forEach(b => b.addEventListener('click', () => {
+    topik = b.dataset.topik;
+    try{ localStorage.setItem('vocab-topik', topik); }catch(e){}
+    render();
+  }));
+  searchEl.addEventListener('input', render);
+  render();
 
   // Theme toggle
   const toggleBtn = document.getElementById('theme-toggle');

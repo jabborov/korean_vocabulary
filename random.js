@@ -13,8 +13,8 @@
   ));
   if(!pool.length) return;
 
-  // Topics 0001–0006 store the Uzbek translation in `def` and have no `tr`.
-  // Topics 0007+ store the English meaning in `def` and Uzbek in `tr`.
+  // Every word stores the English meaning in `def` and Uzbek in `tr`.
+  // If a future entry lacks `tr`, `def` is shown as the translation instead.
   function fields(entry){
     const it = entry.item;
     let level = null;
@@ -47,7 +47,6 @@
   .rw-word{ font-family:'Space Grotesk',sans-serif; font-size:26px; font-weight:600; }
   .rw-pos{ font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--accent);
     border:1px solid var(--accent-dim); border-radius:4px; padding:2px 8px; }
-  .rw-ipa{ font-family:'JetBrains Mono',monospace; font-size:14px; color:var(--muted); }
   .rw-row{ margin-bottom:12px; }
   .rw-label{ font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--muted);
     text-transform:uppercase; letter-spacing:.04em; margin-bottom:2px; }
@@ -78,7 +77,6 @@
       <div class="rw-top">
         <span class="rw-word" id="rw-word"></span>
         <span class="rw-pos" id="rw-pos"></span>
-        <span class="rw-ipa" id="rw-ipa"></span>
       </div>
       <div class="rw-row"><div class="rw-label">English meaning</div><div id="rw-en"></div></div>
       <div class="rw-row"><div class="rw-label">Uzbek translation</div><div class="rw-uz" id="rw-uz"></div></div>
@@ -103,7 +101,6 @@
     topic.href = `topic.html?topic=${entry.topicKey}`;
     $('rw-word').textContent = it.w;
     $('rw-pos').textContent = it.p;
-    $('rw-ipa').textContent = it.ipa;
 
     const en = $('rw-en');
     en.className = f.en ? 'rw-en' : 'rw-missing';

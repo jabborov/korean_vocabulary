@@ -129,7 +129,6 @@
   .entry-top{ display:flex; align-items:baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
   .entry-word{ font-family:'Space Grotesk',sans-serif; font-size: 19px; font-weight: 600; }
   .entry-pos{ font-family:'JetBrains Mono',monospace; font-size: 12px; color: var(--accent); border:1px solid var(--accent-dim); border-radius:4px; padding: 2px 8px; }
-  .entry-ipa{ font-family:'JetBrains Mono',monospace; font-size: 13px; color: var(--muted); }
   .entry-def{ font-size: 15px; margin-bottom: 6px; }
   .entry-tr{ font-size: 13.5px; color: var(--accent); margin-bottom: 8px; }
   .entry-ex{ font-size: 14px; color: var(--muted); font-style: italic; }
@@ -227,8 +226,13 @@
 <script>
   const params = new URLSearchParams(window.location.search);
   const keys = Object.keys(window.VOCAB_DATA);
-  const topicKey = params.get('topic') || keys[0];
-  const data = window.VOCAB_DATA[topicKey] || window.VOCAB_DATA[keys[0]];
+  // Unknown or missing ?topic= falls back to the first topic, keeping key and data in sync.
+  const requested = params.get('topic');
+  const topicKey = Object.prototype.hasOwnProperty.call(window.VOCAB_DATA, requested) ? requested : keys[0];
+  const data = window.VOCAB_DATA[topicKey];
+
+  // Escape text before inserting it with innerHTML.
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
   document.title = `${data.title} — Korean Vocabulary`;
   document.getElementById('topic-number').textContent = topicKey;
@@ -335,13 +339,12 @@
         div.dataset.id = statusId(item);
         div.innerHTML = `
           <div class="entry-top">
-            <span class="entry-word">${item.w}</span>
-            <span class="entry-pos mono">${item.p}</span>
-            <span class="entry-ipa">${item.ipa}</span>
+            <span class="entry-word">${esc(item.w)}</span>
+            <span class="entry-pos mono">${esc(item.p)}</span>
           </div>
-          <div class="entry-def">${item.def}</div>
-          ${item.tr ? `<div class="entry-tr">${item.tr}</div>` : ''}
-          <div class="entry-ex">${exampleFor(item)}</div>
+          <div class="entry-def">${esc(item.def)}</div>
+          ${item.tr ? `<div class="entry-tr">${esc(item.tr)}</div>` : ''}
+          <div class="entry-ex">${esc(exampleFor(item))}</div>
           <div class="entry-actions">
             <div class="status-group" role="group" aria-label="Learning status">
               ${STATUSES.map(s => `<button type="button" class="pill status-btn" data-status="${s.key}">${s.label}</button>`).join('')}
@@ -356,7 +359,9 @@
   }
 
   searchEl.addEventListener('input', e => render(e.target.value));
-  render('');
+  // ?q=word (from the home-page search) pre-fills the search box
+  searchEl.value = params.get('q') || '';
+  render(searchEl.value);
 
   // Topic switcher
   const navEl = document.getElementById('topic-nav');
