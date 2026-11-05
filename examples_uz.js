@@ -1,5 +1,6 @@
-// Uzbek translations of the CEFR example sentences for TOPIK I topics (0001–0056),
-// keyed by topic -> word -> [A1, A2, B1, B2, C1, C2]. Shown on topic.html and in the random-word card
+// Uzbek translations of the CEFR example sentences,
+// keyed by topic -> word -> [A1, A2, B1, B2, C1, C2]. TOPIK I topics (0001–0056) have all six levels;
+// TOPIK II topics (0057–0145) have A1, A2, B1, B2 only so far. Shown on topic.html and in the random-word card
 // when the matching level is selected.
 window.VOCAB_EXAMPLES_UZ = {
   "0001": {
@@ -13480,6 +13481,16156 @@ window.VOCAB_EXAMPLES_UZ = {
       "Qiyin vaziyatga duch kelganimda oilam va do'stlarimning qo'llab-quvvatlashi menga katta kuch bag'ishladi va ishni oxirigacha yetkaza oldim.",
       "Haqiqiy kuch boshqalarni ezishda emas, balki zaiflarga yordam berish va o'zini boshqara bilishdadir.",
       "Qanchalik kichik kuch bo'lmasin, ko'pchilik birlashsa dunyoni o'zgartiruvchi ulkan kuchga aylanishini tarix qayta-qayta ko'rsatib kelmoqda."
+    ]
+  },
+  "0057": {
+    "가계부": [
+      "Men xarajatlar daftarini yuritaman.",
+      "Har kuni kechqurun xarajatlar daftariga pulni yozib boraman.",
+      "Bu oy xarajatlar daftariga qarasam, oziq-ovqatga juda ko'p pul ketibdi.",
+      "Xarajatlar daftarini muntazam yuritib borsangiz, ortiqcha xarajatlarni kamaytirishda katta yordam beradi."
+    ],
+    "가구점": [
+      "Mebel do'koniga boraman.",
+      "Dam olish kuni mebel do'konidan yangi stul sotib oldim.",
+      "Yangi ko'chib kelgan uyimga mos divan topish uchun uchta mebel do'konini aylanib chiqdim.",
+      "U mebel do'koni sifati yuqori bo'lgan yog'och mahsulotlarni maqbul narxda sotishi bilan mashhur."
+    ],
+    "가까이": [
+      "Bu tomonga yaqinroq keling.",
+      "Bizning uyimiz maktab yaqinida joylashgan.",
+      "Hayvonot bog'ida jirafani yaqindan ko'rsam, rostdan ham juda katta ekan.",
+      "Yaqin munosabatda bo'lgan do'stim uzoqqa ko'chib ketadigan bo'lgani uchun juda xafa bo'ldim."
+    ],
+    "가꾸다": [
+      "Buvim gul parvarish qiladi.",
+      "Men balkonda kichkina sabzavot bog'ini parvarish qilaman.",
+      "Otam har dam olish kuni hovlidagi daraxtlarni astoydil parvarish qiladilar.",
+      "O'z tashqi ko'rinishingizni parvarish qilish ham muhim, lekin menimcha, ichki dunyoni boyitish bundan ham zarurroq."
+    ],
+    "가난": [
+      "Qashshoqlik og'ir.",
+      "U odam qashshoqlik tufayli maktabga bora olmadi.",
+      "Bolaligimda kambag'al edik, lekin oilamiz birga bo'lgani uchun baxtli edim.",
+      "U qattiq qashshoqlikni yengib, muvaffaqiyatli tadbirkorga aylandi."
+    ],
+    "가늘다": [
+      "Bu ip ingichka.",
+      "U modelning oyoqlari ingichka.",
+      "Ingichka ruchka bilan yozsangiz, yozuv chiroyliroq ko'rinadi.",
+      "Yomg'ir tomchilari asta-sekin maydalashib, birdan bulutlar orasidan quyosh nuri tushdi."
+    ],
+    "가능": [
+      "Bugun mumkinmi?",
+      "Hozir band qilish mumkin.",
+      "Suratga olish mumkin, lekin videoga olish mumkin emas.",
+      "Bu mahsulotni onlayn buyurtma qilsangiz, o'sha kuniyoq yetkazib berish ham mumkin."
+    ],
+    "가능성": [
+      "Yomg'ir yog'ish ehtimoli bor.",
+      "Menimcha, o'sha jamoaning g'alaba qozonish ehtimoli yuqori.",
+      "Baxtsiz hodisa yana sodir bo'lish ehtimoli deyarli yo'q, deb eshitdim.",
+      "Bu tadqiqot yangi energiya manbasini ishlab chiqish imkoniyatini ko'rsatib berdi."
+    ],
+    "가능하다": [
+      "Ertaga uchrashish mumkinmi?",
+      "Hozir telefonda gaplasha olasizmi?",
+      "Bu usul mumkinmi yoki yo'qmi, bir tekshirib ko'raman.",
+      "A'zo bo'lib ro'yxatdan o'tsangiz, undan bepul foydalanish mumkin."
+    ],
+    "가득": [
+      "Stakanda suv to'la.",
+      "Sumka kitoblarga to'la.",
+      "Bozor yangi meva sotib olmoqchi bo'lgan odamlarga liq to'la edi.",
+      "Uning maktubi oilasiga bo'lgan mehr-muhabbatga to'la edi."
+    ],
+    "가라앉다": [
+      "Kema cho'kyapti.",
+      "Tosh suv tagiga cho'kib ketdi.",
+      "Dori ichganimdan keyin isitmam biroz pasaydi.",
+      "Uzoq yig'lab olganimdan keyin hayajonlangan ko'nglim asta-sekin tinchidi."
+    ],
+    "가렵다": [
+      "Orqam qichiyapti.",
+      "Chivin chaqib, qo'lim qichiyapti.",
+      "Terim quruq bo'lgani uchun qish kelishi bilan butun badanim qichiydi.",
+      "Allergiya tufayli ko'zlarim qichib, burnimdan tinmay suv oqqani uchun shifoxonaga bordim."
+    ],
+    "가루비누": [
+      "Kir yuvish kukuni bilan kir yuvaman.",
+      "Kir yuvish kukuni butunlay tugab qoldi.",
+      "Supermarketda chegirmadagi kir yuvish kukunidan ikkita sotib oldim.",
+      "Kir yuvish kukuni sovuq suvda yaxshi erimaydi, shuning uchun uni oldindan eritib, keyin ishlatgan ma'qul."
+    ],
+    "가리다": [
+      "Qo'lim bilan yuzimni to'saman.",
+      "Ukam ovqat tanlab yeydi.",
+      "Oldimdagi odamning bo'yi baland bo'lgani uchun sahnani to'sib qo'ydi, yaxshi ko'rinmadi.",
+      "Bu voqeada kim aybdor ekanini, kim haq-u kim nohaq ekanini ajratish oson emas."
+    ],
+    "가리키다": [
+      "Barmog'im bilan doskani ko'rsataman.",
+      "O'qituvchi xaritada Seulni ko'rsatdi.",
+      "U kishi ko'rsatgan tomonga borsangiz, metro bekati chiqadi, deb aytdi.",
+      "Soat millari o'n ikkini ko'rsatishi bilan odamlar Yangi yilni olqishlar bilan kutib olishdi."
+    ],
+    "가만히": [
+      "Jim o'tiribman.",
+      "Chaqaloq jimgina uxlayapti.",
+      "O'qituvchining gapini jim tinglab o'tirsangiz, tushunasiz.",
+      "Hech narsa qilmay jim o'tirgandan ko'ra, kichik bo'lsa ham biror ishni boshlab ko'ring."
+    ],
+    "가뭄": [
+      "Bu yil qurg'oqchilik kuchli.",
+      "Qurg'oqchilik tufayli dehqonlar xavotirda.",
+      "Uzoq vaqt yomg'ir yog'magani uchun qurg'oqchilik bo'ldi.",
+      "Davom etayotgan qurg'oqchilik sababli suv omboridagi suv tubigacha qurib, ekinlarga yetayotgan zarar ortib bormoqda."
+    ],
+    "가사": [
+      "Men uy ishlariga yordam beraman.",
+      "Uy ishlarini erim bilan bo'lishib qilamiz.",
+      "Ovqat pishirish va tozalash kabi uy ishlari og'ir mehnat.",
+      "Er-xotin ikkalasi ham ishlaydigan oilalar ko'payishi bilan uy ishlarini taqsimlash madaniyati asta-sekin qaror topmoqda."
+    ],
+    "가상": [
+      "Virtual dunyoda o'ynayman.",
+      "Bu o'yinda virtual shahar quriladi.",
+      "Virtual reallik ko'zoynagini taqsangiz, xuddi dengiz tubida turgandek bo'lasiz.",
+      "Bu mashg'ulot zilzila sodir bo'lgan degan taxminiy vaziyat asosida o'tkazildi."
+    ],
+    "가스": [
+      "Uyda gaz bor.",
+      "Gaz olovini albatta o'chiring.",
+      "Gaz uchun to'lov o'tgan oydagidan ancha ko'p keldi.",
+      "Gaz sizib chiqayotgani hidi kelsa, darhol derazalarni ochib, xabar berish kerak."
+    ],
+    "가습기": [
+      "Namlagichni yoqaman.",
+      "Xona quruq bo'lgani uchun namlagich sotib oldim.",
+      "Qishda namlagichni yoqib qo'yib uxlash yaxshi.",
+      "Namlagichning suv idishida bakteriyalar oson paydo bo'ladi, shuning uchun uni har kuni toza yuvib turish kerak."
+    ],
+    "가입": [
+      "A'zo bo'lib ro'yxatdan o'tdim.",
+      "Bu to'garakka a'zo bo'lmoqchiman.",
+      "Sug'urtaga a'zo bo'lish uchun avval shaxsni tasdiqlovchi hujjat kerak.",
+      "Bepul a'zolik uchun ro'yxatdan o'tganingizdan so'ng turli imtiyozlarga ega bo'lishingiz mumkin."
+    ],
+    "가전제품": [
+      "Maishiy texnika sotib olaman.",
+      "Bu maishiy texnika juda qimmat.",
+      "Ko'chib o'tayotganda eski maishiy texnikaning hammasini yangisiga almashtirdim.",
+      "Maishiy texnika xarid qilingandan keyin bir yil davomida bepul ta'mirlanishi mumkin."
+    ],
+    "가정": [
+      "Bizning oilamiz baxtli.",
+      "Ovqat pishirishni uyda o'rgandim.",
+      "Ahil oilada o'sgan bolaning qalbi iliq bo'ladi.",
+      "Men ish va oilani birdek qadrlayman va ular o'rtasida muvozanat saqlashga harakat qilaman."
+    ],
+    "가족적": [
+      "Bizning kompaniyamiz oilaviy muhitga ega.",
+      "Oilaviy muhit menga yoqadi.",
+      "Bu oshxonada oilaviy muhit bo'lgani uchun bemalol ovqatlansa bo'ladi.",
+      "Rahbarimiz xodimlarga o'z oila a'zolaridek muomala qilgani uchun kompaniyadagi muhit juda oilaviy."
+    ],
+    "가축": [
+      "Fermada uy hayvonlari ko'p.",
+      "Sigir va cho'chqa uy hayvonlaridir.",
+      "Bobom qishloqda chorva boqib yashaydilar.",
+      "Yuqumli kasallik tarqalgani sababli afsuski, ko'plab chorva mollari nobud bo'ldi."
+    ],
+    "가치": [
+      "Bu rasm qimmatli.",
+      "Sog'liq puldan qimmatliroq.",
+      "Bu kitob bir marta o'qib ko'rishga arziydi.",
+      "Har bir inson hayotda muhim deb biladigan qadriyatlar bir-biridan farq qilishi mumkin."
+    ],
+    "각각": [
+      "Biz har birimiz har xilmiz.",
+      "Olma va nokdan bittadan bering.",
+      "Do'stim ikkalamiz har birimiz boshqa-boshqa universitetda o'qiymiz.",
+      "Ikkala jamoa ham chempionlikni maqsad qilib, har biri astoydil mashq qilmoqda."
+    ],
+    "각자": [
+      "Har kim o'z sumkasini ko'taradi.",
+      "Tushlik pulini har kim o'zi to'laydi.",
+      "Biz har birimiz o'zimizga topshirilgan ishni astoydil bajardik.",
+      "Yig'ilish tugagach, har biringiz o'z joyingizga qaytib, ishni boshlashingizni so'raymiz."
+    ],
+    "각종": [
+      "Do'konda turli mevalar bor.",
+      "Har xil hujjatlar kerak.",
+      "Bu bozorda har xil baliqni arzon sotib olish mumkin.",
+      "Shahar hokimiyati turli ma'lumotnomalarni internet orqali olish mumkin bo'lishi uchun xizmatni takomillashtirdi."
+    ]
+  },
+  "0058": {
+    "간격": [
+      "Stullar orasidagi masofa keng.",
+      "Avtobus o'n daqiqa oraliq bilan keladi.",
+      "Navbatda turganda oldingizdagi odam bilan masofa saqlang.",
+      "Daraxt ekayotganda ular orasida ma'lum masofa qoldirilsagina ildizlari yaxshi rivojlanadi."
+    ],
+    "간절히": [
+      "Astoydil duo qilaman.",
+      "Imtihondan o'tishni astoydil istayman.",
+      "U oilasini ko'rishni juda xohlayotganini astoydil aytdi.",
+      "Uzoq vaqtdan beri intiqlik bilan kutgan xabarim nihoyat bugun ertalab keldi."
+    ],
+    "간접적": [
+      "Bu bilvosita usul.",
+      "U bilvosita gapirdi.",
+      "To'g'ridan-to'g'ri aytish qiyin bo'lgani uchun do'stim orqali bilvosita yetkazdim.",
+      "Bu siyosat iste'molchilarga bilvosita ta'sir ko'rsatishi mumkin, shuning uchun uni sinchkovlik bilan ko'rib chiqish zarur."
+    ],
+    "간판": [
+      "Peshtaxta katta.",
+      "Restoranning peshlavhasi ko'rinyapti.",
+      "Kechasi do'konning reklama lavhasida chiroq yonib turgani uchun yaxshi ko'zga tashlanadi.",
+      "Ko'chadagi peshlavhalar shu qadar ko'pki, qaysi biri qanday do'kon ekanini topish qiyin."
+    ],
+    "간호": [
+      "Onamni parvarish qilaman.",
+      "Men hamshiralik kollejida o'qiyman.",
+      "Ukam kasal bo'lgani uchun tun bo'yi unga qarab chiqdim.",
+      "U kasal otasini mehr bilan parvarish qilish uchun ishidan vaqtincha ta'til olishga qaror qildi."
+    ],
+    "갈다": [
+      "Pichoqni charxlayman.",
+      "Lampochkani yangisiga almashtiraman.",
+      "Kofe donlarini yanchib, xushbo'y kofe tayyorladim.",
+      "Ko'chib o'tishdan oldin eskirgan gulqog'ozlarni yangisiga almashtirishga qaror qildik."
+    ],
+    "갈등": [
+      "Do'stim bilan nizo bor.",
+      "Oila a'zolari o'rtasida nizo kelib chiqdi.",
+      "Ish va o'qish o'rtasida ko'p ikkilanaman.",
+      "Fikrlar farqidan boshlangan nizo chuqurlashib, ikkovi bir muddat bir-biri bilan gaplashmay ham qo'yishdi."
+    ],
+    "갈수록": [
+      "Havo borgan sari sovuqlashyapti.",
+      "Koreys tili borgan sari qiziqarli bo'lyapti.",
+      "Narxlar borgan sari oshib, yashash qiyinlashyapti.",
+      "Shahardagi transport muammosi borgan sari jiddiylashib, choralar ko'rish zudlik bilan talab etilmoqda."
+    ],
+    "갈아입다": [
+      "Kiyimimni almashtiraman.",
+      "Uyga kelib, qulay kiyimga almashtirdim.",
+      "Yomg'irda qolib ho'l bo'lgan kiyimimni almashtirishim kerak.",
+      "Mashg'ulotni tugatgach, dush qabul qilib, toza kiyimlarimni kiyib oldim."
+    ],
+    "감각": [
+      "Mening didim yaxshi.",
+      "Qo'lim sovqotib, hech narsani sezmayapti.",
+      "O'sha dizaynerning ranglarni his qilish qobiliyati juda zo'r.",
+      "Uzoq vaqt o'tirganim uchun oyoqlarim uvishib qolib, o'rnimdan turish qiyin bo'ldi."
+    ],
+    "감기다": [
+      "Ip tanamga o'ralyapti.",
+      "Uyqum kelib, ko'zlarim yumilib ketyapti.",
+      "Sochim taroqqa o'ralib qolib, osonlikcha chiqmayapti.",
+      "Tun bo'yi uxlamaganim uchun ko'zlarim yumilib ketaverib, darsga diqqatimni jamlay olmadim."
+    ],
+    "감독": [
+      "U rejissyor mashhur.",
+      "Futbol murabbiyi o'yinchilarni chaqiryapti.",
+      "Men bu kino rejissyori suratga olgan barcha filmlarni ko'rganman.",
+      "Murabbiy o'yin oldidan sportchilarga xotirjam bo'lishni tayinladi."
+    ],
+    "감동적": [
+      "U film ta'sirli.",
+      "Ta'sirli qo'shiq tingladim.",
+      "Do'stimning maktubi shu qadar ta'sirli ediki, ko'zimga yosh keldi.",
+      "Sportchilarning oxirigacha taslim bo'lmagani barcha tomoshabinlar uchun ta'sirli manzara bo'ldi."
+    ],
+    "감상": [
+      "Men musiqa tinglashni yaxshi ko'raman.",
+      "San'at galereyasida rasmlarni tomosha qilib zavqlandim.",
+      "Filmni tomosha qilgandan keyin do'stim bilan taassurotlarimizni gaplashdik.",
+      "Bu dam olish kunlari klassik musiqa konsertini tomosha qilish uchun San'at markaziga bormoqchiman."
+    ],
+    "감소": [
+      "Aholi soni kamaymoqda.",
+      "Bu oy savdo hajmi kamaydi.",
+      "Tug'ilish darajasining kamayishi tufayli o'quvchilar soni ham keskin kamaydi.",
+      "Atrof-muhit ifloslanishini kamaytirish borasidagi sa'y-harakatlar natijasida chiqindilar hajmi yildan yilga kamaymoqda."
+    ],
+    "감정": [
+      "His-tuyg'ularim murakkab.",
+      "Men his-tuyg'ularimni yashirmayman.",
+      "Jahl chiqqanda his-tuyg'ularni boshqarish qiyin.",
+      "U qayg'uli his-tuyg'ularini bosib, xotirjamlik bilan xayrlashdi."
+    ],
+    "감탄": [
+      "Men rasmni ko'rib qoyil qoldim.",
+      "Odamlar qoyil qolib, qarsak chalishdi.",
+      "Go'zal tungi manzarani ko'rib, hamma qoyil qoldi.",
+      "Uning ajoyib ijro mahoratidan tinglovchilar beixtiyor hayratga tushmay qolmadi."
+    ],
+    "강물": [
+      "Daryo suvi tiniq.",
+      "Daryo suvi sekin oqyapti.",
+      "Ko'p yomg'ir yoqqani uchun daryo suvi ko'tarildi.",
+      "Biz daryo suvida aks etgan shafaqni tomosha qilib, uzoq suhbatlashdik."
+    ],
+    "강변": [
+      "Daryo bo'yida yuraman.",
+      "Daryo bo'yida o'rindiqlar bor.",
+      "Dam olish kuni daryo bo'yida velosiped uchib, tovuq go'shti yedik.",
+      "Bu shaharning daryo bo'yida sayr yo'laklari va bog'lar yaxshi tashkil etilgani uchun u shahar aholisining sevimli dam olish maskaniga aylangan."
+    ],
+    "강사": [
+      "Bizning o'qituvchimiz mehribon.",
+      "Men koreys tili o'qituvchisiman.",
+      "Bu o'quv markazining ingliz tili o'qituvchisi darsni juda qiziqarli o'tadi.",
+      "Bugungi maxsus ma'ruzaga ma'ruzachi sifatida taklif qilingan professor tez orada yetib kelishi kutilmoqda."
+    ],
+    "강수량": [
+      "Yog'ingarchilik miqdori ko'p.",
+      "Bu yil yog'ingarchilik miqdori kam bo'ldi.",
+      "Yozda yog'ingarchilik ko'p bo'lgani uchun tez-tez soyabon ishlataman.",
+      "Gidrometeorologiya markazi bu dam olish kunlari mamlakat bo'ylab kutilayotgan yog'ingarchilik miqdori ellik millimetrga yetishini e'lon qildi."
+    ],
+    "강연": [
+      "Bugun ma'ruza bor.",
+      "Men mashhur yozuvchining ma'ruzasini tingladim.",
+      "Ma'ruza tugagandan keyin savol-javob vaqti bo'ldi.",
+      "Bu universitet har oy turli sohalardan mutaxassislarni taklif qilib, ochiq ma'ruzalar tashkil etadi."
+    ],
+    "강우량": [
+      "Bugun yomg'ir ko'p yog'di.",
+      "O'tgan oydagi yomg'ir miqdorini tekshirdim.",
+      "Yomg'irlar mavsumida yog'in miqdori birdan ko'payib ketadi, shuning uchun xavfli.",
+      "Bu hududda bir kunlik yomg'ir miqdori yuz millimetrdan oshib, suv bosishi natijasida zarar yetdi."
+    ],
+    "강의": [
+      "Bugun dars bor.",
+      "Men koreys tili darslariga qatnashaman.",
+      "Professorning ma'ruzasi qiziqarli bo'lgani uchun uyqum kelmadi.",
+      "Bu fan bo'yicha ma'ruzalarni onlayn ham tinglash mumkin, shuning uchun vaqtni erkin tanlasa bo'ladi."
+    ],
+    "강의실": [
+      "Auditoriya katta.",
+      "Auditoriyada talabalar ko'p.",
+      "Men ertalab soat to'qqizgacha auditoriyaga borishim kerak.",
+      "Dars tugaganidan keyin ham auditoriyada qolib, takrorlash bilan shug'ullanadigan talabalar oz emas."
+    ],
+    "강조": [
+      "O'qituvchi ta'kidlaydi.",
+      "Bu qismni alohida ta'kidlash kerak.",
+      "O'qituvchi bu imtihonda chiqishini bir necha marta ta'kidladilar.",
+      "Suhbatda mas'uliyatliligimni ta'kidlash uchun aniq misollar keltirdim."
+    ],
+    "강하다": [
+      "Shamol kuchli.",
+      "Qo'llarim juda kuchli.",
+      "Bu kofening ta'mi juda kuchli, shuning uchun ichishga qiynalyapman.",
+      "U sportchining irodasi kuchli bo'lgani uchun qiyin vaziyatda ham oxirigacha taslim bo'lmadi."
+    ],
+    "갖추다": [
+      "Kerakli narsalarni tayyorlayman.",
+      "Bu restoranda barcha qulayliklar mavjud.",
+      "Suhbatga borganda kiyimingizni ozoda va rasmiy qilib kiyib boring.",
+      "Bu kompaniya yangi xodimda bo'lishi kerak bo'lgan asosiy fazilatlarni aniq belgilab bergan."
+    ],
+    "갚다": [
+      "Do'stimga qarzimni qaytaraman.",
+      "Olgan kitobimni ertaga qaytaraman.",
+      "Ko'rsatgan yaxshiligingizni keyinchalik albatta qaytaraman.",
+      "Men kreditni to'lash uchun har dam olish kunlari qo'shimcha ishlayapman."
+    ],
+    "개강": [
+      "Ertaga darslar boshlanadi.",
+      "Darslar boshlangan birinchi kuni do'stim bilan uchrashdim.",
+      "Semestr boshlanishi yaqinlashgani uchun darslar rejasini tuzyapman.",
+      "Bu semestrda darslar ikkinchi martda boshlanadi, shuning uchun undan oldin fanlarga yozilishni yakunlash kerak."
+    ]
+  },
+  "0059": {
+    "개구리": [
+      "Qurbaqa sakrayapti.",
+      "Hovuzda qurbaqalar yashaydi.",
+      "Yomg'irli kechalarda qurbaqalarning ovozi baland eshitiladi.",
+      "Bolalar soy bo'yida qurbaqa tutib, kun bo'yi maza qilib o'ynashdi."
+    ],
+    "개구쟁이": [
+      "O'g'limiz shaltoq bola.",
+      "U bola juda sho'x, doim kulib yuradi.",
+      "Ukam sho'x boladek uy ichida yugurib yuradi.",
+      "Shaltoq bola bo'lgan do'stim qachondir vazmin kattalarga aylanib qarshimda paydo bo'lganida hayron qoldim."
+    ],
+    "개다": [
+      "Havo ochilyapti.",
+      "Yomg'ir to'xtab, osmon ochildi.",
+      "Ertaga bulutlar tarqab, havo ochiladi.",
+      "Ertalab havo bulutli edi, ammo tushdan keyin asta-sekin ochilgani uchun sayrga chiqdim."
+    ],
+    "개막식": [
+      "Ochilish marosimi boshlanyapti.",
+      "Men Olimpiada o'yinlarining ochilish marosimini tomosha qildim.",
+      "Kinofestivalning ochilish marosimiga ko'plab mashhur aktyorlar keldi.",
+      "Ko'rgazmaning ochilish marosimi tushdan keyin soat ikkida katta zalda bo'lib o'tadi, ishtirok etishingizni so'raymiz."
+    ],
+    "개발": [
+      "Yangi o'yin ishlab chiqyapmiz.",
+      "Men ilovalar ishlab chiqish bilan shug'ullanaman.",
+      "Kompaniyamiz yangi kosmetika mahsulotini ishlab chiqyapti.",
+      "Hukumat qoloq hududlarni rivojlantirish maqsadida yangi avtomobil va temir yo'llar qurishga qaror qildi."
+    ],
+    "개방": [
+      "Eshikni ochiq qilamiz.",
+      "Kutubxona fuqarolar uchun ochiq.",
+      "Maktab stadioni dam olish kunlari aholiga ochib qo'yiladi.",
+      "Prezident qarorgohi Cheongwadae oldidagi yo'l oddiy fuqarolar uchun ochilgani sababli ko'pchilik u yerda sayr qilishdan zavqlanmoqda."
+    ],
+    "개방적": [
+      "U odam ochiq fikrli.",
+      "Ota-onam ochiq fikrli insonlar.",
+      "Men boshqa madaniyatlarga nisbatan ochiq munosabatdaman.",
+      "Ochiq fikrlaydigan odam yangi g'oyalarni oson qabul qiladi."
+    ],
+    "개선": [
+      "Xizmatni yaxshilaymiz.",
+      "Atrof-muhitni yaxshilash kerak.",
+      "Oshxona gigiyena holatini yaxshilagani uchun mijozlar ko'paydi.",
+      "Kompaniya xodimlarning ish sharoitini yaxshilash uchun yangi tizimni joriy etdi."
+    ],
+    "개성": [
+      "U do'stimning o'ziga xosligi kuchli.",
+      "Kiyimidan o'ziga xosligi ko'rinib turibdi.",
+      "Men o'zimning o'ziga xosligimni namoyon etadigan kiyimlar kiymoqchiman.",
+      "Bu do'kon egasining o'ziga xosligini namoyon etadigan bezak buyumlari bilan to'ldirilgan."
+    ],
+    "개성적": [
+      "O'ziga xos kiyim kiyaman.",
+      "U qo'shiqchining ovozi o'ziga xos.",
+      "Bu kafening interyeri juda o'ziga xos.",
+      "U o'zining betakror uslubi bilan moda sohasida e'tibor qozonmoqda."
+    ],
+    "개인적": [
+      "Bu shaxsiy ish.",
+      "Shaxsan men bu qo'shiqni yoqtiraman.",
+      "Shaxsiy savol berganim uchun uzr.",
+      "Bu shunchaki mening shaxsiy fikrim, shuning uchun uni faqat inobatga olishingizni so'rayman."
+    ],
+    "개최": [
+      "Olimpiadani o'tkazamiz.",
+      "Kelasi oy festival o'tkazamiz.",
+      "Maktabimiz har yili kuzda sport musobaqasi o'tkazadi.",
+      "Shahar hokimiyati xorijlik sayyohlar uchun madaniy tadbir o'tkazishni rejalashtirayotganini ma'lum qildi."
+    ],
+    "객관적": [
+      "Men xolis gapiraman.",
+      "Bu ma'lumotlar xolis.",
+      "Do'stingizning ishiga xolis qarasangiz, vaziyatni yaxshiroq tushunasiz.",
+      "Jurnalist voqeani xolis nuqtai nazardan, faktlarga asoslanib yoritishi kerak."
+    ],
+    "객실": [
+      "Mehmonxona xonasi toza.",
+      "Mehmonxona xonasi keng.",
+      "Men dengiz ko'rinadigan mehmonxona xonasini band qildim.",
+      "Bu mehmonxonaning har bir xonasida kichik balkon borligi uchun manzaradan zavqlanish mumkin."
+    ],
+    "갸름하다": [
+      "Yuzi cho'ziq va nozik.",
+      "U qizning yuzi cho'ziqroq va chiroyli.",
+      "Opamning iyagi nozik va cho'ziq bo'lgani uchun unga har qanday soch turmagi yarashadi.",
+      "Aytishlaricha, cho'ziqroq, nozik yuzli odamlarga qisqa sochdan ko'ra uzun soch ko'proq yarashar ekan."
+    ],
+    "걔": [
+      "U mening do'stim.",
+      "U qayerga ketdi?",
+      "U bola yaxshi qo'shiq aytgani uchun juda mashhur.",
+      "Kecha uchrashgan o'sha bola bugun ertalab birdan qo'ng'iroq qilgani uchun hayron qoldim."
+    ],
+    "거래": [
+      "O'sha kompaniya bilan savdo qilamiz.",
+      "Bankda operatsiya amalga oshirdim.",
+      "Ishlatilgan buyumni shaxsan uchrashib savdo qildik.",
+      "Bu do'kon uzoq yillardan beri hamkorlik qilib kelayotgan dehqon xo'jaliklaridan yangi sabzavotlar olib turadi."
+    ],
+    "거미": [
+      "O'rgimchak bor.",
+      "O'rgimchak to'r to'qiyapti.",
+      "Devorda o'rgimchak borligini ko'rib cho'chib ketdim.",
+      "Ertalabki shudring tomchilari qo'ngan o'rgimchak to'rini ko'rganda o'rgimchakning nozik mahoratiga qoyil qolasan kishi."
+    ],
+    "거북이": [
+      "Toshbaqa sekin.",
+      "Toshbaqa suvda yashaydi.",
+      "Hayvonot bog'ida katta toshbaqani ko'rdim.",
+      "Quyon va toshbaqa haqidagi ertakdan sabr-qanoat va izchillik naqadar muhim ekanini o'rganish mumkin."
+    ],
+    "거스름돈": [
+      "Qaytimni bering.",
+      "Qaytim to'g'rimi?",
+      "Taksi haydovchisi qaytimni ming von kam berdi.",
+      "Xarid uchun to'lov qilgandan keyin qaytim pulni va chekni albatta tekshirib oling."
+    ],
+    "거절": [
+      "Men rad etdim.",
+      "Uning iltimosini rad etish qiyin bo'ldi.",
+      "Do'stimning taklifini rad etganim uchun ko'nglim g'ash bo'ldi.",
+      "Suhbatdan o'tmagani haqida xabar olganidan keyin ham u rad javobining alamini yengib, yana urinib ko'rdi."
+    ],
+    "거짓": [
+      "Bu yolg'on.",
+      "Yolg'on gapirish mumkin emas.",
+      "Bolaning yolg'on gapirganini ota-onasi bilib qolishdi.",
+      "U hech qanday yolg'onsiz, samimiy tarzda barcha xatolarini tan olib, kechirim so'radi."
+    ],
+    "거치다": [
+      "Seul orqali o'tib boraman.",
+      "Tekshiruvdan o'tib, qabul qilindim.",
+      "Biz bir necha marta yig'ilish o'tkazib, qaror qabul qildik.",
+      "Bu hujjat mas'ul bo'limning tekshiruv jarayonidan o'tganidan keyin yakuniy tasdiqdan o'tishi kerak."
+    ],
+    "거품": [
+      "Sovun ko'pigi ko'p.",
+      "Pivoda ko'pik bor.",
+      "Shampun bilan yuvganda juda ko'p ko'pik chiqadi.",
+      "Ko'chmas mulk narxlarida pufak paydo bo'lganidan xavotir kuchayishi bilan hukumat choralarni e'lon qildi."
+    ],
+    "걱정거리": [
+      "Mening tashvishlarim ko'p.",
+      "Hech qanday tashvishim bo'lmasa edi.",
+      "Shu kunlarda imtihon sababli bitta tashvishim paydo bo'ldi.",
+      "Uning uchun bolalarning ta'lim masalasi eng katta tashvishga aylangan."
+    ],
+    "건강식": [
+      "Men sog'lom ovqat yeyman.",
+      "Sog'lom ovqat tanaga foydali.",
+      "Hozir ozish uchun sog'lom ovqatlar bilan ovqatlanyapman.",
+      "Buvim asosan sabzavot va turli donlardan iborat sog'lom ovqatlar yeb, doimo tetik yuradilar."
+    ],
+    "건강식품": [
+      "Sog'lomlashtiruvchi oziq-ovqat sotib olaman.",
+      "Ota-onamga sog'lomlashtiruvchi mahsulotlar sovg'a qildim.",
+      "Men har kuni vitamin kabi bioqo'shimchalarni ichaman.",
+      "Faqat reklamaga ishonib bioqo'shimcha sotib olgandan ko'ra, uning tarkibi va foydasini sinchiklab tekshirgan ma'qul."
+    ],
+    "건너": [
+      "Daryoning narigi tomonida uy bor.",
+      "Ko'chaning narigi tomonida bank bor.",
+      "Dengizning narigi tomonidagi uzoq mamlakatdan do'stim keldi.",
+      "Bizning uyimiz anavi ko'prikdan o'tib, o'ngga burilsangiz, darhol ko'rinadi."
+    ],
+    "건네다": [
+      "Do'stimga kitob uzataman.",
+      "U salom berdi.",
+      "Notanish odamga birinchi bo'lib gap qotish men uchun qiyin.",
+      "U ketayotgan do'stiga kichik sovg'a bilan birga iliq tasalli so'zlarini aytdi."
+    ],
+    "건더기": [
+      "Sho'rvada quyuq qismi ko'p.",
+      "Men sho'rvaning quyuq qismini yaxshi ko'raman.",
+      "Faqat sho'rvasini ichib, quyuq qismini qoldirdim.",
+      "Sho'rvaning go'sht-sabzavotlarini avval olib yeb, qolgan suyug'iga guruch solib yedim."
+    ]
+  },
+  "0060": {
+    "건망증": [
+      "Menda unutuvchanlik bor.",
+      "Unutuvchanligim tufayli kalitlarni yo'qotib qo'ydim.",
+      "Shu kunlarda unutuvchanligim kuchayib, uchrashuvlarni tez-tez unutib qo'yaman.",
+      "Yosh o'tgan sari unutuvchanligim kuchayib borgani uchun muhim ishlarni doim daftarchaga yozib qo'yaman."
+    ],
+    "건설": [
+      "Yangi ko'prik qurayapmiz.",
+      "Ko'p qavatli uylar qurilyapti.",
+      "Otam qurilish kompaniyasida ishlaydilar.",
+      "Hukumat yangi shahar qurilishi rejasini e'lon qilib, u bilan birga transport tarmog'ini ham kengaytirishga qaror qildi."
+    ],
+    "건전지": [
+      "Batareyka yo'q.",
+      "Pultning batareykasini almashtirdim.",
+      "Soat to'xtab qolgani uchun yangi batareyka qo'ydim.",
+      "Bu o'yinchoq ikkita batareyka solingandagina ishlaydi, shuning uchun ularni alohida sotib olishingiz kerak."
+    ],
+    "건조": [
+      "Havo quruq.",
+      "Kirlarni quritaman.",
+      "Qishda terim quruqlashgani uchun loson surtaman.",
+      "Bu hududning iqlimi quruq bo'lgani uchun o'rmon yong'inlari chiqish xavfi juda yuqori."
+    ],
+    "건축": [
+      "Men arxitekturani o'rganaman.",
+      "Bu bino juda chiroyli.",
+      "Koreyaning an'anaviy me'morchiligida cherepitsa tomlar ko'p uchraydi.",
+      "U bino zamonaviy va an'anaviy me'morchilik xususiyatlarini uyg'un birlashtirgan holda loyihalangan."
+    ],
+    "건축가": [
+      "Akam me'mor.",
+      "Me'mor uy loyihasini chizyapti.",
+      "Men katta bo'lganimda me'mor bo'lmoqchiman.",
+      "Mashhur me'mor loyihalagan bu kutubxona o'zining betakror tashqi ko'rinishi bilan ko'plab sayyohlarni o'ziga jalb qilmoqda."
+    ],
+    "걸레": [
+      "Latta bilan artaman.",
+      "Latta iflos.",
+      "Polni latta bilan toza qilib artdim.",
+      "Kirlangan lattani ishlatgandan keyin albatta toza yuvib, quyoshda quritish kerak."
+    ],
+    "걸레질": [
+      "Polni latta bilan artaman.",
+      "Dam olish kuni polni latta bilan artdim.",
+      "Changyutgichdan keyin polni latta bilan artsangiz, yanada toza bo'ladi.",
+      "Onam har kuni ertalab polni yaltiratib artishdan kunini boshlaydilar."
+    ],
+    "걸음": [
+      "Qadami tez.",
+      "Yana bir qadam oldinga yuring.",
+      "Bolaning qadami sekin bo'lgani uchun asta-sekin yurdik.",
+      "U og'ir ko'ngil bilan uy tomon qadam-baqadam yurdi."
+    ],
+    "검다": [
+      "Sochi qora.",
+      "Qora mushuk bor.",
+      "Osmonda qora bulutlar ko'p, yomg'ir yog'adiganga o'xshaydi.",
+      "U qora kostyum kiyib dafn marosimiga qatnashdi va marhumni jimgina xotirladi."
+    ],
+    "검사": [
+      "Tibbiy ko'rikdan o'taman.",
+      "Bugun shifoxonada tekshiruvdan o'tdim.",
+      "Aeroportda sumka tekshiruvidan o'tib, samolyotga chiqdik.",
+      "Batafsil tekshiruv natijalari bir haftadan keyin chiqadi, o'shanda shifoxonaga yana keling."
+    ],
+    "검색": [
+      "Internetdan qidiraman.",
+      "Bilmagan so'zimni internetdan qidirdim.",
+      "Yo'lni bilmaganimda telefonda xaritadan qidiraman.",
+      "Qidiruv natijalari juda ko'p bo'lgani uchun kerakli ma'lumotni topgunimcha ancha vaqt ketdi."
+    ],
+    "검색어": [
+      "Qidiruv so'zini kiritaman.",
+      "Eng ko'p qidirilgan so'zlar qaysilar?",
+      "Qidiruv so'zini o'zgartirib, qaytadan qidirib ko'rdim.",
+      "Bugun real vaqtdagi qidiruv so'zlari reytingida yangi chiqqan film nomi paydo bo'ldi."
+    ],
+    "겁": [
+      "Men qo'rqyapman.",
+      "Bola qo'rqib ketdi.",
+      "Qorong'i yo'lda yolg'iz yurganim uchun qo'rqib ketdim.",
+      "U avvaliga qo'rqdi, lekin jasorat to'plab sahnaga chiqdi va ajoyib qo'shiq kuyladi."
+    ],
+    "겉": [
+      "Tashqi tomoni chiroyli.",
+      "Ustida chang bor.",
+      "Bu mevaning tashqi tomoni qattiq, lekin ichi yumshoq.",
+      "Menimcha, odamni faqat tashqi ko'rinishiga qarab baholamay, uning ichki dunyosini bilish kerak."
+    ],
+    "겉모습": [
+      "U uyning tashqi ko'rinishi ajoyib.",
+      "Odamning faqat tashqi ko'rinishiga qaramang.",
+      "Tashqi ko'rinishi qo'rqinchli bo'lsa-da, o'sha it juda yuvosh.",
+      "Binoning tashqi ko'rinishi eski bo'lsa-da, ichki qismi zamonaviy jihozlar bilan yangidan ta'mirlangan edi."
+    ],
+    "게다가": [
+      "Yomg'ir yog'yapti. Ustiga-ustak sovuq.",
+      "Bu restoranning taomlari mazali. Ustiga-ustak arzon.",
+      "Bugun mazam yo'q. Buning ustiga ishim ham ko'p.",
+      "Uning fe'l-atvori yaxshi, ishini ham yaxshi bajaradi. Ustiga-ustak ko'rinishi ham kelishgan bo'lgani uchun ko'pchilikka yoqadi."
+    ],
+    "게시판": [
+      "E'lonlar taxtasiga yozuv yozaman.",
+      "Maktabning e'lonlar taxtasini ko'rdim.",
+      "Internet forumiga savol joylagan edim, javob yozishibdi.",
+      "E'lonlar maktabning e'lonlar taxtasiga osib qo'yilgan, ularni albatta ko'rib chiqing."
+    ],
+    "게으르다": [
+      "Men dangasaman.",
+      "Ukam juda dangasa.",
+      "Dam olish kunlari dangasa bo'lib, kun bo'yi yotaman.",
+      "Dangasalik odatimni tuzatish uchun har kuni ertalab barvaqt turib, sport bilan shug'ullana boshladim."
+    ],
+    "게임기": [
+      "O'yin konsoli sotib oldim.",
+      "Bola o'yin konsolini yaxshi ko'radi.",
+      "Tug'ilgan kunimga sovg'a sifatida yangi o'yin konsoli olib, juda xursand bo'ldim.",
+      "Bu o'yin konsolini olib yurish qulay bo'lgani uchun sayohatga ham olib ketsa bo'ladi."
+    ],
+    "겨우": [
+      "Zo'rg'a turdim.",
+      "Bor-yo'g'i bir soat uxladim.",
+      "Avtobusga zo'rg'a ulgurib chiqdim.",
+      "Tun bo'yi o'qib, imtihondan zo'rg'a o'tdim, ammo natijadan qoniqmadim."
+    ],
+    "격려": [
+      "Do'stim dalda beradi.",
+      "O'qituvchimning daldasi uchun minnatdorman.",
+      "Qiyin paytlarda oilamning daldasi tufayli kuch oldim.",
+      "Iliq dalda beruvchi bir og'iz so'z umidsizlikka tushgan odamga katta jasorat bag'ishlashi mumkin."
+    ],
+    "겪다": [
+      "Men qiyinchiliklarni boshdan kechirdim.",
+      "Biz og'ir kunlarni boshdan kechirdik.",
+      "Chet elda birinchi marta yashaganimda madaniy zarbani boshdan kechirdim.",
+      "U bolaligida urushni boshdan kechirib, tinchlik qanchalik qadrli ekanini juda chuqur anglab yetdi."
+    ],
+    "견디다": [
+      "Issiqqa chidayman.",
+      "Men sovuqqa chiday olmayman.",
+      "Og'riqqa chidab, kunni o'tkazdim.",
+      "U og'ir mashg'ulotlarga bardosh berib, nihoyat terma jamoa sportchisiga aylandi."
+    ],
+    "결과적": [
+      "Natijada muvaffaqiyatga erishdim.",
+      "Natijada men xato qilgan ekanman.",
+      "Natijada o'sha tanlov to'g'ri qaror bo'lib chiqdi.",
+      "Avvaliga qarshilik ko'p bo'lgan bo'lsa-da, natijada bu reja kompaniyaga katta foyda keltirdi."
+    ],
+    "결국": [
+      "Oxir-oqibat u keldi.",
+      "Oxir-oqibat biz g'alaba qozondik.",
+      "Uzoq o'ylandim, lekin oxir-oqibat o'sha uyni sotib oldim.",
+      "Doim ortga surib kelgan uy vazifamni oxir-oqibat muddat tugashidan oldin shoshib-pishib bajarib qo'ydim."
+    ],
+    "결론": [
+      "Xulosa chiqdi.",
+      "Bu matnning xulosasi qanday?",
+      "Uzoq muhokamadan so'ng biz xulosaga keldik.",
+      "Taqdimotning oxirida tadqiqot natijalarini umumlashtirib, xulosani qisqacha bayon qilish kerak."
+    ],
+    "결말": [
+      "Filmning yakuni qayg'uli.",
+      "Bu romanning oxiri qanday tugashi qiziq.",
+      "Serialning yakuni juda g'alati bo'lgani uchun hafsalam pir bo'ldi.",
+      "Bu hikoya barcha qahramonlar baxtli bo'ladigan iliq yakuni bilan o'quvchilar mehrini qozondi."
+    ],
+    "결석": [
+      "Ukam darsga kelmadi.",
+      "Men bir marta ham darsni qoldirmaganman.",
+      "Kasal bo'lganim uchun maktabga bormadim.",
+      "Darsga kelmaydigan bo'lsangiz, oldindan o'qituvchiga xabar berib, sababini aytishingiz kerak."
+    ],
+    "결승전": [
+      "Bugun final o'yini bor.",
+      "Final o'yinini tomosha qilgani bordim.",
+      "Jamoamiz finalga chiqqani uchun juda xursandman.",
+      "Final o'yinida ikki jamoa qo'shimcha vaqtgacha cho'zilgan qizg'in kurashdan so'ng penaltilar seriyasida g'olibni aniqladi."
+    ]
+  },
+  "0061": {
+    "결심": [
+      "Men qaror qildim.",
+      "Bu yil sport bilan shug'ullanishga qaror qildim.",
+      "Yangi yilda chekishni tashlashga qat'iy qaror qildim.",
+      "U og'ir sharoitda ham albatta shifokor bo'laman degan qarorini bir lahza ham unutmadi."
+    ],
+    "결코": [
+      "Men hech qachon taslim bo'lmayman.",
+      "U aslo yolg'on gapirmaydi.",
+      "Bu ish aslo oson emas.",
+      "Biz hozirgi bu yaxshilikni hech qachon unutmaymiz."
+    ],
+    "결혼기념일": [
+      "Bugun to'y yilligimiz.",
+      "To'y yilligimizda gul sotib oldim.",
+      "Ota-onamning to'y yilligida oila a'zolari yig'ilib, birga ovqatlandik.",
+      "Erim band bo'lishiga qaramay, to'y yilligimizni unutmay, ajoyib kechki ovqat tayyorlab berdi."
+    ],
+    "결혼식장": [
+      "To'yxona katta.",
+      "To'yxonada odam ko'p.",
+      "Do'stimning to'yxonasida ko'p yillik sinfdoshlarim bilan uchrashdim.",
+      "To'yxona metro bekatiga yaqin bo'lgani uchun mehmonlarga kelish qulay."
+    ],
+    "겸손": [
+      "U kamtar.",
+      "Kamtarlik yaxshi xislatdir.",
+      "Muvaffaqiyatga erishgandan keyin ham u kamtarligini yo'qotmadi.",
+      "Qanchalik yuqori lavozimga ko'tarilsangiz, shunchalik kamtarlik bilan atrofdagilarning gapiga quloq solishingiz kerak."
+    ],
+    "겹치다": [
+      "Uchrashuvlar ustma-ust tushyapti.",
+      "Ikki ish bir vaqtga to'g'ri kelib qoldi.",
+      "Do'stimning tug'ilgan kuni bilan imtihon sanasi bir kunga to'g'ri kelib qolgani uchun xafaman.",
+      "Quvonchli voqealar birdaniga ustma-ust kelgani uchun oilamiz uzoq vaqtdan keyin katta ziyofat berdi."
+    ],
+    "경고": [
+      "Ogohlantirish bor.",
+      "O'qituvchi ogohlantirdi.",
+      "Ko'chada xavfli ekanligi haqida ogohlantirish eshitdim.",
+      "Gidrometeorologiya markazi to'fon yaqinlashayotganini aytib, qirg'oqbo'yi hududlari aholisiga ehtiyot bo'lish haqida ogohlantirish berdi."
+    ],
+    "경력": [
+      "Mening ish tajribam bor.",
+      "U odamning ish tajribasi katta.",
+      "Bu kompaniya ish tajribasi bor xodim qidiryapti.",
+      "Ish suhbatida nomzodning ish tajribasi bilan birga kelajakdagi rejalari ham muhim baholanadi."
+    ],
+    "경비": [
+      "Sayohat xarajati kerak.",
+      "Xarajat ko'p ketadi.",
+      "Xizmat safari xarajatlarining hammasini kompaniya qoplab beradi.",
+      "Bu tadbirni o'tkazish uchun ketadigan xarajatlarni kamaytirish maqsadida ko'ngillilarni yollashga qaror qildik."
+    ],
+    "경비원": [
+      "Qorovul eshikni ochyapti.",
+      "Bizning uyimizning qorovuli xushmuomala.",
+      "Kechasi qorovul amaki aylanib, qo'riqlab yuradi.",
+      "Qorovul kirib-chiqayotgan odamlarni tekshirib, binoning xavfsizligini ta'minlaydi."
+    ],
+    "경영": [
+      "Otam do'konni boshqaradi.",
+      "Men kompaniya boshqarishni xohlayman.",
+      "U kichik oshxonani boshqarib, mijozlar bilan yaqin bo'lib qoldi.",
+      "Bu kompaniya shaffof boshqaruvga asoslanib, mijozlar ishonchini qozongan holda barqaror o'sib kelmoqda."
+    ],
+    "경영자": [
+      "U kishi rahbar.",
+      "Kompaniyamiz rahbari yosh.",
+      "Men kelajakda yaxshi rahbar bo'lishni xohlayman.",
+      "Qobiliyatli rahbar xodimlarning fikriga diqqat bilan quloq soladi va kompaniyaning istiqbolini aniq belgilab beradi."
+    ],
+    "경영학": [
+      "Men menejment fanini o'rganaman.",
+      "Men menejment fakulteti talabasiman.",
+      "Ukam universitetda menejment yo'nalishida o'qiyapti.",
+      "Menejment — korxonaning tashkiliy tuzilishi, marketing, buxgalteriya hisobi kabi masalalarni o'rganadigan fan."
+    ],
+    "경우": [
+      "Bunday holatda qo'ng'iroq qiling.",
+      "Yomg'ir yog'sa, bekor qilinadi.",
+      "Yo'lda tirbandlik bo'lgan hollarda metroga tushgan ma'qul.",
+      "Agar uchrashuvga kechikadigan bo'lsangiz, oldindan xabar berishingizni so'raymiz."
+    ],
+    "경쟁": [
+      "Biz raqobatlashamiz.",
+      "Maktabda raqobat kuchli.",
+      "Ikki kompaniya yangi mahsulotlar bilan qizg'in raqobatlashmoqda.",
+      "Ishga kirish imtihonida raqobat juda kuchli bo'lib, bir o'ringa o'nlab nomzod to'g'ri keldi."
+    ],
+    "경쟁력": [
+      "Bizning mahsulotimiz raqobatbardosh.",
+      "Narxi arzon bo'lgani uchun raqobatbardoshligi yuqori.",
+      "Bu kompaniya texnologik salohiyati tufayli raqobatbardoshlikka erishdi.",
+      "Xorijiy bozorda omon qolish uchun sifat va dizayn jihatidan raqobatbardosh bo'lish kerak."
+    ],
+    "경제": [
+      "Iqtisod yaxshilandi.",
+      "Koreya iqtisodiyoti tez sur'atlarda o'sdi.",
+      "Shu kunlarda iqtisodiyot og'ir bo'lgani uchun narxlar ancha oshdi.",
+      "Hukumat turg'unlikka uchragan iqtisodiyotni jonlantirish uchun turli qo'llab-quvvatlash choralarini taklif qildi."
+    ],
+    "경제력": [
+      "U davlatning iqtisodiy qudrati kuchli.",
+      "Mening moliyaviy imkoniyatim yo'q.",
+      "Uylanish uchun ma'lum darajada moliyaviy imkoniyat kerak.",
+      "Bir mamlakatning iqtisodiy qudratini yalpi ichki mahsulot va aholi jon boshiga to'g'ri keladigan daromad kabi ko'rsatkichlar orqali baholash mumkin."
+    ],
+    "경제적": [
+      "Moliyaviy jihatdan qiyin.",
+      "Bu mashina tejamkor.",
+      "Avtobusga chiqish taksidan ancha tejamli.",
+      "Men iqtisodiy sabablarga ko'ra ko'chib o'tishga qaror qildim."
+    ],
+    "경제학": [
+      "Men iqtisodiyot fanini o'rganaman.",
+      "Iqtisodiyot fani bo'yicha kitob o'qiyapman.",
+      "Akam universitetda iqtisodiyot yo'nalishida o'qigan.",
+      "Iqtisodiyot — odamlar cheklangan resurslardan qanday foydalanishini o'rganadigan fan."
+    ],
+    "계산": [
+      "Hisob-kitob qilaman.",
+      "Hisob-kitob noto'g'ri chiqdi.",
+      "Ovqatdan keyin men to'layman.",
+      "Bu kalkulyator yordamida narxlarni qo'shsangiz, umumiy summa qancha ekanini tezda bilib olishingiz mumkin."
+    ],
+    "계산대": [
+      "Kassa ana u yerda.",
+      "Kassa oldida navbatda turaman.",
+      "Supermarket kassasida karta bilan to'ladim.",
+      "Kassa xodimi mahsulotlarning shtrix-kodini birma-bir o'qib, umumiy summani aytdi."
+    ],
+    "계산서": [
+      "Hisob varaqasini bering.",
+      "Hisob qog'ozini oldim.",
+      "Oshxonada hisobga qarasam, summa to'g'ri ekan.",
+      "Mijoz hisobni so'rashi bilan ofitsiant odob bilan chekni olib keldi."
+    ],
+    "계약": [
+      "Kompaniya bilan shartnoma tuzdim.",
+      "Shartnoma muddati bir yil.",
+      "Yangi uy topib, bugun shartnoma tuzdim.",
+      "Ikki kompaniya uzoq muddatli yetkazib berish shartnomasini tuzib, o'zaro hamkorlikni kuchaytirishga kelishib oldi."
+    ],
+    "계약금": [
+      "Avans to'ladim.",
+      "Avans to'lovi qancha?",
+      "Uy sotib olish uchun avval avans to'lovini o'tkazdim.",
+      "Avans to'lovini to'laganingizdan keyin shartnomani bekor qilsangiz, uni qaytarib ololmasligingiz mumkin, buni yodda tuting."
+    ],
+    "계약서": [
+      "Shartnomaga imzo chekaman.",
+      "Shartnomani o'qib chiqing.",
+      "Shartnoma ikki nusxada bo'lgani uchun bittadan bo'lishib oldik.",
+      "Shartnomada yozilgan shartlarni sinchiklab tekshirib chiqqaningizdan keyin imzo qo'yishingizni so'raymiz."
+    ],
+    "계좌": [
+      "Bankda hisob raqami ochaman.",
+      "Hisob raqamingizni ayting.",
+      "Oylik maoshim hisob raqamimga tushdi.",
+      "Sayohat xarajatlari uchun pul yig'ish maqsadida yana bitta alohida jamg'arma hisobi ochdim."
+    ],
+    "계층": [
+      "Ijtimoiy qatlamlar har xil.",
+      "Turli qatlamdagi odamlar keldi.",
+      "Bu siyosat kam daromadli qatlamga yordam beradi.",
+      "Jamiyatning turli qatlamlaridan bo'lgan fuqarolar ishtirok etgan munozara orqali siyosat bo'yicha fikrlar keng to'plandi."
+    ],
+    "계획성": [
+      "Men rejali emasman.",
+      "Rejali ish qiladigan odamlarga havasim keladi.",
+      "Pul sarflaganda rejali bo'lish kerak.",
+      "U vaqtini rejali boshqargani uchun doim uchrashuv vaqtiga rioya qiladi."
+    ],
+    "계획적": [
+      "Reja asosida o'qiyman.",
+      "U hamma ishni rejali qiladigan odam.",
+      "Sayohatga rejali tayyorlansangiz, yanada maroqli o'tadi.",
+      "Har oy daromadimning bir qismini rejali ravishda jamg'arish odatini shakllantirishga harakat qilyapman."
+    ]
+  },
+  "0062": {
+    "고개": [
+      "Boshimni qimirlatib tasdiqlayman.",
+      "Boshni egib salomlashamiz.",
+      "Bola uyalganidan boshini burib oldi.",
+      "Biz hansirab tik dovondan oshib, nihoyat qishloqqa yetib keldik."
+    ],
+    "고객": [
+      "Mijoz keldi.",
+      "Mijozlar bilan salomlashamiz.",
+      "Do'konimizning mijozlarga xizmat ko'rsatishi yaxshi.",
+      "Mijozlarning shikoyatlari qabul qilinishi bilan mas'ul bo'lim ularni tezda ko'rib chiqib, javob beradi."
+    ],
+    "고구마": [
+      "Batat yeyman.",
+      "Pishirilgan batat mazali.",
+      "Qishda issiq pishirilgan batatni tez-tez sotib olib yeyman.",
+      "Batat kletchatkaga boy bo'lgani uchun parhez qilayotganlar orasida mashhur."
+    ],
+    "고궁": [
+      "Qadimiy saroyga boraman.",
+      "Seulda qadimiy saroylar ko'p.",
+      "Dam olish kuni do'stim bilan qadimiy saroyni tomosha qildik.",
+      "Bu qadimiy saroy Joseon davrida qurilgan qirollik saroyi bo'lib, har yili son-sanoqsiz sayyohlar tashrif buyuradi."
+    ],
+    "고급": [
+      "Yuqori darajali restoranga bordim.",
+      "Bu sumka yuqori sifatli.",
+      "Do'stim sovg'aga qimmatbaho soat oldi.",
+      "Bu mehmonxonada yuqori sifatli choyshablar va eng zamonaviy jihozlar borligi uchun mehmonlar ko'p keladi."
+    ],
+    "고래": [
+      "Kit katta.",
+      "Dengizda kitlar yashaydi.",
+      "Akvariumda kitlar shousini tomosha qildim.",
+      "Biz qayiqda dengizga chiqib, suv yuzasiga otilib chiqayotgan kitni yaqindan tomosha qildik."
+    ],
+    "고마움": [
+      "Minnatdorchilik his qilaman.",
+      "Men minnatdorchiligimni bildirmoqchiman.",
+      "Yordam bergan kishilarga minnatdorchiligimni bildirdim.",
+      "U qiyin damlarda yonida bo'lgan do'stlariga minnatdorchiligini maktubga astoydil yozib qo'ydi."
+    ],
+    "고무신": [
+      "Bobom rezina poyabzal kiyadi.",
+      "Oq rezina kalish chiroyli.",
+      "Qishloqda yomg'ir yog'sa, rezina kalish kiyib yurardik.",
+      "Muzeyda qadimda odamlar kiygan eski rezina kalishlar namoyish etilgan."
+    ],
+    "고무줄": [
+      "Rezinka bor.",
+      "Sochimni rezinka bilan bog'layman.",
+      "Rezinkasi cho'zilib ketgani uchun shim kattalashib qoldi.",
+      "Bolalar hovlida yig'ilib, rezinkani baland tortib qo'yib, uning ustidan sakrab maza qilib o'ynashdi."
+    ],
+    "고민": [
+      "Mening tashvishim bor.",
+      "Biror tashvishingiz bormi?",
+      "Kelajakdagi kasbim tufayli shu kunlarda tashvishim ko'p.",
+      "U ish joyini o'zgartirish-o'zgartirmaslik haqida uzoq o'ylanib yurdi va oxir-oqibat hozirgi ishida qolishga qaror qildi."
+    ],
+    "고백": [
+      "Men sevgimni izhor qildim.",
+      "Do'stimga sevgi izhor qilishdi.",
+      "Jur'at qilib unga sevgimni izhor qildim, lekin rad javobini oldim.",
+      "U uzoq vaqt yashirib kelgan xatosini oilasi oldida ochiqchasiga tan oldi."
+    ],
+    "고생": [
+      "Ko'p qiynaldingiz.",
+      "Ota-onam ko'p mashaqqat chekishgan.",
+      "Ko'chish bilan kun bo'yi ovora bo'ldim.",
+      "Bolaligida chekkan mashaqqatlari tufayli u kichik narsalarga ham shukr qiladigan bo'ldi."
+    ],
+    "고소하다": [
+      "Kunjut yog'ining hidi yoqimli.",
+      "Yer yong'oqning mazasi yoqimli.",
+      "Bu nonga qovurilgan kunjut qo'shilgani uchun juda mazali, yoqimli ta'mi bor.",
+      "Qovurilgan loviya uniga bulangan injeolmi unchalik shirin bo'lmasa-da, og'izda yoqimli yong'oqsimon ta'm taraladi."
+    ],
+    "고속": [
+      "Tezyurar poyezdga chiqdim.",
+      "Tezyurar avtobus tez yuradi.",
+      "Yuqori tezlikdagi internet bo'lgani uchun film darhol ochiladi.",
+      "Yuqori tezlikda ketayotgan avtomobilda xavfsizlik kamarini albatta taqish shart."
+    ],
+    "고속도로": [
+      "Avtomagistralda tirbandlik.",
+      "Avtomagistralda mashina haydayman.",
+      "Bayramlarda avtomagistralda mashinalar juda ko'p bo'ladi.",
+      "Biz avtomagistraldagi dam olish maskanida yengil tamaddi qilib, yana manzil sari yo'lga tushdik."
+    ],
+    "고아원": [
+      "Yetimxonaga bordim.",
+      "Yetimxonada ko'ngilli bo'lib ishlayman.",
+      "Men har dam olish kuni yetimxonaga borib, bolalar bilan o'ynayman.",
+      "U kompaniya har yili yil oxirida yetimxonaga maishiy buyumlar va stipendiya mablag'larini xayriya qiladi."
+    ],
+    "고유하다": [
+      "Bu bizning o'ziga xos madaniyatimiz.",
+      "Hangul Koreyaning o'ziga xos yozuvidir.",
+      "Har bir insonning o'ziga xos xususiyati bor.",
+      "Bu hududda uzoq asrlar davomida davom etib kelayotgan o'ziga xos urf-odatlar hozir ham saqlanib qolgan."
+    ],
+    "고지서": [
+      "To'lov xabarnomasi keldi.",
+      "Elektr energiyasi uchun to'lov xabarnomasini oldim.",
+      "Pochta qutisida gaz to'lovi bo'yicha xabarnoma bor edi.",
+      "Soliq to'lov xabarnomasida ko'rsatilgan to'lov muddatini o'tkazib yuborsangiz, penya hisoblanishi mumkin, ehtiyot bo'ling."
+    ],
+    "고집": [
+      "U juda o'jar.",
+      "Bola qaysarlik qilyapti.",
+      "Bobomning qaysarligi tufayli oilamiz qiynaladi.",
+      "U faqat o'z fikrini to'g'ri deb o'jarlik qilib, qaysarligidan qaytmagani uchun jamoadoshlari bilan tez-tez to'qnash kelardi."
+    ],
+    "고춧가루": [
+      "Qizil qalampir kukunini solaman.",
+      "Kimchida qizil qalampir kukuni ko'p.",
+      "Tchigae bemaza bo'lgani uchun yana ozgina qizil qalampir kukuni qo'shdim.",
+      "Onam har kuzda quyoshda quritilgan qalampirdan o'zlari qizil qalampir kukuni tuyib, kimchi tayyorlaydilar."
+    ],
+    "고층": [
+      "Ko'p qavatli binolar ko'p.",
+      "Men ko'p qavatli uyda yashayman.",
+      "Baland qavatdan qaraganda Seulning tungi manzarasi juda chiroyli ko'rinadi.",
+      "Bu ofis baland qavatda joylashgani uchun butun shahar bir qarashda kaftdagidek ko'rinadi."
+    ],
+    "고통": [
+      "Qornimda og'riq bor.",
+      "Og'riq juda kuchli.",
+      "Jarohatlangan oyog'im juda og'rib, qattiq azob chekdim.",
+      "U uzoq davom etgan kasallik keltirgan azoblarga bardosh berib, oxirigacha umidini yo'qotmadi."
+    ],
+    "곤란": [
+      "Hozir qiyin.",
+      "Boshimga bir noqulay ish tushdi.",
+      "Birdaniga pul kerak bo'lib qolib, qiyin ahvolga tushdim.",
+      "Kechirasiz, lekin sharoitga ko'ra bu iltimosingizni bajarishim qiyin."
+    ],
+    "골고루": [
+      "Ovqatni har xil turdan yeyman.",
+      "Bo'yoqni bir tekis surtdim.",
+      "Sog'lik uchun sabzavot va go'shtni bir tekis, hammasidan yeyish kerak.",
+      "O'qituvchi har bir o'quvchiga taqdimot qilish imkoniyati teng tegishi uchun navbatni belgilab berdi."
+    ],
+    "골목길": [
+      "Xiyobon tor.",
+      "Tor ko'chadan yuraman.",
+      "Qorong'i tor ko'chada mushukka duch keldim.",
+      "Bu qishloqning tor ko'chalari ensiz va egri-bugri bo'lsa-da, yurib borar ekansiz, qadimiy do'konlarga duch kelasiz."
+    ],
+    "골치가 아프다": [
+      "Boshim qotib qoldi.",
+      "Uy vazifasi ko'p bo'lgani uchun boshim qotyapti.",
+      "Ko'chib o'tish uchun uy topa olmay, shu kunlarda boshim qotib yuribdi.",
+      "Muammolar ketma-ket chiqib boshimni qotirayotgan bo'lsa-da, taslim bo'lmay, ularni birma-bir hal qilib bormoqdaman."
+    ],
+    "곰": [
+      "Ayiq katta.",
+      "Tog'da ayiqlar yashaydi.",
+      "Hayvonot bog'ida qo'ng'ir ayiqni ko'rdim.",
+      "Ayiq qish kelishi bilan inida qishki uyquga ketib, bahor kelishini kutadi."
+    ],
+    "곱슬머리": [
+      "Mening sochim jingalak.",
+      "Ukamning sochi jingalak bo'lgani uchun qiynaladi.",
+      "Jingalak sochim yomg'ir yog'sa, yanada jingalaklashib ketadi.",
+      "U tug'ma jingalak sochini yashirmaydi, aksincha, uni o'ziga xosligi sifatida dadil namoyon qilib yuradi."
+    ],
+    "곳곳": [
+      "Hamma joyda gullar ochildi.",
+      "Shaharning har yerida bog'lar bor.",
+      "Sayohat davomida Koreyaning turli joylarini aylanib ko'rdim.",
+      "To'fon o'tganidan keyin mamlakatning turli joylarida yo'llar uzilib, elektr ta'minoti o'chishi kabi zararlar davom etdi."
+    ],
+    "공공요금": [
+      "Kommunal to'lovlarni to'layman.",
+      "Kommunal to'lovlar oshdi.",
+      "Elektr va suv kabi kommunal to'lovlarni har oy to'lash kerak.",
+      "Hukumat oddiy aholining yukini yengillashtirish uchun bu yil kommunal to'lovlar oshishini imkon qadar cheklashga qaror qildi."
+    ]
+  },
+  "0063": {
+    "공공장소": [
+      "Jamoat joylarida jim turamiz.",
+      "Kutubxona jamoat joylarining yorqin namunasidir.",
+      "Jamoat joyida chekilsa, jarima to'lash kerak bo'ladi.",
+      "Jamoat joylaridagi odob-axloq boshqalarni hurmat qilishdan boshlanadi."
+    ],
+    "공동": [
+      "Biz umumiy oshxonadan foydalanamiz.",
+      "Do'stim bilan birgalikda uy sotib oldik.",
+      "Ikki davlat birgalikdagi tadqiqot orqali yangi vaksina ishlab chiqdi.",
+      "Bu biznes bir nechta kompaniya birgalikda sarmoya kiritib amalga oshirayotgan loyihadir."
+    ],
+    "공동생활": [
+      "Yotoqxonada jamoa bo'lib yashayman.",
+      "Jamoa bo'lib yashashda qoidalar kerak.",
+      "Talabalik yillarimda do'stlarim bilan birga yashab, ko'p narsani o'rgandim.",
+      "Birga yashash uchun bir-birining turmush odatlarini tushunish va hurmat qilish kerak."
+    ],
+    "공사": [
+      "Uy oldida qurilish ishlari bo'lyapti.",
+      "Qurilish ishlari tufayli shovqin.",
+      "Yo'l ta'mirlash ishlari tufayli ishga boradigan yo'lda katta tirbandlik bo'ldi.",
+      "Ko'p qavatli uy qurilishi tugashi bilanoq yangi uyga ko'chib o'tmoqchimiz."
+    ],
+    "공손하다": [
+      "U o'quvchi odobli.",
+      "Kattalar bilan odob bilan salomlashamiz.",
+      "Buvimga hurmat bilan, odobli ohangda javob berdim.",
+      "Ish suhbatida savollarga odob bilan javob bergan ma'qul."
+    ],
+    "공연장": [
+      "Konsert zaliga boraman.",
+      "Konsert zali juda katta.",
+      "Do'stim bilan konsert zali oldida uchrashishga kelishdik.",
+      "Bu konsert zalining akustik jihozlari yaxshi bo'lgani uchun bu yerda klassik musiqa kechalari tez-tez o'tkaziladi."
+    ],
+    "공장": [
+      "Fabrikada ishlayman.",
+      "Bu zavod juda katta.",
+      "Otam avtomobil zavodida ishlaydilar.",
+      "Zavod shahar tashqarisiga ko'chirilgach, atrofdagi muhit ancha yaxshilandi."
+    ],
+    "공주": [
+      "Malika chiroyli.",
+      "Qizim malikalar kiyimini yaxshi ko'radi.",
+      "Ertakdagi malika shahzodani uchratib, baxtli yashadi.",
+      "Qadimda bir mamlakat malikasi sehrlanib, chuqur uyquga ketgani haqida rivoyat bor."
+    ],
+    "공통": [
+      "Bizning umumiy do'stimiz bor.",
+      "Bu kitoblarning umumiy jihatlari ko'p.",
+      "Ikkalasining musiqani yaxshi ko'rishdek umumiy qiziqishi bor.",
+      "Bu masala barcha kompaniyalarga birdek tatbiq etiladigan qoidaga oid."
+    ],
+    "공통점": [
+      "Bizning umumiy jihatlarimiz bor.",
+      "Ikki kishining umumiy jihati nima?",
+      "Opam ikkalamizning umumiy jihatimiz shuki, achchiq taomlarni yaxshi ko'ramiz.",
+      "Ikki asar o'rtasida kutilmagan umumiy jihatlarni topsangiz, qiyosiy tahlil ancha osonlashadi."
+    ],
+    "공포": [
+      "Men qo'rqinchli filmlarni yoqtirmayman.",
+      "Qorong'i joylar qo'rqinchli.",
+      "Qo'rqinchli film ko'rganimdan keyin kechasi yolg'iz uxlashga qo'rqdim.",
+      "To'satdan sodir bo'lgan zilzila odamlarni qattiq dahshatga soldi."
+    ],
+    "공해": [
+      "Shaharda ifloslanish kuchli.",
+      "Atrof-muhit ifloslanishi tufayli osmon xira.",
+      "Zavoddan chiqadigan ifloslanish tufayli aholi qiynalmoqda.",
+      "Shovqin bilan ifloslanish odamlarning uyqusi va sog'lig'iga salbiy ta'sir ko'rsatadi."
+    ],
+    "과로": [
+      "Haddan tashqari ishlash yaramaydi.",
+      "Dadam haddan tashqari ko'p ishlab, yiqilib qoldilar.",
+      "Shu kunlarda ishim ko'p, haddan tashqari charchaganim sababli betobman.",
+      "Ortiqcha ishlash davom etaversa, immunitet pasayib, kasallikka chalinish oson bo'ladi."
+    ],
+    "과목": [
+      "Qaysi fanni yaxshi ko'rasiz?",
+      "Matematika fani menga qiyin.",
+      "Eng yaxshi ko'radigan fanim tarix.",
+      "Bu yildan boshlab tanlov fanlari ko'paygani uchun o'quvchilar qiziqishiga qarab darslarni tanlashlari mumkin."
+    ],
+    "과소비": [
+      "Isrofgarchilik yomon.",
+      "Men ortiqcha xarajat qilmayman.",
+      "Har oylik olgan kunim isrofgarchilik qilib, pul jamg'ara olmadim.",
+      "Kredit kartasidan o'ylamay foydalanaversangiz, bu osongina isrofgarchilikka olib keladi."
+    ],
+    "과속": [
+      "Tezlikni oshirish xavfli.",
+      "Tezlikni o'lchaydigan kamera bor.",
+      "Tezlikni oshirganim uchun politsiyaga jarima to'ladim.",
+      "Tezlikni oshirish yo'l-transport hodisalarining asosiy sabablaridan biri hisoblanadi."
+    ],
+    "과식": [
+      "Ko'p ovqat yesangiz, qorningiz og'riydi.",
+      "Kecha me'yoridan ortiq ovqat yeb qo'ydim.",
+      "Bayramda haddan ziyod ovqat yeb qo'yib, ovqatim hazm bo'lmayapti.",
+      "Ortiqcha ovqatlanish semizlik va ovqat hazm qilish buzilishiga sabab bo'lgani uchun ehtiyot bo'lish kerak."
+    ],
+    "과연": [
+      "Haqiqatan ham mazali ekan!",
+      "Haqiqatan ham mashhur restoran ekan.",
+      "Mish-mishlarda aytilganidek, bu film haqiqatan ham juda qiziqarli ekan.",
+      "U haqiqatan ham Olimpiya oltin medali sohibiga munosib tarzda mukammal chiqish qildi."
+    ],
+    "과외": [
+      "Men repetitorda o'qiyman.",
+      "Ingliz tili repetitori kelyapti.",
+      "Ukam matematikadan repetitorda o'qib, baholari ancha ko'tarildi.",
+      "Talabalar cho'ntak puli topish uchun ko'pincha yuqori sinf o'quvchilariga repetitorlik qilib qo'shimcha ishlaydilar."
+    ],
+    "과음": [
+      "Haddan ortiq ichish yaramaydi.",
+      "Kecha ortiqcha ichib qo'yganim uchun boshim og'riyapti.",
+      "Jamoaviy ziyofatda haddan ortiq ichib qo'yib, ertasi kuni ishga kechikdim.",
+      "Spirtli ichimlikni haddan ortiq ichish nafaqat jigar sog'lig'iga zarar yetkazadi, balki baxtsiz hodisalar xavfini ham oshiradi."
+    ],
+    "과장": [
+      "Bo'lim boshlig'i Kim keldilar.",
+      "Bo'lim boshlig'imiz xushmuomala.",
+      "Bo'lim boshlig'iga hisobotni topshirdim.",
+      "U ishga kirganidan o'n yil o'tib, marketing bo'limi boshlig'i lavozimiga ko'tarildi."
+    ],
+    "과장하다": [
+      "Juda bo'rttirib yubormang.",
+      "U voqealarni bo'rttirib gapiradi.",
+      "Do'stim o'z hikoyalarini doim bo'rttirib gapirgani uchun ishonish qiyin.",
+      "Reklamalarda mahsulot samarasi ko'pincha bo'rttirib ko'rsatiladi, shuning uchun ehtiyot bo'lish kerak."
+    ],
+    "과정": [
+      "U jarayon uzoq.",
+      "Ovqat tayyorlash jarayonini ko'rsating.",
+      "Natija ham muhim, lekin harakat qilish jarayoni ham muhim.",
+      "Muammoni hal qilish jarayonida jamoa a'zolari bir-birining kuchli va zaif tomonlarini tushunib yetishdi."
+    ],
+    "과제": [
+      "Vazifalar ko'p.",
+      "Bugungi topshiriqlarni bajarib bo'ldim.",
+      "Ertagacha topshirishim kerak bo'lgan vazifa borligi uchun bandman.",
+      "Professor talabalarga jamoalar bo'yicha taqdimot topshirig'ini berdi."
+    ],
+    "과학자": [
+      "Olim bo'lishni xohlayman.",
+      "U olim mashhur.",
+      "Bola katta bo'lganda koinotni o'rganadigan olim bo'lishni xohlaydi.",
+      "Olimlar uzoq tajribalardan so'ng yangi moddani kashf etganliklarini e'lon qilishdi."
+    ],
+    "과학적": [
+      "Bu ilmiy usul.",
+      "Bu tushuntirish ilmiy asoslangan.",
+      "Ilmiy asosi yo'q gaplarga ishonish qiyin.",
+      "Muammoni ilmiy jihatdan tahlil qilsangiz, aniqroq yechim topishingiz mumkin."
+    ],
+    "관객": [
+      "Tomoshabinlar ko'p.",
+      "Tomoshabinlar qarsak chalyapti.",
+      "Tomosha tugashi bilan barcha tomoshabinlar o'rnidan turib qarsak chalishdi.",
+      "Bu film namoyishga chiqqanidan bir hafta o'tib, tomoshabinlar soni bir milliondan oshdi."
+    ],
+    "관계없다": [
+      "Menga aloqasi yo'q.",
+      "U ishning menga aloqasi yo'q.",
+      "Yoshidan qat'i nazar, har kim bu darsga qatnasha oladi.",
+      "Bu voqeaning kompaniya boshqaruviga hech qanday aloqasi yo'qligi haqida bayonot berildi."
+    ],
+    "관계자": [
+      "Faqat mas'ul shaxslar kirsin.",
+      "Mas'ul xodim bilan uchrashdim.",
+      "Qurilish bo'yicha mas'ul shaxsning aytishicha, ishlar kelasi oy tugarkan.",
+      "Tadbir tashkilotchilari ishtirokchilar soni kutilganidan ko'p bo'lganini tushuntirishdi."
+    ],
+    "관광": [
+      "Koreyada sayohat qildim.",
+      "Turistik avtobusga chiqdim.",
+      "Chejudo turizm bilan mashhur joy.",
+      "Bu shaharda turizmdan keladigan daromad mahalliy iqtisodiyotning katta qismini tashkil etadi."
+    ]
+  },
+  "0064": {
+    "관광객": [
+      "Sayyohlar ko'p.",
+      "Sayyohga yo'l ko'rsatdim.",
+      "Myondongda chet ellik sayyohlar juda ko'p.",
+      "Sayyohlar sonining ortishi sababli ayrim hududlarda chiqindi va shovqin muammolari yuzaga kelmoqda."
+    ],
+    "관광지": [
+      "Bu yer mashhur turistik joy.",
+      "Turistik joyda odam ko'p.",
+      "Bu safargi ta'tilda mashhur turistik joyga borib ko'rmoqchiman.",
+      "Mashhur turistik joylardagi mehmonxonalarni mavsum avjida band qilish juda qiyin."
+    ],
+    "관람": [
+      "Film tomosha qilaman.",
+      "Muzeyga kirish bepul.",
+      "Dam olish kuni oilam bilan birga spektakl tomosha qilishga kelishdik.",
+      "Ko'rgazmani tomosha qilish vaqti ertalab soat o'ndan kechki soat oltigacha."
+    ],
+    "관람객": [
+      "Tomoshabinlar ko'p.",
+      "Tomoshabinlar, navbatga turing.",
+      "Muzeyda bola tomoshabinlar ko'p edi.",
+      "Ko'rgazma zali har dam olish kunlari minglab tashrif buyuruvchilar bilan gavjum bo'ldi."
+    ],
+    "관련": [
+      "Bu ish bilan aloqasi bor.",
+      "Shu mavzuga oid kitob o'qidim.",
+      "Men atrof-muhit bilan bog'liq ishda ishlashni xohlayman.",
+      "Bu voqea yuzasidan kompaniya rasmiy bayonot bermadi."
+    ],
+    "관련성": [
+      "Ikkisi o'rtasida bog'liqlik bor.",
+      "Hech qanday bog'liqlik yo'q.",
+      "Bu ikki voqea o'zaro bog'liqqa o'xshaydi.",
+      "Tadqiqotchilar uyqu yetishmasligi va depressiya o'rtasidagi bog'liqlikni aniqlashdi."
+    ],
+    "관리": [
+      "Sog'ligimga qarayman.",
+      "Yaxshi parvarish qilish kerak.",
+      "Terimni parvarish qilish uchun har kuni ko'p suv ichaman.",
+      "Bu turar-joy majmuasi yaxshi parvarish qilingani uchun atrof-muhit toza."
+    ],
+    "관리실": [
+      "Ma'muriyat xonasiga boraman.",
+      "Boshqaruv xonasining telefon raqami qanday?",
+      "Kalitimni yo'qotib qo'yib, uy-joy ma'muriyatiga murojaat qildim.",
+      "Agar posilkani ololmagan bo'lsangiz, ma'muriyat xonasiga qoldirib ketilgan-ketilmaganini tekshirib ko'ring."
+    ],
+    "관용어": [
+      "Iboralarni o'rganaman.",
+      "Bu iborani bilasizmi?",
+      "\"Oyog'i keng\" degan ibora tanishlari ko'p degan ma'noni bildiradi.",
+      "Iboralar shunday ifodalarki, ularning umumiy ma'nosini so'zlarning alohida ma'nolaridan bilib bo'lmaydi."
+    ],
+    "관찰": [
+      "Qushlarni kuzataman.",
+      "Kuzatuv kundaligini yozaman.",
+      "Bolalar chumolilarni kuzatib, hasharotlar haqida o'rganishdi.",
+      "Ilmiy tajribalarda aniq kuzatish va qayd etish hammadan muhimdir."
+    ],
+    "광장": [
+      "Maydonda odamlar ko'p.",
+      "Maydonda uchrashamiz.",
+      "Har dam olish kuni shahar hokimiyati oldidagi maydonda bozor bo'ladi.",
+      "Maydonga yig'ilgan fuqarolar qo'llarida sham ushlab, o'z fikrlarini tinch yo'l bilan bildirishdi."
+    ],
+    "괜히": [
+      "Bekordan-bekorga kulgim keladi.",
+      "Bekorga kelibman.",
+      "Bekorga gapirib qo'yib, do'stim bilan urishib qoldim.",
+      "Yomg'ir yog'adiganga o'xshagani uchun soyabon olib chiqib, bekorga olgan bo'lsam kerak deb o'ylagandim, ammo haqiqatan ham yomg'ir yog'di."
+    ],
+    "괴로움": [
+      "Iztirob katta.",
+      "Men azoblarimni unutmoqchiman.",
+      "Imtihondan yiqilganim alamidan bir necha kun uxlay olmadim.",
+      "U oilasidan ayrilish azobiga chiday olmay, uzoq vaqt xonasiga qamalib oldi."
+    ],
+    "괴로워하다": [
+      "U qiynalyapti.",
+      "Nega bunchalik qiynalyapsiz?",
+      "Do'stim ajrashgandan keyin uzoq vaqt iztirob chekdi.",
+      "U o'z xatosidan pushaymon bo'lib, har kecha qiynalib chiqardi."
+    ],
+    "괴롭다": [
+      "Ko'nglim og'ir.",
+      "Qornim og'rib, qiynalyapman.",
+      "Havo juda issiq bo'lgani uchun uxlash azob bo'lyapti.",
+      "Sevgan insondan ajralish har kim uchun og'ir kechinmadir."
+    ],
+    "괴롭히다": [
+      "Ukangizni qiynamang.",
+      "Chivinlar meni bezovta qilyapti.",
+      "Sinfdoshlari o'sha bolani xafa qilishgani uchun o'qituvchiga aytdim.",
+      "Maktabdagi zo'ravonlik — o'zidan zaif sinfdoshni qiynash bo'lib, unga hech qachon yo'l qo'yib bo'lmaydi."
+    ],
+    "굉장하다": [
+      "Bu taom ajoyib.",
+      "U qo'shiqchi haqiqatan ham zo'r.",
+      "Kecha ko'rgan o'yinimiz haqiqatan ham ajoyib bo'ldi.",
+      "Tog' cho'qqisidan ko'ringan manzara nafasni to'xtatadigan darajada ajoyib edi."
+    ],
+    "굉장히": [
+      "Nihoyatda katta.",
+      "Bugun nihoyatda sovuq.",
+      "Bu film nihoyatda qiziqarli bo'lgani uchun ikki marta ko'rdim.",
+      "Bu yil yoz o'tgan yillarga qaraganda nihoyatda issiq kelgani uchun elektr energiyasi iste'moli keskin oshdi."
+    ],
+    "교사": [
+      "Men o'qituvchiman.",
+      "Bizning o'qituvchimiz xushmuomala.",
+      "Onam boshlang'ich maktabda o'qituvchi bo'lib ishlaydilar.",
+      "Yaxshi o'qituvchi o'quvchining imkoniyatlariga ishonib, oxirigacha sabr bilan kuta oladigan insondir."
+    ],
+    "교외": [
+      "Shahar chekkasida yashayman.",
+      "Shahar chekkasi tinch.",
+      "Dam olish kunlari oilam bilan shahar tashqarisiga chiqamiz.",
+      "Ko'plab xodimlar shahar markazidagi uy narxlari og'irlik qilgani uchun shahar chekkasiga ko'chib o'tmoqda."
+    ],
+    "교육": [
+      "Ta'lim muhim.",
+      "Men ta'lim olaman.",
+      "Ota-onam menga yaxshi ta'lim-tarbiya berishgan.",
+      "Majburiy ta'lim tizimi har bir bolaning asosiy ta'lim olish imkoniyatidan foydalanishini kafolatlaydi."
+    ],
+    "교육자": [
+      "U kishi pedagog.",
+      "Otam pedagog bo'lganlar.",
+      "Hurmatli pedagog maktabimizga ma'ruza qilish uchun keldilar.",
+      "Haqiqiy pedagog faqat bilim emas, balki axloq-odobni ham o'rgatish kerak degan e'tiqodga ega."
+    ],
+    "교육학": [
+      "Men pedagogikani o'rganaman.",
+      "Pedagogika kitobini sotib oldim.",
+      "Universitetda pedagogika yo'nalishida o'qisangiz, o'qituvchi bo'lishingiz mumkin.",
+      "Pedagogika ta'lim olish va o'qitish tamoyillarini tizimli ravishda o'rganadigan fandir."
+    ],
+    "교재": [
+      "Darslik sotib oldim.",
+      "Bu darslik oson.",
+      "Koreys tili darsida yangi darslikdan foydalanamiz.",
+      "Bu darslikda turli mashqlar bilan birga audio materiallar ham berilgan."
+    ],
+    "교통수단": [
+      "Qaysi transport vositasida yurasiz?",
+      "Metro qulay transport vositasidir.",
+      "Men ishga borganda jamoat transportidan foydalanaman.",
+      "Har bir shaharda rivojlangan transport vositalari turlicha bo'lgani uchun harakatlanish usullarida ham farq bor."
+    ],
+    "교통편": [
+      "Qatnov qulay.",
+      "Qanday transportda borish mumkinligini surishtirdim.",
+      "U yerga qatnov noqulay bo'lgani uchun mashina kerak.",
+      "Sayohatga chiqishdan oldin turar joyga qanday transportda borish mumkinligini oldindan aniqlab qo'ygan ma'qul."
+    ],
+    "교포": [
+      "U xorijda yashovchi koreys.",
+      "Amerikada yashaydigan koreys bilan uchrashdim.",
+      "Chet elda yashovchi koreys do'stim koreys tilini o'rganish uchun Koreyaga keldi.",
+      "Xorijda yashovchi koreyslar ona yurt madaniyatini saqlab qolish uchun koreys tili maktablarini ham yuritadilar."
+    ],
+    "교환": [
+      "Kiyimni almashtiraman.",
+      "Mahsulotni almashtirsa bo'ladimi?",
+      "O'lchami to'g'ri kelmagani uchun do'konda almashtirib oldim.",
+      "Xarid qilinganidan keyin bir hafta ichida chek bilan kelsangiz, mahsulotni almashtirish mumkin."
+    ],
+    "구두쇠": [
+      "U ziqna odam.",
+      "Xasis odam pul sarflamaydi.",
+      "Amakim xasis, hatto ovqatga ham deyarli pul to'lamaydi.",
+      "U xasis degan gapni eshitadigan darajada bir tiyinni ham behuda sarflamasdi."
+    ],
+    "구르다": [
+      "To'p dumalayapti.",
+      "Bola polda dumalayapti.",
+      "Tosh tepalikdan pastga dumalab tushdi.",
+      "Zinadan oyog'im toyib pastga dumalab tushdim, lekin baxtimga jarohat olmadim."
+    ]
+  },
+  "0065": {
+    "구매": [
+      "Onlayn xarid qilaman.",
+      "Xarid cheki bor.",
+      "Yangi telefon sotib olish uchun do'konga bordim.",
+      "Bu mahsulotni xarid qilganingizdan keyin yetti kun ichida pulini qaytarib olishingiz mumkin."
+    ],
+    "구멍": [
+      "Paypog'imda teshik paydo bo'ldi.",
+      "Devorda teshik bor.",
+      "Cho'ntagim teshilib qolib, tangalarimni yo'qotib qo'ydim.",
+      "Tomda kichik teshik paydo bo'lib, yomg'ir chakka o'ta boshladi."
+    ],
+    "구별": [
+      "Farqlab bo'lmaydi.",
+      "Egizaklarni bir-biridan ajratish qiyin.",
+      "Haqiqiysini soxtasidan ajratish usulini aytib bering.",
+      "Rang ko'r odamlar qizil va yashil rangni ajratishda qiynaladi."
+    ],
+    "구분": [
+      "Chiqindilarni saralayman.",
+      "Ajratib tashlang.",
+      "Bu kitob janrlariga ko'ra uch qismga bo'lingan.",
+      "Ish va shaxsiy hayot o'rtasidagi chegara xiralashib borayotgani sababli uydan ishlaydiganlarning charchoqi ortib bormoqda."
+    ],
+    "구성": [
+      "Oilangiz tarkibi qanday?",
+      "Bu hikoyaning tuzilishi yaxshi.",
+      "Sinfimiz o'g'il va qiz bolalardan tashkil topgan.",
+      "Bu roman voqealar vaqt tartibini o'zgartirgan o'ziga xos kompozitsiyasi bilan o'quvchilar qiziqishini uyg'otdi."
+    ],
+    "구이": [
+      "Qovurilgan baliq yeyman.",
+      "Qovurilgan go'sht mazali.",
+      "Kechqurun oilam bilan birga qovurilgan samgyeopsal yedik.",
+      "Bu restoran to'g'ridan-to'g'ri ko'mir olovida pishiriladigan galbi kabobi bilan mashhur."
+    ],
+    "구인": [
+      "Ish e'lonini ko'rdim.",
+      "Ishchi qidirilayotgani haqida e'lon chiqdi.",
+      "O'sha kompaniya yangi xodimlarni ishga olish uchun e'lon berishni boshladi.",
+      "Ishchi qidirish e'lonida ish sharoitlari va maosh batafsil yozilgan bo'lishi kerak."
+    ],
+    "구입": [
+      "Kitob sotib olaman.",
+      "Chipta sotib oldim.",
+      "Yangi noutbuk sotib olish uchun narxlarni solishtirdim.",
+      "Chiptalarni internet orqali oldindan sotib olsangiz, arzonroq xarid qilishingiz mumkin."
+    ],
+    "구조": [
+      "Bino tuzilishi murakkab.",
+      "Gap tuzilishini o'rganyapman.",
+      "Bu uy uchta xonali qilib qurilgan.",
+      "Koreys tilida gap ega, to'ldiruvchi va kesim tartibidagi tuzilishga ega."
+    ],
+    "구조대": [
+      "Qutqaruv guruhi keldi.",
+      "Qutqaruv xizmatiga qo'ng'iroq qildim.",
+      "Tog'da adashib qolganimizda qutqaruvchilar vertolyotda qidirib kelishdi.",
+      "Qutqaruv guruhi hodisa joyiga yetib kelishi bilanoq jarohatlanganlarni shifoxonaga olib ketdi."
+    ],
+    "구체적": [
+      "Aniqroq aytib bering.",
+      "Aniq rejangiz bormi?",
+      "Aniq misol keltirib tushuntirib bering.",
+      "Ma'ruzachi aniq raqamlarni keltirib, o'z fikrini asoslab berdi."
+    ],
+    "국가": [
+      "Bizning davlatimiz kichik.",
+      "U terma jamoa o'yinchisi.",
+      "Koreya Osiyodagi davlat.",
+      "Davlat fuqarolarning xavfsizligi va mol-mulkini himoya qilishga majburdir."
+    ],
+    "국그릇": [
+      "Sho'rva kosasi katta.",
+      "Sho'rva kosasini yuvyapman.",
+      "Sho'rva kosasiga iliq miyokguk solib bering.",
+      "Dasturxon ustida guruch kosalari va sho'rva kosalari tartib bilan terib qo'yilgan edi."
+    ],
+    "국내선": [
+      "Ichki reysda uchaman.",
+      "Ichki reyslar aeroporti qayerda?",
+      "Chejudoga borganda ichki reys samolyotiga chiqdim.",
+      "Ichki reyslarda xalqaro reyslarga nisbatan ro'yxatdan o'tish vaqti qisqa bo'lgani uchun qulay."
+    ],
+    "국문학": [
+      "Men koreys adabiyotini o'rganaman.",
+      "Koreys adabiyoti fakultetida o'qiyman.",
+      "Universitetda koreys adabiyoti yo'nalishida o'qisangiz, qadimgi she'riyatni o'rganishingiz mumkin.",
+      "Koreys adabiyotshunosligi koreys tilida yozilgan adabiy asarlarning tarixi va xususiyatlarini o'rganadi."
+    ],
+    "국물": [
+      "Sho'rva suvi iliq.",
+      "Sho'rva sho'r.",
+      "Kimchi-tchigaening suvi juda yoqimli va mazali.",
+      "Bu oshxonaning mol suyagidan uzoq qaynatib tayyorlangan quyuq sho'rvasi tengsiz."
+    ],
+    "국민": [
+      "Men Koreya fuqarosiman.",
+      "Xalq ovoz beryapti.",
+      "Prezident xalq tanlovi bilan saylanadi.",
+      "Barcha fuqarolar qonun oldida teng bo'lib, kamsitilmaslik huquqiga egadir."
+    ],
+    "국악": [
+      "Koreys milliy musiqasini tinglayman.",
+      "Koreys milliy musiqasi konserti bor.",
+      "Men har dam olish kuni koreys milliy musiqasi darsiga qatnayman.",
+      "Koreys milliy musiqasiga pansori, sanjo, xalq qo'shiqlari kabi turli janrlar kiradi."
+    ],
+    "국외": [
+      "Chet elga chiqaman.",
+      "Chet elga sayohatga boraman.",
+      "Yozgi ta'tilda chet elga sayohatga borishni rejalashtiryapman.",
+      "Mamlakatdan tashqarida sodir bo'lgan baxtsiz hodisalar uchun ham sug'urta to'lovi berilish-berilmasligini tekshirish kerak."
+    ],
+    "국제결혼": [
+      "U xorijlik bilan turmush qurdi.",
+      "Xalqaro nikohlar ko'payyapti.",
+      "Opam chet ellik bilan turmush qurib, Amerikada yashaydi.",
+      "Xalqaro nikohdagi oilalar ko'payishi bilan ko'p madaniyatli oilalarni qo'llab-quvvatlash muhim ahamiyat kasb etdi."
+    ],
+    "국제선": [
+      "Xalqaro reysda uchaman.",
+      "Xalqaro reyslar terminali u yerda.",
+      "Xorijga xizmat safari tufayli xalqaro reysga samolyot chiptasi band qildim.",
+      "Xalqaro reyslarda uchishdan kamida ikki soat oldin aeroportga yetib kelib, ro'yxatdan o'tish kerak."
+    ],
+    "국화": [
+      "Xrizantema ochildi.",
+      "Xrizantema gullari chiroyli.",
+      "Kuz kelganda bog'da sariq xrizantemalar to'lib gullaydi.",
+      "Koreyada kuzda xrizantema bayrami o'tkazilib, ko'plab odamlar gullarni tomosha qilishadi."
+    ],
+    "군대": [
+      "U armiyaga ketyapti.",
+      "Harbiy xizmat og'ir.",
+      "Akam o'tgan yili armiyaga ketib, bu yil qaytib keldi.",
+      "Koreyaning yosh yigitlari asosan ma'lum muddat armiyada xizmat qiladi."
+    ],
+    "군데": [
+      "Bir necha joyim og'riyapti.",
+      "Faqat bir joyga boraman.",
+      "Bu safargi sayohatda uchta joyni ko'rdim.",
+      "Devorning bir necha joyida yoriq paydo bo'lgani uchun ta'mirlash kerak."
+    ],
+    "굵다": [
+      "Daraxt yo'g'on.",
+      "Bu arqon yo'g'on.",
+      "O'sha bolaning qo'llari yo'g'on va kuchi zo'r.",
+      "Yomg'ir yirik tomchilar bilan tusha boshladi va tez orada jala quyib berdi."
+    ],
+    "궁금증": [
+      "Qiziqish paydo bo'ldi.",
+      "Qiziqtirgan savollarim ko'p.",
+      "Bolalar juda qiziquvchan bo'lgani uchun tez-tez savol berishadi.",
+      "Internetda qidirib ko'rgach, qiziqtirgan barcha savollarimga javob topdim."
+    ],
+    "궁금하다": [
+      "Men bilgim keladi.",
+      "U odam menga qiziq.",
+      "Imtihon natijasini bilishga shunchalik qiziqyapmanki, uyqum kelmayapti.",
+      "U nega birdaniga ishdan ketgani hammani qiziqtirdi."
+    ],
+    "권하다": [
+      "Choy taklif qilaman.",
+      "Do'stim menga kitob tavsiya qildi.",
+      "O'qituvchim bu kitobni o'qib ko'rishni tavsiya qildilar.",
+      "Shifokor unga muntazam jismoniy mashq qilishni va yetarlicha dam olishni maslahat berdi."
+    ],
+    "귀걸이": [
+      "Sirg'a chiroyli.",
+      "Sirg'a sotib oldim.",
+      "Tug'ilgan kunimga do'stimdan kumush sirg'a sovg'a oldim.",
+      "U kiyimiga mos keladigan kichik marvarid sirg'alarni tanladi."
+    ],
+    "귀국": [
+      "Ertaga vatanga qaytaman.",
+      "Vatanga qaytish uchun samolyotga chiqdim.",
+      "Chet eldagi o'qishimni tugatib, kelasi oy vatanga qaytmoqchiman.",
+      "U o'n yildan keyin vatanga qaytib, oilasi bilan hayajonli diydor ko'rishdi."
+    ]
+  },
+  "0066": {
+    "귀신": [
+      "Arvohlar qo'rqinchli.",
+      "Arvohlar haqidagi film ko'ryapman.",
+      "Bolaligimda arvohlar haqidagi hikoyalarni eshitib, kechasi uxlay olmasdim.",
+      "Koreya xalq ertaklarida aqlli qahramonning arvohlarni yengishi haqidagi hikoyalar ko'p."
+    ],
+    "귀중하다": [
+      "Bu vaqt qadrli.",
+      "Bu bebaho sovg'a.",
+      "Oilam bilan birga o'tkazgan vaqtim men uchun juda qadrli.",
+      "Muzeyda tarixiy jihatdan bebaho bo'lgan ko'plab ashyolar namoyish etilgan."
+    ],
+    "귀찮다": [
+      "Bugun hech narsa qilgim kelmaydi.",
+      "Uy yig'ishtirishga erinaman.",
+      "Juda charchaganimdan ovqat pishirib yeyishga ham erinaman.",
+      "Ukam tinmay gapga solaverib, ba'zan menga malol keladi."
+    ],
+    "귀하다": [
+      "Aziz mehmon keldi.",
+      "Bu buyum nodir.",
+      "Onam bu qimmatli sovg'a deb, uni avaylab saqlab qo'ydilar.",
+      "Ilgari guruch noyob bo'lgani uchun oq guruchli ovqatni faqat bayramlarda yeyish mumkin edi."
+    ],
+    "규칙적": [
+      "Muntazam sport bilan shug'ullanaman.",
+      "Tartibli turmush tarzi yaxshi.",
+      "Men muntazam ravishda ertalab soat yettida turaman.",
+      "Muntazam ovqatlanish va uxlash sog'lom turmush tarzining asosidir."
+    ],
+    "그네": [
+      "Belanchak uchaman.",
+      "Bola belanchakka o'tirdi.",
+      "Bog'da bolalar belanchak uchib, maza qilib o'ynashyapti.",
+      "O'yin maydonchasidagi belanchak shamolda tebranib, g'ichirlagan ovoz chiqardi."
+    ],
+    "그녀": [
+      "U qiz chiroyli.",
+      "U ayol bilan uchrashdim.",
+      "U har kuni ertalab bog'da yugurish bilan shug'ullanadi.",
+      "U qiyin vaziyatlarda ham tabassumini yo'qotmaydigan ayol edi."
+    ],
+    "그늘": [
+      "Soyada dam olaman.",
+      "Daraxt soyasi salqin.",
+      "Issiq bo'lgani uchun katta daraxt soyasiga o'tirdim.",
+      "Yozda soya joylar bo'ylab yursangiz, issiq ancha kam seziladi."
+    ],
+    "그대로": [
+      "O'z holicha qoldiring.",
+      "Qanday bo'lsa, shundayligicha aytib bering.",
+      "Bu kiyim yuvilsa ham shakli o'zgarmaydi.",
+      "Eshitganlaringizni aynan o'zicha takrorlamay, o'z so'zlaringiz bilan bayon qilib ko'ring."
+    ],
+    "그래도": [
+      "Shunday bo'lsa ham mayli.",
+      "Shunday bo'lsa ham, borgim keladi.",
+      "Yomg'ir yog'yapti. Shunga qaramay, biz sayrga chiqdik.",
+      "Natija yaxshi bo'lmadi. Shunday bo'lsa ham, qo'limdan kelganicha harakat qilganimdan afsuslanmayman."
+    ],
+    "그래야": [
+      "Shunday qilish kerak.",
+      "Shundagina mazali bo'ladi.",
+      "Erta yotish kerak. Shundagina ertaga tura olaman.",
+      "Oldindan joy band qilib qo'ying. Shundagina joy topiladi."
+    ],
+    "그래프": [
+      "Grafikni ko'raman.",
+      "Grafik ko'tarilyapti.",
+      "O'qituvchi doskaga grafik chizib berdilar.",
+      "Bu grafik aholining yillar bo'yicha o'zgarishini bir qarashda ko'rsatib beradi."
+    ],
+    "그러니": [
+      "Shuning uchun ehtiyot bo'ling.",
+      "Yomg'ir yog'yapti. Shuning uchun soyabon olib keting.",
+      "Yo'llar tirband bo'ladi. Shuning uchun erta yo'lga chiqqan ma'qul.",
+      "Vaqtimiz ko'p emas. Shunday ekan, shoshilib tayyorlanaylik."
+    ],
+    "그러다가": [
+      "Shunday qilib o'tirib, mudrab qoldim.",
+      "Shunday qilib yurib, yiqilib tushadi.",
+      "Faqat o'yin o'ynayversangiz, ko'zingiz yomonlashadi. Keyin bunday davom etsangiz, afsuslanasiz.",
+      "Avvaliga yaxshi edim, keyin esa birdan boshim og'riy boshladi."
+    ],
+    "그러므로": [
+      "Shuning uchun borishim kerak.",
+      "Shuning uchun xavfsiz.",
+      "Kuchli yomg'ir yog'yapti. Shuning uchun sayrni kelasi haftaga qoldiramiz.",
+      "Atrof-muhit bir marta buzilsa, uni tiklash qiyin. Shuning uchun uni himoya qilish uchun sa'y-harakat zarur."
+    ],
+    "그러자": [
+      "Shunda kuldi.",
+      "Shunda yomg'ir to'xtadi.",
+      "Men salom berganimda do'stim jilmaydi. Shunda kayfiyat yaxshilanib ketdi.",
+      "O'qituvchi savol berdi. Shunda o'quvchilar birdaniga qo'l ko'tarishdi."
+    ],
+    "그러하다": [
+      "Shunday.",
+      "Haqiqat shunday.",
+      "Mening fikrim ham shunday. Birga boraylik.",
+      "U doim va'dasida turadigan odam edi, bu safar ham shunday bo'ldi."
+    ],
+    "그루": [
+      "Bir tup daraxt bor.",
+      "Hovlida ikki tup xurmo daraxti bor.",
+      "Biz daraxt ekish kunida uch tup daraxt ekdik.",
+      "Bobom uy oldida o'n tup olma daraxtini mehr bilan parvarish qilganlar."
+    ],
+    "그룹": [
+      "Bu bizning guruhimiz.",
+      "Guruh bo'lib yig'ilamiz.",
+      "Uch kishi bitta guruh bo'lib, taqdimot tayyorladik.",
+      "Bu yirik biznes guruhi ko'plab sho'ba kompaniyalarga ega bo'lib, xorijiy bozorlarga ham chiqqan."
+    ],
+    "그리": [
+      "Unchalik uzoq emas.",
+      "Unchalik qimmat emas.",
+      "Bu masala unchalik qiyin bo'lmagani uchun tezda yechdim.",
+      "Bugun havo unchalik sovuq bo'lmagani uchun yengil kiyinib chiqdim."
+    ],
+    "그리워하다": [
+      "Ona yurtimni sog'inaman.",
+      "Oilamni sog'inaman.",
+      "Chet elda o'qiyotgan do'stim koreys taomlarini juda sog'inadi.",
+      "U vafot etgan onasini sog'inib, har kuni uning suratiga tikilib o'tirardi."
+    ],
+    "그리하여": [
+      "Shu tariqa tugadi.",
+      "Shu tariqa kulib yubordik.",
+      "Uzoq vaqt mashq qildim. Shu tariqa musobaqada g'olib bo'ldim.",
+      "U kechayu kunduz tinmay mehnat qildi. Shu tariqa, nihoyat orzu qilgan universitetiga o'qishga kira oldi."
+    ],
+    "그림책": [
+      "Rasmli kitob o'qiyman.",
+      "Rasmli kitob qiziqarli.",
+      "Onam uxlashdan oldin rasmli kitob o'qib beradilar.",
+      "Bu rasmli kitobda bolalarga hayvonlar bilan do'stlashishga yordam beradigan iliq hikoya bor."
+    ],
+    "그립다": [
+      "Ona yurtimni sog'indim.",
+      "Onamni sog'indim.",
+      "Bolaligimda do'stlarim bilan o'ynagan kunlarimni sog'inaman.",
+      "Chet elda ishlab yurib, oilam bilan birga o'tkazgan oddiy kechki ovqatlarni sog'indim."
+    ],
+    "그만두다": [
+      "Chekishni tashlang.",
+      "Ishdan ketdim.",
+      "Sog'lig'im yomonlashgani uchun ishlab yurgan kompaniyamdan bo'shab ketdim.",
+      "U oilasi bilan ko'proq vaqt o'tkazish uchun ishdan ketishga qaror qildi."
+    ],
+    "그만큼": [
+      "Shuncha harakat qildim.",
+      "Shu qadar yaxshi ko'raman.",
+      "Qancha qattiq mashq qilgan bo'lsam, mahoratim ham shuncha oshdi.",
+      "Umidim qanchalik katta bo'lgan bo'lsa, umidsizlik ham shunchalik kuchli bo'ldi."
+    ],
+    "그저": [
+      "Shunchaki o'rtacha.",
+      "Shunchaki kulib qo'ydim.",
+      "Men shunchaki dam olishni xohlayman, xolos.",
+      "U hech narsa demay, shunchaki jimgina gaplarimni tinglab turdi."
+    ],
+    "근데": [
+      "Aytgancha, nima qilyapsiz?",
+      "Aytgancha, qayerga ketyapsiz?",
+      "Mazali. Lekin juda achchiq.",
+      "Yaxshi fikr. Lekin vaqt biroz yetmay qolmasmikan?"
+    ],
+    "근로자": [
+      "Ishchi ishlayapti.",
+      "Ishchilar band.",
+      "Bu zavod ishchilari ertalab soat sakkizda ishga kelishadi.",
+      "Ishchilar qonunga muvofiq eng kam ish haqi bilan ta'minlanish huquqiga ega."
+    ],
+    "근무": [
+      "Ish vaqti uzoq.",
+      "Shu yerda ishlayman.",
+      "Men bankda besh yildan beri ishlayapman.",
+      "Bu kompaniya moslashuvchan ish tartibini joriy etgani uchun xodimlar ish vaqtini o'zlari erkin belgilashlari mumkin."
+    ]
+  },
+  "0067": {
+    "근육": [
+      "Mushaklarim og'riyapti.",
+      "Mening mushaklarim baquvvat.",
+      "Sport bilan qattiq shug'ullanib, qo'llarimda mushak paydo bo'ldi.",
+      "Haddan ziyod mashq qilsangiz, mushaklar jarohatlanishi mumkin, shuning uchun badantarbiya bilan qizinib olish kerak."
+    ],
+    "글쎄": [
+      "Hmm, bilmadim.",
+      "Hmm, bilmadim.",
+      "Bilmadim, men u odamni yaxshi tanimayman.",
+      "Hmm, ertaga yomg'ir yog'ish-yog'masligini hech kim bilmaydi-da."
+    ],
+    "글쓴이": [
+      "Muallif kim?",
+      "Bu matnning muallifini bilasizmi?",
+      "Muallif bu matnda atrof-muhitni muhofaza qilishning ahamiyati haqida gapiradi.",
+      "Muallifning niyatini anglasangiz, matnning mavzusini osonroq tushunasiz."
+    ],
+    "글씨": [
+      "Yozuvi chiroyli.",
+      "Xat yozyapman.",
+      "Ukam juda tekis va chiroyli yozadi.",
+      "O'qituvchi yozuv juda mayda bo'lgani uchun o'qish qiyinligini aytdi."
+    ],
+    "글자": [
+      "Harflarni o'qiyman.",
+      "Harflar kichkina.",
+      "Hangul jami yigirma to'rtta harfdan iborat.",
+      "Bola birinchi marta o'z ismining harflarini o'zi mustaqil yoza oldi."
+    ],
+    "긁다": [
+      "Boshimni qashiyman.",
+      "Orqamni qashib qo'ying.",
+      "Chivin chaqib olgani uchun qo'limni tinmay qashidim.",
+      "Mushuk divanni tirnoqlari bilan tirnab, unda iz qoldirdi."
+    ],
+    "금": [
+      "Oltin qimmat.",
+      "Oltin uzuk sotib oldim.",
+      "Bu marjon oltindan yasalgan.",
+      "Oltin narxi oshishi bilan oltin sotib olib qo'ymoqchi bo'lganlar soni ortib bormoqda."
+    ],
+    "금메달": [
+      "Oltin medal yutdim.",
+      "Oltin medal yaltirayapti.",
+      "Bizning sportchimiz Olimpiadada oltin medal qo'lga kiritdi.",
+      "U yillab davom etgan mashg'ulotlardan so'ng nihoyat xalqaro musobaqada oltin medalni qo'lga kiritdi."
+    ],
+    "금액": [
+      "Summa qancha?",
+      "Summani tekshiring.",
+      "Karta bilan to'lagan summam juda ko'p chiqdi.",
+      "Shartnomada to'lanishi kerak bo'lgan summa va muddat aniq ko'rsatilgan bo'lishi kerak."
+    ],
+    "금지": [
+      "Bu yerda to'xtash taqiqlangan.",
+      "Suratga olish taqiqlanadi.",
+      "Kutubxonaga oziq-ovqat olib kirish taqiqlangan.",
+      "Avtomobil boshqarayotganda mobil telefondan foydalanish qonun bilan taqiqlangan."
+    ],
+    "급히": [
+      "Shoshilib ketyapman.",
+      "Shoshib ovqatlanmang.",
+      "Uxlab qolib, maktabga shoshilib bordim.",
+      "U kelgan qo'ng'iroqqa javob berib, shoshilinch ravishda shifoxonaga yugurdi."
+    ],
+    "긍정적": [
+      "Men ijobiy fikrlayman.",
+      "Ijobiy fikrlayman.",
+      "O'sha do'stim doim ijobiy gaplarni gapiradi.",
+      "Suhbat o'tkazuvchi nomzodning ijobiy munosabatini yuqori baholadi."
+    ],
+    "기계": [
+      "Mashina buzilib qoldi.",
+      "Bu uskunadan foydalanaman.",
+      "Zavodda katta mashinalar kun bo'yi ishlab turadi.",
+      "Yangi joriy etilgan uskuna tufayli ishlab chiqarish tezligi ikki baravar oshdi."
+    ],
+    "기념": [
+      "Esdalik uchun suratga tushamiz.",
+      "Esdalik uchun sotib oldim.",
+      "Turmush qurganimizning o'n yilligi munosabati bilan sayohatga borib keldik.",
+      "Maktab tashkil topganining yuz yilligi munosabati bilan maxsus tadbir o'tkazdi."
+    ],
+    "기념관": [
+      "Memorial muzeyga boraman.",
+      "Memorial muzey katta.",
+      "Ekskursiya bilan Mustaqillik memorial muzeyini tomosha qildik.",
+      "Bu memorial muzeyda mashhur yozuvchining shaxsiy buyumlari va qo'lyozmalari namoyish etilgan."
+    ],
+    "기념일": [
+      "Bugun bayram kuni.",
+      "Muhim sanani unutib qo'ydim.",
+      "Biz har to'y yilligimizda birga kechki ovqat qilamiz.",
+      "Sevishganlar uchrasha boshlaganlariga yuz kun to'lgan kunni ham alohida sana sifatida nishonlashadi."
+    ],
+    "기념품": [
+      "Esdalik sovg'a sotib oldim.",
+      "Esdalik sovg'alar do'koni bor.",
+      "Sayohatda do'stimga beradigan esdalik sovg'a sotib oldim.",
+      "Turistik joylarda o'sha hududning o'ziga xosligini aks ettiruvchi turli esdalik sovg'alari sotiladigan do'konlar ko'p."
+    ],
+    "기능": [
+      "Bu funksiya yaxshi.",
+      "Bu ilovada funksiyalar ko'p.",
+      "Yangi telefonda kameraning turli funksiyalari bor.",
+      "Bu robot inson nutqini tushunib, unga javob berish funksiyasiga ega."
+    ],
+    "기다": [
+      "Chaqaloq emaklayapti.",
+      "Qurt o'rmalayapti.",
+      "Chaqaloq onasi tomonga polda emaklab keldi.",
+      "Askarlar tikanli sim ostidan pastlab emaklab oldinga intilishdi."
+    ],
+    "기대": [
+      "Umidim katta.",
+      "Umid qilsangiz bo'ladi.",
+      "Ertangi sayrni juda intiqlik bilan kutyapman.",
+      "Ota-onamning mendan umidlari katta bo'lgani uchun ba'zan bu menga og'irlik qiladi."
+    ],
+    "기도": [
+      "Duo qilaman.",
+      "Ertalab ibodat qilaman.",
+      "Buvim har kuni kechqurun oila uchun duo qiladilar.",
+      "Imtihon oldidan u chin dildan ikki qo'lini birlashtirib duo qildi."
+    ],
+    "기둥": [
+      "Ustun baland.",
+      "Ustunga suyanaman.",
+      "Bu uyda katta yog'och ustunlar tomni ushlab turadi.",
+      "Qadimiy hanok uyining ustunlarida yillar izi yaqqol saqlanib qolgan edi."
+    ],
+    "기록": [
+      "Yozib qoldiraman.",
+      "Yangi rekord o'rnatildi.",
+      "Kundalikka kun davomida bo'lgan voqealarni yozib boraman.",
+      "Bu sportchi marafonda yangi jahon rekordini o'rnatib, ko'pchilikni hayratda qoldirdi."
+    ],
+    "기본": [
+      "Asos muhim.",
+      "Boshlang'ich narx qancha?",
+      "Sportni endi o'rganayotganda asoslaridan boshlab o'zlashtirish kerak.",
+      "Bu mobil telefonda standart holatda yetarlicha xotira hajmi taqdim etiladi."
+    ],
+    "기본적": [
+      "Bu asosiy narsa.",
+      "Umuman olganda yaxshi.",
+      "Asosiy salomlashish iboralarini albatta bilish kerak.",
+      "Barcha fuqarolar munosib turmush kechirish uchun zarur bo'lgan asosiy huquqqa ega."
+    ],
+    "기부": [
+      "Xayriya qildim.",
+      "Xayriya qutisi bor.",
+      "Men har oy muhtoj bolalar uchun xayriya qilaman.",
+      "U butun umri davomida yiqqan mol-mulkini universitetga stipendiya uchun xayriya qildi."
+    ],
+    "기쁨": [
+      "Quvonchim katta.",
+      "Quvonchni baham ko'ramiz.",
+      "Farzand tug'ilgandagi quvonchni so'z bilan ifodalab bo'lmaydi.",
+      "Imtihondan o'tgani haqidagi xabarni eshitgan oila a'zolari quvonchdan ko'z yosh to'kishdi."
+    ],
+    "기술": [
+      "Texnologiya rivojlandi.",
+      "Ovqat pishirish mahorati yaxshi.",
+      "Men kompyuter texnologiyalarini o'rganmoqchiman.",
+      "Bu kompaniya sun'iy intellekt texnologiyasidan foydalanib, yangi xizmat ishlab chiqdi."
+    ],
+    "기술자": [
+      "Usta keldi.",
+      "U kishi texnik mutaxassis.",
+      "Konditsioner buzilib qolgani uchun usta chaqirdim.",
+      "Tajribali usta mashinaning kichik bir tovushini eshitib ham nosozlikni aniqlay oladi."
+    ],
+    "기억": [
+      "Esimga tushdi.",
+      "Bu yaxshi xotira.",
+      "Bolaligimda dengizda o'ynagan xotiralarim hali ham yorqin.",
+      "U baxtsiz hodisadan keyin xotirasining bir qismini yo'qotgani sababli davolanmoqda."
+    ]
+  },
+  "0068": {
+    "기억나다": [
+      "Esingizdami?",
+      "Hali ham esimda.",
+      "U odamning ismi esimga kelmayapti.",
+      "Uzoq vaqtdan keyin ona yurtim ko'chalarida yurganimda, bolaligimda do'stlarim bilan o'ynaganlarim birin-ketin esimga tusha boshladi."
+    ],
+    "기억력": [
+      "Xotiram yaxshi.",
+      "Xotiram yomon.",
+      "Buvim yoshi ulug' bo'lsalar ham, xotiralari juda yaxshi.",
+      "Muntazam jismoniy mashqlar miyani faollashtirib, xotirani yaxshilashga yordam beradi."
+    ],
+    "기업": [
+      "Katta kompaniyada ishlayman.",
+      "U kompaniya mashhur.",
+      "O'qishni bitirgandan keyin yirik kompaniyaga ishga kirmoqchiman.",
+      "Bu korxona atrof-muhitni muhofaza qilishga qaratilgan ijtimoiy faoliyatda faol ishtirok etmoqda."
+    ],
+    "기업인": [
+      "U kishi tadbirkor.",
+      "Tadbirkor bilan uchrashdim.",
+      "Muvaffaqiyatli tadbirkor maktabimizga kelib, ma'ruza qildi.",
+      "Yosh tadbirkorlar innovatsion g'oyalar bilan yangi bozorlarni o'zlashtirmoqda."
+    ],
+    "기운": [
+      "Madorim yo'q.",
+      "Tetik bo'ling!",
+      "Shamollab qolib, umuman holim yo'q.",
+      "Issiq samgyetang yeganimdan keyin badanimga kuch-quvvat kirgandek bo'ldi."
+    ],
+    "기울이다": [
+      "Boshimni egaman.",
+      "Diqqat bilan tinglang.",
+      "Stakanni ozgina qiyshaytirib, suv quydim.",
+      "U suhbatdoshining gapiga diqqat bilan quloq soladigan munosabati bilan ishonch qozondi."
+    ],
+    "기준": [
+      "Me'yor nima?",
+      "Tanlash mezoni bor.",
+      "Kirish narxi yoshga qarab har xil olinadi.",
+      "Hakamlar adolatli mezonlarga asoslanib ishtirokchilarga ball qo'yishdi."
+    ],
+    "기차역": [
+      "Vokzalga boraman.",
+      "Vokzal yaqin.",
+      "Do'stimni kutib olish uchun Seul vokzaliga chiqdim.",
+      "Bu shaharning temir yo'l vokzali har kuni minglab yo'lovchilar qatnaydigan transport markazidir."
+    ],
+    "기차표": [
+      "Poyezd chiptasi sotib oldim.",
+      "Poyezd chiptasi bor.",
+      "Pusanga boradigan poyezd chiptasini oldindan band qildim.",
+      "Bayramlarda poyezd chiptasi topish qiyin bo'lgani uchun bir oy oldindan band qilish kerak."
+    ],
+    "기초": [
+      "Asos muhim.",
+      "Asosidan boshlab o'rganaman.",
+      "Men koreys tilining asoslarini o'rganyapman.",
+      "Bino qurayotganda poydevor ishlarini mustahkam bajargandagina u xavfsiz bo'ladi."
+    ],
+    "기행문": [
+      "Sayohatnoma yozaman.",
+      "Sayohatnoma o'qiyapman.",
+      "Sayohatdan qaytib, sayohatnoma yozib, o'qituvchiga topshirdim.",
+      "Bu sayohatnomada muallifning Yevropa bo'ylab sayohat qilib ko'rgan va his qilganlari jonli tasvirlangan."
+    ],
+    "기호": [
+      "Belgi yozaman.",
+      "Bu belgi nima?",
+      "Matematika darsida qo'shish belgisini o'rgandik.",
+      "Xaritada yo'llar va binolarni bildiruvchi turli shartli belgilar ko'rsatilgan."
+    ],
+    "기혼": [
+      "Men turmush qurganman.",
+      "Men turmush qurganman.",
+      "Hujjatda turmush qurgan yoki qurmaganingizni belgilang.",
+      "Bu kompaniya xodimlari orasida turmushga chiqqan ayollarning ulushi ancha yuqori."
+    ],
+    "기회": [
+      "Bu yaxshi imkoniyat.",
+      "Imkoniyatni qo'ldan boy bermang.",
+      "Bu imkoniyatdan foydalanib, Koreya madaniyatini ko'proq o'rganmoqchiman.",
+      "U qiyinchilik bilan qo'lga kiritgan imkoniyatni boy bermaslik uchun kechayu kunduz tayyorlandi."
+    ],
+    "기후": [
+      "Koreyaning iqlimi yaxshi.",
+      "Iqlimi iliq.",
+      "Bu hududning iqlimi mo''tadil bo'lgani uchun mevalar yaxshi o'sadi.",
+      "Global isish tufayli butun dunyoda iqlim tez o'zgarmoqda."
+    ],
+    "긴장감": [
+      "Hayajon bor.",
+      "Hayajonim bosildi.",
+      "Suhbatdan oldin hayajondan qo'llarim terlab ketdi.",
+      "O'yin so'nggi daqiqalariga yetganda stadionda kuchli taranglik hukm surdi."
+    ],
+    "길가": [
+      "Yo'l bo'yida gullar bor.",
+      "Yo'l bo'yida kutaman.",
+      "Yo'l bo'yida chiroyli gullar ochilib turgani uchun suratga oldim.",
+      "Yo'l chetida to'xtatib qo'yilgan mashinalar sababli yo'l torayib, harakatlanish noqulay bo'lib qolgan."
+    ],
+    "길거리": [
+      "Ko'chada ovqatlanaman.",
+      "Ko'cha gavjum.",
+      "Men ko'cha taomlarini juda yaxshi ko'raman.",
+      "Yil oxiri yaqinlashishi bilan har bir ko'chada chiroyli Rojdestvo bezaklari osildi."
+    ],
+    "길이": [
+      "Uzunligi katta.",
+      "Uzunligini o'lchayapman.",
+      "Bu shimning uzunligi juda uzun, qisqartirish kerak.",
+      "Ko'prikning uzunligi taxminan ikki kilometr bo'lib, mamlakatdagi eng uzun ko'priklardan biri hisoblanadi."
+    ],
+    "김장": [
+      "Qishga kimchi tayyorlaymiz.",
+      "Onam qish uchun kimchi tayyorlayaptilar.",
+      "Qish kirmasdan oldin butun oila yig'ilib, qishlik kimchi tayyorladik.",
+      "Qishlik kimchi tayyorlash vaqti kelganda qo'ni-qo'shnilar yig'ilib, karamni tuzlab, ziravorlar bilan aralashtirayotgan manzarani ko'rish mumkin."
+    ],
+    "깊다": [
+      "Dengiz chuqur.",
+      "Bu daryo chuqur.",
+      "Bu ko'l chuqur bo'lgani uchun unda suzish xavfli.",
+      "U do'stining gapidan keyin chuqur o'yga tolib qoldi."
+    ],
+    "깊이": [
+      "Chuqurligi qancha?",
+      "Suvning chuqurligini o'lchayapman.",
+      "Bu basseynning chuqurligi ikki metrga yetadi.",
+      "Bu kitob mavzuni chuqur yoritgani uchun ko'plab o'quvchilarning hamdardligini qozondi."
+    ],
+    "까다": [
+      "Mandarinni archaman.",
+      "Sarimsoq piyozni archyapman.",
+      "Onam qaynatilgan tuxumni archib berdilar.",
+      "Kashtan po'stini archish ko'p mehnat talab qilgani uchun buni butun oila birga o'tirib bajarardik."
+    ],
+    "까다롭다": [
+      "U injiq.",
+      "Ovqat tanlashda juda injiqman.",
+      "Mushugimiz ovqat tanlashda juda injiq.",
+      "U kompaniya yangi xodimlarni tanlash mezonlari o'ta qat'iyligi bilan mashhur."
+    ],
+    "깔다": [
+      "Ko'rpani to'shayman.",
+      "Polga gilam to'shayman.",
+      "Mehmonlar kelgani uchun mehmonxonaga ko'rpacha to'shab berdim.",
+      "Qurilish ishchilari yo'lga asfalt yotqizish uchun erta tongdan ishni boshlashdi."
+    ],
+    "깜빡": [
+      "Butunlay esimdan chiqibdi.",
+      "Chiroq birdan o'chib qoldi.",
+      "Uy vazifasini butunlay unutib, olib kelmabman.",
+      "Mashina haydab ketayotib bir lahza mudrab qolib, katta avariyaga uchrashimga sal qolgan payt bo'lgan."
+    ],
+    "깨끗이": [
+      "Toza qilib yuvaman.",
+      "Xonani toza qilib yig'ishtiraman.",
+      "Ovqatdan keyin idishlarni toza qilib yuvib qo'ydim.",
+      "Mehmonlar kelishidan oldin uyni top-toza qilib yig'ishtirib qo'ydim."
+    ],
+    "깨닫다": [
+      "Xatoimni tushunib yetdim.",
+      "Endi tushunib yetdim.",
+      "Sog'likning qadrini kasal bo'lganimdan keyingina angladim.",
+      "U muvaffaqiyatsizlikka uchraganidan keyingina hamkorlik qanchalik muhim ekanini anglab yetdi."
+    ],
+    "깨뜨리다": [
+      "Stakanni sindirib qo'ydim.",
+      "Oynani sindirib qo'ymang.",
+      "Bexosdan onam avaylab yurgan likopchani sindirib qo'ydim.",
+      "U uzoq davom etgan sukunatni buzib, ehtiyotkorlik bilan gap boshladi."
+    ],
+    "깨소금": [
+      "Qovurilgan kunjut tuzini solaman.",
+      "Kunjut tuzi xushbo'y va mazali.",
+      "Nomulga kunjut yog'i va tuzlangan qovurilgan kunjut qo'shib, aralashtirib tayyorladim.",
+      "Buvim nomul taomlarini tayyorlashda mazasi yanada xushta'm bo'lishi uchun kunjut tuzini mo'l separdilar."
+    ]
+  },
+  "0069": {
+    "깨우다": [
+      "Ertalab ukamni uyg'otaman.",
+      "Onam meni soat yettida uyg'otdilar.",
+      "Imtihon kuni bo'lgani uchun o'g'limni ertalab erta uyg'otdim.",
+      "Kecha budilnik jiringlamadi, agar hamkasbim qo'ng'iroq qilib meni uyg'otmaganida, yig'ilishga kechikishimga sal qolgan edi."
+    ],
+    "깻잎": [
+      "Kunjut bargini yaxshi ko'raman.",
+      "Go'shtni kunjut bargiga o'rab yeymiz.",
+      "Bozordan yangi kunjut barglarini olib, soya sousida tuzlab, gazak tayyorladim.",
+      "Kunjut bargining hidi o'ziga xos bo'lgani uchun uni kimdir yoqtiradi, kimdir yoqtirmaydi, lekin bir marta ta'mini topgan odam uni qayta-qayta izlaydigan sabzavotdir."
+    ],
+    "꺼지다": [
+      "Chiroq o'chdi.",
+      "To'satdan chiroq o'chib, xona qorong'i bo'lib qoldi.",
+      "Telefonim ekrani o'chib qolgani sababli muhim xabarni ololmay qoldim.",
+      "Sham o'chib qolmasligi uchun shamoldan to'sdik, lekin oxir-oqibat pilik yonib tugab, u o'chib qoldi."
+    ],
+    "껍질": [
+      "Olmaning po'stini archaman.",
+      "Banan po'stini axlat qutisiga tashlang.",
+      "Mandarin po'stini quritib qo'yib, qishda choy qilib damlab ichsangiz, tanangiz isiydi.",
+      "Kartoshkaning po'stida ozuqa moddalari ko'p bo'lgani uchun uni yaxshilab yuvib, po'sti bilan pishirgan ma'qul."
+    ],
+    "꼬리": [
+      "Kuchukcha dumini likillatyapti.",
+      "Mushukning dumi juda uzun.",
+      "Aytishlaricha, kaltakesak xavf tug'ilganda dumini o'zi uzib, qochib ketarkan.",
+      "U politsiya izini topa olmasligi uchun izlarini yo'qotib, ehtiyotkorlik bilan harakat qildi."
+    ],
+    "꼬박꼬박": [
+      "Har kuni muntazam sport bilan shug'ullanaman.",
+      "Men har oylik maosh kunida muntazam pul jamg'araman.",
+      "U birorta ham darsni qoldirmay, muntazam qatnaydigan vijdonli talaba.",
+      "Soliqlarni muntazam to'lab keladigan fuqarolar zarar ko'rmasligi uchun tizimni takomillashtirish kerak."
+    ],
+    "꼭대기": [
+      "Tog' cho'qqisiga chiqaman.",
+      "Daraxt tepasida qush o'tiribdi.",
+      "Uzoq yurib tog' cho'qqisiga yetib borganimizda, shahar bir qarashda ko'rinib turardi.",
+      "Binoning eng yuqori qavatida kuzatuv maydonchasi borligi uchun u yer har dam olish kunlari sayyohlar bilan gavjum bo'ladi."
+    ],
+    "꼴찌": [
+      "Men yugurishda oxirgi o'rindaman.",
+      "Imtihonda oxirgi o'rinni olib, xafa bo'ldim.",
+      "Marafonda oxirgi bo'lib kelgan bo'lsam ham, oxirigacha yugurganimdan faxrlandim.",
+      "U o'qishga kirgan paytda deyarli eng oxirgi o'rinda edi, ammo muntazam mehnati tufayli bitirayotganda birinchi o'rinni egalladi."
+    ],
+    "꼼꼼하다": [
+      "Ukam puxta.",
+      "O'qituvchimiz uy vazifasini sinchiklab tekshiradi.",
+      "Shartnomaga imzo chekishdan oldin uni sinchiklab o'qib chiqqan ma'qul.",
+      "U tabiatan sinchkov bo'lgani uchun eng kichik xatoni ham e'tibordan chetda qoldirmay hisobotni yakunladi."
+    ],
+    "꼼꼼히": [
+      "Kitobni sinchkovlik bilan o'qiyman.",
+      "Ketishdan oldin sumkangizni yaxshilab tekshiring.",
+      "Imtihon savollarini diqqat bilan o'qimaganim uchun xato qilib qo'ydim.",
+      "Audit guruhi so'nggi uch yillik buxgalteriya daftarlarini sinchiklab solishtirib, nomuvofiq bandlarni aniqladi."
+    ],
+    "꽃병": [
+      "Guldonga gul qo'yaman.",
+      "Stol ustida chiroyli guldon bor.",
+      "Bexosdan guldonni tushirib yuborib, polga suv to'kildi.",
+      "Bu guldon Joseon davrida yasalgan bo'lib, muzeyda qimmatbaho buyum sifatida saqlanmoqda."
+    ],
+    "꽤": [
+      "Bugun ancha sovuq.",
+      "Bu restoranning taomlari ancha mazali.",
+      "Koreys tilini o'rganayotganimga ancha bo'ldi, endi seriallarni ham ma'lum darajada tushunaman.",
+      "Avvaliga qiyin bo'ladi deb o'ylagandim, lekin amalda bajarib ko'rgach, bu ancha qiziqarli ish ekan."
+    ],
+    "꾸미다": [
+      "Xonani chiroyli qilib bezayman.",
+      "Rojdestvoda uyni archa bilan bezadik.",
+      "Do'stlarim bilan birga sinfxonani sharlar va suratlar bilan bezab, tug'ilgan kun ziyofati o'tkazdik.",
+      "U voqeani ishonarli qilib to'qib gapirdi, ammo oxir-oqibat bu yolg'on ekani ma'lum bo'ldi."
+    ],
+    "꾸준히": [
+      "Har kuni muntazam o'qiyman.",
+      "Men haftasiga uch marta muntazam suzaman.",
+      "Muntazam harakat qilganim tufayli koreys tilim ancha yaxshilandi.",
+      "Muntazam o'sib kelayotgan eksport bu yil ilk bor pasayish tendensiyasiga o'tdi."
+    ],
+    "꾸짖다": [
+      "O'qituvchi o'quvchini koyiyapti.",
+      "Otam yolg'on gapirgan ukamni koyidilar.",
+      "Ota-onalar bolani o'ylamay koyishdan ko'ra, avval sababini so'rashga harakat qilishadi.",
+      "Rahbar kichik xatoga yo'l qo'ygan xodimni hammaning oldida koyish o'rinli emas, degan xulosaga keldi."
+    ],
+    "꿀": [
+      "Choyga asal solaman.",
+      "Tomog'im og'rigani uchun iliq asalli suv ichdim.",
+      "Nonga asal surtib yesangiz shirin bo'ladi, shuning uchun nonushtaga tez-tez yeyman.",
+      "Asal uzoq saqlansa ham buzilmagani uchun qadimdan qimmatli oziq-ovqat mahsuloti hisoblanib kelgan."
+    ],
+    "꿀벌": [
+      "Asalari gulga qo'nyapti.",
+      "Asalarilar gullardan asal yig'adi.",
+      "Shu kunlarda asalarilar kamayib borayotgani uchun dehqonchilikka ta'sir qilmasmikan, deb xavotirdaman.",
+      "Asalarilar ona ari atrofida qat'iy mehnat taqsimoti tizimini tashkil etib, jamoa bo'lib yashaydi."
+    ],
+    "꿈꾸다": [
+      "Men shifokor bo'lishni orzu qilaman.",
+      "Bolaligimdan qo'shiqchi bo'lishni orzu qilardim.",
+      "Ko'plab yoshlar chet elda ishlaydigan kelajakni orzu qilib, tirishqoqlik bilan til o'rganishadi.",
+      "U hamma teng yashaydigan jamiyatni orzu qilib, butun umrini inson huquqlari harakatiga bag'ishladi."
+    ],
+    "끈": [
+      "Poyabzal ipi yechilib ketdi.",
+      "Sumkaga bog'ich bog'lab bering.",
+      "Quti ochilib ketmasligi uchun arqon bilan mahkam bog'lab, pochta orqali jo'natdim.",
+      "Alpinistlar xavfsizlik uchun ryukzaklarining tasmalarini mahkam tortib bog'lagach, tik tog' tizmasiga ko'tarila boshladilar."
+    ],
+    "끊다": [
+      "Chekishni tashladim.",
+      "Bir daqiqaga telefonni qo'yaman.",
+      "Sog'lig'im yomonlashgani uchun shifokorning maslahati bilan ichkilikni tashlashga qaror qildim.",
+      "U uzoq davom etgan nizolardan so'ng oilasi bilan aloqani butunlay uzib, chet elga ketib qoldi."
+    ],
+    "끊어지다": [
+      "Arqon uzilib ketdi.",
+      "Telefon aloqasi to'satdan uzilib qolgani uchun qaytadan qo'ng'iroq qildim.",
+      "Kuchli qor yog'ishi tufayli elektr uzilib qolib, tun bo'yi sham yoqib o'tirdik.",
+      "Ikki mamlakat o'rtasidagi diplomatik munosabatlar uzilganiga o'n yildan oshgan bo'lsa-da, xalqlar o'rtasidagi almashinuv davom etmoqda."
+    ],
+    "끊임없다": [
+      "Yomg'ir tinimsiz yog'yapti.",
+      "U do'konga mijozlar tinimsiz keladi.",
+      "Onamning tinimsiz mehri tufayli qiyin damlarga bardosh bera oldim.",
+      "Texnologik taraqqiyot tinimsiz tadqiqot va sarmoya bilan qo'llab-quvvatlangandagina davom etishi mumkin."
+    ],
+    "끌다": [
+      "Sumkani sudrab boraman.",
+      "Og'ir yukni sudrab zinadan chiqdim.",
+      "O'sha reklama o'ziga xos g'oyasi bilan odamlarning e'tiborini tortdi.",
+      "Muzokaralar uzoq cho'zilgani sababli ikki tomonning charchoqi to'planib, kelishuvga erishish yanada qiyinlashdi."
+    ],
+    "끝내": [
+      "U oxir-oqibat kelmadi.",
+      "Uzoq kutdim, lekin do'stim baribir kelmadi.",
+      "Qattiq mashq qilib, u nihoyat musobaqada g'olib bo'ldi.",
+      "Hamma voz kechishini so'rab qaytargan bo'lsa-da, u oxirigacha o'z niyatidan qaytmadi."
+    ],
+    "끼어들다": [
+      "Gapirayotganda gapni bo'lmang.",
+      "Mashina to'satdan oldimga suqilib kirgani uchun cho'chib ketdim.",
+      "Ota-onam kattalar gaplashayotganda bolaning gapga aralashmasligi kerakligini o'rgatishgan.",
+      "Yig'ilish o'rtasida u to'satdan gapga aralashib qolgani sababli muhokama oqimi butunlay uzilib qoldi."
+    ],
+    "나날이": [
+      "Chaqaloq kundan-kunga o'syapti.",
+      "Koreys tilidagi bilimim kundan-kunga oshib bormoqda.",
+      "Havo iliqlashgani sayin ko'chalarda gullar kundan-kunga ko'payib bormoqda.",
+      "Bu shaharda xorijlik sayyohlar kundan-kunga ko'payib borayotgani sababli mehmonxonalar yetishmay qolmoqda."
+    ],
+    "나들이": [
+      "Dam olish kunlari sayrga chiqaman.",
+      "Bahorda oilam bilan bog'ga sayrga chiqdik.",
+      "Havo yaxshi bo'lgani uchun tushlik tayyorlab, Xangang daryosi bo'yiga sayrga borib keldik.",
+      "Bayram ta'tilida sayrga chiqqan odamlar tufayli avtomagistralda kun bo'yi tirbandlik bo'ldi."
+    ],
+    "나름": [
+      "Men ham o'zimcha astoydil harakat qildim.",
+      "Har kimning o'ziga xos usuli bor.",
+      "Natija yaxshi bo'lmadi, lekin men o'zimcha qo'limdan kelganini qildim.",
+      "Har qanday ish qanday harakat qilishingizga bog'liq, shuning uchun boshidanoq taslim bo'lmay, urinib ko'ring."
+    ],
+    "나머지": [
+      "Qolganini ertaga yeyman.",
+      "Uy vazifasining yarmini qildim, qolganini ertaga qilaman.",
+      "Pulni hisoblab, qolganini jamg'arishga qaror qildim.",
+      "U haddan tashqari hayajonlanganidan tayyorlagan taqdimot matnini butunlay unutib qo'ydi."
+    ],
+    "나물": [
+      "Namulni yaxshi ko'raman.",
+      "Bibimbapga har xil namul solinadi.",
+      "Bahor kelganda onam tog'dan terib kelgan ko'katlardan nomul gazaklarini tayyorlab beradilar.",
+      "Jeongwol Daeboreum bayramida o'tgan yildan qolgan quritilgan ko'katlardan nomul yeb, yil davomida sog'-salomat bo'lishni tilash odati bor."
+    ]
+  },
+  "0070": {
+    "나뭇잎": [
+      "Daraxt barglari to'kilyapti.",
+      "Shamolda daraxt barglari tebranyapti.",
+      "Bolalar bog'da chiroyli barglarni terib, kitob orasiga solib qo'yishdi.",
+      "Kuz chuqurlashgani sari daraxt barglari qizarib, butun tog' xuddi bir chiroyli suratdek ko'rinardi."
+    ],
+    "나서다": [
+      "Ertalab uydan chiqaman.",
+      "Yomg'ir yog'gani uchun soyabon tutib uydan chiqdim.",
+      "Do'stim qiyin ahvolga tushganda hech kim yordam bermagani uchun o'zim bevosita kirishib yordam berdim.",
+      "Aholi atrof-muhit ifloslanishi muammosini hal qilish uchun o'zlari bevosita harakatga kirishgach, mahalliy jamiyatda o'zgarishlar boshlandi."
+    ],
+    "나아가다": [
+      "Oldinga yuraman.",
+      "Biz sekin-asta oldinga yurdik.",
+      "Qiyinchiliklar bo'lsa ham, taslim bo'lmay maqsad sari oldinga intilish kerak.",
+      "Jamiyat nizolarni yengib, birlik va hamjihatlik sari borishi kerak, degan ovozlar kuchaydi."
+    ],
+    "나아지다": [
+      "Havo yaxshilandi.",
+      "Dori ichgandan keyin ahvolim biroz yaxshilandi.",
+      "Yangi ishni boshlaganimdan beri hayotim ancha yaxshilanib, ko'nglim xotirjam bo'ldi.",
+      "Iqtisodiy vaziyat asta-sekin yaxshilanadi degan prognozlarga qaramay, oddiy aholi his qilayotgan iqtisodiy holat hamon og'irligicha qolmoqda."
+    ],
+    "나타내다": [
+      "Bu rasm qayg'uni ifodalaydi.",
+      "Qizil rang xavfni bildiradi.",
+      "U minnatdorchiligini bildirish uchun kichik sovg'a tayyorladi.",
+      "Bu grafik so'nggi besh yildagi aholi o'zgarishi tendensiyasini bir qarashda tushunish mumkin bo'lgan tarzda ko'rsatib beradi."
+    ],
+    "낙서": [
+      "Partaga chizmang.",
+      "Bola devorga chizib qo'ygani uchun tanbeh oldi.",
+      "Zerikarli dars paytida daftarga chizg'ilab o'tirib, o'qituvchiga tutilib qoldim.",
+      "Jamoat inshootlariga yozuv-chizmalar chizish mulkka zarar yetkazish deb hisoblanib, jazoga tortilishi mumkin."
+    ],
+    "낙엽": [
+      "Xazonlar to'kilyapti.",
+      "Kuzda bog'da xazonlar ustidan yurdim.",
+      "Yo'lda uyulib qolgan xazonlarni supurib yig'ish bilan ertalabdan beri ancha terladim.",
+      "To'kilgan barglar chirishidan hosil bo'lgan chirindi o'simliklar o'sishi uchun zarur bo'lgan ozuqa moddalarini beradi."
+    ],
+    "난로": [
+      "Pech oldida o'tiraman.",
+      "Sovuq bo'lgani uchun isitgichni yoqdim.",
+      "Qishda pech yonida yig'ilib o'tirib, batat pishirib yerdik.",
+      "Isitgichni yoqiq qoldirib uydan chiqib ketsangiz, yong'in chiqish xavfi bor, shuning uchun uning o'chirilganini albatta tekshiring."
+    ],
+    "난방": [
+      "Isitishni yoqaman.",
+      "Bu uyning isitish tizimi yaxshi ishlaydi, shuning uchun issiq.",
+      "Qishda isitish uchun to'lov juda ko'p kelgani uchun oila a'zolari xavotirda.",
+      "Energiya narxlari keskin oshishi bilan uylarda isitishdan foydalanishni kamaytirishga intilish keng tarqalmoqda."
+    ],
+    "날개": [
+      "Qushning qanoti bor.",
+      "Kapalak chiroyli qanotlarini yoyyapti.",
+      "Farishta rasmida oppoq qanotlar chizilgan, shuning uchun bolalar qiziqib qarashadi.",
+      "Samolyot qanotining tuzilishi havo oqimidan foydalanib ko'tarish kuchini hosil qila oladigan qilib loyihalangan."
+    ],
+    "날다": [
+      "Qush uchyapti.",
+      "Samolyot osmonda uchyapti.",
+      "Bolaligimda osmonda uchayotganimni tez-tez tushimda ko'rardim, shunchalik yorqin ediki, uyg'onganimdan keyin ham esimda qolardi.",
+      "Ko'chmanchi qushlar fasl o'zgarishi bilan minglab kilometr uchib, iliq joylarga ko'chib o'tadi."
+    ],
+    "날로": [
+      "Narxlar kundan-kunga oshyapti.",
+      "Bizning mahallamiz kundan-kunga rivojlanmoqda.",
+      "Shu kunlarda mayda chang muammosi kundan-kunga jiddiylashib borayotgani uchun niqob taqish shart.",
+      "Onlayn savdo kundan-kunga kengayib borgani sari an'anaviy bozorlarning savdo hajmi tez kamaymoqda."
+    ],
+    "날리다": [
+      "Varrak uchiraman.",
+      "Shamol esib, shlyapamni uchirib ketdi.",
+      "Bog'da bolalar qog'ozdan samolyot yasab, osmonga uchirib, maza qilib o'ynashdi.",
+      "U uzoq yillar yiqqan boyligini chayqovchilikka sovurib, qashshoq bo'lib qoldi."
+    ],
+    "날씬하다": [
+      "Opam qomatli.",
+      "Ozg'in bo'lishni istaganim uchun har kuni sport bilan shug'ullanaman.",
+      "Modellardek qomatni saqlab qolish uchun ovqatlanishini nazorat qiladigan odamlar ko'p.",
+      "Faqat nozik qomatni go'zallik mezoni deb biladigan jamiyat qarashi ko'pchilikka ruhiy bosim o'tkazadi."
+    ],
+    "날아가다": [
+      "Qush uchib ketyapti.",
+      "Havo shari osmonga uchib ketdi.",
+      "Birdan kuchli shamol esib, shlyapam uzoqqa uchib ketdi.",
+      "Ko'chmanchi qushlar galasining janubga uchib ketishi fasllar almashinuvidan darak beruvchi belgi hisoblangan."
+    ],
+    "날아다니다": [
+      "Kapalak uchib yuribdi.",
+      "Bog'da asalarilar uchib yuribdi.",
+      "Yoz kechalarida o't-o'lanlar orasida uchib yurgan yaltiroq qo'ng'izlarni ko'rish mumkin.",
+      "U yaylov uzra erkin uchib yurgan qushlarni ko'rib, hech qanday cheklovlarsiz hayotga havas qildi."
+    ],
+    "날아오다": [
+      "To'p uchib kelyapti.",
+      "Derazadan qush uchib kirdi.",
+      "Futbol tomosha qilib o'tirganimda birdan to'p uchib kelib, cho'chib ketdim.",
+      "Uzoq shimoldan uchib kelgan ko'chmanchi qushlar ko'l bo'yiga to'planib, qishni o'tkazmoqda."
+    ],
+    "날아오르다": [
+      "Qush osmonga ko'tarilib uchyapti.",
+      "Kaptarlar birdaniga osmonga ko'tarilib uchdi.",
+      "Uchish yo'lagida yugurib borayotgan samolyot shiddat bilan havoga ko'tarilganda yo'lovchilar qarsak chalishdi.",
+      "Sportchi tramplindan bor kuchi bilan havoga ko'tarilib, jahon rekordini o'rnatdi va tomoshabinlarni hayajonga soldi."
+    ],
+    "낡다": [
+      "Bu sumka eskirgan.",
+      "Eski poyabzalimni tashlab, yangisini sotib oldim.",
+      "Bobomning uyi eski bo'lsa ham, unda ko'p yillik xotiralar borligi uchun u yerni yaxshi ko'raman.",
+      "Eskirgan binoni buzib, uning o'rnida ko'p funksiyali madaniyat maskanini barpo etish loyihasi amalga oshirilmoqda."
+    ],
+    "남녀노소": [
+      "Katta-kichik, erkak-ayol hammasi yaxshi ko'radi.",
+      "Bu qo'shiqni yoshu qari, erkagu ayol hamma biladi.",
+      "Bu bog' yoshu qari, erkagu ayol, hamma bemalol dam oladigan maskan.",
+      "Festivalda yoshi va jinsidan qat'i nazar son-sanoqsiz fuqarolar ishtirok etib, bir yoqadan bosh chiqarib dam olishdi."
+    ],
+    "남녀평등": [
+      "Erkak va ayollar tengligi muhim.",
+      "Maktabimizda erkak va ayollar tengligi o'rgatiladi.",
+      "Hozir uy ishlarini ham erkak va ayol tengligi nuqtai nazaridan birgalikda bo'lishadigan oilalar ko'payib bormoqda.",
+      "Konstitutsiyada erkak va ayol tengligi tamoyili mustahkamlab qo'yilgan, ammo amalda hamon tafovut mavjud."
+    ],
+    "남다": [
+      "Ovqat ortib qoldi.",
+      "Biroz vaqt ortib qolgani uchun qahva ichdim.",
+      "Uyda yolg'iz qolganimda birdan o'zimni yolg'iz his qildim.",
+      "Bu hodisada ko'pchilik jarohat oldi va uning izlari mahalliy jamiyatda uzoq vaqt saqlanib qolsa kerak."
+    ],
+    "남부": [
+      "Men Koreyaning janubida yashayman.",
+      "Janubiy hududlarda qishda ham iliq bo'ladi.",
+      "Bu dam olish kuni Italiyaning janubiga sayohatga borib, dengiz mahsulotlaridan tayyorlangan taomlar yemoqchiman.",
+      "To'fon janubiy hududlarga kuchli zarba bergani sababli ko'plab joylarni suv bosib, aholi evakuatsiya qilindi."
+    ],
+    "남성": [
+      "Ana u erkak o'qituvchi.",
+      "Bu do'konning erkak mijozlari ko'p.",
+      "Hozir bola parvarishi ta'tilidan foydalanadigan erkaklar ko'payib, oilaviy madaniyat ham o'zgarmoqda.",
+      "Erkaklar va ayollar ish haqi o'rtasidagi farqni kamaytirish uchun huquqiy mexanizmlar yaratilishi kerak, degan fikr ilgari surildi."
+    ],
+    "남성복": [
+      "Erkaklar kiyimi do'koniga boraman.",
+      "Otamga sovg'a qilish uchun erkaklar kiyimi sotib oldim.",
+      "Bu univermagning uchinchi qavatida rasmiy kostyumdan tortib kundalik kiyimgacha turli erkaklar kiyimi do'konlari bor.",
+      "So'nggi paytlarda erkaklar kiyimi bozori qulaylik va amaliylikni muhim deb biladigan iste'molchilar didining o'zgarishiga moslashib qayta shakllanmoqda."
+    ],
+    "낫다": [
+      "Shamollashim tuzaldi.",
+      "Bu kiyim u kiyimdan yaxshiroq.",
+      "Shifoxonaga qatnab davolanganim tufayli belimdagi og'riq butunlay tuzaldi.",
+      "Bu kasallikni to'liq davolash oson emas, shuning uchun tuzalgunga qadar muntazam parvarish va sabr-toqat zarur."
+    ],
+    "낭비": [
+      "Suvni isrof qilish mumkin emas.",
+      "Vaqtni behuda sarflamang.",
+      "Kerak bo'lmagan narsalarni tinmay sotib olish pulni isrof qilish deb o'ylayman.",
+      "Ma'muriy tartib-taomillar murakkabligi sababli inson resurslari va byudjet jiddiy isrof bo'layotgani haqidagi tanqidlar ketma-ket yangramoqda."
+    ],
+    "낯설다": [
+      "Bu joy menga notanish.",
+      "Birinchi marta kelgan shahar bo'lgani uchun ko'chalar juda notanish.",
+      "Yangi maktabga birinchi borganimda hamma narsa notanish bo'lgani uchun gapira ham olmadim.",
+      "Chet elda yashashning dastlabki davrida begona madaniyat va til tufayli ancha-muncha stressga duch kelish tabiiy."
+    ],
+    "낳다": [
+      "Mushuk bolaladi.",
+      "Opam o'tgan oy farzand ko'rdi.",
+      "Bitta kichik xato kutilmaganda katta muammoni keltirib chiqarishi mumkin, shuning uchun ehtiyot bo'lish kerak.",
+      "Tug'ilish darajasining pasayishi ishchi kuchining kamayishi va ijtimoiy ta'minot tizimidagi nomutanosiblik kabi salbiy oqibatlarni keltirib chiqarmoqda."
+    ],
+    "내내": [
+      "Kun bo'yi yomg'ir yog'yapti.",
+      "Dam olish kunlari davomida uyda dam oldim.",
+      "Yozgi ta'til davomida yarim kunlik ishda ishlab pul yig'dim, lekin dam ololmadim.",
+      "U yig'ilish davom etgan butun vaqt mobaynida bir og'iz ham gapirmay, faqat derazadan tashqariga qarab o'tirdi."
+    ]
+  },
+  "0071": {
+    "내려다보다": [
+      "Derazadan pastga qarayman.",
+      "Tog' tepasidan qishloqqa qaradim.",
+      "Baland binoning tomidan shaharga qarasam, odamlar chumolidek kichkina ko'rindi.",
+      "U boshqalarga yuqoridan qaragandek munosabati tufayli hamkasblarida yaxshi taassurot qoldira olmadi."
+    ],
+    "내복": [
+      "Sovuq bo'lgani uchun issiq ichki kiyim kiyaman.",
+      "Qishda issiq ichki kiyim kiysangiz, iliq bo'ladi.",
+      "Onam shamollamagin deb qalin issiq ichki kiyim sotib olib yuboribdilar.",
+      "Isitish xarajatlarini tejash uchun issiq ichki kiyim kiyib, xonadagi haroratni pasaytirishga chaqiruvchi aksiya o'tkazildi."
+    ],
+    "내부": [
+      "Binoning ichi keng.",
+      "Bu do'konning ichi juda toza.",
+      "Aytishlaricha, ichki ta'mirlash ishlari olib borilayotgani uchun bugun muzeyga kirib bo'lmas ekan.",
+      "Kompaniya ichidagi nizolar tashqariga oshkor bo'lgach, korxonaga bo'lgan ishonch keskin pasaydi."
+    ],
+    "내성적": [
+      "Men tortinchoqman.",
+      "Tortinchoq do'stim unchalik ko'p gapirmaydi.",
+      "Tortinchoq xarakterim tufayli yangi tanishgan odamlar bilan gaplashish men uchun qiyin.",
+      "Tortinchoq odam albatta passiv bo'ladi degani emas, ular ko'pincha yolg'iz qolgan vaqtlarida kuch-quvvat oladilar."
+    ],
+    "내용물": [
+      "Sumkadagi narsalarni ko'rsating.",
+      "Quti ichidagi narsalar sinib qolibdi.",
+      "Posilkani ochib qarasam, ichidagi narsa shikastlangan ekan, darhol mijozlarga xizmat ko'rsatish markaziga qo'ng'iroq qildim.",
+      "Tekshiruv punktida sumka ichidagi narsalarni chiqarib, xavfsizlik tekshiruvidan o'tish kerak."
+    ],
+    "내쫓다": [
+      "Itni uydan haydab chiqarmang.",
+      "Do'kon egasi shovqin qilgan mijozni do'kondan haydab chiqardi.",
+      "Uy egasi ijara haqini to'lay olmagan ijarachini to'satdan haydab chiqargani sababli katta shov-shuv bo'ldi.",
+      "Kompaniya xodimlarni kasaba uyushmasi faoliyati sababli ishdan haydab chiqargani ma'lum bo'lgach, jamoatchilik tanqidi kuchaydi."
+    ],
+    "냇가": [
+      "Soy bo'yida o'ynayman.",
+      "Yozda soy bo'yida baliq tutdik.",
+      "Qishloqdagi buvimning uyi yaqinidagi soy bo'yida bolalar suv sachratib, maza qilib o'ynashyapti.",
+      "Soy bo'ylab barpo etilgan sayr yo'lagi aholi sevib boradigan dam olish maskaniga aylandi."
+    ],
+    "냉방병": [
+      "Konditsioner kasalligiga chalindim.",
+      "Konditsioner ostida uzoq o'tirsangiz, konditsioner kasalligiga chalinasiz.",
+      "Ofisdagi konditsioner juda kuchli bo'lgani uchun bir necha kundan beri konditsioner kasalligidan boshim og'riyapti.",
+      "Konditsioner kasalligi xona ichi va tashqarisidagi harorat farqi katta bo'lganda vegetativ asab tizimidagi buzilish natijasida yuzaga keladigan xastalikdir."
+    ],
+    "너그럽다": [
+      "Bobomiz keng qalbli.",
+      "O'qituvchimiz o'quvchilarning xatolariga kechirimli munosabatda bo'ladilar.",
+      "U boshqalarning xatosini kechirimlilik bilan tushunadigan keng qalbli inson.",
+      "Boshqalarning fikriga bag'rikenglik bilan munosabatda bo'lingandagina konstruktiv munozara mumkin bo'ladi."
+    ],
+    "너무나": [
+      "Bu qo'shiq juda yaxshi.",
+      "Bugun haddan tashqari charchaganim uchun erta yotdim.",
+      "Koreyada o'tkazayotgan vaqtim shunchalik maroqliki, qaytib ketishga ko'nglim bo'lmayapti.",
+      "Uning vafoti shu qadar kutilmagan bo'ldiki, oila a'zolari qayg'udan o'zlariga kelishga ham ulgurishmadi."
+    ],
+    "넉넉하다": [
+      "Vaqt yetarli.",
+      "Bu kiyimning o'lchami keng.",
+      "Uchrashuv vaqtigacha vaqt yetarli, bir piyola kofe ichib, shoshilmay boraylik.",
+      "Turmush sharoiti unchalik to'q bo'lmasa-da, u muhtoj qo'shnilarga yordam berishni biror marta ham kechiktirmadi."
+    ],
+    "널다": [
+      "Kirni yoyaman.",
+      "Ko'rpani quyoshga yoyib qo'ydim.",
+      "Yomg'ir to'xtagandan keyin ho'l poyabzalni hovliga yoyib qo'yib, quritdim.",
+      "Onam har kuni erta tongda toza yuvilgan kiyimlarni hovlidagi kir ipiga yoyib, kunlarini boshlardilar."
+    ],
+    "넓히다": [
+      "Yo'lni kengaytiramiz.",
+      "Bu xonani yanada kengaytirmoqchiman.",
+      "Ko'p sayohat qilib, dunyoqarashimni kengaytira oldim.",
+      "Shahar hokimiyati yo'llarni kengaytirish ishlari orqali tirbandlikni kamaytirish rejasini e'lon qildi."
+    ],
+    "넘기다": [
+      "Kitob varag'ini ag'daraman.",
+      "Bu hujjatni mas'ul xodimga topshiring.",
+      "Uchrashuv vaqtidan kechikib kelganim sababli do'stim ancha kutishiga to'g'ri keldi.",
+      "U inqirozdan zo'rg'a qutulib chiqqanidan keyingina qanchalik katta xavf ostida qolganini angladi."
+    ],
+    "넘어가다": [
+      "Keyingi savolga o'tamiz.",
+      "Bu safargi ishni shunchaki e'tiborsiz qoldiraman.",
+      "Dovondan oshib o'tadigan yo'l xatarli bo'lgani uchun mashina haydashga ko'p vaqt ketdi.",
+      "Yig'ilish kun tartibidagi masala yetarlicha muhokama qilinmay turib, keyingi bandga o'tib ketdi."
+    ],
+    "넘치다": [
+      "Suv toshib ketyapti.",
+      "Stakandan sut toshib ketdi.",
+      "Ko'p yomg'ir yog'ib, daryo toshib ketgani sababli qishloq yo'llarini suv bosdi.",
+      "U o'ziga ishonchi to'lib-toshgan holda suhbat o'tkazuvchilarning savollariga qoqilmay javob berdi."
+    ],
+    "네모나다": [
+      "Bu quti to'rtburchak.",
+      "Uyimizdagi ovqat stoli to'rtburchak shaklda.",
+      "Bola to'rtburchak chizma qog'ozga yumaloq quyosh va uchburchak tom chizdi.",
+      "To'rtburchak binolar zich joylashgan shahar markazi quruq va sovuq taassurot qoldiradi, lekin tun kirishi bilan chiroqlardan yarqirab ketadi."
+    ],
+    "네트워크": [
+      "Tarmoq sekin.",
+      "Maktabimizning internet tarmog'i tez.",
+      "Kompaniya tarmog'ida muammo yuzaga kelib, ertalab bo'yi internetdan foydalana olmadik.",
+      "Turli sohalardagi mutaxassislar bilan aloqalar tarmog'ini shakllantirish karyerani rivojlantirishda katta yordam beradi."
+    ],
+    "년대": [
+      "Men to'qsoninchi yillarda tug'ilganman.",
+      "Saksoninchi yillar qo'shiqlarini tez-tez tinglayman.",
+      "Otam yetmishinchi yillarda qishloqdan Seulga kelib, ish qidirganlar.",
+      "Koreya iqtisodiyoti oltmishinchi yillardan keyin jadal sanoatlashuvni boshdan kechirib, ko'zni qamashtiruvchi o'sishga erishdi."
+    ],
+    "노동": [
+      "Mehnat og'ir.",
+      "U kuniga sakkiz soat mehnat qiladi.",
+      "Bolalarga mehnatning qadrini o'rgatish uchun uy ishlarini bo'lib topshiryapmiz.",
+      "Uzoq soatlik mehnatning sog'liqqa zararli ta'siri tasdiqlangach, ish vaqtini qisqartirish bo'yicha muhokamalar faollashdi."
+    ],
+    "노동자": [
+      "Otam ishchi.",
+      "Zavod ishchilari bugun dam olishyapti.",
+      "Qurilish maydonida ishlaydigan ishchilar himoya kaskasini albatta kiyishlari shart.",
+      "Ishchilar huquqlarini himoya qilish uchun eng kam ish haqi tizimi va ishlab chiqarishdagi baxtsiz hodisalar uchun kompensatsiya tizimi amal qilmoqda."
+    ],
+    "노력": [
+      "Harakat muhim.",
+      "Harakat qilsangiz, koreys tilini yaxshi o'rganishingiz mumkin.",
+      "Doimiy harakati tufayli u nihoyat orzu qilgan universitetiga o'qishga kirdi.",
+      "Har qanday katta iste'dod ham tinimsiz mehnat bilan qo'llab-quvvatlanmasa, namoyon bo'lishi qiyin."
+    ],
+    "노선": [
+      "Bu avtobus yo'nalishi uzun.",
+      "Metroning ikkinchi liniyasi yo'nalishini tekshirdim.",
+      "Yangi avtobus yo'nalishi ochilib, maktabga borish ancha qulay bo'ldi.",
+      "Shahar hokimiyati yo'lovchilar kam bo'lgan yo'nalishlarni bekor qilib, talab yuqori bo'lgan hududlarda yangi yo'nalishlar ochishga qaror qildi."
+    ],
+    "노약자": [
+      "Bu yer qariyalar va zaif kishilar uchun joy.",
+      "Metroda qariyalar va zaif kishilarga joy bo'shatib berdim.",
+      "Avtobusda qariyalar va zaif kishilar uchun alohida o'rindiqlar ajratilgan, shuning uchun ularni bo'sh qoldirgan ma'qul.",
+      "Jazirama issiq haqida maxsus ogohlantirish e'lon qilinsa, keksalar va zaif kishilar iloji boricha ochiq havodagi faoliyatdan tiyilishlari so'raldi."
+    ],
+    "노인": [
+      "Qariya yurib ketyapti.",
+      "Mahallamizda qariyalar ko'p.",
+      "Ko'chada yuk ko'tarib ketayotgan qariyani uchratib, uyigacha yukini birga ko'tarib bordim.",
+      "Aholi qarishi jadal kechayotgani sababli keksalarni ijtimoiy ta'minlash va tibbiy xizmatlarga bo'lgan talab keskin oshmoqda."
+    ],
+    "노처녀": [
+      "Ilgari \"qari qiz\" deyishardi.",
+      "Xolam yoshi o'tib qolgan bo'lsa ham turmush qurmagan, lekin baxtli yashaydi.",
+      "Serialdagi bosh qahramon atrofdagilarning nigohiga parvo qilmaydigan, o'ziga ishongan, yoshi o'tib qolgan turmushga chiqmagan ayol.",
+      "Ilgari turmush qurish yoshidan o'tgan ayollarni \"qari qiz\" deb atab, kamsitish holatlari bo'lgan, ammo hozir bu deyarli yo'qolib ketgan."
+    ],
+    "노총각": [
+      "Amakim uylanmagan keksa yigit.",
+      "Mahallamizda yoshi o'tib ketgan bo'ydoq yigit yashaydi.",
+      "Do'stim uylanmagani uchun atrofdagilar uni \"qari bo'ydoq\" deb mazax qilishadi, lekin u bunga e'tibor bermaydi.",
+      "Qishloqlarda uylanish yoshidan o'tib ketgan bo'ydoq erkaklar ko'payishi bilan xalqaro nikohlar soni ortishi kuzatildi."
+    ],
+    "노트북": [
+      "Noutbukdan foydalanaman.",
+      "Kafeda noutbukda uy vazifasini bajardim.",
+      "Noutbukimning batareyasi tez tugagani uchun quvvatlagichni doim sumkamda olib yuraman.",
+      "Masofaviy ish keng tarqalgach, ham ixcham, ham unumdor noutbuklarga talab sezilarli darajada oshdi."
+    ],
+    "녹다": [
+      "Muz eriyapti.",
+      "Issiqda muzqaymoq butunlay erib ketdi.",
+      "Bahor kelishi bilan tog' cho'qqisida to'planib qolgan qor erib, soy bo'lib oqdi.",
+      "Shakar suvda yaxshi eriydi, lekin moyda erimaslik xususiyatiga ega."
+    ],
+    "녹음": [
+      "Qo'shiqni yozib olaman.",
+      "Dars mazmunini yozib olib, uyda qaytadan tingladim.",
+      "Yozib olingan intervyuni qayta tinglab, o'tkazib yuborgan joylarimni tartibga solib qo'ydim.",
+      "Telefon suhbatini roziliksiz yozib olib, oshkor qilish huquqiy nizolarga olib kelishi mumkin."
+    ]
+  },
+  "0072": {
+    "녹음기": [
+      "Diktofon bor.",
+      "O'qituvchi diktofonni yoqib, darsni boshladi.",
+      "Intervyudan oldin diktofonning batareyasi yetarli ekanligini albatta tekshirish kerak.",
+      "Jurnalist kichik diktofonni cho'ntagiga yashirib, voqea joyidagi suhbatlarni yozib oldi."
+    ],
+    "논문": [
+      "Ilmiy maqola yozaman.",
+      "Men universitetda ilmiy maqolalar o'qiyman.",
+      "O'qishni bitirish arafasida dissertatsiya mavzusini tanlash uchun bir necha hafta bosh qotirdim.",
+      "Ilmiy jurnalda chop etilgan maqolalar taqrizdan o'tkazilib, ularning ilmiy asoslanganligi tekshiriladi."
+    ],
+    "놀랍다": [
+      "U xabar hayratlanarli.",
+      "Uning qo'shiq aytish mahorati haqiqatan ham hayratlanarli.",
+      "Qisqa vaqt ichida koreys tilini shunchalik yaxshi o'rganib olganingiz haqiqatan ham hayratlanarli.",
+      "Sun'iy intellekt inson kabi muloqot qila oladigan hayratlanarli darajaga yetgani sari u bilan bog'liq axloqiy bahslar ham kuchayib bormoqda."
+    ],
+    "놀리다": [
+      "Do'stingizni masxara qilmang.",
+      "Akam soch turmagimni ko'rib, meni masxara qildi.",
+      "Bolalar bo'yi past deb mazax qilgani uchun ukam maktabdan yig'lab qaytdi.",
+      "Birovning tashqi ko'rinishi yoki gapirish uslubini masxara qilish shunchaki hazil emas, balki unga chuqur jarohat yetkazadigan zo'ravonlik bo'lishi mumkin."
+    ],
+    "놀이": [
+      "Bolalar o'ynayapti.",
+      "Biz bog'da qiziqarli o'yin o'ynadik.",
+      "Koreyaning an'anaviy o'yini yunnori Yangi yil (Sollal) bayramida oila bilan birga o'ynaladigan eng mashhur o'yindir.",
+      "Bolalar o'yin orqali muloqot ko'nikmalari va ijodkorlikni rivojlantirib, his-tuyg'ularini ifodalashni o'rganadilar."
+    ],
+    "놀이터": [
+      "O'yin maydonchasiga boraman.",
+      "Bolalar o'yin maydonchasida belanchak uchishyapti.",
+      "Yomg'ir to'xtashi bilan bolalar to'p-to'p bo'lib o'yin maydonchasiga yugurib chiqib, sirpanchiqda uchishdi.",
+      "Turar-joy majmuasi hududida xavfsiz bolalar o'yin maydonchasi qurilib, bolalarning bemalol yugurib o'ynashlari uchun sharoit yaratildi."
+    ],
+    "놈": [
+      "Ana u bola kim?",
+      "Otam sho'x ukamga \"Voy, shumtaka-ey\" deb kuldilar.",
+      "Bobom imtihondan o'tgan nevarasiga qarab, \"Barakalla, azamat bola!\" deb kuldilar.",
+      "Serialdagi yovuz qahramon odamlarni aldab qochib ketgan razil odam sifatida tasvirlanib, keskin tanqidga uchradi."
+    ],
+    "농담": [
+      "Bu hazil.",
+      "Do'stim qiziq hazil aytdi.",
+      "U yaxshi hazil qilgani uchun qayerga bormasin, muhitni ko'tarib yuboradi.",
+      "Hazil tariqasida aytilgan bir og'iz so'z suhbatdoshga chuqur jarohat yetkazishi mumkinligini yodda tutish kerak."
+    ],
+    "농민": [
+      "Dehqon ishlayapti.",
+      "Dehqonlar sholipoyada ko'chat ekishyapti.",
+      "Bu yil yomg'ir kam yoqqani uchun dehqonlar dehqonchilik qilishda ko'p qiyinchiliklarga duch kelishmoqda.",
+      "Hukumat guruch narxi tushib ketishi sababli qiynalayotgan dehqonlarga yordam berish uchun subsidiyalar berishni kengaytirishga qaror qildi."
+    ],
+    "농부": [
+      "Dehqon dalaga ketyapti.",
+      "Dehqon erta tongda sigirni haydab chiqib ketdi.",
+      "Fermer amaki astoydil o'stirgan olmalarini o'zlari olib kelib berganlari uchun juda minnatdor bo'ldim.",
+      "Yosh fermerlar ilg'or texnologiyalardan foydalanadigan aqlli qishloq xo'jaligiga qo'l urib, qishloqlarga yangi hayot baxsh etmoqda."
+    ],
+    "농사": [
+      "Bobom dehqonchilik qiladi.",
+      "Bu qishloq aholisining ko'pchiligi dehqonchilik bilan shug'ullanadi.",
+      "Bu yil havo yaxshi kelgani uchun hosil yaxshi bo'ldi deb qishloqdagi xolam xursand bo'ldilar.",
+      "Qurg'oqchilik davom etayotgani sababli dehqonchilik uchun zarur suvni ta'minlash fermer xo'jaliklarining eng katta muammosiga aylandi."
+    ],
+    "농약": [
+      "Pestitsidlar xavfli.",
+      "Mevalarni yeyishdan oldin pestitsidlarni yuvib tashlang.",
+      "Pestitsidsiz yetishtirilgan sabzavot bo'lgani uchun biroz qimmat bo'lsa ham ataylab sotib olib yeyman.",
+      "Pestitsidlardan haddan ortiq foydalanish tuproqning ifloslanishi va ekotizimning buzilishiga olib kelib, inson sog'lig'iga ham salbiy ta'sir ko'rsatadi."
+    ],
+    "농작물": [
+      "Ekinlar o'syapti.",
+      "Yomg'ir yog'gani uchun ekinlar yaxshi o'sadi.",
+      "Aytishlaricha, to'satdan tushgan qirov tufayli bu yil ekinlarga yetgan zarar o'tgan yillardagidan katta ekan.",
+      "To'fon tufayli ekinlar yotib qolib, suv bosgani sababli fermer xo'jaliklari ulkan iqtisodiy zarar ko'rdi."
+    ],
+    "농촌": [
+      "Men qishloqda yashayman.",
+      "Qishloqda havo toza.",
+      "Har ta'tilda qishloqdagi buvimning uyiga borib, ishlariga qarashib yuborardim.",
+      "Qishloq aholisining kamayishi va qarishi sababli bo'sh uylar ko'payib, qishloqdagi jamoaviy hayot susayib bormoqda."
+    ],
+    "높이": [
+      "Qush baland uchyapti.",
+      "Bu binoning balandligi yuz metr.",
+      "Stulning balandligini sozlash mumkin bo'lgani uchun bo'yi har xil odamlar ham qulay o'tira oladi.",
+      "Bu minora balandligi o'ttiz metrga yetadigan tosh inshoot bo'lib, o'sha davrning yuksak texnik mahoratini namoyon etadi."
+    ],
+    "높이다": [
+      "Ovozimni ko'taraman.",
+      "O'qituvchi ovozini ko'tarib gapirdi.",
+      "Kompaniya mahsulot sifatini oshirish uchun yangi uskunalarga sarmoya kiritishga qaror qildi.",
+      "Hukumat tug'ilish darajasini oshirish maqsadida bola parvarishini qo'llab-quvvatlash siyosatini keskin kengaytirishini e'lon qildi."
+    ],
+    "높임말": [
+      "Koreys tilida hurmat shakli bor.",
+      "Kattalar bilan hurmat shaklida gaplashish kerak.",
+      "Koreys tilini o'rganayotganda hurmat shakllarini qo'llash qoidalari dastlab juda qiyin tuyulgan edi.",
+      "Hurmat shakli shunchaki til shakli emas, balki suhbatdoshga bo'lgan hurmat va ijtimoiy munosabatlarni aks ettiruvchi vositadir."
+    ],
+    "놓이다": [
+      "Stol ustida kitob turibdi.",
+      "Stolga mazali taomlar qo'yildi.",
+      "Eshik oldida notanish posilka qutisi turgan ekan, kim yuborganiga qiziqib qoldim.",
+      "U adolatli raqobat qilish imkonsiz bo'lgan noqulay ahvolga tushib qolganini aytib, nolidi."
+    ],
+    "놓치다": [
+      "Avtobusdan qolib ketdim.",
+      "Uxlab qolib, poyezdga kechikdim.",
+      "Bu yaxshi imkoniyatni qo'ldan boy bersam afsuslanadigandek tuyulib, shoshilib ariza topshirdim.",
+      "U asosiy mazmunni o'tkazib yubormaslik uchun ma'ruzani tinglayotib, sinchiklab konspekt yozdi."
+    ],
+    "눈길": [
+      "Qorli yo'l sirpanchiq.",
+      "Bolaning shirin qiyofasi odamlarning e'tiborini tortdi.",
+      "Qor ko'p yoqqan kunlari qorli yo'lda sirpanib jarohat olmaslik uchun ehtiyot bo'lib yurish kerak.",
+      "U film o'ziga xos tasviriy go'zalligi bilan tanqidchilar e'tiborini tortib, namoyishining ilk haftasidanoq shov-shuvga sabab bo'ldi."
+    ],
+    "눈높이": [
+      "Ko'z balandligimiz bir xil.",
+      "O'qituvchi bolaning ko'z darajasiga tushib o'tirdi.",
+      "Bolalar bilan gaplashganda ularning tushunish darajasiga moslab, oddiy so'zlar bilan tushuntirgan ma'qul.",
+      "Iste'molchilar ehtiyojiga mos ma'muriy xizmatlar ko'rsatish maqsadida murojaatlarni ko'rib chiqish tartibi ancha soddalashtirildi."
+    ],
+    "눈병": [
+      "Ko'z kasalligiga chalindim.",
+      "Ko'zim kasal bo'lib, shifoxonaga bordim.",
+      "Basseynda ko'z kasalligi yuqishi mumkin, shuning uchun suzgandan keyin ko'zni albatta yuvish kerak.",
+      "Yoz faslida yuqumliligi yuqori ko'z kasalliklari oson tarqalishi mumkin, shuning uchun qo'lni toza yuvish odati muhim."
+    ],
+    "눈보라": [
+      "Qor bo'roni bo'lyapti.",
+      "Qor bo'roni tufayli yo'l ko'rinmayapti.",
+      "Kuchli qor bo'roni ko'tarilib, tog'ga chiqqan odamlar pastga tusha olmay, yo'li to'silib qoldi.",
+      "Qor bo'roni sababli ko'plab reyslar bekor qilingach, aeroport ilinib qolgan yo'lovchilar bilan gavjum bo'lib ketdi."
+    ],
+    "눈사태": [
+      "Tog'da qor ko'chkisi bo'ldi.",
+      "Qor ko'chkisi tufayli tog' so'qmog'i yopilib qoldi.",
+      "Kuchli qor yog'ishlari davom etgandan so'ng qor ko'chkisi xavfi katta bo'ladi, shuning uchun tog'ga chiqishdan tiyilish kerak.",
+      "Alp tog'lari hududida yirik qor ko'chkisi sodir bo'lib, bir necha chang'ichi sayyoh bedarak yo'qolgan hodisa bo'ldi."
+    ],
+    "눈썹": [
+      "Qoshi uzun.",
+      "Uning qoshlari quyuq va chiroyli.",
+      "Qoshlarimni tartibga keltirish uchun go'zallik saloniga borgan edim, yuzimning ko'rinishi o'zgarib ketganidan hayron qoldim.",
+      "U hayron bo'lgandek qoshlarini ko'tarib, suhbatdoshining gapini oxirigacha diqqat bilan tingladi."
+    ],
+    "눈치": [
+      "Men farosatsizman.",
+      "U farosatli, aytmasangiz ham tushunadi.",
+      "Muhit yaxshi emasdek tuyulib, vaziyatga qarab turib, oxiri aytmoqchi bo'lgan gapimni ayta olmadim.",
+      "Koreya jamiyatida to'g'ridan-to'g'ri aytilmasa ham vaziyatni ilg'ab olish farosati muhim ijtimoiy qobiliyat hisoblanadi."
+    ],
+    "눌러쓰다": [
+      "Shapkani bosib kiyaman.",
+      "U shapkasini bostirib kiyib, yurib ketdi.",
+      "Sovuq qish kunida mo'ynali shapkani bostirib kiyib chiqqanimda, quloqlarimgacha issiq bo'ldi.",
+      "Yuzini tanib bo'lmasligi uchun shapkasini ko'ziga bostirib kiygan erkakning bank oldida aylanib yurgani qayd etildi."
+    ],
+    "느긋하다": [
+      "Men bamaylixotirman.",
+      "Dam olish kunlari bamaylixotir qahva ichaman.",
+      "Shoshiladigan ishim yo'q edi, shuning uchun bamaylixotir sayr qilib, dam olish kunining tushdan keyingi vaqtini o'tkazdim.",
+      "U inqirozli vaziyatda ham xotirjamligini yo'qotmagani uchun jamoadoshlariga ishonch bag'ishladi."
+    ],
+    "느끼하다": [
+      "Bu taom juda yog'li.",
+      "Pitsa juda yog'li bo'lgani uchun kimchi bilan birga yedim.",
+      "Yog'li ovqat yegan edim, ko'nglim aynib, yoqimli issiq sho'rva ichgim kelib qoldi.",
+      "Qaymoqli sousdagi pasta ta'mi boy bo'lsa-da, yog'li ta'mni yoqtirmaydiganlarga og'irlik qilishi mumkin."
+    ],
+    "늘리다": [
+      "Sport vaqtini ko'paytiraman.",
+      "Ozish uchun mashg'ulotlar hajmini oshirdim.",
+      "Kompaniya savdo hajmini oshirish uchun sotuvni xorijiy bozorlarga kengaytirishga qaror qildi.",
+      "Hukumat ish o'rinlarini ko'paytirish maqsadida kichik va o'rta korxonalarga soliq imtiyozlarini kengaytirish siyosatini taklif qildi."
+    ]
+  },
+  "0073": {
+    "늘어나다": [
+      "Vaznim oshdi.",
+      "Sinfimizdagi o'quvchilar soni ko'paydi.",
+      "Bu futbolkani yuvgan edim, biroz cho'zilib, keng bo'lib qoldi.",
+      "Xorijlik sayyohlar ko'paygani sari atrofdagi savdo nuqtalarining tushumi ham birga oshib borish tendensiyasiga ega."
+    ],
+    "늘어서다": [
+      "Odamlar saf tortib turibdi.",
+      "Do'kon oldida mijozlar uzun navbatda turishdi.",
+      "Mashhur oshxona oldida odamlar navbatga saf tortib turishgani uchun bir soat kutdim.",
+      "Yo'lning ikki chetida saf tortgan daraxtlar kuz kelishi bilan sarg'ayib, ajoyib manzara hosil qildi."
+    ],
+    "늙다": [
+      "Buvim qarib qoldi.",
+      "Kuchukchamiz ham endi qarib qoldi.",
+      "Ota-onamning asta-sekin qarib borayotganlarini ko'rib, yuragim og'riydi.",
+      "U qariganing sari sog'liqqa e'tibor berish kerak, deb har kuni ertalab bog'da sayr qilardi."
+    ],
+    "늦추다": [
+      "Jo'nashni kechiktiramiz.",
+      "Yomg'ir tufayli uchrashuv vaqtini kechiktirdik.",
+      "Mazam yo'qligi uchun yig'ilish jadvalini kelasi haftaga surishga qaror qildim.",
+      "Kompaniya moliyaviy ahvoli yomonlashgani sababli yangi mahsulotni chiqarish muddatini noiloj kechiktirishga qaror qildi."
+    ],
+    "다가오다": [
+      "Imtihon yaqinlashyapti.",
+      "Kuchukcha menga yaqinlashib keldi.",
+      "Ta'til yaqinlashgani uchun sayohat rejasini tuzar ekanman, yuragim hapqiryapti.",
+      "Saylov kuni yaqinlashgani sari har bir partiya saylovchilar ko'nglini qozonish uchun kurashni kuchaytirmoqda."
+    ],
+    "다녀가다": [
+      "Do'stim kelib ketdi.",
+      "Kecha mehmon kelib ketdi.",
+      "Men yo'qligimda kuryer kelib ketganmi, eshik oldiga xat yopishtirilgan ekan.",
+      "Bu joyga ko'plab mashhur shaxslar kelib ketgani ma'lum bo'lgach, sayyohlar oqimi uzilmay qoldi."
+    ],
+    "다람쥐": [
+      "Olmaxon daraxtga chiqyapti.",
+      "Olmaxon yong'oq yeyapti.",
+      "Tog'da olmaxonni uchratdim, u eman yong'og'ini ikki qo'li bilan ushlab yeyishi juda yoqimli edi.",
+      "Olmaxon qishki uyquga ketishdan oldin yong'oqlarni bir necha joyga yashirib qo'yish odatiga ega."
+    ],
+    "다루다": [
+      "Bu mashinani boshqaraman.",
+      "Bu kitobda Koreya tarixi yoritilgan.",
+      "Oson sinadigan narsa, shuning uchun ehtiyotkorlik bilan muomala qilish kerak.",
+      "Bu hujjatli filmda atrof-muhit ifloslanishining baliqchilar qishlog'iga ko'rsatgan ta'siri chuqur yoritilgan."
+    ],
+    "다림질": [
+      "Dazmol qilaman.",
+      "Ko'ylakni dazmolladim.",
+      "Suhbatdan oldingi kechasi kostyumimni dazmollash bilan ancha vaqt o'tkazdim.",
+      "Dazmollayotganda gazlama turiga qarab haroratni turlicha belgilasangizgina kiyim buzilmaydi."
+    ],
+    "다수": [
+      "Ko'pchilik rozi bo'ldi.",
+      "Bu masalada ko'pchilik o'quvchilar ishtirok etdi.",
+      "Yig'ilishda ko'pchilikning fikriga ko'ra sayohat joyini Chejudo deb belgiladik.",
+      "Demokratiya ko'pchilikning qaroriga amal qilgan holda ozchilikning huquqlarini ham hurmat qilishni talab qiladigan tizimdir."
+    ],
+    "다양하다": [
+      "Menyu xilma-xil.",
+      "Bu do'konda xilma-xil kiyimlar bor.",
+      "Koreyada har bir hududning o'ziga xos xilma-xil oshxona madaniyati borligi uchun sayohat qilish juda qiziqarli.",
+      "Zamonaviy jamiyatda turli qadriyatlar yonma-yon yashagani uchun bir-birining farqlarini hurmat qilish zarur."
+    ],
+    "다음날": [
+      "Ertasi kuni uchrashamiz.",
+      "Ertasi kuni ertalab erta turdim.",
+      "Ziyofat tugaganidan keyin ertasi kuni juda charchaganimdan kun bo'yi uxladim.",
+      "Hodisaning ertasi kuni kompaniya favqulodda matbuot anjumani o'tkazib, rasmiy bayonot berdi."
+    ],
+    "다정하다": [
+      "Opam mehribon.",
+      "O'qituvchi mehribonlik bilan jilmaydilar.",
+      "Qo'shni buvi har doim mehribon ovoz bilan bolalarga salom beradilar.",
+      "U tashqaridan qo'pol ko'rinsa-da, aslida hammadan ham mehribon qalbga ega inson."
+    ],
+    "다투다": [
+      "Do'stim bilan janjallashdim.",
+      "Ukam bilan o'yinchoq talashib janjallashdik.",
+      "Arzimas tushunmovchilik tufayli do'stim bilan janjallashib qolganimizdan keyin o'rtamizda noqulaylik paydo bo'lib, gap ochish qiyin bo'ldi.",
+      "Er-xotin bola tarbiyasi masalasida tez-tez janjallashib turar edi, keyin mutaxassis maslahatini olib, muloqot qilishni o'rganishdi."
+    ],
+    "다행": [
+      "Yaxshi bo'libdi.",
+      "Yaxshiyamki yomg'ir yog'madi.",
+      "Qattiq jarohat olmaganini eshitib, haqiqatan ham yaxshi bo'lgan ekan deb ko'nglim taskin topdi.",
+      "Yong'in tarqalmasidan oldin aniqlangani baxtsizlik ichidagi omad bo'ldi va katta zararning oldi olindi."
+    ],
+    "다행히": [
+      "Yaxshiyamki, kechikmadim.",
+      "Yaxshiyamki, yomg'ir to'xtadi.",
+      "Yo'l tirband bo'lsa ham, yaxshiyamki, uchrashuvga o'z vaqtida yetib bora oldim.",
+      "Yong'in chiqqan bo'lsa-da, yaxshiyamki binodagi odamlar tezda evakuatsiya qilingani uchun qurbonlar bo'lmadi."
+    ],
+    "단계": [
+      "Bir bosqich yuqoriga ko'tarilaman.",
+      "Endi ikkinchi bosqich.",
+      "Koreys tilini boshlang'ich, o'rta va yuqori bosqichlarga bo'lib, izchil o'rgangan ma'qul.",
+      "Loyiha rejalashtirish bosqichidan amalga oshirish bosqichiga o'tgach, aniq byudjet ajratish zarurati paydo bo'ldi."
+    ],
+    "단골": [
+      "Men ana u do'konning doimiy mijoziman.",
+      "Bu restoranga men doim boraman.",
+      "Doimiy mijoz bo'lib qolganimdan keyin do'kon egasi tekinga ichimlik bergani uchun kayfiyatim ko'tarildi.",
+      "Doimiy mijozlarni jalb qilish uchun ko'plab kichik do'konlar ball to'plash va chegirma imtiyozlarini taklif qilmoqda."
+    ],
+    "단기간": [
+      "Qisqa muddatda o'rganaman.",
+      "Qisqa muddatda ozdim.",
+      "Ta'til davomida cho'ntak puli topish uchun qisqa muddatli yarim kunlik ish topmoqchiman.",
+      "Qisqa muddatda natijaga erishishga shoshilish, aksincha, uzoq muddatli rivojlanishga to'sqinlik qiluvchi omil bo'lishi ham mumkin."
+    ],
+    "단단하다": [
+      "Bu tosh qattiq.",
+      "Bu non juda qattiq.",
+      "Bu stul pishiq va mustahkam bo'lgani uchun uzoq o'tirsangiz ham qimirlamaydi.",
+      "Mustahkam poydevor ustiga qurilgan bino zilzila bo'lganda ham oson qulamaydi."
+    ],
+    "단발머리": [
+      "Qisqa soch chiroyli.",
+      "Uning sochi kalta qilib qirqilgan.",
+      "Ancha vaqtdan keyin uzun sochimni kestirib, kalta soch qildirgan edim, o'zimni yangilangandek his qildim.",
+      "Yelkagacha qisqa soch parvarish qilish oson bo'lgani uchun band ishlaydigan ayollar orasida doimiy ommabop."
+    ],
+    "단백질": [
+      "Oqsil iste'mol qilaman.",
+      "Tuxumda oqsil ko'p.",
+      "Sport bilan shug'ullanishni boshlaganimdan beri mushaklarni rivojlantirish uchun oqsilga boy ovqatlarni yeyishga e'tibor beryapman.",
+      "Oqsil tanamizdagi mushak va a'zolarni tashkil etuvchi asosiy ozuqa moddasi bo'lgani uchun uni yetarli miqdorda iste'mol qilish kerak."
+    ],
+    "단속": [
+      "Politsiya nazorat qilyapti.",
+      "Bugun avtomobil to'xtash qoidalariga rioya qilinishi tekshiriladi.",
+      "Kechasi mast holda mashina haydashga qarshi nazorat o'tkazilayotgani uchun yo'l juda tirband bo'ldi.",
+      "Politsiya noqonuniy to'xtash va avtoturargohga qo'yishga qarshi kuchaytirilgan reyd o'tkazib, qoidabuzar avtomobillarga jarima soldi."
+    ],
+    "단순하다": [
+      "Bu masala oddiy.",
+      "Mening hayotim juda oddiy.",
+      "Ishlatish usuli oddiy bo'lgani uchun keksalar ham osonlikcha o'rganib olishlari mumkin.",
+      "Voqea sababini soddalashtirib, faqat bitta sabab bilan belgilash murakkab ijtimoiy hodisalarni tushunishga to'sqinlik qiladi."
+    ],
+    "단순히": [
+      "Shunchaki qiziqqanim uchun so'radim.",
+      "Bu shunchaki hazil.",
+      "Shunchaki modaga ergashishdan ko'ra o'zingizga mos uslubni topish muhim.",
+      "Tahlillarga ko'ra, bu voqea shunchaki shaxsiy og'ish emas, balki tashkilotning tizimli muammolaridan kelib chiqqan."
+    ],
+    "단위": [
+      "Uzunlik birligi metr.",
+      "Og'irlik birligi kilogramm.",
+      "Koreyada pul birligi sifatida von ishlatiladi, guruch yoki mol go'shti esa odatda kilogramm hisobida sotiladi.",
+      "Har bir mamlakatda qo'llaniladigan o'lchov birliklari turlicha bo'lgani uchun xalqaro savdoda ularni standart birliklarga o'tkazish jarayoni zarur."
+    ],
+    "단정하다": [
+      "Kiyimi ozoda.",
+      "U doim ozoda kiyinadi.",
+      "Suhbatda ozoda kiyinish va to'g'ri o'tirish yaxshi taassurot qoldiradi.",
+      "Uning gap-so'zi va xatti-harakati doim sarishta bo'lgani uchun birinchi marta uchrashgan odamlarda ham ishonch uyg'otardi."
+    ],
+    "단체": [
+      "Guruh bo'lib sayohat qilamiz.",
+      "Sinfimiz bilan umumiy suratga tushdik.",
+      "Guruh bo'lib keladigan mijozlar ko'p bo'ladigan oshxonaga oldindan joy band qilgan ma'qul.",
+      "Fuqarolik tashkilotlari hukumatning siyosiy qaror qabul qilish jarayoni shaffof tarzda oshkor etilishi kerakligini talab qildi."
+    ],
+    "단풍": [
+      "Kuzgi barglar chiroyli.",
+      "Kuzda xazonrezgi manzarasini tomosha qilgani boramiz.",
+      "Sorakson tog'idagi kuzgi rang-barang barglar har yili oktyabr o'rtalarida eng chiroyli paytiga yetadi, shuning uchun ko'p odamlar tashrif buyuradi.",
+      "Barglarning kuzgi rangga kirish vaqti harorat va quyosh nuri miqdoriga qarab o'zgargani uchun har yili biroz farq qiladi."
+    ],
+    "달라지다": [
+      "Muhit o'zgardi.",
+      "Sochimni qirqtirgandan keyin ko'rinishim o'zgardi.",
+      "Yangi ish joyiga o'tganimdan keyin turmush tarzim ancha o'zgarib, avvaliga moslashish qiyin bo'ldi.",
+      "Tizim isloh qilinishi bilan ariza berish tartibi butunlay o'zgardi, shuning uchun yo'riqnomani albatta ko'rib chiqing."
+    ]
+  },
+  "0074": {
+    "달려가다": [
+      "Do'stimning oldiga yugurib boraman.",
+      "Bola onasining oldiga yugurib bordi.",
+      "Yomg'ir yog'a boshlagani uchun biz yaqin atrofdagi kafega shoshilib yugurib bordik.",
+      "Xabarni eshitishi bilanoq u shifoxonaga bir nafasda yugurib borib, otasining yonidan jilmadi."
+    ],
+    "달려오다": [
+      "Bola yugurib kelyapti.",
+      "Kuchukcha men tomon yugurib keldi.",
+      "Do'stim ismimni chaqirib, narigi tomondan xursand bo'lib yugurib keldi.",
+      "Baxtsiz hodisa haqidagi xabarni eshitib, oila a'zolari shoshilib yugurib kelishdi va shifoxona yo'lagi bir muddat notinch bo'lib qoldi."
+    ],
+    "달리": [
+      "Mening boshqa iloji yo'q.",
+      "Do'stimning fikrlari menikidan farqli o'laroq sodda.",
+      "Kutilganidan farqli o'laroq imtihon oson bo'lgani uchun hamma sinfdan yaxshi kayfiyatda chiqdi.",
+      "Mutaxassislarning xavotirlaridan farqli o'laroq, yangi tizim amalda katta chalkashliklarsiz barqaror joriy etildi."
+    ],
+    "달리기": [
+      "Yugurish yaxshi.",
+      "Har kuni ertalab yuguraman.",
+      "Sog'lig'im uchun har kuni kechqurun Xangang daryosi bo'yida yugurish shu kunlardagi sevimli mashg'ulotim.",
+      "Yugurishni hech qanday maxsus jihozlarsiz ham oson boshlash mumkin bo'lgani uchun u ko'pchilik shug'ullanadigan ommabop sport turidir."
+    ],
+    "달밤": [
+      "Oydin kecha.",
+      "Oydin kechada sayr qildim.",
+      "Yop-yorug' oydin kechada do'stim bilan daryo bo'yida sayr qilib, uzoq suhbatlashdik.",
+      "Sokin oydin kechada yangraydigan o't-o'landagi hasharotlar ovozi kuzning nafosatini yanada chuqurlashtiradi."
+    ],
+    "달아나다": [
+      "O'g'ri qochib ketdi.",
+      "Qush derazadan uchib qochib ketdi.",
+      "Politsiyani ko'rib qo'rqib ketgan cho'ntakkesar odamlar orasidan tezda qochib ketdi.",
+      "Jinoyatchi voqea joyidan qochib ketganidan uch kun o'tib politsiya tomonidan qo'lga olindi va hozir tergov qilinmoqda."
+    ],
+    "달콤하다": [
+      "Bu tort shirin.",
+      "Asal haqiqatan ham shirin.",
+      "Shirin hid kelgani uchun hid kelgan tomonga borsam, novvoyxonada pechenye pishirishayotgan ekan.",
+      "Shirin vasvasalarga berilmay, o'z tamoyillariga sodiq qolish ijtimoiy hayotda oson bo'lmagan sinovga aylanadi."
+    ],
+    "닭갈비": [
+      "Dakgalbini yaxshi ko'raman.",
+      "Do'stim bilan dakgalbi yegani bordik.",
+      "Do'stim Chunchonga borsam, achchiq ziravorda qovurilgan dakgalbini albatta tatib ko'rishimni maslahat berdi.",
+      "Dakgalbi — tovuq go'shti, karam, batat kabi masalliqlarni gochujang qaylasida qovurib tayyorlanadigan Koreyaning mashhur taomi."
+    ],
+    "담": [
+      "Devor baland.",
+      "Uy devori yonida gullar ochildi.",
+      "Qo'shnining mushugi devor ustidan yengil qadam tashlab, hovlimizga kirib keldi.",
+      "Qo'shnilar o'rtasidagi mehr-oqibatni ifodalagan pastak devorlar yo'qolib, ularning o'rnini baland devorlar va temir darvozalar egalladi."
+    ],
+    "담기다": [
+      "Idishda guruch solingan.",
+      "Qutida sovg'a solingan.",
+      "Bu maktubda onamning iliq mehri mujassam, shuning uchun har o'qiganimda ko'zimga yosh keladi.",
+      "Bu asarda muallif boshidan kechirgan urush jarohatlari va tinchlikka bo'lgan chuqur intilish to'laligicha aks etgan."
+    ],
+    "담다": [
+      "Idishga guruch solaman.",
+      "Kitoblarni sumkaga soldim.",
+      "Taomni likopchaga chiroyli qilib solib, mehmonlarni astoydil siyladim.",
+      "Bu kitobda muallif butun umri davomida to'plagan tajriba va mulohazalarini bir jildga jamlab, o'quvchiga yetkazishni maqsad qilgan."
+    ],
+    "담당": [
+      "Men mas'ulman.",
+      "Bu ishga kim mas'ul?",
+      "Bu safargi tadbirga tayyorgarlik ko'rishga marketing jamoasi mas'ul bo'lgani uchun shu kunlarda juda bandmiz.",
+      "Mas'ul vazifalar aniq taqsimlanmagan bo'lsa, muammo yuzaga kelganda javobgarlik kimda ekanini aniqlash qiyinlashadi."
+    ],
+    "담당자": [
+      "Mas'ul xodim bilan uchrashmoqchiman.",
+      "Mas'ul xodim hozir yo'q.",
+      "Savollaringizni mas'ul xodimga elektron pochta orqali yuborsangiz, tez javob olasiz.",
+      "Murojaatlarni ko'rib chiqishga mas'ul xodim kelib tushgan masalani o'rganib chiqqach, uch kun ichida natija haqida xabar berishi kerak."
+    ],
+    "담백하다": [
+      "Bu sho'rva yengil ta'mli.",
+      "Men yengil ta'mli taomlarni yaxshi ko'raman.",
+      "Yog'i kam, yengil ta'mli tovuq ko'kragi taomi parhez qilganda tez-tez yeydigan ovqatim.",
+      "Yengil va sodda ta'mi bilan ajralib turadigan bu Pxenyan naengmyeoni avvaliga ta'msizdek tuyuladi, lekin yegan sari unga o'rganib qolasiz."
+    ],
+    "담뱃불": [
+      "Sigaretni o'chiring.",
+      "Sigaret cho'g'idan kiyimim kuyib qoldi.",
+      "To'shakda chekilgan sigaretning cho'g'i o'chmay qolib, sal bo'lmasa katta yong'in chiqib ketardi.",
+      "O'chirilmagan sigaret qoldig'ini duch kelgan joyga tashlash o'rmon yong'inlarining asosiy sabablaridan biri sifatida ko'rsatilmoqda."
+    ],
+    "담임": [
+      "Men sinf rahbarimni yaxshi ko'raman.",
+      "Sinf rahbarimiz sinfga kirib keldilar.",
+      "Sinf rahbarimiz har bir o'quvchiga e'tibor berib, ularning tashvishlarini tinglaydilar.",
+      "Sinf rahbari nafaqat sinfni boshqarish, balki o'quvchilarning o'qishi va kasb tanlashi bo'yicha maslahat berishda ham muhim rol o'ynaydi."
+    ],
+    "답": [
+      "Javob to'g'ri.",
+      "Savolga javob bering.",
+      "Masalani yechib bo'lgach, javob to'g'rimi yoki yo'qmi, yana bir bor tekshirib ko'ring.",
+      "Bu savolning aniq belgilangan javobi yo'q, shuning uchun o'z fikringizni mantiqiy tushuntirib berish muhim."
+    ],
+    "답글": [
+      "Javob izohi yozdim.",
+      "Izohga javob yozildi.",
+      "Men joylagan postimga do'stim qiziqarli javob yozibdi, ancha kulib o'tirdim.",
+      "Forumda muallif va o'quvchilar javob izohlari orqali fikr almashib, faol muhokamani davom ettirmoqda."
+    ],
+    "답답하다": [
+      "Xona dim.",
+      "Ko'nglim g'ash.",
+      "Kiyimim juda tor bo'lib, nafasim siqilyapti, derazani ochib, ozgina havo olmoqchiman.",
+      "Uning qat'iyatsizligi jamoadoshlarining g'ashini keltirgani uchun ular qaror qabul qilishni shoshiltirishga majbur bo'lishdi."
+    ],
+    "답변": [
+      "Javob kutyapman.",
+      "O'qituvchi javob berdilar.",
+      "So'rov xatini yuborganimga uch kun bo'ldi, lekin hali ham javob kelmagani uchun yana bog'landim.",
+      "Vazir parlamentning so'roviga bergan javobida siyosatni amalga oshirish jadvali va byudjetni ta'minlash yo'llarini aniq bayon qildi."
+    ],
+    "당기다": [
+      "Eshikni tortaman.",
+      "Arqonni bor kuchim bilan tortdim.",
+      "Eshik ochilmagani uchun itargan edim, aslida u tortib ochiladigan eshik ekan, ancha kuldik.",
+      "Oila a'zolari to'y sanasini bir oy oldinga surishga kelishganligi sababli bronni qaytadan tekshirishga to'g'ri keldi."
+    ],
+    "당분간": [
+      "Hozircha dam olaman.",
+      "Bir muddat bandman.",
+      "Mazam yo'qligi uchun bir muddat sport bilan shug'ullanishni to'xtatib, uyda yaxshilab dam olishga qaror qildim.",
+      "Kompaniya xodimlarga moliyaviy ahvoli yomonlashgani sababli hozircha yangi xodimlarni ishga olish to'xtatilishini ma'lum qildi."
+    ],
+    "당연하다": [
+      "Bu tabiiy.",
+      "Bu tabiiy hol.",
+      "Qattiq o'qiganingiz uchun imtihondan o'tishingiz tabiiy natija deb o'ylayman.",
+      "Jamiyat a'zolarining qonunga rioya qilishi tabiiy, ammo qonun ham hammaga birdek adolatli qo'llanilishi kerak."
+    ],
+    "당연히": [
+      "Albatta borish kerak.",
+      "Albatta yordam beraman.",
+      "Do'st qiyin ahvolga tushganda unga yordam berish, albatta, qilinishi kerak bo'lgan ish deb o'ylab, darhol yetib bordim.",
+      "Yo'ldagi barcha haydovchilar yo'l harakati qoidalariga albatta rioya qilishlari shart, qoidabuzarlik uchun esa jazo beriladi."
+    ],
+    "당장": [
+      "Hoziroq borishim kerak.",
+      "Menga pul hoziroq kerak.",
+      "Ertaga imtihon bo'lgani uchun aynan bugun kechadan o'qishni boshlamasam bo'lmaydi.",
+      "Faqat bugungi foydaga yopishib olib, uzoqni ko'ra bilishni yo'qotsangiz, oxir-oqibat bu yanada kattaroq zarar bo'lib qaytishi muqarrar."
+    ],
+    "당하다": [
+      "Firibgarlikka uchradim.",
+      "Do'stim meni masxara qildi.",
+      "Ko'chada sumkamni o'g'irlatib qo'yib, politsiya bo'limiga borib ariza berdim.",
+      "Jinoyatdan jabr ko'rgan odamlar ijtimoiy tamg'alanmasdan yordam olishlari uchun qo'llab-quvvatlash tizimi yaratilishi kerak."
+    ],
+    "당황하다": [
+      "Men sarosimaga tushdim.",
+      "To'satdan yomg'ir yog'ib, sarosimaga tushdim.",
+      "Ko'chada notanish odam ismimni chaqirganda dovdirab qoldim, keyin bilsam, u eski do'stim ekan.",
+      "U kutilmagan savolga duch kelib, sarosimaga tushganidan tayyorlagan javobini ham to'g'ri ayta olmadi."
+    ],
+    "대개": [
+      "Odatda uyda dam olaman.",
+      "Men odatda nonushta qilaman.",
+      "Koreyslar odatda Sollal bayramida oila bo'lib yig'ilib, ttokguk yeb, yangi yilni boshlashadi.",
+      "Yoshlar odatda yangiliklarni mobil qurilmalar orqali bilib olgani sababli ommaviy axborot vositalari ham onlayn kontentni kuchaytirmoqda."
+    ],
+    "대기업": [
+      "Yirik kompaniyada ishlayman.",
+      "Yirik kompaniyaga ariza topshirdim.",
+      "Ko'plab talabalar barqaror maosh va ijtimoiy imtiyozlar tufayli yirik kompaniyaga ishga kirishni xohlashadi.",
+      "Yirik kompaniyalar bilan kichik va o'rta korxonalar o'rtasidagi ish haqi farqi tobora kattalashib borgani sari kadrlar tanqisligidan qiynalayotgan kichik korxonalar ko'paymoqda."
+    ],
+    "대다": [
+      "Peshonamga qo'limni tegizaman.",
+      "Devorga qo'l tekkizmang.",
+      "Charchadim deb bahona qilib, uchrashuvga bormagan edim, do'stim xafa bo'ldi.",
+      "U bahona keltirish bilan ovora bo'lib, o'z xatosiga to'g'ridan-to'g'ri yuzlanishga tayyorligini ko'rsata olmadi."
+    ]
+  },
+  "0075": {
+    "대단하다": [
+      "U odam haqiqatan ham zo'r.",
+      "Ukam birinchi o'rinni olibdi, haqiqatan ham zo'r.",
+      "Shunday qiyin imtihondan o'tganingiz haqiqatan ham zo'r ish.",
+      "U ajoyib sabr-matonati bilan o'n yildan keyin orzusini ro'yobga chiqardi."
+    ],
+    "대단히": [
+      "Bugun nihoyatda sovuq.",
+      "Bu film juda qiziqarli bo'lgani uchun ikki marta ko'rdim.",
+      "Yordamingiz uchun barchangizga katta rahmat.",
+      "Bu voqea jamiyatni nihoyatda qattiq larzaga soldi."
+    ],
+    "대도시": [
+      "Seul katta shahar.",
+      "Men katta shahardan ko'ra kichik qishloqni afzal ko'raman.",
+      "Katta shaharda odam ham, mashina ham ko'p bo'lgani uchun tiqilinch bo'ladi.",
+      "Ko'plab yoshlar ish izlab yirik shaharlarga oqib kelmoqda."
+    ],
+    "대량": [
+      "Ko'p miqdorda olsangiz, arzon bo'ladi.",
+      "Bu do'kon mahsulotlarni ulgurji sotadi.",
+      "Zavodda mahsulotlar ommaviy ravishda ishlab chiqarilgani uchun narxi tushdi.",
+      "Hukumat qurg'oqchilikka tayyorgarlik sifatida katta miqdorda guruch zaxira qilishga qaror qildi."
+    ],
+    "대리": [
+      "Kim o'rinbosar mehribon.",
+      "Otamning o'rniga men vakil bo'lib bordim.",
+      "Do'stimning o'rniga hujjatlarni olish uchun bankka bordim.",
+      "Direktor xizmat safarida bo'lgani uchun yig'ilishni uning o'rniga direktor o'rinbosari olib bordi."
+    ],
+    "대문": [
+      "Darvoza ochiq turibdi.",
+      "Ertalab darvoza oldida do'stim bilan uchrashdim.",
+      "Uyga qaytsam, darvoza lang ochiq turgan ekan.",
+      "U darvozani taqillatib, ancha vaqt uy egasini chaqirdi."
+    ],
+    "대신": [
+      "Men sizning o'rningizga boraman.",
+      "Bugun qahva o'rniga choy ichdim.",
+      "Betob do'stimning o'rniga men taqdimot qilishga qaror qildim.",
+      "Nonushtani guruch o'rniga non bilan o'tkazadigan odamlar ko'paymoqda."
+    ],
+    "대여": [
+      "Velosipedni ijaraga olish mumkin.",
+      "Bu do'konda soyabonlar ijaraga beriladi.",
+      "Bog'da velosipedni ijaraga olib, kun bo'yi uchdim.",
+      "Kutubxona a'zolariga kitoblarni bepul berib turadi."
+    ],
+    "대여료": [
+      "Ijara haqi qancha?",
+      "Mashina ijarasi kuniga ellik ming von.",
+      "Ijara haqi juda qimmat bo'lgani uchun boshqa do'kon qidirib ko'rdim.",
+      "Bu kiyimning ijara haqi uch kun hisobidan hisoblanadi."
+    ],
+    "대접": [
+      "Sizni kechki ovqatga mehmon qilaman.",
+      "Do'stim meni uyida mazali taomlar bilan mehmon qildi.",
+      "Mehmonlarni siylash uchun ertalabdan ovqat tayyorladim.",
+      "U uzoq yo'l bosib kelgan xaloskorini astoydil ovqat bilan mehmon qildi."
+    ],
+    "대중": [
+      "Bu xonanda xalq orasida juda mashhur.",
+      "Ko'pchilik oldida gapirishdan hayajonlanaman.",
+      "O'sha film omma tomonidan juda sevib qabul qilindi.",
+      "Hukumat yangi siyosatni jamoatchilikka yetarlicha tushuntirishi kerak."
+    ],
+    "대중교통": [
+      "Men jamoat transportidan foydalanaman.",
+      "Jamoat transporti arzon va qulay.",
+      "Yomg'irli kunlarda jamoat transporti juda sekin yuradi.",
+      "Atrof-muhitni asrash maqsadida jamoat transportidan foydalanishga chaqiruvchi aksiya o'tkazildi."
+    ],
+    "대중목욕탕": [
+      "Jamoat hammomiga boraman.",
+      "Har dam olish kuni jamoat hammomida yuvinaman.",
+      "Ilgari har bir mahallada bittadan jamoat hammomi bo'lardi.",
+      "U bolaligida otasi bilan jamoat hammomiga borib yurganlarini esladi."
+    ],
+    "대책": [
+      "Chora kerak.",
+      "Hukumat yangi choralarni e'lon qildi.",
+      "Transport muammosini hal qilish choralarini birgalikda o'ylab ko'raylik.",
+      "Shahar hokimiyati mayda changni kamaytirish bo'yicha choralar ishlab chiqmoqda."
+    ],
+    "대청소": [
+      "Bugun umumiy tozalash qilamiz.",
+      "Yil oxirida butun oila bo'lib uyni bosh-oyoq tozalaymiz.",
+      "Ko'chishdan oldin uyni boshdan-oyoq tozaladim.",
+      "Bayram arafasida butun oila bo'lib uyni bosh-oyoq tozalash bizning xonadonimiz an'anasidir."
+    ],
+    "대체로": [
+      "Bu safargi imtihon umuman olganda oson bo'ldi.",
+      "Men odatda ertalab sport bilan shug'ullanaman.",
+      "Bu hududda qishda ham havo odatda iliq bo'ladi.",
+      "So'rov natijalariga ko'ra, fuqarolar umuman olganda yangi siyosatdan mamnun ekani ma'lum bo'ldi."
+    ],
+    "대출": [
+      "Kutubxonadan kitob olaman.",
+      "Bankdan kredit oldim.",
+      "Bu kitobni bir martada bir haftaga olib turish mumkin.",
+      "Uy sotib olish uchun bankdan katta miqdorda kredit oldim."
+    ],
+    "대통령": [
+      "Prezident nutq so'zlayapti.",
+      "Prezident mamlakatning vakili hisoblanadi.",
+      "Yangi prezident kelasi oy mamlakatimizga tashrif buyuradi.",
+      "Xalq ovoz berish orqali prezidentni bevosita saylaydi."
+    ],
+    "대표": [
+      "Men sinf vakiliman.",
+      "Jamoamiz vakili salomlashdi.",
+      "U mamlakatimiz nomidan musobaqada ishtirok etdi.",
+      "Bu kompaniya Koreyani namoyon etuvchi korxonalardan biri hisoblanadi."
+    ],
+    "대표적": [
+      "Kimchi Koreyaning namunaviy taomi.",
+      "Bu tipik misol.",
+      "Sorakson tog'i kuzgi rang-barang barglari bilan mashhur joylardan biri.",
+      "Gyeongju mamlakatimizning eng mashhur turistik joylaridan biri sifatida e'tirof etiladi."
+    ],
+    "대형": [
+      "Katta supermarketga boraman.",
+      "Uyimizda katta televizor bor.",
+      "Dam olish kuni yirik kitob do'koniga borib, bir nechta kitob sotib oldim.",
+      "Kuchli to'fon yaqinlashayotgani sababli aholiga evakuatsiya qilish haqida buyruq berildi."
+    ],
+    "댄스": [
+      "Men raqsni yaxshi ko'raman.",
+      "Har dam olish kuni raqs kurslariga qatnayman.",
+      "Do'stim bilan birga K-pop raqsini o'rganyapmiz.",
+      "Maktab festivalida o'quvchilar ajoyib raqs chiqishini namoyish etishdi."
+    ],
+    "더구나": [
+      "Havo sovuq, ustiga-ustak yomg'ir ham yog'yapti.",
+      "Yo'llar tirband. Ustiga-ustak yomg'ir ham yog'yapti.",
+      "O'sha oshxonaning taomlari mazali, buning ustiga narxi ham arzon, shuning uchun mashhur.",
+      "Uning fe'l-atvori yaxshi, ustiga-ustak mahorati ham yuqori bo'lgani uchun hamma uni tan oladi."
+    ],
+    "더러워지다": [
+      "Kiyimim iflos bo'ldi.",
+      "Qo'llarim iflos bo'lgani uchun yuvdim.",
+      "Bolalar o'ynab yurib, poyabzallarini ancha kir qilib qo'yishdi.",
+      "Yomg'ir yog'ib, pol tezda iflos bo'lib qolgani uchun qaytadan tozalashga to'g'ri keldi."
+    ],
+    "더욱": [
+      "Bugun yanada sovuq.",
+      "Yomg'ir yog'gani uchun yo'llar yanada tirband.",
+      "Qancha ko'p mashq qilsangiz, mahoratingiz shuncha yanada oshadi.",
+      "Uning sa'y-harakatlari tufayli jamoadagi muhit yanada yorqinlashdi."
+    ],
+    "더위": [
+      "Jazirama kuchli.",
+      "Yozgi jazirama tufayli uxlay olmadim.",
+      "Havo juda issiq bo'lgani uchun muzdek tarvuz bilan issiqdan qutuldim.",
+      "Bu yil yozda rekord darajadagi jazirama davom etgani sababli issiqlik urishidan aziyat chekkanlar soni ko'paydi."
+    ],
+    "더하다": [
+      "Bu songa ikkini qo'shing.",
+      "Uchga to'rtni qo'shsangiz, yetti bo'ladi.",
+      "Yomg'ir yog'gani uchun sovuq battar kuchaymoqda.",
+      "Sho'rvaga biroz tuz qo'shgan edim, ta'mi ancha yaxshilandi."
+    ],
+    "덕": [
+      "Do'stim tufayli yaxshi tugatdim.",
+      "O'qituvchim sharofati bilan imtihondan o'tdim.",
+      "Ota-onam sharofati bilan shunday sog'lom bo'lib o'sdim.",
+      "Barchangizning yordamingiz sharofati bilan tadbirni muvaffaqiyatli yakunlay oldik."
+    ],
+    "던지다": [
+      "To'pni oting.",
+      "Bola daryoga tosh otdi.",
+      "Do'stimga to'p otgan edim, lekin u ilib ololmadi.",
+      "Jurnalist vazirga o'tkir savol berdi."
+    ],
+    "덜": [
+      "Bugun kamroq sovuq.",
+      "Guruch hali to'liq pishmabdi.",
+      "Boshim kechagidan kamroq og'riganligi uchun maktabga bora oldim.",
+      "Bu oy o'tgan oyga qaraganda xarajatlar kamroq bo'ldi."
+    ]
+  },
+  "0076": {
+    "덜다": [
+      "Yukni kamaytiraman.",
+      "Guruchdan biroz olib qo'ying.",
+      "Do'stim yordam bergani uchun ishim ancha yengillashdi.",
+      "Bu tizim oddiy aholining soliq yukini yengillashtirish maqsadida yaratilgan."
+    ],
+    "데다": [
+      "Qaynoq suvdan kuyib qoldim.",
+      "Qo'limni issiq sho'rvaga kuydirib oldim, og'riyapti.",
+      "Ovqat pishirayotib qo'limni kuydirib olib, shifoxonaga bordim.",
+      "Bola qaynoq qozonga barmog'ini kuydirib olib, yig'lab yubordi."
+    ],
+    "데려오다": [
+      "Do'stimni olib kelaman.",
+      "Bolani maktabdan olib keldim.",
+      "Ertaga ukangizni uyimizga olib kelsangiz bo'ladi.",
+      "U uysiz itlar boshpanasidan bitta kuchukchani uyiga olib keldi."
+    ],
+    "데치다": [
+      "Sabzavotlarni qaynoq suvda bir zum pishiraman.",
+      "Ismaloqni qaynoq suvda bir zum qaynatib olamiz.",
+      "Ko'katlarni qaynoq suvda bir zum pishirib olib, ziravorlar bilan aralashtirdim.",
+      "Brokkolini qaynoq suvda uzoq ushlab tursangiz, rangi o'zgaradi, shuning uchun uni qisqa vaqt pishirish kerak."
+    ],
+    "도구": [
+      "Bu oshxona asbobi.",
+      "Pichoq ovqat tayyorlashda ishlatiladigan asbobdir.",
+      "U har xil asboblar yordamida stulni o'zi yasadi.",
+      "Inson asbob-uskunalardan foydalanib, sivilizatsiyani rivojlantirib kelgan."
+    ],
+    "도난": [
+      "O'g'irlik hodisasi bo'ldi.",
+      "Hamyonim o'g'irlangani haqida politsiyaga xabar berdim.",
+      "Velosipedimni o'g'irlatib qo'yib, yangisini sotib oldim.",
+      "So'nggi paytlarda bu hududda avtomobil o'g'irlash holatlari ketma-ket sodir bo'lmoqda."
+    ],
+    "도대체": [
+      "Axir kim bu?",
+      "Axir qayerga ketdingiz?",
+      "Bu masalani axir qanday yechish kerak?",
+      "U axir qanday o'y bilan bunday qaror qabul qilganini tushunib bo'lmaydi."
+    ],
+    "도둑": [
+      "O'g'ri kirdi.",
+      "O'g'ri sumkani o'g'irlab ketdi.",
+      "Kechasi uyimizga o'g'ri tushib, politsiya chaqirdik.",
+      "Politsiya bir necha kunlik ta'qibdan so'ng ashaddiy o'g'rini qo'lga oldi."
+    ],
+    "도망가다": [
+      "O'g'ri qochib ketdi.",
+      "Kuchukcha uydan qochib ketdi.",
+      "Politsiyani ko'rgan o'g'ri shoshilib qochib qoldi.",
+      "Jinoyatchi politsiya ta'qibidan qochib, tor ko'chaning ichkarisiga qochib ketdi."
+    ],
+    "도서": [
+      "Kitob olaman.",
+      "Kutubxonada kitoblar juda ko'p.",
+      "Bu kitob do'konida chet el kitoblari ham sotiladi.",
+      "Maktab o'quvchilar uchun turli kitoblarni yangidan sotib oldi."
+    ],
+    "도시락": [
+      "Olib kelgan tushligimni yeyman.",
+      "Onam menga tushlik ovqat solib berdilar.",
+      "Sayrda do'stlarim bilan birga olib kelgan tushliklarimizni baham ko'rib yedik.",
+      "U tushlik pulini tejash uchun har kuni ovqatini o'zi idishga solib, ishga olib boradi."
+    ],
+    "도장": [
+      "Bu yerga muhr bosaman.",
+      "Hujjatga muhr kerak.",
+      "Shartnomaga ismimni yozib, muhrimni ham bosdim.",
+      "Bankda omonat daftarchasi ochishda shaxsni tasdiqlovchi hujjat va muhrni olib borish kerak."
+    ],
+    "도전": [
+      "Yangi sinovni intiqlik bilan kutyapman.",
+      "Men marafonda qatnashib, kuchimni sinab ko'raman.",
+      "Qiyin bo'lsa ham, o'zini sinab ko'rishning o'z ma'nosi bor.",
+      "U qirq yoshdan oshganida yangi sohada o'zini sinab ko'rishga qaror qildi."
+    ],
+    "도중": [
+      "Kelayotganimda yo'lda yomg'ir yog'di.",
+      "Dars o'rtasida telefon qo'ng'iroq qildi.",
+      "Uyga ketayotib yo'lda do'stimni uchratib, birga choy ichdik.",
+      "U yig'ilish o'rtasida birdan o'rnidan turib, tashqariga chiqib ketdi."
+    ],
+    "독": [
+      "Bu qo'ziqorinda zahar bor.",
+      "Ilonning zahari xavfli.",
+      "Zaharli ovqat yeb qo'ysangiz, shifoxonaga borish kerak.",
+      "Bu o'simlik oz miqdorda ham odamga zararli bo'lgan zaharga ega."
+    ],
+    "독감": [
+      "Grippga chalindim.",
+      "Gripp tufayli isitmam bor.",
+      "Qishda grippga qarshi emlanish yaxshi.",
+      "Bu yil gripp tarqalgani sababli har bir maktabda darsga kelmaydigan o'quvchilar soni ko'paydi."
+    ],
+    "독립": [
+      "Men mustaqil bo'lishni xohlayman.",
+      "U ota-onasidan ajralib, mustaqil yashaydi.",
+      "Universitetni bitirgandan keyin ota-onamdan alohida, mustaqil yashay boshladim.",
+      "Ko'plab yoshlar iqtisodiy mustaqillikka erisha olmagani uchun ota-onalariga qaram bo'lib qolmoqda."
+    ],
+    "독방": [
+      "Men yakka xonada yashayman.",
+      "Bu mehmonxonada bir kishilik xona yo'q.",
+      "Mahbus yakka kameraga qamalib, yolg'iz yashadi.",
+      "U qoidani buzgani uchun bir hafta davomida yakka kameraga qamaldi."
+    ],
+    "독신자": [
+      "U uylanmagan.",
+      "Bu uyda yolg'iz yashovchilar ko'p.",
+      "Shu kunlarda yolg'iz yashovchilar uchun kichik uylar juda mashhur.",
+      "Yolg'iz yashovchilar ko'payishi bilan bir kishilik xonadonlarga mo'ljallangan mahsulotlar ko'plab chiqarilmoqda."
+    ],
+    "독특하다": [
+      "Bu kiyim o'ziga xos.",
+      "U do'konning muhiti o'ziga xos.",
+      "O'sha qo'shiqchining ovozi o'ziga xos bo'lgani uchun uni darhol tanib olish mumkin.",
+      "Bu hududda boshqa joylarda uchramaydigan o'ziga xos oshxona madaniyati mavjud."
+    ],
+    "돌": [
+      "Yo'lda tosh bor.",
+      "Bola daryo bo'yidan tosh terib oldi.",
+      "Toshga qoqilib, yiqilib tushishimga sal qoldi.",
+      "Qadimgi odamlar toshlarni ustma-ust terib, mustahkam qal'a devorlarini barpo etishgan."
+    ],
+    "돌다": [
+      "Yer aylanadi.",
+      "Bog'ni bir aylanib chiqdim.",
+      "Parrak shamolda gir-gir aylanyapti.",
+      "U har kuni ertalab mahallani bir necha marta aylanib, yengil mashq qiladi."
+    ],
+    "돌려받다": [
+      "Pulimni qaytarib oldim.",
+      "Qarzga bergan kitobimni qaytarib oldim.",
+      "Pulni qaytarish uchun ariza berib, bir haftadan keyin pulimni qaytarib oldim.",
+      "U garov pulini qaytarib ololmagani uchun uy egasi bilan nizolashib qoldi."
+    ],
+    "돌려보내다": [
+      "Mehmonni qaytarib yuboraman.",
+      "Bolani uyiga qaytarib yubordim.",
+      "Noto'g'ri kelgan buyumni do'konga qaytarib yubordim.",
+      "Politsiya shaxsi aniqlangan bolani oilasiga qaytarib yubordi."
+    ],
+    "돌려주다": [
+      "Kitobni qaytarib bering.",
+      "Do'stimdan qarzga olgan pulni qaytarib berdim.",
+      "Qarzga olgan soyabonni ertaga albatta qaytarib beraman.",
+      "U topib olgan hamyonni hech narsasiga tegmay egasiga qaytarib berdi."
+    ],
+    "돌리다": [
+      "Tutqichni buraman.",
+      "Boshimni burib, orqaga qaradim.",
+      "Ventilyatorni yoqsangiz, salqin bo'ladi.",
+      "U kalitni burab, eshikni ehtiyotkorlik bilan ochdi."
+    ],
+    "돌보다": [
+      "Chaqaloqqa qarayman.",
+      "Buvim menga qarab turganlar.",
+      "Dam olish kuni betob do'stimga qarash uchun bordim.",
+      "U yolg'iz yashaydigan qariyalarnikiga muntazam borib, ularga g'amxo'rlik qilmoqda."
+    ],
+    "돌솥": [
+      "Tosh qozonda pishirilgan guruch yeyman.",
+      "Bibimbap tosh qozonda keltirildi.",
+      "Tosh qozon juda issiq bo'ladi, shuning uchun ehtiyot bo'lib yeyish kerak.",
+      "Tosh qozonda pishirilgan guruchning tagi qizarib qolgani uchun undan yoqimli, xushbo'y ta'm keladi."
+    ],
+    "돌아다니다": [
+      "Bozorni aylanib yuraman.",
+      "Kun bo'yi ko'chalarda aylanib yurdim.",
+      "Sayohat davomida bir nechta shaharni aylanib, tomosha qildim.",
+      "Bolalar xonada u yoqdan-bu yoqqa yugurib, sho'xlik qilishdi."
+    ],
+    "돌아보다": [
+      "Orqaga qarayman.",
+      "Kimdir chaqirgani uchun ortimga qaradim.",
+      "O'tgan yilga nazar tashlasam, quvonchli voqealar ko'p bo'lgan ekan.",
+      "U ketayotib birdan to'xtadi va ortiga qaradi."
+    ]
+  },
+  "0077": {
+    "돌아서다": [
+      "U orqasiga o'girildi.",
+      "Yo'lda ketayotib, birdan orqaga burildim.",
+      "Do'stim jahli chiqib, indamay orqasiga o'girilib ketib qoldi.",
+      "U bir necha qadam yurgach, ko'ngli bo'lmay, yana ortiga burildi."
+    ],
+    "돌잔치": [
+      "Bugun bolaning bir yoshlik to'yiga boraman.",
+      "Ukamning farzandining bir yoshlik to'yi bor.",
+      "Bir yoshlik to'yida chaqaloq \"doljabi\" marosimida qalamni ushladi.",
+      "Oila a'zolari va qarindoshlar yig'ilib, bolaning birinchi tug'ilgan kunini nishonlash uchun bir yoshlik to'yini o'tkazishdi."
+    ],
+    "동굴": [
+      "G'or qorong'i.",
+      "Tog'da katta g'orni ko'rdim.",
+      "G'or ichi yozda ham salqin bo'lib, suv tomchilarining ovozi eshitiladi.",
+      "Tadqiqotchilar qo'llarida fonar bilan chuqur g'or ichiga kirishdi."
+    ],
+    "동료": [
+      "Men hamkasbim bilan tushlik qilaman.",
+      "Ishxonadagi hamkasbim yordam berdi.",
+      "Hamkasblar bilan birga ishlasangiz, og'ir ish ham oson tuyuladi.",
+      "U hamkasblarining ishonchini qozonish uchun doimo vijdonan ishladi."
+    ],
+    "동물원": [
+      "Hayvonot bog'iga boraman.",
+      "Hayvonot bog'ida sherni ko'rdim.",
+      "Dam olish kuni bolalar bilan hayvonot bog'iga borib, filga yem berdik.",
+      "Bu hayvonot bog'i yo'qolib ketish xavfi ostidagi hayvonlarni muhofaza qilish dasturini amalga oshirmoqda."
+    ],
+    "동부": [
+      "Koreyaning sharqiy qismida dengiz bor.",
+      "Uyimiz shaharning sharqiy qismida joylashgan.",
+      "Sharqiy hududlarda bugun tushdan keyin yomg'ir yog'ishi kutilmoqda.",
+      "To'fon ta'sirida sharqiy qirg'oqda kuchli shamol esmoqda."
+    ],
+    "동서양": [
+      "Sharq va G'arb taomlarini yeyman.",
+      "U kitobda Sharq va G'arb tarixi yoritilgan.",
+      "Sharq va G'arb odamlarining fikrlash tarzi biroz farq qiladi.",
+      "Bu muzeyda Sharq va G'arbning turli san'at asarlari namoyish etilgan."
+    ],
+    "동시": [
+      "Ikki kishi bir vaqtda keldi.",
+      "Biz bir vaqtda javob berdik.",
+      "U mashina haydab turib, bir vaqtning o'zida telefonga javob bergani uchun xavfli bo'ldi.",
+      "Ikki o'yin bir vaqtda o'tkazilgani uchun qaysi birini tomosha qilishni bilmay ikkilandim."
+    ],
+    "동양화": [
+      "Men Sharq rangtasvirini yaxshi ko'raman.",
+      "San'at galereyasida Sharq rangtasvirini ko'rdim.",
+      "Sharq rangtasviri mo'yqalam va tush bilan chiziladigan rasmdir.",
+      "Bobom tog' va suv manzaralari aks etgan Sharq uslubidagi rasmlarni chizishni yaxshi ko'rardilar."
+    ],
+    "동영상": [
+      "Video ko'raman.",
+      "Do'stim video yubordi.",
+      "Sayohatda olgan videomni internetga joyladim.",
+      "Hozirgi kunda ma'lumotni matndan ko'ra videolar orqali oladigan odamlar ko'paydi."
+    ],
+    "동일하다": [
+      "Ikki sumka bir xil.",
+      "Biz bir xil kiyim kiyib oldik.",
+      "Bu ikki mahsulotning narxi bir xil bo'lgani uchun tanlash qiyin.",
+      "Barcha nomzodlarga bir xil imkoniyat berilishi kerak."
+    ],
+    "동작": [
+      "Harakatlari tez.",
+      "Bu harakatni takrorlab ko'ring.",
+      "O'qituvchi raqs harakatlarini sekin ko'rsatib berdilar.",
+      "U yumshoq harakat bilan to'pni qabul qilib, sherigiga aniq uzatdi."
+    ],
+    "동창": [
+      "Bugun sinfdoshim bilan uchrashaman.",
+      "Maktabdagi sinfdoshim qo'ng'iroq qildi.",
+      "Ancha vaqtdan keyin boshlang'ich maktabdagi sinfdoshimni uchratib, o'tgan kunlarni eslab gaplashdik.",
+      "U universitetdagi kursdoshining tavsiyasi bilan hozirgi ish joyiga kirdi."
+    ],
+    "동창회": [
+      "Bitiruvchilar uchrashuviga boraman.",
+      "Shu dam olish kunlari sinfdoshlar uchrashuvi bor.",
+      "Sinfdoshlar uchrashuvida ko'p yillardan beri ko'rmagan eski do'stlarimning ko'pchiligi bilan uchrashdim.",
+      "Maktab bitiruvchilari uyushmasi har yili kuzda o'z maktabida muntazam yig'ilish o'tkazadi."
+    ],
+    "동해안": [
+      "Sharqiy dengiz qirg'og'iga borgim keladi.",
+      "Yozda Sharqiy dengiz sohilida suzdim.",
+      "Sharqiy sohilda quyosh chiqishi juda go'zal bo'lgani uchun ko'plab odamlar tashrif buyuradi.",
+      "Bu bayram ta'tilida oilam bilan Sharqiy dengiz qirg'og'iga sayohatga jo'nadim."
+    ],
+    "동호회": [
+      "Men fotografiya havaskorlar klubidaman.",
+      "Havaskorlar klubida do'stlar orttirdim.",
+      "Bizning tog'ga chiqish havaskorlari klubimiz har oy bir marta tog'ga chiqadi.",
+      "U ishdan keyin velosipedchilar havaskorlar klubida shug'ullanib, stressdan xalos bo'ladi."
+    ],
+    "동화": [
+      "Men ertak o'qiyman.",
+      "Onam menga ertak o'qib berardilar.",
+      "Bu ertak bolalarga jasoratni o'rgatadi.",
+      "Buvim uxlash oldidan doim qiziqarli qadimiy ertaklarni aytib berardilar."
+    ],
+    "동화책": [
+      "Ertak kitobi o'qiyman.",
+      "Bola ertak kitoblarini yaxshi ko'radi.",
+      "Kitob do'konidan bolamga beradigan bitta ertak kitobi sotib oldim.",
+      "Rasmlari ko'p bo'lgan ertak kitoblari bolalarning tasavvurini rivojlantirishga yordam beradi."
+    ],
+    "되도록": [
+      "Iloji boricha erta keling.",
+      "Iloji boricha sekinroq gapiring.",
+      "Ertaga iloji boricha erta turib, sport bilan shug'ullanmoqchiman.",
+      "Sog'liq uchun iloji boricha sho'r ovqatlardan tiyilgan ma'qul."
+    ],
+    "되돌리다": [
+      "Soatni orqaga suraman.",
+      "Vaqtni ortga qaytarishni istardim.",
+      "Xato bosib o'zgartirib qo'ygan sozlamani avvalgi holiga qaytardim.",
+      "U allaqachon qabul qilingan qarorni ortga qaytarish uchun juda kech, degan xulosaga keldi."
+    ],
+    "되돌아보다": [
+      "Orqaga qaradim.",
+      "Bolalik yillarimni eslayman.",
+      "O'tgan yilni sarhisob qilib, kundalik yozdim.",
+      "U o'tgan o'n yillik ish faoliyatini sarhisob qilib, chuqur o'yga tolib qoldi."
+    ],
+    "되살아나다": [
+      "Gul qayta jonlandi.",
+      "Eski xotiralar qayta jonlanyapti.",
+      "Suv quyib bergan edim, so'lib qolgan tuvakdagi gul yana jonlandi.",
+      "Uzoq vaqtdan keyin ona yurtiga borganida bolalik xotiralari yorqin jonlandi."
+    ],
+    "두려움": [
+      "Men qo'rquv his qilaman.",
+      "Qorong'ilikdan qo'rqaman.",
+      "Birinchi marta samolyotga chiqqanimda qo'rquvdan qo'llarim terlab ketdi.",
+      "U muvaffaqiyatsizlikdan qo'rqishni yengib, yangi ishga qo'l urdi."
+    ],
+    "두려워하다": [
+      "Men itlardan qo'rqaman.",
+      "Bola qorong'ilikdan qo'rqadi.",
+      "U odamlar oldida gapirishdan juda qo'rqadi.",
+      "Biz muvaffaqiyatsizlikdan qo'rqmay, tinimsiz intilishimiz kerak."
+    ],
+    "두세": [
+      "Ikki-uch kishi keldi.",
+      "Ikki-uchta olma sotib oldim.",
+      "Do'stim ikki-uch marta qo'ng'iroq qilgan ekan, lekin javob bera olmadim.",
+      "Yig'ilishdan oldin ikki-uchta savolni oldindan tayyorlab qo'ydim."
+    ],
+    "두통": [
+      "Boshim og'riyapti.",
+      "Bugun boshim qattiq og'riyapti.",
+      "Uxlay olmaganim uchun ertalabdan beri boshim og'riyapti.",
+      "Uning boshi qattiq og'rigani uchun shifoxonaga borib, batafsil tekshiruvdan o'tdi."
+    ],
+    "두통약": [
+      "Bosh og'rig'i dorisini ichaman.",
+      "Dorixonadan bosh og'rig'i uchun dori sotib oldim.",
+      "Bosh og'rig'i dorisini ichib, bir soatcha dam olgan edim, yaxshi bo'lib qoldim.",
+      "U bosh og'rig'i dorisini juda tez-tez ichib yurgani uchun shifokordan tanbeh eshitdi."
+    ],
+    "둔하다": [
+      "Pichoq o'tmas.",
+      "Men biroz qo'pol harakat qilaman.",
+      "Shamollasam, miyam yaxshi ishlamay, o'qiy olmayman.",
+      "U farosati sust bo'lgani uchun vaziyatni yaxshi ilg'ay olmaydi."
+    ],
+    "둘러보다": [
+      "Atrofga razm solaman.",
+      "Xonani bir ko'zdan kechirib chiqdim.",
+      "Yangi ko'chib kelgan mahallamizni shoshilmay aylanib ko'rdim.",
+      "Biz muzeyni shoshilmay aylanib chiqib, eksponatlarni tomosha qildik."
+    ],
+    "둥글다": [
+      "Yer yumaloq.",
+      "Oy yumaloq.",
+      "Bu likopcha yumaloq shaklda va chiroyli.",
+      "Bola yumaloq ko'zlari bilan qiziqib qolgandek menga tikilib qaradi."
+    ]
+  },
+  "0078": {
+    "뒤떨어지다": [
+      "Mening baholarim ortda qolyapti.",
+      "Yugurishda do'stimdan ortda qolaman.",
+      "O'qimaganim uchun sinfda ancha orqada qolib ketdim.",
+      "U texnologik o'zgarishlardan ortda qolmaslik uchun doimiy ravishda yangi narsalarni o'rganadi."
+    ],
+    "뒤집다": [
+      "Go'shtni ag'daraman.",
+      "Paypoqlarni teskari ag'darib yuvdim.",
+      "Jon qovurayotganda bir tomoni pishsa, ag'darib qo'ying.",
+      "U yo'qotib qo'ygan kalitini topish uchun stol tortmasini ag'dar-to'ntar qildi."
+    ],
+    "뒤풀이": [
+      "Bugun tadbirdan keyin yig'ilish bor.",
+      "Spektakl tugagandan keyin ziyofatga bordim.",
+      "Imtihon tugagandan keyin do'stlarim bilan nishonlash uchun yig'ildik.",
+      "Tadbir tugaganidan keyin ishtirokchilar yaqin atrofdagi restoranda kichik ziyofat uyushtirishdi."
+    ],
+    "뒷모습": [
+      "Onamning orqadan ko'rinishi ko'rinyapti.",
+      "Uning orqadan ko'rinishi g'amgin ko'rinardi.",
+      "Ketayotgan do'stimning ortidan uzoq qarab qoldim.",
+      "U uzoqlashib borayotgan otasining ortidan qarab, ko'zlariga yosh oldi."
+    ],
+    "뒷문": [
+      "Orqa eshikdan chiqaman.",
+      "Do'konning orqa eshigi ochiq.",
+      "Maktabning orqa eshigi oldida do'stimni kutdim.",
+      "Mijozlar ko'p bo'lgani uchun xodimlar orqa eshikdan kirib-chiqib, mollarni tashishdi."
+    ],
+    "뒷이야기": [
+      "Voqeaning davomi qiziq.",
+      "Filmning parda ortidagi voqealarini eshitdim.",
+      "Bu serialni suratga olish jarayoniga oid parda ortidagi voqealar ko'rsatuvda namoyish etildi.",
+      "U voqeaning parda ortidagi tafsilotlarini bilishini aytib, ehtiyotkorlik bilan gap boshladi."
+    ],
+    "뒷자리": [
+      "Orqa o'rindiqqa o'tiraman.",
+      "Men avtobusning orqa o'rindig'ini yoqtiraman.",
+      "Kinoteatrda orqa qatorda o'tirsangiz, ekran yaxshi ko'rinadi.",
+      "Bola mashinaning orqa o'rindig'ida xavfsizlik kamarini taqib, odob bilan o'tirardi."
+    ],
+    "드디어": [
+      "Nihoyat ta'til boshlandi.",
+      "Nihoyat yomg'ir to'xtadi.",
+      "Uzoq vaqt tayyorlangan imtihonimdan nihoyat o'tdim.",
+      "Uzoq kutishdan so'ng nihoyat jamoamiz g'alaba qozondi."
+    ],
+    "드라이": [
+      "Sochimni fen bilan quritaman.",
+      "Dushdan keyin sochimni fen bilan quritaman.",
+      "Go'zallik salonida sochimni kestirib, fen bilan turmaklatib ham oldim.",
+      "U kiyimlarini kimyoviy tozalashga berish uchun kirxonaga kirib o'tdi."
+    ],
+    "드림": [
+      "Mening orzuim xonanda bo'lish.",
+      "Bolalar Dream konsertiga borishdi.",
+      "Bu qo'shiq orzu va umidni aks ettirgan \"Drim\" turkumining bosh qo'shig'i.",
+      "U o'quvchilarga orzularini ro'yobga chiqarishda yordam beradigan \"Orzu\" dasturini olib bormoqda."
+    ],
+    "드물다": [
+      "Bunday holat kam uchraydi.",
+      "Qor yog'adigan kunlar kam bo'ladi.",
+      "Bu qishloqda yoshlar kam uchraydi.",
+      "Bunday halol odamni hozirgi zamonda kamdan-kam uchratish mumkin."
+    ],
+    "든든하다": [
+      "Do'stim borligi uchun o'zimni ishonchli his qilaman.",
+      "Nonushta qilsam, to'q yuraman.",
+      "Oilam yonimda bo'lgani uchun o'zimni xotirjam va ishonchli his qilaman.",
+      "Akam yonimda turib yordam beraman, degani uchun ko'nglim ancha tinchidi."
+    ],
+    "들려주다": [
+      "Hikoya aytib bering.",
+      "Onam menga qo'shiq aytib berdilar.",
+      "Buvim bolaligi haqida hikoya qilib berdilar.",
+      "U bolalarga qiziqarli qadimiy hikoyalarni aytib berishni yaxshi ko'radi."
+    ],
+    "들르다": [
+      "Kitob do'koniga kirib o'taman.",
+      "Uyga ketayotib, supermarketga kirib o'tdim.",
+      "Ishdan qaytayotib do'stimning uyiga bir zumga kirib o'tdim.",
+      "Yaqin atrofga kelsangiz, istalgan vaqtda do'konimizga kirib o'ting."
+    ],
+    "들리다": [
+      "Musiqa ovozi eshitilyapti.",
+      "Qushlarning ovozi yaxshi eshitilyapti.",
+      "Tashqaridan bolalarning o'ynayotgan ovozi eshitilgani uchun derazani ochdim.",
+      "Uning qulog'iga g'alati mish-mishlar chalina boshladi."
+    ],
+    "들어보다": [
+      "Bu qo'shiqni tinglab ko'ring.",
+      "Gapimga quloq solib ko'ring.",
+      "Yangi chiqqan musiqani bir tinglab ko'rmoqchiman.",
+      "U odamlarning fikrlarini yetarlicha tinglab ko'rgach, qaror qabul qildi."
+    ],
+    "들어주다": [
+      "Gapimni tinglang.",
+      "Do'stim gaplarimni tinglab turdi.",
+      "Ota-onam iltimosimni bajargani uchun minnatdor bo'ldim.",
+      "U dardini to'kib solayotgan yosh hamkasbining gaplarini oxirigacha tinglab berdi."
+    ],
+    "들이다": [
+      "Vaqt sarflab ovqat pishiraman.",
+      "Bu ishga ko'p pul sarfladim.",
+      "Yangi uyni bezashga ko'p mehnat sarfladim.",
+      "U bu hisobotni yozishga butun bir hafta mehnat sarfladi."
+    ],
+    "등록": [
+      "Darsga ro'yxatdan o'taman.",
+      "O'quv markaziga ro'yxatdan o'tdim.",
+      "Internet orqali a'zo bo'lib ro'yxatdan o'tib, kupon oldim.",
+      "Talabalar semestr boshlangunga qadar fanlarga ro'yxatdan o'tishni yakunlashlari kerak."
+    ],
+    "등록금": [
+      "O'qish to'lovi qimmat.",
+      "O'qish to'lovini to'ladim.",
+      "Men universitet kontrakt pulini yarim kunlik ishlab topaman.",
+      "Har yili oshib borayotgan o'qish to'lovi tufayli talabalarning moliyaviy yuki ortmoqda."
+    ],
+    "등록증": [
+      "Mening chet el fuqarosi guvohnomam bor.",
+      "Ro'yxatdan o'tganlik guvohnomamni yo'qotib qo'ydim.",
+      "Bankda hisob raqam ochish uchun guvohnoma kerak.",
+      "U migratsiya xizmatidan yangi olgan xorijlik ro'yxatga olish guvohnomasini tekshirib ko'rdi."
+    ],
+    "등불": [
+      "Chiroq yondi.",
+      "Tungi yo'lda fonus ko'tarib bordim.",
+      "Festival kuni har bir ko'chaga fonuslar osilib, juda chiroyli bo'ladi.",
+      "Qorong'i tor ko'chaning oxirida kichik bir chiroq miltillab turardi."
+    ],
+    "디스크": [
+      "Umurtqa disk churrasi borligi uchun belim og'riyapti.",
+      "Faylni kompyuter diskiga saqladim.",
+      "Uzoq o'tirib, bel umurtqasida disk churrasi paydo bo'lgani uchun shifoxonaga qatnayapman.",
+      "U bel umurtqasidagi disk churrasi bo'yicha operatsiya qilingach, bir muddat reabilitatsiya muolajalariga berilib ketdi."
+    ],
+    "디자이너": [
+      "Men dizaynerman.",
+      "Opam kiyim dizayneri.",
+      "Dizayner yangi sumka yaratdi.",
+      "Bu kompaniya mashhur dizayner bilan hamkorlikda yangi brendni taqdim etdi."
+    ],
+    "디지털": [
+      "Men raqamli soat taqaman.",
+      "Raqamli kamerada suratga oldim.",
+      "Hozir raqamli qurilmalardan foydalanishni bilmasangiz, yashash noqulay.",
+      "Ko'plab korxonalar raqamli texnologiyalarni joriy etib, ish samaradorligini oshirmoqda."
+    ],
+    "따다": [
+      "Olma uzaman.",
+      "Tog'da qulupnay terdim.",
+      "Qattiq o'qib, haydovchilik guvohnomasini oldim.",
+      "Dehqonlar ertalab barvaqt bog'dan yaxshi pishgan uzumlarni uzishdi."
+    ],
+    "따라다니다": [
+      "Kuchukcha ortimdan ergashib yuradi.",
+      "Ukam ortimdan ergashib yuradi.",
+      "Qayerga bormasin, jurnalistlar uning ortidan ergashib yurishdi.",
+      "Bola onasining ortidan ergashib yurib, undan u-bu narsani so'radi."
+    ],
+    "따라서": [
+      "Yomg'ir yog'yapti. Shuning uchun piknik bekor qilindi.",
+      "Bugun dam olish kuni. Shuning uchun maktabga bormayman.",
+      "Bu yo'lda ta'mirlash ishlari olib borilyapti. Shuning uchun boshqa yo'ldan borish kerak.",
+      "Xomashyo narxi oshdi. Shuning uchun mahsulot narxi ham oshmasdan iloji yo'q."
+    ],
+    "따로따로": [
+      "Biz alohida-alohida kelamiz.",
+      "Har birimizning hisobimizni alohida qilib bering.",
+      "Ikkalasi bitta uyda yashashsa ham, xonalaridan alohida-alohida foydalanishadi.",
+      "Bu kiyimlarning rangi turlicha bo'lgani uchun ularni alohida-alohida yuvish kerak."
+    ],
+    "따지다": [
+      "Kim haq, kim nohaqligini aniqlaymiz.",
+      "Narxini solishtirib ko'rib sotib oldim.",
+      "Do'stim va'dasini buzgani uchun sababini so'rab, talab qildim.",
+      "U zarar ko'rganini aytib, do'kon egasidan qattiq hisob so'radi."
+    ]
+  },
+  "0079": {
+    "딱": [
+      "Aynan to'g'ri keladi.",
+      "Bu kiyim menga aynan to'g'ri keladi.",
+      "Uchrashuv vaqtiga aynan o'z vaqtida yetib keldim.",
+      "U faqat yana bir marta imkoniyat berishlarini yolvorib so'radi."
+    ],
+    "딱딱하다": [
+      "Non qotib qolgan.",
+      "Bu stul juda qattiq.",
+      "Eskirgan pechenye qotib qolgani uchun uni yeyish qiyin.",
+      "U hayajonlanganidan yuz ifodasi qotib qolgan edi."
+    ],
+    "딴": [
+      "Boshqa odam keldi.",
+      "Boshqa narsalarni o'ylab qoldim.",
+      "Dars paytida boshqa ish bilan shug'ullanish mumkin emas.",
+      "U savol berilsa ham, faqat boshqa gaplarni gapirib, javob berishdan qochdi."
+    ],
+    "땅": [
+      "Yer keng.",
+      "Bola yerga o'tirdi.",
+      "Dehqon yerni kavlab, kartoshka ekdi.",
+      "Bu qishloq aholisi avloddan-avlodga shu yerda dehqonchilik qilib yashab kelgan."
+    ],
+    "땅콩": [
+      "Yeryong'oqni yaxshi ko'raman.",
+      "Menda yeryong'oqqa allergiya bor.",
+      "Kino ko'rayotib yeryong'oq yedim.",
+      "Bu pechene tarkibida yeryong'oq bor, shuning uchun allergiyasi bor odamlar ehtiyot bo'lishi kerak."
+    ],
+    "때때로": [
+      "Men ba'zan piyoda boraman.",
+      "Ba'zan yomg'ir yog'adi.",
+      "Men ba'zan yolg'iz sayohatga chiqib ketgim keladi.",
+      "U odatda kamgap, lekin gohida kutilmagan hazillari bilan odamlarni kuldiradi."
+    ],
+    "때로": [
+      "Ba'zida kech uxlayman.",
+      "Ba'zida do'stim bizning uyimizga keladi.",
+      "Ba'zida ish og'irligidan yig'lagim keladi.",
+      "Inson ba'zida hech qanday sababsiz xavotir tuyg'usiga berilib qoladi."
+    ],
+    "떠오르다": [
+      "Quyosh chiqyapti.",
+      "Xayolimga yaxshi fikr keldi.",
+      "Suv ustiga shar suzib chiqdi.",
+      "Tonggi dengiz uzra qip-qizil quyosh asta-sekin ko'tarildi."
+    ],
+    "떨다": [
+      "Sovuq bo'lgani uchun titrayapman.",
+      "Qo'rqqanimdan butun vujudim titradi.",
+      "Taqdimot qilayotganimda juda hayajonlanganimdan ovozim titrab ketdi.",
+      "Bola qishning sovuq shamolida dir-dir titrab uyga qarab yugurdi."
+    ],
+    "떨리다": [
+      "Ovozim titrayapti.",
+      "Qo'lim titrab, yoza olmayapman.",
+      "Suhbatdan oldin juda hayajonlanganimdan suv ichdim.",
+      "U sevgisini izhor qilmoqchi bo'lgan paytda yuragi shunchalik hayajondan titradiki, og'zidan so'z chiqmadi."
+    ],
+    "떨어뜨리다": [
+      "Stakanni tushirib yubordim.",
+      "Hamyonimni ko'chada tushirib qoldirdim.",
+      "Shoshib ketayotib telefonimni yerga tushirib yubordim.",
+      "U bexosdan likopchani tushirib yuborib, sindirib qo'ydi."
+    ],
+    "떼다": [
+      "Devordan rasmni olib tashlayapman.",
+      "Shishadan yorliqni ko'chirib oldim.",
+      "Sumkadan narx yorlig'ini olib tashlab, sovg'ani berdim.",
+      "Bola nihoyat taglikdan voz kechib, hojatxonaga o'zi boradigan bo'ldi."
+    ],
+    "또박또박": [
+      "Aniq-aniq qilib o'qing.",
+      "Harflarni aniq-tiniq qilib yozdim.",
+      "O'qituvchi ismlarni aniq-tiniq qilib aytib chaqirdi.",
+      "U hayajonda bo'lishiga qaramay, o'z fikrini dona-dona qilib aytdi."
+    ],
+    "또한": [
+      "Men ham talabaman.",
+      "Bu oson va shuningdek qiziqarli.",
+      "U yaxshi qo'shiq aytadi, shuningdek, raqsga ham yaxshi tushadi.",
+      "Bu mahsulot sifati a'lo bo'lishi bilan birga, narxi ham maqbul."
+    ],
+    "똑같이": [
+      "Men bilan xuddi shunday qilib ko'ring.",
+      "Biz bir-birimizga xuddi o'xshaymiz.",
+      "Ikkalasi ham xuddi bir xil qahva buyurtma qilishdi.",
+      "Ota-onalar farzandlarini bir xilda sevishga harakat qiladi."
+    ],
+    "똑똑하다": [
+      "U bola aqlli.",
+      "Ukam haqiqatan ham juda aqlli.",
+      "Aqlli do'stim tufayli qiyin masalani yechdik.",
+      "U aqlli va mehnatkash bo'lgani uchun qaysi ishxonada bo'lmasin, e'tirof qozonadi."
+    ],
+    "뚜렷하다": [
+      "Rasm aniq.",
+      "Rangi yorqin bo'lgani uchun yaxshi ko'rinadi.",
+      "Bugun havo ochiq bo'lgani uchun tog' aniq ko'rinib turibdi.",
+      "Uning o'z fikri aniq bo'lgani uchun u osonlikcha ikkilanib qolmaydi."
+    ],
+    "뚫다": [
+      "Devorni teshyapman.",
+      "Qulog'imni teshtirdim.",
+      "Qurilish guruhi tog'da tunnel qazimoqda.",
+      "U olomonni yorib o'tib, arang sahna oldiga yetib bordi."
+    ],
+    "뚱뚱하다": [
+      "U odam semiz.",
+      "Mushuk semiz.",
+      "Keyingi paytlarda ko'p yeganim uchun biroz semirib qoldim.",
+      "U semiz gavdasi tufayli uzoq vaqtdan beri qayg'urib keladi."
+    ],
+    "뛰어가다": [
+      "Avtobusga ulgurish uchun yugurib ketyapman.",
+      "Bola onasining oldiga yugurib ketdi.",
+      "Kech qolganim uchun maktabgacha yugurib bordim.",
+      "Jala quyib yuborgach, u yaqin atrofdagi do'konchaga yugurib ketdi."
+    ],
+    "뛰어나다": [
+      "U qo'shiqni a'lo darajada kuylaydi.",
+      "Bu o'quvchining bilimi a'lo darajada.",
+      "U sportchining jismoniy chidamliligi a'lo bo'lgani uchun oxirigacha yugurdi.",
+      "U o'zining ajoyib til sezgisi tufayli tarjimon sifatida shuhrat qozondi."
+    ],
+    "뛰어내리다": [
+      "Zinadan sakrab tushdim.",
+      "Bola stuldan sakrab tushdi.",
+      "Basseyn chetidan suvga sakrash xavfli.",
+      "Yong'in chiqqanda u derazadan sakrab tushib, arang jonini saqlab qoldi."
+    ],
+    "뛰어넘다": [
+      "Devordan sakrab o'tyapman.",
+      "Ariqdan sakrab o'tdim.",
+      "U og'ir sharoitlarni yengib o'tib, shifokor bo'ldi.",
+      "Bu jamoa kutilganidan ham yuqori natija bilan g'oliblikni qo'lga kiritdi."
+    ],
+    "뛰어다니다": [
+      "Bolalar yugurib yurishibdi.",
+      "Kuchukcha hovlida yugurib yuribdi.",
+      "Bolalar bog'da maza qilib yugurib-chopib o'ynashdi.",
+      "Yo'lakda yugurib yursangiz, boshqalar jarohat olishi mumkin, shuning uchun ehtiyot bo'lish kerak."
+    ],
+    "뛰어오다": [
+      "Bola yugurib kelyapti.",
+      "Do'stim yonimga yugurib keldi.",
+      "Ismini chaqirishim bilan kuchukcha shoshib yugurib keldi.",
+      "U uchrashuvga kechikib qolishdan qo'rqib, bekatgacha hansirab yugurib keldi."
+    ],
+    "뛰쳐나가다": [
+      "Bola tashqariga otilib chiqib ketyapti.",
+      "U jahli chiqib, xonadan otilib chiqib ketdi.",
+      "Yong'in chiqishi bilan odamlar binodan tashqariga otilib chiqishdi.",
+      "U ko'z yoshlarini tiya olmay, oshxonadan otilib chiqib ketdi."
+    ],
+    "뜨거워지다": [
+      "Suv qizib ketdi.",
+      "Sho'rva qizib bormoqda.",
+      "Quyosh nuri tufayli o'rindiq qizib ketdi.",
+      "Bahs cho'zilgani sari majlis zalidagi muhit tobora qizib bordi."
+    ],
+    "뜻밖에": [
+      "Kutilmaganda do'stimni uchratib qoldim.",
+      "Kutilmaganda qor yog'di.",
+      "Ko'chada kutilmaganda eski o'qituvchimni uchratib, juda xursand bo'ldim.",
+      "U kutilmaganda kelgan omaddan nima qilishini bilmay qoldi."
+    ],
+    "띠": [
+      "Men Ajdar yilida tug'ilganman.",
+      "Siz qaysi yil hayvoni ostida tug'ilgansiz?",
+      "Men Quyon yilida tug'ilganman, ukam esa Yo'lbars yilida.",
+      "Koreyada inson tug'ilgan yiliga qarab o'n ikki muchal hayvonidan biri belgilanadi."
+    ],
+    "램프": [
+      "Stol ustida chiroq bor.",
+      "Chiroqni yoqdim.",
+      "Kechasi kitob o'qish uchun kichkina chiroqni yoqdim.",
+      "U eski chiroqning mayin yorug'ida xat yozdi."
+    ]
+  },
+  "0080": {
+    "레몬": [
+      "Men limonni yaxshi ko'raman.",
+      "Limon juda nordon.",
+      "Suvga limon solib ichdim.",
+      "U baliq taomiga limon sharbatini sepib, baliq hidini yo'qotdi."
+    ],
+    "레포츠": [
+      "Men faol sport turlarini yaxshi ko'raman.",
+      "Dam olish kunlari oilam bilan faol sport turlari bilan shug'ullanaman.",
+      "Yozda daryoda suv sporti turlaridan zavqlanish mumkin.",
+      "Bu hudud paraplanerizm kabi faol dam olish sporti turlari bo'yicha sayyohlik maskani sifatida mashhur."
+    ],
+    "렌즈": [
+      "Linza taqaman.",
+      "Fotoapparatning ob'ektivi sinib qoldi.",
+      "Ko'zim yomon ko'rgani uchun ko'zoynak o'rniga linza taqaman.",
+      "U fotoapparatga yangi ob'ektiv o'rnatib, uzoqdagi qushni suratga oldi."
+    ],
+    "렌터카": [
+      "Ijaraga mashina olaman.",
+      "Chejudoda ijaraga olingan mashinada yurdim.",
+      "Sayohatga borganimda bir kunga ijaraga mashina oldim.",
+      "U aeroportda ijaraga mashina olib, sohil bo'ylab o'tgan yo'ldan haydab ketdi."
+    ],
+    "로또": [
+      "Lotereya chiptasi sotib oldim.",
+      "Men har hafta lotereya bileti sotib olaman.",
+      "Lotereyada yutsam, dunyo bo'ylab sayohatga chiqmoqchiman.",
+      "U lotereyada birinchi o'rinni yutib olganini tushida ko'rib, lotereya chiptasi sotib oldi."
+    ],
+    "로봇": [
+      "Men robotlarni yaxshi ko'raman.",
+      "Robot tozalash ishlarini bajaradi.",
+      "Bola o'yinchoq robot bilan o'ynayapti.",
+      "Zavodda ko'plab ishlarni odamlar o'rniga robotlar bajarmoqda."
+    ],
+    "로비": [
+      "Mehmonxona vestibyulida uchrashamiz.",
+      "Vestibyulda stullar bor.",
+      "Do'stim kelguncha binoning vestibyulida kutdim.",
+      "Mehmonxona vestibyuli ro'yxatdan o'tishni kutayotgan mehmonlar bilan gavjum edi."
+    ],
+    "룸메이트": [
+      "Xonadoshim mehribon.",
+      "Xonadoshim bilan birga yashayman.",
+      "Yangi xonadoshim bilan birga tozalash qoidalarini belgilab oldik.",
+      "U talabalik yillaridagi xonadoshi bilan umrbod do'st bo'lib qoldi."
+    ],
+    "리듬": [
+      "Ritmga moslab raqs tushaman.",
+      "Bu qo'shiqning ritmi yaxshi.",
+      "Musiqa ritmiga moslab qarsak chaldik.",
+      "U pianinoning quvnoq ritmiga mos ravishda oyog'i bilan zarb berib qo'shiq aytdi."
+    ],
+    "리모컨": [
+      "Pult qayerda?",
+      "Pult bilan televizorni yoqaman.",
+      "Pult batareyalari butunlay tugab qolgani uchun yangisiga almashtirdim.",
+      "U divanda yotib, pult bilan kanallarni u yoqdan bu yoqqa almashtirdi."
+    ],
+    "마감일": [
+      "Oxirgi muddat ertaga.",
+      "Iltimos, hisobotni topshirishning oxirgi muddatini ayting.",
+      "Muddat yaqinlashib qolgani uchun kechgacha ishlayapman.",
+      "U muddatga ulgurish uchun dam olish kunlari ham tinim bilmay qo'lyozma ustida ishladi."
+    ],
+    "마네킹": [
+      "Manken chiroyli kiyim kiyib turibdi.",
+      "Do'kon oldida manken turibdi.",
+      "Kiyim do'konining vitrinasida bir nechta manken turibdi.",
+      "Xodim yangi kelgan paltoni mankenga kiygizib, ko'rgazmaga qo'ydi."
+    ],
+    "마당": [
+      "Hovlida gullar bor.",
+      "Bolalar hovlida o'ynayapti.",
+      "Bizning uyimiz hovlisida bitta katta xurmo daraxti bor.",
+      "Buvim har kuni erta tongda hovlini top-toza supurardilar."
+    ],
+    "마디": [
+      "Barmoq bo'g'imlarim og'riyapti.",
+      "Bir og'iz gapirsam maylimi?",
+      "Bambuk bo'g'imli bo'lgani uchun mustahkam bo'ladi.",
+      "U bir og'iz ham xayrlashmasdan joyidan turib ketib qoldi."
+    ],
+    "마라톤": [
+      "Men marafon yuguraman.",
+      "Marafon juda og'ir.",
+      "Otam har yili kuzda marafon musobaqasida qatnashadi.",
+      "U bir necha oy mashq qilganidan so'ng marafonni oxirigacha yugurib chiqishga muvaffaq bo'ldi."
+    ],
+    "마련하다": [
+      "Pul yig'yapman.",
+      "Uy-joyli bo'ldim.",
+      "Do'stimning tug'ilgan kuniga sovg'a olish uchun cho'ntak pulimni yig'dim.",
+      "Kompaniya xodimlarning farovonligi uchun yangi tizim joriy qildi."
+    ],
+    "마루": [
+      "Yog'och polga o'tiraman.",
+      "Pol toza.",
+      "Hanok uyining yog'och ayvonida yotib, kunduzgi uyqu qildim.",
+      "U yog'och polni latta bilan yaltiratib artdi."
+    ],
+    "마무리": [
+      "Ishni yakunlayapman.",
+      "Uy vazifasini tugatdim.",
+      "Taqdimotni yakunlashdan oldin savollarni qabul qilaman.",
+      "U loyihaning yakuniy bosqichida so'nggi tekshiruvni sinchkovlik bilan o'tkazdi."
+    ],
+    "마술": [
+      "Men fokuslarni yaxshi ko'raman.",
+      "Ko'zbog'lovchi shlyapadan quyon chiqardi.",
+      "Tug'ilgan kun bazmida amakim bolalarga fokus ko'rsatdi.",
+      "U karta fokusini namoyish etib, tomoshabinlarni hayratga soldi."
+    ],
+    "마스크": [
+      "Niqob taqaman.",
+      "Shamollaganim uchun niqob taqdim.",
+      "Mayda chang kuchli bo'lgan kunlarda albatta niqob taqish kerak.",
+      "U yuzi tanilib qolmasligi uchun shlyapa va niqob bilan yuzini to'sdi."
+    ],
+    "마약": [
+      "Giyohvand moddalar xavfli.",
+      "Giyohvand modda iste'mol qilish mumkin emas.",
+      "Giyohvand moddaga ruju qo'ysangiz, sog'lig'ingizdan ham, oilangizdan ham ayrilishingiz mumkin.",
+      "Politsiya giyohvand moddalarni yashirincha sotgan to'dani qo'lga olib, tergov olib bormoqda."
+    ],
+    "마을": [
+      "Bizning qishlog'imiz kichkina.",
+      "Qishloq aholisi mehribon.",
+      "Buvim tog' etagidagi kichkina qishloqda yashaydilar.",
+      "U bolaligini dengiz bo'yidagi qishloqda o'tkazgan."
+    ],
+    "마음껏": [
+      "Ko'ngil to'lguncha yeng.",
+      "Ko'nglim to'lguncha o'ynadim.",
+      "Ta'tilda kechgacha xohlagancha uxlash mumkinligi yoqadi.",
+      "Bolalar keng sport maydonchasida ko'ngillari to'lguncha yugurib o'ynashdi."
+    ],
+    "마음대로": [
+      "O'zingiz xohlagancha qiling.",
+      "Ishlar men xohlaganimdek bo'lmayapti.",
+      "Ishlar ko'ngildagidek bo'lmayotgani uchun xafaman.",
+      "Uning birovning narsasini so'ramasdan olib ishlatish odati bor."
+    ],
+    "마음먹다": [
+      "Men o'qishga qaror qildim.",
+      "Sport bilan shug'ullanishga qaror qildim.",
+      "Bu yil albatta koreys tilini yaxshi o'rganishga qaror qildim.",
+      "U bu safar albatta chekishni tashlashga qat'iy qaror qildi."
+    ],
+    "마음씨": [
+      "U odamning qalbi toza.",
+      "Buvimning qalbi juda iliq.",
+      "Qalbi pok do'stim menga yordam berdi.",
+      "Qo'shnilarning hammasi mehribon qalbli bu ayolni yaxshi ko'rishardi."
+    ],
+    "마주보다": [
+      "Biz bir-birimizga yuzma-yuz qarayapmiz.",
+      "Do'stim bilan yuzma-yuz o'tirdik.",
+      "Ikkalasi dasturxon atrofida yuzma-yuz o'tirib suhbatlashishdi.",
+      "U ko'zgu oldida o'z yuziga tik qarab, o'ziga va'da berdi."
+    ],
+    "마주치다": [
+      "Yo'lda do'stimga duch keldim.",
+      "Yo'lakda o'qituvchi bilan duch kelib qoldim.",
+      "Liftda qo'shnim bilan ko'zimiz to'qnashib qoldi va salomlashdim.",
+      "U ko'chada tasodifan sobiq sevgilisi bilan to'qnash kelib qoldi."
+    ],
+    "마중": [
+      "Aeroportga kutib olgani boraman.",
+      "Onam meni kutib olish uchun bekatga chiqdilar.",
+      "Yomg'ir yog'gani uchun otam meni kutib olgani maktabga keldilar.",
+      "U uzoq yo'ldan qaytgan do'stini kutib olish uchun bekatga erta chiqdi."
+    ],
+    "마찬가지": [
+      "Men ham xuddi shunday.",
+      "Bu ham xuddi shunday.",
+      "Ukam ham men kabi musiqani yaxshi ko'radi.",
+      "Odamlar qayerda bo'lmasin, xuddi shunday baxtni orzu qilib yashaydi."
+    ]
+  },
+  "0081": {
+    "마치": [
+      "U xuddi boladek.",
+      "Bugun havo xuddi bahordek.",
+      "U bola xuddi kattalardek xotirjam gapirdi.",
+      "U go'yo boshidanoq bilgandek tabiiy ravishda javob berdi."
+    ],
+    "마침": [
+      "Aynan o'sha payt avtobus keldi.",
+      "Qo'ng'iroq qilmoqchi edim, aynan o'sha payt do'stim kelib qoldi.",
+      "Tomog'im qaqrab turgan paytda aynan o'sha payt do'stim salqin suv olib keldi.",
+      "Majlis endigina tugash arafasida turganida, aynan o'sha paytda direktor kirib kelib, natijani so'radi."
+    ],
+    "마침내": [
+      "Nihoyat ta'til keldi.",
+      "Uzoq kutganimdan so'ng nihoyat do'stim bilan uchrashdim.",
+      "Bir necha yil tayyorlangan imtihonimdan nihoyat o'tib, juda xursand bo'ldim.",
+      "Ko'plab sinov va xatolardan so'ng tadqiqot guruhi nihoyat yangi dori yaratishga muvaffaq bo'ldi."
+    ],
+    "마케팅": [
+      "Men marketing sohasida ishlayman.",
+      "Bizning kompaniyada marketing jamoasi juda katta.",
+      "Yangi mahsulotni sotish uchun internet marketingi bilan jiddiy shug'ullanyapmiz.",
+      "Samarali marketing strategiyasini ishlab chiqish uchun iste'molchilarning didini aniq tahlil qilish kerak."
+    ],
+    "마트": [
+      "Supermarketdan sut sotib olaman.",
+      "Har dam olish kunlari oilam bilan birga supermarketga boraman.",
+      "Uyim yaqinidagi supermarketda chegirma bo'lgani uchun kerakli narsalarni ko'p sotib oldim.",
+      "Yirik supermarketlarda narxlar arzon bo'lsa-da, mahalladagi do'konlardan foydalanadiganlar hamon ko'p."
+    ],
+    "막": [
+      "Yomg'ir shiddat bilan yog'yapti.",
+      "Bolalar xonada u yoqdan-bu yoqqa yugurib yuribdi.",
+      "Jahlim chiqib ketganidan og'zimga kelganini o'ylamay gapirib yubordim.",
+      "U tortmadagi narsalarni tartibsiz chiqarib tashladi-yu, aslida kerakli narsani topa olmadi."
+    ],
+    "막내": [
+      "Ukam oiladagi eng kenja farzand.",
+      "Oilamizning kenjasi hali o'quvchi.",
+      "Men uch farzand ichida eng kenjasi bo'lganim uchun oiladagilarning mehrini ko'p ko'rganman.",
+      "Oilaning kenjasi bo'lib o'sgan u mas'uliyatsizlikda ayblangan bo'lsa-da, ishda hammadan ko'ra vijdonan mehnat qilardi."
+    ],
+    "막다": [
+      "Eshikni to'smang.",
+      "Katta yuk mashinasi yo'lni to'sib turibdi.",
+      "Sovuq bo'lgani uchun deraza tirqishini skotch bilan berkitdim, lekin shamol hamon kirib turibdi.",
+      "Hukumat atrof-muhit ifloslanishining oldini olish uchun zavodlar ustidan nazoratni kuchaytirishga qaror qildi."
+    ],
+    "막대기": [
+      "Tayoq uzun.",
+      "Bola tayoqcha bilan yerga rasm chizyapti.",
+      "Bobom uzun tayoqqa tayanib, tog' yo'lidan sekin ko'tarildilar.",
+      "Bolalar o'rmondan terib olgan tayoqlarni qilich qilib siltab, uzoq vaqt yugurib o'ynashdi."
+    ],
+    "막차": [
+      "Oxirgi avtobus keldi.",
+      "Ish tufayli oxirgi avtobusga o'tirib uyga bordim.",
+      "Do'stlarim bilan gaplashib o'tirib, oxirgi poyezdga ulgurmay qoldim va taksida qaytdim.",
+      "Oxirgi poyezd vaqti yaqinlashgach, odamlar shoshilib hisob-kitob qilishdi va metro bekatiga yo'l olishdi."
+    ],
+    "만남": [
+      "Bugun do'stim bilan uchrashuvim bor.",
+      "Bizning birinchi uchrashuvimiz kutubxonada bo'lgan.",
+      "Sayohat paytida tanishgan odamlar bilan uchrashuvlar men uchun qadrli xotiraga aylandi.",
+      "Har bir uchrashuvning ortidan albatta ayriliq keladi, degan gapni u ancha kech tushunib yetdi."
+    ],
+    "만년필": [
+      "Bu avtoruchka qimmat.",
+      "Otam menga avtoruchka sovg'a qildilar.",
+      "Avtoruchkada yozsam, qo'l yozuvim ancha chiroyli ko'rinadi, shuning uchun uni tez-tez ishlataman.",
+      "Bitiruv xotirasiga sovg'a qilingan avtoruchka shunchaki yozuv quroli emas, balki ustozning dalda so'zlari mujassam bo'lgan buyum edi."
+    ],
+    "만약": [
+      "Agar yomg'ir yog'sa, uyda qolaman.",
+      "Agar vaqtingiz bo'lsa, birga kino ko'raylik.",
+      "Agar ertaga kech tursam, maktabga kechikishim mumkin.",
+      "Agar o'shanda boshqacha tanlov qilganimda, hozirgi hayotim butunlay boshqacha bo'lardi."
+    ],
+    "만족": [
+      "Men bu uydan mamnunman.",
+      "Yangi sotib olgan poyabzalimdan juda mamnunman.",
+      "Mehmonlar taomning ta'midan qoniqish hosil qilgani uchun restoran egasining ham kayfiyati yaxshi bo'ldi.",
+      "Erishilgan natijalar bilan qanoatlanmay, tinimsiz yangi marralarga intilish uni ulg'aytirdi."
+    ],
+    "만족감": [
+      "Qoniqish hissi katta.",
+      "Uy vazifasini tugatib, qoniqish his qildim.",
+      "O'zim pishirgan taomni oilam maza qilib yeyayotganini ko'rsam, katta qoniqish his qilaman.",
+      "Aytishlaricha, ishdan olinadigan qoniqish hissi maosh miqdoridan ko'ra muvaffaqiyat tuyg'usi bilan chuqurroq bog'liq ekan."
+    ],
+    "만화책": [
+      "Men komiks kitoblarini yaxshi ko'raman.",
+      "Dam olish kuni kitob do'konidan komiks kitobi sotib oldim.",
+      "Yoshligimda ota-onamdan yashirincha tun bo'yi komiks o'qib chiqardim.",
+      "Bir paytlar bolalarga zararli deb hisoblangan komikslar endilikda ajoyib madaniy kontent sifatida e'tirof etilmoqda."
+    ],
+    "맏딸": [
+      "Men to'ng'ich qizman.",
+      "To'ng'ich qiz bo'lgan opam singillariga yaxshi qaraydi.",
+      "Oilaning to'ng'ich qizi bo'lib tug'ilganim uchun yoshligimdan uka-singillarimga qarashga o'rganganman.",
+      "To'ng'ich qiz bo'lgani sababli yoshligidanoq uy ishlari mas'uliyatini zimmasiga olgan bu ayol dardini aytadigan hech kimi yo'q edi."
+    ],
+    "맏아들": [
+      "U to'ng'ich o'g'il.",
+      "To'ng'ich o'g'il otasining do'konida yordam beradi.",
+      "To'ng'ich o'g'il bo'lgan akam mas'uliyatli bo'lgani uchun ota-onamizni yaxshi parvarish qiladi.",
+      "An'anaga ko'ra, to'ng'ich o'g'ildan ajdodlarni xotirlash marosimini o'tkazishi va xonadonni boshqarishi kutilgan."
+    ],
+    "말다툼": [
+      "Do'stim bilan janjallashib qoldim.",
+      "Arzimas narsa uchun ukam bilan janjallashib qoldim.",
+      "Arzimas narsadan boshlangan tortishuv tobora kattalashib, bir necha kun bir-birimiz bilan bog'lanmadik.",
+      "Er-xotin arzimas janjaldan so'ng bir-birining nuqtai nazarini tushunib yetdi va aksincha, ular yanada yaqinlashdi."
+    ],
+    "말리다": [
+      "Do'stim urushni to'xtatyapti.",
+      "Onam meni bormaslikka ko'ndirib, to'xtatdilar.",
+      "Do'stlarimning urishayotganini ko'rib, darrov borib ularni ajratib qo'ydim.",
+      "Oila a'zolari xavfli deb qattiq qarshilik qilishgan bo'lsa-da, u oxir-oqibat uzoq yurtga ketishga ahd qildi."
+    ],
+    "말투": [
+      "Uning gapirish ohangi yumshoq.",
+      "Do'stimning gapirish uslubi menga qiziq tuyuladi.",
+      "Sheva aralash gapirish ohangi birinchi eshitganda notanish tuyulsa ham, unda samimiylik bor.",
+      "Suhbatdoshning gapirish ohangining o'zidanoq uning kayfiyati yoki fe'l-atvorini ma'lum darajada taxmin qilish mumkin."
+    ],
+    "맛보다": [
+      "Sho'rvani tatib ko'raman.",
+      "Bozorda turli xil mevalarni tatib ko'rdim.",
+      "Sayohatga borsam, o'sha hududning mashhur taomlarini albatta tatib ko'rmoqchiman.",
+      "O'zi tayyorlagan sousni tatib ko'rgandagina u tuzi biroz kamligini bildi."
+    ],
+    "망가뜨리다": [
+      "Ukam o'yinchoqni buzib qo'ydi.",
+      "Bilmasdan do'stimning telefonini buzib qo'ydim.",
+      "Bola kir yuvish mashinasini o'ynab, uni buzib qo'ygani uchun usta chaqirishga to'g'ri keldi.",
+      "Bir lahzalik e'tiborsizlik uzoq yillar davomida to'plangan ishonchni birdaniga barbod qilishi mumkin."
+    ],
+    "망가지다": [
+      "Soyabon buzilib qoldi.",
+      "Velosipedim buzilib qolgani uchun piyoda keldim.",
+      "Yomg'irda qolgan kompyuter buzilib, barcha muhim ma'lumotlarimdan ayrildim.",
+      "Tartibsiz turmush tarzini davom ettirsangiz, sog'lig'ingiz asta-sekin izdan chiqishi muqarrar."
+    ],
+    "망설이다": [
+      "Men tez-tez ikkilanaman.",
+      "Nima yeyishni bilmay uzoq ikkilandim.",
+      "Unga sevgimni izhor qilsammikan, yo'qmi deb ikkilanib yurib, oxiri ayta olmadim.",
+      "U yangi sinov oldida ikkilanib turish o'rniga, avval bir urinib ko'rishga qaror qildi."
+    ],
+    "망하다": [
+      "Do'kon bankrot bo'ldi.",
+      "U restoranga mijoz kelmagani uchun kasod bo'ldi.",
+      "Iqtisodiy ahvol yomonlashgani uchun otamning kompaniyasi bankrot bo'lib qolmasmikan deb xavotirdaman.",
+      "Uzoq asrlar davomida gullab-yashnagan sulola ichki parokandalik oqibatida oxir-oqibat inqirozga uchradi."
+    ],
+    "맞벌이": [
+      "Ota-onam ikkalasi ham ishlaydi.",
+      "Er-xotin ikkalasi ishlaydigan oilalar juda band bo'ladi.",
+      "Ikkalamiz ham ishlaganimiz uchun bolamizga qarab turadigan odam qidiryapmiz.",
+      "Er-xotin ikkalasi ham ishlaydigan oilalar ko'payishi bilan bola tarbiyasi va uy yumushlarini taqsimlash masalasi muhim bo'lib qoldi."
+    ],
+    "맞이": [
+      "Yangi yilni kutib olishga tayyorgarlik ko'ryapman.",
+      "Mehmonlarni kutib olish uchun uyni tozaladim.",
+      "Oilamiz har yili Yangi yilni kutib olish uchun dengiz bo'yiga quyosh chiqishini ko'rgani boradi.",
+      "Yil yakuni arafasida shaharning turli burchaklarida qishni kutib olish tadbirlari va Yangi yilni kutib olish bayramlari o'tkazildi."
+    ],
+    "맞추다": [
+      "Boshqotirmani yig'yapman.",
+      "Soatni aniq vaqtga to'g'riladim.",
+      "Do'stim bilan uchrashuv vaqtiga ulgurish uchun ertalab erta tayyorlana boshladim.",
+      "Uning suhbatdoshi darajasiga moslashib, tushunarli qilib tushuntirish qobiliyati bor edi."
+    ],
+    "맡기다": [
+      "Sumkani saqlashga topshiraman.",
+      "Sayohatga ketishdan oldin mushugimni do'stimga qoldirdim.",
+      "Band kunlarda bolamni buvisiga qoldirib ishga borishimga to'g'ri kelgani uchun doim xijolat bo'laman.",
+      "Muhim loyihani yangi xodimga topshirish qarori uning salohiyatiga ishonilgani uchun qabul qilingan edi."
+    ]
+  },
+  "0082": {
+    "맡다": [
+      "Bu ishni men zimmamga olaman.",
+      "Gulning hidini hidlab, kayfiyatim ko'tarildi.",
+      "Bu tadbirda boshlovchilik vazifasi menga topshirilgani uchun shu kunlarda juda hayajondaman.",
+      "Yangi tayinlangan jamoa rahbari yangi mahsulot ishlab chiqishdek mas'uliyatli vazifani zimmasiga olib, kecha-kunduz ishladi."
+    ],
+    "매년": [
+      "Har yili yozda dengizga boraman.",
+      "Men har yili tug'ilgan kunimda oilam bilan birga ovqatlanaman.",
+      "Bu qishloqda har yili kuzda katta bayram o'tkazilgani uchun sayyohlar ko'p keladi.",
+      "Har yili ko'plab talabalar xorijga o'qishga ketadi, biroq moslashishda qiyinchiliklarga duch keladiganlar ham oz emas."
+    ],
+    "매달": [
+      "Har oy bitta kitob sotib olaman.",
+      "Men har oy ota-onamga qo'ng'iroq qilaman.",
+      "Har oy maoshimdan ozgina jamg'arib, sayohat xarajatlari uchun pul yig'yapman.",
+      "Har oy muayyan miqdorda xayriya qiladigan fuqarolar ko'paygani sari muhtoj qo'shnilarga yordam berish loyihalari kengaydi."
+    ],
+    "매력": [
+      "U odam jozibali.",
+      "Bu shahar juda jozibali.",
+      "O'sha aktyorning ovozida o'zgacha jozibani his qilib, uning muxlisiga aylandim.",
+      "Shunchaki tashqi ko'rinishdan ko'ra fe'l-atvor va xulqdan yog'ilib turgan jozibasi insonlar qalbini uzoq vaqt o'ziga tortadi."
+    ],
+    "매력적": [
+      "U odam maftunkor.",
+      "Bu sumkaning dizayni jozibali.",
+      "Maoshi ham yuqori, ish sharoiti ham yaxshi bo'lgani uchun o'sha kompaniyaning shartlari juda jozibali tuyuldi.",
+      "Suhbatdoshning gapiga quloq tutish odati har qanday chiroyli notiqlikdan ko'ra jozibaliroq tuyuladi."
+    ],
+    "매연": [
+      "Mashinadan chiqindi gaz chiqyapti.",
+      "Yo'lda chiqindi gazi ko'p bo'lgani uchun nafas olish qiyin.",
+      "Avtobuslardan chiqadigan tutun tufayli ko'chada yurganda niqob taqib olaman.",
+      "Avtomobillardan chiqadigan tutun havo ifloslanishining asosiy sabablaridan biri bo'lib, fuqarolarning nafas yo'llari sog'lig'iga tahdid solmoqda."
+    ],
+    "매운탕": [
+      "Achchiq baliq sho'rva yeyapman.",
+      "Yomg'irli kunlarda achchiq baliq sho'rvasi yegim keladi.",
+      "Daryo bo'yidagi restoranda endigina tutilgan baliqdan pishirilgan achchiq baliq sho'rvasini maza qilib yedim.",
+      "Aytishlaricha, o'tkir va achchiq baliq sho'rvasi ko'p ichilgan kunning ertasi oshqozonni tinchlantirish uchun ayni muddao ekan."
+    ],
+    "매점": [
+      "Bufetdan non sotib olaman.",
+      "Tanaffusda bufetdan ichimlik sotib oldim.",
+      "Maktab bufeti har tushlik vaqtida o'quvchilarga to'lib ketadi va navbat juda uzun bo'ladi.",
+      "Shifoxona ichidagi do'konchada bemorlar va ularga qarovchilar uchun zarur kundalik buyumlarni qulay tarzda xarid qilish mumkin."
+    ],
+    "매진": [
+      "Chiptalar sotilib bo'lgan.",
+      "O'sha filmning dam olish kunlari uchun barcha chiptalari sotilib bo'ldi.",
+      "Konsert chiptalari sotuvga chiqqanidan besh daqiqa o'tib tugab qolgani uchun ololmadim.",
+      "Namoyishning birinchi kunidanoq barcha chiptalar sotilib ketib, film katta shov-shuvga sabab bo'ldi."
+    ],
+    "매체": [
+      "Gazeta yaxshi axborot vositasi.",
+      "Hozir internet ommaviy axborot vositalarini ko'p kuzataman.",
+      "Yangiliklarni ko'rganimda turli ommaviy axborot vositalaridagi maqolalarni solishtirib o'qishga odatlanganman.",
+      "Yangi axborot vositalarining paydo bo'lishi odamlarning ma'lumot olish va muloqot qilish usullarini tubdan o'zgartirib yubordi."
+    ],
+    "매콤하다": [
+      "Bu tteokbokki biroz achchiq.",
+      "Men biroz achchiq taomlarni yaxshi ko'raman.",
+      "Biroz achchiq ziravorda qovurilgan tovuq go'shti ishtahani shunchalik ochdiki, ikki kosa guruch yedim.",
+      "Ishtaha bo'lmaganda biroz achchiq va nordon bibim-guksu ishtahani qayta ochib yuboradi."
+    ],
+    "매표소": [
+      "Chipta kassasi ana u yerda.",
+      "Chipta kassasidan kino chiptasi sotib oldim.",
+      "Bog' kirishidagi chipta kassasi oldida kirish chiptasi olmoqchi bo'lgan odamlar uzun navbatda turishardi.",
+      "Chipta kassasi xodimi guruh bo'lib keluvchi tomoshabinlarga qo'llaniladigan chegirma tizimi haqida xushmuomalalik bilan tushuntirib berdi."
+    ],
+    "맨발": [
+      "Yalangoyoq yuraman.",
+      "Dengiz bo'yida qum ustida yalangoyoq yurdim.",
+      "Bolalar yalangoyoq yugurib o'ynab, oyoq tagini biroz jarohatlab olishdi.",
+      "Sog'lig'i uchun bog'dagi sariq tuproqli yo'lakda yalangoyoq yuradigan odamlar keskin ko'paydi."
+    ],
+    "맨손": [
+      "Yalang qo'l bilan yeyman.",
+      "Qish bo'lsa ham qo'lqopsiz, yalang qo'l bilan chiqdim.",
+      "U qaynoq qozonni yalang qo'li bilan ko'tarib, qo'lini kuydirib oldi.",
+      "Yalang qo'l bilan boshlab, yirik kompaniya barpo etgan insonning muvaffaqiyat hikoyasi ko'plab yoshlarga dalda berdi."
+    ],
+    "맹인": [
+      "U kishi ko'zi ojiz.",
+      "Ko'zi ojizlar uchun yo'lboshlovchi it yo'l ko'rsatmoqda.",
+      "Metro bekatlarida ko'zi ojizlar xavfsiz harakatlanishi uchun Brayl yo'laklari o'rnatilgan.",
+      "Ko'zi ojizlar uchun Brayl yozuvidagi kutubxona ochilishi bilan kitob o'qish imkoniyatlari yanada kengaydi."
+    ],
+    "맺다": [
+      "Do'stim bilan do'stlik rishtalarini bog'layman.",
+      "Ikki kompaniya shartnoma tuzdi.",
+      "Sayohatda tanishgan chet ellik do'stim bilan uzoq vaqtdan beri aloqani uzmay kelyapman.",
+      "Ikki davlat do'stona munosabatlar o'rnatib, madaniyat va iqtisodiyot sohalarida keng hamkorlik qilishga kelishib oldi."
+    ],
+    "머리카락": [
+      "Sochim uzun.",
+      "Polda soch tolalari yotibdi.",
+      "Keyingi paytlarda sochim ko'p to'kilayotgani uchun shifoxonaga borsammikan deb o'ylab yuribman.",
+      "Aytishlaricha, qattiq stress ostida qolganda sochlar ingichkalashib, osongina to'kilishi mumkin ekan."
+    ],
+    "머무르다": [
+      "Mehmonxonada qolyapman.",
+      "Bu dam olish kunlari uyda qolaman.",
+      "Seulda bir hafta qolib, turli joylarni tomosha qilishni rejalashtiryapman.",
+      "Erishilgan natijalar bilan cheklanib qolmay, yana bir pog'ona yuqoriga ko'tarilish istagi uni oldinga yetakladi."
+    ],
+    "머지않다": [
+      "Bahor uzoq emas.",
+      "Yaqin orada ta'til boshlanadi.",
+      "Yaqin orada yangi semestr boshlanadi, shuning uchun kerakli narsalarni oldindan sotib olib qo'ygan ma'qul.",
+      "Mutaxassislar yaqin kelajakda sun'iy intellekt kundalik hayotning deyarli barcha sohalarida qo'llanilishini bashorat qilishdi."
+    ],
+    "먹을거리": [
+      "Yegulik sotib olaman.",
+      "Sayohatga ketishdan oldin yeguliklarni tayyorladim.",
+      "Bozorda yangi sabzavot va mevalar kabi yeguliklar mo'l bo'lgani uchun tomosha qilish maroqli.",
+      "Xavfsiz oziq-ovqatga bo'lgan iste'molchilar qiziqishi ortishi bilan organik mahsulotlar bozori jadal o'sdi."
+    ],
+    "먹이": [
+      "Qushga yem beraman.",
+      "Har kuni ertalab kuchukchamga yem beraman.",
+      "Hovuzdagi baliqlarga ozuqani juda ko'p bersangiz, suv tez ifloslanadi.",
+      "Qish kelishi bilan yem topish qiyinlashgan yovvoyi hayvonlar ko'pincha qishloq yaqinigacha tushib keladi."
+    ],
+    "먹이다": [
+      "Chaqaloqqa ovqat yediraman.",
+      "Onam bolaga dori ichirdilar.",
+      "Men har kuni ertalab mushugimga yem berib, keyin ishga ketaman.",
+      "Uch farzandni yolg'iz o'zi boqib, voyaga yetkazish uchun onam tongdan tungacha tinimsiz ishladilar."
+    ],
+    "먼지": [
+      "Stolda chang ko'p.",
+      "Changyutgich bilan xonadagi changni tozaladim.",
+      "Uzoq vaqt ishlatilmagan omborxonada qalin chang to'planib qolgan edi.",
+      "Bahor faslida sariq chang va mayda zarrachali chang tufayli tashqaridan qaytgach qo'l yuvish odatiga ega bo'lish zarur."
+    ],
+    "멀리": [
+      "Maktab uzoqda joylashgan.",
+      "Do'stim uzoqqa ko'chib ketdi.",
+      "Uzoqqa ketayotgan do'stimni kuzatish uchun aeroportgacha borib, uzoq vaqt qo'l silkitib turdim.",
+      "U shovqin-suronli shahardan uzoqdagi qishloqda umrining qolgan qismini sokin o'tkazishni istardi."
+    ],
+    "멀티미디어실": [
+      "Multimedia xonasiga boraman.",
+      "Darsdan keyin multimedia xonasida video ko'rdik.",
+      "Maktabimizning multimedia xonasida kompyuterlar va katta ekran borligi uchun taqdimotga tayyorlanish qulay.",
+      "Kutubxonaning bir chetida tashkil etilgan multimedia xonasida talabalar video materiallarni erkin tahrirlashlari mumkin."
+    ],
+    "멈추다": [
+      "Mashina to'xtadi.",
+      "Yomg'ir yog'gani uchun bir zum to'xtadim.",
+      "Svetofor qizilga o'zgarishi bilan barcha mashinalar yo'lda to'xtadi.",
+      "U yog'ilgan tanqidlarga qaramay, tadqiqotini to'xtatmasdan oxirigacha unga berilib ishladi."
+    ],
+    "멋지다": [
+      "U shapka ajoyib.",
+      "Bugun kiygan kiyiming juda chiroyli.",
+      "Tog' cho'qqisidan ko'rilgan quyosh chiqishi so'z bilan ifodalab bo'lmaydigan darajada ajoyib edi.",
+      "Inqirozli daqiqalarda ham jamoani xotirjamlik bilan boshqarayotgan uning qiyofasi hammadan ko'ra ajoyib ko'rinardi."
+    ],
+    "멍": [
+      "Oyog'im ko'karib qoldi.",
+      "Yiqilib, tizzam ko'karib qoldi.",
+      "Eshikka qattiq urilib, qo'limda ko'kargan dog' paydo bo'ldi, hali ham og'riyapti.",
+      "Tanadagi ko'karishlar vaqt o'tishi bilan yo'qoladi, ammo qalbda qolgan jarohatlar osonlikcha bitmaydi."
+    ],
+    "메일": [
+      "Elektron xat yuboraman.",
+      "Kecha o'qituvchiga elektron xat yubordim.",
+      "Muhim xat kelgan-kelmaganini tekshirish uchun har kuni ertalab kompyuterni yoqaman.",
+      "Ish yuzasidan elektron xat yuborayotganda xushmuomala iboralardan foydalanish va imlo xatolari yo'qligini sinchiklab tekshirish lozim."
+    ],
+    "멜로디": [
+      "Bu kuy yoqimli.",
+      "O'sha qo'shiqning kuyi qulog'imdan ketmayapti.",
+      "Radioda eshitgan kuy juda tanish tuyulgani uchun uning nomini uzoq o'yladim.",
+      "Hatto so'zlari bo'lmasa ham, faqat go'zal kuyi bilan ta'sir ko'rsata oladigan musiqalar bor."
+    ]
+  },
+  "0083": {
+    "멜론": [
+      "Men qovunni yaxshi ko'raman.",
+      "Yozda salqin qovunni tez-tez yeyman.",
+      "Bozordan yaxshi pishgan qovun tanlab olib kelib, oilam bilan baham ko'rib yedik.",
+      "Bu hududda yetishtirilgan qovun shirinligi bilan mashhur bo'lib, sovg'a sifatida juda xaridorgir."
+    ],
+    "며느리": [
+      "Kelinim mehribon.",
+      "Buvim kelini bilan birga kimchi tayyorlaydilar.",
+      "Kelin yangi uyga ko'chib o'tadigan kuni qaynona o'zi ovqat tayyorlab olib bordi.",
+      "Ilgari kelinning qaynota-qaynonasiga qarashi tabiiy hol deb qaralgan, biroq hozir qarashlar ancha o'zgargan."
+    ],
+    "면": [
+      "Bu lapsha mazali.",
+      "Men lapshani yaxshi ko'raman.",
+      "Bu usulning yaxshi tomonlari ham, yomon tomonlari ham bor, shuning uchun yaxshilab o'ylab ko'rish kerak.",
+      "Uning fe'li tashqaridan sovuq ko'rinsa-da, iliq tomonlari ham bor."
+    ],
+    "면세점": [
+      "Aeroportdagi bojsiz do'konga boraman.",
+      "Bojsiz do'kondan atir sotib oldim.",
+      "Chet elga uchishdan oldin bojsiz do'kondan ota-onamga sovg'a olish uchun aeroportga erta bordim.",
+      "Bojsiz do'konlarda soliq olinmagani uchun narxlar arzon, biroq xarid qilish mumkin bo'lgan summaga cheklov bor."
+    ],
+    "면접": [
+      "Ertaga ish suhbatim bor.",
+      "Ish suhbatidan o'tish uchun kompaniyaga bordim.",
+      "Suhbatda hayajonlanmaslik uchun oyna oldida javoblarimni bir necha marta mashq qildim.",
+      "Ishga qabul suhbatida nafaqat bilim, balki nomzodning xulqi va qadriyatlari ham muhim baholanadi."
+    ],
+    "면접관": [
+      "Suhbat o'tkazuvchi savol beryapti.",
+      "Suhbat o'tkazuvchi mendan ismimni so'radi.",
+      "Suhbat o'tkazuvchining savollariga ishonch bilan javob berish uchun kompaniya haqida oldindan ma'lumot to'pladim.",
+      "Suhbat o'tkazuvchi nomzod javoblarining mazmunigina emas, balki gapirish uslubi va yuz ifodasigacha sinchiklab kuzatadi."
+    ],
+    "면접시험": [
+      "Suhbat imtihonini topshiraman.",
+      "Bugun tushdan keyin suhbat imtihonim bor.",
+      "Faqat yozma imtihondan o'tganlargina suhbat imtihonida qatnasha oladi, shuning uchun ham hayajondaman, ham xavotirdaman.",
+      "Suhbat imtihonida nomzodning kasbiy mahorati va shaxsiy fazilatlarini birgalikda baholash usuli keng qo'llanilmoqda."
+    ],
+    "면허증": [
+      "Haydovchilik guvohnomangizni ko'rsating.",
+      "Menda haydovchilik guvohnomasi bor.",
+      "Haydovchilik guvohnomasini olish uchun ikki oy kursga qatnab, qunt bilan mashq qildim.",
+      "Politsiya mast holda mashina haydagan haydovchining guvohnomasini darhol to'xtatib, qonuniy choralarni ko'rdi."
+    ],
+    "명랑": [
+      "U bola quvnoq.",
+      "Ukam xushchaqchaq bo'lgani uchun do'stlari ko'p.",
+      "Uning quvnoq kulgisi tufayli ofisdagi muhit ancha yorishdi.",
+      "Quvnoq tabiatli insonlar og'ir vaziyatlarda ham osonlikcha tushkunlikka tushmaydi va atrofdagilarga ijobiy ta'sir ko'rsatadi."
+    ],
+    "명랑하다": [
+      "U do'stim hushchaqchaq.",
+      "Ukam doim quvnoq kuladi.",
+      "Quvnoq ovoz bilan salomlashadigan xodim tufayli do'konga kirgan mijozlarning ham kayfiyati ko'tarildi.",
+      "U har qanday qiyinchilik oldida ham quvnoq harakat qilib, atrofidagilarga dalda berardi."
+    ],
+    "명사": [
+      "Bu ot so'z turkumi.",
+      "Ot va fe'lni o'rganyapman.",
+      "Koreys tilidagi gaplarda ot so'z turkumidan keyin kelishik qo'shimchasi qo'shilib, gap bo'lagi vazifasini ko'rsatadi.",
+      "Otni aniqlab keluvchi aniqlovchilarning shakllarini puxta o'zlashtirib olsangiz, gaplarni tabiiy ravishda kengaytira olasiz."
+    ],
+    "명소": [
+      "Bu yer mashhur joy.",
+      "Seulda mashhur diqqatga sazovor joylar ko'p.",
+      "Bu ko'l sakura gullari bilan mashhur joy sifatida tanilgani uchun har bahorda suratga tushgani keladiganlar ko'p.",
+      "Mahalliy iqtisodiyotni jonlantirish uchun yopilgan konni yangi sayyohlik maskaniga aylantirish taklifi ilgari surildi."
+    ],
+    "명품": [
+      "Bu sumka mashhur brend buyumi.",
+      "Men brend soat sotib olmoqchiman.",
+      "Buvim menga meros qilib bergan idishlarni yillar o'tsa ham o'zgarmaydigan nodir buyum deb aytgan edilar.",
+      "Brend buyumlarning me'yorsiz iste'mol qilinishi jamiyatda tabaqalanish hissini kuchaytirmoqda, degan tanqidlar yangramoqda."
+    ],
+    "몇몇": [
+      "Bir nechta do'stlarim keldi.",
+      "Bir nechta o'quvchi sinfda qoldi.",
+      "Sinfimizdagi o'quvchilarning ba'zilari ta'til davomida chet elda til kurslarida o'qib kelishdi.",
+      "Ba'zi mutaxassislar bu siyosat qisqa muddatda samara bersa-da, uzoq muddatda salbiy oqibatlari katta bo'lishidan xavotir bildirishdi."
+    ],
+    "모국어": [
+      "Koreys tili mening ona tilim emas.",
+      "Mening ona tilim o'zbek tili.",
+      "Ona tilimda gapirganimda o'zimni erkin his qilaman, lekin chet tilida gapirganimda tez-tez xato qilaman.",
+      "Tadqiqot natijalariga ko'ra, ona tilini o'zlashtirish bolalikdagi til muhitiga katta darajada bog'liq ekan."
+    ],
+    "모기": [
+      "Chivin bor.",
+      "Kechasi meni chivin chaqdi.",
+      "Yozda har kecha chivinlar tufayli yaxshi uxlay olmaganim uchun chivinga qarshi spiral yoqib uxladim.",
+      "Chivinlar tarqatadigan yuqumli kasalliklar ko'payishi bilan sog'liqni saqlash idoralari dezinfeksiya ishlarini kuchaytirishga qaror qildi."
+    ],
+    "모델": [
+      "U odam model.",
+      "Do'stim moda modeli bo'lishni xohlaydi.",
+      "Bu avtomobil bu yil chiqqan yangi model bo'lgani uchun yoqilg'ini tejaydi, dizayni ham nafis.",
+      "Muvaffaqiyatli kompaniyalarning boshqaruv modelini o'rganib, uni o'z sharoitimizga moslab qo'llashga urinishlar davom etmoqda."
+    ],
+    "모래": [
+      "Dengiz qirg'og'ida qum ko'p.",
+      "Bolalar qumda o'ynayapti.",
+      "Qumdan qasr qurayotgan edim, to'lqin kelib hammasini buzib ketdi.",
+      "Sahrodagi qum bo'ronlari ko'rishni to'sib, nafas yo'llari kasalliklarini keltirib chiqarib, aholi hayotiga tahdid soladi."
+    ],
+    "모범생": [
+      "U o'quvchi namunali o'quvchi.",
+      "Ukam maktabda namunali o'quvchi.",
+      "U biror marta kechikmagan ham, dars qoldirmagan ham namunali o'quvchi bo'lgani uchun o'qituvchilardan ko'p maqtov eshitgan.",
+      "Namunali o'quvchi degan baholash yukidan siqilgan o'quvchilarning aksincha ruhiy kasallikka chalinish holatlari ham oz emas."
+    ],
+    "모습": [
+      "Onamning qiyofasi ko'rinyapti.",
+      "Ko'zguda o'z aksimni ko'ryapman.",
+      "Uzoq vaqtdan keyin ko'rishgan do'stimning qiyofasi ancha o'zgarib ketgani uchun avvaliga uni tanimadim.",
+      "Tinmay mehnat qilayotgan otamning qiyofasiga qarab, men mas'uliyat nima ekanini o'rgandim."
+    ],
+    "모음": [
+      "Hangulda unli tovushlar bor.",
+      "Unli va undosh tovushlarni o'rganyapman.",
+      "Koreys tilida asosiy unlilar o'nta, ularga qo'shma unlilar qo'shilib, jami yigirma bitta bo'ladi.",
+      "Unli tovushlar aniq talaffuz qilinmasa, koreyscha so'zlarni farqlab eshitishda qiyinchiliklarga duch kelish mumkin."
+    ],
+    "모자라다": [
+      "Pul yetishmayapti.",
+      "Vaqt biroz yetishmayapti.",
+      "Bu oy turmush xarajatlarimga pul yetmay qolgani uchun do'stimdan biroz qarz olishimga to'g'ri keldi.",
+      "Tayyorgarlik muddati yetarli bo'lmagani sababli taqdimot mazmuni to'liq tartibga solinmadi va bu afsus qoldirdi."
+    ],
+    "모집": [
+      "Xodimlar ishga qabul qilinmoqda.",
+      "To'garakka yangi a'zolar qabul qilinmoqda.",
+      "Shu oydan boshlab kompaniyamizda yangi xodimlarni ishga qabul qilish boshlangani uchun ariza hujjatlarimni tayyorlayapman.",
+      "Ko'ngillilarni yollash haqidagi e'lon joylashtirilishi bilanoq qisqa vaqt ichida o'rinlar to'lib qoladigan darajada qiziqish katta bo'ldi."
+    ],
+    "모험심": [
+      "Menda sarguzashtga intilish kuchli.",
+      "Bolalarning sarguzasht ruhi kuchli.",
+      "Sarguzashtga ishqiboz ukam yangi joylarni kashf qilishni juda yaxshi ko'radi.",
+      "Bolalikdagi sarguzashtga intilish ruhini yo'qotmagan inson yoshi ulg'aygan sari ham yangi sinovlardan qo'rqmaydi."
+    ],
+    "모형": [
+      "Samolyot maketini yasayapman.",
+      "Bola mashina modeli bilan o'ynayapti.",
+      "Muzeyda dinozavr maketlarini o'z ko'zi bilan ko'rib, ushlab ko'rish mumkinligi uchun bolalar juda xursand bo'lishdi.",
+      "Me'mor faqat chizma orqali yetkazish qiyin bo'lgan g'oyasini maket tayyorlab, buyurtmachiga tushuntirib berdi."
+    ],
+    "목마르다": [
+      "Chanqadim.",
+      "Sport bilan shug'ullanib, chanqab qoldim.",
+      "Kun bo'yi yurganim uchun juda chanqab ketib, bir shisha salqin suvni oxirigacha ichib yubordim.",
+      "\"Chanqagan odam quduq qazir\" degan maqolda aytilganidek, eng ko'p ehtiyoj sezgan odam birinchi bo'lib harakatga tushadi."
+    ],
+    "목사": [
+      "U kishi pastor.",
+      "Pastor cherkovda va'z qilyapti.",
+      "Mahallamizdagi cherkov pastori qiyin ahvoldagi qo'shnilarga yordam berishda doim oldinda yuradilar.",
+      "Pastor dindorlarning e'tiqodiy hayotiga yo'l-yo'riq ko'rsatib, va'z va maslahatlar orqali ma'naviy rahnamo vazifasini bajaradi."
+    ],
+    "목숨": [
+      "Hayot qadrli.",
+      "U bir insonning hayotini saqlab qoldi.",
+      "O't o'chiruvchi o'z hayotini xavf ostiga qo'yib, olov ichida qolgan bolani qutqarib oldi.",
+      "Inson hayoti hech narsaga almashtirib bo'lmaydigan darajada qimmatli ekanini biz doimo yodda tutishimiz kerak."
+    ],
+    "목욕탕": [
+      "Hammomga boraman.",
+      "Dam olish kuni oilam bilan hammomga bordim.",
+      "Sovuq qishda issiq suvli jamoat hammomiga borib, badanimni suvga yaxshilab botirgim keladi.",
+      "Koreyadagi mahalla hammomlari shunchaki yuvinish joyi bo'libgina qolmay, qo'shnilar mehr ulashadigan suhbat maskani vazifasini ham o'tagan."
+    ],
+    "목적지": [
+      "Manzilga yetib keldim.",
+      "Borar manzilingiz qayer?",
+      "Yo'l tirband bo'lgani uchun manzilga yetib borishimiz kutilganidan ikki soat ko'proq vaqt oldi.",
+      "Sayohatning zavqi manzilga yetib kelgan lahzadan ko'ra, o'sha yerga borish jarayonida, degan gap ham bor."
+    ]
+  },
+  "0084": {
+    "목표": [
+      "Mening maqsadim shifokor bo'lish.",
+      "Bu yilgi maqsadim koreys tili imtihonidan o'tish.",
+      "Maqsadimga erishish uchun har kuni ertalab erta turib o'qish odatini shakllantirdim.",
+      "Aniq maqsad qo'yib, bosqichma-bosqich harakat qiladigan inson oxir-oqibat istagan natijasiga erishadi."
+    ],
+    "몰라보다": [
+      "Do'stimni tanimay qoldim.",
+      "Ozib ketganingizdan tanimay qolay dedim.",
+      "Uzoq vaqtdan keyin ko'rgan sinfdoshim shunchalik o'zgarib ketgan ekanki, avvaliga tanimay, yonidan o'tib ketishimga sal qoldi.",
+      "U qisqa vaqt ichida tanib bo'lmas darajada ulg'ayib, atrofdagilarni hayratda qoldirdi."
+    ],
+    "몰래": [
+      "Yashirincha yeyman.",
+      "Ukam yashirincha pechenye yedi.",
+      "Bola onasidan yashirincha xonada o'yin o'ynayotgan edi, oxiri qo'lga tushib qoldi.",
+      "Uning hech kimga bildirmay yashirincha xayriya qilib kelgani keyinroq ma'lum bo'lib, ko'pchilikni ta'sirlantirdi."
+    ],
+    "몰려들다": [
+      "Odamlar to'planib kelyapti.",
+      "Mijozlar do'konga yopirilib kelishdi.",
+      "Mashhur qo'shiqchi aeroportga yetib kelishi bilan muxlislar birdaniga yopirilib kelishdi va katta tiqilinch yuzaga keldi.",
+      "Yangi restoran haqida og'izdan og'izga gap tarqalgach, har dam olish kuni butun mamlakatdan odamlar yopirilib kelib, navbatga tura boshladi."
+    ],
+    "몰리다": [
+      "Odamlar to'planib qolyapti.",
+      "Dam olish kunlari odamlar ko'p to'planadi.",
+      "Ta'til mavsumi boshlanishi bilan sayyohlar birdaniga dengiz bo'yiga oqib kelgani uchun yo'llar qattiq tirband bo'ladi.",
+      "Ishga boriladigan soatlarda yo'lovchilar metroning faqat bitta yo'nalishiga to'planib qolgani sababli tirbandlik keskin oshdi."
+    ],
+    "몸무게": [
+      "Mening vaznim oltmish kilogramm.",
+      "Har kuni ertalab vaznimni o'lchayman.",
+      "Sog'lig'im uchun sport bilan shug'ullana boshlaganimdan beri vaznim besh kilogrammga kamaydi.",
+      "Tana vaznining to'satdan ortishi yoki kamayishi sog'liqda muammo paydo bo'lganidan darak berishi mumkin."
+    ],
+    "몸짓": [
+      "Imo-ishora bilan gapiraman.",
+      "Bola qo'li bilan imo-ishora qilyapti.",
+      "Til tushunmaganda qo'l va tana ishoralari orqali fikrni yetkazish katta yordam beradi.",
+      "Raqqosaning har bir nozik harakati tomoshabinlarga so'zdan ham chuqurroq hislarni yetkazdi."
+    ],
+    "몹시": [
+      "Bugun juda sovuq.",
+      "Men juda charchadim.",
+      "Kecha tun bo'yi ishlaganim uchun juda charchadim, bugun ertalabdan beri uyqum kelyapti.",
+      "U muhim imtihon oldidan shu qadar hayajonlandiki, odatdagidan ko'ra ko'proq duduqlandi."
+    ],
+    "못생기다": [
+      "U kuchukcha xunuk.",
+      "Mening poyabzalim biroz xunuk.",
+      "Ko'rinishi xunuk bo'lsa ham, astoydil pishirilgan non bo'lgani uchun yeb ko'rsam, juda mazali ekan.",
+      "Odamlar xunuk ko'rinishdagi mevalarni bemaza deb noto'g'ri o'ylashadi, aslida esa ta'mi va to'yimliligida hech qanday farq yo'q."
+    ],
+    "무게": [
+      "Bu sumka juda og'ir.",
+      "Qutining og'irligini o'lchayman.",
+      "Yuk juda og'ir bo'lgani uchun uni bir o'zim ko'tarib zinadan chiqishim qiyin bo'ldi.",
+      "Pochta jo'natmalari qutining hajmi va og'irligiga qarab turli yetkazib berish narxida hisoblanadi."
+    ],
+    "무관심": [
+      "Befarqlik yomon.",
+      "Do'stimning befarqligi meni xafa qiladi.",
+      "Ota-onasining e'tiborsizligi ichida o'sgan bola qalbidagi jarohatlarini oson ochib ko'rsata olmaydi.",
+      "Qo'shnilarga nisbatan befarqlik ortib borgani sari shahar jamiyatidagi uzilish va yolg'izlikda vafot etish muammosi jiddiylashmoqda."
+    ],
+    "무너지다": [
+      "Bino qulab tushdi.",
+      "Ko'prik qulab tushadiganga o'xshaydi.",
+      "Eski devor yomg'ir va shamolga bardosh berolmay qulab tushgani uchun qishloq ahli uni birgalikda tikladi.",
+      "Bir lahzalik beparvolik uzoq yillar davomida to'plangan ishonchni qulatishi mumkin."
+    ],
+    "무늬": [
+      "Kiyimda naqsh bor.",
+      "Men yo'l-yo'l ko'ylakni yaxshi ko'raman.",
+      "Bu idishga gul shaklidagi naqshlar chizilgani uchun dasturxon tuzaganda juda chiroyli ko'rinadi.",
+      "An'anaviy naqshlarni zamonaviy uslubda qayta talqin qilgan dizayn xorijiy iste'molchilar orasida katta qiziqish uyg'otdi."
+    ],
+    "무대": [
+      "Sahnada qo'shiq aytaman.",
+      "Qo'shiqchi sahnaga chiqdi.",
+      "Birinchi marta katta sahnaga chiqadigan bo'lganim uchun bir necha kun oldin yuragim gupillay boshladi.",
+      "Yorqin sahna ortida son-sanoqsiz takroriy mashqlar va ko'zga ko'rinmas xodimlarning mehnati yashiringan."
+    ],
+    "무더위": [
+      "Jazirama issiq boshlandi.",
+      "Jazirama issiq tufayli qiynalyapman.",
+      "Bu yozda jazirama issiq davom etgani uchun konditsionersiz uxlash qiyin bo'ldi.",
+      "Rekord darajadagi jazirama issiq tufayli issiq urishidan aziyat chekkanlar keskin ko'paygach, sog'liqni saqlash idoralari ochiq havodagi faoliyatni cheklashni so'radi."
+    ],
+    "무덤": [
+      "Tog'da qabr bor.",
+      "Bobomning qabrini ziyorat qildim.",
+      "Chuseok kelganda butun oila ajdodlarining qabrlariga borib, o't-o'lanlarni o'rib, qabrni ziyorat qiladi.",
+      "Qazishma tadqiqotlari natijasida bu qadimiy qabrdan qadimgi qirollik xonadoniga tegishli deb taxmin qilinayotgan oltin toj topildi."
+    ],
+    "무덥다": [
+      "Bugun havo dim va issiq.",
+      "Havo juda dim va issiq.",
+      "Yomg'irlar mavsumi tugashi bilan namlikka to'la dim havo kunlar davomida davom etib, noqulaylik darajasi oshib ketdi.",
+      "Dim va issiq yoz kunlarida yetarlicha suyuqlik ichish va quyosh qizigan soatlarda ochiq havoda yurishdan saqlanish kerak."
+    ],
+    "무렵": [
+      "Kechqurun tomon uchrashamiz.",
+      "Quyosh botar mahalda uyga bordim.",
+      "Universitetni bitirayotgan paytlarimda birinchi marta Koreyaga sayohatga borish nasib etdi.",
+      "U o'sha kompaniyaga ishga kirgan paytda soha keskin tarkibiy o'zgarishlarni boshdan kechirayotgan edi."
+    ],
+    "무사히": [
+      "Omon-eson yetib keldim.",
+      "Imtihonni muvaffaqiyatli tugatdim.",
+      "To'fon o'tib ketganidan keyin oilamizning hammasi omon-eson qaytib kelgani uchun ko'nglim juda xotirjam bo'ldi.",
+      "Uzoq davom etgan jarrohlikdan so'ng bemor omon-eson tiklanish xonasiga o'tkazilib, ahvoli barqarorlashdi."
+    ],
+    "무서워하다": [
+      "Bola itdan qo'rqadi.",
+      "Men qorong'i joylardan qo'rqaman.",
+      "Ukam momaqaldiroq ovozidan juda qo'rqqani uchun har safar chaqmoq chaqqanda ko'rpa ostiga yashirinadi.",
+      "U muvaffaqiyatsizlikdan qo'rqmay, tinimsiz harakat qilgani tufayli katta yutuqlarga erisha oldi."
+    ],
+    "무선": [
+      "Simsiz sichqoncha ishlataman.",
+      "Simsiz quloqchinlar qulay.",
+      "Uyimizda simsiz internet o'rnatilgani uchun istalgan joyda bemalol video ko'ra olaman.",
+      "Simsiz quvvatlash texnologiyasi rivojlanishi bilan simlarsiz ham bir nechta qurilmani bir vaqtda quvvatlash imkoni paydo bo'ldi."
+    ],
+    "무소식": [
+      "Xabar yo'qligi yaxshi xabar.",
+      "Do'stimdan hech qanday xabar yo'q.",
+      "Bir oydan ortiq o'g'lidan darak bo'lmagani uchun onasi kun bo'yi faqat telefonga tikilib o'tiribdi.",
+      "\"Xabar yo'qligi - yaxshi xabar\" degan gap yomon xabar bo'lmasa, demak, hammasi joyida degan ma'noda ishlatiladi."
+    ],
+    "무시": [
+      "Mensimang.",
+      "Do'stim gapimni e'tiborsiz qoldirdi.",
+      "Qoidalarni mensimay yo'ldan o'tsangiz, katta baxtsiz hodisa yuz berishi mumkin, shuning uchun doim ehtiyot bo'lish kerak.",
+      "Suhbatdoshning fikrini mensimaslik muloqotni uzib, nizoni yanada kuchaytirishga sabab bo'ladi."
+    ],
+    "무인": [
+      "Bu sotuvchisiz do'kon.",
+      "Sotuvchisiz do'kondan suv sotib oldim.",
+      "Hozir avtomatik buyurtma terminallari ko'paygani uchun xodimsiz ham o'zingiz ovqat buyurtma qila olasiz.",
+      "Uchuvchisiz uchish apparatlari inson bevosita yaqinlasha olmaydigan falokat joylarini suratga olishda qo'llaniladi."
+    ],
+    "무조건": [
+      "Albatta boraman.",
+      "Men so'zsiz roziman.",
+      "Ota-onam buyurdi, deb so'zsiz bo'ysunishdan ko'ra, avval sababini o'ylab ko'raman.",
+      "Suhbatdoshning fikriga so'zsiz qarshi chiqishdan ko'ra, dalillar keltirib, mantiqiy bahslashish zarur."
+    ],
+    "무지개": [
+      "Osmonda kamalak paydo bo'ldi.",
+      "Yomg'ir tinib, kamalak ko'rindi.",
+      "Jala to'xtagach osmonda yorqin kamalak paydo bo'lib, bolalar xursandlikdan qichqirib yuborishdi.",
+      "Kamalak havodagi suv tomchilari quyosh nurini sindirib, qaytarishi natijasida paydo bo'ladigan tabiat hodisasidir."
+    ],
+    "무통장 입금": [
+      "Kartasiz naqd pul o'tkazdim.",
+      "Pulni bank hisobiga naqd pul o'tkazish orqali yubordim.",
+      "Internet-do'kondan narsa sotib olib, to'lovni bank hisobiga naqd pul o'tkazish orqali amalga oshirish uchun bankka bordim.",
+      "Kartasiz naqd pul o'tkazish - bu bank daftarchasi yoki kartasiz ham faqat hisob raqamini bilgan holda naqd pul kiritish usulidir."
+    ],
+    "묵다": [
+      "Mehmonxonada tunayman.",
+      "Do'stimning uyida bir kecha tunadim.",
+      "Chejudoga sayohatga borib, dengiz bo'yi yaqinidagi kichkina mehmon uyida uch kun qoldim.",
+      "Xizmat safari bilan viloyatga borgan u vokzal yaqinidagi mehmonxonada qolib, hamkorlar bilan muzokaralarni davom ettirdi."
+    ],
+    "묶다": [
+      "Oyoq kiyim bog'ichini bog'layapman.",
+      "Sochimni orqaga bog'ladim.",
+      "Ko'chish yuklarini tashishdan oldin kitoblarni ip bilan mahkam bog'lab, qutiga soldim.",
+      "Bir nechta kichik loyihalarni bitta qilib birlashtirib boshqarsangiz, ish samaradorligini oshirish mumkin."
+    ],
+    "문구": [
+      "Bu ibora yaxshi.",
+      "Kantselyariya do'konidan daftar sotib oldim.",
+      "Otkritkaga yozish uchun ta'sirli ibora topish maqsadida internetda uzoq vaqt qidirdim.",
+      "Reklama shiorlari qisqa va ta'sirli bo'lsagina iste'molchi xotirasida uzoq qolib, xaridga olib kelishi mumkin."
+    ]
+  },
+  "0085": {
+    "문명": [
+      "Misrning qadimiy sivilizatsiyasi bor.",
+      "Insoniyat sivilizatsiyani daryo bo'ylarida boshlagan.",
+      "Muzeyda qadimgi sivilizatsiya yodgorliklarini ko'rib, o'sha davr odamlarining hayotiga qiziqib qoldim.",
+      "Insoniyat sivilizatsiyasi qurollarning ixtiro qilinishi va yozuvning qo'llanilishi orqali jadal rivojlanib kelgan."
+    ],
+    "문법": [
+      "Koreys tili grammatikasi qiyin.",
+      "Men grammatikani o'rganyapman.",
+      "Imtihonga tayyorlanayotib, chalkashtirib yuradigan grammatikani tartibga solib, daftarga yozib qo'ydim.",
+      "Til o'rganishda grammatikani puxta bilish muhim, biroq amalda gapirib ko'rish mashqi ham undan kam ahamiyatga ega emas."
+    ],
+    "문병": [
+      "Kasal do'stimni yo'qlagani boraman.",
+      "Kasalni yo'qlash uchun kasalxonaga bordim.",
+      "Do'stim kasalxonaga yotqizilganini eshitib, gul ko'tarib uni yo'qlagani kasalxonaga bordim.",
+      "Kasalni yo'qlab borganda bemorga og'irlik qilmaslik uchun uzoq o'tirmaslik odob hisoblanadi."
+    ],
+    "문서": [
+      "Hujjatni yuboraman.",
+      "Iltimos, bu hujjatdan nusxa ko'chirib bering.",
+      "Yig'ilish uchun kerakli hujjatlarni oldindan elektron pochta orqali yuboraman, bir o'qib chiqing.",
+      "Rasmiy hujjatlarda tuzilgan sana va mas'ul shaxsning imzosi albatta bo'lishi shart."
+    ],
+    "문의": [
+      "Savolim bor.",
+      "Telefon orqali so'rab bildim.",
+      "Mahsulot haqida qiziqtirgan savollarim bo'lgani uchun mijozlarga xizmat ko'rsatish markaziga qo'ng'iroq qilib murojaat qildim.",
+      "Savollaringizni istalgan vaqtda veb-saytdagi e'lonlar taxtasi yoki telefon orqali qoldirishingizni so'raymiz."
+    ],
+    "문자": [
+      "SMS yubordim.",
+      "Do'stimdan SMS keldi.",
+      "Band bo'lganim uchun qo'ng'iroqqa javob bera olmadim, keyinroq SMS orqali javob yubordim.",
+      "Hangul tovushlarni ifodalovchi fonetik yozuv bo'lishi bilan birga, ilmiy tamoyillar asosida yaratilgan yozuv sifatida baholanadi."
+    ],
+    "문제점": [
+      "Muammo bor.",
+      "Bu rejaning kamchiligi nimada?",
+      "Taqdimot tugagach, o'qituvchi hisobotimdagi kamchiliklarni birma-bir ko'rsatib berdi.",
+      "Yangi tizimni joriy etishdan oldin kutilayotgan muammolarni sinchiklab o'rganib chiqish jarayoni zarur."
+    ],
+    "문학": [
+      "Men adabiyotni yaxshi ko'raman.",
+      "Universitetda koreys adabiyotini o'rganyapman.",
+      "Adabiyot darsida o'qituvchi bilan birga eski romanni o'qib, taassurotlarimiz haqida gaplashdik.",
+      "Adabiyot muayyan davrning ijtimoiy manzarasi va inson ichki olamini so'z orqali tasvirlab, o'quvchiga chuqur mulohaza yuritish imkonini beradi."
+    ],
+    "문화생활": [
+      "Madaniy hordiq chiqaraman.",
+      "Dam olish kunlari madaniy hordiq chiqaraman.",
+      "Maosh olsam, kino yoki ko'rgazmalarga borib, madaniy hordiq chiqarishni yoqtiraman.",
+      "Moddiy imkoniyatlar paydo bo'lishi bilan ko'pchilik spektakl va ko'rgazmalarni tomosha qilib, boy madaniy hayotdan bahramand bo'lmoqda."
+    ],
+    "문화유산": [
+      "Kyonjuda madaniy meros ko'p.",
+      "Madaniy merosni muhofaza qilamiz.",
+      "Sayohat paytida jahon madaniy merosi ro'yxatiga kiritilgan qadimiy ibodatxonaga borib, ko'p suratga tushdim.",
+      "Madaniy meros bir xalqning o'ziga xosligi va tarixini o'zida mujassam etgani uchun kelajak avlodlarga butunligicha qoldirilishi lozim bo'lgan qimmatli boylikdir."
+    ],
+    "문화적": [
+      "Madaniy farq bor.",
+      "Bu joy madaniy jihatdan mashhur.",
+      "Chet elda yashab, madaniy farqlar tufayli dastlab tushunmovchiliklar ham bo'ldi, lekin tez orada moslashib oldim.",
+      "Turli madaniy muhitdan kelgan odamlar uchrashganda ba'zan nizolar kelib chiqadi, ammo bu yangi ijod uchun turtki ham bo'ladi."
+    ],
+    "묻히다": [
+      "Yo'l qorga ko'milib qoldi.",
+      "Qo'limga bo'yoq yuqib qoldi.",
+      "Qalin qor yog'ib, mashina qor ostida ko'milib qolgani uchun uni uzoq vaqt chiqarib ololmadik.",
+      "Bola kiyimini butunlay tuproqqa bulg'ab uyga qaytib, onasidan tanbeh eshitdi."
+    ],
+    "물가": [
+      "Narx-navo qimmat.",
+      "Hozir narx-navo oshib ketdi.",
+      "Narx-navo to'xtovsiz oshayotgani uchun har safar bozorlik qilganimda hamyonim yengillashib qolayotgandek tuyuladi.",
+      "Narxlarning o'sish sur'ati ish haqi o'sishidan oshib ketgani sababli oddiy aholining real turmush darajasi aksincha pasaymoqda."
+    ],
+    "물고기": [
+      "Baliq ko'p.",
+      "Hovuzchada baliqlar yashaydi.",
+      "Otam bilan daryoga borib baliq ovladik, lekin bittasini ham tutolmaganimiz uchun afsuslandim.",
+      "Ifloslangan daryolarda baliqlar yashashi qiyin bo'lgani uchun ekotizim muvozanati osongina buziladi."
+    ],
+    "물냉면": [
+      "Suvli sovuq lapsha yeyman.",
+      "Yozda mul naengmyeon mazali bo'ladi.",
+      "Issiq kunlarda salqin sho'rvaga solib yeyiladigan mulnaengmyeon esimga tushib, restoranga bordim.",
+      "Mul-naengmyeon bibim-naengmyeondan farqli o'laroq, sovuq go'sht sho'rvasi quyib yeyilgani uchun uning sho'rvasining ta'mi muhim."
+    ],
+    "물다": [
+      "It tishlaydi.",
+      "Chivin qo'limni chaqdi.",
+      "Kuchukcha o'ynab turib barmog'imni sekingina tishlab olgani uchun cho'chib ketdim.",
+      "Hayvonlarni silashda ular to'satdan tishlab olishi mumkinligi sababli, albatta egasining ruxsatini olib, so'ng ehtiyotkorlik bilan yaqinlashish kerak."
+    ],
+    "물러서다": [
+      "Orqaga chekining.",
+      "Xavfli, bir qadam orqaga chekining.",
+      "Odamlar to'satdan yopirilib kelgani uchun qo'rqib, orqaga chekindim.",
+      "U har qanday bosimga qaramay chekinmay, o'z e'tiqodini oxirigacha himoya qildi."
+    ],
+    "물려주다": [
+      "Ukamga kiyimimni berib yuboraman.",
+      "Otam menga soatlarini meros qilib qoldirdilar.",
+      "Buvim umr bo'yi asrab-avaylagan uzuklarini nevarasiga meros qilib qoldirib, xotirjam ko'z yumdilar.",
+      "Ota-onalarning farzandlariga mol-mulkni meros qoldirish usuli atrofida meros solig'i masalasi jamiyatda bahs-munozaralarga sabab bo'lmoqda."
+    ],
+    "물리다": [
+      "Chivin chaqib oldi.",
+      "Qo'limni hasharot chaqib oldi.",
+      "Tog'da chivin chaqib olgani uchun butun badanim qichiyapti, shishi ham qaytmayapti.",
+      "Zaharli ilon chaqqan bemor zudlik bilan birinchi yordam olib, eng yaqin shifoxonaga yetkazilishi kerak."
+    ],
+    "물방울": [
+      "Suv tomchisi tomyapti.",
+      "Oynada suv tomchilari paydo bo'ldi.",
+      "Sovuq stakan sirtida mayda suv tomchilari paydo bo'lib, qo'lim bilan ushlasam, ho'l bo'lib qoldi.",
+      "Tom chetidan tomayotgan suv tomchilari uzoq vaqt davomida qattiq toshni ham teshib yuboradi, degan gap bor."
+    ],
+    "물약": [
+      "Suyuq dori ichaman.",
+      "Bola suyuq dori ichdi.",
+      "Shamollaganim uchun shifokor menga tabletka o'rniga ichish oson bo'lgan suyuq dori yozib berdi.",
+      "Suyuq dori tabletkani yutishga qiynaladigan bolalar yoki keksalarga berish uchun qulay ekanligi bilan afzal."
+    ],
+    "물음": [
+      "Savolga javob beraman.",
+      "O'qituvchining savoli qiyin.",
+      "Suhbat o'tkazuvchining kutilmagan savolidan dovdirab qoldim, lekin xotirjamlik bilan o'z fikrimni bildirdim.",
+      "U o'z hayoti haqida tub savollarni o'rtaga qo'yib, uzoq vaqt falsafiy kitoblarni berilib o'qidi."
+    ],
+    "물질": [
+      "Suv moddadir.",
+      "Barcha moddalar atomlardan tashkil topgan.",
+      "Fizika darsida moddaning qattiq holatdan suyuq holatga o'tish jarayonini tajriba orqali kuzatdik.",
+      "Bu zavoddan chiqadigan zararli moddalar daryoni ifloslantirib, aholi sog'lig'iga tahdid solmoqda."
+    ],
+    "물품": [
+      "Buyum sotib olaman.",
+      "Bu buyum qimmat.",
+      "Maktabdan kerakli buyumlar ro'yxatini olib, dam olish kuni ota-onam bilan kanselyariya do'koniga bordim.",
+      "Ofat hududiga yordam buyumlarini tezkor yetkazish uchun ko'ngillilar tun bo'yi qutilarni qadoqlashdi."
+    ],
+    "뮤지컬": [
+      "Myuzikl tomosha qilaman.",
+      "Men myuzikllarni yaxshi ko'raman.",
+      "Do'stim bilan mashhur myuziklni ko'rgani bordik, qo'shiq va raqslari haqiqatan ajoyib edi.",
+      "Myuzikl qo'shiq, raqs va aktyorlik mahorati uyg'unlashgan yaxlit sahna san'ati bo'lib, keng tomoshabinlar ommasining mehrini qozongan."
+    ],
+    "미끄러지다": [
+      "Muz ustida toyib ketdim.",
+      "Zinapoyada toyib ketishimga oz qoldi.",
+      "Qorli yo'lda sirpanib, yerga o'tirib qoldim, lekin xayriyatki, qattiq lat yemadim.",
+      "Yomg'irli kunlarda yo'l ho'l bo'lib, mashinalar osongina sirpanib ketgani uchun tezlikni pasaytirib, ehtiyotkorlik bilan haydash kerak."
+    ],
+    "미끄럽다": [
+      "Pol sirpanchiq.",
+      "Yomg'ir yog'gani uchun yo'l sirpanchiq.",
+      "Hammom poli suvdan ho'l bo'lib, sirpanchiq bo'lib qolgan, yiqilib tushmaslik uchun ehtiyot bo'ling.",
+      "Qor yoqqandan keyin muzlab qolgan yo'l juda sirpanchiq bo'lib, piyodalar uchun ham, haydovchilar uchun ham xavfli."
+    ],
+    "미루다": [
+      "Uy vazifasini keyinga qoldiryapman.",
+      "Ishni ertaga qoldirdim.",
+      "Band bo'lganim uchun shifokorga borishni orqaga surib yurdim va oxiri kasalligim yanada kuchayib ketdi.",
+      "Qilinishi kerak bo'lgan ishlarni doimo keyinga qoldirish odati oxir-oqibat yanada kattaroq yuk va stress bo'lib qaytishi muqarrar."
+    ],
+    "미소": [
+      "U tabassum qilyapti.",
+      "Chaqaloqning tabassumi juda yoqimli.",
+      "Birinchi marta ko'rib turgan odam bo'lsa ham, iliq tabassum bilan salomlashgani uchun kayfiyatim ko'tarildi.",
+      "Mijozga muomala qilayotgan xodimning birgina yorqin tabassumi do'kon obro'sini belgilab beradigan holatlar ham oz emas."
+    ],
+    "미역": [
+      "Dengiz karamini yeyman.",
+      "Miyeok dengizdan olinadi.",
+      "Bozordan quritilgan dengiz karamini olib kelib, suvda ivitib, keyin yaxshilab yuvib qo'ydim.",
+      "Miyok (dengiz karami) kalsiy va yodga boy bo'lgani uchun yangi tuqqan ayollar va bolalar uchun foydali taom sifatida keng tanilgan."
+    ]
+  },
+  "0086": {
+    "미역국": [
+      "Miyok sho'rvasini ichaman.",
+      "Tug'ilgan kunda miyeokguk pishiriladi.",
+      "Tug'ilgan kunim ertalab onam mehr bilan pishirgan miyokguk sho'rvasini ichib, kunimni boshladim.",
+      "Koreyada farzand ko'rgan ayolning tanasi tiklanishi uchun miyok sho'rvasi ichish odati uzoq vaqtdan beri davom etib keladi."
+    ],
+    "미용사": [
+      "Sartarosh soch olyapti.",
+      "Men sartarosh bo'lishni xohlayman.",
+      "Sartarosh yuzimning shakliga mos keladigan yangi soch turmagini tavsiya qildi.",
+      "Tajribali sartarosh bo'lish uchun uzoq muddatli amaliyot va davlat malaka sertifikatini olish talab etiladi."
+    ],
+    "미인": [
+      "U go'zal ayol.",
+      "Opam go'zal ayol.",
+      "Qishloqda go'zalligi bilan dong taratgan buvimning yoshlikdagi suratini ko'rib, hayratda qoldim.",
+      "Qadimdan go'zallik mezonlari davr va madaniyatga qarab turlicha o'zgarib kelgani qiziq."
+    ],
+    "미치다": [
+      "U odam aqldan ozgan.",
+      "Do'stim o'yinga juda berilib ketgan.",
+      "Shunchalik band edimki, aqldan ozay deb qolgandim, shuning uchun bir necha kun hech narsa qilmay, maza qilib dam olgim keldi.",
+      "Atrof-muhit ifloslanishining inson sog'lig'iga ko'rsatadigan ta'siri yuzasidan turli tadqiqotlar olib borilmoqda."
+    ],
+    "미팅": [
+      "Tanishuv uchrashuviga boraman.",
+      "Do'stim meni tanishuv uchrashuviga taklif qildi.",
+      "Universitetda o'qib yurgan paytimda do'stlarim bilan birinchi marta guruhli tanishuv uchrashuviga borib, bir-birimiz bilan noqulay salomlashganimiz esimda.",
+      "So'nggi paytlarda talabalar orasida tanishuv uchrashuvlari o'rniga ilovalar orqali qarama-qarshi jins vakillari bilan tanishish holatlari ko'paymoqda."
+    ],
+    "미혼": [
+      "Men turmush qurmaganman.",
+      "U odam hali oila qurmagan.",
+      "Bu yig'in o'ttiz yoshgacha bo'lgan turmush qurmagan yigit-qizlar qatnashib, o'zaro do'stlashishi mumkin bo'lgan uchrashuvdir.",
+      "Oila qurmagan aholi sonining ortishi kech turmush qurish va tug'ilishning kamayishi kabi ijtimoiy hodisalar bilan chambarchas bog'liq."
+    ],
+    "민박": [
+      "Mehmon uyida tunayman.",
+      "Dengiz bo'yidagi mehmon uyiga bordik.",
+      "Chejudoga sayohat paytida mahalliy aholi yuritadigan mehmon uyida qoldim, nonushtasi juda mazali edi.",
+      "Mehmon uylari mehmonxonaga qaraganda arzonroq bo'lib, mahalliy aholining kundalik hayotini yaqindan his qilish imkonini berishi bilan afzal."
+    ],
+    "민속": [
+      "Xalq urf-odatlari muzeyiga boraman.",
+      "Xalq qishlog'ini tomosha qildik.",
+      "Etnografik qishloqda hanbok kiyib, an'anaviy o'yinlarni o'ynab ko'rib, qadimgi odamlarning hayotini his qildim.",
+      "Xalq urf-odatlari muayyan hudud jamoasi uzoq asrlar davomida avloddan avlodga o'tkazib kelgan turmush odatlari va e'tiqodlarini qamrab oluvchi madaniyatdir."
+    ],
+    "민속놀이": [
+      "Xalq o'yinini o'ynayapmiz.",
+      "Seollalda xalq o'yinlarini o'ynadik.",
+      "Seollalda oila a'zolari yig'ilib, yut o'yini kabi xalq o'yinlarini o'ynab, maroqli vaqt o'tkazdik.",
+      "Xalq o'yinlari bolalarda hamjihatlik ruhi va jismoniy rivojlanishga yordam beradigan an'anaviy o'yin madaniyati sifatida qayta baholanmoqda."
+    ],
+    "민요": [
+      "Xalq qo'shig'ini kuylayman.",
+      "Buvim xalq qo'shiqlarini yaxshi ko'radilar.",
+      "Arirang Koreyaning ramziy xalq qo'shig'i bo'lgani uchun ko'pchilik uni yoshligidan birga kuylaydi.",
+      "Xalq qo'shiqlari uzoq asrlar davomida xalqning hayoti va tuyg'ularini o'zida aks ettirib, og'izdan og'izga o'tib kelgan qo'shiqlar bo'lib, har bir hududda o'ziga xos kuyga ega."
+    ],
+    "민족": [
+      "Koreyslar bir millat.",
+      "Bizning xalqimiz hanbok kiyadi.",
+      "Turli millatlar birga yashaydigan mamlakatda bir-birining madaniyatini hurmat qilish juda muhim.",
+      "Bir millatning o'ziga xos tili va madaniyati o'sha jamoaning o'zligini tashkil etuvchi eng asosiy omildir."
+    ],
+    "믿다": [
+      "Men do'stimga ishonaman.",
+      "Bu gapga ishona olmayman.",
+      "U va'dasini bajaradi deb ishongan edim, lekin hech qanday xabarsiz kelmay qolgani uchun hafsalam pir bo'ldi.",
+      "Odamlar ko'pincha faqat o'z ko'zi bilan ko'rgan narsagagina ishonishga moyil, biroq aslida ko'rinmaydigan omillar kattaroq ta'sir ko'rsatishi ham mumkin."
+    ],
+    "믿음": [
+      "Do'stimning menga ishonchidan minnatdorman.",
+      "Biz bir-birimizga ishonamiz.",
+      "Do'stim bilan oramizdagi ishonch buzilmasligi uchun doim va'damni bajarishga harakat qilaman.",
+      "Uzoq yillar davomida to'plangan ishonch va e'tiqod birgina yolg'on tufayli ham barbod bo'lishi mumkin."
+    ],
+    "믿음직스럽다": [
+      "Ukam ishonchli.",
+      "U o'qituvchi juda ishonchli.",
+      "Avvaliga yosh ko'ringan edi, lekin ishlashini ko'rib, haqiqatan ham ishonchli odam ekanini bildim.",
+      "Inqirozli vaziyatda xotirjamlik bilan ish tutgan uning qiyofasi jamoa a'zolariga yanada ishonchli ko'rindi."
+    ],
+    "믿음직하다": [
+      "U do'stim ishonchli.",
+      "Akam ishonchli ko'rinadi.",
+      "Bu do'kon uzoq vaqt halol savdo qilgani uchun xaridorlar orasida ishonchli joy sifatida dong taratgan.",
+      "Ishonchli hamkor topish biznesni muvaffaqiyatga olib boruvchi eng muhim shartlardan biridir."
+    ],
+    "밀다": [
+      "Eshikni itaraman.",
+      "Do'stim meni itarib yubordi.",
+      "Og'ir qutini bir o'zim bor kuchim bilan itarib ko'rdim, lekin pol sirpanchiq bo'lgani uchun oson qimirlamadi.",
+      "U ko'p marotaba muvaffaqiyatsizlikka uchraganiga qaramay, taslim bo'lmay, o'zi ishongan rejani oxirigacha amalga oshirdi."
+    ],
+    "밀려오다": [
+      "To'lqinlar bostirib kelyapti.",
+      "Charchoq bosib kelyapti.",
+      "Ishdan keyin uyga kelsam, kun bo'yi to'plangan charchoq birdaniga bosib kelib, darrov uxlab qoldim.",
+      "Sunami qirg'oqqa shiddat bilan bostirib kelgach, pastlikdagi uylar bir zumda suv ostida qolib ketdi."
+    ],
+    "밀리미터": [
+      "Bir millimetr.",
+      "Bu qalam besh millimetr.",
+      "Bugun bir kun ichida o'ttiz millimetr yomg'ir yog'ib, hamma yo'llarni suv bosdi.",
+      "Bu aniq ehtiyot qismda bor-yo'g'i 0,1 millimetr xatolik bo'lsa ham, u yaroqsiz deb topilib, yo'q qilinadi."
+    ],
+    "밉다": [
+      "U odamni yomon ko'raman.",
+      "Ukamdan ba'zan jahlim chiqadi.",
+      "Do'stim bilan urishganimdan keyin undan ranjigan edim, lekin vaqt o'tib, aksincha uni sog'inib qoldim.",
+      "Yomon ko'rgan odamingizning ham ahvolidan xabar topganingizdan so'ng uni biroz bo'lsa-da tushunadigan bo'lasiz."
+    ],
+    "및": [
+      "Ism va manzilni yozing.",
+      "O'quvchilar va o'qituvchilar qatnashdi.",
+      "Bu hujjatga ism-sharifingiz va aloqa ma'lumotlaringizni aniq yozib topshirishingiz kerak.",
+      "Ushbu qoida xodimlar hamda hamkor tashkilotlar vakillarining barchasiga birdek tatbiq etiladi."
+    ],
+    "밑줄": [
+      "Tagiga chiziq chizaman.",
+      "Muhim joylarning tagiga chizib qo'ydim.",
+      "Kitob o'qiyotib, yoqqan jumlalarning tagiga chizib, ularni daftarga alohida ko'chirib yozib qo'ydim.",
+      "Imtihon savollarida tagiga chizilgan qism bilan bir xil ma'noli iborani tanlash turidagi topshiriqlar tez-tez beriladi."
+    ],
+    "바가지": [
+      "Qovoq cho'mich bilan suv olaman.",
+      "Qovoq idishda suv bor.",
+      "Buvim quduqdan qovoq idish bilan salqin suv olib, menga uzatdilar.",
+      "Sayyohlik joylarida haddan tashqari qimmat narxga aldanib qolmaslik uchun oldindan narxlarni solishtirib, so'ng xarid qilgan ma'qul."
+    ],
+    "바구니": [
+      "Savatda mevalar bor.",
+      "Xarid savatini olib bozorga boraman.",
+      "Onam bilan bozorga borib, savatni yangi sabzavot va mevalarga to'ldirib keldik.",
+      "Atrof-muhitni muhofaza qilish maqsadida bir martalik polietilen paketlar o'rniga xarid savatini olib yuradigan odamlar ko'paymoqda."
+    ],
+    "바깥": [
+      "Tashqarida sovuq.",
+      "Tashqarida o'ynaymiz.",
+      "Tashqarida havo juda yaxshi bo'lgani uchun tushlik vaqtida hamkasblarim bilan bog'da sayr qildim.",
+      "Deraza tashqarisidan eshitilayotgan shovqin kuchli bo'lgani sababli darsga diqqatni jamlash qiyinligi haqida talabalarning shikoyatlari davom etdi."
+    ],
+    "바느질": [
+      "Men tikuvchilik qilaman.",
+      "Buvim tikish bilan mashg'ul.",
+      "Tugmam uzilib tushgani uchun onam uni kiyimga qaytadan tikib qo'ydilar.",
+      "Qo'lda tikish ko'p vaqt talab qilsa-da, mehr bilan ishlangan asar yaratish imkonini beradi."
+    ],
+    "바늘": [
+      "Igna kichkina.",
+      "Qo'limga igna sanchilib ketdi.",
+      "Kiyimim teshilib qolgani uchun igna va ip bilan o'zim tikib ko'rdim, lekin o'ylaganimdan qiyin ekan.",
+      "Ukol ignasidan qo'rqqani sababli shifoxonada emlanishni istamaydigan bolalar ko'p."
+    ],
+    "바닥": [
+      "Pol sovuq.",
+      "Polda o'tiramiz.",
+      "Bola sutni to'kib yuborib, pol yopishqoq bo'lib qolgach, uni latta bilan astoydil artdim.",
+      "Basseynning tubi sayoz tomonida bolalar ham xavfsiz holda suvda o'ynashdan zavqlanishlari mumkin."
+    ],
+    "바닥나다": [
+      "Pul tugab qoldi.",
+      "Guruch tugab qoldi.",
+      "Oy oxiriga kelib cho'ntak pulim tugab qolgani uchun do'stimdan biroz qarz olishimga to'g'ri keldi.",
+      "Qurg'oqchilik davom etib, suv omboridagi suv tugab qolgach, dehqonlar ekinlarni saqlab qolish uchun yer osti suvlarini izlashga tushishdi."
+    ],
+    "바닷물": [
+      "Dengiz suvi sho'r.",
+      "Dengiz suviga tushamiz.",
+      "Dengiz bo'yida suzayotib, dengiz suvidan yutib yuborgan edim, og'zim juda sho'r bo'lib ketdi.",
+      "Dengiz suvi sho'r bo'lgani uchun uni to'g'ridan-to'g'ri ichib bo'lmaydi, ammo bug'latib tuz olish mumkin."
+    ],
+    "바둑": [
+      "Bobom go o'yinini o'ynayaptilar.",
+      "Men baduk o'yinini o'rganyapman.",
+      "Bog'da keksalar yig'ilib baduk o'ynayotganini tomosha qilib turib, uning qoidalariga qiziqib qoldim.",
+      "Baduk qora va oq toshlarni navbatma-navbat qo'yib, ko'proq hududni egallagan tomon g'olib bo'ladigan aqliy o'yindir."
+    ]
+  },
+  "0087": {
+    "바라보다": [
+      "Men dengizga qarab turibman.",
+      "Bola deraza tashqarisiga jimgina tikilib turibdi.",
+      "U uzoqqa ketayotgan poyezdga indamay qarab turardi.",
+      "Biz muammolarga hissiyot bilan emas, balki xolis nuqtai nazardan qarashimiz kerak."
+    ],
+    "바보": [
+      "Men ahmoq emasman.",
+      "Do'stim meni ahmoq deb atagani uchun kayfiyatim buzildi.",
+      "U muhabbat oldida har kim ahmoqqa aylanadi, deb kuldi.",
+      "Faqat birovning gapiga ishonib, katta pulni ishonib topshirib qo'yibman-a, ahmoqona ish qilibman, degan fikr keldi."
+    ],
+    "바위": [
+      "Katta qoya bor.",
+      "Biz qoya ustida o'tirib dam oldik.",
+      "To'lqinlar to'xtovsiz urilib, dengiz bo'yidagi qoya yumaloq shaklga kirdi.",
+      "Alpinistlar tik qoyaga ehtiyotkorlik bilan tirmashib chiqib, cho'qqiga yetib borishdi."
+    ],
+    "바이러스": [
+      "Shamollash virusi qo'rqinchli.",
+      "Qo'lni yuvsangiz, viruslarning oldini olish mumkin.",
+      "Bu virus havo orqali tez tarqalgani uchun niqob taqish kerak.",
+      "Kompyuterga virus kirib, barcha muhim fayllar yo'qolib ketdi."
+    ],
+    "바퀴": [
+      "Velosiped g'ildiragi katta.",
+      "Mashina g'ildiragining havosi chiqib ketdi.",
+      "Metro g'ildiraklari relslar ustida aylanib harakatlanganda shovqin chiqaradi.",
+      "Velosiped g'ildiragi loyga botib qolib, qanchalik kuch bermay, oldinga siljimadi."
+    ],
+    "바탕": [
+      "Bu ishning asosi ishonch.",
+      "Rasmning foni oq rangda.",
+      "U boy tajribasiga asoslanib, yangi biznesni boshladi.",
+      "Bu roman haqiqatda sodir bo'lgan voqea asosida yozilgani uchun yanada jonli tuyuladi."
+    ],
+    "박사": [
+      "Akam fan doktori.",
+      "Men doktorantura bosqichida o'qiyapman.",
+      "U Amerikada iqtisodiyot fanlari bo'yicha doktorlik darajasini olib qaytdi.",
+      "Doktorlik dissertatsiyasini yozish davomida u deyarli butun vaqtini kutubxonada o'tkazdi."
+    ],
+    "박스": [
+      "Quti og'ir.",
+      "Iltimos, bo'sh qutilarni tashlab yuboring.",
+      "Ko'chayotganda kitoblarni katta qutilarga bo'lib joyladim.",
+      "Pochta qutisini ochib qarasam, buyurtma qilgan narsam singan holda turgan ekan."
+    ],
+    "반가워하다": [
+      "Do'stim meni ko'rib xursand bo'ladi.",
+      "Buvim nevarasini ko'rib, juda xursand bo'ldilar.",
+      "Uzoq vaqtdan keyin kelgan sobiq o'quvchisini ko'rib, o'qituvchi juda xursand bo'ldi.",
+      "Kuchukcha egasi uyga qaytganda dumini likillatib, quvonib kutib oladi."
+    ],
+    "반납": [
+      "Kitobni qaytaraman.",
+      "Kitobni kutubxonaga qaytarib topshirdim.",
+      "Olgan soyabonimni ertagacha qaytarishim kerak.",
+      "Muddati o'tib ketgan kitoblarni qaytarmasangiz, ma'lum muddat kitob olish cheklanadi."
+    ],
+    "반납일": [
+      "Qaytarish kuni qachon?",
+      "Bugun kitobni qaytarish kuni.",
+      "Qaytarish kunini unutib qo'yganim uchun kechiktirish jarimasini to'lashga to'g'ri keldi.",
+      "Kitob olish muddati tugashidan oldin qaytarish kunini tekshirib, muddatni uzaytirish uchun ariza bergan ma'qul."
+    ],
+    "반대": [
+      "Men bu fikrga qarshiman.",
+      "Bu yo'lning teskari yo'nalishi bo'yicha boring.",
+      "Ota-onam chet elda o'qishimga oxirigacha qarshi bo'ldilar.",
+      "Hamma rozilik bildirayotgan muhitda ham u yolg'iz o'zi qarshi fikrini ochiq bildirdi."
+    ],
+    "반대말": [
+      "\"Katta\" so'zining antonimi \"kichik\".",
+      "\"Issiq\" so'zining antonimi nima?",
+      "Lug'atdan bu so'zning antonimini qidirib ko'rdim.",
+      "O'qituvchi o'quvchilarga sifatlarning har biridan o'ntadan antonimini yozib kelishni uyga vazifa qilib berdi."
+    ],
+    "반대쪽": [
+      "Qarama-qarshi tomonga boring.",
+      "Qarama-qarshi tomondagi eshikdan chiqing.",
+      "Uyimiz maktabning qarama-qarshi tomonida bo'lgani uchun piyoda o'ttiz daqiqa yuriladi.",
+      "U ko'chani kesib o'tib, qarama-qarshi tomondagi bekatda avtobus kuta boshladi."
+    ],
+    "반드시": [
+      "Albatta kelaman.",
+      "Ertagacha albatta tugating.",
+      "Uchrashuv vaqtida albatta yetib kelish kerak.",
+      "Astoydil harakat qilish har doim ham muvaffaqiyatga olib kelavermaydi, ammo taslim bo'lsangiz, hatto imkoniyat ham yo'qoladi."
+    ],
+    "반말": [
+      "Do'stim bilan norasmiy gaplashaman.",
+      "Men bilan sensirab gapirmang.",
+      "Birinchi marta ko'rishgan odamga birdan sensirab gapirish odobsizlik hisoblanadi.",
+      "Biz tengdosh ekanimizni bilganimizdan so'ng tabiiy ravishda bir-birimiz bilan sensirab gaplasha boshladik."
+    ],
+    "반복": [
+      "Takror-takror o'qiyman.",
+      "Bir xil gapni takrorlamang.",
+      "So'zlarni yaxshi yodlash uchun ularni bir necha marta takrorlab yozish kerak.",
+      "Har kuni bir xil ishlar takrorlanadigan hayotdan u asta-sekin charchab bordi."
+    ],
+    "반성": [
+      "Men qilgan ishimdan pushaymonman.",
+      "Xatoyimdan pushaymon bo'lyapman.",
+      "U kechikkani uchun chuqur pushaymon bo'lib, o'qituvchidan kechirim so'radi.",
+      "Kunni yakunlar ekanman, bugungi xatti-harakatlarimni sarhisob qilib, o'z xatolarim ustida o'ylash odatini shakllantirishga qaror qildim."
+    ],
+    "반응": [
+      "Odamlarning munosabati yaxshi.",
+      "Gapimga hech qanday javob bo'lmadi.",
+      "Yangi chiqqan qo'shiq muxlislar orasida qizg'in qabul qilinmoqda.",
+      "Dori ichgandan keyin tanada g'ayrioddiy reaksiya paydo bo'lsa, darhol shifoxonaga borish kerak."
+    ],
+    "반짝반짝": [
+      "Yulduzlar yaltirab porlayapti.",
+      "Bolaning ko'zlari yaltirab turibdi.",
+      "Tungi osmonda yulduzlar yaltirab porlab turardi.",
+      "Tozalashni tugatgach, pol yarqirab turadigan darajada toza bo'ldi."
+    ],
+    "반짝이다": [
+      "Yulduzlar chaqnayapti.",
+      "Bolaning ko'zlari chaqnab ketdi.",
+      "Dengiz ustida quyosh nurining yaltirashi go'zal edi.",
+      "U yangi uzukka qarab ko'zlari chaqnab ketdi-da, so'ng yayrab kulib yubordi."
+    ],
+    "반품": [
+      "Kiyimni qaytarmoqchiman.",
+      "Tovarni qanday qaytarsa bo'ladi?",
+      "Narsa yoqmagani uchun uni bir hafta ichida qaytarib berdim.",
+      "Mahsulotda nuqson bo'lsa, xarid qilinganidan keyin o'ttiz kun ichida uni bepul qaytarish mumkin."
+    ],
+    "반하다": [
+      "Men u odamga oshiq bo'lib qoldim.",
+      "Do'stim yangi qo'shiqqa mahliyo bo'lib qoldi.",
+      "Uning iliq tabassumini ko'rib, birinchi qarashdayoq oshiq bo'lib qoldim.",
+      "Tomoshabinlar aktyorning ajoyib ijrosiga butunlay maftun bo'lib, qarsak chalishdan to'xtay olmadilar."
+    ],
+    "받아들이다": [
+      "Sovg'amni qabul qiling.",
+      "Do'stimning kechirim so'rashini qabul qildim.",
+      "U kompaniyaning yangi taklifini mamnuniyat bilan qabul qildi.",
+      "Qanchalik qiyin bo'lmasin, voqelikni bor holicha qabul qilish o'zgarishning boshlanishidir."
+    ],
+    "발걸음": [
+      "Qadamlarim yengil.",
+      "Qadamimni to'xtatdim.",
+      "Ishdan qaytayotganimda qadamlarim bugun negadir og'ir tuyuldi.",
+      "Bolalar quvnoq qadamlar bilan maktab tomon yo'l olishdi."
+    ],
+    "발견": [
+      "Bu yangi kashfiyot.",
+      "Ko'chada hamyon topib oldim.",
+      "Olimlar qadimiy g'ordan muhim tarixiy yodgorlik topishdi.",
+      "Kasallik qanchalik erta aniqlansa, davolanish muvaffaqiyati shunchalik yuqori bo'ladi."
+    ],
+    "발급": [
+      "Pasport olaman.",
+      "Ma'lumotnomani qayerdan olsa bo'ladi?",
+      "Shaxsiy guvohnomamni yo'qotib qo'yganim uchun uni qayta berishlarini so'rab ariza topshirdim.",
+      "Yashash joyidan ko'chirmani onlayn tarzda ham olish mumkin bo'lgani uchun tuman hokimligiga borishning hojati yo'q."
+    ],
+    "발달": [
+      "Texnologiya rivojlandi.",
+      "Bolaning tanasi yaxshi rivojlanyapti.",
+      "Transport rivojlangan shaharda bir joydan boshqa joyga borish qulay.",
+      "Bolalikdagi kitob o'qish tajribasi bolaning nutq qobiliyati rivojlanishiga katta ta'sir ko'rsatadi."
+    ],
+    "발레": [
+      "Men baletni yaxshi ko'raman.",
+      "Singlim baletni o'rganyapti.",
+      "U yoshligidan balet maktabiga qatnagan.",
+      "Shu dam olish kuni San'at markazida mashhur balet spektaklini tomosha qilishga qaror qildik."
+    ],
+    "발명": [
+      "Telefon katta ixtiro.",
+      "Buni o'sha odam ixtiro qilgan.",
+      "Edison elektr lampochkasini ixtiro qilgani bilan mashhur.",
+      "Yangi ixtirolar odamlarning hayotini ancha qulay qilib berdi."
+    ]
+  },
+  "0088": {
+    "발목": [
+      "To'pig'im og'riyapti.",
+      "To'pig'imni lat yedirdim.",
+      "Futbol o'ynayotib to'pig'imni burab oldim va kasalxonaga bordim.",
+      "Uning to'pig'i ingichka bo'lgani uchun baland poshnali tuflilar unga juda yarashadi."
+    ],
+    "발생": [
+      "Baxtsiz hodisa yuz berdi.",
+      "Muammo yuzaga kelsa, aytib qo'ying.",
+      "Kecha kechasi shahar markazida katta yong'in chiqib, ko'p odamlar evakuatsiya qilindi.",
+      "Bu baxtsiz hodisa xavfsizlik qoidalariga rioya qilinmagani sababli yuz bergani aniqlandi."
+    ],
+    "발자국": [
+      "Qor ustida oyoq izlari bor.",
+      "Bola oyoq izlarini qoldirdi.",
+      "Qumloqda oyoq izlarimiz uzun bo'lib cho'zilib ketgan edi.",
+      "Qor tingan tongda hovlida faqat mushukning kichkina izlari qolgan edi."
+    ],
+    "발표자": [
+      "Ma'ruzachi kim?",
+      "Ma'ruzachi oldinga chiqsin.",
+      "Bugungi ma'ruzachi tayyorlagan materiallarini ekranga chiqardi.",
+      "Ma'ruzachi juda tez gapirgani uchun mazmunini kuzatib borish qiyin bo'ldi."
+    ],
+    "발표회": [
+      "Ertaga taqdimot bor.",
+      "Pianino konsertiga bordim.",
+      "Bola konsertda kuylaydigan qo'shig'ini har kuni mashq qildi.",
+      "Bizning sinf semestr oxirida teatr namoyishi o'tkazib, ota-onalarni taklif qildi."
+    ],
+    "밝히다": [
+      "Ismingizni ayting.",
+      "Chiroqni yoqib, atrofni yoritaman.",
+      "Politsiya voqea sababini tez orada aniqlab, ma'lum qilishini aytdi.",
+      "U intervyuda nafaqaga chiqmoqchi bo'lganining sababini ochiqchasiga aytdi."
+    ],
+    "밟다": [
+      "Oyog'imni bosmang.",
+      "Qorni bossangiz, g'irch-g'irch ovoz chiqadi.",
+      "Metroda kimdir oyog'imni bosib o'tib ketdi.",
+      "U tormozni bor kuchi bilan bosib, arang avariyadan qochib qoldi."
+    ],
+    "밤새": [
+      "Tun bo'yi yomg'ir yog'di.",
+      "Tun bo'yi dars qildim.",
+      "Bolam kasal bo'lgani uchun tun bo'yi mijja qoqmadim.",
+      "Do'stim bilan gaplashib, tun bo'yi vaqt qanday o'tganini sezmay qoldik."
+    ],
+    "밤새우다": [
+      "Men kecha tunni bedor o'tkazdim.",
+      "Imtihonga tayyorlanish uchun tunni bedor o'tkazaman.",
+      "Do'stlarim bilan o'yin o'ynab tunni bedor o'tkazganim uchun juda charchadim.",
+      "U hisobot yozish uchun tez-tez tunni bedor o'tkazgani sababli sog'lig'i yomonlashdi."
+    ],
+    "밥그릇": [
+      "Kosa sinib qoldi.",
+      "Guruch kosasiga guruch solaman.",
+      "Ovqatlanib bo'lgach, bo'sh kosani yuvish joyiga olib borib qo'ydim.",
+      "Kuchukcha o'z ovqat idishini yalab, go'yo yana ber deganday menga tikilib qaradi."
+    ],
+    "밥맛": [
+      "Ishtaham yo'q.",
+      "Bu guruchdan pishirilgan osh juda mazali chiqadi.",
+      "Shamollaganim uchun shu kunlarda umuman ishtaham yo'q.",
+      "Yangi sotib olingan elektr guruch pishirgichda pishirgan edim, guruch ancha mazali va yopishqoq bo'ldi."
+    ],
+    "밥상": [
+      "Dasturxon tuzayman.",
+      "Dasturxonda gazaklar ko'p.",
+      "Onam issiq taomlar bilan dasturxon tuzab berdilar.",
+      "Butun oila bir dasturxon atrofida o'tirib kechki ovqat qiladigan vaqt kamayib bormoqda."
+    ],
+    "방금": [
+      "Hozirgina keldim.",
+      "Hozirgina nima dedingiz?",
+      "Hozirgina telefonni qo'ygan edim, yana qo'ng'iroq bo'ldi.",
+      "U hozirgina shu yerda edi, qayoqqa ketganini bilmayman."
+    ],
+    "방문": [
+      "Do'stimning uyiga tashrif buyuraman.",
+      "O'qituvchi bizning uyimizga tashrif buyurdilar.",
+      "Bu ta'tilda Pusanga borishni rejalashtiryapman.",
+      "Prezidentning rasmiy tashrifi arafasida shaharning turli joylarida qo'riqlash kuchaytirildi."
+    ],
+    "방송사": [
+      "Teleradiokompaniyada ishlayman.",
+      "O'sha telekompaniya mashhur.",
+      "Amakim katta teleradiokompaniyada muxbir bo'lib ishlaydi.",
+      "Bir nechta teleradiokompaniyalar ushbu saylov ovozlarini sanash bo'yicha ko'rsatuvni bir vaqtda olib bordi."
+    ],
+    "방식": [
+      "Bu usul oson.",
+      "Men buni boshqacha usulda qilaman.",
+      "Har kimning o'qish usuli biroz farq qiladi.",
+      "Uning muammolarni hal qilishda o'ziga xos betakror usuli bor."
+    ],
+    "방청객": [
+      "Tomoshabinlar ko'p.",
+      "Studiyadagi tomoshabinlar qattiq kulishdi.",
+      "Telestudiya ko'rsatuvni tomosha qilgani kelgan odamlar bilan to'lib ketgan edi.",
+      "Studiyadagi tomoshabinlar xonandaning qo'shig'iga hamohang qarsak chalib, muhitni qizitishdi."
+    ],
+    "방해": [
+      "O'qishimga xalaqit bermang.",
+      "Shovqin xalaqit beryapti.",
+      "Qo'shni uydagi shovqin uyqumga xalaqit bergani uchun e'tiroz bildirdim.",
+      "Majlis paytida mobil telefon jiringlab, uning borishiga xalaqit berdi."
+    ],
+    "방향": [
+      "Qaysi tomonda?",
+      "O'ng tomonga qarab yuring.",
+      "Metroning chiqish joyi qaysi tomonda ekanini bilmaganim uchun yo'l so'radim.",
+      "Ushbu loyiha dastlabki rejadan butunlay boshqa yo'nalishda olib borilmoqda."
+    ],
+    "밭": [
+      "Buvim dalada ishlaydilar.",
+      "Dalaga sabzavot ekamiz.",
+      "Dehqonlar ertalabdan beri dalada kartoshka qazib olishyapti.",
+      "Yomg'ir yog'magani sababli daladagi ekinlar qurib bormoqda."
+    ],
+    "배경": [
+      "Rasmning orqa foni chiroyli.",
+      "Bu filmning voqealari Seulda bo'lib o'tadi.",
+      "U roman voqealari Joseon davrida kechadi.",
+      "U og'ir oilaviy sharoitda ulg'aygan bo'lsa-da, ijobiy munosabatini yo'qotmadi."
+    ],
+    "배꼽": [
+      "Kindik ko'rinib turibdi.",
+      "Chaqaloqning kindigi kichkina.",
+      "Bola kulaverib, qornini ushlagancha yumalab ketdi.",
+      "Suzish kiyimini kiysam kindigim ko'rinib qolgani uchun ustidan yupqa kiyim tashlab oldim."
+    ],
+    "배낭": [
+      "Ryukzak og'ir.",
+      "Ryukzakka suv soldim.",
+      "Yelkamga ryukzakni osib, tog' yo'lidan yuqoriga ko'tarildim.",
+      "Sayohatga chiqishdan oldin kerakli narsalarni ryukzakka tartib bilan joylab oldim."
+    ],
+    "배낭여행": [
+      "Men ryukzak bilan sayohatga boraman.",
+      "Ryukzak bilan Yevropaga sayohatga bordim.",
+      "Talabalik paytimda do'stlarim bilan Janubi-Sharqiy Osiyoga ryukzak bilan sayohat qilib kelganman.",
+      "Ryukzak bilan sayohat qilish arzonga tushadi, biroq reja tuzish va bir joydan ikkinchisiga ko'chib yurish oson emas."
+    ],
+    "배려": [
+      "U juda g'amxo'r.",
+      "Do'stimga nisbatan g'amxo'r bo'laman.",
+      "Avtobusda keksalarga joy berish kichik bir e'tibor belgisidir.",
+      "Suhbatdoshning holatini hisobga olmay aytilgan so'zlar niyatdan qat'i nazar, uning dilini og'ritishi mumkin."
+    ],
+    "배우자": [
+      "Turmush o'rtog'ingiz bormi?",
+      "Turmush o'rtog'ingizning ismini yozing.",
+      "Hujjatda turmush o'rtog'ining kasbini yozish uchun katak bor edi.",
+      "Yaxshi turmush o'rtog'i topish uchun avvalo o'zingiz qanday inson ekanligingizni bilishingiz muhim."
+    ],
+    "배추": [
+      "Pekin karami qimmat.",
+      "Pekin karamidan kimchi tayyorlaymiz.",
+      "Kuz kelganda onam ko'p pekin karami sotib olib, qishki kimchi tayyorlaydilar.",
+      "Pekin karami tuzlanib, so'ng ziravor surtilgandagina mazali kimchiga aylanadi."
+    ],
+    "배터리": [
+      "Batareya qolmadi.",
+      "Telefon batareyasini quvvatlayapman.",
+      "Telefonim batareyasi butunlay tugab qolgani uchun bog'lana olmadim.",
+      "Bu noutbukning batareyasi uzoq ishlagani uchun tashqarida ishlash uchun qulay."
+    ],
+    "뱀": [
+      "Men ilondan qo'rqaman.",
+      "Ilon o'tlar orasida.",
+      "Tog' yo'lida ketayotib ilonni ko'rib, cho'chib ketganimdan qichqirib yubordim.",
+      "O'sha hayvonot bog'ida zaharsiz ilonlarni o'z qo'lingiz bilan ushlab ko'rishingiz mumkin bo'lgan maxsus pavilon bor."
+    ],
+    "뱉다": [
+      "Saqichni tupurib tashlayman.",
+      "Suvni tupurib tashlamang.",
+      "Og'zimdagi suyakni ehtiyotkorlik bilan salfetkaga tupurdim.",
+      "Bola achchiq dorini ichishi bilanoq yuzini burishtirib, uni qaytarib tupurib tashladi."
+    ]
+  },
+  "0089": {
+    "버릇": [
+      "Yomon odatim bor.",
+      "Tirnoq tishlash odatimni tashlamoqchiman.",
+      "Uning gapirishdan oldin tomoq qirib olish odati bor.",
+      "Bolalikda shakllangan odatlar katta bo'lgandan keyin ham osonlikcha tuzalmaydi."
+    ],
+    "버릇없다": [
+      "U bola odobsiz.",
+      "Kattalarga odobsizlarcha gapirmang.",
+      "Ukam kattalar oldida odobsizlik qilgani uchun dakki eshitdi.",
+      "U ilk bor ko'rgan odamiga sensirab gapirgan odobsiz xulqi tufayli boshqalarning norozi nigohiga duch keldi."
+    ],
+    "버섯": [
+      "Men qo'ziqorinni yaxshi ko'raman.",
+      "Qo'ziqorinni qovurib yeymiz.",
+      "O'rmondan terib olgan qo'ziqorinlarni yaxshilab yuvib, sho'rvaga soldim.",
+      "Yovvoyi qo'ziqorinlarning ko'pchiligi zaharli bo'lgani uchun ularni o'ylamay yeyish xavfli."
+    ],
+    "버튼": [
+      "Bu tugmani bosing.",
+      "Liftning tugmasi buzilib qoldi.",
+      "Eshik ochilmagani uchun favqulodda vaziyat tugmasini bosdim.",
+      "Kiyimimning tugmasi uzilib tushgani uchun uni igna va ip bilan qaytadan qadab qo'ydim."
+    ],
+    "번역": [
+      "Bu kitobni tarjima qilyapman.",
+      "Iltimos, ingliz tilidan koreys tiliga tarjima qilib bering.",
+      "U koreys romanlarini o'zbek tiliga tarjima qilish bilan shug'ullanadi.",
+      "Tarjima g'aliz bo'lgani uchun asl matn bilan solishtirib, qaytadan o'qib chiqdim."
+    ],
+    "번호표": [
+      "Navbat talonini oldim.",
+      "Navbat raqamini qayerdan olsa bo'ladi?",
+      "Bankka borib, navbat raqamini oldim va stulga o'tirib kutdim.",
+      "Shifoxonada navbat raqamini olgach, navbatim kelishini ancha kutdim."
+    ],
+    "벌금": [
+      "Jarima to'ladim.",
+      "Avtoturargoh qoidasini buzganlik uchun jarima qimmat.",
+      "Svetofor qoidasini buzganim uchun ellik ming von jarima to'lashimga to'g'ri keldi.",
+      "Axlatni duch kelgan joyga tashlayotganda qo'lga tushsangiz, jarima solinadi."
+    ],
+    "벌리다": [
+      "Og'zingizni katta oching.",
+      "Qo'llaringizni yozib ko'ring.",
+      "Tish shifokori menga og'zimni ochishimni aytdi.",
+      "Bola onasini ko'rishi bilanoq ikki qo'lini keng yoyib, yugurib keldi."
+    ],
+    "벌집": [
+      "Ari uyasi katta.",
+      "Daraxtda ari uyasi bor.",
+      "Tom chetining ostida ari uyasi paydo bo'lgani uchun 119 xizmatiga xabar berdim.",
+      "Ari uyasidan asal olish uchun arilar chaqib olmasligi uchun ehtiyot bo'lish kerak."
+    ],
+    "범위": [
+      "Imtihon qamrovi keng.",
+      "Shu qismni yod oling.",
+      "Bu safargi imtihon kitobning birinchi bobidan beshinchi bobigacha bo'lgan qismni o'z ichiga oladi.",
+      "Bu sug'urta baxtsiz hodisa yuz berganda tovon olish mumkin bo'lgan doirasi nisbatan keng."
+    ],
+    "범인": [
+      "Jinoyatchi qo'lga olindi.",
+      "Jinoyatchi kim?",
+      "Politsiya voqea joyi yaqinidagi kuzatuv kameralari yozuvlari orqali jinoyatchining izidan tushdi.",
+      "Uzoq davom etgan tergovdan so'ng tergovchi voqeaning haqiqiy aybdori yaqin atrofda ekanini aniqladi."
+    ],
+    "범죄": [
+      "Jinoyat yomon.",
+      "U jinoyat sodir etdi.",
+      "Bu mahallada kechasi ham jinoyat deyarli sodir bo'lmaydi.",
+      "Politsiya o'smirlar jinoyatchiligining oldini olish maqsadida maktablar atrofidagi patrullarni kuchaytirmoqda."
+    ],
+    "법": [
+      "Qonunga rioya qilish kerak.",
+      "Qonun hamma uchun bir xil.",
+      "Yo'l harakati qonunini buzsangiz, jarima to'lashingiz kerak.",
+      "Yangi qonun qabul qilinishi bilan ko'plab odamlarning turmushi o'zgardi."
+    ],
+    "법원": [
+      "Sudga boraman.",
+      "Sud shahar hokimiyati yonida joylashgan.",
+      "U ajrashish ishi bo'yicha sudga kelishi kerak edi.",
+      "Sud dalillar yetarli emasligini sabab qilib, da'vogarning talabini qanoatlantirmadi."
+    ],
+    "벗기다": [
+      "Bolaning kiyimini yechaman.",
+      "Iltimos, mandarinning po'stini archib bering.",
+      "Onasi chaqaloqning ho'l paypog'ini yechib qo'ydi.",
+      "Kartoshka po'stini archishda pichoq o'rniga tozalagichdan foydalansangiz, qulay bo'ladi."
+    ],
+    "벗어나다": [
+      "Yo'ldan adashib chiqib ketdim.",
+      "Tashvishlardan qutulmoqchiman.",
+      "U uzoq yillik qashshoqlikdan qutulish uchun tinmay mehnat qildi.",
+      "Mashina yo'ldan chiqib ketib, sholipoyaga tushib ketgan baxtsiz hodisa yuz berdi."
+    ],
+    "베개": [
+      "Yostiq baland.",
+      "Yostiqqa bosh qo'yib uxlayman.",
+      "Yumshoq yostiqqa boshimni qo'yishim bilan uxlab qoldim.",
+      "Bo'ynim og'rigani uchun pastroq yostiqqa almashtirgan edim, ancha qulay uxlay oladigan bo'ldim."
+    ],
+    "벨": [
+      "Qo'ng'iroq jiringlayapti.",
+      "Kirish eshigining qo'ng'irog'ini bosdim.",
+      "Kimdir eshik qo'ng'irog'ini chalgani uchun eshikni ochib qaradim.",
+      "Dars boshlanganini bildiruvchi qo'ng'iroq chalinishi bilan talabalar bir vaqtda o'z joylariga o'tirishdi."
+    ],
+    "벨트": [
+      "Kamar taqaman.",
+      "Qora kamarim bor.",
+      "Shimim katta bo'lgani uchun kamar taqib yuraman.",
+      "Avtomobilga o'tirganda albatta xavfsizlik kamarini taqish kerak."
+    ],
+    "벼": [
+      "Sholipoyada sholi o'syapti.",
+      "Sholi ekamiz.",
+      "Kuz kelganda sholipoyadagi sholi sarg'ayib pishadi.",
+      "Dehqonlar to'fon kelishidan oldin shoshilib sholini o'rib olishdi."
+    ],
+    "벼락": [
+      "Chaqmoq chaqdi.",
+      "Yashinning ovozi baland.",
+      "Chaqmoq chaqdi-yu, ketidan qattiq momaqaldiroq gumburladi.",
+      "Keksa daraxtga chaqmoq urib, u ikkiga ajralib yotardi."
+    ],
+    "벼룩시장": [
+      "Dam olish kunlari eski buyumlar bozoriga boraman.",
+      "Eski buyumlar bozoridan kiyim sotib oldim.",
+      "Bog'da o'tkazilgan eski-tuski bozoridan arzon narxda ishlatilgan kitoblar topdim.",
+      "Bizning mahallada har oyning birinchi haftasidagi yakshanba kuni eski buyumlar bozori bo'ladi."
+    ],
+    "벽걸이": [
+      "Bu devor soati.",
+      "Devorga o'rnatiladigan konditsioner sotib oldim.",
+      "Mehmonxona devoriga devorga osiladigan televizor o'rnatdik.",
+      "Joy tor bo'lgani uchun polga qo'yiladigan ventilyator o'rniga devorga osiladigan ventilyatordan foydalanishga qaror qildik."
+    ],
+    "벽돌": [
+      "Bu g'isht uy.",
+      "G'isht og'ir.",
+      "Ishchilar g'ishtlarni birma-bir terib, devor qurishdi.",
+      "Eski qizil g'ishtli bino kafega aylantirilib, ko'plab odamlar tashrif buyuradigan joyga aylandi."
+    ],
+    "변경": [
+      "Rejani o'zgartiraman.",
+      "Manzil o'zgartirildi.",
+      "Yomg'ir yog'gani uchun sayr sanasini keyingi haftaga o'zgartirdik.",
+      "Parolni o'zgartirishni sozlamalar oynasida oddiygina amalga oshirish mumkin."
+    ],
+    "변기": [
+      "Unitaz tiqilib qoldi.",
+      "Unitazni tozalayman.",
+      "Hojatxonadagi unitaz buzilib qolgani uchun usta chaqirdim.",
+      "Unitazga qog'ozdan boshqa narsalarni tashlasangiz, u osongina tiqilib qoladi."
+    ],
+    "변명": [
+      "Bahona qilmang.",
+      "U faqat bahona qiladi.",
+      "Nega kechikkanini so'rashganda u bahonalarni qalashtira boshladi.",
+      "Agar xato qilgan bo'lsangiz, bahona qilmay, avvalo samimiy kechirim so'ragan ma'qul."
+    ],
+    "변비": [
+      "Menda ich qotishi bor.",
+      "Ich qotganda suv ichish foydali.",
+      "Sabzavotni kam iste'mol qilsangiz, ich qotishi oson yuzaga keladi.",
+      "U ich qotishidan qiynalib, shifoxonada dori yozdirib oldi."
+    ],
+    "변하다": [
+      "Ob-havo o'zgaryapti.",
+      "U odam ancha o'zgarib qoldi.",
+      "Svetofor rangi qizildan yashilga o'zgardi.",
+      "Yillar o'tsa ham do'stligimiz o'zgarmasligiga ishonaman."
+    ],
+    "변화": [
+      "O'zgarish kerak.",
+      "Ob-havoning o'zgarishi katta.",
+      "Yangi muhitda uning hayotida ko'p o'zgarishlar yuz berdi.",
+      "Iqlim o'zgarishi tufayli yildan-yilga yoz uzunroq va issiqroq bo'lib bormoqda."
+    ]
+  },
+  "0090": {
+    "별명": [
+      "Mening laqabim Ayiq.",
+      "Do'stimning laqabi qiziq.",
+      "U bo'yi baland bo'lgani uchun maktabda \"jirafa\" degan laqab bilan chaqirilardi.",
+      "Bolalikda olingan laqab katta bo'lgandan keyin ham do'stlar orasida ishlatilib kelinmoqda."
+    ],
+    "별일": [
+      "Biror gap yo'qmi?",
+      "Bugun hech qanday g'ayrioddiy voqea bo'lmadi.",
+      "Hech qanday jiddiy narsa emas, shuning uchun juda xavotir olmang.",
+      "Uzoq vaqt ko'rishmagan do'stimdan so'nggi paytlarda biror gap-so'z yo'qmi, deb so'radim."
+    ],
+    "병문안": [
+      "Bemorni ko'rgani boraman.",
+      "Kasal do'stimni ko'rgani bordim.",
+      "Buvim kasalxonaga yotqizilgani uchun oila a'zolari uni ko'rgani borishdi.",
+      "Bemorni ko'rgani borganda ko'pincha gul yoki meva olib boriladi."
+    ],
+    "보고": [
+      "Boshliqqa hisobot beraman.",
+      "Hisobot berdim.",
+      "Baxtsiz hodisa yuz berishi bilan xodim zudlik bilan guruh rahbariga vaziyat haqida xabar berdi.",
+      "Majlis tugagach, natijalarni jamlab, bo'lim boshlig'iga hisobot berish kerak."
+    ],
+    "보고서": [
+      "Hisobot yozyapman.",
+      "Hisobotni topshirdim.",
+      "Ertagacha ilmiy hisobotni yakunlab, professorga topshirishim kerak.",
+      "U tun bo'yi ma'lumot to'plab, shu oydagi savdo hajmi haqida hisobot tayyorladi."
+    ],
+    "보고회": [
+      "Bugun hisobot majlisi bor.",
+      "Hisobot yig'ilishida qatnashdim.",
+      "Jamoamiz kelasi hafta loyiha borishi yuzasidan hisobot yig'ilishini o'tkazadi.",
+      "Hisobot yig'ilishida mas'ul xodim loyihaning borishi haqida batafsil tushuntirib berdi."
+    ],
+    "보관": [
+      "Sumkani saqlashga qo'yaman.",
+      "Bu dorini muzlatgichda saqlang.",
+      "Aeroportda yukimni saqlashga topshirib, saqlash kvitansiyasini oldim.",
+      "Sutni muzlatgichda saqlamasangiz, tezda buziladi."
+    ],
+    "보관실": [
+      "Saqlash xonasi qayerda?",
+      "Yuklarni saqlash xonasiga qo'yaman.",
+      "Kutubxonaning yerto'lasida eski materiallar yig'ib qo'yilgan saqlash xonasi bor.",
+      "Qishki kiyimlarni binoning bir chetidagi saqlash xonasiga topshirib qo'ydim."
+    ],
+    "보기": [
+      "Variantlardan birini tanlang.",
+      "Misollarni o'qib chiqing.",
+      "Imtihon savolining javob variantlaridan to'g'ri javobni bittasini tanladim.",
+      "Bu gapni namunadagidek o'zgartirib yozish mashqini bajardim."
+    ],
+    "보너스": [
+      "Bonus oldim.",
+      "Bonus beriladi.",
+      "Yil oxirida kompaniya xodimlarga bonus berdi.",
+      "U mukofot puli sifatida olgan pulni yig'ib, ota-onasiga sovg'a sotib olib berdi."
+    ],
+    "보람": [
+      "Ishlashdan mamnuniyat olaman.",
+      "Mehnatimning samarasini his qilyapman.",
+      "Astoydil o'qitgan o'quvchim imtihondan o'tgani uchun mehnatim samarasini ko'rib, katta mamnuniyat his qildim.",
+      "Bu og'ir ish edi, ammo uni tugatgach, shunga yarasha mamnuniyat ham katta bo'ldi."
+    ],
+    "보름": [
+      "O'n besh kun sayohat qildim.",
+      "Oy kalendari bo'yicha o'n beshinchi kuni oy to'lin bo'ladi.",
+      "U o'n besh kun oldin xizmat safariga ketgan va hali qaytmadi.",
+      "Yangi yilning birinchi to'lin oyi kunida yong'oq chaqib, besh xil donli guruch yeyish odati bor."
+    ],
+    "보름달": [
+      "To'lin oy chiqdi.",
+      "To'lin oy yorug'.",
+      "Chuseokda osmonda katta to'lin oy chiqadi.",
+      "Bolalar to'lin oyga qarab, orzu-tilaklarini tilashdi."
+    ],
+    "보물": [
+      "Xazina topdim.",
+      "Bu kitob mening xazinam.",
+      "Bolalar qumloqqa xazina yashirib, xarita chizishdi.",
+      "Buvim meros qilib qoldirgan eski soat bizning xonadonimizning xazinasidir."
+    ],
+    "보살피다": [
+      "Onasi chaqaloqqa qarayapti.",
+      "Kasal do'stimga g'amxo'rlik qildim.",
+      "U yolg'iz yashaydigan buvini har kuni borib, parvarish qildi.",
+      "Ota-onalar farzandlarini mustaqil bo'lgunlariga qadar mehr bilan parvarish qilib, voyaga yetkazadilar."
+    ],
+    "보약": [
+      "Kuch beruvchi dori ichaman.",
+      "Ota-onamga quvvat beruvchi dori sovg'a qildim.",
+      "Imtihon oldidan onasi o'g'liga quvvat beruvchi giyohli dori tayyorlatib berdi.",
+      "Sharq tabobati klinikasida tana tuzilishimga mos quvvat beruvchi dori yozdirib olib, uch oy davomida ichdim."
+    ],
+    "보증금": [
+      "Garov puli qancha?",
+      "Uy uchun garov pulini to'ladim.",
+      "Yangi uyga ko'chib o'tish uchun uy egasiga garov pulini yubordim.",
+      "Shartnoma muddati tugagach, uy egasi ijarachiga garov pulini qaytarib berishi shart."
+    ],
+    "보충": [
+      "Ozuqa moddalarini to'ldiraman.",
+      "Qo'shimcha dars bor.",
+      "Yetishmayotgan vitaminlarni to'ldirish uchun ko'p meva yeyman.",
+      "O'qituvchi tushuntirish yetarli bo'lmagan joylarni doskaga qo'shimcha qilib yozib berdi."
+    ],
+    "보험": [
+      "Men sug'urtaga a'zo bo'ldim.",
+      "Avtomobil sug'urtasi qimmat.",
+      "Sayohatga chiqishdan oldin sayohatchi sug'urtasini rasmiylashtirdim.",
+      "Shifoxona xarajatlari ko'p chiqqan bo'lsa-da, sug'urta tufayli yuk ancha kamaydi."
+    ],
+    "보험금": [
+      "Sug'urta pulini oldim.",
+      "Sug'urta puli to'landi.",
+      "Yo'l-transport hodisasiga uchragach, sug'urta to'lovini olish uchun ariza berdim.",
+      "Uyi yong'inda yonib ketgach, u sug'urta pulini olib, yangidan uy qurdi."
+    ],
+    "보험료": [
+      "Sug'urta badali qimmat.",
+      "Har oy sug'urta badalini to'layman.",
+      "Tibbiy sug'urta badalini avtomatik o'tkazma orqali to'layapman.",
+      "Ota-onam yosh ulg'aygan sari sug'urta badallari oshib, og'irlik qilayotganini aytishdi."
+    ],
+    "보호": [
+      "Bolani himoya qilaman.",
+      "Atrof-muhitni muhofaza qilishimiz kerak.",
+      "Ota-onalar farzandlarini xavf-xatardan himoya qilishga mas'uldir.",
+      "Bu uskunadan ko'zni himoya qilish uchun albatta himoya ko'zoynagi taqib foydalanish kerak."
+    ],
+    "복": [
+      "Yangi yilda baxt yor bo'lsin.",
+      "Men juda omadliman.",
+      "Yaxshi do'st topganim men uchun katta baxt.",
+      "Buvim ishlari yurishib ketgan har safar \"baxt kulib boqdi\" deb aytardilar."
+    ],
+    "복권": [
+      "Lotereya bileti sotib oldim.",
+      "Lotereyada yutib oldim.",
+      "U har shanba bitta lotereya bileti sotib oladi.",
+      "Lotereyada yutib olsak nima qilishimizni do'stlarim bilan zavq bilan xayol qilib ko'rdik."
+    ],
+    "복날": [
+      "Bugun yilning eng issiq kunlaridan biri.",
+      "Bongnal kunlari samgyetang yeyiladi.",
+      "Boknal kunlari ko'p odamlar samgyetang restoranlari oldida navbatga turishadi.",
+      "Bizning oila har yili chillaning eng issiq kunlarida tanani quvvatlash uchun tovuq go'shtidan taom yeydi."
+    ],
+    "복도": [
+      "Yo'lak uzun.",
+      "Yo'lakda yugurmang.",
+      "Dars tugashi bilan o'quvchilar yo'lakka yopirilib chiqishdi.",
+      "Ofis yo'lak oxirida chapga burilsangiz, darhol ko'rinadi."
+    ],
+    "복사": [
+      "Hujjatlardan nusxa ko'chiraman.",
+      "Iltimos, bu kitobdan nusxa ko'chirib bering.",
+      "Kutubxonada faqat kerakli qismlarnigina nusxa ko'chirib olib keldim.",
+      "Shaxsni tasdiqlovchi hujjatdan nusxa ko'chirib, hujjatlar bilan birga topshirish kerak."
+    ],
+    "복사기": [
+      "Kseroks buzilib qoldi.",
+      "Nusxa ko'chirish apparati qayerda?",
+      "Ofisdagi nusxa ko'chirish apparatiga qog'oz tiqilib qolgani uchun xodim uni tuzatdi.",
+      "Bu nusxa ko'chirish apparati rangli chop etishga ham, skanerlashga ham qodir."
+    ],
+    "복습": [
+      "Darsni takrorlayman.",
+      "Bugun o'rganganlarimni takrorlayman.",
+      "Dars tugagach, o'sha kuni o'rgangan mavzularni darhol takrorladim.",
+      "Oldindan tayyorlanishdan ko'ra o'tilganini takrorlash muhimroq ekanligi haqidagi o'qituvchining gapiga amal qilishga qaror qildim."
+    ],
+    "복통": [
+      "Qornim og'riyapti.",
+      "Qorin og'rig'i tufayli kasalxonaga bordim.",
+      "Buzilgan ovqat yedimmi, to'satdan qornim qattiq og'riy boshladi.",
+      "Bola tun bo'yi qorni og'riyotganidan nolib chiqqani uchun ertalab erta bolalar shifokoriga olib bordim."
+    ]
+  },
+  "0091": {
+    "본론": [
+      "Endi asosiy mavzuga o'tamiz.",
+      "Asosiy masaladan boshlab gapiring.",
+      "U uzoq salom-alikdan keyingina asosiy mavzuga o'tdi.",
+      "Ma'ruzachi kirish qismini qisqagina yakunlab, darhol asosiy qismga o'tdi."
+    ],
+    "본문": [
+      "Asosiy matnni o'qiyman.",
+      "Asosiy matn mazmunini ko'ring.",
+      "Kitobning asosiy matnini o'qib bo'lgach, savollarga javob bering.",
+      "O'qituvchi asosiy matnda uchraydigan qiyin so'zlarni doskaga yozib berdi."
+    ],
+    "볼거리": [
+      "Ko'radigan narsalar ko'p.",
+      "Bu shaharda ko'radigan joylar ko'p.",
+      "Bayramda nafaqat yeguliklar, balki turli tomoshalar ham tayyorlangan.",
+      "Bu safargi sayohatda mashhur diqqatga sazovor joylarni asos qilib, jadval tuzdik."
+    ],
+    "볼륨": [
+      "Ovozni balandlataman.",
+      "Iltimos, ovozni pasaytiring.",
+      "Kechasi qo'shnilarga xalaqit bermaslik uchun televizor ovozini pasaytirdim.",
+      "Quloqchin ovozini juda baland qilib qo'ysangiz, eshitish qobiliyati yomonlashishi mumkin."
+    ],
+    "볼링": [
+      "Men boulingni yaxshi ko'raman.",
+      "Dam olish kunlari bouling o'ynayman.",
+      "Do'stlarim bilan bouling o'ynagani bordik.",
+      "U bouling bilan shug'ullana boshlaganiga bir oy bo'lmay, o'rtacha ochkosi sezilarli darajada oshdi."
+    ],
+    "볼링장": [
+      "Bouling zaliga boraman.",
+      "Bouling zali yaqin atrofda joylashgan.",
+      "Jamoaviy kechki ovqatdan so'ng biz bouling zaliga o'tdik.",
+      "Bu bouling zalidan ish kunlari kunduzi foydalansangiz, narxda chegirma qilib berishadi."
+    ],
+    "볼일": [
+      "Zaruriy ishim bor.",
+      "Barcha ishlarimni bitirdim.",
+      "Bankda ishim bor, shuning uchun men oldinroq ketaman.",
+      "Shaharga ish bilan chiqqan edim, tasodifan eski do'stimni uchratib qoldim."
+    ],
+    "봉사": [
+      "Men ko'ngilli bo'lib xizmat qilaman.",
+      "Dam olish kunlari ko'ngillilik faoliyatiga boraman.",
+      "Oilamiz qariyalar uyida ko'ngilli bo'lib xizmat qilishga qaror qildi.",
+      "U talabalik yillaridan to hozirgacha muntazam ravishda ko'ngillilik faoliyatida ishtirok etib kelmoqda."
+    ],
+    "봉사자": [
+      "Ko'ngillilar ko'p.",
+      "Men ko'ngilliman.",
+      "Tadbir joyiga o'nlab ko'ngillilar chiqib, odamlarga yo'l ko'rsatishdi.",
+      "O'sha shifoxonada bemorlarga hamsuhbat bo'ladigan ko'ngillilar bor."
+    ],
+    "부끄러워하다": [
+      "Bola uyalyapti.",
+      "U xatosidan uyaldi.",
+      "Ukam odamlar oldida qo'shiq aytishdan uyaladi.",
+      "U shevada gapirishidan uyalib yurardi, endi esa aksincha, bundan faxrlanadi."
+    ],
+    "부끄럽다": [
+      "Men uyalaman.",
+      "Yolg'on gapirganim uchun uyalaman.",
+      "Taqdimotni barbod qilganim uchun yuzim qizarib ketadigan darajada uyaldim.",
+      "U notanish odamlar oldida gapirishdan uyalib, tez-tez boshini egardi."
+    ],
+    "부담": [
+      "Bu ishning mas'uliyati katta.",
+      "Imtihon tufayli bosim his qilyapman.",
+      "Xarajatlarni teng yarmidan bo'lib to'lashga do'stim bilan kelishib oldik.",
+      "U oilasini boqishi kerakligi haqidagi mas'uliyat yukidan qiynalayotgan edi."
+    ],
+    "부딪치다": [
+      "Eshikka urilib ketdim.",
+      "Bir odam bilan to'qnashib ketdim.",
+      "U shoshib yugurib ketayotib, o'tib ketayotgan odam bilan yelkasi to'qnashib ketdi.",
+      "Chorrahada ikki mashina bir-biri bilan to'qnashib ketgan baxtsiz hodisa yuz berdi."
+    ],
+    "부딪히다": [
+      "Boshim eshikka urildi.",
+      "Mashina devorga urilib ketdi.",
+      "Qorong'i xonada yurib ketayotib, tizzam stol burchagiga urilib ketdi.",
+      "Velosiped avtomobilga urilib ketib, velosipedchi shifoxonaga olib ketildi."
+    ],
+    "부러워하다": [
+      "Do'stim menga havas qiladi.",
+      "Ukam sumkamga havas qildi.",
+      "Odamlar uning muvaffaqiyatiga havas qilishadi-yu, lekin u sarflagan mehnatni ko'rishmaydi.",
+      "U erkin sayohat qilib yuradigan dugonalariga ichida havas qilardi."
+    ],
+    "부러지다": [
+      "Qalam sinib qoldi.",
+      "Daraxt shoxi sinib tushdi.",
+      "Changida uchayotib yiqilib, oyog'imni sindirib oldim.",
+      "To'fonda katta daraxtlar ildizi bilan qo'porilib, shoxlari u yer-bu yerda sinib ketdi."
+    ],
+    "부럽다": [
+      "Men u odamga havas qilaman.",
+      "Senga juda havasim keladi.",
+      "Akam yangi mashina sotib olgani uchun biroz havasim keldi.",
+      "Xotirjam kitob o'qiyotgan do'stimga havasim kelib, men ham kitob do'koniga kirib o'tdim."
+    ],
+    "부분": [
+      "Bu qism qiyin.",
+      "Faqat bir qismini o'qidim.",
+      "Bu filmdagi eng qiziqarli qism oxirgi sahnadir.",
+      "Hisobotning boshlang'ich qismi qisqacha mazmundan, oxirgi qismi esa batafsil tahlildan iborat."
+    ],
+    "부사": [
+      "Ravishni o'rganyapman.",
+      "Bu ravish.",
+      "Koreys tilida \"mae-u\" (juda) so'zi fe'l yoki sifatni aniqlab keladigan ravishdir.",
+      "Gapda ravishlarni o'rinli qo'llasangiz, ifoda ancha tabiiy va boy bo'ladi."
+    ],
+    "부상": [
+      "Jarohat oldim.",
+      "Oyog'imda jarohat bor.",
+      "U sportchi o'yin paytida tizzasidan jarohat olib, kasalxonaga olib ketildi.",
+      "U baxtsiz hodisada og'ir jarohat oldi, ammo baxtiga hayotiga xavf tug'ilmadi."
+    ],
+    "부상자": [
+      "Jarohatlanganlar ko'p.",
+      "Jarohatlanganlar kasalxonaga olib ketildi.",
+      "Hodisa joyida tez yordam xodimlari jarohatlanganlarni navbatma-navbat olib ketishdi.",
+      "Zilzila tufayli jarohatlanganlar soni vaqt o'tgan sari ortib bordi."
+    ],
+    "부서": [
+      "Men savdo bo'limida ishlayman.",
+      "Bo'limim o'zgardi.",
+      "Yangi ishga kirgan xodim marketing bo'limiga tayinlandi.",
+      "Bizning kompaniyada har bir bo'lim haftada bir marta yig'ilish o'tkazadi."
+    ],
+    "부서지다": [
+      "Stakan sinib ketdi.",
+      "O'yinchoq sinib qoldi.",
+      "To'lqin kelib, qumdan qurilgan qasr bir zumda vayron bo'ldi.",
+      "To'fon o'tib ketgach, sohildagi eski o'rindiqlarning hammasi sinib-parchalanib yotardi."
+    ],
+    "부자": [
+      "U odam boy.",
+      "Men ham boy bo'lishni xohlayman.",
+      "U biznesda muvaffaqiyat qozonib, katta boyga aylandi.",
+      "Onam boy bo'lish hamisha ham baxtli bo'lish degani emas, deb aytardilar."
+    ],
+    "부작용": [
+      "Bu dorining nojo'ya ta'siri bor.",
+      "Nojo'ya ta'siridan xavotirdaman.",
+      "Dorini ichganimdan keyin uyqu bosish kabi nojo'ya ta'sir paydo bo'ldi.",
+      "Shifokor bu dorini uzoq muddat ichsangiz, nojo'ya ta'sirlar paydo bo'lishi mumkinligini tushuntirdi."
+    ],
+    "부잣집": [
+      "Boy oilada tug'ilganman.",
+      "U boy oilaning farzandi.",
+      "O'sha do'stim boy oilaning o'g'li bo'lgani uchun katta qasrda yashaydi.",
+      "Seriallarda kambag'al qiz bilan boy oiladan chiqqan yigit bir-birini sevib qoladi."
+    ],
+    "부정적": [
+      "Salbiy o'ylamang.",
+      "U salbiy fikrlaydi.",
+      "U har qanday ishga salbiy munosabat bildirishga moyil.",
+      "Faqat salbiy tomondan o'ylayversangiz, yaxshi imkoniyatlarni ham qo'ldan boy berishingiz mumkin."
+    ],
+    "부족": [
+      "Suv yetishmayapti.",
+      "Vaqt yetishmayapti.",
+      "Qurg'oqchilik tufayli bu yil ichimlik suvi yetishmaydigan hududlar ko'p.",
+      "U tajribasi yetishmagani uchun dastlab ishda qiyinchiliklarga duch keldi."
+    ],
+    "부주의": [
+      "Ehtiyotsizlik tufayli yiqilib tushdim.",
+      "Beparvo bo'lmang.",
+      "Haydovchining ehtiyotsizligi tufayli mashinalar urilib ketdi.",
+      "Ehtiyotsizlik tufayli muhim hujjatlarni yo'qotib qo'ydim."
+    ],
+    "부지런히": [
+      "Tirishqoqlik bilan ishlayman.",
+      "Tirishib o'qidim.",
+      "Har kuni ertalab erinmay turib, sport bilan shug'ullanaman.",
+      "Chumolilar qishga tayyorgarlik ko'rib, tinmay ozuqa tashishardi."
+    ]
+  },
+  "0092": {
+    "부채": [
+      "Yelpig'ich bilan yelpinaman.",
+      "Yozda yelpig'ich ishlataman.",
+      "Havo issiq bo'lgani uchun buvim yelpig'ich bilan yelpinib o'tirgan edilar.",
+      "U an'anaviy tomoshada chiroyli yelpig'ichni ushlab raqsga tushdi."
+    ],
+    "부케": [
+      "Kelin guldastasi chiroyli.",
+      "Kelin guldastasini otdi.",
+      "Kelin qo'lida oq atirgullardan yasalgan guldastani ushlab turardi.",
+      "To'yda kelinning guldastasini ilib olgan kishi navbatdagi kelin bo'ladi, degan gap bor."
+    ],
+    "부피": [
+      "Hajmi katta.",
+      "Bu qutining hajmi kichik.",
+      "Yukning hajmi juda katta bo'lgani uchun hammasi sumkaga sig'madi.",
+      "Suv muzlaganda hajmi kengayib, shisha yorilib ketishi mumkin."
+    ],
+    "분량": [
+      "Uy vazifasining hajmi katta.",
+      "Guruch porsiyasi kam.",
+      "O'qituvchi ikki kun ichida o'qib chiqsa bo'ladigan hajmdagi kitobni tavsiya qildi.",
+      "Bu hafta bajarilishi kerak bo'lgan ishlar hajmi juda ko'p bo'lgani uchun dam olish kunlari ham dam ololmayman."
+    ],
+    "분리": [
+      "Chiqindilarni ajrataman.",
+      "Ikki qismga ajratamiz.",
+      "Qog'oz va plastikni alohida ajratib tashlash kerak.",
+      "Ikkovlari uzoq vaqt bir uyda yashagan bo'lsalar-da, ko'ngillari allaqachon bir-biridan uzoqlashib bo'lgan edi."
+    ],
+    "분리수거": [
+      "Bugun chiqindilarni ajratib tashlayman.",
+      "Chiqindilar chorshanba kuni saralab yig'iladi.",
+      "Bizning turar-joy majmuamizda har dushanba kechqurun chiqindilar ajratib yig'iladi.",
+      "Shishalarni shishalar bilan, qog'ozni qog'oz bilan alohida yig'ib, chiqindilarni saralab tashlash kerak."
+    ],
+    "분명하다": [
+      "Maqsad aniq.",
+      "Sababi aniq emas.",
+      "Uning talaffuzi dona-dona bo'lgani uchun gapining ma'nosi aniq eshitildi.",
+      "Bu voqeaning sababi nima ekanligi hali aniq emas."
+    ],
+    "분명히": [
+      "Aniq aytdim.",
+      "Aniq shu yerda edi.",
+      "Kecha kalitni aniq tortmaga solib qo'ygan edim.",
+      "U o'z pozitsiyasini aniq bayon qilib, majlis zalini tark etdi."
+    ],
+    "분실": [
+      "Hamyonimni yo'qotib qo'ydim.",
+      "Karta yo'qolgani haqida xabar berdim.",
+      "Metroda soyabonimni yo'qotib qo'yganim uchun bekat xodimidan so'radim.",
+      "Sayohat davomida pasportni yo'qotib qo'ysangiz, elchixonaga borib, uni qayta rasmiylashtirishingiz kerak."
+    ],
+    "분실물": [
+      "Yo'qolgan buyumlar markaziga boraman.",
+      "Yo'qolgan buyumimni topdim.",
+      "Avtobusda qoldirib ketgan sumkamni yo'qolgan buyumlar markazidan topdim.",
+      "Metro bekatlarida har kuni yo'lovchilar qoldirib ketgan o'nlab yo'qolgan buyumlar qabul qilinadi."
+    ],
+    "분홍색": [
+      "Pushti rangni yaxshi ko'raman.",
+      "Pushti rangli kiyim kiydim.",
+      "Sakura gullaganda butun ko'cha pushti rangga bo'yaladi.",
+      "Ukam xonasining devorlarini och pushti rangga bo'yashni xohlardi."
+    ],
+    "불가능": [
+      "Bu imkonsiz.",
+      "Bugun borishning iloji yo'q.",
+      "Bu ishni bir kunda tugatish deyarli imkonsiz.",
+      "U hamma imkonsiz deb aytgan ishni oxir-oqibat uddaladi."
+    ],
+    "불가능하다": [
+      "Bu mumkin emas.",
+      "Yolg'iz o'zim buni qila olmayman, bu imkonsiz.",
+      "Bu yukni bir o'zim tashishim mumkin emas.",
+      "Transport harakati to'xtab qolgani sababli o'z vaqtida yetib borishning imkoni bo'lmadi."
+    ],
+    "불경기": [
+      "Iqtisodiy turg'unlik tufayli qiyin.",
+      "Iqtisodiy turg'unlik davrida do'konlarga qiyin bo'ladi.",
+      "Iqtisodiy turg'unlik davom etgach, ko'plab do'konlar yopilib ketdi.",
+      "Otam iqtisodiy turg'unlik tufayli ishxonada maoshi kamayganini aytdilar."
+    ],
+    "불교": [
+      "Men buddaviyman.",
+      "Buddizmga ibodatxonalarda e'tiqod qilinadi.",
+      "Koreyada uzoq tarixga ega buddaviy ibodatxonalar ko'p.",
+      "Buddizm Uch qirollik davrida Koreya yarim oroliga kirib kelib, madaniyatning barcha jabhalariga chuqur ta'sir ko'rsatgan."
+    ],
+    "불규칙": [
+      "Turmush tarzim tartibsiz.",
+      "Uyqum tartibsiz.",
+      "Ovqatlanish vaqtim tartibsiz bo'lgani uchun oshqozonim tez-tez og'riydi.",
+      "U tez-tez kechgacha ishda qolgani uchun turmush tarzi juda tartibsiz."
+    ],
+    "불꽃놀이": [
+      "Otashbozlik chiroyli.",
+      "Otashbozlikni tomosha qilgani boraman.",
+      "Hangang daryosida bo'ladigan otashbozlikni tomosha qilish uchun ko'p odamlar yig'ildi.",
+      "Tungi osmonda rang-barang mushaklar otila boshlagach, bolalar shodlikdan qichqirib yuborishdi."
+    ],
+    "불량": [
+      "Nuqsonli mahsulot sotib oldim.",
+      "Bu mahsulot nuqsonli.",
+      "Yangi sotib olgan elektron jihozim nuqsonli chiqqani uchun uni almashtirib oldim.",
+      "Zavodda mahsulot jo'natilishidan oldin nuqsonli ekan-yo'qligi sinchiklab tekshiriladi."
+    ],
+    "불만": [
+      "Mening e'tirozim bor.",
+      "Mijoz noroziligini bildirdi.",
+      "U maoshi kamligidan kompaniyaga noroziligini bildirdi.",
+      "Mijozlarning noroziligini kamaytirish uchun muammo yuzaga kelganda tezkorlik bilan chora ko'rish kerak."
+    ],
+    "불면증": [
+      "Menda uyqusizlik bor.",
+      "Uyqusizlik tufayli qiynalyapman.",
+      "Stress to'planib qolgach, uyqusizlikka chalinib, har kecha u yoqdan-bu yoqqa ag'darilib chiqdim.",
+      "U uyqusizlikni davolash maqsadida shifoxonada maslahat ola boshladi."
+    ],
+    "불법": [
+      "Bu noqonuniy.",
+      "Noqonuniy to'xtash mumkin emas.",
+      "Ko'chaga chiqindini noqonuniy tashlasangiz, jarima to'lashingiz kerak.",
+      "Noqonuniy ko'chirilgan filmlarni yuklab olish mualliflik huquqini buzish hisoblanadi."
+    ],
+    "불빛": [
+      "Chiroq nuri ko'rinyapti.",
+      "Uyda chiroq yoniq turibdi.",
+      "Uzoqdan qishloq chiroqlarining miltillab turgani ko'rinib turardi.",
+      "Tungi yo'lda ketayotib, uy derazasidan sizib chiqayotgan iliq chiroq nurini ko'rib, ko'nglim tinchidi."
+    ],
+    "불쌍하다": [
+      "U kuchukchaga rahmim keladi.",
+      "Anavi bolaga rahmim keladi.",
+      "Ko'chada yomg'ir ostida qolgan mushuk juda achinarli ko'rindi.",
+      "Ota-onasidan erta ayrilgan bolani ko'rib, unga rahmim kelib, yuragim achishdi."
+    ],
+    "불안": [
+      "Men xavotirdaman.",
+      "Imtihon tufayli xavotirdaman.",
+      "Uyda yolg'iz qolgan kechalarda sababsiz xavotir bosib kelardi.",
+      "Taqdimot vaqti yaqinlashgani sari u xavotirini yashira olmadi."
+    ],
+    "불안감": [
+      "Xavotir hissi paydo bo'lyapti.",
+      "Xavotir his qilyapman.",
+      "Ishga qabul suhbati oldidan noma'lum bezovtalik hissidan uxlay olmadim.",
+      "Ketma-ket kelayotgan zilzila xabarlaridan aholi xavotirini yashira olmadi."
+    ],
+    "불어나다": [
+      "Suv ko'tarildi.",
+      "Vaznim oshib ketdi.",
+      "Yomg'irlar mavsumi tufayli soydagi suv birdan ko'payib ketib, ko'prikdan o'tib bo'lmadi.",
+      "Qarzi foizlar tufayli qor ko'chkisidek ko'payib ketgani sababli u tunlari uxlay olmadi."
+    ],
+    "불친절": [
+      "U do'konda muomala qo'pol.",
+      "Xodim qo'pol muomala qildi.",
+      "Restoran xodimining qo'polligidan ranjib, chiqib ketdim.",
+      "Mijozlarga qo'pol muomala qilinsa, do'konning obro'si tushib ketadi."
+    ],
+    "불태우다": [
+      "Xazonlarni yoqaman.",
+      "Xatni yoqib yubordim.",
+      "U eski suratlarning hammasini yig'ib, hovlida yoqib yubordi.",
+      "Dehqon dalada to'planib qolgan somonni yoqib, yangi urug' sepishga tayyorgarlik ko'rdi."
+    ],
+    "불편": [
+      "Noqulay tomoni bor.",
+      "Bu stul noqulay.",
+      "Yangi poyabzal oyog'imga to'g'ri kelmagani uchun yurishga noqulay.",
+      "Metroda zinapoyalar ko'p bo'lgani uchun nogironlar aravachasidagi odamlar harakatlanishda katta qiyinchilikka duch keladi."
+    ],
+    "불평": [
+      "Shikoyat qilmang.",
+      "Do'stim shikoyat qilyapti.",
+      "U havo issiq deb tinmay shikoyat qilaverdi.",
+      "Bola uyga vazifa ko'pligini aytib, onasiga shikoyat qildi."
+    ]
+  },
+  "0093": {
+    "불필요": [
+      "Bu buyum keraksiz.",
+      "Keraksiz yuklarni uyda qoldirib keldim.",
+      "Ortiqcha xavotir olmay, avval boshlab ko'ring.",
+      "Majlis vaqtini qisqartirish uchun barcha ortiqcha tartib-qoidalarni bekor qilishga qaror qilindi."
+    ],
+    "불행": [
+      "Baxtsizlik to'satdan keladi.",
+      "O'sha baxtsiz hodisa oilamiz uchun katta musibat bo'ldi.",
+      "U baxtsizlik ichida ham tabassumini yo'qotmaslikka harakat qildi.",
+      "Shaxsning baxtsizligi jamiyatning tuzilmaviy muammolaridan kelib chiqadigan holatlar ham oz emas."
+    ],
+    "붉다": [
+      "Olma qizil.",
+      "Kechki osmon qip-qizil tusga kirdi.",
+      "Uyalganimdan yuzim qizarib, hech narsa deya olmadim.",
+      "Kuz chuqurlashgani sari butun tog' qip-qizil xazonlar bilan qoplanib, ajoyib manzara hosil qildi."
+    ],
+    "붐비다": [
+      "Metro gavjum.",
+      "Dam olish kunlari bozor juda gavjum bo'ladi.",
+      "Ish vaqti tugaydigan paytda ko'chalar juda gavjum bo'lgani uchun avtobusga chiqish qiyin.",
+      "Sayyohlar bilan gavjum ko'chadan qochib, xilvat tor ko'chaga kirib bordim."
+    ],
+    "붕어빵": [
+      "Baliq shaklidagi shirin nonni yaxshi ko'raman.",
+      "Qishda ko'chada bungeoppang sotib olib yeymiz.",
+      "Sovuq kunda issiq bungeoppang yesam, tanam isib ketgandek bo'ldi.",
+      "Bungeoppang do'koni oldida ishdan qaytayotib bir paketdan olib ketmoqchi bo'lgan odamlar uzun navbatda turishardi."
+    ],
+    "붙잡다": [
+      "Qo'lidan ushlayman.",
+      "Yiqilib ketishimga oz qolib, panjarani ushlab oldim.",
+      "Politsiya qochib ketayotgan o'g'rini ushlab oldi.",
+      "Ketmoqchi bo'lgan do'stimni to'xtatib qolishga urindim, biroq uning qarorini o'zgartira olmadim."
+    ],
+    "붙잡히다": [
+      "O'g'ri qo'lga tushdi.",
+      "Jinoyatchi kecha politsiya tomonidan qo'lga olindi.",
+      "Uy vazifasini qilmaganim uchun o'qituvchining qo'liga tushib, uzoq vaqt dakki eshitdim.",
+      "Uzoq vaqt qochib yurgan gumonlanuvchi oxir-oqibat bir qishloqda qo'lga olingani haqida xabar tarqaldi."
+    ],
+    "뷔페": [
+      "Shved stoliga boraman.",
+      "Bugun kechqurun oilam bilan shved stoli restoranida ovqatlanamiz.",
+      "O'sha byufeda taomlar turi ko'p bo'lgani uchun doim odam ko'p bo'ladi.",
+      "Mehmonxonadagi shved stolida turli mamlakatlar taomlarini xohlaganimizcha tanlab yeyishimiz mumkin edi."
+    ],
+    "브랜드": [
+      "Bu brend mashhur.",
+      "Men bu brendning poyabzalini tez-tez sotib olaman.",
+      "Yoshlar orasida mashhur bo'lgan brendning kiyimini sotib oldim.",
+      "Kompaniyalar iste'molchiga ishonch bag'ishlaydigan brend imijini yaratish uchun uzoq vaqt kuch sarflaydi."
+    ],
+    "브레이크": [
+      "Tormozni bosaman.",
+      "Velosipedning tormozi buzilib qoldi.",
+      "To'satdan bola yugurib chiqib qolgani uchun shoshilinch tormozni bosdim.",
+      "Yomg'irli yo'lda tormozni asta-sekin bosgandagina sirpanib ketish bilan bog'liq avariyalarning oldini olish mumkin."
+    ],
+    "블라인드": [
+      "Jalyuzini tushiraman.",
+      "Quyosh nuri kuchli bo'lgani uchun jalyuzini tushirdim.",
+      "Ertalab jalyuzini ko'tarishim bilan xona yorishib ketdi.",
+      "Qo'shni uydan ichkari ko'rinmasligi uchun derazaga yangi jalyuzi o'rnatdik."
+    ],
+    "블로그": [
+      "Blog yozaman.",
+      "Men sayohat haqida blog ochdim.",
+      "Mazali taomlar joylarini tanishtiradigan blogni har kuni o'qish mening sevimli mashg'ulotimga aylandi.",
+      "Shaxsiy blogiga joylagan yozuvlari og'izdan og'izga tarqalib, u kutilmaganda mashhur yozuvchiga aylandi."
+    ],
+    "비교": [
+      "Ikki narxni taqqoslayman.",
+      "Narxni boshqa do'konlar bilan solishtirib ko'ring.",
+      "O'zimni do'stim bilan solishtirsam, kayfiyatim buziladi.",
+      "Xarid qilishdan oldin bir nechta mahsulotning xususiyatlarini sinchiklab solishtirib chiqqan ma'qul."
+    ],
+    "비교적": [
+      "Bugun nisbatan iliq.",
+      "Bu restoran narxlari nisbatan arzon.",
+      "Bu yil o'tgan yilgiga nisbatan kamroq qor yog'di.",
+      "Bu masala nisbatan oddiy ko'rinsa-da, amalda yechib ko'rsangiz, o'ylagandan ko'ra murakkabroq."
+    ],
+    "비닐": [
+      "Polietilenni tashlayman.",
+      "Mevalarni polietilen paketga soldim.",
+      "Polietilen chiqindilarini kamaytirish uchun bozorlik sumkasini olib yuraman.",
+      "Polietilen parchalanishi uchun yuzlab yillar talab qilingani sababli atrof-muhit ifloslanishining asosiy aybdori sanaladi."
+    ],
+    "비다": [
+      "Joy bo'shadi.",
+      "Muzlatgich bom-bo'sh.",
+      "Uy bo'sh turgan paytda do'stim gullarga suv quyib turdi.",
+      "Dam olish kunlari ofis bo'sh bo'lgani uchun xotirjam ishga diqqatni jamlash mumkin."
+    ],
+    "비디오카메라": [
+      "Videokamera sotib oldim.",
+      "Videokamera bilan bolani suratga olaman.",
+      "Sayohat paytida videokamerada manzaralarni suratga olib, oilamga ko'rsatdim.",
+      "Hozirda smartfonlar borligi sababli alohida videokamera sotib oladiganlar ancha kamaydi."
+    ],
+    "비록": [
+      "Garchi kichkina bo'lsa ham, yaxshi.",
+      "Garchi qimmat bo'lsa ham, albatta sotib olmoqchiman.",
+      "Garchi qiyin bo'lsa ham, oxirigacha uddalaganim uchun xursand bo'ldim.",
+      "Garchi natija yaxshi bo'lmagan bo'lsa-da, bu jarayonda ko'p narsani o'rgandim, deb o'ylayman."
+    ],
+    "비만": [
+      "Semizlik sog'liq uchun zararli.",
+      "Bolalar o'rtasida semizlik ko'paymoqda.",
+      "Semizlikning oldini olish uchun har kuni sport bilan shug'ullanib, ko'p sabzavot yeyish kerak.",
+      "Shifokor semizlik qandli diabet va yurak kasalliklari xavfini oshirishi haqida ogohlantirdi."
+    ],
+    "비바람": [
+      "Yomg'ir aralash shamol esyapti.",
+      "Kecha kechasi kuchli shamol va yomg'ir bo'ldi.",
+      "Kuchli yomg'irli shamol tufayli soyabonim teskari ag'darilib, butunlay ho'l bo'lib ketdim.",
+      "To'fon olib kelgan yomg'ir va shamol tufayli peshlavhalar qulab, daraxtlar yiqilib, ketma-ket zarar yetkazildi."
+    ],
+    "비비다": [
+      "Guruchni aralashtiraman.",
+      "Bibimbap gochujang bilan aralashtirib yeyiladi.",
+      "Uyqum kelganidan ko'zlarimni ishqalayotib, ko'zoynagimni tushirib yubordim.",
+      "Bir necha xil ko'kat va gochujangni solib, guruchni yaxshilab aralashtirdim-da, katta bir qoshiq olib og'zimga soldim."
+    ],
+    "비빔냉면": [
+      "Achchiq sousli sovuq lapsha yeyman.",
+      "Issiq kunlarda bibim naengmyeon mazali bo'ladi.",
+      "Achchiq taomlarni yaxshi ko'rganim uchun doim bibim-naengmyeon buyurtma qilaman.",
+      "Bibim-naengmyeon nordon-shirin va achchiq ziravori bilan ishtahani ochgani uchun yozgi noyob taom sifatida sevib iste'mol qilinadi."
+    ],
+    "비상약": [
+      "Shoshilinch yordam dorisi bor.",
+      "Uyda birinchi yordam dorilarini tayyorlab qo'ying.",
+      "Sayohat sumkamga shamollashga qarshi dori va hazm dori kabi shoshilinch dori-darmonlarni soldim.",
+      "Shoshilinch holatlar uchun dorilarning yaroqlilik muddatini muntazam tekshirib turish va ularni kerak bo'lganda darhol olish mumkin bo'lgan joyda saqlash lozim."
+    ],
+    "비용": [
+      "Xarajat ko'p.",
+      "Sayohat xarajatlarini hisoblab chiqdim.",
+      "Ko'chib o'tish uchun ketadigan xarajatlarni oldindan surishtirib, tayyorgarlik ko'rdim.",
+      "Yangi biznes boshlashdan oldin kerakli xarajatlar va kutilayotgan daromadni sinchiklab solishtirish kerak."
+    ],
+    "비우다": [
+      "Stakanni bo'shataman.",
+      "Tushdan keyin ikki soat joyimda bo'lmayman.",
+      "Muzlatgichni bo'shatib, yaxshilab tozaladim.",
+      "Ko'nglimni bo'shatib, hamma narsani qo'yib yuborganimdan so'ng, shu paytgacha meni qiynab kelgan tashvishlar asta-sekin yengillasha boshladi."
+    ],
+    "비자": [
+      "Viza kerak.",
+      "Koreya vizasiga ariza topshirdim.",
+      "Chet elda o'qish uchun avval talabalik vizasini olish kerak.",
+      "Viza muddati tugashidan oldin migratsiya xizmatiga borib, uni uzaytirish uchun ariza berish kerak."
+    ],
+    "비추다": [
+      "Fonar bilan yoritaman.",
+      "Oy yo'lni yorug' qilib yoritib turibdi.",
+      "Ko'zguda yuzimni ko'rib, sochimni tartibga keltirdim.",
+      "Ko'cha chiroqlari qorong'i tor ko'chani yoritib turgani uchun kechasi ham qo'rqinchli emas edi."
+    ],
+    "비타민": [
+      "Vitamin ichaman.",
+      "Apelsinda vitaminlar ko'p.",
+      "Charchaganda vitamin ichib tursangiz, foydasi tegadi.",
+      "C vitamini immunitetni oshirib, teri salomatligi uchun ham foydali ekanligi ma'lum."
+    ],
+    "비하다": [
+      "O'tgan yilga nisbatan iliq.",
+      "Akamga nisbatan bo'yim past.",
+      "Seulga nisbatan bu shaharda uy narxlari ancha arzon.",
+      "O'tgan yillarga qaraganda bu yil yog'ingarchilik miqdori keskin kamaygani sababli dehqonlarning tashvishi ortdi."
+    ],
+    "빗길": [
+      "Yomg'irli yo'l sirpanchiq.",
+      "Yomg'irli yo'lda sekin haydang.",
+      "Yomg'irdan ho'l bo'lgan yo'lda sirpanib, yiqilib tushishimga sal qoldi.",
+      "Yomg'irli yo'lda tormoz masofasi uzayishi sababli yo'l-transport hodisalarining oldini olish uchun tezlikni odatdagidan pasaytirish kerak."
+    ]
+  },
+  "0094": {
+    "빚": [
+      "Qarzim bor.",
+      "Do'stimdan olgan qarzimni qaytardim.",
+      "Uy sotib olish uchun bankdan ko'p qarz oldim.",
+      "Qarzlar ostida qiynalgan u kecha-kunduz ishlasa-da, hatto foizlarini to'lashga ham qurbi yetmasdi."
+    ],
+    "빛": [
+      "Yorug'lik kiryapti.",
+      "Derazadan quyosh nuri charaqlab kirmoqda.",
+      "Yulduzlar nuri yaltirab, tungi osmon go'zal edi.",
+      "Tong quyoshi ko'tarilgach, zulmat tarqalib, butun olam oltin rangga burkandi."
+    ],
+    "빠뜨리다": [
+      "Kalitni tushirib qoldirdim.",
+      "Uy vazifasida bitta masalani tushirib qoldirdim.",
+      "Shoshib chiqayotib, hamyonimni uyda qoldirib kelibman.",
+      "Hisobot yozayotganda muhim ma'lumotlarni tushirib qoldirmaslik uchun bir necha bor qaytadan tekshirib chiqdim."
+    ],
+    "빠지다": [
+      "Suvga tushib ketdim.",
+      "Men o'sha qo'shiqchiga butunlay mahliyo bo'lib qoldim.",
+      "Tishim tushib qolgani uchun tish shifokoriga borishimga to'g'ri keldi.",
+      "Do'stim to'satdan sevib qolganini yuzlari qizarib aytib berdi."
+    ],
+    "빠짐없이": [
+      "Birortasini qoldirmasdan yozaman.",
+      "Uy vazifalarining barchasini birortasini qoldirmay bajardim.",
+      "Yig'ilishlarga biror marta ham qoldirmay qatnashdim.",
+      "Jo'nashdan oldin kerakli narsalarning birortasini ham qoldirmay olganingizni yana bir bor tekshirib ko'ring."
+    ],
+    "빨개지다": [
+      "Yuzim qizarib ketyapti.",
+      "Uyalganimdan yuzim qizarib ketdi.",
+      "Sovuq kunda tashqarida uzoq turganim uchun burnim qizarib ketdi.",
+      "Maqtov eshitgach, u go'yo tortinganday quloqlarigacha qizarib, boshini egdi."
+    ],
+    "빼앗기다": [
+      "Sumkamni tortib olishdi.",
+      "O'yinchog'imni ukam tortib oldi.",
+      "Ko'chada o'g'ri hamyonimni tortib olib ketdi.",
+      "O'sha bola vaqti o'yinga ketib qolgani sababli o'qishga vaqti yo'qligidan nolidi."
+    ],
+    "빼앗다": [
+      "O'yinchoqni tortib olyapman.",
+      "Ukam pechenyemni tortib oldi.",
+      "U do'stining qo'g'irchog'ini tortib olgani uchun o'qituvchidan dakki eshitdi.",
+      "Jazirama issiq odamlarning ishtahasi va g'ayratini tortib oladigan faslning chaqirilmagan mehmonidir."
+    ],
+    "뺨": [
+      "Yonoqlarim qizil.",
+      "Sovuqdan yonoqlarim muzlab qoldi.",
+      "Chaqaloqning yumshoq yonog'idan sekingina o'pdim.",
+      "U uyalganidan yonoqlari qizarib, nigohini pastga tushirdi."
+    ],
+    "뻔하다": [
+      "Natija aniq.",
+      "U hikoya juda siyqa, oxiri oldindan ma'lum.",
+      "Ochiq-oydin yolg'on gapirgani uchun hamma darrov payqab qoldi.",
+      "Bu serialning syujeti oldindan ma'lum bo'lgani uchun oxirigacha ko'rmasangiz ham yakunini taxmin qilish mumkin."
+    ],
+    "뻗다": [
+      "Qo'limni cho'zaman.",
+      "Oyoqlarimni cho'zib o'tiraman.",
+      "Bola onasiga ikki qo'lini cho'zib, ko'tarib olishni so'radi.",
+      "Ildizlari yerning chuqur qatlamlarigacha taralgan daraxt kuchli shamolda ham osonlikcha yiqilmaydi."
+    ],
+    "뽑다": [
+      "O't-o'lanni yulaman.",
+      "Kompaniya yangi xodimlarni ishga oladi.",
+      "Tish shifokorida qimirlab qolgan tishimni oldirgandim, ancha yengil tortdim.",
+      "Bizning sinf ovoz berish yo'li bilan sinf sardorini sayladi va eng ishonchli do'stimiz saylandi."
+    ],
+    "뿌리": [
+      "Daraxtning ildizi uzun.",
+      "Bu ildizlari chuqur daraxt.",
+      "Begona o'tlarni ildizi bilan sug'urib tashlash kerak, aks holda yana o'sib chiqadi.",
+      "U yoshligidan o'z naslining ildizlarini bilishni istab, nasabnomani qidirib ko'rdi."
+    ],
+    "뿌리다": [
+      "Suv sepaman.",
+      "Dalaga urug' sepdim.",
+      "Gullarga suv sepgan edim, ular yana yashnab ketdi.",
+      "Bahor kelgach, dehqon dalani mehr bilan haydab, urug' sepdi."
+    ],
+    "사건": [
+      "Voqea sodir bo'ldi.",
+      "Kecha katta voqea sodir bo'ldi.",
+      "Politsiya o'sha voqea aybdorini topish uchun tergov boshladi.",
+      "Bu voqea jamiyatni qattiq larzaga soldi va ko'pchilik haqiqatni aniqlashni talab qildi."
+    ],
+    "사고방식": [
+      "Fikrlash tarzimiz har xil.",
+      "Mening fikrlash tarzim do'stimnikidan farq qiladi.",
+      "Avlodlar har xil bo'lsa, fikrlash tarzi ham farq qilishi tabiiy.",
+      "Chet elda yashab ko'rgach, fikrlash tarzim naqadar tor bo'lganini anglab yetdim."
+    ],
+    "사교적": [
+      "U kirishimli odam.",
+      "Do'stim juda kirishimli inson.",
+      "Kirishimli xarakterim tufayli yangi maktabda ham tezda do'stlar orttirdim.",
+      "U kirishimli bo'lgani uchun birinchi marta ko'rgan odami bilan ham hech qanday noqulaylik sezmay suhbatlashadi."
+    ],
+    "사귀다": [
+      "Do'st orttiraman.",
+      "Men o'sha odam bilan uchrashib yuribman.",
+      "Yangi ko'chib kelgan mahallamda yaxshi do'stlar orttirdim.",
+      "Ikkovlari talabalik yillaridan uchrasha boshlashgan va hozir to'yga tayyorgarlik ko'rishmoqda."
+    ],
+    "사라지다": [
+      "Qor erib ketdi.",
+      "Sumka birdan g'oyib bo'ldi.",
+      "Quyosh chiqishi bilan tuman asta-sekin tarqalib ketdi.",
+      "Eski tor ko'chalar qayta qurilish tufayli yo'qolib ketgach, mahallaning xotiralari ham ular bilan birga ko'milib ketdi."
+    ],
+    "사로잡다": [
+      "U qo'shiq qalbimni rom etdi.",
+      "O'sha film meni o'ziga rom etdi.",
+      "Bolaning yoqimli kulgisi hammaning qalbini rom etdi.",
+      "Askarlar dushman sarkardasini asir olib, urushni g'alaba bilan yakunlashdi."
+    ],
+    "사막": [
+      "Sahro issiq.",
+      "Tuyalar cho'lda yashaydi.",
+      "Sahroda kunduzi issiq, kechasi esa juda sovuq edi.",
+      "Global isish tufayli cho'llar tobora kengayib borayotgani sababli atrofdagi hududlarda dehqonchilik qilish qiyinlashmoqda."
+    ],
+    "사망": [
+      "Vafot xabarini eshitdim.",
+      "O'sha baxtsiz hodisada bir kishi vafot etdi.",
+      "Bobomning vafot etgani haqidagi xabardan butun oila qayg'uga botdi.",
+      "Bu yong'inda uch kishi halok bo'lgani va bir necha kishi og'ir jarohat olgani ma'lum qilindi."
+    ],
+    "사망자": [
+      "Halok bo'lganlar ko'p.",
+      "Baxtsiz hodisada halok bo'lganlar bor.",
+      "Zilzila oqibatida halok bo'lganlar soni ortib bormoqda.",
+      "Hukumat ushbu fojiada halok bo'lganlarning oila a'zolariga tasalli puli to'lashga qaror qildi."
+    ],
+    "사모님": [
+      "Xonim, assalomu alaykum!",
+      "Direktor va uning rafiqasi keldilar.",
+      "Ustozimning uyiga borganimda, ularning rafiqasi mazali taomlar tortdilar.",
+      "Biz ustozimizning rafiqasi o'zlari tayyorlagan kimchini sovg'a sifatida olib qaytdik."
+    ],
+    "사무소": [
+      "Idora qayerda?",
+      "Mahalla idorasiga boraman.",
+      "Kompaniyamiz Seulda kichik ofis ochdi.",
+      "Ko'chib o'tgandan keyin hujjatlarni aholiga xizmat ko'rsatish markazidan emas, balki migratsiya xizmati idorasidan olishga to'g'ri keldi."
+    ],
+    "사생활": [
+      "Shaxsiy hayot muhim.",
+      "Boshqa odamlarning shaxsiy hayoti haqida so'ramang.",
+      "San'atkorlar ham shaxsiy hayotlari himoya qilinishi huquqiga ega.",
+      "Hamkasblarining uning shaxsiy hayotiga haddan tashqari qiziqishi unga noqulaylik tug'dirardi."
+    ],
+    "사슴": [
+      "Kiyik bor.",
+      "Kiyiklar o't yeydi.",
+      "Bog'da kiyiklarga yem berdim.",
+      "O'rmonda tasodifan duch kelgan kiyik hayratlangan ko'zlari bilan bizga ancha vaqt tikilib turdi."
+    ],
+    "사실": [
+      "Bu haqiqat.",
+      "Aslida men ham bilmagan edim.",
+      "Mish-mish rostmi yoki yo'qmi, tekshirib ko'rdim.",
+      "Faktlarni fikrlardan ajrata olish qobiliyati axborot to'lib-toshgan zamonda zarur bo'lgan bilimdir."
+    ],
+    "사업": [
+      "Biznes bilan shug'ullanaman.",
+      "Otam kichik biznes bilan shug'ullanadilar.",
+      "Do'stim bilan birga qahvaxona biznesini boshlashga qaror qildik.",
+      "Hukumat ish o'rinlarini ko'paytirish maqsadida kichik va o'rta biznesni qo'llab-quvvatlash dasturlarini kengaytirishini e'lon qildi."
+    ],
+    "사용료": [
+      "Foydalanish haqi bor.",
+      "Avtoturargohdan foydalanish haqi qancha?",
+      "Bu majlislar zalidan foydalanish uchun haq to'lash kerak.",
+      "Jamoat inshootlaridan foydalanish haqini foydalanuvchi to'lashi qoida bo'lsa-da, kam ta'minlanganlarga imtiyozlar beriladi."
+    ]
+  },
+  "0095": {
+    "사용법": [
+      "Foydalanish usuli oson.",
+      "Iltimos, bu qurilmadan qanday foydalanishni tushuntirib bering.",
+      "Yangi sotib olgan telefonimdan foydalanish usulini yo'riqnoma orqali o'rganib oldim.",
+      "Buvimga smartfondan foydalanishni bosqichma-bosqich o'rgatib, bir soat qanday o'tganini sezmay qoldim."
+    ],
+    "사우나": [
+      "Saunaga boraman.",
+      "Dam olish kuni saunada hordiq chiqardim.",
+      "Mashg'ulotdan keyin saunada charchog'imni chiqardim.",
+      "Koreyadagi saunalar jjimjilbang madaniyati bilan uyg'unlashib, butun oila bilan hordiq chiqaradigan dam olish maskaniga aylandi."
+    ],
+    "사은품": [
+      "Sovg'a oldim.",
+      "Kitob sotib olsangiz, sovg'a beriladi.",
+      "Univermagdan narsa sotib olib, sovg'a sifatida stakan oldim.",
+      "Ushbu aksiya davomida xarid qilgan barcha mijozlarimizga kichik sovg'a taqdim etamiz."
+    ],
+    "사이버": [
+      "Bu kiber makon.",
+      "Onlayn universitetda o'qiyman.",
+      "Hozirda onlayn darslar orqali uyda ham dars tinglash mumkin.",
+      "Kiberjinoyatlar tobora murakkablashib borayotgani sababli shaxsiy ma'lumotlarni himoya qilish muhim vazifaga aylandi."
+    ],
+    "사이좋다": [
+      "Biz inoqmiz.",
+      "Aka-ukalar inoq o'ynashyapti.",
+      "Ikki do'st doim inoq yashashadi, ularni ko'rish yoqimli.",
+      "Qo'shni uyning bolalari janjallashmay, ahil bo'lib o'ynab ulg'ayishmoqda."
+    ],
+    "사이트": [
+      "Saytga kiraman.",
+      "Bu saytdan chipta sotib oldim.",
+      "Ro'yxatdan o'tish uchun maktab saytiga kirdim.",
+      "Sayohat ma'lumotlarini solishtirib ko'rish mumkin bo'lgan saytlar ko'pligi sababli reja tuzish ancha osonlashdi."
+    ],
+    "사정": [
+      "Sababim bor.",
+      "Shoshilinch ish chiqib qoldi.",
+      "Oilaviy sabablarga ko'ra bugun ertaroq ketishim kerak.",
+      "Kompaniyaning og'ir ahvolini tushunib, qo'llab-quvvatlagan xodimlar tufayli inqirozni muvaffaqiyatli yengib o'tdik."
+    ],
+    "사진관": [
+      "Fotostudiyaga boraman.",
+      "Fotostudiyada hujjat uchun suratga tushdim.",
+      "Bitiruv suratiga tushish uchun mahalladagi fotostudiyaga oldindan yozildim.",
+      "Bobom yoshligida kichik suratxona yuritib, qishloq aholisining qimmatli lahzalarini muhrlab qolgan ekanlar."
+    ],
+    "사진첩": [
+      "Fotoalbomni ko'ryapman.",
+      "Onam menga fotoalbomni ko'rsatdilar.",
+      "Ko'chib o'tayotib, bolaligimdagi fotoalbomni topib oldim.",
+      "Oilaviy sayohat suratlarini to'plab, fotoalbom tayyorladim va uni ota-onamga sovg'a qildim."
+    ],
+    "사춘기": [
+      "O'smirlik davri boshlandi.",
+      "Ukam hozir o'smirlik davrida.",
+      "Bola o'smirlik davriga qadam qo'ygach, ota-onasi bilan kamroq gaplashadigan bo'ldi.",
+      "O'smirlik davrida gormonlar o'zgarishi tufayli kayfiyat keskin o'zgaradigan bo'lib, mustaqillikka intilish kuchayadi."
+    ],
+    "사투리": [
+      "Shevada gapiraman.",
+      "Buvim shevada gapiradilar.",
+      "Seulga kelganimdan beri ona shevamdan qutulishga harakat qildim.",
+      "Pusan shevasi ohangi kuchli va qo'polroq bo'lsa-da, samimiy taassurot qoldiradi."
+    ],
+    "사표": [
+      "Ishdan bo'shash haqida ariza berdim.",
+      "U kecha ishdan bo'shash haqida ariza yozdi.",
+      "Rahbarim bilan kelishmovchilik chuqurlashib, oxiri ishdan bo'shash haqida ariza topshirdim.",
+      "U uzoq o'ylab ko'rgach, ishdan bo'shash haqida ariza topshirib, yangi sinovni boshlashga qaror qildi."
+    ],
+    "사회": [
+      "Jamiyat o'zgaryapti.",
+      "Biz jamiyatda yashaymiz.",
+      "O'qishni bitirib, mustaqil hayotga qadam qo'ysam, o'rganadigan narsalar ko'p bo'lsa kerak.",
+      "Jamiyat qariyotgani sari keksalar ijtimoiy ta'minoti va pensiya tizimiga bo'lgan qiziqish ortib bormoqda."
+    ],
+    "사회생활": [
+      "Ish hayoti og'ir.",
+      "Mehnat faoliyatimni boshladim.",
+      "Ilk bor ish hayotini boshlaganimda hamma narsa notanish va qiyin edi.",
+      "Ko'p yillik mehnat faoliyati davomida u odamlar bilan muomala qilish va hissiyotlarini jilovlashni o'rgandi."
+    ],
+    "사회자": [
+      "Boshlovchi gapiryapti.",
+      "To'y boshlovchisi qiziqarli edi.",
+      "Munozarada boshlovchi qatnashchilarga savol berdi.",
+      "U bosiq va hazil-mutoyiba bilan tadbirni olib borib, boshlovchi vazifasini a'lo darajada uddaladi."
+    ],
+    "사회적": [
+      "Bu ijtimoiy muammo.",
+      "U ijtimoiy hayotda katta tajribaga ega.",
+      "Atrof-muhitning ifloslanishi hamma birgalikda hal qilishi kerak bo'lgan ijtimoiy muammodir.",
+      "Ijtimoiy jihatdan himoyaga muhtoj qatlamlarni muhofaza qilish tizimlari joriy etilishi bilan ijtimoiy ta'minotdan chetda qolgan bo'shliqlar asta-sekin qisqarmoqda."
+    ],
+    "산꼭대기": [
+      "Tog' cho'qqisiga chiqaman.",
+      "Tog' cho'qqisidan manzarani tomosha qildim.",
+      "Terlab-pishib chiqqan tog' cho'qqisida salqin shabadadan bahramand bo'ldim.",
+      "Tog' cho'qqisida qor to'plangani uchun alpinistlar qalin kiyim tayyorlashlari kerak edi."
+    ],
+    "산더미": [
+      "Ishim tog'dek uyulib yotibdi.",
+      "Yuvilmagan idishlar tog'dek uyilib qoldi.",
+      "Uy vazifasi tog'dek bo'lgani uchun dam olish kunlari ham dam ololmayman.",
+      "Yil oxiri bo'lgani uchun bajarilishi kerak bo'lgan hujjatlar tog'dek uyulib qolib, hamma kechgacha ishda qolmoqda."
+    ],
+    "산부인과": [
+      "Akusherlik va ginekologiya bo'limiga boraman.",
+      "Ginekologiya bo'limida tekshiruvdan o'tdim.",
+      "Homilador bo'lganim uchun har oy ginekologga borib, chaqaloqni tekshirtiraman.",
+      "O'sha shifoxonada bir necha akusher-ginekolog mutaxassis borligi uchun homilador ayollar orasida juda mashhur."
+    ],
+    "산불": [
+      "O'rmonda yong'in chiqdi.",
+      "O'rmon yong'inidan ehtiyot bo'ling.",
+      "Quruq bahorda kichkina uchqun ham o'rmon yong'iniga aylanib ketishi mumkin.",
+      "Kuchli shamol tufayli tarqalib ketgan o'rmon yong'ini sababli yaqin atrofdagi qishloq aholisi shoshilinch ravishda evakuatsiya qilindi."
+    ],
+    "산업": [
+      "Sanoat rivojlanyapti.",
+      "Koreya avtomobil sanoati bilan mashhur.",
+      "Bu hudud turizm sanoati orqali ko'p pul ishlamoqda.",
+      "Yarimo'tkazgichlar sanoati mamlakat iqtisodiyotida katta ulushga ega bo'lib, texnologik raqobat juda keskin bo'lgan sohadir."
+    ],
+    "산책로": [
+      "Sayr yo'lakchasi chiroyli.",
+      "Daryo bo'yidagi sayr yo'lagida yuraman.",
+      "Har kuni kechqurun bog'dagi sayr yo'lagida kuchukcham bilan sayr qilaman.",
+      "Shahar ma'muriyati daryo bo'ylab velosipedchilar va piyodalar birgalikda foydalanishi mumkin bo'lgan yangi sayr yo'lakchasini barpo etdi."
+    ],
+    "살리다": [
+      "Odamni qutqaraman.",
+      "Shifokor bemorni qutqarib qoldi.",
+      "O't o'chiruvchi olov ichidan bolani qutqarib qoldi.",
+      "U o'zining kuchli tomonlaridan foydalanib, o'ziga mos kasbni topdi."
+    ],
+    "살림": [
+      "Uy-ro'zg'or ishlarini qilaman.",
+      "Onam ro'zg'orni yaxshi yuritadilar.",
+      "Turmush qurganimdan keyin birinchi marta ro'zg'orni o'zim yurita boshladim.",
+      "Ikkovlari kam maosh bilan ham ro'zg'orni tejamkorlik bilan yuritib, jamg'armalarini asta-sekin ko'paytirib borishdi."
+    ],
+    "살아가다": [
+      "Tirishib yashayapman.",
+      "Biz birgalikda hayot kechiramiz.",
+      "Shaharda yashash oson emas, lekin qiziqarli.",
+      "Har bir inson katta-kichik qiyinchiliklarni boshdan kechirib, kunma-kun hayot kechiradi."
+    ],
+    "살아나다": [
+      "Gul qayta jonlandi.",
+      "Qurib borayotgan daraxt qayta jonlandi.",
+      "Yomg'ir yog'gach, so'lib qolgan o'tlar yana jonlanib ketdi.",
+      "Baxtsiz hodisa joyida mo'jizaviy tarzda omon qolgan u hayotga minnatdorlikni yangicha his qildi."
+    ],
+    "살아남다": [
+      "Biz omon qoldik.",
+      "O'sha hayvon qishda omon qoldi.",
+      "U katta halokatdan yolg'iz o'zi tirik qoldi.",
+      "Keskin raqobatda omon qolish uchun kompaniyalar tinimsiz ravishda innovatsiyalarni amalga oshirmoqda."
+    ],
+    "살아오다": [
+      "Bu yerda uzoq vaqtdan beri yashab kelyapman.",
+      "Buvim butun umrlarini shu uyda o'tkazib keldilar.",
+      "Men shu paytgacha ota-onam bilan birga yashab keldim.",
+      "U butun umri davomida halol yashab kelganini o'zining eng katta faxri deb biladi."
+    ],
+    "살인": [
+      "Qotillik og'ir jinoyat.",
+      "Qotillik sodir bo'ldi.",
+      "Politsiya qotillik ishi bo'yicha jinoyatchini qo'lga olish uchun tergov olib bormoqda.",
+      "U qotillikda ayblanib sudlangan edi, biroq dalillar yetarli bo'lmagani uchun oqlandi."
+    ],
+    "살짝": [
+      "Sekingina oching.",
+      "Eshikni sekingina yopdim.",
+      "Uning jilmayib qo'yishi juda yoqimli edi.",
+      "Do'stim bilmay qolishi uchun sovg'ani sekingina stol ustiga qo'yib chiqib ketdim."
+    ]
+  },
+  "0096": {
+    "살찌다": [
+      "Semirishni xohlayman.",
+      "Keyingi paytlarda ancha semirib ketdim.",
+      "Ta'til davomida uyda faqat yeb o'tirganim uchun semirib qoldim.",
+      "Kechqurun kech ovqatlanish odati davom etsa, osongina semirib ketish mumkin va bu sog'liq uchun ham zararli."
+    ],
+    "살펴보다": [
+      "Atrofni ko'zdan kechiraman.",
+      "Xaritani diqqat bilan ko'zdan kechirdim.",
+      "Shifokor bemorning ahvolini sinchiklab ko'zdan kechirdi.",
+      "Shartnomaga imzo chekishdan oldin barcha bandlarni birma-bir ko'zdan kechirib chiqish xavfsizroq."
+    ],
+    "살피다": [
+      "Atrofga diqqat bilan qarayman.",
+      "Bolaning yuziga sinchiklab qaradim.",
+      "U vaziyatni kuzatib, ehtiyotkorlik bilan gap boshladi.",
+      "Onam tun bo'yi kasal bolaning peshonasini ushlab, isitmasi bor-yo'qligini tekshirib turdilar."
+    ],
+    "삶": [
+      "Hayot go'zal.",
+      "Men baxtli hayotni xohlayman.",
+      "Sayohatdan qaytgach, hayotim biroz o'zgardi.",
+      "Farovon hayot ko'p narsaga egalik qilish emas, balki har bir kun uchun shukr qilib yashash, deb o'ylayman."
+    ],
+    "삶다": [
+      "Tuxum qaynatyapman.",
+      "Kartoshkani qaynatib yedim.",
+      "Ertalab tuxum qaynatib, tushlik qutimga soldim.",
+      "Kirni toza yuvish uchun oq sochiqlarni qaynoq suvda qaynatdim."
+    ],
+    "삼겹살": [
+      "Samgyopsal (cho'chqa qorni go'shti) yeyman.",
+      "Kechqurun samgyeopsal qovurib yedik.",
+      "Ishdan keyin do'stlarim bilan samgyeopsal yeb, soju ichdik.",
+      "Samgyeopsalni salat bargi, sarimsoq va ssamjang bilan birga o'rab yesangiz, yanada mazali bo'ladi."
+    ],
+    "삼일절": [
+      "Mustaqillik harakati kuni 1-martga to'g'ri keladi.",
+      "Samiljeol kuni maktablar dam oladi.",
+      "Mart birinchi harakati kunida Taegukgi bayrog'ini osib, mustaqillik harakatini yodga oldik.",
+      "Samiljeol 1919-yilda Yaponiya mustamlakachiligiga qarshi butun mamlakat bo'ylab ko'tarilgan \"Manse\" harakatini xotirlash uchun belgilangan milliy bayramdir."
+    ],
+    "삼키다": [
+      "Dorini yutaman.",
+      "Bir qultum suv yutdim.",
+      "Tomog'im og'rigani uchun ovqatni yutish qiyin bo'ldi.",
+      "Bola kichkina munchoqni yutib yuborgani sababli ota-onasi qo'rqib ketib, shoshilinch shifoxonaga yugurishdi."
+    ],
+    "상": [
+      "Mukofot oldim.",
+      "Bizning sinf mukofot oldi.",
+      "Astoydil harakat qilib, oxiri musobaqada birinchi o'rin mukofotini oldim.",
+      "U uzoq yillik tadqiqot natijalari e'tirof etilib, bu yil Tinchlik bo'yicha Nobel mukofotiga nomzod bo'ldi."
+    ],
+    "상가": [
+      "Do'konlar ko'p.",
+      "Ko'p qavatli uy oldida savdo majmuasi bor.",
+      "Yer osti savdo rastalaridan arzon poyabzal sotib oldim.",
+      "Bu binoning birinchi qavatidagi savdo rastalarida do'koncha, dorixona va go'zallik saloni joylashgan."
+    ],
+    "상관없다": [
+      "Menga farqi yo'q.",
+      "Nima yesam ham farqi yo'q.",
+      "Yomg'ir yog'sa ham menga farqi yo'q, ketaveramiz.",
+      "Yoshi va jinsidan qat'i nazar, istalgan kishi bu yig'inda ishtirok etishi mumkin."
+    ],
+    "상관없이": [
+      "Yoshdan qat'i nazar qilinadi.",
+      "Ob-havodan qat'i nazar, har kuni piyoda yuraman.",
+      "Jinsidan qat'i nazar, har kim ariza topshirishi mumkin.",
+      "U boshqalarning nigohidan qat'i nazar, o'zi to'g'ri deb bilgan yo'ldan indamay borardi."
+    ],
+    "상금": [
+      "Pul mukofoti oldim.",
+      "Mukofot puliga oilam bilan ovqatlandik.",
+      "Musobaqada g'olib bo'lib, mukofot puli sifatida bir million von oldim.",
+      "U olgan mukofot pulining yarmini muhtoj qo'shnilar uchun xayriyaga berib, atrofdagilarning maqtoviga sazovor bo'ldi."
+    ],
+    "상담": [
+      "Maslahat olaman.",
+      "O'qituvchi bilan maslahatlashdim.",
+      "Tashvishim bo'lgani uchun mutaxassis bilan maslahatlashish uchun yozildim.",
+      "Kasb tanlash masalasida qiynalib yurgan o'quvchi maslahat orqali o'z qobiliyatlarini bilib oldi."
+    ],
+    "상담실": [
+      "Maslahat xonasiga boraman.",
+      "Maslahat xonasi shu qavatda.",
+      "Maktabning maslahat xonasida o'qituvchi bilan suhbatlashdim.",
+      "Maslahat xonasining eshigini taqillatishdan oldin uzoq ikkilanishga to'g'ri keldi, biroq gapirib bo'lgach, ko'nglim ancha yengil tortdi."
+    ],
+    "상담원": [
+      "Operator bilan telefonda gaplashdim.",
+      "Operator xushmuomalalik bilan tushuntirib berdi.",
+      "Telefon orqali operatordan pulni qaytarish tartibini so'radim.",
+      "Qo'ng'iroqlar markazi operatorlari kuniga o'nlab qo'ng'iroqlarni qabul qilib, mijozlarning noroziligini tinglashga majbur bo'lgan hissiy mehnat xodimlaridir."
+    ],
+    "상담자": [
+      "Maslahat so'rovchi kutyapti.",
+      "Maslahatchi bilan suhbatlashdim.",
+      "Maslahatchi mijozning gapini oxirigacha tinglab turdi.",
+      "Yaxshi maslahatchi o'z hukmini birinchi o'ringa qo'ymay, suhbatdosh ko'nglini bemalol ocha oladigan muhit yaratadi."
+    ],
+    "상당히": [
+      "Ancha katta.",
+      "Bugun ancha sovuq.",
+      "Bu film ancha qiziqarli bo'lgani uchun uni ikki marta ko'rdim.",
+      "Bu muammoni hal qilish uchun ancha uzoq vaqt ketishi kutilmoqda."
+    ],
+    "상대": [
+      "Raqib kuchli.",
+      "Boshqalarni hurmat qilish kerak.",
+      "Jamoamiz bugun kuchli raqib bilan o'ynaydi.",
+      "Suhbatlashayotganda suhbatdoshning gapini oxirigacha tinglab, so'ngra o'z fikringizni aytish odob hisoblanadi."
+    ],
+    "상대방": [
+      "Suhbatdosh gapiryapti.",
+      "Suhbatdoshingizning gapini tinglang.",
+      "Jahlingiz chiqsa ham, suhbatdoshingizga baqirmasligingiz kerak.",
+      "Yaxshi munosabatlarni saqlab qolish uchun suhbatdoshingiz o'rniga o'zingizni qo'yib, yana bir bor o'ylab ko'rishingiz kerak."
+    ],
+    "상대편": [
+      "Raqib jamoa yutdi.",
+      "Raqib jamoaning o'yinchisi tezkor.",
+      "Jamoamiz raqib jamoaning hujumlarini yaxshi qaytardi.",
+      "U muammoga qarshi tomonning nuqtai nazaridan qarashga harakat qilib, oxir-oqibat kutilmagan yechim topdi."
+    ],
+    "상상": [
+      "Tasavvur qilib ko'ring.",
+      "Men kelajakni tasavvur qilaman.",
+      "Yoshligimda osmonda uchib yurganimni tez-tez tasavvur qilardim.",
+      "Bu roman muallifning boy tasavvuridan tug'ilgan bo'lsa-da, hayotdagi muammolarni keskin aks ettiradi."
+    ],
+    "상상력": [
+      "Tasavvuri boy.",
+      "Bolalarning tasavvuri boy.",
+      "Ertak kitoblari bolalarning tasavvurini rivojlantiradi.",
+      "O'sha rejissyor o'zining betakror tasavvur kuchi bilan shu paytgacha ko'rilmagan kino olamini yaratdi."
+    ],
+    "상승": [
+      "Harorat ko'tarilyapti.",
+      "Narxlar oshdi.",
+      "Yoz kelishi bilan havo harorati asta-sekin ko'tarildi.",
+      "So'nggi paytlarda uy narxlari keskin ko'tarilgani sababli oddiy aholining uy-joy bilan bog'liq yuki ortib bormoqda."
+    ],
+    "상식": [
+      "Bu umumiy ma'lum narsa.",
+      "U odamning umumiy bilimi keng.",
+      "Bunday xatti-harakat sog'lom aqlga to'g'ri kelmagani uchun hamma hayron qoldi.",
+      "Asosiy yo'l harakati qoidalari har bir haydovchi bilishi shart bo'lgan oddiy bilimlar sirasiga kiradi."
+    ],
+    "상업": [
+      "Savdo rivojlandi.",
+      "Bu ko'cha savdo hududi hisoblanadi.",
+      "Bu shahar qadimdan savdo-sotiq gullab-yashnagan joy bo'lgan.",
+      "U universitetda tijorat bo'yicha tahsil olib, o'qishni tugatgach, kichik savdo kompaniyasini ochdi."
+    ],
+    "상업적": [
+      "Bu tijoriy reklama.",
+      "O'sha film tijorat jihatdan muvaffaqiyat qozondi.",
+      "Bu qo'shiqdan tijorat maqsadlarida foydalanish mumkin emas.",
+      "Bu kitob tijoriy muvaffaqiyatga erishmagan bo'lsa-da, oz sonli o'quvchilar qalbida chuqur aks-sado qoldirdi."
+    ],
+    "상인": [
+      "Savdogar mol sotyapti.",
+      "Bozor sotuvchilari xushmuomala.",
+      "Tongi bozorda savdogarlar mollarini terib qo'yishayotgan edi.",
+      "Qadimda savdogarlar ipak va ziravorlarni ortib, uzoq yurtlargacha savdo qilib borishgan."
+    ],
+    "상점": [
+      "Do'kon ochildi.",
+      "Mahalladagi do'kondan sut sotib oldim.",
+      "Bu do'kon kechgacha ochiq bo'lgani uchun qulay.",
+      "Ko'chada kiyim do'konlari va kitob do'konlari kabi kichik do'konlar qator tizilib turibdi."
+    ],
+    "상징": [
+      "Kaptar tinchlik ramzi.",
+      "Taegukgi Koreyaning ramzi hisoblanadi.",
+      "Oq rang poklik ramzi bo'lgan rangdir.",
+      "Bu bino shahar taraqqiyotining ramzi bo'lgan eng mashhur inshootlardan biriga aylandi."
+    ]
+  },
+  "0097": {
+    "상쾌하다": [
+      "Ertalabki havo toza va tetiklashtiruvchi.",
+      "Dush qabul qilganimdan keyin o'zimni tetik his qilyapman.",
+      "Toqqa chiqib, toza havodan nafas olgach, o'zimni tetik his qildim.",
+      "Yomg'ir tingandan keyingi havo g'oyat toza va yoqimli bo'lgani uchun beixtiyor chuqur nafas olasiz."
+    ],
+    "상태": [
+      "Sog'lig'im yaxshi.",
+      "Mashinaning holati yomon.",
+      "Bemorning ahvoli kechagiga qaraganda ancha yaxshilandi.",
+      "Ishlatilgan buyum sotib olayotganda uning holati va shikastlari bor-yo'qligini sinchiklab tekshirish kerak."
+    ],
+    "상표": [
+      "Tovar belgisiga qarayman.",
+      "Yorlig'i chiroyli.",
+      "Kiyimdagi yorliqni olib tashlab kiydim.",
+      "Mashhur brendlarning qalbaki mahsulotlari bozorda sotilayotgani sababli iste'molchilarga yetkazilayotgan zarar ortib bormoqda."
+    ],
+    "상품권": [
+      "Sovg'a sertifikati oldim.",
+      "Tug'ilgan kuniga sovg'a sertifikati hadya qildim.",
+      "Univermag sovg'a sertifikati bilan ota-onamga ustki kiyim sotib olib berdim.",
+      "Bayramlarda ko'plab kompaniyalar xodimlariga sovg'a o'rniga sovg'a sertifikatlari beradi."
+    ],
+    "상하다": [
+      "Sut aynib qoldi.",
+      "Ovqat buzilib qolgani uchun tashlab yubordim.",
+      "Yozda ovqat tez buziladi, shuning uchun uni muzlatgichga solish kerak.",
+      "U do'stining beparvo aytgan gapidan izzat-nafsi og'rib, kun bo'yi indamay yurdi."
+    ],
+    "상황": [
+      "Vaziyat og'ir.",
+      "Hozirgi vaziyatni tushuntirib bering.",
+      "To'satdan yomg'ir yog'ib, noqulay vaziyatga tushib qoldik.",
+      "Biz vaziyatga qarab rejani moslashuvchan tarzda o'zgartira olishimiz kerak."
+    ],
+    "새다": [
+      "Tomdan suv oqyapti.",
+      "Gaz chiqayotgani uchun xavfli.",
+      "Tun bo'yi gaplashib o'tirib, qachon tong otganini ham sezmay qoldik.",
+      "Sir tashqariga oshkor bo'lib, kompaniya noqulay ahvolga tushib qoldi."
+    ],
+    "새롭다": [
+      "Bu yangi kiyim.",
+      "Yangi do'st bilan tanishdim.",
+      "Ko'chib o'tganimdan keyin yangi mahallaga moslashyapman.",
+      "U yangi sinov arafasida hayajon va qo'rquv aralash tuyg'u bilan tunni bedor o'tkazdi."
+    ],
+    "새어머니": [
+      "O'gay onam keldilar.",
+      "Do'stim o'gay onasi bilan yashaydi.",
+      "O'gay onam bilan avvaliga o'zimni noqulay his qilardim, lekin asta-sekin yaqinlashib qoldik.",
+      "O'gay onasining iliq g'amxo'rligi tufayli u bolalikdagi jarohatlarini asta-sekin yengib o'ta oldi."
+    ],
+    "새우다": [
+      "Tunni bedor o'tkazaman.",
+      "Kecha tunni bedor o'tkazdim.",
+      "Imtihonga tayyorlanib, tunni butunlay bedor o'tkazdim.",
+      "Do'stim bilan gaplashib o'tirib, qanday qilib tunni bedor o'tkazganimizni sezmay qoldik."
+    ],
+    "새치기": [
+      "Navbatsiz kirmang.",
+      "Navbatsiz oldinga o'tib oldim.",
+      "Navbatsiz kirib olgan odam tufayli orqada turganlarning jahli chiqdi.",
+      "Tartibga rioya qilish bo'yicha fuqarolik madaniyati yetishmasa, navbatsiz kirib olish kabi xatti-harakatlar kundalik hayotda tez-tez uchraydi."
+    ],
+    "새해": [
+      "Yangi yil keldi.",
+      "Yangi yilingiz muborak bo'lsin!",
+      "Yangi yilda sog'-salomat va baxtli bo'lishingizni tilayman.",
+      "Bizning oila Yangi yilning birinchi kuni ertalab birgalikda tteokguk yeb, yil davomidagi orzu-umidlarimizni baham ko'rdik."
+    ],
+    "색다르다": [
+      "Bu o'ziga xos ta'm.",
+      "O'ziga xos tajribaga ega bo'ldim.",
+      "Bu ta'tilda o'zgacha bir joyga sayohatga borgim keladi.",
+      "Odatdagidan farqli, o'ziga xos usulda taqdimot tayyorlagan edim, munosabat juda yaxshi bo'ldi."
+    ],
+    "색상": [
+      "Rangi chiroyli.",
+      "Bu kiyimning rang turlari xilma-xil.",
+      "Yoqqan rangdagi sumkani tanladim.",
+      "Gulqog'oz rangiga qarab xonaning muhiti butunlay o'zgarishi mumkin."
+    ],
+    "생각나다": [
+      "Do'stim esimga tushyapti.",
+      "Yaxshi usul xayolimga keldi.",
+      "O'sha qo'shiqni eshitsam, o'tgan kunlar esimga tushadi.",
+      "To'satdan muhim uchrashuv esimga tushib, shoshilib uydan chiqdim."
+    ],
+    "생강차": [
+      "Zanjabil choyi ichaman.",
+      "Shamollaganim uchun zanjabil choyi ichdim.",
+      "Sovuq qishda issiq zanjabil choyi yodga tushadi.",
+      "Onam tomog'im og'riyotgani uchun menga asal qo'shilgan zanjabil choyini mehr bilan damlab berdilar."
+    ],
+    "생겨나다": [
+      "Yangi do'kon paydo bo'ldi.",
+      "Ko'nglimda o'zgarish paydo bo'ldi.",
+      "Mahallamizda ko'plab yangi qahvaxonalar paydo bo'ldi.",
+      "Shahar kengaygani sari ilgari mavjud bo'lmagan turli kasblar paydo bo'lmoqda."
+    ],
+    "생김새": [
+      "Tashqi ko'rinishlari o'xshash.",
+      "U odamning tashqi ko'rinishi yoqimtoy.",
+      "Aka-ukalarning tashqi ko'rinishi o'xshash, lekin fe'l-atvori butunlay boshqacha.",
+      "Bu mevaning ko'rinishi g'alati bo'lsa-da, ta'mi shirin va hidi yoqimli bo'lgani uchun juda xaridorgir."
+    ],
+    "생략": [
+      "Salomlashishni qoldiramiz.",
+      "Tushuntirishni qisqartirdim.",
+      "Vaqtimiz tig'iz, shuning uchun uzun salom-alikni qoldirib, darhol boshlaylik.",
+      "Koreys tilida kontekstdan anglashilib turgan egani tushirib qoldirish holatlari ko'p uchraydi."
+    ],
+    "생머리": [
+      "Tekis sochlar chiroyli.",
+      "Mening sochim uzun va to'g'ri.",
+      "Yelkasigacha tushadigan qora tekis sochlar unga juda yarashadi.",
+      "Sochlarini jingalak qildirib yurgan u ancha vaqtdan so'ng yana uzun tekis sochlarga qaytgach, dugonalari uni tanib bo'lmay qolibdi deb hayron qolishdi."
+    ],
+    "생명": [
+      "Hayot qadrli.",
+      "Barcha tirik jonzotlarni asrayman.",
+      "Shifokorlar bemorning hayotini saqlab qolish uchun tun bo'yi harakat qilishdi.",
+      "Yer yuzidagi barcha tirik mavjudotlar bir-biri bilan bog'langan bo'lib, ulardan biri yo'qolsa, boshqalari ham xavf ostida qoladi."
+    ],
+    "생산": [
+      "Avtomobil ishlab chiqaramiz.",
+      "Bu zavod guruch ishlab chiqaradi.",
+      "Bu kompaniya maishiy texnika ishlab chiqarib, chet elga eksport qiladi.",
+      "Mashinalarning joriy etilishi bilan ishlab chiqarish samaradorligi oshib, mahsulot narxlarining pasayishi kuzatildi."
+    ],
+    "생생하다": [
+      "Xotiram yorqin.",
+      "Tushim juda yorqin esimda.",
+      "Bolaligimda o'ynagan manzaralar hali ham ko'z oldimda yaqqol turibdi.",
+      "Baxtsiz hodisa joyining manzarasi jonli aks etgan suratlar e'lon qilinib, ko'pchilikni larzaga soldi."
+    ],
+    "생중계": [
+      "Jonli efirni ko'ryapman.",
+      "O'yinni jonli efirda tomosha qildim.",
+      "Jahon chempionati o'yini televizorda jonli efirda ko'rsatildi.",
+      "O'sha tadbir internet orqali butun dunyoga jonli efirda uzatilib, millionlab odamlar tomosha qildi."
+    ],
+    "생필품": [
+      "Kundalik zarur buyumlarni sotib olaman.",
+      "Supermarketdan kundalik ehtiyoj mollarini sotib oldim.",
+      "Ko'chib o'tgandan keyin kerakli kundalik zarur buyumlarni birdaniga sotib oldim.",
+      "Ofat yuz berganda vahima bilan ko'plab xarid qilish tufayli kundalik zarur buyumlar narxi keskin oshib, ularning tanqisligi yuzaga kelishi odatiy holdir."
+    ],
+    "생활비": [
+      "Yashash xarajatlari ko'p.",
+      "Har oy turmush xarajatlarini tejayman.",
+      "Chet elda o'qib yurgan paytimda yarim kunlik ishda ishlab, yashash xarajatlarimni topardim.",
+      "Maosh oshmayotgan bir paytda faqat narxlar ko'tarilayotgani sababli bir oylik yashash xarajatlarini qoplash tobora qiyinlashmoqda."
+    ],
+    "생활수준": [
+      "Turmush darajasi ko'tarildi.",
+      "O'sha mamlakatda turmush darajasi yuqori.",
+      "Iqtisodiyot o'sishi bilan aholining turmush darajasi ham sezilarli darajada oshdi.",
+      "Shahar va qishloq o'rtasidagi turmush darajasidagi tafovutni qisqartirish hukumatning muhim vazifasidir."
+    ],
+    "서너": [
+      "Uch-to'rt kishi keldi.",
+      "Uch-to'rtta olma sotib oldim.",
+      "Bu ishni uch-to'rt soatda tugatdim.",
+      "U uch-to'rt marta qayta-qayta urinib ko'rganidan so'ng nihoyat imtihondan o'tib, quvonchini yashira olmadi."
+    ],
+    "서두르다": [
+      "Shoshiling.",
+      "Kech qoldik, shoshilib boraylik.",
+      "Ertalab uxlab qolganim uchun shoshilib maktabga bordim.",
+      "Ishni shoshib qilib, xato qilsangiz, aksincha ko'proq vaqt ketadi."
+    ],
+    "서랍": [
+      "Tortmani ochaman.",
+      "Stol tortmasida ruchka bor.",
+      "Tortma ichidan eski suratni topib oldim.",
+      "Muhim hujjatlarni yo'qolib qolmasligi uchun qulfi bor tortmada saqlab qo'ydim."
+    ]
+  },
+  "0098": {
+    "서론": [
+      "Kirish qismini yozyapman.",
+      "Maqolaning kirish qismi qisqa.",
+      "Hisobotning kirish qismida tadqiqot maqsadi qisqacha yoziladi.",
+      "Yaxshi ilmiy maqolaning kirish qismi tadqiqot asoslari va muammo qo'yilishini aniq bayon etib, o'quvchining qiziqishini uyg'otishi kerak."
+    ],
+    "서명": [
+      "Shu yerga imzo cheking.",
+      "Shartnomaga imzo chekdim.",
+      "Posilkani olib, kvitansiyaga imzo chekib berdim.",
+      "Kelishuvni imzolash marosimida ikki davlat vakillari hujjatga imzo chekib, hamkorlik qilishga va'da berishdi."
+    ],
+    "서부": [
+      "G'arbga boraman.",
+      "Amerikaning g'arbiy qismi bo'ylab sayohat qildim.",
+      "Koreyaning g'arbiy hududida keng tekisliklar va loyqa sayozliklar ko'p.",
+      "G'arb filmlarida ot minib keng sahrolar bo'ylab chopib ketayotgan kovboylar tez-tez namoyon bo'ladi."
+    ],
+    "서빙": [
+      "Restoranda ofitsiant bo'lib ishlayman.",
+      "Men ofitsiant bo'lib qo'shimcha ishlayman.",
+      "Tushlikning band paytida ofitsiantlar tinim bilmay yugurib yurishadi.",
+      "U talabalik yillarida o'qish pulini topish uchun kafeda ofitsiant bo'lib ishlab, ish o'rgandi."
+    ],
+    "서서히": [
+      "Asta-sekin yuraman.",
+      "Havo asta-sekin isiyapti.",
+      "Dorini ichganimga ancha bo'lgach, og'riq asta-sekin yo'qoldi.",
+      "Quyosh botar ekan, osmon asta-sekin qizilga bo'yaldi va ko'p o'tmay qorong'ilik cho'kdi."
+    ],
+    "서운하다": [
+      "Biroz ko'nglim qoldi.",
+      "Do'stim kelmagani uchun ko'nglim qoldi.",
+      "Tug'ilgan kunimni eslamagani uchun ko'nglim qoldi.",
+      "Munosabatlar qanchalik yaqin bo'lsa, arzimas bir og'iz so'zdan ham ko'ngil qolishi shunchalik oson."
+    ],
+    "서투르다": [
+      "Men ovqat pishirishga no'noqman.",
+      "Koreys tilim hali chala.",
+      "Avvaliga mashina haydashga hali ko'nikmaganim uchun juda hayajonlanardim.",
+      "Uning notiqlik mahorati past bo'lsa-da, qalbi iliq bo'lgani uchun atrofdagilarning ishonchini qozongan."
+    ],
+    "석사": [
+      "Magistraturada o'qiyman.",
+      "Men magistr darajasini oldim.",
+      "Universitetni bitirib, magistraturada o'qishni boshladim.",
+      "U iqtisodiyot bo'yicha magistr darajasini olganidan so'ng darhol ilmiy-tadqiqot institutiga ishga kirib, siyosat tahlili bilan shug'ullana boshladi."
+    ],
+    "석식": [
+      "Kechki ovqat yeyman.",
+      "Maktabda kechki ovqat beriladi.",
+      "Yotoqxonada kechki ovqat soat oltida beriladi.",
+      "Kechki mustaqil mashg'ulotlarda qatnashadigan o'quvchilar uchun maktab har kuni kechki ovqat beradi."
+    ],
+    "석유": [
+      "Neft qimmat.",
+      "Bu mamlakatda neft qazib olinadi.",
+      "Qishda kerosin pechkasini yoqib, xonani isitdik.",
+      "Xalqaro neft narxi keskin ko'tarilgach, yoqilg'i narxining og'irligi tufayli oddiy aholining oilaviy byudjeti qiyinlashdi."
+    ],
+    "석탄": [
+      "Ko'mir yoqaman.",
+      "Qadimda ko'mir bilan isitishgan.",
+      "Shaxtadan qazib olingan ko'mir poyezdda tashildi.",
+      "Ko'mirni yoqilg'i sifatida ishlatadigan elektr stansiyalari katta miqdorda karbonat angidrid chiqarib, ekologik muammolarni keltirib chiqaradi."
+    ],
+    "섞다": [
+      "Bo'yoqlarni aralashtiraman.",
+      "Sut va qahvani aralashtiraman.",
+      "Unga suv va tuz aralashtirib, xamir qordim.",
+      "Ikki xil rangni aralashtirsangiz, butunlay yangi rang hosil bo'lgani uchun rasm chizish qiziqarli edi."
+    ],
+    "선": [
+      "Chiziq chizaman.",
+      "Qog'ozga chiziq chizdim.",
+      "Yo'lda oq chiziq chizilgan, undan o'tmang.",
+      "Ikkovlari bir-biriga nisbatan rioya qilinishi kerak bo'lgan chegarani aniq belgilab olgandan keyingina bemalol munosabatni saqlab qola oldilar."
+    ],
+    "선글라스": [
+      "Quyosh ko'zoynagi taqaman.",
+      "Quyosh nuri kuchli bo'lgani uchun quyosh ko'zoynagi sotib oldim.",
+      "Yozda dengizga borayotganda quyoshdan saqlovchi ko'zoynakni olib oldim.",
+      "Ultrabinafsha nurlar ko'z salomatligiga zararli bo'lgani uchun ochiq havoda yurganda quyoshdan saqlovchi ko'zoynak taqqan ma'qul."
+    ],
+    "선선하다": [
+      "Havo salqin.",
+      "Kuz shamoli salqin.",
+      "Kechga borib shabada salqin bo'lgani uchun sayr qilish yoqimli bo'ldi.",
+      "Jazirama issiq chekinib, salqin shabada esa boshlagach, odamlar derazalarni ochib, kuzni kutib olishdi."
+    ],
+    "선진국": [
+      "Rivojlangan davlatda yashashni xohlayman.",
+      "Koreya rivojlangan davlat.",
+      "Rivojlangan davlatlarda ijtimoiy ta'minot tizimi odatda yaxshi yo'lga qo'yilgan.",
+      "Ko'plab rivojlanayotgan davlatlar rivojlangan davlatlarning texnologiyasi va tajribasini o'rganish maqsadida hamkorlik loyihalarida ishtirok etmoqda."
+    ],
+    "선착순": [
+      "Kelish tartibi bo'yicha qabul qilamiz.",
+      "Birinchi kelgan yuz kishiga.",
+      "Bu tadbirga kelish tartibida kiritiladi, shuning uchun erta borish kerak.",
+      "Mashhur konsert chiptalari navbat tartibida sotilgani uchun oldindan sotuv boshlanganidan bir necha daqiqa o'tib, tugab qoldi."
+    ],
+    "설": [
+      "U nazariya noto'g'ri.",
+      "Yangi nazariya paydo bo'ldi.",
+      "Bu olim Yer yassi degan nazariyani rad etdi.",
+      "O'sha voqeaning asl mohiyati haqida turli taxminlar mavjud bo'lib, hali bir to'xtamga kelinmagan."
+    ],
+    "설득": [
+      "Ko'ndirish qiyin.",
+      "Do'stimni ko'ndirdim.",
+      "Ota-onamni ko'ndirib, chet elga o'qishga boradigan bo'ldim.",
+      "Suhbatdoshni ko'ndirish uchun bir tomonlama talab qilishdan ko'ra, dalillar keltirib, bosiqlik bilan gaplashish kerak."
+    ],
+    "설마": [
+      "Nahotki shunday bo'lsa.",
+      "Nahotki, allaqachon ketib qoldimi?",
+      "Nahotki bu ishning hammasini bir o'zingiz qilgan bo'lsangiz?",
+      "U bizga xiyonat qilmasa kerak-ku, deb o'ylagan bo'lsam-da, xavotir osonlikcha tarqalmadi."
+    ],
+    "설명서": [
+      "Yo'riqnomani o'qiyman.",
+      "Yo'riqnoma tushunarsiz.",
+      "Yangi muzlatgich sotib olib, yo'riqnomaga qarab o'rnatdim.",
+      "Mahsulotdan foydalanishdan oldin yo'riqnomada yozilgan ehtiyot choralarini diqqat bilan o'qib chiqish kerak."
+    ],
+    "설문조사": [
+      "So'rovnoma o'tkazaman.",
+      "So'rovnomaga javob berdim.",
+      "Maktabda o'quvchilar o'rtasida so'rovnoma o'tkazildi.",
+      "Ushbu so'rovnoma natijalariga ko'ra, respondentlarning yarmidan ko'pi jamoat transporti narxining oshirilishiga qarshi chiqqan."
+    ],
+    "설문지": [
+      "Anketani oldim.",
+      "Anketaga ismingizni yozing.",
+      "Dars tugagach, o'qituvchi so'rovnoma varaqalarini tarqatdi.",
+      "So'rovnoma varaqasidagi savollar juda uzun bo'lmasligi uchun ixcham tuzilsagina javob berish darajasi oshadi."
+    ],
+    "설사": [
+      "Hatto yomg'ir yog'sa ham boraman.",
+      "Hatto kechiksangiz ham mayli.",
+      "Hatto muvaffaqiyatsizlikka uchrasam ham, taslim bo'lmayman.",
+      "Hatto bu rost bo'lgan taqdirda ham, odamlar oldida bunday deyish to'g'ri emas."
+    ],
+    "섭섭하다": [
+      "Do'stimning ko'ngli og'riyapti.",
+      "Ketar ekansiz, juda afsusdaman.",
+      "Hech narsa demay ketib qolgani uchun ko'nglim og'ridi.",
+      "Uzoq vaqt birga ishlagan hamkasbning kompaniyadan ketishi haqidagi xabardan hamma afsus chekib, buni yashira olmadi."
+    ],
+    "성공": [
+      "Muvaffaqiyatingiz bilan tabriklayman.",
+      "Imtihondan muvaffaqiyatli o'tdim.",
+      "Operatsiya muvaffaqiyatli o'tib, bemor sog'ayib ketdi.",
+      "U ko'plab muvaffaqiyatsizliklarni yengib o'tib, nihoyat biznesda muvaffaqiyat qozondi va soha e'tiborini tortdi."
+    ],
+    "성능": [
+      "Ishlash samaradorligi yaxshi.",
+      "Bu kompyuterning ishlash tezligi yuqori.",
+      "Yangi chiqqan telefonning kamera imkoniyatlari ancha yaxshilangan.",
+      "Bu avtomobil yoqilg'i tejamkorligi va xavfsizlik ko'rsatkichlari a'lo bo'lgani uchun iste'molchilar tomonidan yuqori baholanmoqda."
+    ],
+    "성당": [
+      "Katolik cherkoviga boraman.",
+      "Har yakshanba katolik cherkoviga boraman.",
+      "Katolik cherkovida nikoh marosimini o'tkazayotgan juftlikni ko'rdim.",
+      "Myondong sobori Seulning gotika uslubidagi eng mashhur inshootlaridan biri bo'lib, ko'plab sayyohlar tashrif buyuradigan diqqatga sazovor joydir."
+    ],
+    "성명": [
+      "Ism-sharifimni yozaman.",
+      "Bu yerga ism-sharifingizni yozing.",
+      "Hujjatga ism-sharifim va manzilimni aniq yozib qo'ydim.",
+      "Hukumat ushbu vaziyat yuzasidan afsus bildirgan rasmiy bayonot e'lon qildi."
+    ],
+    "성별": [
+      "Jinsni yozing.",
+      "Jinsingiz va yoshingizni ayting.",
+      "Ariza varaqasida ism va jinsni yozish uchun katak bor.",
+      "Ishga qabul qilishda jinsga qarab kamsitish qonun bilan qat'iyan taqiqlangan."
+    ]
+  },
+  "0099": {
+    "성실": [
+      "Minsu mehnatsevar.",
+      "Ukam har kuni tirishqoqlik bilan o'qiydi.",
+      "Vijdonan ishlasangiz, odamlar sizga ishonadi.",
+      "U har qanday ishda vijdonlilikni eng oliy qadriyat deb bilib, mas'uliyat bilan bajarib kelgan."
+    ],
+    "성인": [
+      "Men voyaga yetganman.",
+      "Bu filmni kattalar ko'rishi mumkin.",
+      "O'n to'qqiz yoshga to'lgach, voyaga yetgan deb hisoblanib, ovoz berish huquqiga ham ega bo'lasiz.",
+      "Ota-onam voyaga yetgach, o'z tanlovim uchun o'zim javob berishim kerakligini doimo aytib kelardilar."
+    ],
+    "성인병": [
+      "Bobomda kattalarda uchraydigan kasallik bor.",
+      "Sport bilan shug'ullansangiz, surunkali kasalliklarning oldini olish mumkin.",
+      "Sho'r ovqat yeyish odati turmush tarzi bilan bog'liq kasalliklarga sabab bo'lgani uchun ehtiyot bo'lish kerak.",
+      "Tibbiy ko'rik orqali turmush tarzi bilan bog'liq kasalliklarni erta aniqlash davolash samaradorligini sezilarli darajada oshiradi."
+    ],
+    "성적": [
+      "Baholarim yaxshi.",
+      "Bu safargi imtihon natijalari chiqdi.",
+      "Baholarim yaxshilangani uchun ota-onam meni maqtadilar.",
+      "U baholarga berilib ketishdan ko'ra, bilim olishning o'zidan zavq topishga harakat qildi."
+    ],
+    "성적표": [
+      "Baholar tabelini oldim.",
+      "Onam baholar tabelimni ko'rdilar.",
+      "Bu semestrdagi baholar varaqasini olgach, ta'til davomida astoydil o'qishga ahd qildim.",
+      "Baholar varaqasiga sinf rahbari yozgan bir og'iz so'z uzoq vaqt ko'nglida saqlanib, unga kuch bag'ishladi."
+    ],
+    "성형": [
+      "U odam plastik jarrohlik qildirgan.",
+      "Plastik jarrohlik qimmat.",
+      "Do'stim burnini plastik jarrohlik qildirgach, o'ziga ishonchi ancha oshganini aytdi.",
+      "Haddan tashqari plastik jarrohlik nojo'ya oqibatlarga olib kelishi mumkinligi sababli bu borada ehtiyotkorlik bilan qaror qabul qilish kerak."
+    ],
+    "세계적": [
+      "U qo'shiqchi dunyoga mashhur.",
+      "Jahonga mashhur aktyor bilan uchrashdim.",
+      "Bu kompaniya butun dunyoga mashhur poyabzal ishlab chiqaradi.",
+      "Bizning jamoa jahon darajasidagi texnologik salohiyatga ega bo'lish uchun uzoq yillar davomida tadqiqotlarni davom ettirib keldi."
+    ],
+    "세금": [
+      "Soliq ko'p.",
+      "Men soliq to'ladim.",
+      "Maoshdan soliqni ayirib tashlasangiz, aslida qo'lga tegadigan pul ancha kam bo'ladi.",
+      "Hukumat oddiy aholining yukini yengillashtirish maqsadida shu yildan boshlab ayrim soliqlarni kamaytirishga qaror qildi."
+    ],
+    "세기": [
+      "Hozir yigirma birinchi asr.",
+      "Yigirmanchi asrda urushlar bo'lgan.",
+      "Bu bino ikki asr oldin qurilgan, shuning uchun juda qadimiy.",
+      "Bir asr davomida jamiyatimiz ham ajoyib iqtisodiy o'sishni, ham keskin o'zgarishlarni boshdan kechirdi."
+    ],
+    "세다": [
+      "Pul sanayapman.",
+      "Birdan o'ngacha sanang.",
+      "Bola barmoqlari bilan konfet nechta ekanini birma-bir sanab chiqdi.",
+      "Mijozlar ko'p bo'lgani uchun bugungi tushum qancha ekanligini sanab chiqish ancha vaqt oldi."
+    ],
+    "세대": [
+      "Bu yosh avlod.",
+      "Bizning avlod boshqacha.",
+      "Ota-onamning avlodi bilan mening avlodimning qarashlari juda farq qiladi.",
+      "Avlodlar o'rtasidagi nizolarni kamaytirish uchun bir-birining nuqtai nazarini tushunishga intilish zarur."
+    ],
+    "세련": [
+      "Bu kiyim zamonaviy va nafis.",
+      "O'sha kafe juda zamonaviy va nafis.",
+      "Opamning kiyinish uslubi juda nafis bo'lgani uchun odamlarning e'tiborini tortadi.",
+      "Bu dizayner oddiy chiziqlar orqali nafislikning mohiyatini namoyon etuvchi asarlari bilan mashhur."
+    ],
+    "세면대": [
+      "Qo'l yuvgich toza.",
+      "Qo'lni rakovinada yuvamiz.",
+      "Qo'l yuvgichdan suv yaxshi ketmayotgani uchun boshqaruv xonasiga murojaat qildim.",
+      "Mehmonxona hammomidagi qo'l yuvgich ostida sochiqlar va sovun tartib bilan terib qo'yilgan edi."
+    ],
+    "세면도구": [
+      "Yuvinish buyumlarini sotib oldim.",
+      "Yuvinish anjomlari shu yerda.",
+      "Sayohat sumkamga tish cho'tkasi va sovun kabi yuvinish buyumlarini soldim.",
+      "Bu turar joyda yuvinish anjomlari tayyorlab qo'yilmagani uchun ularni o'zingiz olib kelishingiz kerak."
+    ],
+    "세미나": [
+      "Ertaga seminar bor.",
+      "Seminarda qatnashaman.",
+      "Juma kuni tushdan keyin bo'ladigan iqtisodiyot seminariga yozildim.",
+      "Professor seminarda eng so'nggi tadqiqot natijalarini taqdim etib, ishtirokchilar bilan qizg'in muhokama qildi."
+    ],
+    "세배": [
+      "Yangi yil bayramida kattalarga ta'zim qilib salom beraman.",
+      "Buvimga Yangi yil ta'zimini qildim.",
+      "Seollal kuni ertalab hanbok kiyib, ota-onamga yerga qadar egilib, Yangi yil ta'zimi (sebe) qildim.",
+      "Sebe ta'zimini bajargan bolalar kattalarning yaxshi tilaklarini tinglab, tteokgukni maza qilib yeyishdi."
+    ],
+    "세뱃돈": [
+      "Yangi yil ta'zimi uchun pul oldim.",
+      "Yangi yil ta'zimi uchun olgan pulim ko'p.",
+      "Bobomga Yangi yil ta'zimini qilganimda, ular menga sebetton pulini berdilar.",
+      "Bolalar Seollal bayramida olgan sebet pullarini cho'chqachaga yig'ib, o'zlari orzu qilgan o'yinchoqni sotib olishdi."
+    ],
+    "세상": [
+      "Dunyo keng.",
+      "Bu dunyoda eng yaxshisi shu.",
+      "Sayohat qilib, dunyoda turli-tuman odamlar yashashini bilib oldim.",
+      "U jamiyatdagi odamlarning nigohlariga e'tibor bermay, o'z yo'lidan matonat bilan bordi."
+    ],
+    "세월": [
+      "Vaqt tez o'tadi.",
+      "O'n yil o'tib ham ketdi.",
+      "Oradan ko'p yillar o'tgan bo'lsa ham, men o'sha do'stimni unuta olmayman.",
+      "Og'ir yillarni boshdan kechirganimizdan keyin endi o'tmishni kulib eslay oladigan bo'ldik."
+    ],
+    "세제": [
+      "Yuvish vositasi yo'q.",
+      "Idishlarni yuvish vositasi bilan yuvaman.",
+      "Kir yuvayotganda yuvish vositasini juda ko'p solsangiz, yaxshi chayqalmaydi.",
+      "Ekologik toza yuvish vositalari teriga kam ta'sir qilgani uchun bolali oilalarda keng qo'llaniladi."
+    ],
+    "세탁물": [
+      "Yuviladigan kiyimlar ko'p.",
+      "Kirlarimni kimyoviy tozalashga topshirdim.",
+      "Yomg'ir yog'ib, hovlida yoyib qo'yilgan kirlarning hammasi ho'l bo'lib ketdi.",
+      "Kimyoviy tozalash do'konida topshirilgan kiyimlarni ikki kundan keyin olib ketish mumkinligini aytishdi."
+    ],
+    "셔츠": [
+      "Oq ko'ylak kiyaman.",
+      "Ko'ylak katta.",
+      "Ishga qabul suhbatida kiyish uchun bitta yangi ko'ylak sotib oldim.",
+      "U dazmollangan ko'ylagining yenglarini shimarib, ishga kirishdi."
+    ],
+    "셔틀버스": [
+      "Qatnov avtobusiga chiqaman.",
+      "Qatnov avtobusi kelyapti.",
+      "Aeroportgacha boradigan qatnov avtobusi har o'n daqiqada jo'naydi.",
+      "Maktabdan metro bekatigacha qatnaydigan shatl avtobus tufayli o'qishga borib kelish vaqti sezilarli darajada qisqardi."
+    ],
+    "소감": [
+      "Taassurotlarimni aytaman.",
+      "Filmdan qanday taassurot oldingiz?",
+      "Mukofot olganingizdan qanday taassurotdasiz, bir-ikki og'iz gapirib bersangiz.",
+      "U bitiruv arafasida o'tgan to'rt yillik o'qish hayoti haqidagi taassurotlarini yozib qoldirdi."
+    ],
+    "소개팅": [
+      "Bugun tanishuv uchrashuvim bor.",
+      "Biz tanishtirish uchrashuvida tanishganmiz.",
+      "Do'stim tanishtirgan odam bilan shanba kuni tanishuv uchrashuviga borishga kelishdim.",
+      "Birinchi tanishuv uchrashuvimda shu qadar hayajonlangan edimki, nimalar haqida gaplashganimiz ham esimda yo'q."
+    ],
+    "소규모": [
+      "Bu kichik yig'ilish.",
+      "Kichik do'kon yuritaman.",
+      "Bizning kompaniyamiz atigi o'n nafar xodimi bor kichik kompaniya.",
+      "U kichik miqyosda boshlagan biznesini bir necha yil ichida butun mamlakat bo'ylab faoliyat yurituvchi kompaniyaga aylantirdi."
+    ],
+    "소극장": [
+      "Kichik teatrga boraman.",
+      "Kichik teatrdagi spektakl qiziqarli.",
+      "Men har dam olish kuni Daehangnodagi kichik teatrda spektakl tomosha qilaman.",
+      "Kichik teatrning eng katta jozibasi shundaki, tomoshabinlar va aktyorlar yaqin masofada bir nafasda bo'la oladi."
+    ],
+    "소극적": [
+      "U tortinchoq.",
+      "Men biroz tortinchoqman.",
+      "Ukam notanish odamlar oldida gapira olmay, o'zini tortinchoq tutadi.",
+      "Ishga qabul suhbatida passiv munosabat ko'rsatsangiz, g'ayratingiz yetishmaydi, degan taassurot qoldirishingiz mumkin."
+    ],
+    "소나기": [
+      "Jala quyyapti.",
+      "Jala tindi.",
+      "To'satdan jala quyib, soyabonim bo'lmagani uchun shalabbo bo'lib ho'l bo'ldim.",
+      "Yozning tush paytida bir jala yog'ib o'tgach, jazirama issiq ancha pasaydi."
+    ],
+    "소년": [
+      "Bola kulyapti.",
+      "O'sha o'smir bolaning bo'yi baland.",
+      "Bog'da bir bola kuchukchasi bilan to'p o'ynayapti.",
+      "O'sha o'smir og'ir sharoitda ham orzularini yo'qotmay, astoydil o'qidi."
+    ]
+  },
+  "0100": {
+    "소득": [
+      "Daromad kam.",
+      "Bu yil daromadim oshdi.",
+      "Oylik daromadim oshgani uchun boshqa uyga ko'chib o'tishga qaror qildim.",
+      "Hukumat kam ta'minlangan oilalar uchun daromadiga qarab tabaqalashtirilgan yordam ko'rsatish siyosatini amalga oshirmoqda."
+    ],
+    "소망": [
+      "Mening orzuim kichkina.",
+      "Mening orzuim oilamning sog'-salomat bo'lishi.",
+      "Yangi yilda sog'-salomat yashash tilagini tiladim.",
+      "U ona yurtiga qaytib, ota-onasining yonida ularga qarab yashash haqidagi azaliy orzusini qalbida saqlab kelardi."
+    ],
+    "소매": [
+      "Yeng uzun.",
+      "Yengimni shimaraman.",
+      "Bu kiyimning yenglari juda kalta bo'lgani uchun qo'llarim to'liq ko'rinib qoladi.",
+      "U yenglarini shimarib, idish yuvishga yordamlashib, onasining ishini yengillashtirdi."
+    ],
+    "소매치기": [
+      "Cho'ntakkesarlardan ehtiyot bo'laman.",
+      "Metroda cho'ntagimni kesib ketishdi.",
+      "Sayyohlik joylarida cho'ntakkesarlar ko'p, shuning uchun sumkangizni albatta oldingizga osib oling.",
+      "Sayohat davomida cho'ntakkesarlar hamyoni va pasportini o'g'irlab ketgan u shoshilib elchixonaga yo'l oldi."
+    ],
+    "소문": [
+      "G'alati mish-mish bor.",
+      "Mish-mish tez tarqaldi.",
+      "U restoranning taomlari mazali degan ovoza tarqalgani uchun mijozlari ko'p.",
+      "Asossiz mish-mishlarga berilmay, o'zingiz tekshirib ko'rganingizdan keyin xulosa chiqargan ma'qul."
+    ],
+    "소방관": [
+      "O't o'chiruvchi kelyapti.",
+      "Otam o't o'chiruvchi.",
+      "O't o'chiruvchi yong'in chiqqan binodan odamlarni qutqarib oldi.",
+      "Yoshligidan uning orzusi xavf ostida qolgan odamlarga yordam beradigan o't o'chiruvchi bo'lish edi."
+    ],
+    "소방서": [
+      "O't o'chirish xizmati yaqin.",
+      "Yong'in o'chirish bo'limiga qo'ng'iroq qildim.",
+      "Maktabimiz o'quvchilari o't o'chirish qismiga borib, yong'inni o'chirish usullarini o'rganishdi.",
+      "Yong'in haqida xabar olgan o't o'chirish bo'limi darhol bir nechta o't o'chirish mashinasini voqea joyiga jo'natdi."
+    ],
+    "소방차": [
+      "O't o'chirish mashinasi o'tib ketyapti.",
+      "O't o'chirish mashinasining ovozi baland.",
+      "Ko'chada o't o'chirish mashinasining ovozi eshitilsa, barcha mashinalar unga yo'l berishi kerak.",
+      "Bola qizil rangli o't o'chirish mashinasi o'yinchog'ini olib, kun bo'yi zavq bilan o'ynadi."
+    ],
+    "소비": [
+      "Iste'mol oshdi.",
+      "Elektr energiyasi iste'molini kamaytiramiz.",
+      "Maosh olgach, xarajatlarni kamaytirib, ko'proq jamg'arishga harakat qilaman.",
+      "Iqtisodiy ahvol yomonlashganda odamlar ortiqcha sarf-xarajatlarni qisqartirib, pul sarflashni to'xtatishga moyil bo'ladi."
+    ],
+    "소비자": [
+      "Iste'molchilar ko'p.",
+      "Men iste'molchiman.",
+      "Iste'molchilar narxi arzon va sifati yaxshi mahsulot sotib olishni xohlashadi.",
+      "Kompaniyalar iste'molchilarning ehtiyojlarini aniq bilgandagina bozorda omon qola oladi."
+    ],
+    "소설책": [
+      "Roman o'qiyman.",
+      "Roman kitobi qiziqarli.",
+      "Dam olish kunlari qahvaxonada roman o'qishni yaxshi ko'raman.",
+      "Kitob do'konida tasodifan qo'liga olgan bir roman uning hayotiga katta ta'sir ko'rsatdi."
+    ],
+    "소수": [
+      "Oz sonli odam keldi.",
+      "Buni faqat ozchilik biladi.",
+      "Bu hikoyani faqat bir nechta do'stlarimgina biladi, bu sir.",
+      "Jamoa rahbari majlisda ozchilikning fikri ham hurmat qilinishi lozimligini ta'kidladi."
+    ],
+    "소스": [
+      "Sous mazali.",
+      "Sous sepamiz.",
+      "Pitsaga achchiq sous sepib yeyishni yaxshi ko'raman.",
+      "Bu restoran o'zi tayyorlagan maxsus sous bilan go'sht pishirib bergani uchun mijozlar orasida juda mashhur."
+    ],
+    "소심하다": [
+      "Men tortinchoqman.",
+      "U do'stim tortinchoq bo'lgani uchun gapira olmaydi.",
+      "Ukam juda tortinchoq bo'lgani uchun yangi do'st orttirishga qiynaladi.",
+      "U tortinchoq tabiati tufayli aytmoqchi bo'lgan gapini ham to'g'ri aytolmay, doimo afsuslanib yurardi."
+    ],
+    "소용": [
+      "Buning foydasi yo'q.",
+      "Buning nima foydasi bor?",
+      "Afsuslanishdan foyda yo'q, axir bu o'tib ketgan ish.",
+      "Qanchalik yaxshi reja bo'lmasin, amalga oshirilmasa, hech qanday foydasi yo'q, dedi u."
+    ],
+    "소용없다": [
+      "Hozir befoyda.",
+      "Yig'lasangiz ham foydasi yo'q.",
+      "Allaqachon kech bo'ldi, hozir borsangiz ham befoyda.",
+      "Qancha bahona keltirmasin, endi buning foydasi yo'qligini u ham yaxshi bilardi."
+    ],
+    "소원": [
+      "Bir tilagim bor.",
+      "Yulduzga qarab tilak tilayman.",
+      "Tug'ilgan kun tortidagi shamlarni puflab, tilak tiladim.",
+      "U orzusiga erishish uchun har kuni tong saharda turib, tinmay mashq qilardi."
+    ],
+    "소음": [
+      "Shovqin kuchli.",
+      "Shovqin tufayli uxlay olmayapman.",
+      "Qurilish shovqini tufayli kunduzi uyda dam olish qiyin.",
+      "Ko'p qavatli uylarda qavatlararo shovqin tufayli qo'shnilar o'rtasidagi janjallar ijtimoiy muammo sifatida ko'tarilmoqda."
+    ],
+    "소주": [
+      "Soju ichaman.",
+      "Soju achchiq.",
+      "Ishdan keyin do'stlarim bilan samgyeopsal yeb, bir qadah soju ichdik.",
+      "Koreyslar jamoaviy ziyofatlarda soju ichishni xush ko'rib, bir-birlariga dil izhor qilishadi."
+    ],
+    "소중하다": [
+      "Oila qadrli.",
+      "Bu surat men uchun qadrli.",
+      "Men uchun do'stlarim bilan birga o'tkazgan vaqt eng qadrli.",
+      "Sog'liq naqadar qadrli ekanini ko'pincha kasal bo'lgandan keyingina anglab yetamiz."
+    ],
+    "소중히": [
+      "Sovg'ani asrab-avaylayman.",
+      "Xatni ehtiyotlab saqlayman.",
+      "Do'stim bergan sovg'ani asrab-avaylab saqlayapman.",
+      "Buvim vafot etgan bobomning qoldirgan buyumlarini asrab-avaylab, har kuni artib qo'yardilar."
+    ],
+    "소화": [
+      "Ovqat yaxshi hazm bo'ladi.",
+      "Ovqat hazm bo'lmayapti.",
+      "Juda ko'p yeganim uchun ovqat hazm bo'lmay, dori ichdim.",
+      "Shifokor ovqatdan keyin yengil sayr qilish hazm qilishga yordam berishini maslahat berdi."
+    ],
+    "속다": [
+      "Men aldandim.",
+      "Reklamaga aldanmang.",
+      "Do'stimning yolg'oniga aldanib, uchrashuv joyida bir soat kutib qoldim.",
+      "U firibgarning shirin so'zlariga aldanib, butun umri davomida yig'gan pulidan bir zumda ayrilib qoldi."
+    ],
+    "속담": [
+      "Maqolni bilaman.",
+      "Koreys maqollari qiziqarli.",
+      "Buvim ba'zan qadimgi maqollarni aytib beradilar.",
+      "Maqollarda uzoq asrlar davomida to'plangan ajdodlarning donoligi va hayotiy saboqlari mujassam."
+    ],
+    "속도": [
+      "Tezlik yuqori.",
+      "Tezlikni pasaytiramiz.",
+      "Avtomagistralda tezlikni juda oshirib yuborish xavfli.",
+      "Internet tezligi past bo'lgani uchun videoni uzilishlarsiz ko'rish qiyin bo'ldi."
+    ],
+    "속도위반": [
+      "Tezlik chegarasini buzdim.",
+      "Tezlikni oshirganlik uchun jarima qimmat.",
+      "Mashina haydayotib, tezlikni oshirganim uchun politsiyaga qo'lga tushdim.",
+      "U tezlikni oshirganini qayd etuvchi kameraga tushib, jarima to'g'risidagi xabarnoma oldi."
+    ],
+    "속력": [
+      "Harakat tezligi yuqori.",
+      "Tezlikni oshiramiz.",
+      "Avtomobil tezlikni oshirib, oldidagi mashinadan quvib o'tdi.",
+      "Samolyot havoga ko'tarilgach, tezligini asta-sekin oshirib, osmonga ko'tarildi."
+    ],
+    "속상하다": [
+      "Juda xafaman.",
+      "Imtihonni yaxshi topshira olmaganim uchun xafaman.",
+      "Do'stim bilan urishib qolganim uchun kun bo'yi ko'nglim xira bo'ldi.",
+      "Puxta tayyorlangan taqdimotini barbod qilgani uchun u ko'ngli cho'kib, uzoq vaqt indamay qoldi."
+    ],
+    "속옷": [
+      "Ich kiyim sotib olaman.",
+      "Ich kiyim kichik.",
+      "Sayohatga ketayotganda sumkamga qo'shimcha ichki kiyim solib oldim.",
+      "Qishda issiqni yaxshi saqlaydigan ichki kiyim kiysangiz, sovuqni kamroq his qilasiz."
+    ],
+    "속이다": [
+      "Yolg'on gapirib aldamang.",
+      "Meni aldadingiz.",
+      "O'sha savdogar tarozidan urib, xaridorlarga mol sotdi.",
+      "U o'z xatosini yashirish uchun hamkasblarini aldab, soxta hisobot topshirdi."
+    ]
+  },
+  "0101": {
+    "손바닥": [
+      "Kaftim katta.",
+      "Kaftingizni ko'rsating.",
+      "Sovuq bo'lgani uchun kaftlarimni ishqalab isitdim.",
+      "Bola kaftiga qo'yib olgan kichkina hasharotga qiziqib, uzoq vaqt tikilib qaradi."
+    ],
+    "손발": [
+      "Qo'l-oyog'im sovuq.",
+      "Qo'l-oyoqni yuvamiz.",
+      "Qishda qo'l-oyoqlarim muzdek sovuq bo'lgani uchun albatta qo'lqop kiyib, paypoq kiyaman.",
+      "Uzoq vaqt birga ishlagan hamkasblar gapirmasa ham bir-birini yaxshi tushunib, hamjihat harakat qilgani uchun ish tez tugadi."
+    ],
+    "손쉽다": [
+      "Bu ish oson.",
+      "Buni oson tayyorlash mumkin.",
+      "Bu taomning masalliqlari oddiy bo'lgani uchun uni har kim osongina tayyorlay oladi.",
+      "Smartfonlar tufayli endi istalgan joyda osongina ma'lumot qidirish va xarid qilish mumkin bo'ldi."
+    ],
+    "손자": [
+      "Mening nevaram bor.",
+      "Buvi nevarasini yaxshi ko'radilar.",
+      "Bobom nevaralari bilan bog'da varrak uchirdilar.",
+      "U hozirgi kunlarda o'g'lidan ham ko'ra yolg'iz nevarasining erkaliklarini tomosha qilish zavqi bilan kun o'tkazmoqda."
+    ],
+    "손잡이": [
+      "Eshik dastasi buzilib qoldi.",
+      "Tutqichdan ushlang.",
+      "Metroda yiqilib tushmaslik uchun tutqichni mahkam ushlab turdim.",
+      "Bu qozonning dastasi qizimaydigan materialdan yasalgani uchun undan foydalanish qulay."
+    ],
+    "손질": [
+      "Sochimni tartibga keltiraman.",
+      "Bog'ni parvarish qilaman.",
+      "Baliqni tozalab, qozonga solib, tiniq sho'rva qilib qaynatdim.",
+      "Otam har dam olish kuni bog'dagi daraxtlarni parvarish qilib, xotirjam vaqt o'tkazadilar."
+    ],
+    "솔직하다": [
+      "U samimiy odam.",
+      "Ochig'ini ayting.",
+      "Men ochiqko'ngil do'stlarni yoqtiraman, shuning uchun yolg'on gapirmaydigan odamlar bilan munosabatdaman.",
+      "U ishga qabul suhbatida o'z kamchiliklarini ochiqchasiga tan olib, aksincha yaxshi taassurot qoldirdi."
+    ],
+    "솔직히": [
+      "Ochig'ini aytaman.",
+      "Rostini aytsam, mazasi yo'q.",
+      "Rostini aytsam, o'sha film menga unchalik qiziq bo'lmadi.",
+      "Rostini aytsam, bu loyihaning muddatlari juda tig'iz bo'lgani uchun muvaffaqiyatga kafolat berish qiyin."
+    ],
+    "솜씨": [
+      "Mahorati yaxshi.",
+      "Onamning pazandalik mahorati eng zo'ri.",
+      "Do'stimning rasm chizish mahorati yuqori bo'lgani uchun u doim maqtov eshitadi.",
+      "Usta uzoq yillar davomida charxlangan mahorati bilan loyni har safar mehr bilan silab-tekislab, sopol idishni yasadi."
+    ],
+    "송금": [
+      "Pul o'tkazdim.",
+      "Pul o'tkazaman.",
+      "Bank ilovasi orqali ota-onamga turmush xarajatlari uchun pul o'tkazdim.",
+      "Chet elga pul o'tkazayotganda komissiya va valyuta kursini oldindan tekshirib olgan ma'qul."
+    ],
+    "쇠": [
+      "Temir qattiq.",
+      "Temir sovuq.",
+      "Bu eshik temirdan yasalgani uchun juda og'ir.",
+      "Temirchi qizdirilgan temirni bolg'a bilan urib, pichoq yasadi."
+    ],
+    "쇠고기": [
+      "Mol go'shti yeyman.",
+      "Mol go'shti mazali.",
+      "Kechqurun mol go'shti solingan miyokguk sho'rvasini pishirdim.",
+      "Hanu mol go'shti ichida ham eti yumshoq va ta'mi a'lo bo'lgani uchun narxi ancha qimmat."
+    ],
+    "쇼": [
+      "Televizor shousini ko'raman.",
+      "Shou qiziqarli.",
+      "Men har dam olish kunlari oilam bilan pazandachilik shousini ko'raman.",
+      "Bugun kechqurun bo'ladigan moda shousida ko'plab mashhur modellar ishtirok etishi kutilmoqda."
+    ],
+    "쇼핑몰": [
+      "Savdo markaziga boraman.",
+      "Savdo markazi katta.",
+      "Dam olish kunida do'stim bilan yangi ochilgan savdo markazidan kiyim sotib oldim.",
+      "Bu savdo markazida kinoteatr va ovqatlanish zonasi bo'lgani uchun kun bo'yi vaqt o'tkazish qulay."
+    ],
+    "쇼핑백": [
+      "Xarid sumkasi katta.",
+      "Xarid sumkasiga solib bering.",
+      "Men sovg'ani chiroyli xarid sumkasiga solib, do'stimga berdim.",
+      "Atrof-muhitni asrash maqsadida bir martalik polietilen paket o'rniga mustahkam xarid sumkasini qayta-qayta ishlatadigan odamlar ko'paymoqda."
+    ],
+    "쇼핑센터": [
+      "Savdo markaziga boraman.",
+      "Savdo markazi uzoqda.",
+      "Uy yaqinidagi savdo markazida bozor-o'char qilib, tushlik ham qildim.",
+      "Bu savdo markazining avtoturargohi keng va turli do'konlar bir joyga jamlangani uchun oilaviy xaridorlar ko'p."
+    ],
+    "수거": [
+      "Axlat yig'ib olaman.",
+      "Chiqindilarni saralab tashlayman.",
+      "Bizning mahallada har seshanba kuni qayta ishlanadigan chiqindilar yig'ib olinadi.",
+      "Obodonlashtirish xodimlari tong saharlab ko'chama-ko'cha aylanib, chiqindilarni yig'ib oladi va ko'chalarni toza saqlaydi."
+    ],
+    "수고": [
+      "Charchadingiz, rahmat.",
+      "Ko'p mehnat qildingiz.",
+      "Sizlarning mehnatingiz tufayli tadbir yaxshi yakunlandi.",
+      "U kechayu kunduz ishlagan xodimlarning mehnati uchun minnatdorchilik bildirib, ularga iliq dalda so'zlarini aytdi."
+    ],
+    "수단": [
+      "Bu yaxshi vosita.",
+      "Transport vositalari ko'p.",
+      "Men metroni asosiy transport vositasi sifatida ishlataman.",
+      "Uni maqsadiga erishish uchun hech qanday vosita va usuldan qaytmaydigan odam deb baholashdi."
+    ],
+    "수도꼭지": [
+      "Suv jo'mragini buraman.",
+      "Suv jo'mragi buzilib qoldi.",
+      "Jo'mrakni mahkam bekitmaganim uchun suv to'xtovsiz tomchilayapti.",
+      "Suvni tejash uchun tish yuvayotganda jo'mrakni yopib qo'yishni odat qilish yaxshi."
+    ],
+    "수량": [
+      "Miqdori kam.",
+      "Miqdorini sanayman.",
+      "Miqdori cheklangani uchun tez bormasangiz, hammasi sotilib ketadi.",
+      "Buyurtma qilgan mahsulotlaringiz soni yetarli bo'lmagani sababli, bir qismi kelasi hafta yetkazib beriladi."
+    ],
+    "수료식": [
+      "Kursni tugatish marosimi bor.",
+      "Kursni tugatish marosimiga boraman.",
+      "Koreys tili kursini tugatish marosimida biz sertifikat oldik.",
+      "Kursni tugatish marosimiga tinglovchilarning oila a'zolari va do'stlari ham taklif qilinib, quvonchni birga baham ko'rishdi."
+    ],
+    "수리": [
+      "Ta'mirlash kerak.",
+      "Kompyuterni ta'mirlayman.",
+      "Buzilgan soatimni ta'mirlatish uchun ustaxonaga bordim.",
+      "Kir yuvish mashinasi to'satdan to'xtab qolgani uchun uni servis markaziga ta'mirlashga berdim, ta'mirlash uch kun davom etdi."
+    ],
+    "수리비": [
+      "Ta'mirlash narxi qimmat.",
+      "Ta'mirlash haqini to'ladim.",
+      "Mashinaning ta'mir xarajati kutganimdan ko'p chiqqani uchun hayron qoldim.",
+      "Kafolat muddati o'tib ketgani sababli ta'mirlash xarajatini to'liq mijozning o'zi to'lashi kerakligini xodim tushuntirdi."
+    ],
+    "수면": [
+      "Uyqu yetishmaydi.",
+      "Uyqu vaqti qisqa.",
+      "Sog'liq uchun kuniga taxminan yetti soat uyqu kerak.",
+      "Aytishlaricha, uyqu yetishmasa, diqqatni jamlash qobiliyati pasayadi va immunitet ham zaiflashishi mumkin."
+    ],
+    "수면제": [
+      "Uyqu dorisini ichaman.",
+      "Uyqu dori kerak.",
+      "Uyqum kelmagani uchun shifokor menga uyqu dori yozib berdi.",
+      "Uyqu dorisini uzoq muddat ichish organizmda unga nisbatan chidamlilik paydo bo'lishiga olib kelishi mumkin, shuning uchun albatta mutaxassis shifokor bilan maslahatlashish kerak."
+    ],
+    "수명": [
+      "Umri uzun.",
+      "Batareyaning xizmat muddati qisqa.",
+      "Tibbiyot rivojlangani sababli odamlarning o'rtacha umr ko'rish davomiyligi ancha oshdi.",
+      "Bu lampochkaning xizmat muddati uzoq bo'lgani uchun uni tez-tez almashtirmasdan uzoq vaqt ishlatish mumkin."
+    ],
+    "수산물": [
+      "Dengiz mahsulotlarini sotib olaman.",
+      "Dengiz mahsulotlari yangi.",
+      "Pusanda yangi dengiz mahsulotlari sotiladigan bozorlar ko'p.",
+      "Bu hudud toza dengizdan ovlangan dengiz mahsulotlari bilan mashhur bo'lgani uchun bu yerga sayyohlar ko'p keladi."
+    ],
+    "수상": [
+      "Bosh vazir kelyapti.",
+      "Yaponiya bosh vazirini uchratdim.",
+      "Yangiliklarda Buyuk Britaniya bosh vaziri Koreyaga tashrif buyurishini aytishdi.",
+      "Ikki davlatning bosh vazirlari iqtisodiy hamkorlikni kuchaytirishga kelishib, qo'shma bayonot e'lon qilishdi."
+    ],
+    "수선": [
+      "Kiyimni ta'mirlayman.",
+      "Kiyim ta'mirlash do'koni bor.",
+      "Shim uzun bo'lgani uchun kiyim ta'mirlash ustaxonasida uni kaltalatdim.",
+      "Buvimning eskirgan paltosi ta'mirdan so'ng ancha ozoda va issiq kiyimga aylanib, qaytadan hayot topdi."
+    ]
+  },
+  "0102": {
+    "수선하다": [
+      "Shimni tikib tuzataman.",
+      "Kiyimni ta'mirlatdim.",
+      "Men teshilgan jinsi shimimni tikib tuzatib, yana kiyib yuribman.",
+      "Tikuvchi yirtilgan kiyimning chokini puxta tikib tuzatdi va hatto dazmollab ham berdi."
+    ],
+    "수수료": [
+      "Komissiya to'lovi bor.",
+      "Xizmat haqi ming von.",
+      "Boshqa bankdan pul yechsangiz, komissiya to'lashingiz kerak.",
+      "Valyuta ayirboshlashda har bir bankning komissiyasi turlicha bo'lgani uchun oldindan solishtirib ko'rish foydali."
+    ],
+    "수입": [
+      "Daromad oshdi.",
+      "Mevalarni import qilamiz.",
+      "Oylik daromadim kam bo'lgani uchun pul jamg'arish qiyin.",
+      "Mamlakatimiz neftning hammasini chet eldan import qilgani uchun xalqaro neft narxlariga juda bog'liq."
+    ],
+    "수정": [
+      "Gapni tuzataman.",
+      "Billur uzuk sotib oldim.",
+      "Hisobotda xato joylar bo'lgani uchun ularni tuzatdim.",
+      "Rahbar reja loyihasini tuzatib, qaytadan topshirishni buyurdi."
+    ],
+    "수준": [
+      "Saviya yuqori.",
+      "Koreys tili darajangiz qanday?",
+      "Ingliz tili darajam hali boshlang'ich bo'lsa ham, astoydil o'qiyapman.",
+      "Bu universitetning ilmiy-tadqiqot darajasi dunyoning istalgan joyi bilan solishtirganda ham ortda qolmaydi, degan baho olgan."
+    ],
+    "수집": [
+      "Mening sevimli mashg'ulotim marka yig'ish.",
+      "Tangalar yig'aman.",
+      "Otam eski komikslar yig'ishni yaxshi ko'radilar, shuning uchun xonalari kitobga to'la.",
+      "Tadqiqot guruhi so'rovnoma o'tkazish orqali kerakli ma'lumotlarni to'pladi va ularni tizimli tahlil qildi."
+    ],
+    "수출": [
+      "Eksport oshdi.",
+      "Koreya avtomobil eksport qiladi.",
+      "Bizning kompaniya kosmetika mahsulotlarini ko'plab davlatlarga eksport qiladi.",
+      "Yarimo'tkazgichlar mamlakatimiz eksportida eng katta ulushni egallaydigan asosiy mahsulot hisoblanadi."
+    ],
+    "수표": [
+      "Chek oldim.",
+      "Chek bilan to'layman.",
+      "Bankda yuz ming vonlik chekni naqd pulga almashtirdim.",
+      "Do'kon egasi chek soxta bo'lishi mumkin deb o'ylab, xaridordan shaxsini tasdiqlovchi hujjat ko'rsatishni so'radi."
+    ],
+    "수학여행": [
+      "Maktab ekskursiyasiga boraman.",
+      "Maktab ekskursiyasini intiqlik bilan kutyapman.",
+      "Litseyda o'qiganimda do'stlarim bilan Chejudoga maktab sayohatiga borganmiz.",
+      "Maktab sayohatining birinchi kechasida biz yotoqxonada yostiq urishib, kech tungacha kulib, shovqin qildik."
+    ],
+    "숙녀복": [
+      "Ayollar kiyimi sotiladi.",
+      "Ayollar kiyimi bo'limi bor.",
+      "Onamning tug'ilgan kuniga sovg'a sifatida univermagdan ayollar kiyimi sotib oldim.",
+      "Bu univermagning uchinchi qavatida o'rta yoshdagi ayollar uchun mo'ljallangan turli ayollar kiyimi brendlari joylashgan."
+    ],
+    "숙박": [
+      "Turar joyni band qilaman.",
+      "Yotib qolish ikki kunga.",
+      "Sayohatga borganimda turar joyni internet orqali oldindan band qildim.",
+      "Bu mehmonxona nonushta kiritilgan yashash paketini maqbul narxda taklif qiladi."
+    ],
+    "숙박비": [
+      "Turar joy narxi qimmat.",
+      "Turar joy haqini to'ladim.",
+      "Mavsum avjida turar joy narxi ikki baravar oshgani uchun sayohatni keyinga qoldirdim.",
+      "Bu galgi xizmat safaridagi yashash xarajatlarini kompaniya to'liq qoplab berishga qaror qildi."
+    ],
+    "숙소": [
+      "Turar joyga yetib keldim.",
+      "Turar joy toza.",
+      "Biz dengiz ko'rinib turadigan mehmonxonani band qildik.",
+      "Sayohatning birinchi kuni turar joyni qidirib ancha adashdik, lekin yaxshiyamki, uy egasi bizni kutib olishga chiqdi."
+    ],
+    "숙이다": [
+      "Boshimni egaman.",
+      "Boshimni egdim.",
+      "Men ustozimga salom berib, boshimni egdim.",
+      "U aybini tan olib, boshini chuqur egdi va jabrlanuvchidan chin dildan kechirim so'radi."
+    ],
+    "순간": [
+      "Bu lahza menga yoqadi.",
+      "Bir lahza cho'chib ketdim.",
+      "Imtihon natijasini ko'rgan zahotim juda xursand bo'lib ketdim.",
+      "U xavfli lahzada ham xotirjamligini yo'qotmay, odamlarni xavfsiz joyga olib chiqdi."
+    ],
+    "순두부찌개": [
+      "Sundubu chige yeyman.",
+      "Sundubu chige achchiq.",
+      "Sovuq kunlarda issiqqina sundubu-jjigae yegim keladi.",
+      "Bu oshxonaning sundubu chigesi ichida dengiz mahsulotlari mo'l bo'lgani uchun sho'rvasining ta'mi yoqimli va to'yimli."
+    ],
+    "술자리": [
+      "Ziyofatga boraman.",
+      "Ichkilik o'tirishi uzoq davom etyapti.",
+      "Ishxonadagi hamkasblarim bilan o'tirishda ko'p suhbatlashdik.",
+      "U ichkilik davralarida tez-tez og'zidan noo'rin gap chiqib ketgani uchun ertasi tongda doim pushaymon bo'lardi."
+    ],
+    "술잔": [
+      "Qadah bo'shab qoldi.",
+      "Qadahni ko'taraman.",
+      "Otam qadahimga ichimlik quyib berdilar.",
+      "Do'stlar bilan qadah urishtirib, yangi yilda sog'lik va baxt tiladik."
+    ],
+    "술집": [
+      "Barga bordim.",
+      "Bar shovqinli.",
+      "Biz ishni tugatib, mahalladagi barda pivo ichdik.",
+      "O'sha tor ko'chada kech tungacha chiroqlari yonib turadigan kichik bar-mayxonalar qator tizilgan."
+    ],
+    "숨기다": [
+      "Sirni yashiraman.",
+      "Sovg'ani yashirdim.",
+      "Men ukamdan yashirincha pechenyeni tortmaga yashirib qo'ydim.",
+      "U xijolat bo'lganini yashirish uchun zo'raki jilmayib, go'yo hech narsa bo'lmagandek o'zini tutdi."
+    ],
+    "숨다": [
+      "Mushuk yashirinyapti.",
+      "Bola eshik orqasiga berkindi.",
+      "Yomg'ir yog'gani uchun tom bo'g'otining tagiga yashirinib, yomg'irdan panalandim.",
+      "Jinoyatchi politsiya ta'qibidan qochib, xilvat tog'dagi tashlandiq uyda yashirinib yurdi, ammo oxir-oqibat qo'lga tushdi."
+    ],
+    "숫자": [
+      "Raqam yozaman.",
+      "Raqamlar ko'p.",
+      "Telefon raqamini bittalab, sekin o'qib bering.",
+      "U raqamlarni yaxshi bilgani uchun murakkab buxgalteriya ishlarini ham qiynalmay, chaqqonlik bilan bajarib tashladi."
+    ],
+    "숲": [
+      "O'rmon chiroyli.",
+      "O'rmonda sayr qilaman.",
+      "Dam olish kunida oilam bilan o'rmonda toza havodan nafas olib sayr qildik.",
+      "Bu o'rmonda qadimiy daraxtlar ko'p bo'lgani uchun yozda ham salqin soya bo'lib turadi."
+    ],
+    "스님": [
+      "Buddist rohibni uchratdim.",
+      "Rohib ibodatxonada.",
+      "Men templstey dasturida buddist rohib bilan birga choy ichdim.",
+      "Rohib har tong saharda turib, duo o'qir va hovlidagi xazonlarni sinchiklab supurib tashlardi."
+    ],
+    "스스로": [
+      "O'zim qilaman.",
+      "Men o'zim qildim.",
+      "Bola kiyimini o'zi kiyib, poyabzalini ham o'zi kiydi.",
+      "U hech kimning yordamisiz muammoni o'zi hal qilishga ahd qildi."
+    ],
+    "스캐너": [
+      "Skanerdan foydalanaman.",
+      "Skaner buzilib qoldi.",
+      "Ofisda hujjatlarni skaner orqali skanerlab, kompyuterga saqladim.",
+      "Aeroport xavfsizlik xodimi yuklarni rentgen skaneridan o'tkazib, ularda xavfli buyumlar bor-yo'qligini tekshirdi."
+    ],
+    "스타일": [
+      "Uslubi yaxshi.",
+      "Bu mening uslubim.",
+      "Men qulay kiyimlarni yoqtirganim uchun kundalik (kejual) uslubda kiyinaman.",
+      "O'sha yozuvchi qisqa va sodda yozish uslubi bilan o'quvchilarning mehrini qozongan."
+    ],
+    "스티커": [
+      "Stiker yopishtiraman.",
+      "Stiker chiroyli.",
+      "Bola daftariga yoqimli hayvon stikerlarini yopishtirdi.",
+      "O'qituvchi uy vazifasini yaxshi bajargan o'quvchilarga maqtov belgisi sifatida bittadan stiker berdi."
+    ],
+    "스프": [
+      "Sho'rva ichaman.",
+      "Sho'rva issiq.",
+      "Men ertalab non va sabzavotli sho'rva yedim.",
+      "Restoranda set taomlarning birinchisi sifatida issiq qovoq sho'rvasi tortildi."
+    ],
+    "스피커": [
+      "Karnay katta.",
+      "Karnayni yoqaman.",
+      "Men bluetooth karnay orqali musiqa tinglab, uy yig'ishtiraman.",
+      "Ma'ruza zalidagi karnaylar yaxshi ishlamagani uchun orqada o'tirganlar gaplarni yaxshi eshitolmadi."
+    ]
+  },
+  "0103": {
+    "슬리퍼": [
+      "Shippak kiyaman.",
+      "Shippak qulay.",
+      "Men uyda doim yumshoq shippak kiyib yuraman.",
+      "Mehmonxona xonasida bir martalik shippaklar tayyorlab qo'yilgani uchun ularni alohida olib kelish shart emas."
+    ],
+    "슬픔": [
+      "Qayg'u katta.",
+      "Qayg'u his qilyapman.",
+      "Do'stim ketishini eshitib, katta qayg'u his qildim.",
+      "U uzoq yillar qalbiga ko'mib yurgan qayg'usini qo'shiq orqali to'kib, jimgina ko'z yosh to'kdi."
+    ],
+    "습기": [
+      "Namlik ko'p.",
+      "Namlikni yo'qotaman.",
+      "Yomg'irlar mavsumida xonada namlik to'planib, kiyimlar zax bo'lib qoladi.",
+      "Hammomda namlik uzoq saqlanib qolsa, mog'or paydo bo'lishi oson, shuning uchun xonani tez-tez shamollatib turish kerak."
+    ],
+    "습도": [
+      "Namlik darajasi yuqori.",
+      "Namlik darajasini tekshiraman.",
+      "Yozda havo namligi yuqori bo'lgani uchun ter yaxshi qurimaydi.",
+      "Qishda xona ichidagi havo namligini me'yorda ushlab turish shamollash va terining qurib qolishining oldini olishga yordam beradi."
+    ],
+    "승강기": [
+      "Liftga chiqaman.",
+      "Lift buzilib qoldi.",
+      "Lift sekin bo'lgani uchun men zinadan chiqdim.",
+      "Turar joy majmuasining boshqaruv idorasi liftni texnik ko'rikdan o'tkazish uchun ertalab soat o'ndan boshlab ikki soat davomida u ishlamasligini e'lon qildi."
+    ],
+    "승객": [
+      "Yo'lovchilar ko'p.",
+      "Yo'lovchilar tushyapti.",
+      "Avtobus yo'lovchilarga to'la bo'lgani uchun tik turib ketdim.",
+      "Samolyot kapitani parvoz vaqtida havo turbulentligi kutilayotganini aytib, yo'lovchilardan xavfsizlik kamarlarini taqishni so'radi."
+    ],
+    "승리": [
+      "Bizning jamoa g'alaba qozondi.",
+      "G'alabadan xursandman.",
+      "Bizning jamoa so'nggi o'yinda g'alaba qozonib, chempion bo'ldi.",
+      "U oxirigacha taslim bo'lmagan qat'iyati tufayli qimmatli g'alabani qo'lga kiritdi."
+    ],
+    "승용차": [
+      "Yengil avtomobilda ketaman.",
+      "Yengil avtomobil kichkina.",
+      "Oilamiz har dam olish kunlari yengil mashinada dengiz bo'yiga boradi.",
+      "Ishga borish va qaytish vaqtida yengil avtomobil o'rniga jamoat transportidan foydalanadiganlar ko'paygani sababli yo'llardagi tirbandlik kamaydi."
+    ],
+    "승진": [
+      "Lavozimim ko'tarildi.",
+      "Akam lavozimi ko'tarildi.",
+      "Otam bu yil bo'lim boshlig'i lavozimiga ko'tarilganlari uchun kayfiyatlari yaxshi.",
+      "Uning uzoq yillik mehnati e'tirof etilib, ishga kirganining o'ninchi yilida jamoa rahbari lavozimiga ko'tarilish sharafiga muyassar bo'ldi."
+    ],
+    "승차": [
+      "Transportga chiqing.",
+      "Transportga chiqish vaqti bo'ldi.",
+      "Avtobusga chiqayotganda transport kartasini albatta terminalga tekkizish kerak.",
+      "Poyezdga chiqishdan oldin chiptada ko'rsatilgan o'rindiq raqamini yana bir bor tekshirib ko'rishingizni so'raymiz."
+    ],
+    "시각": [
+      "Vaqt muhim.",
+      "Boshqa nuqtai nazardan qarayman.",
+      "Politsiya baxtsiz hodisa sodir bo'lgan aniq vaqtni tekshiryapti.",
+      "Muammoga bo'lgan nuqtai nazarlari turlicha bo'lgani uchun ikkalasi uzoq vaqt kelishmovchilikni bartaraf eta olmadi."
+    ],
+    "시대": [
+      "Bu qadimgi davr.",
+      "Hozir yangi davr.",
+      "Men Choson davri haqidagi kitobni o'qiyapman.",
+      "U zamon oqimini ilg'ay oladigan nigohi bilan yangi biznesning imkoniyatlarini barvaqt oldindan ko'ra bildi."
+    ],
+    "시도": [
+      "Bu yangi urinish.",
+      "Urinib ko'raman.",
+      "Avvaliga muvaffaqiyatsizlikka uchragan bo'lsam ham, yana bir bor urinib ko'rishga qaror qildim.",
+      "U bir necha bor urinishlardan so'ng nihoyat murakkab tajribani muvaffaqiyatli o'tkaza oldi."
+    ],
+    "시력": [
+      "Ko'rish qobiliyatim yomon.",
+      "Ko'rish qobiliyatini tekshiraman.",
+      "Ko'zim yaxshi ko'rmagani uchun ko'zoynak taqishim kerak.",
+      "Smartfonga uzoq tikilib o'tirish odati ko'rishning pasayishiga sabab bo'lishi mumkin."
+    ],
+    "시리다": [
+      "Oyog'im sovuqdan muzlayapti.",
+      "Qo'llarim sovuqdan juda qotib ketdi.",
+      "Qishki shamol esgani uchun quloqlarim sovuqdan achishyapti.",
+      "Sovuq suv bilan tish yuvgan edim, tishlarim zirqirab, bir muddat hech narsa yeya olmadim."
+    ],
+    "시부모님": [
+      "Qaynota-qaynonam kelyaptilar.",
+      "Qaynota-qaynonamga qo'ng'iroq qilaman.",
+      "Men bayramlarda qaynota-qaynonamni ko'rgani qishloqqa boraman.",
+      "U turmushga chiqqanidan keyin qaynota-qaynonasi bilan birga yashab, yangi oilaviy muhitga moslashib bordi."
+    ],
+    "시스템": [
+      "Tizim yaxshi.",
+      "Tizim sekin ishlayapti.",
+      "Kompaniyaning kompyuter tizimi buzilib qolgani uchun ishlay olmadik.",
+      "Yangi joriy qilingan to'lov tizimi tufayli mijozlarning kutish vaqti sezilarli darajada qisqardi."
+    ],
+    "시아버지": [
+      "Qaynotam keldilar.",
+      "Qaynotam mehribon.",
+      "Men qaynotam bilan birga bozorga bordim.",
+      "U betob qaynotasini mehr bilan parvarish qilib, har hafta oxiri kasalxonaga borib turdi."
+    ],
+    "시어머니": [
+      "Qaynonam uydalar.",
+      "Qaynonam bilan telefonda gaplashaman.",
+      "Men qaynonam qilib bergan kimchini yaxshi ko'raman.",
+      "Qaynona har bayramda kelini bilan birga jon (quymoq) pishirib, eski xotiralarni bamaylixotir gaplashib o'tirardi."
+    ],
+    "시외버스": [
+      "Shaharlararo avtobusga chiqaman.",
+      "Shaharlararo avtobus kelyapti.",
+      "Men Seuldan Tejongacha shaharlararo avtobusda bordim.",
+      "Bayramlarda shaharlararo avtobus chiptalari erta sotilib tugagani uchun ularni oldindan bron qilib qo'ygan ma'qul."
+    ],
+    "시인": [
+      "Shoir she'r yozadi.",
+      "U mashhur shoir.",
+      "Men bolaligimdan shoir bo'lishni xohlardim.",
+      "O'sha shoir kundalik hayotning arzimas lahzalaridan chuqur ta'sirli ma'no chiqara oladigan nozik nigohi bilan mashhur."
+    ],
+    "시집": [
+      "She'riy to'plam o'qiyman.",
+      "She'riy to'plam sotib oldim.",
+      "Men kitob do'konidan yoqqan bitta she'rlar to'plamini sotib oldim.",
+      "O'sha shoirning yangi she'rlar to'plami nashr etilishi bilanoq o'quvchilar orasida katta shov-shuvga sabab bo'ldi."
+    ],
+    "시집가다": [
+      "Opam turmushga chiqyapti.",
+      "Qizim turmushga chiqdi.",
+      "Dugonam kelasi yil bahorda turmushga chiqishga qaror qildi.",
+      "Qadimda qiz o'n sakkiz yoshlarga yetganda ota-onasi tanlagan odamga turmushga chiqishi odatiy hol edi."
+    ],
+    "시청각실": [
+      "Audiovizual xonaga boraman.",
+      "Audiovizual xona keng.",
+      "Bugungi dars audiovizual xonada film ko'rish orqali o'tadi.",
+      "Maktabning audiovizual xonasi katta ekran va ovoz uskunalari bilan jihozlangani uchun u yerda tez-tez ma'ruzalar va film namoyishlari o'tkaziladi."
+    ],
+    "시청자": [
+      "Teletomoshabinlar ko'p.",
+      "Teletomoshabin qo'ng'iroq qildi.",
+      "Bu serial tomoshabinlar orasida juda mashhur.",
+      "Teleradiokompaniya tomoshabinlarning fikrini inobatga olib, ko'rsatuvning efir vaqtini o'zgartirishga qaror qildi."
+    ],
+    "시합": [
+      "Ertaga musobaqa bor.",
+      "Musobaqada g'alaba qozondim.",
+      "Sinfimiz tushlik tanaffusida futbol musobaqasi o'tkazdi.",
+      "U muhim musobaqa oldidan hayajonini bosish uchun yengil badan qizdirish mashqlarini bajarib, nafasini rostladi."
+    ],
+    "시험공부": [
+      "Imtihonga tayyorlanaman.",
+      "Imtihonga tayyorlanish qiyin.",
+      "Men kutubxonada do'stim bilan kechgacha imtihonga tayyorlandim.",
+      "Imtihonga tayyorgarlikni juda kech boshlaganim sababli oxirgi kuni deyarli uxlamadim."
+    ],
+    "식": [
+      "Shu tarzda qilaman.",
+      "Matematik tenglamani yechaman.",
+      "Men masalani ustozim o'rgatgan usulda yechdim.",
+      "Jamoa rahbari agar ishni shu tarzda davom ettirsak, belgilangan muddatga ulgurish qiyin bo'lishini ogohlantirdi."
+    ],
+    "식구": [
+      "Bizning oila besh kishidan iborat.",
+      "Oila a'zolari ko'p.",
+      "Kechqurun butun oila yig'ilib, birga ovqatlanamiz.",
+      "Oilaning yangi a'zosi sifatida kuchukchani olib kelganimizdan beri uyda kulgi ovozlari yanada ko'paydi."
+    ],
+    "식료품": [
+      "Oziq-ovqat mahsulotlarini sotib olaman.",
+      "Oziq-ovqat do'koniga boraman.",
+      "Men har dam olish kunlari supermarketdan bir haftalik oziq-ovqat sotib olaman.",
+      "Narxlar oshishi bilan oziq-ovqat mahsulotlariga sarflanadigan mablag'ning oila xarajatlaridagi ulushi ham ortdi."
+    ]
+  },
+  "0104": {
+    "식물": [
+      "O'simlikka suv beraman.",
+      "O'simlik o'syapti.",
+      "Men deraza tokchasida ikkita kichik tuvak o'simlik o'stiryapman.",
+      "Bu o'simlik quyosh nurini yaxshi ko'rgani uchun uni quyosh yaxshi tushadigan joyga qo'yish kerak, shunda yaxshi o'sadi."
+    ],
+    "식물원": [
+      "Botanika bog'iga boraman.",
+      "Botanika bog'i katta.",
+      "Dam olish kunida oilam bilan botanika bog'ida turli gullarni tomosha qildik.",
+      "Bu botanika bog'ining issiqxonasida tropik mintaqalarda o'sadigan noyob o'simliklar namoyish etilgan."
+    ],
+    "식비": [
+      "Ovqatlanish xarajati ko'p chiqadi.",
+      "Ovqatlanish xarajatini kamaytiraman.",
+      "Mening bir oylik ovqat xarajatim taxminan ikki yuz ming von bo'ladi.",
+      "Tashqarida ovqatlanish ko'payib ketgani sababli bu oy ovqatga ketgan xarajat kutilganidan ancha ko'p bo'ldi."
+    ],
+    "식생활": [
+      "Ovqatlanish tarzi muhim.",
+      "Ovqatlanish tarzimni o'zgartiraman.",
+      "Sog'lom bo'lish uchun muntazam ovqatlanish tarziga rioya qilgan ma'qul.",
+      "Band zamonaviy odamlarning tartibsiz ovqatlanishi semizlik va hazm buzilishi kabi muammolarni keltirib chiqarishi oson."
+    ],
+    "식습관": [
+      "Ovqatlanish odati yaxshi.",
+      "Ovqatlanish odatimni tuzataman.",
+      "Men nonushtani tashlab ketish kabi yomon ovqatlanish odatimni tuzatishga harakat qilyapman.",
+      "Bolalikda shakllangan to'g'ri ovqatlanish odatlari butun umr davomidagi salomatlikni belgilovchi muhim poydevor bo'ladi."
+    ],
+    "식욕": [
+      "Ishtaham yo'q.",
+      "Ishtaham yaxshi.",
+      "Shamollab qolganim uchun keyingi paytlarda ishtaham yo'q.",
+      "Stress paytida ba'zi odamlarning ishtahasi birdan ochilib ketadi, ba'zilarniki esa aksincha, bo'g'iladi."
+    ],
+    "식용유": [
+      "O'simlik moyi solaman.",
+      "O'simlik moyi tugab qoldi.",
+      "Tovaga o'simlik moyi surtib, tuxum qovurdim.",
+      "Qovurilgan taom tayyorlagandan keyin qolgan o'simlik moyini shunchaki kanalizatsiyaga to'kib yuborish atrof-muhit ifloslanishiga sabab bo'ladi."
+    ],
+    "식초": [
+      "Sirka solaman.",
+      "Sirka nordon.",
+      "Men salatga sirka va zaytun moyi sepib yeyman.",
+      "Baliqning o'tkir hidini yo'qotish uchun pishirishdan oldin uni ozgina sirka qo'shilgan suvda yuvish kifoya."
+    ],
+    "식품": [
+      "Oziq-ovqat mahsulotlari yangi.",
+      "Oziq-ovqat mahsulotlari sotib olaman.",
+      "Supermarketda yaroqlilik muddati o'tgan oziq-ovqat mahsulotlari sotilmaydi.",
+      "Bu kompaniya sog'lom xomashyodan tayyorlangan qayta ishlangan oziq-ovqat mahsulotlarini ishlab chiqib, iste'molchilarning ishonchini qozonmoqda."
+    ],
+    "식후": [
+      "Ovqatdan keyin dori ichaman.",
+      "Ovqatdan keyin choy ichaman.",
+      "Bu dorini ovqatdan o'ttiz daqiqa keyin iching.",
+      "U ovqatdan keyin yengil sayr qilish odati tufayli ovqat yaxshi hazm bo'lishini aytdi."
+    ],
+    "신고": [
+      "Xabar beraman.",
+      "Politsiyaga xabar berdim.",
+      "Ko'chada hamyonimni yo'qotib qo'yib, politsiya bo'limiga yo'qolganligi haqida ariza berdim.",
+      "Qo'shnining xabar bergani tufayli yong'in chiqqan uydagi odamlar eson-omon evakuatsiya qilindi."
+    ],
+    "신기다": [
+      "Bolaga poyabzal kiygizaman.",
+      "Chaqaloqqa paypoq kiygizdim.",
+      "Onam ukamga krossovkasini kiygizib qo'ydi.",
+      "Har tongda bolasiga oyoq kiyimini kiygizib, bolalar bog'chasiga olib borib qo'yish uning kundalik vazifasidir."
+    ],
+    "신기술": [
+      "Yangi texnologiyani o'rganaman.",
+      "Yangi texnologiya chiqdi.",
+      "Bu kompaniya yangi texnologiyadan foydalanib, yangi mahsulot yaratdi.",
+      "Hukumat kichik va o'rta korxonalarga yangi texnologiyalarni ishlab chiqishlari uchun tadqiqot mablag'lari ajratishga qaror qildi."
+    ],
+    "신기하다": [
+      "Haqiqatan ajoyib.",
+      "Bu sehrgarlik hayratlanarli.",
+      "Bola birinchi marta ko'rgan sehrgarlik shousini shunchalik qiziq deb bildiki, ko'zini uzolmadi.",
+      "Chet elda koreys tilida gaplasha oladigan odamni uchratganim menga juda ajoyib tuyuldi va benihoya xursand bo'ldim."
+    ],
+    "신나다": [
+      "Bolalar xursand.",
+      "Men zavq bilan o'ynadim.",
+      "Ertaga sayohatga borishlarini eshitib, bolalarning hammasi xursand bo'lib ketdi.",
+      "U sevimli qo'shig'i yangray boshlashi bilan zavqlanib ketdi va yelkalarini silkitib raqsga tusha boshladi."
+    ],
+    "신도시": [
+      "Yangi shaharga ko'chaman.",
+      "Yangi shahar toza.",
+      "Oilamiz Seul yaqinidagi yangi shaharga ko'chib o'tishga qaror qildi.",
+      "Yangi shaharlar reja asosida qurilgani uchun ularda yo'llar keng, bog'lar va maktablar yaxshi tashkil etilgan."
+    ],
+    "신랑": [
+      "Kuyov kelishgan.",
+      "Kuyov kulyapti.",
+      "To'yda kuyov oq smoking kiygan edi.",
+      "Kuyov mehmonlar oldida butun umr kelinni ardoqlab yashashga baland ovozda va'da berdi."
+    ],
+    "신랑감": [
+      "U yaxshi kuyovlikka nomzod.",
+      "Kuyovlikka munosib odam qidiryapman.",
+      "Onam meni vijdonli kuyov nomzodi bilan tanishtirmoqchilar.",
+      "U ishi barqaror va fe'l-atvori yaxshi bo'lgani uchun mahalla kattalari orasida eng munosib kuyov nomzodi deb e'tirof etilardi."
+    ],
+    "신문사": [
+      "Gazeta tahririyatida ishlayman.",
+      "Gazeta tahririyatiga boraman.",
+      "Men universitetni bitirib, gazeta tahririyatiga ishga kirdim.",
+      "O'sha gazeta tahririyati uzoq an'anaga ega ekanligi bois xolis va aniq xabarlari bilan o'quvchilar ishonchini qozonib kelgan."
+    ],
+    "신문지": [
+      "Gazeta qog'ozi bilan o'rayman.",
+      "Gazeta qog'ozlari ko'p.",
+      "Men oson sinadigan idishlarni gazeta qog'oziga o'rab, ko'chish yuklariga soldim.",
+      "Deraza artishda gazeta qog'ozidan foydalanilsa, dog' qolmaydi va oyna top-toza bo'ladi."
+    ],
+    "신부": [
+      "Kelin chiroyli.",
+      "Ruhoniy katolik cherkovida.",
+      "To'yda kelin oq ko'ylakda otasining qo'lidan ushlab kirib keldi.",
+      "Kelin mehmonlarga yorqin tabassum bilan salom berib, yangi oila qurayotganidan quvonchini ular bilan baham ko'rdi."
+    ],
+    "신분증": [
+      "Shaxsni tasdiqlovchi hujjatingizni ko'rsating.",
+      "Shaxsimni tasdiqlovchi hujjatim yo'q.",
+      "Bankda hisob raqam ochishda shaxsni tasdiqlovchi hujjat kerak bo'ladi.",
+      "Aeroportda samolyotga chiqishdan oldin albatta shaxsni tasdiqlovchi hujjat va bort talonini birgalikda tekshiradilar."
+    ],
+    "신상품": [
+      "Yangi mahsulot chiqdi.",
+      "Yangi mahsulotlar qimmat.",
+      "Bu do'konga har hafta yangi mahsulotlar keladi.",
+      "Univermag bahor mavsumi munosabati bilan turli yangi mahsulotlarni taqdim etib, keng ko'lamli chegirma aksiyasini o'tkazdi."
+    ],
+    "신선하다": [
+      "Baliq yangi.",
+      "Sabzavotlar yangi.",
+      "Bu do'konning mevalari doim yangi bo'lgani uchun odamlar ko'p keladi.",
+      "Ertalab erta bozordan olib kelingan masalliqlar bo'lgani uchun taom ancha yangi va mazali chiqdi."
+    ],
+    "신세대": [
+      "Yangi avlod keldi.",
+      "Men yangi avlod vakiliman.",
+      "Yangi avlod vakillari smartfondan juda yaxshi foydalanadi.",
+      "Yangi avlodning qadriyatlari katta avlodnikidan farq qilgani uchun ba'zan ular bir-birini tushunishga qiynaladi."
+    ],
+    "신용": [
+      "Unga ishonsa bo'ladi.",
+      "Kredit karta ishlataman.",
+      "Kredit tarixim yaxshi bo'lgani uchun bankdan qarz ololdim.",
+      "Direktorimiz savdo-sotiqda eng muhimi va'dalarga sodiq qolish orqali to'planadigan ishonch ekanini doim ta'kidlardi."
+    ],
+    "신입생": [
+      "Men birinchi kurs talabasiman.",
+      "Birinchi kurs talabalari ko'p.",
+      "Universitetda birinchi kurs talabalari uchun kutib olish kechasi bo'lib o'tdi.",
+      "Bu maktabda yangi o'quvchilar yangi muhitga moslasha olishlari uchun ularni yuqori sinf o'quvchilari bilan juftlashtiradigan tizim yo'lga qo'yilgan."
+    ],
+    "신제품": [
+      "Yangi mahsulot chiqdi.",
+      "Yangi mahsulotni ishlatib ko'raman.",
+      "Men yangi chiqqan telefon modelini sotib olmoqchiman.",
+      "Kompaniya kelasi oy yangi mahsulotni taqdim etishdan oldin bozorni puxta o'rganib chiqdi."
+    ],
+    "신청자": [
+      "Ariza beruvchilar ko'p.",
+      "Ariza beruvchilar ismini yozadi.",
+      "Bu tadbirga ariza beruvchilar juda ko'p bo'lgani uchun qatnashchilar qur'a orqali tanlanadi.",
+      "Mas'ul xodim ariza qabul qilish yakunlangach, natijalarni ariza beruvchilarga SMS orqali xabar qilishini aytdi."
+    ],
+    "신체": [
+      "Tanasi sog'lom.",
+      "Tibbiy ko'rikdan o'taman.",
+      "Men maktabda bo'y va vazn o'lchanadigan tibbiy ko'rikdan o'tdim.",
+      "Muntazam jismoniy mashqlar nafaqat tananing jismoniy imkoniyatlarini oshiradi, balki ruhiy salomatlikka ham ijobiy ta'sir ko'rsatadi."
+    ]
+  },
+  "0105": {
+    "신형": [
+      "Bu mashina yangi model.",
+      "Men yangi model telefon sotib oldim.",
+      "Yangi chiqqan noutbuk modeli avvalgi mahsulotdan ancha yengil.",
+      "Kompaniya kelasi oy yangi rusumdagi elektromobilni taqdim etishini ma'lum qildi."
+    ],
+    "신호": [
+      "Signal o'zgardi.",
+      "Qizil signalda to'xtang.",
+      "Do'stim qo'l silkitib, menga ishora qildi.",
+      "Telefon signali kuchsiz bo'lgani uchun qo'ng'iroq tez-tez uzilib qolyapti."
+    ],
+    "신혼": [
+      "Biz yangi turmush qurganmiz.",
+      "Yangi turmush qurganlarning uyi juda chiroyli.",
+      "Anavi er-xotin endigina turmush qurgan bo'lsa ham, allaqachon farzand ko'rishni rejalashtiryapti.",
+      "Turmushimizning dastlabki kunlarida arzimas narsalardan ham bir-birimizga kulib boqib, baxtni his qilardik."
+    ],
+    "신혼부부": [
+      "Yangi turmush qurgan er-xotin keldi.",
+      "Qo'shni uyga yangi turmush qurgan er-xotin ko'chib keldi.",
+      "Yangi turmush qurgan er-xotin kichik kvartirada baxtli yashayapti.",
+      "Bu mehmonxona yangi turmush qurgan juftliklarga maxsus chegirmalar taqdim etadi."
+    ],
+    "신혼여행": [
+      "Asal oyi sayohatiga boramiz.",
+      "Biz asal oyiga Chejudoga bordik.",
+      "Asal oyi sayohatida tushgan suratlarni do'stlarimga ko'rsatdim.",
+      "Asal oyi sayohati sababli ishdan bir haftalik ta'til oldim."
+    ],
+    "실": [
+      "Ip kerak.",
+      "Ignaga ip o'tkazdim.",
+      "Kiyimdagi ip so'kilib ketgani uchun qaytadan tikish kerak.",
+      "Buvim menga qizil ipdan chiroyli qo'lqop to'qib berdilar."
+    ],
+    "실내": [
+      "Xona ichi iliq.",
+      "Xona ichida shlyapani yeching.",
+      "Yomg'ir yog'gani uchun bugun bino ichida mashq qildim.",
+      "Bu restoranning ichki muhiti sokin bo'lgani uchun suhbatlashishga qulay."
+    ],
+    "실력": [
+      "Mahoratim oshdi.",
+      "Uning pazandalik mahorati yaxshi.",
+      "Koreys tilini yaxshilash uchun har kuni gazeta o'qiyman.",
+      "Imtihon natijalari odatdagi bilim darajasini aynan aks ettiradiganga o'xshaydi."
+    ],
+    "실망": [
+      "Hafsalam pir bo'ldi.",
+      "Natijani ko'rib hafsalam pir bo'ldi.",
+      "Do'stim va'dasini unutib qo'ygani uchun hafsalam juda pir bo'ldi.",
+      "Kutganim katta bo'lgani uchun film qiziq bo'lmagach, hafsalam qattiq pir bo'ldi."
+    ],
+    "실시": [
+      "Ertaga amalga oshiramiz.",
+      "Imtihon o'tkaziladi.",
+      "Maktabda kelasi hafta tibbiy ko'rik o'tkaziladi.",
+      "Yangi yo'l harakati qoidalari kelasi oydan boshlab butun mamlakat bo'ylab joriy etilishi rejalashtirilgan."
+    ],
+    "실용적": [
+      "Bu sumka amaliy.",
+      "Amaliy sovg'a bergim keladi.",
+      "Men chiroyli kiyimlardan ko'ra amaliy kiyimlarni yaxshi ko'raman.",
+      "Bu dastur haqiqiy so'zlashuvga yordam beradigan amaliy mazmundan tashkil topgan."
+    ],
+    "실은": [
+      "Aslida men ham bilmayman.",
+      "Aslida qornim och.",
+      "Aslida kecha imtihonni yaxshi topshira olmadim.",
+      "Aslida, bugun sizlarga aytadigan gapim bor edi, shuning uchun to'pladim."
+    ],
+    "실제": [
+      "Bu haqiqiy surat.",
+      "O'z ko'zim bilan ko'rsam, chiroyli ekan.",
+      "Haqiqiy yoshi o'ttizda, lekin ancha yosh ko'rinadi.",
+      "Reklamadagi va haqiqiy mahsulot bir oz farq qilishi mumkin."
+    ],
+    "실제로": [
+      "Haqiqatan borib ko'rdim.",
+      "Haqiqatda uchrashsangiz, bo'yi baland.",
+      "Faqat eshitib yurgandim, haqiqatan yeb ko'rsam, mazali ekan.",
+      "U aytgan usul haqiqatan ham samara beradimi yoki yo'qmi, o'zimiz sinab ko'raylik."
+    ],
+    "실종": [
+      "Bola bedarak yo'qoldi.",
+      "Bedarak yo'qolganlik haqida ariza berdim.",
+      "Politsiya bedarak yo'qolish ishini tekshiryapti.",
+      "Toqqa chiqqan alpinist uch kundan beri bedarak yo'qolgan, oila a'zolari uni intiqlik bilan kutishmoqda."
+    ],
+    "실종자": [
+      "Bedarak yo'qolgan odamni qidiryapmiz.",
+      "Bedarak yo'qolgan odamning oilasi yig'layapti.",
+      "Qutqaruvchilar bedarak yo'qolgan odamni topish uchun tog'ni qidiryapti.",
+      "Hodisa joyida hali ham bedarak yo'qolgan ikki kishining qayerdaligi noma'lum."
+    ],
+    "실천": [
+      "Gapdan ko'ra amal muhim.",
+      "Sport bilan muntazam shug'ullanaman.",
+      "Faqat reja tuzib qo'ymasdan, bugundan boshlab amalga oshiring.",
+      "Atrof-muhitni muhofaza qilishda kichik ishlardan boshlab amalda bajarish muhim."
+    ],
+    "실컷": [
+      "To'yib uxladim.",
+      "To'yib-to'yib yegim keladi.",
+      "Dam olish kunida uyda to'yib-to'yib film ko'rdim.",
+      "Imtihonlar tugadi, shuning uchun bugun do'stlarim bilan to'yib-to'yib o'ynagim keladi."
+    ],
+    "실크": [
+      "Bu ipak sharf.",
+      "Bu kiyim ipakdan.",
+      "Onamga ipak bluzka sovg'a qildim.",
+      "Ipak mayin va yengil, lekin uni yuvishda ehtiyot bo'lish kerak."
+    ],
+    "실패": [
+      "Muvaffaqiyatsiz bo'lsa ham mayli.",
+      "Imtihondan o'ta olmadim.",
+      "Bu muvaffaqiyatsizlikdan ko'p narsa o'rgandim.",
+      "Bir necha marta muvaffaqiyatsizlikka uchrasam ham, taslim bo'lmay, yana urinib ko'rdim."
+    ],
+    "실험": [
+      "Ilmiy tajriba qiziqarli.",
+      "Bugun tajriba o'tkazdik.",
+      "O'quvchilar suv haroratini o'zgartirish bo'yicha tajriba o'tkazdi.",
+      "Bu dorining samaradorligini tekshirish uchun hayvonlarda tajriba o'tkazildi."
+    ],
+    "실험실": [
+      "Laboratoriyaga boraman.",
+      "Laboratoriya juda toza.",
+      "Men har kuni tushdan keyin laboratoriyada ishlayman.",
+      "Laboratoriyada xavfsizlik uchun albatta himoya ko'zoynagi taqish kerak."
+    ],
+    "싫증": [
+      "Allaqachon zerikib qoldim.",
+      "O'yindan bezib qoldim.",
+      "Bir xil ovqatni doim yeyaverib, jonimga tegdi.",
+      "Bolalar yangi o'yinchoqdan tezda zerikib qolishadi."
+    ],
+    "심각하다": [
+      "Muammo jiddiy.",
+      "Yuz ifodasi jiddiy.",
+      "Atrof-muhitning ifloslanishi tobora jiddiylashib bormoqda.",
+      "Shifokor bemorning ahvoli og'ir ekanini oila a'zolariga tushuntirdi."
+    ],
+    "심다": [
+      "Daraxt ekaman.",
+      "Gul ekdim.",
+      "Daraxt ekish kunida oilam bilan tog'ga daraxt ekdik.",
+      "Bahor kelganda hovliga salat bargi va qalampir ekmoqchiman."
+    ],
+    "심리학": [
+      "Psixologiyani o'rganaman.",
+      "Psixologiya kitobini o'qiyapman.",
+      "Men universitetda psixologiya mutaxassisligi bo'yicha o'qiyapman.",
+      "Psixologiya darsida inson xatti-harakatlari va ruhiyati haqida o'rgandik."
+    ],
+    "심리학자": [
+      "U psixolog.",
+      "Psixolog bilan uchrashdim.",
+      "Psixolog bolalarning xulq-atvorini o'rganyapti.",
+      "Mashhur psixolog maktabimizda maxsus ma'ruza qildi."
+    ],
+    "심부름": [
+      "Topshiriqni bajaraman.",
+      "Oyimning topshirig'i bilan borib keldim.",
+      "Bola do'konga borib, topshiriqni bajarib keldi.",
+      "Do'stimdan iltimos qilib, mening o'rnimga yumushni bajarib kelishini so'radim."
+    ],
+    "심심하다": [
+      "Juda zerikdim.",
+      "Uyda o'tirsam zerikaman.",
+      "Do'stlarim bo'lmagani uchun dam olish kunlari zerikdim.",
+      "Yomg'ir yog'ib, tashqariga chiqolmaganim uchun juda zerikyapman."
+    ],
+    "심장": [
+      "Yurak uryapti.",
+      "Yuragim og'riyapti.",
+      "Sport bilan shug'ullansangiz, yurak tez uradi.",
+      "Hayajondan yuragim yorilib ketadigandek bo'ldi."
+    ]
+  },
+  "0106": {
+    "심장병": [
+      "Yurak kasalligim bor.",
+      "Bobomning yurak kasalligi bor.",
+      "Yurak kasalliklarining oldini olish uchun sport bilan shug'ullanish kerak.",
+      "Yog'li ovqatlarni ko'p iste'mol qilsangiz, yurak kasalligiga chalinish xavfi ortadi."
+    ],
+    "싱싱하다": [
+      "Sabzavotlar yangi.",
+      "Baliq yangi.",
+      "Bozordan yangi uzilgan mevalar sotib oldim.",
+      "Ertalab tutilgan yangi baliqdan hwe (xom baliq taomi) tayyorladim."
+    ],
+    "싱크대": [
+      "Oshxona yuvgichi tiqilib qoldi.",
+      "Rakovinada idish yuvaman.",
+      "Yuvish vositasini rakovina tagiga qo'yib qo'ydim.",
+      "Oshxona rakovinasidan suv yaxshi ketmagani uchun santexnik chaqirdim."
+    ],
+    "싸구려": [
+      "Bu arzon narsa.",
+      "Arzon-garov sumka sotib oldim.",
+      "Arzon-garov soat bo'lgani uchun tezda buzildi.",
+      "Arzon-garov narsalar dastlab foydaliday tuyulsa ham, ularni uzoq ishlatib bo'lmaydi."
+    ],
+    "싸움": [
+      "Janjal chiqdi.",
+      "Do'stim bilan janjallashdim.",
+      "Bolalar o'yinchoq deb janjallashib qolishdi.",
+      "Ikkovining janjali arzimas tushunmovchilikdan boshlangan edi."
+    ],
+    "쌀쌀하다": [
+      "Bugun havo salqin.",
+      "Shamol salqin.",
+      "Kuz bo'lgani uchun ertalab va kechqurunlari havo salqin bo'lib qoldi.",
+      "Havo salqin, shuning uchun issiq kiyim kiyib chiqing."
+    ],
+    "쌍둥이": [
+      "Ular egizaklar.",
+      "Ukam egizak.",
+      "Anavi egizaklarning yuzi bir xil bo'lgani uchun ularni ajratish qiyin.",
+      "Opam egizak tug'gani uchun butun oila xursand bo'ldi."
+    ],
+    "쌓다": [
+      "G'isht teraman.",
+      "Qorni uyib qo'ydim.",
+      "Kitoblarni stol ustiga baland qilib taxlab qo'ydim.",
+      "Uzoq tajriba to'plasangiz, ishni yanada yaxshiroq bajara olasiz."
+    ],
+    "쏘다": [
+      "Kamondan o'q otaman.",
+      "Ari meni chaqdi.",
+      "Qurol otadigan o'yinlar qiziqarli.",
+      "Askar nishonga qarata o'qni aniq otdi."
+    ],
+    "쏟다": [
+      "Suvni to'kib yubordim.",
+      "Qahvani to'kib yubordim.",
+      "Bola sutni polga to'kib yubordi, shuning uchun uni artdim.",
+      "U ko'z yoshlarini to'kib, hikoyasini boshladi."
+    ],
+    "쏟아지다": [
+      "Jala quyyapti.",
+      "Suv to'kilib ketdi.",
+      "To'satdan jala quyib yuborgani uchun soyabon sotib oldim.",
+      "Sumka ochilib ketib, kitoblarning hammasi yerga sochilib tushdi."
+    ],
+    "쑥스럽다": [
+      "Biroz xijolatdaman.",
+      "Maqtov eshitsam, xijolat bo'laman.",
+      "Ko'p odamlar oldida qo'shiq aytishim kerak bo'lgani uchun xijolat bo'ldim.",
+      "U xijolat tortganday boshini qashib, rahmat aytdi."
+    ],
+    "쓰러지다": [
+      "Daraxt yiqildi.",
+      "Buvim yiqilib qoldilar.",
+      "Juda charchaganimdan karavotga yiqilib, uxlab qoldim.",
+      "To'fon sababli yo'l chetidagi bir nechta daraxt qulab tushdi."
+    ],
+    "쓰레기통": [
+      "Axlat qutisi qayerda?",
+      "Axlatni axlat qutisiga tashlang.",
+      "Xonadagi axlat qutisi to'lib qolgani uchun uni bo'shatdim.",
+      "Bog'ning hamma joyida chiqindilarni saralab tashlash uchun axlat qutilari o'rnatilgan."
+    ],
+    "쓸데없다": [
+      "Bu keraksiz gap.",
+      "Bu behuda tashvish.",
+      "Keraksiz narsalarni tashlab yuborgan ma'qul.",
+      "U keraksiz ishlarga vaqtni behuda sarflamaslikni maslahat berdi."
+    ],
+    "쓸데없이": [
+      "Bekorga kulmang.",
+      "Bekorga pul sarfladim.",
+      "Bekorga xavotir olmay, yaxshilab dam oling.",
+      "U bekordan-bekorga jahli chiqib, do'stlarini noqulay ahvolga solib qo'ydi."
+    ],
+    "쓸쓸하다": [
+      "Ko'nglim g'amgin.",
+      "Kuzgi ko'cha g'amgin.",
+      "Do'stlarim ketgandan keyin uy huvillab qoldi.",
+      "Yolg'iz yashaydigan buvi qishda o'zini yanada yolg'iz va g'amgin his qilishini aytadi."
+    ],
+    "씌우다": [
+      "Bolaga shapka kiydiraman.",
+      "Soyabonni ustimga tutib berdi.",
+      "Onam chaqaloqqa issiq shapka kiygizib qo'ydilar.",
+      "Yomg'ir yog'a boshlagach, u menga soyabonini tutib turdi."
+    ],
+    "씨름": [
+      "Ssirim kurashini tomosha qilaman.",
+      "Ssirim Koreyaning an'anaviy sport turi.",
+      "Bayramda qishloqda ssirim musobaqasi o'tkazildi.",
+      "Ssirim kurashchisi qum maydonchada raqibining belbog'idan bor kuchi bilan ushladi."
+    ],
+    "씩씩하다": [
+      "Bola dadil.",
+      "Dadil salom berdim.",
+      "Ukam ukol qilinganda ham yig'lamay, dadil turdi.",
+      "O'sha bola oldinga chiqib, dadil ovozda taqdimot qildi."
+    ],
+    "아깝다": [
+      "Tashlab yuborishga achinaman.",
+      "Pulga achinaman.",
+      "Vaqt qimmat, shuning uchun tezroq boshlaylik.",
+      "Bu taomni ortib qoldirish juda achinarli."
+    ],
+    "아끼다": [
+      "Suvni tejayman.",
+      "Pulni tejayapman.",
+      "Elektr energiyasini tejash uchun chiroqni o'chirdim.",
+      "Men bu kitobni juda qadrlayman, shuning uchun uni qarzga berishim qiyin."
+    ],
+    "아나운서": [
+      "Diktor gapiryapti.",
+      "Mening orzuim diktor bo'lish.",
+      "U diktorning ovozi juda yoqimli.",
+      "Diktor yangiliklarni aniq talaffuz bilan yetkazishi kerak."
+    ],
+    "아니": [
+      "Yo'q, kerak emas.",
+      "Yo'q, unday emas.",
+      "Voy, vaqt allaqachon shunchalik bo'lib qoldimi?",
+      "Voy, bu nima deganingiz o'zi?"
+    ],
+    "아동": [
+      "Bolalar o'ynayapti.",
+      "Bolalar kasalxonasiga bordim.",
+      "Bu kutubxonada bolalar kitoblari ko'p.",
+      "Maktablarda bolalar uchun xavfsizlik bo'yicha mashg'ulotlar o'tkazilmoqda."
+    ],
+    "아랫사람": [
+      "Men kichik lavozimdagi xodimman.",
+      "O'zimdan kichiklarga ham hurmat bilan gapiraman.",
+      "U o'zidan kichiklarga ham xushmuomalalik bilan gapiradi.",
+      "Yaxshi rahbar qo'l ostidagilarning fikrini diqqat bilan tinglaydi."
+    ],
+    "아르바이트": [
+      "Qo'shimcha ishda ishlayman.",
+      "Kechqurun yarim kunlik ishim bor.",
+      "Ta'tilda kafeda vaqtinchalik ishladim.",
+      "O'qish pulini topish uchun har hafta oxiri do'konda yarim kunlik ishda ishlayman."
+    ],
+    "아리랑": [
+      "Arirang qo'shig'ini tinglayman.",
+      "Arirang mashhur qo'shiq.",
+      "Koreyslar \"Arirang\"ni tez-tez kuylashadi.",
+      "Arirang qo'shig'ining matni va ohangi har bir hududda biroz farq qiladi."
+    ],
+    "아무것": [
+      "Hech narsa yo'q.",
+      "Hech narsa yemadim.",
+      "Bugun hech narsa qilgim kelmayapti.",
+      "Istalgan narsa bo'laveradi, bemalol tanlab ko'ring."
+    ],
+    "아무래도": [
+      "Nima bo'lsa ham qiyin.",
+      "Nima bo'lsa ham, yomg'ir yog'adiganga o'xshaydi.",
+      "Nima bo'lsa ham, bugun erta ketishim kerak shekilli.",
+      "Nazarimda, men yo'ldan adashib qolganga o'xshayman."
+    ]
+  },
+  "0107": {
+    "아무런": [
+      "Hech qanday muammo yo'q.",
+      "Hech qanday xabar yo'q.",
+      "U hech qanday gap aytmadi.",
+      "Mening bu ishga hech qanday aloqam yo'q."
+    ],
+    "아무리": [
+      "Qancha yesam ham qornim och.",
+      "Qanchalik band bo'lsam ham, aloqaga chiqaman.",
+      "Qanchalik qiyin bo'lmasin, taslim bo'lmang.",
+      "Qancha o'ylamay, buning sababini tushunolmayapman."
+    ],
+    "아무튼": [
+      "Har holda, rahmat.",
+      "Har holda borib ko'raylik.",
+      "Har holda, natija yaxshi bo'lsa, bo'ldi.",
+      "Har holda, bugungi yig'ilishni shu yerda yakunlaymiz."
+    ],
+    "아쉬움": [
+      "Afsus qoladi.",
+      "Ajralganimiz uchun afsusim katta.",
+      "Sayohat tugagani uchun ko'nglimda ko'p afsus qoldi.",
+      "Tayyorgarlik yetarli bo'lmagani uchun afsus hissi ko'nglimdan hamon ketmayapti."
+    ],
+    "아쉽다": [
+      "Juda afsus.",
+      "Vaqt yetmagani achinarli.",
+      "Birga bora olmaganimiz uchun juda afsuslandim.",
+      "Pulga zoriqib turgan payt bo'lgani uchun xarajatlarni qisqartiryapman."
+    ],
+    "아이디": [
+      "ID'ingiz nima?",
+      "ID yaratdim.",
+      "Login va parolni kiriting.",
+      "Bu ID allaqachon foydalanilayotgani uchun boshqa nom tanlash kerak."
+    ],
+    "아이디어": [
+      "Bu yaxshi g'oya.",
+      "Bir g'oyam bor.",
+      "Birdan yangi g'oya xayolimga keldi.",
+      "Yig'ilishda hammangiz bemalol o'z g'oyalaringizni aytib ko'ring."
+    ],
+    "아침저녁": [
+      "Ertalab va kechqurun sport bilan shug'ullanaman.",
+      "Ertalab va kechqurun sovuq.",
+      "Men ertalab va kechqurun kuchugim bilan sayr qilaman.",
+      "Hozir ertalab va kechqurunlari salqin bo'lgani uchun yashash yoqimli."
+    ],
+    "아픔": [
+      "Og'riq bor.",
+      "Ko'nglimdagi alam katta.",
+      "Do'stimning dardiga sherik bo'lishni xohlayman.",
+      "U ayriliq alamini yengish uchun sayohatga jo'nab ketdi."
+    ],
+    "악몽": [
+      "Dahshatli tush ko'rdim.",
+      "Dahshatli tush tufayli uyg'onib ketdim.",
+      "Qo'rqinchli film ko'rganim uchun tun bo'yi dahshatli tush ko'rdim.",
+      "Avariya xotiralari dahshatli tushdek qayta-qayta yodiga tushgani uchun u uxlay olmayapti."
+    ],
+    "악수": [
+      "Qo'l siqishamiz.",
+      "Do'stim bilan qo'l siqishdim.",
+      "Birinchi marta uchrashgan odam bilan xushchaqchaqlik bilan qo'l siqib ko'rishdim.",
+      "Ikki davlat rahbari yayrab jilmayib, bir-birlarining qo'llarini siqishdi."
+    ],
+    "안개": [
+      "Tuman tushdi.",
+      "Tuman quyuq.",
+      "Ertalab qalin tuman tushgani uchun mashina haydash qiyin bo'ldi.",
+      "Quyuq tuman sababli samolyot bir necha soat kechikib uchdi."
+    ],
+    "안과": [
+      "Ko'z shifokoriga boraman.",
+      "Ko'z shifokori qayerda?",
+      "Ko'zim og'rigani uchun ko'z klinikasida tekshiruvdan o'tdim.",
+      "Ko'z shifokori ko'zda yallig'lanish paydo bo'lganini tushuntirdi."
+    ],
+    "안내문": [
+      "E'lonni o'qiyman.",
+      "E'lon yopishtirilgan.",
+      "Maktab yuborgan e'lon xatini ota-onamga berdim.",
+      "Ta'mirlash ishlari jadvali haqidagi e'lon lift oldiga osib qo'yilgan."
+    ],
+    "안내서": [
+      "Qo'llanma sotib oldim.",
+      "Qo'llanmada yozilgan.",
+      "Sayohat qo'llanmasini ko'rib, reja tuzdim.",
+      "Foydalanishdan oldin qo'llanmani albatta o'qib chiqishingizni so'raymiz."
+    ],
+    "안내소": [
+      "Ma'lumot byurosi qayerda?",
+      "Ma'lumot punktidan so'rab ko'ring.",
+      "Aeroportdagi ma'lumot byurosidan xarita oldim.",
+      "Turistik axborot markazi xodimi xushmuomalalik bilan yo'lni ko'rsatib berdi."
+    ],
+    "안되다": [
+      "Ish yurishmayapti.",
+      "O'qishim yaxshi ketmayapti.",
+      "Havo issiq bo'lgani uchun ishim yaxshi yurishmayapti, shundan xavotirdaman.",
+      "Nima qilsam ham kompyuter ishlamagani uchun uni ta'mirga berdim."
+    ],
+    "안방": [
+      "Bosh yotoqxona katta.",
+      "Asosiy yotoqxonada uxlayman.",
+      "Ota-onam asosiy yotoqxonada uxlaydilar.",
+      "Asosiy yotoqxonadagi kiyim javonini yangisiga almashtirdik."
+    ],
+    "안부": [
+      "Salom aytib qo'ying.",
+      "Ota-onamdan hol-ahvol so'radim.",
+      "Ancha vaqtdan keyin do'stimga hol-ahvol so'rab qo'ng'iroq qildim.",
+      "Onamga salom va hol-ahvol so'rab xat yozdim."
+    ],
+    "안색": [
+      "Yuz rangingiz yaxshi emas.",
+      "Rangi oqarib ketgan.",
+      "Biror joyingiz og'riyaptimi? Rangingiz yaxshi emas.",
+      "U hayratlangandek, yuzining rangi birdan o'zgarib ketdi."
+    ],
+    "안심": [
+      "Xotirjam bo'ling.",
+      "Endi ko'nglim tinch.",
+      "Bola eson-omon yetib kelgani uchun ko'nglim tinchidi.",
+      "Tekshiruv natijalari normal ekanini eshitib, ko'nglim joyiga tushdi."
+    ],
+    "안약": [
+      "Ko'zga dori tomizaman.",
+      "Ko'z tomchisi kerak.",
+      "Ko'zim quruqlashgani uchun kuniga uch marta ko'z tomchisi tomizaman.",
+      "Ko'z tomchisini tomizishdan oldin qo'lingizni albatta toza yuving."
+    ],
+    "안전선": [
+      "Xavfsizlik chizig'idan orqaga o'ting.",
+      "Xavfsizlik chizig'idan o'tmang.",
+      "Metroni kutayotganda xavfsizlik chizig'ining ichkarisida turish kerak.",
+      "Poyezd kelmoqda, iltimos, sariq xavfsizlik chizig'idan orqaga chekining."
+    ],
+    "안주": [
+      "Gazak buyurtma qilaman.",
+      "Pivo bilan yeyiladigan gazak mazali.",
+      "Spirtli ichimlik ichganda gazak ham birga yeymiz.",
+      "Bu yerda ichimlik bilan yeyishga mos gazaklar ko'p."
+    ],
+    "안쪽": [
+      "Ichkariga kiring.",
+      "Sumkaning ichki tomonida.",
+      "Ichkaridagi joy tinchroq bo'lgani uchun yaxshi.",
+      "Soyabonni eshikning ichki tomoniga qo'yib qo'ydim, olib keting."
+    ],
+    "안타깝다": [
+      "Juda achinarli.",
+      "Xabar achinarli.",
+      "Do'stim imtihondan yiqilgani uchun unga achindim.",
+      "Yaxshi imkoniyatni qo'ldan boy berganim juda achinarli."
+    ],
+    "앉히다": [
+      "Bolani o'tqizaman.",
+      "Mehmonni stulga o'tqazdim.",
+      "Onam chaqaloqni stulga o'tqazdi.",
+      "O'qituvchi o'quvchilarni jimgina o'z joylariga o'tqizib, darsni boshladi."
+    ],
+    "알": [
+      "Tuxum qo'yadi.",
+      "Qush tuxum bosyapti.",
+      "Tovuq tuxum qo'ygan ekan, ertalab uni yedik.",
+      "Dorini kuniga uch mahal bittadan tabletka qilib iching."
+    ],
+    "알레르기": [
+      "Allergiyam bor.",
+      "Yeryong'oqqa allergiyam bor.",
+      "Menda gul changiga allergiya bo'lgani uchun bahor men uchun og'ir.",
+      "Taomni yeyishdan oldin allergiyangiz bor-yo'qligini albatta tekshiring."
+    ],
+    "알아듣다": [
+      "Yaxshi tushundim.",
+      "Gapni tushunmayapman.",
+      "Koreys tilida tez gapirishsa, tushunish qiyin.",
+      "O'qituvchining tushuntirishini tinglab, zo'rg'a tushunib oldim."
+    ]
+  },
+  "0108": {
+    "알아보다": [
+      "Do'stimni tanidim.",
+      "Narxini surishtiraman.",
+      "Ancha vaqt ko'rishmaganimiz uchun avvaliga tanimay qoldim.",
+      "Sayohatga chiqishdan oldin aviachipta narxlarini surishtiryapman."
+    ],
+    "알아주다": [
+      "Ko'nglimni tushuning.",
+      "Hech kim qadrlamaydi.",
+      "Astoydil ishladim, lekin buni qadrlaydigan odam yo'q.",
+      "U mahorati e'tirof etilib, sohada tan olingan mutaxassisga aylandi."
+    ],
+    "알약": [
+      "Tabletka ichaman.",
+      "Bu tabletka katta.",
+      "Tabletkani yutish qiyin bo'lgani uchun ko'p suv ichdim.",
+      "Ovqatdan keyin bitta tabletkani suv bilan iching."
+    ],
+    "알코올": [
+      "Spirtli ichimlik ichmayman.",
+      "Spirt hidi kelyapti.",
+      "Yarani spirt bilan zararsizlantirdim.",
+      "Bu ichimlik tarkibida alkogol yo'q."
+    ],
+    "암": [
+      "Saraton qo'rqinchli.",
+      "Bobom saraton kasalligiga chalindilar.",
+      "Muntazam tibbiy ko'rik tufayli saraton erta aniqlandi.",
+      "Chekish o'pka saratoniga chalinish xavfini oshiradi."
+    ],
+    "앞날": [
+      "Kelajak qiziq.",
+      "Kelajak porloq.",
+      "Men bolalarning kelajagini qo'llab-quvvatlayman.",
+      "Yoshlarning kelajagi omadli bo'lishini tilayman."
+    ],
+    "앞두다": [
+      "Imtihon arafasidaman.",
+      "To'y arafasidaman.",
+      "Bitiruv oldidan do'stlarim bilan sayohatga bordim.",
+      "Musobaqaga ikki kun qolganda sportchilar so'nggi mashg'ulotlarga butunlay berilib ketishdi."
+    ],
+    "앞뒤": [
+      "Oldi-orqaga qarayman.",
+      "Oldinga-orqaga silkitaman.",
+      "Ko'chadan o'tayotganda oldi-orqangizga yaxshilab qarang.",
+      "Uning gaplari bir-biriga to'g'ri kelmagani uchun ishonish qiyin."
+    ],
+    "앞머리": [
+      "Peshona sochimni kestirdim.",
+      "Peshona sochim uzun.",
+      "Sartaroshxonada peshona sochimni kalta qildirib kesdirdim.",
+      "Shamol esib, peshonamdagi sochlarim tez-tez ko'zimni to'sib qolyapti."
+    ],
+    "애기": [
+      "Chaqaloq uxlayapti.",
+      "Chaqaloq kulyapti.",
+      "Anavi uyning chaqalog'i juda yoqimtoy.",
+      "Chaqaloq yig'lagani uchun onasi uni quchog'iga oldi."
+    ],
+    "애완견": [
+      "Uy iti boqaman.",
+      "Uy iti yoqimtoy.",
+      "Men kichkina uy itim bilan birga yashayman.",
+      "Bog'da uy itini sayr qildirayotgan odamlar ko'p."
+    ],
+    "애완동물": [
+      "Uy hayvonlarini yaxshi ko'raman.",
+      "Uy hayvoni boqaman.",
+      "Bizning uyda uy hayvoni boqib bo'lmaydi.",
+      "Uy hayvoni bilan kirish mumkin bo'lgan restoran qidiryapman."
+    ],
+    "애인": [
+      "Sevgilim bor.",
+      "Sevgilim bilan kino ko'rdim.",
+      "Sevgilim mendan ikki yosh katta.",
+      "Sevgilimga beriladigan tug'ilgan kun sovg'asini tanlayapman."
+    ],
+    "애정": [
+      "Mehr bor.",
+      "Mehrimni izhor qilaman.",
+      "Men bu shaharga juda mehr qo'yganman.",
+      "Ota-onamiz bizga o'zgarmas mehr-muhabbat ko'rsatadilar."
+    ],
+    "애프터서비스": [
+      "Sotuvdan keyingi xizmatdan foydalanaman.",
+      "Sotuvdan keyingi xizmat yaxshi.",
+      "Muzlatkich buzilgani uchun servis xizmatiga ariza berdim.",
+      "Bu kompaniya bir yil davomida bepul sotuvdan keyingi xizmat ko'rsatadi."
+    ],
+    "액자": [
+      "Ramkani osaman.",
+      "Ramkaga surat qo'ydim.",
+      "Devorga oilaviy surat solingan ramkani osdim.",
+      "Do'stimning to'yiga sovg'a sifatida chiroyli rasm ramkasi tayyorladim."
+    ],
+    "앨범": [
+      "Albomni ko'raman.",
+      "Yangi albom chiqdi.",
+      "Eski fotoalbomni ko'rib, xotiralarga berilib ketdim.",
+      "O'sha qo'shiqchi uch yildan keyin yangi albomini chiqardi."
+    ],
+    "야간": [
+      "Kechasi ishlayman.",
+      "Tungi avtobusga chiqdim.",
+      "Men tungi smenada ishlab, kunduzi uxlayman.",
+      "Bu muzey yoz mavsumida kechki vaqtda ham ishlaydi."
+    ],
+    "야경": [
+      "Tungi manzara chiroyli.",
+      "Seulning tungi manzarasini tomosha qilaman.",
+      "Namsandan ko'rinadigan tungi manzara juda go'zal.",
+      "Do'stim bilan Xangang daryosi ko'prigi ustida shaharning tungi manzarasini tomosha qildik."
+    ],
+    "야근": [
+      "Bugun ishda kechgacha qolaman.",
+      "Ishdan keyin tungacha ishlash og'ir.",
+      "Ish ko'p bo'lgani uchun bu hafta doim kechgacha ishda qoldim.",
+      "Ishdan keyin qo'shimcha ishlab, uyga qaytganimda soat tungi bir bo'lgan edi."
+    ],
+    "야단맞다": [
+      "Onamdan tanbeh eshitdim.",
+      "O'qituvchidan tanbeh eshitdim.",
+      "Uy vazifasini qilmaganim uchun o'qituvchidan tanbeh eshitdim.",
+      "Kech kelganim uchun otamdan qattiq dakki eshitdim."
+    ],
+    "야단치다": [
+      "Bolani koyiyman.",
+      "Oyim koyidilar.",
+      "O'qituvchi kechikkan o'quvchini koyidi.",
+      "Otam yolg'on gapirgan ukamni qattiq koyidilar."
+    ],
+    "야외": [
+      "Ochiq havoda o'ynaymiz.",
+      "Ochiq havodagi dars yoqimli.",
+      "Havo yaxshi bo'lgani uchun ochiq havoda tushlik qildik.",
+      "Shu hafta oxiri ochiq havoda konsert bo'lgani uchun uni ko'rgani bormoqchiman."
+    ],
+    "야유회": [
+      "Piknikka boramiz.",
+      "Kompaniyaning tabiat qo'ynida dam olish tadbiri bor.",
+      "Sinfimiz ertaga bog'ga piknikka boradi.",
+      "Xodimlar bilan birga daryo bo'yiga piknikka borib, go'sht qovurib yedik."
+    ],
+    "약하다": [
+      "Tanam zaif.",
+      "Shamol kuchsiz.",
+      "Men bolaligimdan nimjon edim.",
+      "Olov juda past, biroz kuchliroq qiling."
+    ],
+    "약혼": [
+      "Unashtirildim.",
+      "Unashtiruv uzugini sotib oldim.",
+      "Biz o'tgan oy unashtirildik.",
+      "Ikkovi oila a'zolari oldida unashtirilganlarini e'lon qilishdi."
+    ],
+    "약혼자": [
+      "Mening unashtirilgan yorim bor.",
+      "Unashtirilgan yorimni tanishtiraman.",
+      "Unashtirilgan yorim bilan to'yxonani ko'rgani bordik.",
+      "Mening unashtirilgan yigitim mendan uch yosh katta shifokor."
+    ],
+    "얌전하다": [
+      "Bola odobli.",
+      "Mushuk yuvosh.",
+      "Ukam kattalar oldida odob bilan jim o'tiradi.",
+      "U bola odatda odobli va jim, ammo do'stlari bilan bo'lganda juda sho'xlik qiladi."
+    ],
+    "양념": [
+      "Ziravor mazali.",
+      "Ziravor qo'shaman.",
+      "Go'shtga ziravor qo'shib, bir kecha tindirib qo'ydim.",
+      "Sous juda sho'r bo'lgani uchun yana biroz suv qo'shdim."
+    ],
+    "양로원": [
+      "Keksalar uyiga boraman.",
+      "Buvim keksalar uyida turadilar.",
+      "Biz dam olish kunida qariyalar uyida ko'ngillilik ishini qildik.",
+      "Qariyalar uyidagi keksalarga issiq taom ulashdik."
+    ]
+  },
+  "0109": {
+    "양반": [
+      "Yangbanlar qadimgi zodagonlar.",
+      "U kishi odobli janob.",
+      "Choson davrida yangbanlar yuksak hurmatga sazovor bo'lgan.",
+      "Bobom qishloqda hurmatga sazovor yangban (zodagon) bo'lganlar."
+    ],
+    "양보": [
+      "O'rnimni bo'shatib beraman.",
+      "Yon berish kerak.",
+      "Metroda buvijonga joyimni bo'shatib berdim.",
+      "Bir-biringizga ozgina yon bersangiz, janjaldan qochish mumkin."
+    ],
+    "양쪽": [
+      "Ikki tomonga qarayman.",
+      "Ikki qo'limda ham yuk bor.",
+      "Ko'chani kesib o'tishdan oldin ikki tomonga ham yaxshilab qarang.",
+      "Ikkovining fikri turlicha bo'lgani uchun har ikki tomonning gapini eshitib ko'rdim."
+    ],
+    "얘": [
+      "Bu mening do'stim.",
+      "Bu bola kim?",
+      "Bu kecha men aytgan o'sha do'stim.",
+      "Bu bola hali yosh, shuning uchun bunday narsalarni yaxshi bilmaydi."
+    ],
+    "어기다": [
+      "Va'dani buzaman.",
+      "Qoidani buzdim.",
+      "U va'dasini buzib, kech keldi.",
+      "Yo'l harakati qoidalarini buzsangiz, jarima to'lashingiz kerak."
+    ],
+    "어느새": [
+      "Bilmay qolibmiz, kuz kelibdi.",
+      "Bilmay qolibmiz, tun bo'libdi.",
+      "Gaplashib o'tirib, vaqt qanday o'tganini sezmay qolibmiz.",
+      "Bilmay ham qolibmiz, bolalar ulg'ayib, talaba bo'lishibdi."
+    ],
+    "어떠하다": [
+      "Qanday?",
+      "Kayfiyatingiz qanday?",
+      "Bu taomning ta'mi qanday?",
+      "Yangi ko'chib o'tilgan uyning muhiti qandayligi menga qiziq."
+    ],
+    "어떡하다": [
+      "Endi nima qilaman?",
+      "Endi nima qilamiz?",
+      "Hamyonimni yo'qotib qo'ydim. Endi nima qilaman?",
+      "Yomg'ir yog'yapti-yu, soyabon bo'lmasa nima qilamiz?"
+    ],
+    "어려움": [
+      "Qiyinchilik bor.",
+      "Qiyinchilikni yengaman.",
+      "Chet eldagi hayotning qiyinchiliklari haqida do'stim bilan dardlashdim.",
+      "Moddiy qiyinchiliklarga qaramay, u o'qishni tashlamadi."
+    ],
+    "어린아이": [
+      "Kichkina bola yig'layapti.",
+      "Kichkina bola kulyapti.",
+      "Yosh boladek quvonayotgani juda yoqimli edi.",
+      "Bu o'yin maydonchasi kichkina bolalar o'ynashi uchun xavfsiz."
+    ],
+    "어린이날": [
+      "Bugun Bolalar kuni.",
+      "Bolalar kunida sovg'a oldim.",
+      "Bolalar kunida oilam bilan attraksionlar bog'iga bordim.",
+      "Beshinchi may - bolalarga bag'ishlangan Bolalar kuni."
+    ],
+    "어버이날": [
+      "Bugun Ota-onalar kuni.",
+      "Ota-onalar kunida gul sovg'a qilaman.",
+      "Ota-onalar kunida ota-onamga xat yozdim.",
+      "Ota-onalar kunida ularning ko'kragiga chinnigul taqib, minnatdorchilik bildiramiz."
+    ],
+    "어색하다": [
+      "Muhit noqulay.",
+      "Birinchi marta bo'lgani uchun o'zimni noqulay his qilyapman.",
+      "Ancha vaqtdan keyin uchrashganimiz uchun avvaliga biroz noqulay bo'ldi.",
+      "U noqulay qiyofada salom berdi."
+    ],
+    "어쨌든": [
+      "Har holda, rahmat.",
+      "Har holda borib ko'raylik.",
+      "Nima bo'lganda ham, erta yetib kelganimiz yaxshi bo'ldi.",
+      "Har holda, qaror qabul qilindi, endi tayyorgarlik ko'raylik."
+    ],
+    "어쩌다가": [
+      "Tasodifan uchrashib qoldik.",
+      "Qanday qilib yiqilib tushdingiz?",
+      "U odam bilan qanday qilib tanishib qoldingiz?",
+      "Qanday qilib bo'ldi, bilmayman, bexosdan stakanni sindirib qo'ydim."
+    ],
+    "어쩌면": [
+      "Balki yomg'ir yog'ar.",
+      "Balki to'g'ridir.",
+      "Balki ertaga bora olmasam kerak.",
+      "Balki u ham meni kutayotgandir."
+    ],
+    "어쩐지": [
+      "Negadir xafaman.",
+      "Negadir g'alati.",
+      "Negadir bugun kayfiyatim yaxshi.",
+      "Ishlar nimagadir yaxshi ketyapti deb o'ylagan edim, demak, do'stim yordam bergan ekan-da."
+    ],
+    "어차피": [
+      "Baribir borishim kerak.",
+      "Baribir kech qoldik.",
+      "Baribir qilinadigan ish, shuning uchun hozir qilaman.",
+      "Baribir yomg'ir yog'adi, shuning uchun soyabonni olib keting."
+    ],
+    "어학": [
+      "Til o'rganaman.",
+      "Til darsiga qatnayman.",
+      "Men tillarga juda qiziqaman.",
+      "Universitetning til markazida koreys tili darslariga qatnashyapman."
+    ],
+    "어학연수": [
+      "Chet elga til kursiga boraman.",
+      "Chet elda til kursida o'qib keldim.",
+      "Men kelasi yil Koreyaga til kursiga boraman.",
+      "Chet eldagi til kursida o'qib yurganimda ko'plab koreys do'stlar orttirdim."
+    ],
+    "어휘": [
+      "So'zlarni yodlayman.",
+      "So'z boyligim yetarli emas.",
+      "Har kuni koreys tilidan o'ntadan so'z yodlayman.",
+      "Kitobni ko'p o'qisangiz, so'z boyligingiz ortadi."
+    ],
+    "억": [
+      "Yuz million katta son.",
+      "Yuz million.",
+      "Bu uy besh yuz million vondan qimmat.",
+      "O'sha kompaniyaning bu yilgi savdo hajmi yuz milliard vonga yetdi."
+    ],
+    "억양": [
+      "Intonatsiyasi boshqacha.",
+      "Talaffuz ohangi qiziq.",
+      "U odam Pusan talaffuzi bilan gapiradi.",
+      "Koreys tilida intonatsiyaga qarab gapning ma'nosi o'zgarishi mumkin."
+    ],
+    "억지로": [
+      "Majburan yeyman.",
+      "Zo'rma-zo'raki kuldim.",
+      "Qilgim kelmagan ishni majburan qildim.",
+      "Bolani majburan o'qitsangiz, aksincha, uning qiziqishi so'nib qolishi mumkin."
+    ],
+    "언론": [
+      "Matbuot xabar berdi.",
+      "Matbuot erkin bo'lishi kerak.",
+      "Ommaviy axborot vositalari bu voqeani keng yoritdi.",
+      "O'sha siyosatchi matbuotga bergan intervyusida o'z pozitsiyasini bildirdi."
+    ],
+    "언론인": [
+      "U jurnalist.",
+      "Jurnalist bilan uchrashdim.",
+      "Men kelajakda jurnalist bo'lmoqchiman.",
+      "O'sha jurnalist voqeaning haqiqatini yetkazish uchun voqea joyida material to'pladi."
+    ],
+    "언어": [
+      "Til o'rganaman.",
+      "Koreys tili go'zal til.",
+      "Men turli mamlakatlarning tillariga qiziqaman.",
+      "Bolalar ota-onasi bilan suhbatlashish orqali tabiiy ravishda tilni o'zlashtiradi."
+    ],
+    "언젠가": [
+      "Qachondir uchrashamiz.",
+      "Bir kun borib ko'rgim keladi.",
+      "Qachondir Koreyada yashab ko'rmoqchiman.",
+      "Qachondir bularning hammasi yoqimli xotiraga aylanadi."
+    ],
+    "얹다": [
+      "Guruch ustiga tuxum qo'yaman.",
+      "U qo'lini yelkamga qo'ydi.",
+      "Kitoblarni tokcha ustiga qo'ydim, lekin ular tez-tez tushib ketyapti.",
+      "Pitsa ustiga mo'l qilib pishloq qo'yib, uni pechda pishirdim."
+    ],
+    "얻다": [
+      "Yordam olaman.",
+      "Ma'lumot oldim.",
+      "Internetdan kerakli ma'lumotlarni oldim.",
+      "Astoydil harakat qilib, yaxshi baho olishga muvaffaq bo'ldim."
+    ]
+  },
+  "0110": {
+    "얻어먹다": [
+      "Birovning hisobidan ovqatlandim.",
+      "Do'stimning hisobidan qahva ichdim.",
+      "Katta kursdoshim menga kechki ovqat olib bergani uchun minnatdor bo'ldim.",
+      "Bugun siz mehmon qildingiz, keyingi safar men mehmon qilaman."
+    ],
+    "얼다": [
+      "Suv muzladi.",
+      "Qo'llarim muzlab qoldi.",
+      "Havo sovuq bo'lgani uchun ko'l qattiq muzlab qoldi.",
+      "Qishda suv quvurlari muzlab qolmasligi uchun ehtiyot bo'lish kerak."
+    ],
+    "얼룩": [
+      "Kiyimda dog' bor.",
+      "Dog' ketmayapti.",
+      "Kofeni to'kib yuborganim uchun ko'ylagimda dog' paydo bo'ldi.",
+      "Bu yuvish vositasini ishlatsangiz, dog'lar butunlay ketadi."
+    ],
+    "얼른": [
+      "Tezroq keling.",
+      "Tezroq yeng.",
+      "Kech qoldik, tezroq tayyorlanib chiqaylik.",
+      "Qornim ochdi, tezroq ovqatlangani boraylik."
+    ],
+    "엄격하다": [
+      "O'qituvchi qattiqqo'l.",
+      "Qoidalar qattiq.",
+      "Otam vaqtga rioya qilish masalasida juda qattiqqo'l.",
+      "Bu maktab qat'iy ichki tartib-qoidalari bilan mashhur."
+    ],
+    "엄청나다": [
+      "Juda ham katta.",
+      "Yomg'ir juda qattiq yog'yapti.",
+      "Juda qalin qor yog'ib, yo'llar to'silib qoldi.",
+      "Bu do'kon nihoyatda mashhur bo'lgani uchun doim navbatda turishga to'g'ri keladi."
+    ],
+    "업무": [
+      "Ish ko'p.",
+      "Ishni boshlayman.",
+      "Bugun ishdan keyin do'stim bilan uchrashaman.",
+      "Yangi ish vazifalariga moslashish bilan ovora bo'lib, hozir juda bandman."
+    ],
+    "없애다": [
+      "Axlatni yo'q qilaman.",
+      "Tashvishni yo'qotaman.",
+      "Xonadagi yoqimsiz hidni yo'qotmoqchiman.",
+      "Bu dori bosh og'rig'ini qoldirishda samarali."
+    ],
+    "엉덩이": [
+      "Dumbam og'riyapti.",
+      "Dumbasiga urdi.",
+      "Uzoq o'tirganimdan dumbam og'riyapti.",
+      "Bola yiqilib, dumbasini yerga urib oldi."
+    ],
+    "엉뚱하다": [
+      "Savol g'alati.",
+      "Bu kutilmagan javob.",
+      "U bola ba'zan g'alati gaplar aytib, kuldiradi.",
+      "U yo'lni noto'g'ri joydan qidirib, uchrashuvga kechikib qoldi."
+    ],
+    "엉망": [
+      "Xona juda tartibsiz.",
+      "Ish chalkashib ketdi.",
+      "Yomg'ir yog'gani uchun oyoq kiyimim butunlay rasvo bo'ldi.",
+      "Bolalar o'ynab ketgandan keyin mehmonxona ostin-ustun bo'lib ketdi."
+    ],
+    "엊그제": [
+      "Yaqinda uchrashdik.",
+      "O'tgan kuni yomg'ir yog'di.",
+      "Yaqinda olgan kiyimim allaqachon kichik bo'lib qoldi.",
+      "Kecha-o'tgun kuni aytgan ishingiz nima bo'ldi?"
+    ],
+    "에너지": [
+      "Kuchim yo'q.",
+      "Energiyani tejaymiz.",
+      "Nonushta qilsangiz, kun bo'yi quvvat bo'ladi.",
+      "Quyosh energiyasi atrof-muhitga zarar yetkazmaydigan toza energiya hisoblanadi."
+    ],
+    "에이즈": [
+      "OITS qo'rqinchli kasallik.",
+      "OITSning oldini olamiz.",
+      "OITS haqida aniq ma'lumotga ega bo'lish kerak.",
+      "OITS qo'l berib ko'rishish yoki suhbatlashish orqali yuqmaydi."
+    ],
+    "엔진": [
+      "Dvigatel katta.",
+      "Dvigatel buzilib qoldi.",
+      "Mashina dvigatelidan g'alati ovoz chiqyapti.",
+      "Bu avtomobilning dvigateli juda yuqori samaradorlikka ega."
+    ],
+    "엠티": [
+      "Talabalar sayohatiga boramiz.",
+      "Talabalar sayohati qiziqarli.",
+      "Fakultetimiz shu dam olish kunida jamoaviy sayohatga (MT) boradi.",
+      "Talabalar sayohatida yuqori kurs talabalari bilan tun bo'yi suhbatlashdik."
+    ],
+    "여가": [
+      "Bo'sh vaqtim bor.",
+      "Bo'sh vaqtimda kitob o'qiyman.",
+      "Bo'sh vaqtimda film ko'raman yoki sayr qilaman.",
+      "Hozirgi odamlar bo'sh vaqtlarini maroqli o'tkazish uchun turli xil mashg'ulotlar bilan shug'ullanishadi."
+    ],
+    "여고생": [
+      "Maktab o'quvchisi qiz o'tib ketyapti.",
+      "Men qizlar o'rta maktabining o'quvchisiman.",
+      "O'sha maktab o'quvchisi qiz har kuni ertalab avtobusda maktabga boradi.",
+      "Litsey o'quvchisi qizlar maktab formasida quvnoq suhbatlashib ketishyapti."
+    ],
+    "여관": [
+      "Kichik mehmonxonada tunayman.",
+      "Kichkina mehmon uyi.",
+      "Sayohat paytida qishloqdagi kichik mehmonxonada bir kecha tunadim.",
+      "O'sha mehmon uyi arzon bo'lsa ham, toza va tinch."
+    ],
+    "여드름": [
+      "Husnbuzar chiqdi.",
+      "Husnbuzar tufayli qayg'uryapman.",
+      "O'smirlik paytimda yuzimga ko'p husnbuzar toshgan edi.",
+      "Husnbuzarni qo'l bilan siqsangiz, chandiq qolishi mumkin."
+    ],
+    "여럿": [
+      "Ko'p kishi yig'ildi.",
+      "Bir necha kishi birga boramiz.",
+      "Bir nechta do'stlar birgalikda sayohatga bordik.",
+      "Ko'pchilik kuchlarni birlashtirsa, qiyin ishni ham oson hal qilish mumkin."
+    ],
+    "여름날": [
+      "Yoz kunlari issiq.",
+      "Yoz kunlari dengizga boramiz.",
+      "Bir yoz kuni biz birga daryo bo'yida o'ynagan edik.",
+      "Jazirama yoz kunlarida salqin tarvuzdan yaxshisi yo'q."
+    ],
+    "여성": [
+      "Ayollar ko'p.",
+      "Ayol shifokor bilan uchrashdim.",
+      "Bu kompaniyada xodimlarning yarmidan ko'pi ayollar.",
+      "Ayollar uchun ajratilgan avtoturargoh joylari kirish eshigiga yaqin joyda tashkil etilgan."
+    ],
+    "여성복": [
+      "Ayollar kiyimi sotiladi.",
+      "Ayollar kiyimi do'koniga boraman.",
+      "Univermagning ikkinchi qavatida ayollar kiyimi do'koni bor.",
+      "Bu do'kon ishlaydigan ayollar uchun mo'ljallangan ayollar kiyimini sotishga ixtisoslashgan."
+    ],
+    "여유": [
+      "Vaqtim yo'q.",
+      "Ko'ngil xotirjamligi kerak.",
+      "Bugun vaqtim bemalol bo'lgani uchun shoshilmay piyoda yurdim.",
+      "Pulim yetarli bo'lib qolsa, oilam bilan sayohatga borgim keladi."
+    ],
+    "여전히": [
+      "Hamon bandman.",
+      "Hamon chiroyli.",
+      "O'n yil o'tgan bo'lsa ham, u hamon o'sha mahallada yashaydi.",
+      "Yomg'ir to'xtagan bo'lsa ham, osmon hamon bulutli."
+    ],
+    "여쭈다": [
+      "O'qituvchidan so'rayman.",
+      "Ota-onamdan so'radim.",
+      "Bilmagan narsangizni ustozingizdan so'rang.",
+      "Bobomdan sog'liqlari qandayligini so'radim."
+    ],
+    "여행비": [
+      "Sayohatga ko'p pul ketadi.",
+      "Sayohat uchun pul yig'yapman.",
+      "Sayohat xarajatlarini yig'ish uchun qo'shimcha ishlayapman.",
+      "Bu galgi Yevropa sayohati xarajatlari aviachipta va yashash haqini qo'shib hisoblaganda uch million von."
+    ],
+    "여행자": [
+      "Men sayyohman.",
+      "Sayyoh yo'l so'rayapti.",
+      "Sayyohlar suratga tushyapti.",
+      "Bu mehmonxona ryukzak ko'tarib yuradigan sayyohlar orasida juda mashhur."
+    ],
+    "여행지": [
+      "Bu yaxshi sayohat manzili.",
+      "Sayohat manzilini tanlayman.",
+      "Chejudo Koreyadagi mashhur sayohat manzili hisoblanadi.",
+      "Bu galgi ta'tilni o'tkazadigan sayohat manzilini hali tanlay olmadim."
+    ]
+  },
+  "0111": {
+    "역사적": [
+      "Bu joy tarixiy joy.",
+      "Biz tarixiy binolarni tomosha qildik.",
+      "Bugun tarixiy voqealar haqida o'rgangan kunimiz bo'lgani uchun uy vazifasi ko'p.",
+      "Bu kelishuv katta tarixiy ahamiyatga ega deb baholanmoqda."
+    ],
+    "역시": [
+      "Kutilganidek mazali.",
+      "U oshxonada kutilganidek odam ko'p.",
+      "Birinchi o'rinni olishingni bilgandim-da.",
+      "Bir necha bor ko'rib chiqdik, ammo kutilganidek, dastlabki rejaga muvofiq ish olib borish eng oqilona yo'l ekan."
+    ],
+    "역할": [
+      "Men qirol rolidaman.",
+      "Bu ishda mening vazifam nima?",
+      "Ota-onalar farzandlari uchun yaxshi o'rnak bo'lish vazifasini bajarishi kerak.",
+      "OAV jamiyatdagi muammolarni oshkor qilish va nazorat qilishdek muhim vazifani bajaradi."
+    ],
+    "연결": [
+      "Internetga ulanib bo'lmayapti.",
+      "Bu simni kompyuterga ulab bering.",
+      "Ikki shaharni bog'laydigan yangi metro liniyasi kelasi oy ochiladi.",
+      "Baxtsiz hodisa tufayli telefon aloqasi uzilib, qutqaruvchilar bilan xabar almasha olmadik."
+    ],
+    "연구": [
+      "Men tadqiqot qilaman.",
+      "Akam magistraturada ilmiy tadqiqot olib boryapti.",
+      "Bu professor ekologik muammolarni tadqiq qilishi bilan mashhur.",
+      "Uzoq yillik tadqiqotlardan so'ng ilmiy guruh yangi davolash usulini ishlab chiqishga muvaffaq bo'ldi."
+    ],
+    "연구소": [
+      "Tadqiqot instituti katta.",
+      "Otam tadqiqot institutida ishlaydilar.",
+      "Bu ilmiy-tadqiqot instituti kosmik texnologiyalar bo'yicha ixtisoslashgan.",
+      "Hukumat davlat ilmiy-tadqiqot institutlarining byudjetini oshirib, fundamental fanlar bo'yicha tadqiqotlarni qo'llab-quvvatlashga qaror qildi."
+    ],
+    "연구실": [
+      "Tadqiqot xonasiga boraman.",
+      "Professor hozir o'z xonalarida.",
+      "Men ta'til paytida ham laboratoriyada tajribalarni davom ettirdim.",
+      "O'sha laboratoriyaning chiroqlari kech tungacha o'chmagani bois u talabalar orasida mashhur."
+    ],
+    "연극": [
+      "Spektakl ko'raman.",
+      "Men dam olish kuni spektakl ko'rgani bordim.",
+      "Ukam maktab spektaklida bosh rolni olgani uchun astoydil mashq qilyapti.",
+      "Bu spektakl oddiy bir oilaning hikoyasi orqali zamonaviy insonning yolg'izligini ko'rsatib beradi."
+    ],
+    "연기": [
+      "Tutun chiqyapti.",
+      "Yomg'ir tufayli o'yin keyinga qoldirildi.",
+      "O'sha aktyor juda yaxshi o'ynagani uchun ko'plab mukofotlar oldi.",
+      "Yig'ilish to'satdan kelasi haftaga ko'chirilgani sababli ish jadvalini qaytadan tuzishga to'g'ri keldi."
+    ],
+    "연도": [
+      "Yilni yozaman.",
+      "Bitirgan yilingiz qaysi?",
+      "Hujjatga o'qishga kirgan yilingiz va talaba raqamingizni yozing.",
+      "Yillar bo'yicha statistikani solishtirsak, tug'ilayotgan chaqaloqlar soni muttasil kamayib borayotganini ko'rish mumkin."
+    ],
+    "연락": [
+      "Men bilan bog'laning.",
+      "Do'stimdan xabar keldi.",
+      "Uzoq vaqt aloqa uzilgan do'stimga bugun o'zim birinchi bo'lib bog'lanib ko'rdim.",
+      "Baxtsiz hodisa yuz bersa, darhol mas'ul shaxsga bog'lanib, vaziyat haqida xabar berish kerak."
+    ],
+    "연말": [
+      "Yil oxirida bandman.",
+      "Yil oxirida yig'ilishlar ko'p bo'ladi.",
+      "Yil oxirida oilam bilan sayohatga borishga qaror qildik.",
+      "Yil oxiri yaqinlashgach, har bir kompaniya yil davomidagi natijalarni sarhisob qilish bilan ovora bo'lib qoladi."
+    ],
+    "연말연시": [
+      "Yangi yil bayramlarida dam olaman.",
+      "Yangi yil bayramlarida ona yurtimga boraman.",
+      "Yil oxiri va yangi yil bayramlarida samolyot chiptasini topish juda qiyin.",
+      "Yil oxiri va yangi yil bayramlari munosabati bilan ko'plab kompaniyalar muhtoj qo'shnilarga yordam uchun xayriya mablag'lari topshirdi."
+    ],
+    "연상": [
+      "U mendan katta.",
+      "Men o'zimdan katta erkaklarni yoqtiraman.",
+      "Erim mendan uch yosh katta bo'lgani uchun unga ko'p suyanaman.",
+      "Ular ayol erkakdan o'n yosh katta bo'lgan juftlik bo'lgani uchun dastlab atrofdagilarning nigohi ularga og'ir botardi."
+    ],
+    "연속": [
+      "Ketma-ket g'alaba qozondik.",
+      "Ikki kun ketma-ket yomg'ir yog'yapti.",
+      "Jamoamiz uch o'yinda ketma-ket g'alaba qozongani uchun kayfiyatimiz a'lo.",
+      "Jazirama issiq o'n kun ketma-ket davom etgani sababli elektr energiyasi iste'moli tarixdagi eng yuqori ko'rsatkichga yetdi."
+    ],
+    "연속극": [
+      "Teleserial ko'raman.",
+      "Buvim har kuni serial ko'radilar.",
+      "U serial har dushanba kechqurun efirga uzatiladi, shuning uchun hammamiz birga ko'ramiz.",
+      "Mashhur teleserialning so'nggi qismi reytingi naq qirq foizdan oshib ketdi."
+    ],
+    "연수": [
+      "Malaka oshiryapman.",
+      "Men kompaniyada malaka oshiryapman.",
+      "Yozgi ta'tilda Angliyaga til kursiga borib kelmoqchiman.",
+      "Yangi xodimlar ishga kirgach, bir oy davomida jadal o'quv kursidan o'tib, so'ng bo'limlarga taqsimlanadi."
+    ],
+    "연애": [
+      "Uchrashib yuribman.",
+      "Do'stim hozir kimdir bilan uchrashib yuribdi.",
+      "Ishim ko'p bo'lgani uchun uchrashib yurishga vaqtim yo'q.",
+      "Bugungi yosh avlod ko'pincha turmush qurishdan ham ko'ra sevgi munosabatlarining o'zini og'ir yuk deb his qiladi."
+    ],
+    "연애결혼": [
+      "Sevib turmush qurdim.",
+      "Ota-onam sevib turmush qurganlar.",
+      "Men sovchilar orqali emas, sevib turmush qurishni xohlayman.",
+      "Ilgari sovchilar orqali turmush qurish ko'p uchrardi, ammo hozir sevib turmush qurish ancha keng tarqalgan."
+    ],
+    "연인": [
+      "Ular sevishganlar.",
+      "Biz besh yildan beri sevishganmiz.",
+      "Sevgilim bilan bog'da sayr qilish mening sevimli mashg'ulotim.",
+      "Ko'plab sevishganlar unutilmas kunlarda bir-birlariga maxsus sovg'alar tayyorlab, his-tuyg'ularini izhor qilishadi."
+    ],
+    "연장": [
+      "Muddatni uzaytiraman.",
+      "Vizani uzaytirishim kerak.",
+      "Kutubxonadan olgan kitobimni qaytarish muddatini bir haftaga uzaytirdim.",
+      "O'yin durang bilan yakunlangani uchun oxir-oqibat qo'shimcha vaqtga o'tildi."
+    ],
+    "연주": [
+      "Pianino chalaman.",
+      "Ukam gitara chalyapti.",
+      "Bolaligimdan skripka chalish mening orzuim edi.",
+      "O'sha pianinochining nozik ijrosi tinglovchilarning qalbini chuqur larzaga soldi."
+    ],
+    "연주회": [
+      "Konsertga boraman.",
+      "Bugun kechqurun konsert bor.",
+      "Do'stim taklif qilgani uchun pianino konsertiga bordim.",
+      "Aytishlaricha, bu galgi konsert mahalliy aholi uchun bepul o'tkazilar ekan."
+    ],
+    "연하": [
+      "U mendan kichik.",
+      "Yigitim mendan ikki yosh kichik.",
+      "Men o'zimdan yosh kichik kursdoshlarimga tez-tez ovqat olib beraman.",
+      "U o'zidan besh yosh kichik odamga turmushga chiqib, atrofdagilarni hayratda qoldirdi."
+    ],
+    "연하다": [
+      "Rangi och.",
+      "Bu go'sht juda yumshoq.",
+      "Menga och pushti rangli kiyimlar yarashadi.",
+      "Yosh nihollarning poyasi yumshoq bo'lgani uchun ularni salat qilib yesa, mazali bo'ladi."
+    ],
+    "연회비": [
+      "Yillik badal bor.",
+      "Bu kartaning yillik to'lovi yo'q.",
+      "Sport zalining yillik badali juda qimmat bo'lgani uchun a'zo bo'lishdan voz kechdim.",
+      "Kredit karta kompaniyalari yillik to'lovdan ozod qilish sharti bilan mijozlarni jalb qilmoqda."
+    ],
+    "열대야": [
+      "Jazirama issiq tun.",
+      "Kecha jazirama issiq tun bo'ldi.",
+      "Jazirama tun tufayli issiqdan kechasi uxlay olmadim.",
+      "Bu yoz jazirama issiq tunlar yigirma kundan ortiq davom etib, shahar aholisi uyqusizlikdan qiynaldi."
+    ],
+    "열람실": [
+      "O'qish zali tinch.",
+      "O'qish zalida kitob o'qiyman.",
+      "Imtihon davrida kutubxonaning o'qish zalida bo'sh joy bo'lmaydi.",
+      "O'qish zalida boshqalarga xalaqit bermaslik uchun mobil telefonni ovozsiz rejimga qo'yish kerak."
+    ],
+    "열흘": [
+      "O'n kun o'tdi.",
+      "O'n kun sayohat qildim.",
+      "Bu kitobni o'qib tugatish uchun o'n kun kerak bo'lsa kerak.",
+      "To'fon o'tib ketgach, o'n kundan keyin qishloqqa yana elektr berildi."
+    ],
+    "염색": [
+      "Sochimni bo'yayman.",
+      "Men sochimni bo'yatdim.",
+      "Onam oq sochlari tufayli oyda bir marta sochlarini bo'yatadilar.",
+      "Matoni an'anaviy usulda bo'yash uchun tabiatdan olingan xomashyo kerak bo'ladi."
+    ]
+  },
+  "0112": {
+    "엿": [
+      "Yeot (koreys shirinligi) shirin.",
+      "Buvim menga yeot berdilar.",
+      "Imtihon arafasida muvaffaqiyat tilab yeot yeyish odati bor.",
+      "Bayram kelganda onam guruchdan yeot (koreyscha quyuq qand shirinligi) qaynatib, uni o'z qo'llari bilan tayyorlar va qo'shnilar bilan baham ko'rardilar."
+    ],
+    "영수증": [
+      "Chekni bering.",
+      "Chekni oldim.",
+      "Kiyimni almashtirish uchun chek albatta bo'lishi kerak.",
+      "Xarajatlarni rasmiylashtirish uchun xizmat safari davomida olingan barcha cheklarni topshirish kerak."
+    ],
+    "영양": [
+      "Ovqatlanish yaxshi.",
+      "Bolaga to'yimli ovqat kerak.",
+      "Nonushtani tashlab ketmay, ozuqa moddalarini muvozanatli iste'mol qilish muhim.",
+      "O'sish davridagi o'smirlar uchun muvozanatli ovqatlanish sog'lom rivojlanishning asosi hisoblanadi."
+    ],
+    "영양가": [
+      "Ozuqaviy qiymati yuqori.",
+      "Bu taomning ozuqaviy qiymati yuqori.",
+      "Ismaloqning ozuqaviy qiymati yuqori bo'lgani uchun uni bolalarga tez-tez yediraman.",
+      "Fastfud ko'p hollarda kaloriyasi yuqori, ammo ozuqaviy qiymati past bo'ladi."
+    ],
+    "영양분": [
+      "Oziq moddalar ko'p.",
+      "O'simliklar tuproqdan oziq moddalar oladi.",
+      "Sutda organizm uchun zarur oziq moddalar ko'p.",
+      "O'g'itlar tuproqda yetishmayotgan oziq moddalarni to'ldirib, ekinlarning yaxshi o'sishiga yordam beradi."
+    ],
+    "영양소": [
+      "Oziq moddalar kerak.",
+      "Oqsil muhim oziq modda.",
+      "Bir kunlik zarur oziq moddalarni sabzavot va go'sht orqali olaman.",
+      "Uglevodlar, oqsillar va yog'lar inson organizmi uchun zarur bo'lgan uchta asosiy oziq modda deb ataladi."
+    ],
+    "영양제": [
+      "Vitamin ichaman.",
+      "Oyim menga vitamin sotib olib berdilar.",
+      "Charchaganimda har kuni ertalab vitaminlarni ichib turaman.",
+      "Shifokor faqat ovqat orqali yetishmaydigan vitaminlarni vitamin qo'shimchalari bilan to'ldirishni maslahat berdi."
+    ],
+    "영업": [
+      "Savdo qilaman.",
+      "Do'kon ochiq.",
+      "Bu oshxona kechki soat o'ngacha ishlaydi.",
+      "U o'n yildan ortiq savdo sohasida ishlab, turli xil mijozlar bilan uchrashib kelgan."
+    ],
+    "영업부": [
+      "Savdo bo'limida ishlayman.",
+      "Men savdo bo'limi xodimiman.",
+      "Savdo bo'limi yangi mahsulotni sotish uchun mijozlar bilan tez-tez uchrashadi.",
+      "Bu yil savdo bo'limining sotuv rejasini bajarish uchun jamoa a'zolari bor kuchlarini safarbar etmoqda."
+    ],
+    "영역": [
+      "Bu mening sohasim.",
+      "Bu hududga kirish taqiqlangan.",
+      "Bu ish mening mutaxassisligim doirasida emas, shuning uchun yaxshi bilmayman.",
+      "Sun'iy intellekt rivojlanishi bilan faqat insonga xos soha deb hisoblangan ijodkorlik sohasi ham o'zgarib bormoqda."
+    ],
+    "영원히": [
+      "Seni abadiy sevaman.",
+      "Biz abadiy do'stmiz.",
+      "Bu lahza abadiy davom etsa edi, deb o'yladim.",
+      "U ona yurtini butunlay tark etishdan oldin bolaligi o'tgan tor ko'chalarni so'nggi bor aylanib chiqdi."
+    ],
+    "영향": [
+      "Ta'siri katta.",
+      "Ob-havo kayfiyatga ta'sir qiladi.",
+      "Do'stimning ta'sirida men ham sport bilan shug'ullana boshladim.",
+      "Ota-onaning bola tarbiyasiga bo'lgan munosabati bolaning xarakteri shakllanishiga juda katta ta'sir ko'rsatadi."
+    ],
+    "영화감독": [
+      "Kino rejissyori bo'lmoqchiman.",
+      "U kishi mashhur kino rejissyori.",
+      "Bolaligimdan kino rejissyori bo'lish mening orzuim edi.",
+      "O'sha kino rejissyori yangi filmi bilan jahon miqyosidagi kinofestivalda bosh mukofotni qo'lga kiritdi."
+    ],
+    "영화제": [
+      "Kinofestivalga boraman.",
+      "Pusan kinofestivali o'tkazilyapti.",
+      "Do'stim bilan kuzda bo'ladigan kinofestivalga borishga kelishdik.",
+      "Bu kinofestival yosh rejissyorlarning asarlarini kashf etishda katta rol o'ynab kelgan."
+    ],
+    "옆집": [
+      "Qo'shni uyda yashayman.",
+      "Qo'shnining bolasi o'ynagani keldi.",
+      "Qo'shni xola mazali gazaklardan ulashib berdi.",
+      "Kech tunda qo'shni uydan eshitilayotgan shovqin sababli uxlash qiyin bo'ldi."
+    ],
+    "예금": [
+      "Bankka omonat qo'yaman.",
+      "Bankka omonat qo'ydim.",
+      "Men har oy maoshimning yarmini bankka omonat qilib qo'yaman.",
+      "Foiz stavkalari oshgach, muddatli omonatga pul qo'ymoqchi bo'lganlar soni keskin ko'paydi."
+    ],
+    "예매": [
+      "Chiptani oldindan sotib olaman.",
+      "Poyezd chiptasini oldindan sotib oldim.",
+      "Konsert chiptalarini internet orqali oldindan sotib olish qulay.",
+      "Bayram kunlari uchun chiptalarni oldindan sotish boshlanishi bilanoq foydalanuvchilar oqib kelib, sayt ishdan chiqdi."
+    ],
+    "예방": [
+      "Kasallikning oldini olaman.",
+      "Shamollashning oldini olish uchun qo'limni yuvaman.",
+      "Grippning oldini olish uchun qish kelmasidan oldin emlandim.",
+      "Yong'inning oldini olish maqsadida har bir binoda o't o'chirgich bo'lishi majburiy."
+    ],
+    "예보": [
+      "Ob-havo ma'lumotini ko'raman.",
+      "Ob-havo ma'lumotiga ko'ra ertaga yomg'ir yog'adi.",
+      "Ob-havo ma'lumotida tushdan keyin qor yog'ishi aytilgani uchun soyabonni oldim.",
+      "Gidrometeorologiya xizmati hafta oxirida to'fon kelishi haqida prognoz e'lon qildi."
+    ],
+    "예상": [
+      "Taxminim to'g'ri chiqdi.",
+      "Kutganimdan qimmat ekan.",
+      "Bugungi imtihon kutganimdan ancha oson bo'lgani uchun kayfiyatim yaxshi.",
+      "Mutaxassislar bu yilgi iqtisodiy o'sish sur'ati kutilganidan past bo'lishini taxmin qilishdi."
+    ],
+    "예술": [
+      "Men san'atni yaxshi ko'raman.",
+      "San'at asarini ko'rdim.",
+      "Ukam san'at maktabida rasm chizishni o'rganyapti.",
+      "San'at davr qiyofasi va insonlarning his-tuyg'ularini ifodalovchi muhim vositadir."
+    ],
+    "예습": [
+      "Darsga oldindan tayyorlanaman.",
+      "Darsdan oldin mavzuni o'qib chiqdim.",
+      "Men ertaga o'tiladigan mavzuni oldindan tayyorlab qo'yadiganlardanman.",
+      "Darsga oldindan tayyorlanib, o'tilganni muntazam takrorlab boradigan o'quvchi imtihonda yaxshi natijaga erishishi tabiiy."
+    ],
+    "예식장": [
+      "To'yxonaga boraman.",
+      "To'yxona juda katta.",
+      "Amakimning qizi opamning to'yi shahar markazidagi to'yxonada bo'ladi.",
+      "Hafta oxirlarida har bir to'yxona mehmonlar bilan gavjum bo'lgani uchun mashina qo'yish oson emas."
+    ],
+    "예의": [
+      "U odobli bola.",
+      "Kattalarga nisbatan odob saqlayman.",
+      "Birinchi marta uchrashgan odam bilan odob saqlab salomlashish kerak.",
+      "Ish suhbatida ozoda kiyinish va to'g'ri xulq-atvor orqali asosiy odob-axloq qoidalariga rioya qilishni ko'rsatish muhim."
+    ],
+    "예전": [
+      "Ilgari shu yerda yashaganman.",
+      "Ilgari bo'yim past edi.",
+      "Ilgarigidan farqli o'laroq, hozir deyarli kitob o'qimayman.",
+      "Bu mahalla shu qadar tez o'zgardiki, avvalgi qiyofasidan asar ham qolmadi."
+    ],
+    "예절": [
+      "Odob-axloqni o'rganaman.",
+      "Dasturxon odobi muhim.",
+      "Kattalar bilan ovqatlanganda odob qoidalariga rioya qilib, qoshiq-cho'pni birinchi bo'lib qo'lga olmaymiz.",
+      "Har bir mamlakatda salomlashish odobi turlicha bo'lgani uchun chet elda mahalliy madaniyatni hurmat qilish kerak."
+    ],
+    "예정": [
+      "Ertaga borishni rejalashtirganman.",
+      "Qachon jo'nab ketmoqchisiz?",
+      "Kelasi oy Koreyaga borishni rejalashtirganim uchun koreys tilini o'rganyapman.",
+      "Yangi aeroport kelasi yil bahorida ochilishi rejalashtirilgan bo'lib, uning atrofidagi transport tarmog'i ham birga takomillashtiriladi."
+    ],
+    "예측": [
+      "Ob-havoni bashorat qilaman.",
+      "Natijani oldindan aytib bo'lmaydi.",
+      "Ertaga nima bo'lishini hech kim aniq oldindan ayta olmaydi.",
+      "Gidrometeorologiya xizmati superkompyuter yordamida to'fonning harakat yo'nalishini bashorat qilmoqda."
+    ],
+    "옛": [
+      "Eski do'stimni uchratdim.",
+      "Eski qo'shiqlarni tinglayman.",
+      "Men eski suratlarni ko'rib, bolaligimni esladim.",
+      "Buvim qadimgi rivoyatlarni so'zlab berib, o'sha davrning urf-odatlarini tushuntirib berdilar."
+    ],
+    "옛말": [
+      "Eski maqol to'g'ri.",
+      "Qadimdan shunday gap bor.",
+      "Qadimgilar \"Mashaqqatning oxiri rohat\" deb aytgan.",
+      "\"Ota-bobolar gapi bejiz aytilmagan\" deganlaridek, uning maslahati oxir-oqibat haqiqatga aylandi."
+    ]
+  },
+  "0113": {
+    "오가다": [
+      "Odamlar borib-kelib turibdi.",
+      "Bu yo'ldan ko'p mashina qatnaydi.",
+      "Uydan maktabga har kuni piyoda borib kelaman.",
+      "Ikki shahar o'rtasida qatnaydigan tezyurar poyezd paydo bo'lgani uchun ishga borib-kelish ancha qulay bo'lib qoldi."
+    ],
+    "오늘날": [
+      "Bugungi kunda hayot qulay.",
+      "Bugungi kunda ko'p odam smartfon ishlatadi.",
+      "Bugungi bolalar yoshligidan kompyuterdan foydalanadi.",
+      "Bugungi kunda Koreya madaniyati butun dunyo odamlarining katta mehrini qozonmoqda."
+    ],
+    "오락": [
+      "O'yin-kulgini yaxshi ko'raman.",
+      "Men ko'ngilochar dasturlarni ko'raman.",
+      "Dam olish kunlari oilam bilan o'yin zaliga borib, o'yin o'ynaymiz.",
+      "Bu attraksionlar bog'i bolalar uchun turli xil ko'ngilochar inshootlar bilan jihozlangan."
+    ],
+    "오래되다": [
+      "Uy eski.",
+      "Bu kitob juda eski.",
+      "Maktabimiz qurilganiga ancha bo'lgan eski bino bo'lgani uchun biroz noqulay.",
+      "Do'stlik qanchalik uzoq bo'lsa, bir-biriga ichki dardini shunchalik bemalol to'kib solish mumkin."
+    ],
+    "오랜": [
+      "U mening ko'p yillik do'stim.",
+      "Uzoq vaqt ketdi.",
+      "Uzoq kutishdan keyin nihoyat imtihondan o'tganim haqidagi xabarni eshitdim.",
+      "Uzoq davom etgan qurg'oqchilik tugab, xayrli yomg'ir yog'gach, dehqonlarning yuzlarida tabassum paydo bo'ldi."
+    ],
+    "오르내리다": [
+      "Zinadan chiqib-tushaman.",
+      "Toqqa chiqib tushaman.",
+      "Lift buzilib qolgani uchun zinadan chiqib-tushishga to'g'ri keldi.",
+      "Aksiyalar narxi bir kunning o'zida bir necha marta ko'tarilib-tushgani uchun investorlar xavotirga tushdi."
+    ],
+    "오른손": [
+      "O'ng qo'limni ko'taraman.",
+      "Men o'ng qo'lim bilan yozaman.",
+      "O'ng qo'limni jarohatlab olganim uchun yozish noqulay.",
+      "Qo'l berib ko'rishganda odatda o'ng qo'lni uzatib, suhbatdosh bilan salomlashiladi."
+    ],
+    "오리엔테이션": [
+      "Tanishtiruv mashg'uloti bor.",
+      "Ertaga tanishtiruv tadbiriga boraman.",
+      "Birinchi kurslar uchun tanishuv tadbirida ko'plab yangi do'stlar orttirdim.",
+      "Kompaniya ishning birinchi kunida yangi xodimlar uchun tanishtiruv mashg'uloti o'tkazdi."
+    ],
+    "오염": [
+      "Suv ifloslandi.",
+      "Havo ifloslanishi jiddiy.",
+      "Dengiz ifloslansa, baliqlar ham yashay olmaydi.",
+      "Zavoddan oqib chiqqan oqova suvlar daryoni ifloslantirib, aholi zarar ko'rdi."
+    ],
+    "오토바이": [
+      "Mototsikl haydayman.",
+      "Mototsikl tez.",
+      "Otam ishga mototsiklda boradilar.",
+      "Kuryer mototsiklda tor ko'chadan tez o'tib ketdi."
+    ],
+    "오페라": [
+      "Opera tomosha qilaman.",
+      "Opera xonandasi qo'shiq aytyapti.",
+      "Men kecha birinchi marta teatrda opera tomosha qildim.",
+      "Bu opera muhabbat va xiyonat mavzusiga bag'ishlangan mashhur italyan asaridir."
+    ],
+    "오피스텔": [
+      "Ofistelda yashayman.",
+      "Ofistel toza.",
+      "Men ishxonam yaqinidagi ofistelda yolg'iz yashayapman.",
+      "Ofistellar ham ofis, ham turar joy sifatida foydalanish mumkinligi sababli yosh xodimlar orasida juda mashhur."
+    ],
+    "오해": [
+      "Noto'g'ri tushunmang.",
+      "Men do'stimni noto'g'ri tushundim.",
+      "Kichik tushunmovchilik tufayli do'stim bilan urishib qoldik, lekin gaplashib yarashdik.",
+      "Gapirish ohangi tufayli kelib chiqqan tushunmovchilikni suhbat orqali bemalol bartaraf etish mumkin."
+    ],
+    "오히려": [
+      "Aksincha, yaxshi.",
+      "Yordam bermoqchi edim, aksincha buzib qo'ydim.",
+      "Yomg'ir yog'gani uchun, aksincha, havo salqin bo'lib, kayfiyatim yaxshi bo'ldi.",
+      "U kechirim so'rash u yoqda tursin, aksincha, qarshisidagi odamga jahl qilib, hammani hayratda qoldirdi."
+    ],
+    "온": [
+      "Butun oila yig'iladi.",
+      "Butun dunyo oppoq.",
+      "Bugun butun mahalla odamlari yig'ilib, bazm qilishdi.",
+      "Bu xabar tarqalishi bilan butun mamlakat shodlikka to'lib, ko'chalarga yopirilib chiqdi."
+    ],
+    "온갖": [
+      "Har xil ovqatlar bor.",
+      "Bozorda har xil narsalar sotiladi.",
+      "Chusokda turli-tuman mazali taomlar tortilib, oila yig'iladi.",
+      "U turli-tuman qiyinchiliklarni yengib, nihoyat o'z do'konini ochdi."
+    ],
+    "온도": [
+      "Harorat yuqori.",
+      "Xona harorati necha daraja?",
+      "Qishda xona haroratini juda baland qilmagan ma'qul.",
+      "Suvning harorati yuz darajaga yetganda u qaynay boshlaydi."
+    ],
+    "온돌": [
+      "Ondol iliq.",
+      "Buvimning uyida ondol bor.",
+      "Qishda ondol isitiladigan polda yotsangiz, tanangiz tezda isinadi.",
+      "Ondol - o'choqdagi issiqlikni xona poli ostidan o'tkazib, xonani isitadigan Koreyaga xos isitish usuli."
+    ],
+    "온돌방": [
+      "Ondolli xona yaxshi.",
+      "Ondolli xonada uxladim.",
+      "Hanok tajribasiga borib, issiq ondolli xonada bir kecha tunadim.",
+      "Bu mehmonxonada karavot o'rniga ondolli xonalar borligi sababli u chet ellik sayyohlar orasida juda mashhur."
+    ],
+    "온라인": [
+      "Onlayn darsda qatnashaman.",
+      "Onlayn sotib olaman.",
+      "Men do'stlarim bilan tez-tez onlayn suhbatlashaman.",
+      "Koronavirusdan keyin onlayn xarid qiladigan odamlar soni keskin ortdi."
+    ],
+    "온몸": [
+      "Butun tanam og'riyapti.",
+      "Butun badanim ho'l bo'ldi.",
+      "Haddan tashqari ko'p sport bilan shug'ullanganim uchun butun tanam zirqirab og'riyapti.",
+      "To'satdan jala ostida qolib, butun badanim jiqqa ho'l bo'lgan holda uyga qaytdim."
+    ],
+    "온천": [
+      "Issiq buloqqa boraman.",
+      "Issiq buloq issiq.",
+      "Qishda oilam bilan issiq buloqqa borib, charchog'imizni chiqardik.",
+      "Bu hududda sifatli issiq buloqlar ko'p bo'lgani uchun har yili sayyohlar oqimi kuzatiladi."
+    ],
+    "온천욕": [
+      "Issiq buloqda cho'milaman.",
+      "Issiq buloqda cho'milish yoqimli.",
+      "Sovuq kunlarda issiq buloqda cho'milish juda yodga tushadi.",
+      "Sog'lig'i uchun har hafta oxiri issiq buloqda cho'milishni xush ko'radigan keksalar ko'p."
+    ],
+    "온통": [
+      "Hammayoq oppoq.",
+      "Xona butunlay qorong'i.",
+      "Do'stimni o'ylab, boshim butunlay g'ovlab ketdi.",
+      "Ertalab turib qarasam, ko'chalar butunlay qor bilan qoplangan edi."
+    ],
+    "올리다": [
+      "Qo'limni ko'taraman.",
+      "Rasmni joylashtirdim.",
+      "Men sayohat suratlarimni internetga joylab, do'stlarim bilan ulashaman.",
+      "Masalliqlar narxi oshgani sababli do'kon egasi noiloj taomlar narxini ko'tardi."
+    ],
+    "올림픽": [
+      "Olimpiadani tomosha qilaman.",
+      "Olimpiada har to'rt yilda o'tkaziladi.",
+      "Men Olimpiadada suzish musobaqalarini tomosha qilishni yaxshi ko'raman.",
+      "Koreya 1988-yilda Seulda Olimpiada o'yinlarini muvaffaqiyatli o'tkazgan."
+    ],
+    "올바르다": [
+      "Bu to'g'ri yo'l.",
+      "To'g'ri o'tiring.",
+      "Bolalarga to'g'ri turmush odatlarini o'rgatish muhim.",
+      "OAV faktlarni boricha yetkazib, xalqning to'g'ri xulosa chiqarishiga yordam berishi lozim."
+    ],
+    "옳다": [
+      "Sening gaping to'g'ri.",
+      "Bu fikr to'g'ri.",
+      "O'zimni haq deb hisoblasam ham, avval boshqalarning fikrini tinglashim kerak.",
+      "Uning da'vosi to'g'ri yoki noto'g'riligini yetarli dalillarni tekshirib ko'rgandan keyingina aniqlash mumkin."
+    ],
+    "옷차림": [
+      "Kiyinishi chiroyli.",
+      "Bugun kiyinishingiz chiroyli.",
+      "Ish suhbatiga borganda ozoda kiyinish muhim.",
+      "U ob-havoga mos kelmaydigan yengil kiyimda chiqib, oxiri shamollab qoldi."
+    ],
+    "와인": [
+      "Vino ichaman.",
+      "Vino mazali.",
+      "Kechqurun steyk bilan birga bir qadah vino ichdim.",
+      "Fransiya sifatli vino ishlab chiqaradigan mamlakat sifatida butun dunyoga mashhur."
+    ]
+  },
+  "0114": {
+    "완성": [
+      "Rasmni chizib tugatdim.",
+      "Uy vazifasi tugallandi.",
+      "Bir yil davomida tayyorlagan asarimni nihoyat tugatdim.",
+      "Bu bino o'n yillik qurilishdan so'ng nihoyat bitkazilib, fuqarolar uchun ochildi."
+    ],
+    "완전히": [
+      "Butunlay boshqacha.",
+      "Butunlay unutibman.",
+      "Kecha tun bo'yi o'ynab chiqqanim uchun bugun butunlay holdan toydim.",
+      "O'sha voqea uning hayotini butunlay o'zgartirib yuborgan hal qiluvchi burilish nuqtasi bo'ldi."
+    ],
+    "왕": [
+      "Qirol yashaydi.",
+      "Qirol katta uyda yashaydi.",
+      "Ertaklardagi qirol doim chiroyli toj kiyib yuradi.",
+      "Qirol Sejong Hangil yozuvini yaratgan Choson davlatining buyuk hukmdori sifatida keng hurmatga sazovor."
+    ],
+    "왕복": [
+      "Borib-qaytish chiptasini oldim.",
+      "Seulga borib-qaytish.",
+      "Pusangacha borib-qaytish poyezd chiptasini oldindan sotib olib qo'ydim.",
+      "Uydan ishxonagacha borib-kelish ikki soat vaqt olgani uchun ishga qatnash juda og'ir."
+    ],
+    "왕비": [
+      "Qirolicha chiroyli.",
+      "Qirolicha qirolga turmushga chiqdi.",
+      "Bu hikoyada qirolicha juda mehribon va xushmuomala inson.",
+      "Qirolicha saroy ichida qirolga ko'maklashib, saroydagi turli ishlarga umumiy rahbarlik qilardi."
+    ],
+    "왠지": [
+      "Negadir xafaman.",
+      "Negadir kayfiyatim yaxshi.",
+      "Negadir bugun yaxshi voqea yuz beradigandek tuyulyapti.",
+      "O'sha odamni ilk bor ko'rganimda negadir u menga begona emasdek tuyuldi."
+    ],
+    "외가": [
+      "Onamning ota-onasinikiga boraman.",
+      "Onamning ota-onasi qishloqda yashaydi.",
+      "Har ta'tilda onamning ota-onasinikiga borib, buvim bilan vaqt o'tkazaman.",
+      "U bolaligini ona tomondagi bobosi va buvisining uyida o'tkazib, tabiat qo'ynida ulg'aydi."
+    ],
+    "외과": [
+      "Jarrohlik bo'limiga boraman.",
+      "U jarroh.",
+      "Oyog'imni jarohatlab olganim uchun shifoxonaning jarrohlik bo'limida ko'rikdan o'tdim.",
+      "U jarroh-mutaxassis sifatida bir kunda bir nechta murakkab operatsiyani o'tkazadi."
+    ],
+    "외교관": [
+      "Diplomat bo'lmoqchiman.",
+      "U diplomat.",
+      "Otam diplomat bo'lgani uchun men ko'p mamlakatlarda yashaganman.",
+      "Diplomatlar xorijga yuborilib, o'z mamlakati manfaatlarini himoya qilish va ikki davlat o'rtasidagi munosabatlarni rivojlantirish vazifasini bajaradi."
+    ],
+    "외동딸": [
+      "Men yagona qizman.",
+      "U yagona qiz.",
+      "Men oilada yolg'iz qiz bo'lganim uchun aka-uka yoki opa-singillar bilan o'ynab ko'rmaganman.",
+      "Ota-onasi yolg'iz qizlarini ardoqlab o'stirib, unga mehrlarini ayamasdan berishdi."
+    ],
+    "외동아들": [
+      "Men yagona o'g'ilman.",
+      "U yagona o'g'il.",
+      "Do'stim oilada yagona o'g'il bo'lgani uchun ota-onasi uni juda ardoqlaydi.",
+      "Yagona o'g'il bo'lgan u ota-onasining barcha umidlarini o'z zimmasiga olib ulg'aydi."
+    ],
+    "외래어": [
+      "O'zlashgan so'zlarni o'rganaman.",
+      "\"Keopi\" (kofe) so'zi chet tilidan o'zlashgan.",
+      "Koreys tilida ingliz tilidan o'zlashgan so'zlar juda ko'p.",
+      "O'zlashgan so'zlarni yozishda Milliy til institutining chet so'zlar imlo qoidalariga amal qilish kerak."
+    ],
+    "외로움": [
+      "Yolg'izlikni his qilaman.",
+      "Yolg'izlik kuchli.",
+      "Yolg'iz yashaganim uchun ba'zida yolg'izlikni his qilaman.",
+      "Zamonaviy jamiyatda yolg'izlikda vafot etish va yolg'izlik nafaqat keksalar, balki yoshlar uchun ham jiddiy muammoga aylanib bormoqda."
+    ],
+    "외모": [
+      "Tashqi ko'rinishi chiroyli.",
+      "Tashqi ko'rinishdan ko'ra qalb muhimroq.",
+      "Uning tashqi ko'rinishi oddiy, lekin fe'li yaxshi bo'lgani uchun juda mashhur.",
+      "Ish suhbatida nomzodni faqat tashqi ko'rinishiga qarab baholash adolatsiz kamsitish ekani haqida tanqidlar bor."
+    ],
+    "외식": [
+      "Tashqarida ovqatlanamiz.",
+      "Bugun kechki ovqatni tashqarida yeymiz.",
+      "Dam olish kunida oilam bilan sevimli restoranimizda ovqatlandik.",
+      "Narxlar oshishi bilan tashqarida ovqatlanish o'rniga uyda o'zi ovqat tayyorlab yeydiganlar ko'paymoqda."
+    ],
+    "외아들": [
+      "Men yagona o'g'ilman.",
+      "U yagona o'g'il.",
+      "Yagona o'g'il bo'lgan akam ota-onasining yonida yashab, ularni parvarish qiladi.",
+      "U xonadonda yagona o'g'il bo'lib tug'ilgani uchun yoshligidan unga katta umidlar bog'langan edi."
+    ],
+    "외우다": [
+      "So'zlarni yodlayman.",
+      "Qo'shiqni yodladim.",
+      "Men har kuni ertalab o'ntadan inglizcha so'z yodlayman.",
+      "Imtihon oldidan o'quvchilar tunni bedor o'tkazib, formulalarni yodlash bilan band bo'lishdi."
+    ],
+    "외치다": [
+      "Baland ovozda qichqiraman.",
+      "Bola onasini chaqirib qichqirdi.",
+      "Muxlislar stadionda sportchilarning ismlarini baland ovozda hayqirishdi.",
+      "Namoyishchilar ko'chaga to'planib, erkinlik va tenglikni talab qilib hayqirgancha yurishni davom ettirishdi."
+    ],
+    "요가": [
+      "Yoga bilan shug'ullanaman.",
+      "Yoga yoqadi.",
+      "Men har kuni ertalab uyda yoga qilib, kunimni boshlayman.",
+      "Yoga nafaqat tananing egiluvchanligini oshiradi, balki ruhiy xotirjamlikka erishishga ham yordam beradi."
+    ],
+    "요구": [
+      "Talablar ko'p.",
+      "Do'stimdan yordam so'radim.",
+      "Mijoz taomni almashtirib berishni talab qilgani uchun yangisini tayyorlab berdik.",
+      "Ishchilar ish haqini oshirish va mehnat sharoitlarini yaxshilashni talab qilib, ish tashlashni boshlashdi."
+    ],
+    "요구르트": [
+      "Yogurt ichaman.",
+      "Yogurt mazali.",
+      "Men ertalab non va yogurt yeyman.",
+      "Yogurt tarkibida ichak salomatligi uchun foydali bo'lgan sut kislotasi bakteriyalari ko'p."
+    ],
+    "요리법": [
+      "Retseptni aytib bering.",
+      "Bu retsept oson.",
+      "Buvimning retseptini o'rganib, kimchi-jjigae pishirib ko'rdim.",
+      "Bu retseptning masalliqlari oddiy bo'lsa-da, ta'mi boy bo'lgani uchun boshlovchilar ham uni osongina takrorlay oladi."
+    ],
+    "요리사": [
+      "Oshpaz ovqat pishiryapti.",
+      "Otam oshpaz.",
+      "Men kelajakda mashhur oshpaz bo'lishni xohlayman.",
+      "O'sha oshpaz faqat yangi masalliqlardan foydalanishni qat'iy talab qilib, mijozlarga mehr bilan tayyorlangan taomlar tortadi."
+    ],
+    "요새": [
+      "Shu kunlarda bandman.",
+      "Shu kunlarda havo sovuq.",
+      "Shu kunlarda koreys tilini o'rganishga butunlay berilib ketganman.",
+      "Hozirgi yoshlar ma'lumotni ko'pincha kitobdan emas, videolar orqali olishadi."
+    ],
+    "요약": [
+      "Mazmunini qisqacha bayon qilaman.",
+      "Qisqacha bayon qilib bering.",
+      "O'qituvchi kitob mazmunini uch qatorda qisqacha bayon qilishni aytdilar.",
+      "Hisobotning birinchi sahifasida butun mazmun qisqacha bayon qilingan matn berilgan."
+    ],
+    "요청": [
+      "Yordam so'rayman.",
+      "Yordam so'rovi keldi.",
+      "Do'stim ko'chishga yordam berishimni so'ragani uchun dam olish kunida borishga qaror qildim.",
+      "Fuqarolarning iltimosiga ko'ra shahar hokimligi bog'ning ish vaqtini uzaytirishga qaror qildi."
+    ],
+    "욕": [
+      "So'kinmang.",
+      "Bola so'kinishni o'rganib oldi.",
+      "Do'stimni so'kkanim uchun o'qituvchidan tanbeh eshitdim.",
+      "Internetda anonim tarzda boshqalarni so'kib-haqoratlash qonunga ko'ra jazoga tortilishi mumkin."
+    ],
+    "욕실": [
+      "Hammom toza.",
+      "Hammomda dush qabul qilaman.",
+      "Hammom poli sirpanchiq, shuning uchun ehtiyot bo'lish kerak.",
+      "Yangi qurilgan kvartirada ikkita hammom bo'lgani uchun ertalablari navbat bo'lmaydi."
+    ],
+    "욕심": [
+      "U juda ochko'z.",
+      "Ochko'zlikni tashlang.",
+      "Ukam o'yinchoqlarga juda ochko'z, shuning uchun hech kimga bermaydi.",
+      "Haddan tashqari ochko'zlik qilib, borini ham yo'qotib, pushaymon bo'ladigan odamlar oz emas."
+    ],
+    "욕심쟁이": [
+      "U ochko'z odam.",
+      "Ukam ochko'z.",
+      "U bola ochko'z bo'lgani uchun pechenyelarning hammasini o'zi yeb qo'ydi.",
+      "Ertakdagi ochko'z chol oxir-oqibat butun boyligidan ayrilib, pushaymonlik bilan ko'z yosh to'kdi."
+    ]
+  },
+  "0115": {
+    "용": [
+      "Ajdar osmonda uchyapti.",
+      "Ajdar xayoliy hayvon.",
+      "Men ajdar chiqadigan filmlarni juda yaxshi ko'raman.",
+      "Sharqda ajdarho qadimdan kuch va omad ramzi bo'lgan sirli jonzot hisoblanib kelgan."
+    ],
+    "용기": [
+      "Jasoratim bor.",
+      "U juda jasur.",
+      "Men katta jasorat qilib, o'qituvchiga savol berdim.",
+      "O't o'chiruvchi odamlarni qutqarish uchun jasorat bilan alanga ichiga otildi."
+    ],
+    "용돈": [
+      "Cho'ntak puli olaman.",
+      "Oyim cho'ntak puli berdilar.",
+      "Men har oy oladigan cho'ntak pulimga kitob sotib olaman.",
+      "Bayramlarda kattalar bolalarga cho'ntak puli berish odati bor."
+    ],
+    "용서": [
+      "Meni kechiring.",
+      "Do'stimni kechirdim.",
+      "Men aybdorman, meni kechirsangiz edi.",
+      "U chin dildan kechirim so'ragan do'stini kechirib, yana avvalgidek munosabatda bo'lishga qaror qildi."
+    ],
+    "우등상": [
+      "A'lo o'quvchi mukofotini oldim.",
+      "Ukam a'lo o'qish mukofotini oldi.",
+      "Astoydil o'qiganim uchun bu yil a'lochi o'quvchi mukofotini oldim.",
+      "Bitiruv marosimida a'lo baholarga o'qigan o'quvchilarga a'lochilik mukofoti topshirildi."
+    ],
+    "우리말": [
+      "Koreys tilini o'rganaman.",
+      "Ona tilimiz go'zal.",
+      "Chet ellik do'stimga koreys tilini o'rgatyapman.",
+      "Hangil kunida ona tilimizni asrash va sevishga chorlovchi turli tadbirlar o'tkaziladi."
+    ],
+    "우물": [
+      "Quduq chuqur.",
+      "Quduqdan suv tortaman.",
+      "Qadimda qishloq aholisi quduqdan suv tashib ichgan.",
+      "Qishloq kiraverishidagi qadimiy quduqdan hozir ham tiniq suv chiqib turadi."
+    ],
+    "우수성": [
+      "Ustunligi yuqori.",
+      "Hangilning ustunligini bilaman.",
+      "Koreyaning yarimo'tkazgich texnologiyalari o'zining ustunligi bilan dunyoda e'tirof etilmoqda.",
+      "Tadqiqot guruhi yangi materialning ustunligini isbotlash uchun turli tajribalar o'tkazdi."
+    ],
+    "우승": [
+      "Bizning jamoa chempion bo'ldi.",
+      "Chempionlik bilan tabriklayman.",
+      "Maktabimiz futbol jamoasi finalda g'alaba qozonib, chempionlikni qo'lga kiritdi.",
+      "O'sha sportchi bu yil jahon chempionatida g'olib chiqib, eng yuqori cho'qqiga ko'tarildi."
+    ],
+    "우아하다": [
+      "Nafis.",
+      "U ayol nafis.",
+      "Balerinaning raqsi shunchalik nafis ediki, ko'zimni uzolmadim.",
+      "U nafis harakatlari va mayin so'zlari bilan odamlarning xayrixohligini qozondi."
+    ],
+    "우연": [
+      "Bu tasodif.",
+      "Tasodifan uchrashib qoldik.",
+      "Sayohatda uchratgan odamim aslida o'sha maktabda o'qigan katta kursdoshim bo'lib chiqqani ajoyib tasodif.",
+      "Ikkovining uchrashuvi tasodif edi, ammo keyingi rishtalari xuddi taqdirdagidek davom etdi."
+    ],
+    "우연히": [
+      "Tasodifan uchrashib qoldik.",
+      "Tasodifan ko'rib qoldim.",
+      "Ko'chada tasodifan eski do'stimni uchratib, juda xursand bo'ldim.",
+      "U kitob do'konida tasodifan qo'liga olgan bir kitob tufayli hayot yo'nalishini o'zgartirdi."
+    ],
+    "우울증": [
+      "Depressiyam bor.",
+      "Depressiya kasallikdir.",
+      "Do'stim depressiya tufayli shifoxonada davolanyapti.",
+      "Depressiya iroda masalasi emas, balki malakali davolanishni talab qiladigan kasallikdir."
+    ],
+    "우울하다": [
+      "Kayfiyatim tushkun.",
+      "Bugun kayfiyatim tushkun.",
+      "Yomg'irli kunlarda negadir ko'nglim g'ash bo'ladi.",
+      "Imtihondan o'ta olmaganidan keyin u bir necha kun tushkun qiyofada uyda o'tirdi."
+    ],
+    "우정": [
+      "Do'stlik chuqur.",
+      "Bizning do'stligimiz bor.",
+      "Men bolalikdan davom etib kelayotgan do'stlikni juda qadrlayman.",
+      "Ikkovi og'ir davrlarni birga yengib o'tib, o'zgarmas do'stlik rishtalarini mustahkamlashdi."
+    ],
+    "우주": [
+      "Koinot keng.",
+      "Koinotda yulduzlar ko'p.",
+      "Bolaligimdan koinotga borish mening orzuim edi.",
+      "Olimlar teleskop yordamida olis koinotdagi galaktikalarni kuzatib, hayotning kelib chiqishini o'rganishadi."
+    ],
+    "우주여행": [
+      "Kosmik sayohatga borishni xohlayman.",
+      "Kosmik sayohat qimmat.",
+      "Qachondir kosmik sayohatga chiqa olsam, Oyga borib ko'rmoqchiman.",
+      "Oddiy fuqarolar kosmik sayohatga chiqadigan davr yaqin orada boshlanishi taxmin qilinmoqda."
+    ],
+    "우편": [
+      "Pochta orqali jo'nataman.",
+      "Pochta keldi.",
+      "Men do'stimga pochta orqali sovg'a jo'natdim.",
+      "Hozir elektron pochta keng tarqalgani sababli pochta orqali xat almashish ancha kamaydi."
+    ],
+    "우편물": [
+      "Pochta jo'natmalari ko'p.",
+      "Pochta jo'natmasini oldim.",
+      "Har kuni ertalab eshik oldiga qo'yilgan pochta jo'natmalarini tekshiraman.",
+      "Boshqa joyga ko'chib o'tganda pochta jo'natmalari yangi manzilga yetkazilishi uchun oldindan ariza berib qo'yish kerak."
+    ],
+    "우편배달": [
+      "Pochta yetkazaman.",
+      "Pochtachi keldi.",
+      "Otam uzoq yillar qishloqda pochtachi bo'lib ishlaganlar.",
+      "U qor yoqqan kunlarda ham dam olmay, tog'dagi qishloqqacha pochta tashib borardi."
+    ],
+    "운": [
+      "Omadim bor.",
+      "Bugun omadim yo'q.",
+      "Ko'chadan pul topib olganim uchun omadim juda chopdi.",
+      "Uning mahorati ham bor edi, biroq muhim lahzada omad ham kulib boqqani uchun muvaffaqiyatga erisha oldi."
+    ],
+    "운명": [
+      "Taqdirga ishonaman.",
+      "Biz taqdirdoshmiz.",
+      "Men u odam bilan uchrashuvimni taqdir deb bilaman.",
+      "Odamlar qiyinchilikka duch kelganda ba'zan o'z taqdirlaridan nolishadi."
+    ],
+    "운전기사": [
+      "Haydovchi xushmuomala.",
+      "Taksi haydovchisi.",
+      "Avtobus haydovchisi amakiga salom berdim.",
+      "U yigirma yildan ortiq taksi haydovchisi bo'lib ishlab, oilasini boqib kelgan."
+    ],
+    "운전면허": [
+      "Haydovchilik guvohnomasini oldim.",
+      "Haydovchilik guvohnomam bor.",
+      "Men bu yil haydovchilik guvohnomasini olish uchun avtomaktabga qatnayapman.",
+      "Haydovchilik guvohnomasi imtihonidan o'tish uchun nazariy, amaliy va yo'lda haydash imtihonlarining barchasini topshirish kerak."
+    ],
+    "운전자": [
+      "Haydovchining uyqusi kelyapti.",
+      "Haydovchi xavfsizlik kamarini taqadi.",
+      "Haydovchilar svetofor ishoralariga qat'iy rioya qilishi kerak.",
+      "Har bir haydovchi yo'lda piyodalar xavfsizligini birinchi o'ringa qo'yishi kerak."
+    ],
+    "울보": [
+      "Men yig'loqiman.",
+      "Ukam yig'loqi.",
+      "Men film ko'rganimda doim yig'laydigan yig'loqiman.",
+      "U bola arzimas narsaga ham ko'z yosh to'kkani uchun do'stlari uni \"yig'loqi\" deb masxara qilishardi."
+    ],
+    "울음": [
+      "Yig'i ovozi eshitilyapti.",
+      "Chaqaloqning yig'isi baland.",
+      "Kechasi chaqaloq yig'lab yuborgani uchun onasi uni quchog'iga oldi.",
+      "U otilib chiqayotgan yig'isini bosish uchun labini qattiq tishladi."
+    ],
+    "웃어른": [
+      "Kattalarga salom beraman.",
+      "Kattalarni hurmat qilaman.",
+      "Men kattalarni uchratganimda ikki qo'lim bilan hurmat ko'rsatib salomlashaman.",
+      "Koreyada kattalar birinchi bo'lib qoshiq va cho'pni qo'lga olgandan keyingina ovqatlanishni boshlash odob hisoblanadi."
+    ],
+    "웃음": [
+      "Kulgim kelyapti.",
+      "Chaqaloqning kulgusi yoqimli.",
+      "Do'stimning hazilidan kulgim qistab, ancha vaqt to'xtay olmadim.",
+      "Mijozlarni yoqimli tabassum bilan kutib oladigan xodim tufayli do'kondagi muhit ancha yaxshilandi."
+    ],
+    "워낙": [
+      "Juda mazali.",
+      "U do'kon juda mashhur.",
+      "Ukam o'zi juda tirishqoq bo'lgani uchun ertalab erta turadi.",
+      "O'sha qo'shiqchi juda yaxshi kuylagani uchun qayerda bo'lmasin odamlar uni qarsaklar bilan olqishlaydi."
+    ]
+  },
+  "0116": {
+    "원고": [
+      "Qo'lyozma yozdim.",
+      "Qo'lyozma uzun.",
+      "Gazetada chiqadigan maqolamni bugungacha yozib tugatishim kerak.",
+      "Yozuvchi nashriyotga yuboriladigan qo'lyozmani belgilangan muddatga zo'rg'a tugalladi."
+    ],
+    "원래": [
+      "Asli shunday.",
+      "Asli shu yerda yashaganman.",
+      "Aslida achchiq ovqat yeya olmasdim, lekin hozir bemalol yeyman.",
+      "Bu bino aslida maktab bo'lgan, hozir esa muzey sifatida foydalanilmoqda."
+    ],
+    "원룸": [
+      "Bir xonali kvartirada yashayman.",
+      "Bir xonali kvartira kichkina.",
+      "Men universitet yaqinidagi bir xonali kvartirada yolg'iz yashayman.",
+      "Studiya-kvartirada xona va oshxona bitta joyda bo'lgani uchun ijara haqi nisbatan arzon bo'ladi."
+    ],
+    "원리": [
+      "Prinsipini bilaman.",
+      "Bu mashinaning ishlash prinsipi qanday?",
+      "Fizika darsida samolyotning osmonda uchish prinsipini o'rgandik.",
+      "Demokratiyaning asosiy tamoyili - xalq suverenitetga ega bo'lib, siyosatda ishtirok etishidir."
+    ],
+    "원서": [
+      "Ariza topshirdim.",
+      "Universitetga ariza yozyapman.",
+      "Men ishlashni xohlagan kompaniyamga ishga kirish arizasini topshirdim.",
+      "Abituriyentlar hujjat qabul qilish muddati ichida o'qishga topshiradigan universitet va mutaxassisligini puxta o'ylab tanlashlari kerak."
+    ],
+    "원숭이": [
+      "Maymun bor.",
+      "Maymun bananni yaxshi ko'radi.",
+      "Hayvonot bog'ida maymunning daraxtga tirmashishini tomosha qildim.",
+      "Maymunlar odamga o'xshash xatti-harakatlar qilgani uchun ko'plab tomoshabinlarning e'tiborini tortadi."
+    ],
+    "원인": [
+      "Sababi nima?",
+      "Baxtsiz hodisaning sababini qidiryapmiz.",
+      "Kasallik sababini aniqlash uchun shifoxonada tekshiruvdan o'tdim.",
+      "Politsiya yong'in chiqishining aniq sababini aniqlash uchun voqea joyida tekshiruv o'tkazdi."
+    ],
+    "월말": [
+      "Oy oxirida bandman.",
+      "Oy oxirida maosh olaman.",
+      "Oy oxirida ishxonada hisobot yozish bilan juda band bo'laman.",
+      "Bu kompaniya har oyning oxirida xodimlarga ish haqi to'laydi."
+    ],
+    "웨딩드레스": [
+      "To'y libosi chiroyli.",
+      "To'y libosini kiyaman.",
+      "Dugonamning oq to'y libosidagi ko'rinishi juda go'zal edi.",
+      "Kelin bir necha oy o'ylab yurganidan so'ng, ko'ngliga to'liq yoqqan to'y libosini tanladi."
+    ],
+    "위대하다": [
+      "U buyuk inson.",
+      "Onaning mehri buyuk.",
+      "Mening orzuim buyuk olim bo'lish.",
+      "Qirol Sejong Hangil yozuvini yaratgan buyuk xizmati uchun bugungi kungacha hurmat qilinadi."
+    ],
+    "위로": [
+      "Tasalli kerak.",
+      "Do'stimga tasalli berdim.",
+      "Qiyin paytimda do'stimning bitta iliq so'zi menga katta taskin bo'ldi.",
+      "U imtihondan o'ta olmagan ukasiga mehribon so'zlar bilan tasalli berdi."
+    ],
+    "위반": [
+      "Qoidani buzdim.",
+      "Yo'l harakati qoidasini buzdim.",
+      "Svetofor ishorasini buzganim uchun politsiyaga jarima to'lashimga to'g'ri keldi.",
+      "Bu kompaniya ekologik qonunchilikni buzganlikda gumonlanib, vakolatli organlar tomonidan tekshirilmoqda."
+    ],
+    "윗사람": [
+      "Kattalarni hurmat qilaman.",
+      "Kattalarga salom beraman.",
+      "Kattalar bilan gaplashganda hurmat shaklidagi so'zlarni ishlatish kerak.",
+      "Kompaniyada rahbarlarning ko'rsatmalariga amal qilish kerak, biroq asossiz talablarga nisbatan o'z fikrini ayta olish lozim."
+    ],
+    "유난히": [
+      "Ayniqsa sovuq.",
+      "Bugun ayniqsa charchadim.",
+      "Bu qish ayniqsa ko'p qor yog'gani uchun yo'llarda tirbandlik bo'lyapti.",
+      "O'sha bola g'ayrioddiy darajada qiziquvchan bo'lgani uchun o'qituvchiga tez-tez savol berardi."
+    ],
+    "유니폼": [
+      "Forma kiyaman.",
+      "Bu forma chiroyli.",
+      "Maktabimiz o'quvchilari ko'k rangli forma kiyadi.",
+      "Futbolchilar jamoa ramzi tushirilgan formalarini kiyib, stadionga kirib kelishdi."
+    ],
+    "유람선": [
+      "Sayohat kemasiga chiqaman.",
+      "Sayohat kemasi katta.",
+      "Xangang daryosida sayr kemasiga chiqib, tungi manzarani tomosha qildik.",
+      "Bu daryoda sayyohlarni olib, manzaralarni ko'rsatadigan sayohat kemalari kuniga bir necha marta qatnaydi."
+    ],
+    "유료": [
+      "Bu pullik.",
+      "Avtoturargoh pullik.",
+      "Bu muzeyga kirish pullik, shuning uchun chipta sotib olish kerak.",
+      "O'sha ilova dastlab bepul edi, ammo ba'zi funksiyalari pullik qilib qo'yildi."
+    ],
+    "유리창": [
+      "Deraza oynasi sindi.",
+      "Deraza oynasini artaman.",
+      "To'p uchib borib, deraza oynasini sindirdi.",
+      "Tozalovchi xodim arqonga osilgan holda baland binoning oynalarini artayotgan edi."
+    ],
+    "유머": [
+      "Hazilkash.",
+      "Uning hazil tuyg'usi yaxshi.",
+      "Men hazilkash odamlar bilan suhbatlashishni yoqtiraman.",
+      "Uning topqir hazillari tufayli noqulay bo'lgan yig'ilish muhiti ancha yumshadi."
+    ],
+    "유명": [
+      "Mashhur.",
+      "Bu do'kon mashhur.",
+      "Bu oshxona kimchi-jjigae bilan juda mashhur.",
+      "O'sha aktyor birgina serial bilan bir kechada butun mamlakatga mashhur bo'lib ketdi."
+    ],
+    "유적지": [
+      "Tarixiy yodgorlik joyiga boraman.",
+      "Tarixiy yodgorlik joyi ajoyib.",
+      "Yozgi ta'tilda Kyongjudagi tarixiy yodgorliklarni aylanib chiqdim.",
+      "Bu hududda Silla davriga oid tarixiy yodgorliklar ko'p bo'lgani uchun bu yerga tarixni o'rganish uchun keladigan o'quvchilar ko'p."
+    ],
+    "유창하다": [
+      "Koreys tilida ravon gapiradi.",
+      "U ingliz tilida ravon gapiradi.",
+      "Do'stim koreys tilida juda ravon gapiradi.",
+      "U chet elda uzoq yashagani uchun xitoy tilida ravon gapiradi."
+    ],
+    "유치원": [
+      "Bolalar bog'chasiga qatnayman.",
+      "Ukam bog'chaga boradi.",
+      "Qizim har kuni ertalab bog'chaga borib, do'stlari bilan o'ynaydi.",
+      "Bolalar bog'chasida bolalar qo'shiq va o'yinlar orqali kundalik hayotdagi asosiy odatlarni o'rganishadi."
+    ],
+    "유쾌하다": [
+      "Muhit quvnoq.",
+      "U odam quvnoq.",
+      "Do'stlarim bilan quvnoq vaqt o'tkazib, kayfiyatim ko'tarildi.",
+      "U har qanday vaziyatda ham quvnoq hazillar qilib, atrofidagilarni kuldiradi."
+    ],
+    "유행어": [
+      "Urf bo'lgan iboralarni o'rganaman.",
+      "Bu urf bo'lgan ibora qiziq.",
+      "Do'stlarim ishlatadigan urfdagi iboralarni takrorlab ko'rdim.",
+      "Serialdagi bir ibora katta shuhrat qozonib, bir zumda urf bo'lgan iboraga aylandi."
+    ],
+    "육식": [
+      "Sher go'shtxo'r.",
+      "Men go'shtli taomlarni yaxshi ko'raman.",
+      "Yo'lbars faqat go'sht yeydigan yirtqich hayvon.",
+      "Sog'lig'i uchun go'sht iste'molini kamaytirib, asosan sabzavotlardan iborat ovqatlanish tarziga amal qiladiganlar ko'paymoqda."
+    ],
+    "육아": [
+      "Bola tarbiyasi qiyin.",
+      "Oyim bola tarbiyasi bilan band.",
+      "Farzandim tug'ilgandan keyin ishdan ta'til olib, bola tarbiyasiga e'tibor qaratyapman.",
+      "Er-xotinning ikkalasi ham ishlaydigan oilalar ko'paygani sababli bola tarbiyasini ish bilan birga olib borish katta yukka aylanmoqda."
+    ],
+    "윷놀이": [
+      "Yut o'yinini o'ynaymiz.",
+      "Yut o'yini qiziqarli.",
+      "Seollalda butun oila yig'ilib, yut o'yinini o'ynadik.",
+      "Yut o'yini - yut tayoqchalarini otib, tushgan natijaga ko'ra donalarni yurgizib, marraga birinchi yetib kelgan tomon g'olib bo'ladigan o'yin."
+    ],
+    "은": [
+      "Kumush uzuk sotib oldim.",
+      "Bu marjon kumushdan.",
+      "Olimpiadada kumush medal olganim uchun juda xursand bo'ldim.",
+      "Kumush elektr tokini yaxshi o'tkazadigan metall bo'lgani uchun elektron jihozlarda ham ishlatiladi."
+    ],
+    "은혜": [
+      "Yaxshilikni unutmayman.",
+      "Ota-onamning yaxshiligi uchun minnatdorman.",
+      "Qiyin paytimda yordam bergan ustozimning yaxshiligini umrbod unutmayman.",
+      "U o'zini tarbiyalab voyaga yetkazgan xayrixohining yaxshiligini qaytarish uchun tinmay mehnat qildi."
+    ]
+  },
+  "0117": {
+    "음력": [
+      "Bugun qamariy taqvim bo'yicha Yangi yil.",
+      "Men tug'ilgan kunimni qamariy taqvim bo'yicha nishonlayman.",
+      "Buvim qamariy taqvimdagi sanaga qarab, xotira marosimi kunini belgilaydilar.",
+      "Qamariy va quyosh taqvimlarida oyning hisoblanishi turlicha bo'lgani uchun bayram sanalari har yili o'zgaradi."
+    ],
+    "음료": [
+      "Men sovuq ichimliklarni yaxshi ko'raman.",
+      "Bu oshxonada ichimliklar bepul.",
+      "Film ko'rishdan oldin do'kondan ichimlik va popkorn sotib oldim.",
+      "Gazli ichimliklarni haddan tashqari ko'p ichish sog'liq uchun zararli ekani haqidagi tadqiqot natijalari e'lon qilindi."
+    ],
+    "음성": [
+      "Telefonda ovoz yaxshi eshitilmayapti.",
+      "U odamning ovozi juda mayin.",
+      "Hozir SMS o'rniga tez-tez ovozli xabar yuboraman.",
+      "Nutqni tanib olish texnologiyasi rivojlanishi bilan mashinalarga og'zaki buyruq berish odatiy holga aylandi."
+    ],
+    "음식물": [
+      "Oziq-ovqatni tashlamang.",
+      "Ovqat chiqindilari alohida tashlanadi.",
+      "Yozda oziq-ovqat tez buziladi, shuning uchun muzlatkichga qo'yish kerak.",
+      "Bu binoga oziq-ovqat olib kirish taqiqlangan."
+    ],
+    "음식점": [
+      "Bu restoran juda mashhur.",
+      "Mahallamizda yangi restoran ochildi.",
+      "Do'stim bilan mazali restoran topib, tushlik qildik.",
+      "Bu restoranda hafta oxirlari oldindan buyurtma qilmasangiz, joy topish qiyin."
+    ],
+    "음악회": [
+      "Bugun konsertga boraman.",
+      "Konsertga ikkita chipta sotib oldim.",
+      "Dam olish kunida oilam bilan bog'da bo'ladigan konsertni tomosha qilgani bordik.",
+      "Bu yilgi konsertni mahalliy aholining o'zi tayyorlagani uchun u yanada mazmunli bo'ldi."
+    ],
+    "음주": [
+      "Mast holda mashina haydash xavfli.",
+      "Men spirtli ichimlik ichmayman.",
+      "Sog'lig'im tufayli hozir spirtli ichimlik ichishni kamaytiryapman.",
+      "Spirtli ichimlik ichgandan keyin mashina haydash qonun bo'yicha qattiq jazolanadi."
+    ],
+    "응급실": [
+      "Shoshilinch yordam bo'limi qayerda?",
+      "Bola kasal bo'lib qolgani uchun shoshilinch yordam bo'limiga bordik.",
+      "Kechasi jarohat olib, shifoxonaning shoshilinch yordam bo'limida davolandim.",
+      "Hafta oxiri kechalari shoshilinch tibbiy yordam bo'limiga bemorlar oqib kelgani uchun uzoq kutishga to'g'ri keladi."
+    ],
+    "응답": [
+      "Xatga javob berdim.",
+      "Hali javob yo'q.",
+      "Qo'ng'iroq qildim, lekin hech kim javob bermadi.",
+      "So'rovnomada javob berganlar ulushi past bo'lgani uchun natijalarni talqin qilish qiyin bo'ldi."
+    ],
+    "응답자": [
+      "Javob beruvchilar yuz kishi.",
+      "Javob beruvchilarning yarmi ayollar.",
+      "Bu so'rovnomada respondentlarning aksariyati mamnun ekanini aytdi.",
+      "So'rovnoma respondentlarining oltmish foizi masofaviy ishlashni afzal ko'rishi aniqlandi."
+    ],
+    "응시자": [
+      "Imtihon topshiruvchilar bu tomonga keling.",
+      "Imtihon topshiruvchilar juda ko'p.",
+      "Imtihon binosida imtihon topshiruvchilar navbatda kutib turishibdi.",
+      "Hisob-kitoblarga ko'ra, bu galgi imtihonga qatnashuvchilar soni o'tgan yilgidan ming kishidan ko'proqqa oshgan."
+    ],
+    "응원": [
+      "Meni qo'llab-quvvatlang.",
+      "Men jamoamizni qo'llab-quvvatlayman.",
+      "Do'stimning musobaqasiga borib, uni baland ovozda qo'llab-quvvatladim.",
+      "Ota-onamning iliq qo'llab-quvvatlashi tufayli og'ir davrni muvaffaqiyatli yengib o'ta oldim."
+    ],
+    "의견": [
+      "Mening fikrim boshqacha.",
+      "Bu masala bo'yicha fikringiz bormi?",
+      "Yig'ilishda hamma o'z fikrini erkin bildirdi.",
+      "Fikrlar bir-biridan farq qilsa ham, suhbatdoshning gapini oxirigacha tinglash muhim."
+    ],
+    "의논": [
+      "Ota-onam bilan maslahatlashaman.",
+      "Bu ishni birga maslahatlashamiz.",
+      "Sayohat rejasini do'stim bilan maslahatlashib belgiladik.",
+      "Muhim qaror qabul qilishdan oldin oila bilan yaxshilab maslahatlashib olgan ma'qul."
+    ],
+    "의류": [
+      "Kiyim-kechak do'koni qayerda?",
+      "Men kiyim-kechak kompaniyasida ishlayman.",
+      "Univermagning uchinchi qavatida ayollar kiyim-kechagi sotiladi.",
+      "Kiyim-kechak sanoati atrof-muhit ifloslanishining asosiy sabablaridan biri sifatida ko'rsatilmoqda."
+    ],
+    "의무": [
+      "Ovoz berish fuqaroning burchi.",
+      "Talabaning o'qish majburiyati bor.",
+      "Bizning soliq to'lash majburiyatimiz bor.",
+      "Barcha fuqarolar qonunga muvofiq farzandlariga ta'lim berish majburiyatini zimmalariga oladi."
+    ],
+    "의문": [
+      "Menda savol bor.",
+      "O'sha gapdan keyin shubhaga tushdim.",
+      "Uning tushuntirishini eshitganimdan keyin ham javobsiz savol qoldi.",
+      "Voqeaning asl mohiyati bilan bog'liq savollar birin-ketin paydo bo'lgani sababli qayta tergov o'tkazishni talab qilayotgan ovozlar kuchaydi."
+    ],
+    "의사소통": [
+      "Muloqot qilish qiyin.",
+      "Biz ingliz tilida muloqot qilamiz.",
+      "Chet elda til tufayli muloqotda qiyinchiliklarga duch keldim.",
+      "Ish joyida ravon muloqot mehnat samaradorligini oshirishda katta rol o'ynaydi."
+    ],
+    "의상": [
+      "Bu libos chiroyli.",
+      "Sahna libosini kiydim.",
+      "Do'stlarim bilan birga bazmda kiyadigan liboslarimizni tanladik.",
+      "Aktyorlarning ko'zni qamashtiruvchi liboslari filmning ruhini yanada yorqinroq ko'rsatib berdi."
+    ],
+    "의식주": [
+      "Kiyim, ovqat va uy-joy muhim.",
+      "Insonga kiyim, ovqat va uy-joy kerak.",
+      "Kambag'al odamlar uchun eng katta muammo kiyim, oziq-ovqat va boshpana masalasini hal qilishdir.",
+      "Hatto eng oddiy kiyim, ovqat va boshpana bilan ham ta'minlanmagan odamlar dunyo bo'yicha hamon yuzlab millionni tashkil etadi."
+    ],
+    "의심": [
+      "Men juda shubhaliman.",
+      "U odamdan shubhalanmang.",
+      "Do'stimni yolg'on gapiryapti deb gumon qildim, lekin bu haqiqat emas edi.",
+      "Aniq dalilsiz boshqalarga shubha bilan qarash ishonchga asoslangan munosabatlarga putur yetkazishi mumkin."
+    ],
+    "의외로": [
+      "Kutilmaganda oson bo'ldi.",
+      "Bu taom kutilmaganda mazali ekan.",
+      "Imtihon kutilmaganda qiyin bo'lgani uchun juda hayron qoldim.",
+      "U ko'rinishidan jimgina odamga o'xshasa-da, kutilmaganda faol xarakter egasi bo'lib chiqdi."
+    ],
+    "의욕": [
+      "Shu kunlarda ishtiyoqim yo'q.",
+      "Menda o'qishga ishtiyoq paydo bo'ldi.",
+      "Havo bulutli bo'lgani uchun hech narsa qilishga xohishim yo'q.",
+      "Yangi maqsad paydo bo'lgach, u yana ishga bo'lgan ishtiyoqini qayta tikladi."
+    ],
+    "의의": [
+      "Bu ishning ahamiyati katta.",
+      "Bu tadbirning ahamiyati bor.",
+      "Birgalikda qatnashganimizning o'zi ahamiyatli.",
+      "Bu tadqiqot mavjud odatiy tasavvurlarni ag'darib tashlagani bilan katta ilmiy ahamiyatga ega deb baholanmoqda."
+    ],
+    "의지": [
+      "Mening irodam kuchli.",
+      "Uning irodasi zaif.",
+      "Sport bilan muntazam shug'ullanish uchun kuchli iroda kerak.",
+      "Qiyinchiliklar ichida ham maqsadga erishish irodasini yo'qotmaslik muhim."
+    ],
+    "의하다": [
+      "Yangiliklarga ko'ra yomg'ir yog'adi.",
+      "Qonunga ko'ra belgilangan.",
+      "Ob-havo ma'lumotiga ko'ra, ertaga havo ochiq bo'ladi.",
+      "Politsiyaning bayonotiga ko'ra, avariyaga haydovchining e'tiborsizligi sabab bo'lgani aniqlandi."
+    ],
+    "의학": [
+      "Men tibbiyotni o'rganaman.",
+      "Tibbiyot qiyin fan.",
+      "Ukam tibbiyot universitetiga kirib, shifokor bo'lmoqchi.",
+      "Zamonaviy tibbiyotning rivojlanishi tufayli bir paytlar davosiz deb hisoblangan ko'plab kasalliklarni davolash mumkin bo'ldi."
+    ],
+    "의학적": [
+      "Bu tibbiy muammo.",
+      "Tibbiy yordam kerak.",
+      "Shifokor buni tibbiy nuqtai nazardan tushuntirib berdi.",
+      "Bu usul tibbiy asosga ega bo'lmagani sababli davolash usuli sifatida tan olinmadi."
+    ],
+    "이것저것": [
+      "U-bu narsa sotib oldim.",
+      "U-bu narsalarni yegim keladi.",
+      "Bozorda u-bu narsalarni tomosha qilib yurib, vaqt qanday o'tganini bilmay qoldim.",
+      "Ko'chish oldidan u-bu narsalarni tayyorlash kerak bo'lgani uchun bir necha kun boshim qotib yurdi."
+    ],
+    "이국적": [
+      "Bu taom ekzotik.",
+      "Ekzotik muhit yoqadi.",
+      "O'sha kafe ekzotik bezaklari tufayli juda mashhur.",
+      "Notanish ziravorlarning hidi ko'chani ekzotik ruh bilan to'ldirib yubordi."
+    ]
+  },
+  "0118": {
+    "이기다": [
+      "Bizning jamoa yutdi.",
+      "Men o'yinda g'alaba qozonmoqchiman.",
+      "Kechagi futbol o'yinida bizning maktab g'alaba qozondi.",
+      "U oxirigacha taslim bo'lmay harakat qilib, og'ir xastalikni yengib chiqdi."
+    ],
+    "이기적": [
+      "U odam xudbin.",
+      "Xudbinlarcha xatti-harakat yomon.",
+      "Do'stim xudbinlarcha harakat qilgani uchun jahlim chiqdi.",
+      "Faqat o'z manfaatini o'ylaydigan xudbinona munosabat oxir-oqibat atrofdagi odamlarni undan uzoqlashtiradi."
+    ],
+    "이끌다": [
+      "O'qituvchi o'quvchilarni yetaklaydi.",
+      "Bolani qo'lidan yetaklab ketdim.",
+      "U jamoamizni boshqarib, chempionlikka olib chiqdi.",
+      "Rahbar jamoa a'zolarini bir yo'nalishda olg'a yetaklay bilishi kerak."
+    ],
+    "이내": [
+      "Bir soat ichida keladi.",
+      "O'n daqiqa ichida yetib boraman.",
+      "Hujjatlarni uch kun ichida topshiring.",
+      "Pulni qaytarish faqat xarid qilingandan keyin bir hafta ichida ariza berilgan taqdirdagina mumkin."
+    ],
+    "이다": [
+      "Men talabaman.",
+      "Bu mening sumkam.",
+      "Otam o'qituvchi, onam esa shifokor.",
+      "Seul Koreyaning poytaxti bo'lib, aholisi eng ko'p bo'lgan shahardir."
+    ],
+    "이동": [
+      "Hozir ko'chyapmiz.",
+      "Avtobusda boramiz.",
+      "Yig'ilish joyiga yetib borishga o'ttiz daqiqa ketdi.",
+      "Jamoat transporti qulay bo'lgani uchun shahar ichida harakatlanish unchalik qiyin emas."
+    ],
+    "이따": [
+      "Keyinroq ko'rishamiz.",
+      "Birozdan keyin qo'ng'iroq qilaman.",
+      "Hozir bandman, birozdan keyin birga tushlik qilaylik.",
+      "Birozdan keyin yig'ilish tugagach, materiallarni tartibga solib, sizga yuboraman."
+    ],
+    "이때": [
+      "Shu payt yomg'ir yog'di.",
+      "Shu payt eng yaxshi vaqt.",
+      "Men do'stim bilan aynan shu paytda ilk bor tanishganman.",
+      "Bu paytni qo'ldan boy bersangiz, bunday imkoniyat boshqa qo'lga kirmasligi mumkin."
+    ],
+    "이러하다": [
+      "Vaziyat mana shunday.",
+      "Bunday ish birinchi marta bo'lyapti.",
+      "Vaziyat shunday, iltimos, tushunib qarang.",
+      "Muammoning sababi shunday ekan, uni hal qilish usuli ham boshqacha bo'lishi kerak."
+    ],
+    "이런저런": [
+      "U-bu haqida gaplashdik.",
+      "Har xil fikrlar xayolimga keladi.",
+      "Do'stim bilan u-bu haqda gaplashib, kofe ichdik.",
+      "U turli bahonalarni ro'kach qilib, uchrashuvni tez-tez orqaga surardi."
+    ],
+    "이루다": [
+      "Men orzuimga erishmoqchiman.",
+      "Biz jamoa tuzdik.",
+      "Astoydil harakat qilib, maqsadimga erishdim.",
+      "U uzoq yillik mashaqqatli mehnatdan so'ng nihoyat muvaffaqiyatga erishib, odamlarning havasini keltirdi."
+    ],
+    "이루어지다": [
+      "Orzuim amalga oshdi.",
+      "Majlis o'tkaziladi.",
+      "Nihoyat ko'p yillik orzuim amalga oshgani uchun juda xursandman.",
+      "Bu uyushma turli sohalar mutaxassislaridan tashkil topgan."
+    ],
+    "이름나다": [
+      "Bu oshxona mashhur.",
+      "U qo'shiqchi mashhur bo'ldi.",
+      "Bu hudud mazali olmalari bilan nom qozongan.",
+      "U yosh bo'lishiga qaramay, yuksak mahorati tufayli nom qozongan oshpazga aylandi."
+    ],
+    "이름표": [
+      "Ism yorlig'ini taqaman.",
+      "Ism yorlig'im yo'q.",
+      "Maktabda kiyimga ism yorlig'ini taqib yurish kerak.",
+      "Tadbir o'tkaziladigan joyda barcha ishtirokchilar ism yorlig'ini taqib yurishlari belgilangan."
+    ],
+    "이리": [
+      "Bu yoqqa keling.",
+      "Bu yoqqa o'tiring.",
+      "Yo'l tor, shuning uchun bu yoqqa chetlanib o'ting.",
+      "U qo'l ishorasi bilan bolalarni bu yoqqa chaqirib to'pladi va hikoya qila boshladi."
+    ],
+    "이리저리": [
+      "U yoq-bu yoqqa yurdim.",
+      "U yoq-bu yoqni qidirib ko'rdim.",
+      "Bolalar bog'da u yoqdan-bu yoqqa yugurib yurishibdi.",
+      "Shamol esgach, daraxt barglari u yoq-bu yoqqa uchib, yo'l ustida to'planib qoldi."
+    ],
+    "이마": [
+      "Peshonam og'riyapti.",
+      "Peshonamdan ter chiqyapti.",
+      "Isitmam chiqqani uchun peshonamga sovuq sochiq qo'ydim.",
+      "U peshonasidagi chuqur ajinlarni qo'li bilan ishqalab, xayolga cho'mdi."
+    ],
+    "이만": [
+      "Bugun shu bilan ketaman.",
+      "Shu bilan tugataylikmi?",
+      "Vaqt kech bo'lgani uchun bugungi suhbatimizni shu yerda tugataman.",
+      "Bugungi yig'ilishni shu bilan yakunlab, ertaga muhokamani davom ettiramiz."
+    ],
+    "이만큼": [
+      "Shuncha bering.",
+      "Mana shunchalik o'sdi.",
+      "Farzandimiz shunchalik katta bo'lganidan juda xursandmiz.",
+      "Shuncha harakat qilganimga qaramay natija yaxshi bo'lmagani uchun afsuslanyapman."
+    ],
+    "이미": [
+      "Allaqachon ovqatlandim.",
+      "U allaqachon ketdi.",
+      "Men yetib kelganimda film allaqachon boshlangan edi.",
+      "O'tib ketgan ishlarga pushaymon bo'lgandan ko'ra, kelajakdagi ishlarga tayyorgarlik ko'rgan afzal."
+    ],
+    "이미지": [
+      "Bu yaxshi imij.",
+      "Bu rasm chiroyli.",
+      "U aktyorning obrazi mayin va yoqimli.",
+      "Kompaniyalar iste'molchilarda ishonch uyg'otadigan imijni shakllantirish uchun ko'p kuch sarflaydi."
+    ],
+    "이민": [
+      "U Amerikaga ko'chib ketdi.",
+      "Oilamiz chet elga ko'chib ketish haqida o'ylayapti.",
+      "Amakim ancha yillar oldin Kanadaga ko'chib ketib, o'sha yerda yashayapti.",
+      "Ko'plab odamlar yaxshiroq hayot izlab, notanish mamlakatlarga ko'chib ketishni tanlab kelgan."
+    ],
+    "이별": [
+      "Ayriliq qayg'uli.",
+      "Biz ajrashdik.",
+      "Do'stim bilan aeroportda ko'z yoshlar bilan xayrlashdik.",
+      "Uzoq yillik sevgilisi bilan ajrashganidan keyin u bir muddat hech bir ishga qo'li bormay qoldi."
+    ],
+    "이불": [
+      "Ko'rpa issiq.",
+      "Ko'rpa yopinib uxlayman.",
+      "Ertalab turib, ko'rpamni yig'ishtiraman.",
+      "Qish kelishi bilan qalin ko'rpani olib, quyoshda quritib qo'ydik."
+    ],
+    "이비인후과": [
+      "Quloq-burun-tomoq shifokoriga boraman.",
+      "Quloq-burun-tomoq shifokori qayerda?",
+      "Shamollab qolganim uchun LOR shifokoridan dori oldim.",
+      "Qulog'im tinmay og'rigani uchun LOR shifokori qabuliga yozildim."
+    ],
+    "이삿짐": [
+      "Ko'chish yuklari ko'p.",
+      "Ko'chish uchun narsalarni yig'ishtiryapman.",
+      "Ertaga ko'chib o'tayotganimiz uchun bugun barcha yuklarni joylab bo'ldim.",
+      "Ko'chish xizmati xodimlari og'ir mebellarni ehtiyotkorlik bilan tashishdi."
+    ],
+    "이상형": [
+      "Mening orzudagi insonim baland bo'yli.",
+      "Sizning orzuingizdagi inson qanday?",
+      "Men uchun ideal inson bu bir-birimizni yaxshi tushuna oladigan odam.",
+      "Orzusidagi inson qanday ekanligi haqidagi savolga u uyalinqirab jilmaydi-yu, javob berishdan qochdi."
+    ],
+    "이성": [
+      "Aqlingizni yo'qotmang.",
+      "Mening qarama-qarshi jinsdan do'stim yo'q.",
+      "Jahlingiz chiqsa ham, aqlni yo'qotmay, xotirjam gapirishingiz kerak.",
+      "U his-tuyg'ularga berilmay, muammoni aql bilan baholashga harakat qildi."
+    ],
+    "이어지다": [
+      "Yo'l davom etadi.",
+      "Suhbat davom etdi.",
+      "Bu yo'l to'g'ri dengizgacha cho'zilib boradi.",
+      "Yomg'irlar mavsumi o'n besh kundan beri davom etayotgani sababli ekinlarga yetayotgan zarar tobora ortib bormoqda."
+    ],
+    "이어폰": [
+      "Quloqchin sotib oldim.",
+      "Quloqchinim yo'q.",
+      "Metroda quloqchin orqali musiqa tinglayman.",
+      "Aytishlaricha, quloqchinni uzoq vaqt taqib yurish quloq salomatligi uchun zararli ekan."
+    ]
+  },
+  "0119": {
+    "이외": [
+      "Bundan boshqa kerakli narsa bormi?",
+      "Bundan boshqasi yo'q.",
+      "Men kofedan boshqa hech narsa ichmayman.",
+      "Ariza blankasidan tashqari shaxsni tasdiqlovchi hujjat nusxasini ham birga topshirish kerak."
+    ],
+    "이용료": [
+      "Foydalanish haqi qancha?",
+      "Foydalanish bepul.",
+      "Bu suzish havzasidan foydalanish haqi bir soatiga besh ming von.",
+      "Ommaviy kutubxonalar foydalanish haqi olmagani uchun u yerga har kim bemalol borishi mumkin."
+    ],
+    "이용자": [
+      "Foydalanuvchilar ko'p.",
+      "Foydalanuvchilar bu yerga ismini yozsin.",
+      "Kutubxonadan foydalanuvchilar kirish kartasini albatta olib kelishlari kerak.",
+      "Bu ilova foydalanuvchilar qulayligini oshirish maqsadida ekran tuzilishini butunlay yangiladi."
+    ],
+    "이웃": [
+      "Qo'shnilar xushmuomala.",
+      "Qo'shnilar bilan salomlashaman.",
+      "Men qo'shnilarim bilan taomlarimni baham ko'raman.",
+      "Hozir shaharda hatto qo'shnisining yuzini ham tanimay yashaydigan odamlar ko'p."
+    ],
+    "이웃집": [
+      "Qo'shni uyda kuchukcha bor.",
+      "Qo'shni amaki keldilar.",
+      "Qo'shnilarimiz tteok olib kelishdi, biz uni maza qilib yedik.",
+      "Qo'shni uydan kech tungacha shovqin eshitilgani uchun boshqaruv idorasiga murojaat qildim."
+    ],
+    "이익": [
+      "Foyda ko'p.",
+      "Bu ishdan foyda kam.",
+      "Do'konning bu yilgi foydasi o'tgan yilgidan oshdi.",
+      "Kompaniyalar nafaqat foyda olishi, balki uni jamiyatga qaytarish mas'uliyatini ham o'z zimmasiga olishi kerak."
+    ],
+    "이자": [
+      "Bank foizi yuqori.",
+      "Foiz to'lashim kerak.",
+      "Kredit olsangiz, har oy foizini to'lashingiz kerak.",
+      "Foiz stavkalari oshgach, kredit foizlari yuki og'irlashib, oddiy xalqning turmushi qiyinlashdi."
+    ],
+    "이전": [
+      "Oldin uchrashganmiz.",
+      "Avvalgidan yaxshiroq bo'ldi.",
+      "Men Koreyaga kelishimdan oldin ingliz tilini o'rganganman.",
+      "Bu yerga ko'chib kelishimizdan oldingi mahalla hozirgidan ancha sokin joy edi."
+    ],
+    "이제야": [
+      "Endigina bildim.",
+      "Endi keldingizmi?",
+      "U odamning ko'nglini endigina tushunib yetdim.",
+      "Ish endigina tugab, nihoyat kechki ovqatni yeyishga imkon topdim."
+    ],
+    "이하": [
+      "O'n yoshgacha bo'lganlar uchun bepul.",
+      "Harorat minus besh darajadan past.",
+      "Bo'yi bir yuz yigirma santimetr va undan past bo'lgan bolalar mina olmaydi.",
+      "Bu imtihonda ellik ball va undan kam olinsa, qayta topshirish kerak."
+    ],
+    "이해력": [
+      "Tushunish qobiliyati yaxshi.",
+      "Bolaning tushunish qobiliyati yuqori.",
+      "Kitobni ko'p o'qisangiz, tushunish qobiliyatingiz yaxshilanadi.",
+      "Kitob o'qish so'z boyligi bilan birga matnni idrok etish qobiliyatini ham rivojlantiradigan samarali usuldir."
+    ],
+    "이해심": [
+      "U juda tushunuvchan.",
+      "Oyim juda tushunuvchan.",
+      "Do'stim tushunuvchan bo'lgani uchun gaplarimni diqqat bilan tinglaydi.",
+      "Er-xotin o'rtasida bir-birining kamchiliklarini kechira oladigan tushunuvchanlik hammadan ko'ra zarur."
+    ],
+    "이혼": [
+      "Ota-onam ajrashishdi.",
+      "Ajrashish og'ir.",
+      "U er-xotin fe'l-atvorlari to'g'ri kelmagani uchun ajrashib ketishdi.",
+      "Ajrashganlaridan keyin ham bolani birga tarbiyalash uchun ikkovi muntazam ravishda kelishuvni davom ettirishdi."
+    ],
+    "이후": [
+      "Ovqatdan keyin dori ichaman.",
+      "Keyinroq bog'lanaman.",
+      "Men Koreyaga kelganimdan beri har kuni koreys tilini o'rganaman.",
+      "U avariyadan keyin mashina haydashdan qo'rqadigan bo'lib qolganini tan oldi."
+    ],
+    "익숙하다": [
+      "Bu yo'l menga tanish.",
+      "Bu qo'shiq tanish.",
+      "Endi Koreyadagi hayotga ancha ko'nikib qoldim.",
+      "Uzoq vaqtdan beri ishlatib kelganim uchun bu asbobga qo'lim o'rganib qolgan."
+    ],
+    "익히다": [
+      "Go'shtni pishiraman.",
+      "Men koreys tilini o'rganyapman.",
+      "Kartoshkani yaxshilab pishirib, salat tayyorladim.",
+      "Yangi mahoratni puxta o'zlashtirish uchun tinimsiz takroriy mashq qilish zarur."
+    ],
+    "인간": [
+      "Inson ham hayvon.",
+      "U yaxshi inson.",
+      "Inson yolg'iz o'zi yashay olmaydigan mavjudotdir.",
+      "Insonning atrof-muhitga ta'siri tobora ortib bormoqda."
+    ],
+    "인간관계": [
+      "Insoniy munosabatlar qiyin.",
+      "Uning tanishlari ko'p.",
+      "Yangi ish joyimda yaxshi munosabatlar o'rnatmoqchiman.",
+      "Do'stona insoniy munosabatlarni saqlab qolish uchun suhbatdoshni hurmat qilish muhim."
+    ],
+    "인간성": [
+      "U insoniy fazilatlarga boy.",
+      "Insoniylik muhim.",
+      "Men odamlar bilan tanishganda tashqi ko'rinishga emas, insoniy fazilatlariga qarayman.",
+      "Eng og'ir vaziyatlarda ham insoniyligini yo'qotmaslikka intilgan odamlarning hikoyasi chuqur ta'sir qoldirdi."
+    ],
+    "인간적": [
+      "U insonparvar.",
+      "Odamoxun insonlarni yaxshi ko'raman.",
+      "Direktorimiz xodimlarga insoniylik bilan munosabatda bo'ladi.",
+      "Uning insoniy fazilatlari ma'lum bo'lgach, jamoatchilikning unga bo'lgan xayrixohligi yanada oshdi."
+    ],
+    "인류": [
+      "Insoniyat Yerda yashaydi.",
+      "Insoniyat tarixi uzoq.",
+      "Insoniyat uzoq vaqtdan beri olovdan foydalanib keladi.",
+      "Iqlim o'zgarishi butun insoniyat birgalikda hal qilishi kerak bo'lgan dolzarb muammodir."
+    ],
+    "인사말": [
+      "Salomlashuv so'zlari qiyin.",
+      "Koreys tilidagi salomlashish iboralarini o'rganyapman.",
+      "Birinchi marta tanishganda ishlatiladigan salomlashuv iboralarini yodladim.",
+      "Tadbirda rahbar qisqacha salomlashish nutqi bilan mehmonlarni kutib oldi."
+    ],
+    "인상적": [
+      "U film ta'sirli.",
+      "Esda qolarli kun bo'ldi.",
+      "O'sha qo'shiqchining ovozi juda esda qolarli edi.",
+      "Ma'ruzachining mantiqiy fikrlarini aniq va ravshan bayon qilishi tinglovchilarda katta taassurot qoldirdi."
+    ],
+    "인생": [
+      "Hayot uzun.",
+      "Men hayotdan zavq olyapman.",
+      "Bobom bizga tez-tez hayot hikoyalarini aytib beradilar.",
+      "Hayotda quvonchli kunlar ham, qayg'uli kunlar ham bo'lishi tabiiy."
+    ],
+    "인쇄": [
+      "Chop etaman.",
+      "Chop etib bo'lmayapti.",
+      "Hisobotni chop etib, o'qituvchiga topshirdim.",
+      "Harfli bosma texnologiyasining kashf etilishi bilimlarning keng ommaga tarqalishiga turtki bo'ldi."
+    ],
+    "인쇄물": [
+      "Bosma materiallar ko'p.",
+      "Tarqatma materiallarni tarqatib bering.",
+      "Yig'ilishdan oldin tarqatma materiallarni tayyorlab, odamlarga berdim.",
+      "Bu bosma materialda tadbir jadvali va o'tkaziladigan joyi batafsil ko'rsatilgan."
+    ],
+    "인스턴트": [
+      "Men tezkor qahva ichaman.",
+      "Tez tayyorlanadigan ovqat sog'liq uchun zararli.",
+      "Band bo'lganim uchun ertalab tez tayyorlanadigan ramyon yedim.",
+      "Tez tayyorlanadigan oziq-ovqatlarni tez-tez iste'mol qilish ovqatlanishda muvozanat buzilishiga olib kelishi mumkin."
+    ],
+    "인원": [
+      "Necha kishi?",
+      "Odam soni kam.",
+      "Restoranda odamlar soniga qarab ovqat buyurtma qildik.",
+      "Tadbir zaliga kira oladiganlar soni cheklangani uchun oldindan ro'yxatdan o'tish shart."
+    ],
+    "인정받다": [
+      "Uning mahorati e'tirof etildi.",
+      "Men ham e'tirof etilishni xohlayman.",
+      "Astoydil ishlaganim uchun kompaniyada e'tirofga sazovor bo'ldim.",
+      "U yuqori ilmiy natijalari e'tirof etilib, mukofotga sazovor bo'ldi."
+    ],
+    "인출기": [
+      "Bankomat qayerda?",
+      "Bankomatdan pul yechaman.",
+      "Bank oldidagi bankomatdan pul yechib oldim.",
+      "Kech tunda bankomatdan foydalanganda qo'shimcha komissiya olinishi mumkin."
+    ]
+  },
+  "0120": {
+    "인턴사원": [
+      "Men stajyorman.",
+      "Stajyor keldi.",
+      "Ta'til davomida kompaniyada stajyor bo'lib ishladim.",
+      "Stajyor bo'lib ishlab orttirgan tajribam ishga joylashishimda katta yordam berdi."
+    ],
+    "인하다": [
+      "Avariya sababli kechikdim.",
+      "Yomg'ir tufayli yo'l tirband.",
+      "Shamollash tufayli bugun maktabga bora olmadim.",
+      "Kuchli qor yog'ishi sababli avtomagistralda harakat bir muddat cheklandi."
+    ],
+    "일기장": [
+      "Kundalik daftari sotib oldim.",
+      "Kundalik daftarimga yozaman.",
+      "Men har kuni kechqurun kundalik daftarimga kunimni yozib boraman.",
+      "Eski kundalik daftarimni ochib qarasam, bolaligimdagi g'o'r husnixatim o'z holicha saqlanib qolgan ekan."
+    ],
+    "일단": [
+      "Avvalo o'tiring.",
+      "Avval tatib ko'ring.",
+      "Avval mana shuni qilib olaylik, qolganini keyinroq qilamiz.",
+      "Vaziyat murakkab, ammo avvalo eng shoshilinch muammoni hal qilib, keyin chora-tadbirlarni muhokama qilaylik."
+    ],
+    "일등": [
+      "U birinchi o'rinda.",
+      "Jamoamiz birinchi o'rinni oldi.",
+      "Yugurish musobaqasida do'stim birinchi o'rinni oldi.",
+      "U respublika musobaqasida birinchi o'rinni egallab, stipendiyaga ega bo'ldi."
+    ],
+    "일반": [
+      "Bu umumiy palata.",
+      "Oddiy mijozlar uchun bu tomonda.",
+      "Oddiy pochta emas, tezkor pochta orqali jo'nating.",
+      "Bu tadbir keng ommaga ochiq emas, unda faqat tegishli shaxslar ishtirok eta oladi."
+    ],
+    "일반인": [
+      "Oddiy odamlar ham qatnashishi mumkin.",
+      "Begona odamlar kira olmaydi.",
+      "Bu muzey keng omma uchun ham bepul ochiq.",
+      "Mutaxassis bo'lmagan oddiy odam uchun bu ilmiy maqolaning mazmuni haddan tashqari murakkab."
+    ],
+    "일반적": [
+      "Bu odatiy usul.",
+      "Odatda ertalab turaman.",
+      "Odatda koreyslar guruch yeydi.",
+      "Bu hodisa qish faslida odatda kuzatiladigan alomatdir."
+    ],
+    "일부": [
+      "Faqat bir qismini sotib oldim.",
+      "Ba'zi odamlar boshqacha.",
+      "Uy vazifasining bir qismini hali bajarmadim.",
+      "Ba'zi hududlarda bugun kechadan boshlab qor yog'ishi kutilmoqda."
+    ],
+    "일부러": [
+      "Ataylab qilmadim.",
+      "Ataylab shunday qildingizmi?",
+      "Men ataylab erta kelib, joy egallab qo'ydim.",
+      "U do'stini hayratda qoldirish uchun ataylab bilmaganga oldi."
+    ],
+    "일상": [
+      "Kundalik hayotim band.",
+      "Mening kundalik hayotim oddiy.",
+      "Sayohatdan qaytib, yana odatiy kundalik hayotga qaytdim.",
+      "Koronavirusdan keyin odamlarning kundalik hayoti avvalgisidan ancha o'zgardi."
+    ],
+    "일상적": [
+      "Bu odatiy ish.",
+      "Kundalik mavzularda suhbatlashamiz.",
+      "Bunday xatolar har kuni sodir bo'lib turadigan odatiy hol.",
+      "Smartfon endi hayotimizda kundalik vositaga aylanib ulgurdi."
+    ],
+    "일생": [
+      "U butun umr ishladi.",
+      "Bu umrda faqat bir marta bo'ladi.",
+      "Bobom butun umrlarini ona qishlog'ida dehqonchilik qilib o'tkazganlar.",
+      "U butun umrini ilmga bag'ishlab, nihoyat yangi nazariyani yakunladi."
+    ],
+    "일시": [
+      "Bu vaqtinchalik.",
+      "Tadbirning sanasi va vaqtini aytib bering.",
+      "Yig'ilishning sanasi, vaqti va joyini SMS orqali yuboraman.",
+      "Imtihon sanasi va vaqti to'satdan o'zgargani sababli imtihon topshiruvchilarga bildirishnoma yuborildi."
+    ],
+    "일시불": [
+      "Bir yo'la to'layman.",
+      "Bir yo'la to'laysizmi yoki bo'lib-bo'libmi?",
+      "Bu sumka qimmat bo'lgani uchun uni bir yo'la to'lab sotib olish qiyin.",
+      "Karta orqali bir yo'la to'lansa, foiz to'lash yuki bo'lmagani uchun qulay."
+    ],
+    "일으키다": [
+      "Bolani turg'izaman.",
+      "Muammo chiqarmang.",
+      "Yiqilib tushgan do'stimni qo'lidan tutib, turg'izib qo'ydim.",
+      "O'sha voqea jamiyatda katta munozaralarga sabab bo'ldi."
+    ],
+    "일자리": [
+      "Ish joyi qidiryapman.",
+      "Yangi ish o'rni paydo bo'ldi.",
+      "O'qishni bitirgandan keyin yaxshi ish topmoqchiman.",
+      "Yoshlar ishsizligini bartaraf etish uchun barqaror ish o'rinlarini ko'paytiradigan siyosat zarur."
+    ],
+    "일정": [
+      "Bugun rejalarim ko'p.",
+      "Ish rejasini aytib bering.",
+      "Bu haftalik ish rejasi o'zgargani uchun yig'ilish bekor qilindi.",
+      "Xizmat safari jadvali juda zich bo'lgani uchun sayr qilishga vaqt ajratish qiyin bo'ldi."
+    ],
+    "일정하다": [
+      "Tezlik bir xil.",
+      "Harorat bir xil.",
+      "Bu do'konda narxlar doim bir xil bo'lgani uchun unga ishonsa bo'ladi.",
+      "Tana salomatligini saqlash uchun muayyan vaqtda uxlab, muayyan vaqtda turish odati muhim."
+    ],
+    "일출": [
+      "Quyosh chiqishi chiroyli.",
+      "Quyosh chiqishini ko'rgani boramiz.",
+      "Yangi yilning birinchi kunida dengiz bo'yida quyosh chiqishini tomosha qildim.",
+      "Tog' cho'qqisida kutib olingan quyosh chiqishi u yerga qiynalib chiqqan barcha mashaqqatlarni unuttirib yuboradi."
+    ],
+    "일회용품": [
+      "Bir martalik buyumlarni kamaytiraman.",
+      "Bir martalik buyumlar atrof-muhitga zararli.",
+      "Kafeda bir martalik idishlar o'rniga termokrujkadan foydalanaman.",
+      "Hukumat atrof-muhitni muhofaza qilish maqsadida bir martalik buyumlardan foydalanishni bosqichma-bosqich cheklashga qaror qildi."
+    ],
+    "읽히다": [
+      "Bu kitob oson o'qiladi.",
+      "Bolaga kitob o'qitaman.",
+      "Bu roman oson bo'lgani uchun ravon o'qiladi.",
+      "O'sha yozuvchining asarlari murakkab bo'lmagani uchun har kim ularni oson o'qiydi."
+    ],
+    "임산부": [
+      "Bu homilador ayollar uchun o'rindiq.",
+      "Homilador ayol avtobusga chiqdi.",
+      "Metroda homilador ayolga joyimni bo'shatib berdim.",
+      "Homilador ayollar uchun shifoxonada muntazam ravishda tibbiy ko'rikdan o'tib turish muhim."
+    ],
+    "임시": [
+      "Bu vaqtinchalik raqam.",
+      "Bu vaqtinchalik ofis.",
+      "Ta'mirlash ishlari ketayotgani uchun vaqtincha boshqa joyda ishlayapman.",
+      "Yong'in tufayli uyidan ayrilgan aholi vaqtinchalik boshpanalarda yashamoqda."
+    ],
+    "임신": [
+      "Opam homilador bo'ldi.",
+      "Homiladorlik paytida ehtiyot bo'lish kerak.",
+      "Xotinim homilador bo'lgani uchun butun oila xursand bo'ldi.",
+      "Homiladorlikning dastlabki davrida dori ichish masalasini ehtiyotkorlik bilan hal qilish kerak."
+    ],
+    "입금": [
+      "Bugun hisobga pul qo'ydim.",
+      "Pul hali tushmadi.",
+      "Bugun maoshim bank hisobimga tushdi.",
+      "Mahsulot narxini hisob raqamiga o'tkazsangiz, tekshirib, darhol jo'natib yuboramiz."
+    ],
+    "입맛": [
+      "Ishtaham yo'q.",
+      "Ta'bingizga mos keldimi?",
+      "Shamollab qolganim uchun umuman ishtaham yo'q.",
+      "Bu taom chet elliklarning ta'biga ham mos kelgani uchun juda mashhur."
+    ],
+    "입술": [
+      "Lablarim qurib qoldi.",
+      "Lablari qizil.",
+      "Qishda lablarim tez-tez yorilgani uchun lab balzami surtaman.",
+      "U xavotirlanayotganday labini tishlab, gapini davom ettira olmadi."
+    ],
+    "입시": [
+      "Kirish imtihoni qiyin.",
+      "Ukam kirish imtihonlariga tayyorlanyapti.",
+      "Universitetga kirish imtihonlari tufayli litsey o'quvchilari juda band.",
+      "Oliy o'quv yurtlariga qabul tizimi tez-tez o'zgarib turgani sababli o'quvchilar va ota-onalar sarosimada qolmoqda."
+    ],
+    "입장": [
+      "Kirish bepul.",
+      "Mening fikrim boshqacha.",
+      "Teatrga kirish uchun chipta sotib olish kerak.",
+      "Qarshi tomonning o'rniga o'zingizni qo'yib o'ylab ko'rsangiz, nizoni hal qilish ancha osonlashadi."
+    ]
+  },
+  "0121": {
+    "입장권": [
+      "Kirish chiptasini sotib oldim.",
+      "Bitta kirish chiptasi kerak.",
+      "Muzeyga kirish chiptalari kassada sotiladi.",
+      "Konsertga kirish chiptasini oldindan sotib olsangiz, joyida olgandan ko'ra arzonroq tushadi."
+    ],
+    "입장료": [
+      "Kirish haqi qancha?",
+      "Kirish haqi ikki ming von.",
+      "Bolalar kirish haqini to'lamasa ham bo'ladi.",
+      "Bu bog'ga kirish bepul bo'lgani uchun har hafta oxiri oilaviy tashrif buyuruvchilar ko'p bo'ladi."
+    ],
+    "입학시험": [
+      "Kirish imtihoni bor.",
+      "Kirish imtihonini topshirdim.",
+      "Ukam ertaga universitetga kirish imtihonini topshiradi.",
+      "Kirish imtihonidan o'tish uchun uzoq vaqt davomida muntazam tayyorlanish kerak."
+    ],
+    "입히다": [
+      "Bolaga kiyim kiydiraman.",
+      "Men chaqaloqqa kiyim kiygizdim.",
+      "Onam bolaga issiq palto kiygizib qo'ydilar.",
+      "To'fon janubiy hududlarga ulkan zarar yetkazdi va uni tiklash uchun uzoq vaqt kerak bo'ldi."
+    ],
+    "잇다": [
+      "Ikki arqonni ulayman.",
+      "Hikoyani davom ettiramiz.",
+      "Uzilib ketgan ipni ulab, qaytadan bog'ladim.",
+      "Ko'prik ikki qishloqni bog'lab, qatnovni ancha osonlashtirdi."
+    ],
+    "잎": [
+      "Barglar yam-yashil.",
+      "Kuzda barglar to'kiladi.",
+      "Daraxtda yangi barglar chiqdi.",
+      "Shamol esgach, quruq barglar yerda shitirlab dumalab yurdi."
+    ],
+    "자격": [
+      "Menda huquq bor.",
+      "Mashina haydash huquqim yo'q.",
+      "Bu imtihonni topshirish huquqi faqat talabalarga beriladi.",
+      "U yetakchi sifatida malakasi yetishmasligi haqidagi tanqidlardan qochib qutula olmadi."
+    ],
+    "자격증": [
+      "Sertifikatim bor.",
+      "Sertifikat oldim.",
+      "Men koreys tili o'qituvchisi sertifikatini olmoqchiman.",
+      "Ishga joylashishga tayyorgarlik ko'rar ekanman, kompyuterga oid bir nechta sertifikat oldim."
+    ],
+    "자극적": [
+      "Bu taom juda achchiq.",
+      "O'tkir ta'mni yoqtirmayman.",
+      "Men haddan tashqari ta'sirli, shiddatli filmlarni ko'rishga qiynalaman.",
+      "O'tkir va achchiq taomlarni tez-tez iste'mol qilish oshqozon-ichak tizimiga og'irlik tushirishi mumkin."
+    ],
+    "자꾸": [
+      "Tez-tez uyqum keladi.",
+      "Qayta-qayta esimga tushyapti.",
+      "Bola qayta-qayta bir xil savolni bergani uchun javob berdim.",
+      "Keyingi paytlarda unutuvchanligim kuchayib, narsalarimni tez-tez yo'qotib qo'yyapman."
+    ],
+    "자녀": [
+      "Mening ikki farzandim bor.",
+      "Nechta farzandingiz bor?",
+      "Ota-onalar eng ko'p farzandlarining sog'lig'idan xavotirlanadi.",
+      "Er-xotin ikkalasi ham ishlaydigan oilalar uchun farzandlariga qarab turadigan odam topish oson emas."
+    ],
+    "자동": [
+      "Eshik avtomatik.",
+      "Avtomatik ravishda o'chadi.",
+      "Bu qurilma vaqti kelganda avtomatik ravishda yonadi.",
+      "Avtomatik to'lovga ariza berib qo'ysangiz, har oy to'lovni alohida amalga oshirishingiz shart bo'lmaydi."
+    ],
+    "자라다": [
+      "Bola o'syapti.",
+      "O't tez o'sadi.",
+      "Men Seulda tug'ilib, Pusanda o'sganman.",
+      "Bolalarning xarakteri ota-onasining xatti-harakatlariga qarab shakllanadi."
+    ],
+    "자랑": [
+      "Men maqtanmayman.",
+      "Qizimiz bizning faxrimiz.",
+      "Do'stim yangi olgan sumkasi bilan maqtangani uchun havasim keldi.",
+      "U o'g'li mukofot olganini aytib, mahalla ahliga maqtanib ketdi."
+    ],
+    "자료실": [
+      "Materiallar xonasi qayerda?",
+      "Materiallar xonasi ikkinchi qavatda.",
+      "Kutubxonaning arxiv xonasidan eski gazetalarni qidirib ko'rdim.",
+      "Bu universitetning arxiv xonasida ko'plab noyob qadimiy qo'lyozmalar saqlanadi."
+    ],
+    "자막": [
+      "Koreyscha subtitr bor.",
+      "Subtitrni yoqib bering.",
+      "Men film ko'rganimda subtitr kerak bo'ladi.",
+      "Koreys seriallarini subtitrsiz tushunish mening maqsadim."
+    ],
+    "자매": [
+      "Biz opa-singilmiz.",
+      "Biz uch opa-singilmiz.",
+      "U opa-singillarning yuzlari bir-biriga juda o'xshaydi.",
+      "Ikki opa-singil yoshligidan inoq bo'lgani uchun doim birga yurishardi."
+    ],
+    "자살": [
+      "O'z joniga qasd qilish mumkin emas.",
+      "O'z joniga qasd qilishning oldini olish kerak.",
+      "Yangiliklarda o'z joniga qasd qilishning oldini olish kampaniyasi tanishtirildi.",
+      "O'smirlar o'rtasida o'z joniga qasd qilish holatlari ko'paygach, hukumat psixologik maslahat tizimini kuchaytirishga qaror qildi."
+    ],
+    "자세하다": [
+      "Tushuntirish batafsil.",
+      "Batafsil ma'lumot bering.",
+      "O'qituvchi grammatikani juda batafsil tushuntirib berdilar.",
+      "Hisobotda tadqiqot usullari va natijalari batafsil qayd etilgan."
+    ],
+    "자세히": [
+      "Sinchiklab qarang.",
+      "Batafsil aytib bering.",
+      "Xaritaga sinchiklab qarasangiz, yo'lni topa olasiz.",
+      "Shartnoma shartlarini sinchiklab o'qib chiqib, keyin imzo chekish xavfsizroq."
+    ],
+    "자식": [
+      "Farzandim bor.",
+      "Ota-onalar farzandlarini sevadi.",
+      "Buvim farzandlari uchun butun umr mehnat qilganlar.",
+      "\"Farzand o'stirib ko'rgandagina ota-onaning qalbini tushunasan\", degan gap bor."
+    ],
+    "자신감": [
+      "Men o'zimga ishonaman.",
+      "O'zingizga ishoning.",
+      "Taqdimotni bir necha marta mashq qilganim uchun o'zimga ishonch paydo bo'ldi.",
+      "U kichik muvaffaqiyatlarni ketma-ket qo'lga kiritib, asta-sekin o'ziga bo'lgan ishonchini qayta tikladi."
+    ],
+    "자연적": [
+      "Bu tabiiy ta'm.",
+      "O'z-o'zidan tuzalib ketdi.",
+      "Bu ko'l tabiiy ravishda paydo bo'lgan joy.",
+      "Uning soch rangi bo'yalgan emas, balki tabiiy jigarrangdir."
+    ],
+    "자외선": [
+      "Ultrabinafsha nurlar kuchli.",
+      "Ultrabinafsha nurlardan ehtiyot bo'ling.",
+      "Yozda quyoshdan himoya qiluvchi kremni albatta surtaman.",
+      "Ultrabinafsha nurlar ta'sirida uzoq qolish terining shikastlanishiga va tezroq qarishiga olib kelishi mumkin."
+    ],
+    "자원": [
+      "Resurslar yetishmaydi.",
+      "Suv muhim resurs.",
+      "Koreya tabiiy resurslarga unchalik boy bo'lmagan davlat.",
+      "Cheklangan resurslardan samarali foydalanish yo'llari butun jamiyat miqyosida izlanmoqda."
+    ],
+    "자음": [
+      "Hangul alifbosida undosh tovushlar bor.",
+      "Undosh harflarni yodladim.",
+      "Koreys tilining undosh va unli tovushlarini o'rganyapman.",
+      "Bu so'zda undoshlar yonma-yon kelgani uchun uni talaffuz qilish biroz qiyin."
+    ],
+    "자존심": [
+      "Mening g'ururim baland.",
+      "G'ururim toptaldi.",
+      "Do'stimning gapidan g'ururim toptalib, jahlim chiqdi.",
+      "U g'ururini yerga urmay, oxirigacha o'z fikrida qat'iy turib oldi."
+    ],
+    "자취": [
+      "Men yolg'iz yashayman.",
+      "Yolg'iz yashaydigan xonam kichkina.",
+      "Universitet yaqinida alohida yashab, ovqat pishirishni o'rgandim.",
+      "Mustaqil yashay boshlaganimdan keyin ota-onamning qadrini yana bir bor anglab yetdim."
+    ],
+    "자판기": [
+      "Savdo avtomati buzilib qoldi.",
+      "Avtomatdan qahva olaman.",
+      "Avtomatga tanga tashlab, ichimlik sotib oldim.",
+      "Binoning birinchi qavatiga o'rnatilgan savdo avtomati kech tungacha xodimlarning sevimli joyi bo'lib qoldi."
+    ],
+    "작가": [
+      "U yozuvchi.",
+      "Men yozuvchi bo'lmoqchiman.",
+      "Sevimli yozuvchimning yangi romanini o'qiyapman.",
+      "Bu yozuvchi nozik uslubi bilan zamonaviy insonning yolg'izligini tasvirlab, yuksak baho oldi."
+    ]
+  },
+  "0122": {
+    "작곡": [
+      "U musiqa bastalaydi.",
+      "Bastakorlikni o'rganyapman.",
+      "Men pianinoda musiqa bastalashni yoqtiraman.",
+      "O'sha qo'shiqchi so'zlarini ham, musiqasini ham o'zi yozib, albomni tayyorladi."
+    ],
+    "작문": [
+      "Insho yozish qiyin.",
+      "Insho bo'yicha uy vazifasini bajardim.",
+      "O'qituvchi insho darsida kundalik yozishni aytdilar.",
+      "Koreys tilida insho yozish mahoratini oshirish uchun har kuni ozgina bo'lsa ham yozib turgan ma'qul."
+    ],
+    "작사": [
+      "U qo'shiq matni yozadi.",
+      "Bu qo'shiqning so'zlari yaxshi.",
+      "Do'stim qo'shiq matnini yozishni o'z zimmasiga olib, tun bo'yi so'zlarini yozdi.",
+      "O'sha qo'shiqchi o'z tajribasi asosida matnini o'zi yozgan qo'shig'ini taqdim etdi."
+    ],
+    "작아지다": [
+      "Kiyim kichik bo'lib qoldi.",
+      "Ovozi pasayib qoldi.",
+      "Kir yuvgandan keyin ko'ylagim kichrayib qoldi.",
+      "Bola o'sgani uchun o'tgan yili olingan poyabzali kichik bo'lib qolib, yangisini olishga to'g'ri keldi."
+    ],
+    "작업": [
+      "Hozir ish ustidaman.",
+      "Ish tugadi.",
+      "Otam zavodda og'ir ish qiladilar.",
+      "Bir necha kishi birgalikda ishlashi uchun o'zaro muloqot ravon bo'lishi kerak."
+    ],
+    "작품": [
+      "Bu asar menga yoqadi.",
+      "O'sha asarni ko'rdim.",
+      "San'at muzeyida mashhur asarlarni tomosha qildim.",
+      "Bu asar bir davrning iztiroblarini aks ettirgan roman sifatida yuqori baholangan."
+    ],
+    "잔돈": [
+      "Mayda pulim yo'q.",
+      "Qaytimni bering.",
+      "Avtobusga chiqish uchun do'konda pulimni maydaladim.",
+      "Hisob-kitob qilinayotganda sotuvchi qaytimni mayda pullarda aniq qaytarib berdi."
+    ],
+    "잔디": [
+      "Maysa yam-yashil.",
+      "Maysaga o'tiramiz.",
+      "Bolalar bog'dagi maysada to'p tepishyapti.",
+      "Bu stadionda maysa yaxshi parvarish qilingani uchun sportchilarga o'ynash qulay."
+    ],
+    "잔디밭": [
+      "Maysazorda o'ynaymiz.",
+      "Maysazorga kirmang.",
+      "Do'stlarim bilan maysazorga gilamcha yozib o'tirdik.",
+      "Bog'dagi maysazorda har hafta oxiri sayrga chiqqan oilalar olib kelgan taomlarini birga baham ko'rishadi."
+    ],
+    "잔뜩": [
+      "Qornim juda to'q.",
+      "Yuk juda ko'p.",
+      "Bozordan juda ko'p meva sotib olib keldim.",
+      "Osmonni qora bulut qoplaganiga qaraganda, tez orada jala quyib yuboradiganga o'xshaydi."
+    ],
+    "잔소리": [
+      "G'ijillamang.",
+      "Oyim ko'p nasihat qiladilar.",
+      "Onam har kuni ertalab nasihat qilaverganlari uchun jonimga tegadi.",
+      "U xotinining g'ijillashini yoqtirmasligini aytgan bo'lsa-da, aslida bu gaplar xavotirdan kelib chiqayotganini bilardi."
+    ],
+    "잔액": [
+      "Hisobdagi qoldiq qancha?",
+      "Hisobdagi qoldiq yetarli emas.",
+      "Bank ilovasida hisobimdagi qoldiqni tekshirdim.",
+      "Kartadagi qoldiq yetmagani sababli to'lov amalga oshmay, sarosimaga tushdim."
+    ],
+    "잠그다": [
+      "Eshikni qulflayman.",
+      "Suvni yopib qo'ying.",
+      "Uydan chiqishdan oldin kirish eshigini albatta qulflang.",
+      "Jo'mrakni yaxshilab yopmaganim uchun suv to'xtovsiz oqib turdi."
+    ],
+    "잠기다": [
+      "Eshik qulflanib qoldi.",
+      "Suv ostida qoldi.",
+      "Kalitim yo'qligi uchun eshik qulflangan holda kutib turdim.",
+      "Kuchli jala tufayli yo'llarni suv bosgani sababli avtomobillar harakati butunlay to'xtatildi."
+    ],
+    "잠들다": [
+      "Chaqaloq uxlab qoldi.",
+      "Men erta uxlab qolaman.",
+      "Charchaganim uchun karavotga yotishim bilan uxlab qoldim.",
+      "Bola uxlashidan oldin unga ertak kitobi o'qib berish kunning so'nggi yumushidir."
+    ],
+    "잠옷": [
+      "Pijama kiyaman.",
+      "Pijama qulay.",
+      "Men kechasi issiq pijama kiyib uxlayman.",
+      "Bola pijamada mehmonxonaga chiqib, ertalabki salomini aytdi."
+    ],
+    "잠자리": [
+      "Ninachi uchyapti.",
+      "Yotadigan joy noqulay.",
+      "Kuzgi osmonda ko'plab ninachilar uchib yuribdi.",
+      "Sayohat joyidagi notanish to'shak noqulay bo'lgani uchun tun bo'yi u yoqdan-bu yoqqa ag'darilib, erta uyg'onib ketdim."
+    ],
+    "잡수다": [
+      "Buvim ovqatlanyaptilar.",
+      "Ko'proq oling, oshang.",
+      "Otam har kuni ertalab meva tanovul qiladilar.",
+      "Muhtaram mehmon taomni tanovul qilib bo'lgach, choy ichib, gurunglashib o'tirdilar."
+    ],
+    "잡아먹다": [
+      "Sher quyonni tutib yeydi.",
+      "Mushuk sichqonni tutib yedi.",
+      "Ilonning qurbaqani tutib yeyishini televizorda ko'rdim.",
+      "Burgut baland osmondan kichik jonivorni ko'rib qolsa, uni darhol tutib yeydi."
+    ],
+    "잡채": [
+      "Japchaeni yaxshi ko'raman.",
+      "Oyim japchae tayyorladilar.",
+      "Bayramlarda oila yig'ilib, japchae yeymiz.",
+      "Japchae - kraxmal lapsha va turli sabzavotlarni qovurib tayyorlanadigan an'anaviy koreys taomi."
+    ],
+    "잡히다": [
+      "O'g'ri qo'lga tushdi.",
+      "Qo'lim ushlandi.",
+      "Qarmog'imga baliq ilingani uchun kayfiyatim ko'tarildi.",
+      "Jinoyatchi voqea sodir bo'lganidan uch kun o'tib politsiya tomonidan qo'lga olindi."
+    ],
+    "장가": [
+      "Akam uylanyapti.",
+      "Men hali uylanmaganman.",
+      "Amakim bu yil uylanmoqchi ekanini eshitib, butun oila xursand bo'ldi.",
+      "Qadimda erkak uylangach, bir muddat qaynotasining uyida yashash odati bo'lgan."
+    ],
+    "장가가다": [
+      "Akam uylanyapti.",
+      "Do'stim mendan oldin uylandi.",
+      "Amakim kelasi yil uylanishga qaror qildi.",
+      "U o'ttizdan oshgandan keyingina uylanib, ahil oila qurdi."
+    ],
+    "장기적": [
+      "Bu uzoq muddatli reja.",
+      "Uzoq muddatda foydali.",
+      "Men uzoq muddatli istiqbolda Koreyada ishlashni xohlayman.",
+      "Biznesni qisqa muddatli foydadan ko'ra uzoq muddatli istiqbolni ko'zlab rejalashtirish kerak."
+    ],
+    "장난": [
+      "Hazillashmang.",
+      "Bola sho'xlik qilyapti.",
+      "Do'stim hazillashib, sumkamni yashirib qo'ydi.",
+      "Haddan oshgan hazil boshqa odamning dilini og'ritishi mumkin, shuning uchun ehtiyot bo'lish kerak."
+    ],
+    "장난감": [
+      "O'yinchoqlar ko'p.",
+      "Yangi o'yinchoq sotib oldim.",
+      "Bola o'yinchoq bilan o'ynab o'tirib, uxlab qoldi.",
+      "Bola tug'ilgan kunida sovg'a qilingan robot o'yinchog'ini kun bo'yi qo'lidan qo'ymadi."
+    ],
+    "장난꾸러기": [
+      "O'g'limiz shumtaka.",
+      "U bola shumtaka.",
+      "Qo'shni uyning shumtakasi yana qo'ng'iroqni bosib, qochib ketdi.",
+      "Bolaligida shumtaka bo'lgan u katta bo'lganida ham hazil-mutoyibalari bilan atrofdagilarni kuldirardi."
+    ],
+    "장남": [
+      "Men to'ng'ich o'g'ilman.",
+      "U to'ng'ich o'g'il.",
+      "Oilamizning to'ng'ich o'g'li bo'lgan akam juda mas'uliyatli.",
+      "To'ng'ich o'g'il ota-onasiga qarashi va xonadonni boshqarishi kerak, degan an'anaviy tasavvur hanuzgacha saqlanib qolgan."
+    ],
+    "장녀": [
+      "Men to'ng'ich qizman.",
+      "U to'ng'ich qiz.",
+      "Oilamizning to'ng'ich qizi bo'lgan opam ukalariga yaxshi g'amxo'rlik qiladi.",
+      "Oilada to'ng'ich qiz bo'lib tug'ilgan u yoshligidan esi kirib, kattalardek tutardi o'zini."
+    ],
+    "장단점": [
+      "Afzallik va kamchiliklari bor.",
+      "O'zimning afzallik va kamchiliklarimni aytaman.",
+      "Ikki usulning afzallik va kamchiliklarini solishtirib, bittasini tanladim.",
+      "Ish suhbatida o'zingizning kuchli va zaif tomonlaringizni ochiq aytish muhim."
+    ]
+  },
+  "0123": {
+    "장래": [
+      "Kelajakdagi orzuim shifokor bo'lish.",
+      "Kelajakda kim bo'lmoqchisan?",
+      "Farzandimning kelajagini o'ylab, yaxshi maktab tanladim.",
+      "O'smirlarning kelajakdagi orzulari jamiyatdagi kayfiyat va iqtisodiy vaziyatdan katta ta'sirlanadi."
+    ],
+    "장례식": [
+      "Bugun dafn marosimiga boraman.",
+      "Bobomning dafn marosimiga barcha qarindoshlar yig'ildi.",
+      "Dafn marosimida odatda qora kiyim kiyiladi va jimgina hamdardlik bildiriladi.",
+      "So'nggi paytlarda dafn marosimini sodda tarzda o'tkazishni istovchilar tobora ko'payib bormoqda."
+    ],
+    "장례식장": [
+      "Motam zali qayerda?",
+      "Motam zaligacha taksida bordim.",
+      "Shifoxona yonidagi motam zalida oila a'zolari mehmonlarni kutib olishdi.",
+      "Har bir yirik shifoxonada motam zali bo'lgani uchun marhumning yaqinlari undan qulay foydalanishi mumkin."
+    ],
+    "장바구니": [
+      "Xarid savatini olib keldim.",
+      "Xarid savatiga olma va sut soldim.",
+      "Selofan paket o'rniga xarid sumkasidan foydalansangiz, atrof-muhitga foyda bo'ladi.",
+      "Onlayn do'konda savatga solib qo'ygan mahsulotim sotilib tugagani uchun afsuslandim."
+    ],
+    "장사": [
+      "Savdo yaxshi ketyapti.",
+      "Otam bozorda savdo qiladilar.",
+      "U kishi shu kunlarda mijoz yo'qligi sababli savdo yurishmayotganini aytdilar.",
+      "U savdo-sotiqni kichik do'kondan boshlab, o'n yil ichida katta restoran ochdi."
+    ],
+    "장애": [
+      "U bolaning nogironligi bor.",
+      "Nogironligi bo'lsa ham, astoydil yashaydi.",
+      "U eshitish nuqsonini yengib, ajoyib musiqachiga aylandi.",
+      "Nutqida nuqsoni bor odamlar uchun yangi ta'lim dasturi ishlab chiqildi."
+    ],
+    "장애인": [
+      "Bu yer nogironlar uchun to'xtash joyi.",
+      "Nogironlar uchun lift bor.",
+      "Har bir metro bekatida imkoniyati cheklangan odamlar uchun qulay sharoitlar ko'paytirilmoqda.",
+      "Hukumat nogironlarni ishga joylashtirishni ko'paytirish maqsadida kompaniyalarga turli yordam ko'rsatmoqda."
+    ],
+    "장학": [
+      "Stipendiya tizimi bor.",
+      "Maktabimizda stipendiya imtiyozlari ko'p.",
+      "O'sha jamg'arma stipendiya dasturi orqali muhtoj talabalarga yordam beradi.",
+      "Universitet a'lo baholarga o'qiydigan talabalarni saralab, stipendiya dasturiga tavsiya qildi."
+    ],
+    "장학금": [
+      "Stipendiya oldim.",
+      "Stipendiyaga ariza qachongacha topshiriladi?",
+      "Astoydil o'qiganim uchun bu semestrda stipendiya oladigan bo'ldim.",
+      "Bu universitet a'lo o'qiydigan chet ellik talabalarga to'liq stipendiya to'laydi."
+    ],
+    "재발급": [
+      "Kartani qayta berib yuboring.",
+      "Pasportni qayta olish qancha vaqt oladi?",
+      "Hamyonimni yo'qotib qo'yganim uchun shaxsiy guvohnomani qayta olishim kerak.",
+      "Bankka shaxsni tasdiqlovchi hujjatni olib borsangiz, yo'qotilgan debet kartani darhol qayta rasmiylashtirib olishingiz mumkin."
+    ],
+    "재산": [
+      "Uning boyligi ko'p.",
+      "Sog'liq eng katta boylik.",
+      "Ota-onamiz bizga ko'p mol-mulk qoldirmadilar.",
+      "O'sha tadbirkor boyligining yarmini jamiyatga xayriya qilishga ochiq va'da berdi."
+    ],
+    "재작년": [
+      "Ikki yil oldin Koreyaga keldim.",
+      "Ikki yil oldingi yoz juda issiq edi.",
+      "O'tgan yildan oldingi yili turmush qurdim, hozir bitta farzandim bor.",
+      "Ikki yil oldingi bilan solishtirganda, bu yilgi eksport hajmi sezilarli darajada oshgani ma'lum bo'ldi."
+    ],
+    "재주": [
+      "U juda iste'dodli.",
+      "Ukamning qo'shiq aytish iste'dodi bor.",
+      "U bolaning rasm chizish iste'dodi zo'r bo'lgani uchun ko'p mukofotlar ham olgan.",
+      "Faqat iste'dodga ishonib, harakat qilmasangiz, oxir-oqibat tinimsiz mehnat qilgan odamni yenga olmaysiz."
+    ],
+    "재즈": [
+      "Men jazni yaxshi ko'raman.",
+      "Jaz musiqasini tinglab qahva ichaman.",
+      "Har dam olish kunlari jaz kafega borib, jonli ijroni tomosha qilaman.",
+      "Bu shaharda har yili kuzda xalqaro jaz festivali o'tkazilib, ko'plab tomoshabinlar yig'iladi."
+    ],
+    "재테크": [
+      "Men pulni ko'paytirish usullariga qiziqaman.",
+      "Shu kunlarda pulni ko'paytirish haqidagi kitoblarni o'qiyapman.",
+      "Maoshni tejab, jamg'arma hisobiga qo'yish ham pulni ko'paytirishning yaxshi usuli.",
+      "Yosh xodimlar orasida aksiyalar va investitsiya fondlari orqali pulni ko'paytirish keng urf bo'lmoqda."
+    ],
+    "재학": [
+      "Men universitetda o'qiyman.",
+      "O'qish davomida yarim kunlik ishda ishladim.",
+      "O'qish davomida to'garak faoliyatida faol qatnashdim.",
+      "Hozir o'qiyotgan talabalar ham, bitiruvchilar ham bu kutubxonadan bepul foydalanishi mumkin."
+    ],
+    "재해": [
+      "Bu yil ofatlar ko'p bo'ldi.",
+      "To'fon katta ofatga sabab bo'ladi.",
+      "Zilzila kabi tabiiy ofat yuz bersa, xotirjamlik bilan xavfsiz joyga chiqib ketish kerak.",
+      "Hukumat tabiiy ofat yuz bergan hudud aholisi uchun shoshilinch tiklash mablag'larini ajratishga qaror qildi."
+    ],
+    "재혼": [
+      "U kishi qayta turmush qurdi.",
+      "Otam qayta uylanib, o'gay onam paydo bo'ldi.",
+      "Ajrashganidan bir necha yil o'tib, u yaxshi odamni uchratib, qayta turmush qurdi.",
+      "Qayta turmush qurgan oilalardagi bolalar duch keladigan qiyinchiliklarni kamaytirish maqsadida psixologik maslahat yordami kengaytirilmoqda."
+    ],
+    "재활용": [
+      "Qayta ishlanadigan chiqindilarni tashlayman.",
+      "Qog'ozni qayta ishlash mumkin.",
+      "Bizning mahallada haftada bir marta qayta ishlanadigan chiqindilar saralab yig'iladi.",
+      "PET shishalarni qayta ishlab kiyim tayyorlaydigan kompaniyalar ko'payishi bilan atrof-muhitni muhofaza qilishga bo'lgan qiziqish ortdi."
+    ],
+    "재활용품": [
+      "Qayta ishlanadigan buyumlarni shu yerga tashlang.",
+      "Qayta ishlanadigan buyumlarni yig'ib, tashqariga chiqarib qo'ydim.",
+      "Shisha idishlar va bankalar kabi qayta ishlanadigan buyumlarni turlariga ajratib tashlash kerak.",
+      "Shahar hokimiyati aholining ishtirokini oshirish maqsadida qayta ishlanadigan chiqindilarni yig'ish usulini o'zgartirmoqchi."
+    ],
+    "쟤": [
+      "Anavi kim?",
+      "Anavi mening do'stim.",
+      "Anavi bola doim jilmayib yuradi, shuning uchun u bilan birga bo'lsam kayfiyatim ko'tariladi.",
+      "Anavi bola yana uy vazifasini qilmay kelibdi, o'qituvchiga nima deb aytsam ekan?"
+    ],
+    "저금": [
+      "Men har oy pul jamg'araman.",
+      "Jamg'argan pulimga sovg'a sotib oldim.",
+      "Cho'ntak pulimni tejab, bankka jamg'arish odatini shakllantirdim.",
+      "Yoshlikdan muntazam pul jamg'arish odatini shakllantirsa, iqtisodiy tushuncha tabiiy ravishda paydo bo'ladi."
+    ],
+    "저금통": [
+      "Cho'chqachaga tanga solaman.",
+      "Pul yig'adigan qutim to'lib qoldi.",
+      "Bola cho'chqachani ochib, yig'gan pullarini sanab ko'rdi.",
+      "Cho'chqa shaklidagi jamg'arma qutisiga tanga yig'ib, muhtoj qo'shnilarga yordam beradigan o'quvchilar ko'paymoqda."
+    ],
+    "저렴하다": [
+      "Bu kiyim arzon.",
+      "Narxi arzon bo'lgani uchun sotib oldim.",
+      "Bozorda mevalarni arzon olish mumkin, shuning uchun u yerga tez-tez boraman.",
+      "Bu oshxona narxi arzon bo'lishiga qaramay, ta'mi ham, porsiyasi ham a'lo bo'lgani uchun talabalar orasida juda mashhur."
+    ],
+    "저울": [
+      "Tarozi qayerda?",
+      "Tarozida olmaning og'irligini o'lchayman.",
+      "Do'kon egasi go'shtni taroziga qo'yib, aniq tortib berdi.",
+      "Bu tarozi og'irlikdagi eng kichik farqni ham aniq o'lchay oladigan qilib yasalgan."
+    ],
+    "저장": [
+      "Faylni saqladim.",
+      "Iltimos, saqlash tugmasini bosing.",
+      "Ovqatni uzoq saqlash uchun uni muzlatgichga qo'yib qo'yish kerak.",
+      "Hujjat yozayotgan paytda elektr o'chib qolib, saqlanmagan barcha ma'lumotlar yo'qolib ketdi."
+    ],
+    "저절로": [
+      "Eshik o'z-o'zidan ochildi.",
+      "Kulgi o'z-o'zidan chiqib ketyapti.",
+      "Ko'chada ketayotib, o'sha qo'shiq o'z-o'zidan esimga tushdi.",
+      "Har qanday qiyin ishni ham muntazam takrorlab borilsa, u o'z-o'zidan odatga aylanib qoladi."
+    ],
+    "저축": [
+      "Men pul tejayman.",
+      "Ozgina jamg'armam bor.",
+      "Har oy maoshning bir qismini jamg'arib borsangiz, katta mablag' to'plashingiz mumkin.",
+      "Aholining jamg'arma darajasi pasaysa, uzoq muddatda bu iqtisodiy o'sishga ham salbiy ta'sir ko'rsatishi mumkin."
+    ],
+    "적극적": [
+      "U faol odam.",
+      "Faolroq gapirib ko'ring.",
+      "Darsda faol savol bersangiz, mavzuni yaxshiroq tushunasiz.",
+      "Suhbatda faol munosabat bilan o'zingizning kuchli tomonlaringizni aniq namoyon qilish muhim."
+    ],
+    "적금": [
+      "Men muddatli omonat ochdim.",
+      "Muddatli omonatning foizi qancha?",
+      "To'y xarajatlariga pul yig'ish uchun har oy muddatli omonatga pul qo'yib boryapman.",
+      "Bu bank yoshlar uchun foiz stavkasi yuqori bo'lgan maxsus muddatli omonat mahsulotini yangi taqdim etdi."
+    ]
+  },
+  "0124": {
+    "적당하다": [
+      "Bu o'lcham mos.",
+      "Suvning harorati me'yorida.",
+      "Sport bilan haddan tashqari ko'p emas, me'yorida shug'ullanish sog'liq uchun foydali.",
+      "Me'yoridagi dam olish ish samaradorligini oshirishga yordam berishini ko'rsatgan tadqiqot natijalari mavjud."
+    ],
+    "적당히": [
+      "Me'yorida yeng.",
+      "Tuzni me'yorida soldim.",
+      "Ichimlikni me'yorida iching va uyga erta qayting.",
+      "Ishni yuzaki bajarib ketaversangiz, bu katta xatoga olib kelishi mumkin, shuning uchun oxirigacha sinchiklab tekshirish kerak."
+    ],
+    "적성": [
+      "Bu mening layoqatimga mos.",
+      "Layoqat testidan o'tdim.",
+      "Men o'z layoqatimga mos keladigan kasb topmoqchiman.",
+      "O'quvchilar o'z layoqatlarini aniqlab, kasb yo'lini tanlay olishlari uchun maslahat dasturi tashkil etildi."
+    ],
+    "적어도": [
+      "Kamida o'n kishi keladi.",
+      "Kamida bir soat vaqt ketadi.",
+      "Sog'lig'ingiz uchun kuniga kamida o'ttiz daqiqa piyoda yuring.",
+      "Jamoa rahbari bu ishni tugatish uchun kamida yana ikki kun kerakligini aytdi."
+    ],
+    "적어지다": [
+      "Odamlar kamayib qoldi.",
+      "Hozir yomg'ir kamroq yog'adigan bo'ldi.",
+      "Qish kelgach, ko'chada yuradigan odamlar ancha kamayib qoldi.",
+      "Tug'ilish darajasi pasayishi bilan maktabga qabul qilinadigan o'quvchilar soni yildan yilga kamayib bormoqda."
+    ],
+    "적응": [
+      "Yangi maktabga moslashdim.",
+      "Hali ham moslasha olmayapman.",
+      "Avvaliga koreys taomlariga moslashish biroz qiyin bo'ldi.",
+      "Yangi muhitga moslashish tezligi har bir odamda turlicha bo'lgani uchun shoshilmagan ma'qul."
+    ],
+    "적절하다": [
+      "Bu gap o'rinli.",
+      "O'z vaqtida keldim.",
+      "Suhbatga vaziyatga mos kiyim kiyib borish kerak.",
+      "Muammoni hal qilish uchun avval uning sababini aniqlab, so'ngra tegishli choralarni ko'rish kerak."
+    ],
+    "전구": [
+      "Lampochka kuyib qoldi.",
+      "Yangi lampochka sotib olishim kerak.",
+      "Xonadagi lampochka miltillayotgani uchun uni yangisiga almashtirdim.",
+      "Yorug'lik diodli (LED) lampochkalar oddiy lampochkalarga qaraganda kamroq elektr sarflaydi va xizmat muddati ham ancha uzoq."
+    ],
+    "전국": [
+      "Butun mamlakat bo'ylab yomg'ir yog'yapti.",
+      "Butun mamlakat bo'ylab sayohat qilmoqchiman.",
+      "Bu dam olish kunlari butun mamlakatdan ko'plab odamlar Seulga to'planadi.",
+      "Bu xonanda butun mamlakat bo'ylab gastrol konsertlari o'tkazib, o'nta shahardagi muxlislari bilan uchrashdi."
+    ],
+    "전국적": [
+      "Bu umummilliy tadbir.",
+      "Bu qo'shiq butun mamlakat bo'ylab mashhur.",
+      "Bu do'konning butun mamlakat bo'ylab filiallari bor, shuning uchun istalgan joyda borish mumkin.",
+      "Bu safargi so'rov butun mamlakat miqyosida o'tkazilgani sababli natijalarning ishonchliligi ancha yuqori."
+    ],
+    "전기": [
+      "Tok o'chib qoldi.",
+      "Elektr energiyasini tejab ishlating.",
+      "Yozda konditsioner tufayli elektr uchun to'lov ko'p chiqadi.",
+      "Elektromobillar keng tarqalishi bilan quvvatlash shoxobchalarini ko'paytirish kerak, degan ovozlar kuchaymoqda."
+    ],
+    "전날": [
+      "Imtihon arafasi.",
+      "Bir kun oldingi kechasi uxlay olmadim.",
+      "To'ydan bir kun oldin erta yotsangiz, charchamaysiz.",
+      "Taqdimotning arafasigacha materiallarni tuzatish bilan band bo'lib, deyarli tunni bedor o'tkazdim."
+    ],
+    "전달": [
+      "Xabarni yetkazdim.",
+      "Iltimos, bu xatni yetkazib bering.",
+      "Do'stimga o'qituvchining gaplarini aniq yetkazdim.",
+      "Yangiliklar faktlarni qanday bo'lsa, shundayligicha yetkazishni eng muhim tamoyil deb bilishi kerak."
+    ],
+    "전동차": [
+      "Elektropoyezd keldi.",
+      "Elektropoyezd ichi iliq.",
+      "Ishga boradigan vaqtda metro vagonlari odamlarga to'lib ketadi, hatto tik turish ham qiyin bo'ladi.",
+      "Yangi joriy etilgan elektr poyezdlar shovqini kam va o'rindiqlari keng bo'lgani uchun yo'lovchilar ulardan juda mamnun."
+    ],
+    "전등": [
+      "Chiroqni yoqib bering.",
+      "Chiroq juda yorug'.",
+      "Xona qorong'i bo'lgani uchun yana bitta chiroq o'rnatdim.",
+      "Elektr energiyasini tejash maqsadida foydalanilmayotgan xonalardagi chiroqlarni albatta o'chirib qo'yish so'ralmoqda."
+    ],
+    "전망": [
+      "Bu yil iqtisodiy istiqbol yaxshi.",
+      "Bu xonadan ko'rinadigan manzara chiroyli.",
+      "Baland toqqa chiqqanimda dengiz ko'rinadigan manzara juda ajoyib edi.",
+      "Mutaxassislar kelasi yili ko'chmas mulk bozori barqarorlashadi, degan prognozni ilgari surishdi."
+    ],
+    "전문가": [
+      "U kompyuter mutaxassisi.",
+      "Mutaxassisdan so'rang.",
+      "Ekologik muammolar bo'yicha mutaxassislarning fikrini eshitib ko'rgan ma'qul.",
+      "Bu sohaning mutaxassislari yig'ilib, sun'iy intellektning axloqiy muammolarini chuqur muhokama qilishdi."
+    ],
+    "전문적": [
+      "Bu mutaxassislik talab qiladigan ish.",
+      "U ovqat pishirishni professional tarzda o'rgangan.",
+      "Bu muammo maxsus bilim talab qiladi, shuning uchun uni yolg'iz o'zim hal qilishim qiyin.",
+      "U shifoxona saraton bilan og'rigan bemorlarga ixtisoslashgan davolash va maslahat xizmatlarini birgalikda taqdim etadi."
+    ],
+    "전문점": [
+      "Men qahvaxonaga boraman.",
+      "Bu atrofda nonga ixtisoslashgan do'kon bor.",
+      "Do'stim bilan birga kalguksu restoranida tushlik qildik.",
+      "So'nggi paytlarda faqat bitta taomni astoydil tayyorlaydigan ixtisoslashgan oshxonalar yoshlar orasida mashhur bo'lib bormoqda."
+    ],
+    "전반전": [
+      "Birinchi bo'lim tugadi.",
+      "Birinchi bo'limda bizning jamoa yutib turibdi.",
+      "Birinchi bo'limda bitta gol urib, ikkinchi bo'limda himoyaga e'tibor qaratdik.",
+      "Jamoamiz birinchi bo'lim davomida raqibning hujumlarini samarali to'xtatib, tashabbusni qo'lga oldi."
+    ],
+    "전부": [
+      "Bularning hammasi qancha turadi?",
+      "Uy vazifasini to'liq bajardim.",
+      "Mendagi bor pul shu, boshqa yo'q.",
+      "U o'zining bor mol-mulkini butunlay muhtoj qo'shnilarga hadya qildi."
+    ],
+    "전산실": [
+      "Kompyuter xonasi qayerda?",
+      "Kompyuter xonasida kompyuterlarni tuzatishadi.",
+      "Kompaniyaning server xonasida nosozlik chiqib, elektron xat yubora olmadik.",
+      "Kompyuter markazida muhim serverlar joylashgani uchun u yerga faqat ruxsati bor xodimlargina kira oladi."
+    ],
+    "전세": [
+      "Bizning uyimiz jeonse asosida ijaraga olingan.",
+      "Jeonse asosida uy qidiryapman.",
+      "Jeonse shartnomasi tugagani uchun yangi uy qidirishim kerak.",
+      "Jonse garov puli keskin oshib ketishi bilan oddiy aholining uy-joy yuki yanada og'irlashdi."
+    ],
+    "전셋집": [
+      "Jeonse uy yaxshi.",
+      "Jeonse uy topdim.",
+      "Bu safar ko'chib o'tadigan jeonse uyimiz metro bekatiga yaqin.",
+      "Jonse uyi bo'yicha shartnoma tuzishdan oldin ko'chmas mulk reyestridan ko'chirmani albatta tekshirish xavfsiz bo'ladi."
+    ],
+    "전시": [
+      "San'at muzeyida ko'rgazma bo'lyapti.",
+      "Ko'rgazmani ko'rgani bordim.",
+      "Bu galgi ko'rgazmada mashhur rassomning ko'plab rasmlari namoyish etiladi.",
+      "Muzey qadimiy yodgorliklarni bir joyga to'plagan maxsus ko'rgazmani kelasi oydan boshlab o'tkazadi."
+    ],
+    "전시회": [
+      "Ko'rgazmaga bordim.",
+      "Fotosuratlar ko'rgazmasi ochiladi.",
+      "Bu dam olish kunlari do'stim bilan rasm ko'rgazmasini ko'rgani boramiz.",
+      "Xalqaro kitob ko'rgazmasida yuzlab nashriyotlar ishtirok etib, yangi kitoblarini namoyish qilishdi."
+    ],
+    "전원": [
+      "Quvvat tugmasini yoqib bering.",
+      "Yoqish tugmasi qayerda?",
+      "Kompyuter to'satdan o'chib qolib, ustida ishlagan faylim yo'qolib ketdi.",
+      "Qurilmani ta'mirlashdan oldin albatta elektr ta'minotini uzib, vilkani rozetkadan sug'urib olish kerak."
+    ],
+    "전자": [
+      "Elektron jihoz sotib oldim.",
+      "Elektron juda kichik.",
+      "Moddani tashkil etuvchi atomlar proton, neytron va elektronlardan iborat.",
+      "Elektronlar harakatlanishi natijasida elektr toki oqishi tamoyilini tajriba orqali tekshirib ko'rdik."
+    ],
+    "전자레인지": [
+      "Mikroto'lqinli pech bor.",
+      "Ovqatni mikroto'lqinli pechda isitaman.",
+      "Ovqat sovib qolgani uchun uni mikroto'lqinli pechda bir daqiqa isitdim.",
+      "Metall idishni mikroto'lqinli pechga qo'ysangiz, uchqun chiqishi mumkin, shuning uchun bu juda xavfli."
+    ],
+    "전쟁": [
+      "Urush yomon.",
+      "Urush tugadi.",
+      "Urush tufayli ko'p odamlar uyidan ayrilib, qochoqqa aylandi.",
+      "Xalqaro hamjamiyat urushni to'xtatib, muammolarni muloqot yo'li bilan hal qilishga chaqiruvchi qo'shma bayonot e'lon qildi."
+    ]
+  },
+  "0125": {
+    "전철": [
+      "Elektrichkaga chiqaman.",
+      "Elektropoyezd hozir keladi.",
+      "Uyimdan ishxonagacha elektr poyezdda qirq daqiqacha yuriladi.",
+      "Ishga boriladigan soatlarda elektr poyezdda yo'lovchilar ko'p bo'lgani uchun o'tirishga joy topish deyarli imkonsiz."
+    ],
+    "전체": [
+      "Hammasi bo'lib necha kishi?",
+      "Umumiy narxini aytib bering.",
+      "Butun sinf birgalikda sayrga chiqishga qaror qildi.",
+      "Bu voqeani bir kishining xatosi emas, balki butun tashkilotning muammosi deb qarash kerak."
+    ],
+    "전체적": [
+      "Umuman olganda yaxshi.",
+      "Umumiy kayfiyat quvnoq.",
+      "Umuman olganda, bu safargi imtihon qiyin emas edi.",
+      "Hisobotda avval umumiy mazmunni tushuntirib, keyin tafsilotlarga o'tgan ma'qul."
+    ],
+    "전통": [
+      "Koreya an'analarini o'rganaman.",
+      "An'anaviy taomlarni yaxshi ko'raman.",
+      "Seollalda milliy kiyim kiyib, kattalarga ta'zim qilib, bayram tabrigini yetkazamiz.",
+      "Uzoq an'analarni saqlab kelgan do'konlar yo'qolib ketmasligi uchun mahalliy hokimiyat turli yordamlarni ko'rsatmoqda."
+    ],
+    "전통문화": [
+      "An'anaviy madaniyatni o'rganaman.",
+      "Koreyaning an'anaviy madaniyati qiziqarli.",
+      "Chet ellik do'stlarim bilan an'anaviy madaniyatni sinab ko'rish tadbirida qatnashdim.",
+      "An'anaviy madaniyatni saqlab qolgan holda uni zamonaviy tarzda qayta talqin qilishga qaratilgan sa'y-harakatlar faol olib borilmoqda."
+    ],
+    "전통적": [
+      "Bu an'anaviy uy.",
+      "An'anaviy usulda tayyorlaymiz.",
+      "Bu restoran doenjangni an'anaviy usulda tayyorlaydi, shuning uchun ta'mi juda boy.",
+      "An'anaviy oila shakli o'zgarishi bilan yolg'iz yashovchilar uchun yangi xizmatlar ko'payib bormoqda."
+    ],
+    "전화벨": [
+      "Telefon jiringlayapti.",
+      "Telefon qo'ng'irog'ining ovozi baland.",
+      "Uxlash uchun endi yotgandim, to'satdan telefon jiringlab, cho'chib ketdim.",
+      "Majlis vaqtida boshqalarga xalaqit bermaslik uchun telefon qo'ng'irog'ini tebranish rejimiga o'tkazib qo'yish kerak."
+    ],
+    "절대로": [
+      "Aslo mumkin emas.",
+      "Men hech qachon yolg'on gapirmayman.",
+      "Bu sirni hech qachon boshqa hech kimga aytmang.",
+      "Xavfsizlik qoidalariga hech qanday holatda ham mutlaqo e'tiborsizlik bilan qaramaslik kerakligi ta'kidlandi."
+    ],
+    "절반": [
+      "Olmaning yarmini yedim.",
+      "Ishning yarmi tugadi.",
+      "Maoshimning yarmini jamg'araman, qolganini turmush xarajatlariga sarflayman.",
+      "Bu yilgi birinchi kurs talabalarining yarmidan ko'pi chet eldan kelgan talabalar ekani ma'lum bo'ldi."
+    ],
+    "절약": [
+      "Suvni tejayman.",
+      "Elektr energiyasini tejash muhim.",
+      "Pulni tejash uchun tushlikka uydan ovqat olib kelaman.",
+      "Energiyani tejash maqsadida qish faslida xona haroratini me'yoriy darajada saqlash tavsiya etilmoqda."
+    ],
+    "젊은이": [
+      "Yoshlar ko'p.",
+      "Yoshlar yig'ildi.",
+      "Avtobusda bir yigit buvijonga joyini bo'shatib berdi.",
+      "Hozirgi yoshlar orasida sayohat va sevimli mashg'ulotlarga mablag' sarflash madaniyati keng tarqalmoqda."
+    ],
+    "젊음": [
+      "Yoshlikka havasim keladi.",
+      "Yoshlik qadrli.",
+      "Yoshligimdan bahramand bo'lish uchun do'stlarim bilan tez-tez sayohatga chiqaman.",
+      "Yoshlikning go'zalligi tavakkal qilishga jur'at va muvaffaqiyatsizlikdan qo'rqmaydigan shijoatda namoyon bo'ladi."
+    ],
+    "점잖다": [
+      "U kishi juda odobli.",
+      "U vazmin odam.",
+      "U xuddi odobli janoblardek har doim sokin ohangda salomlashadi.",
+      "G'azablantiradigan vaziyatda ham u vazminlik bilan gapirib, avvalo suhbatdoshining holatini tushunishga harakat qildi."
+    ],
+    "점점": [
+      "Havo borgan sari sovuqlashyapti.",
+      "Borgan sari yaxshilanyapti.",
+      "Koreys tilim borgan sari yaxshilanayotganidan xursandman.",
+      "Shahar aholisi tobora kamayib borishi bilan har yer-har yerda bo'sh uylar ko'zga tashlana boshladi."
+    ],
+    "점차": [
+      "Asta-sekin yaxshilanyapti.",
+      "Asta-sekin qorong'i tushyapti.",
+      "Havo asta-sekin isiy boshlagach, gullar ochila boshladi.",
+      "Yangi tizim asta-sekin o'z o'rnini topib, fuqarolarning kundalik hayotiga ta'sir ko'rsatmoqda."
+    ],
+    "접다": [
+      "Qog'ozni buklayman.",
+      "Soyabonni yig'ing.",
+      "Bola rangli qog'ozni buklab, chiroyli turna yasadi.",
+      "U uzoq o'ylab, yuritib kelgan do'konini yopib, ona yurtiga qaytishga qaror qildi."
+    ],
+    "접수": [
+      "Ro'yxatga olish joyi qayerda?",
+      "Arizalar qabul qilinmoqda.",
+      "Kasalxonada ro'yxatdan o'tib, navbatimni kutdim.",
+      "Imtihon uchun arizalarni qabul qilish kelasi dushanbadan boshlab faqat onlayn tarzda amalga oshiriladi."
+    ],
+    "접하다": [
+      "Yangi xabarni eshitdim.",
+      "Koreys madaniyati bilan tanishyapman.",
+      "Internet orqali turli mamlakatlar musiqasi bilan osongina tanishish mumkin.",
+      "U bolaligida mumtoz adabiyot bilan tanishib, yozuvchi bo'lish orzusini parvarishlay boshladi."
+    ],
+    "정": [
+      "U juda mehribon odam.",
+      "Qo'shnilar o'rtasida mehr-oqibat bor.",
+      "Uzoq vaqt birga yashab, xonadoshimga mehrim tushib qoldi.",
+      "Koreyslar mehr-oqibatni qadrlagani uchun taomlarini baham ko'rib, munosabatlarini mustahkamlaydilar."
+    ],
+    "정기적": [
+      "Muntazam sport bilan shug'ullanaman.",
+      "Muntazam tekshiruvdan o'taman.",
+      "Tish shifokorida tishlarni muntazam tekshirtirib turgan ma'qul.",
+      "Bu to'garak muntazam uchrashuvlar orqali a'zolar o'rtasidagi aloqalarni mustahkamlab kelgan."
+    ],
+    "정답": [
+      "To'g'ri javobni bilaman.",
+      "To'g'ri javob ikkinchisi.",
+      "O'qituvchi masalaning to'g'ri javobini doskaga yozdi.",
+      "Imtihonda to'g'ri javobni tanlayotganda savolni oxirigacha o'qib, javob variantlarini sinchkovlik bilan solishtirish kerak."
+    ],
+    "정말로": [
+      "Chindan ham rahmat.",
+      "Haqiqatan ham mazali.",
+      "Men bu haqiqatni chindan ham bilmagan edim.",
+      "U haqiqatan ham bor kuchini sarfladi, ammo afsuski, natija kutilganidek bo'lmadi."
+    ],
+    "정보화": [
+      "Hozir axborot asri.",
+      "Axborotlashtirish tez sur'atda bormoqda.",
+      "Koreya axborotlashtirish jadal sur'atlarda amalga oshgan mamlakat sifatida tanilgan.",
+      "Qishloq hududlarida axborotlashtirish darajasini oshirishga qaratilgan ta'lim loyihalari butun mamlakat bo'ylab amalga oshirilmoqda."
+    ],
+    "정부": [
+      "Hukumat e'lon qildi.",
+      "Koreya hukumati Seulda joylashgan.",
+      "Hukumat narxlarni barqarorlashtirish uchun yangi choralar ishlab chiqdi.",
+      "Hukumat va muxolifat partiyasi byudjet loyihasi borasidagi kelishmovchiliklarni bartaraf eta olmagan holda muzokaralarni davom ettirdi."
+    ],
+    "정상": [
+      "Bu normal.",
+      "Sog'lig'im joyida.",
+      "Tekshiruv natijasida qon bosimim me'yorida chiqib, xotirjam bo'ldim.",
+      "Tizim normal ishlamagani sababli malakali usta joyiga kelib, uni tekshirib chiqdi."
+    ],
+    "정상적": [
+      "Bu odatiy holat.",
+      "Normal ishlayapti.",
+      "Bu mashina normal ishlamagani uchun ta'mirga topshirdim.",
+      "Belgilangan tartib-qoidalarga rioya qilinmagan holda tuzilgan shartnomaning yuridik kuchga ega deb tan olinishi qiyin."
+    ],
+    "정성": [
+      "Bunga jon-dil bilan yondashilgan.",
+      "Butun qalbimni berib tayyorladim.",
+      "Onam jon-dildan tayyorlab bergan taom eng mazali taom.",
+      "Aytishlaricha, usta bu sopol idishni har bir harakatiga butun mehrini berib yasagan ekan."
+    ],
+    "정성껏": [
+      "Chin dildan yozdim.",
+      "Jon-dildan tayyorladim.",
+      "Do'stimning tug'ilgan kuniga chin dildan tayyorlagan tortimni sovg'a qildim.",
+      "Bemorga astoydil g'amxo'rlik qilayotgan hamshirani ko'rib, oila a'zolari unga chuqur minnatdorchilik his qilishdi."
+    ],
+    "정신": [
+      "Boshim qotib qoldi.",
+      "O'zingizga keling.",
+      "Qattiq qo'rqib ketganimdan bir lahza hushimdan ketdim.",
+      "U og'ir vaziyatda ham hushyorlikni yo'qotmay, xotirjamlik bilan harakat qildi."
+    ],
+    "정신없다": [
+      "Bugun juda bandman, boshim qotgan.",
+      "Hozir boshim juda qotib ketgan.",
+      "Mijozlar birdan ko'payib ketgani uchun do'kon ichida to's-to'polon bo'lib ketdi.",
+      "Yil oxiri bo'lgani uchun ishlar to'planib, boshi qotib yurgan paytda ham u uchrashuv vaqtini unutmadi."
+    ]
+  },
+  "0126": {
+    "정신없이": [
+      "O'zimni unutib yugurdim.",
+      "Hamma narsani unutib yedim.",
+      "Ertalabdan boshim qotib band bo'lganim uchun tushlik ham qila olmadim.",
+      "Bola komiksga berilib ketib, vaqt qanday o'tganini sezmay, uni berilib o'qib chiqdi."
+    ],
+    "정신적": [
+      "Ruhan qiynalyapman.",
+      "Ruhiy yordam kerak.",
+      "Imtihonlar sababli ruhiy zo'riqishim ancha to'planib qoldi.",
+      "Haddan tashqari ish yuki ishchi xodimlarning ruhiy salomatligiga putur yetkazadigan asosiy sabablardan biri sifatida ko'rsatiladi."
+    ],
+    "정의": [
+      "Adolat muhim.",
+      "Adolatli inson bo'lishni xohlayman.",
+      "Biz adolat uchun jasorat ko'rsatishimiz kerak.",
+      "Qonun adolatni qaror toptirish vositasi bo'lib, hammaga birdek teng qo'llanilishi kerak."
+    ],
+    "정장": [
+      "Rasmiy kostyum kiydim.",
+      "Yangi kostyum sotib oldim.",
+      "Ish suhbati sababli qora rasmiy kostyum kiyib bordim.",
+      "Bu tadbir rasmiy tus olgan marosim bo'lgani sababli ishtirokchilardan klassik kostyumda kelishlarini so'raymiz."
+    ],
+    "정전": [
+      "Tok o'chib qoldi.",
+      "Elektr o'chgani uchun qorong'i.",
+      "Kechasi to'satdan svet o'chib qolgani uchun sham yoqdim.",
+      "To'fon sababli elektr o'chib qolishi oqibatida minglab xonadonlar kun bo'yi noqulaylikka duch keldi."
+    ],
+    "정지": [
+      "To'xtatish tugmasini bosaman.",
+      "Mashina to'xtadi.",
+      "Svetofor qizil bo'lsa, mashinani to'xtatish kerak.",
+      "Baxtsiz hodisa yuz berishi bilan poyezd harakati vaqtincha to'xtatilib, yo'lovchilar noqulaylikka uchradi."
+    ],
+    "정직하다": [
+      "U odam halol.",
+      "Rostini gapiring.",
+      "Men halol inson bo'lishni xohlayman.",
+      "U qiyin vaziyatda ham haqiqatni halollik bilan tan olib, odamlarning ishonchini qozondi."
+    ],
+    "정차": [
+      "Avtobus to'xtadi.",
+      "To'xtab turish vaqti qisqa.",
+      "Poyezd kichik bekatda biroz to'xtab turdi-da, yana yo'lga tushdi.",
+      "Bu yer avtobus to'xtash joyi emas, shuning uchun bu yerda mashinani qoldirsangiz yoki to'xtasangiz, jarima solinadi."
+    ],
+    "정체": [
+      "U odam aslida kim?",
+      "Uning kimligini bilib bo'lmaydi.",
+      "Filmda jinoyatchining kimligi eng oxirida oshkor bo'ladi.",
+      "Politsiya voqea joyida topilgan sirli shaxsning kimligini aniqlash uchun tergov boshladi."
+    ],
+    "정치": [
+      "Men siyosatga qiziqmayman.",
+      "Siyosiy yangiliklarni ko'raman.",
+      "Universitetda siyosatni o'rganmoqchiman.",
+      "Siyosat xalq hayoti bilan bevosita bog'liq bo'lgani uchun fuqarolarning qiziqishi va ishtiroki albatta zarur."
+    ],
+    "정치가": [
+      "U mashhur siyosatchi.",
+      "Siyosatchi nutq so'zlayapti.",
+      "O'sha siyosatchi fuqarolarning gaplarini diqqat bilan tinglashi bilan mashhur.",
+      "Yaxshi siyosatchi navbatdagi saylovni emas, balki kelajak avlodni o'ylab siyosiy qarorlar qabul qiladi."
+    ],
+    "정치인": [
+      "Siyosatchi keldi.",
+      "Anavi siyosatchini taniyman.",
+      "Siyosatchilar saylov vaqti kelganda bozorlarga tez-tez kelib turishadi.",
+      "Siyosatchining bitta gapi butun jamiyatda katta shov-shuvga sabab bo'lishi mumkinligi uchun undan ehtiyotkorlik talab etiladi."
+    ],
+    "정치학": [
+      "Men siyosatshunoslikni o'rganaman.",
+      "Siyosatshunoslik darsi qiyin.",
+      "Akam universitetda siyosatshunoslik yo'nalishida o'qigan, hozir esa tadqiqotchi bo'lib ishlaydi.",
+      "Siyosatshunoslik hokimiyatning shakllanishi va taqsimlanishi jarayonlarini tizimli tahlil qiluvchi fandir."
+    ],
+    "정확하다": [
+      "Vaqt aniq.",
+      "Aniq javobni aytib bering.",
+      "Bu soat juda aniq yuradi, hech qachon orqada qolmagan.",
+      "Aniq statistik ma'lumotlar bilan asoslangandagina siyosatning samarasini xolis baholash mumkin."
+    ],
+    "정확히": [
+      "Aniq soat necha?",
+      "Aniq qilib aytib bering.",
+      "Hozir aynan qayerdasiz?",
+      "Baxtsiz hodisaning sababini aniq ochib berish uchun mutaxassislardan iborat tergov guruhi tuzildi."
+    ],
+    "젖다": [
+      "Kiyimim ho'l bo'lib qoldi.",
+      "Yomg'irda ho'l bo'ldim.",
+      "To'satdan yomg'ir yog'ib, oyoq kiyimim ham, paypog'im ham ho'l bo'lib ketdi.",
+      "U uzoq vaqtdan keyin ona yurti qo'shig'ini eshitib, sog'inchli xotiralarga berilib, ancha vaqt jim qoldi."
+    ],
+    "제공": [
+      "Ovqat bilan ta'minlaymiz.",
+      "Bepul taqdim etamiz.",
+      "Mehmonxonada nonushta bepul beriladi.",
+      "Bu kompaniya xodimlariga turli ijtimoiy imtiyozlar berib, ularning ishdan qoniqish darajasini oshirmoqda."
+    ],
+    "제대로": [
+      "To'g'ri o'tiring.",
+      "Yaxshilab ovqatlana olmadim.",
+      "Kecha juda charchaganimdan yaxshilab uxlay olmadim.",
+      "Yo'riqnomani yaxshilab o'qimay mashinani ishlatib, oxiri uni buzib qo'ydim."
+    ],
+    "제도": [
+      "Yangi tizim joriy qilindi.",
+      "Bu tizim yaxshi.",
+      "Koreyada majburiy ta'lim tizimi mavjud.",
+      "Hukumat keksalikda ijtimoiy kafolatni ta'minlash maqsadida pensiya tizimini isloh qilish yo'llarini ko'rib chiqmoqda."
+    ],
+    "제때": [
+      "O'z vaqtida keling.",
+      "Dorini o'z vaqtida ichaman.",
+      "Avtobus o'z vaqtida kelmagani uchun maktabga kechikdim.",
+      "Ovqatni o'z vaqtida yemasangiz, oshqozonga yuk tushishi oson, shuning uchun muntazam ovqatlanish odati muhim."
+    ],
+    "제발": [
+      "Iltimos, yordam bering.",
+      "Iltimos, jim bo'ling.",
+      "Iltimos, bu safar imtihondan o'tay!",
+      "Hech bo'lmasa uchrashuv vaqtiga rioya qilishini qayta-qayta iltimos qilgan bo'lsam ham, u yana kechikdi."
+    ],
+    "제비": [
+      "Qaldirg'och uchyapti.",
+      "Qaldirg'och uya qurdi.",
+      "Bahor kelishi bilan qaldirg'ochlar qaytib kelib, tom bo'g'otining ostiga uya qurdi.",
+      "Qaldirg'och qish kelishi bilan iliq janubiy o'lkalarga uchib ketadigan tipik ko'chmanchi qushdir."
+    ],
+    "제사": [
+      "Bugun ajdodlar xotirasi marosimini o'tkazamiz.",
+      "Bizning oilada ajdodlarni xotirlash marosimini o'tkazamiz.",
+      "Bayramlarda butun oila yig'ilib, ajdodlar xotirasiga bag'ishlangan marosim o'tkazadi.",
+      "Ajdodlarni yod etish marosimini o'tkazish odati ota-bobolarni xotirlash va oila rishtalarini mustahkamlashga xizmat qiladigan Koreyaning an'anaviy marosimidir."
+    ],
+    "제시간": [
+      "O'z vaqtida keldim.",
+      "Belgilangan vaqtda tugadi.",
+      "Poyezd o'z vaqtida yetib kelgani uchun uchrashuvga kechikmadim.",
+      "Ishtirokchilar o'z vaqtida yig'ilmagani uchun majlis o'ttiz daqiqa kechikib boshlandi."
+    ],
+    "제안": [
+      "Taklifim bor.",
+      "Yaxshi taklif ekan.",
+      "Do'stim birga sayohatga borishni taklif qildi.",
+      "Kompaniya xodimlarning takliflarini inobatga olib, ish sharoitlarini yaxshilashga qaror qildi."
+    ],
+    "제자": [
+      "Men ustozimning shogirdiman.",
+      "Shogird ustoziga salom beryapti.",
+      "Uzoq vaqtdan keyin shogirdlari yo'qlab kelgani uchun ustoz juda xursand bo'ldi.",
+      "U o'z ishini davom ettiradigan shogird tayyorlash uchun butun umri davomida mahoratini o'rgatishga harakat qildi."
+    ],
+    "제자리": [
+      "Kitobni o'z joyiga qo'ying.",
+      "O'z joyingizga o'tiring.",
+      "Narsalardan foydalanib bo'lgach, ularni doim o'z joyiga qo'yish odatini shakllantiring.",
+      "Qancha urinmay natija bo'lmagach, bir joyda depsinib turgandek his qiladigan paytlar bo'ladi."
+    ],
+    "제작": [
+      "Film suratga olamiz.",
+      "Bu Koreyada ishlab chiqarilgan.",
+      "Sinfimiz maktab festivali uchun video tayyorladi.",
+      "Bu serial ishlab chiqarish bosqichidanoq xorijiy bozorni mo'ljallab, turli mamlakatlardan aktyorlarni rollarga tanlagan."
+    ],
+    "제출": [
+      "Uy vazifasini topshirdim.",
+      "Hujjatlarni topshiring.",
+      "Hisobotni juma kunigacha elektron pochta orqali topshirish kerak.",
+      "Arizani topshirayotganda shaxsni tasdiqlovchi hujjat nusxasi va rasmni ham qo'shib ilova qilish kerak."
+    ],
+    "제품": [
+      "Bu mahsulot yaxshi.",
+      "Yangi mahsulot sotib oldim.",
+      "Bu do'kon faqat Koreyada ishlab chiqarilgan mahsulotlarni sotadi.",
+      "Kompaniya iste'molchilarning fikr-mulohazalarini inobatga olib, avvalgi mahsulotning kamchiliklari bartaraf etilgan yangi mahsulotni chiqardi."
+    ]
+  },
+  "0127": {
+    "제한": [
+      "Tezlik cheklovi bor.",
+      "Vaqt cheklovi yo'q.",
+      "Bu attraksionda bo'y bo'yicha cheklov bor, shuning uchun bolalar unga chiqa olmaydi.",
+      "Yo'lda belgilangan tezlik chegarasiga rioya qilmasangiz, jarima to'lashingizga to'g'ri keladi."
+    ],
+    "조개": [
+      "Chig'anoq yeyman.",
+      "Dengiz qirg'og'ida chig'anoq terdim.",
+      "Bolalar bilan birga dengiz bo'yidagi loyqa sayozlikdan chig'anoqli mollyuskalar terdik.",
+      "Chig'anoqli mollyuskalar og'zini ochib, suvdagi planktonni suzib oziqlanib yashaydigan yumshoq tanli hayvonlardir."
+    ],
+    "조건": [
+      "Sharoit yaxshi.",
+      "Bu ishning shartlari qanday?",
+      "Maosh va ish sharoitlariga qarab kompaniyani tanladim.",
+      "U shartnomada ko'rsatilgan barcha shartlarni bajargandan keyingina garov pulini qaytarib ola oldi."
+    ],
+    "조교": [
+      "Men universitetda assistentman.",
+      "Assistent o'qituvchidan so'raymiz.",
+      "Assistent dars materiallarini talabalarga tarqatib berdi.",
+      "U magistraturada o'qib yurgan paytida assistent bo'lib ishlab, o'qish to'lovi va yashash xarajatlarini qoplab bordi."
+    ],
+    "조깅": [
+      "Ertalab yengil yuguraman.",
+      "Bog'da yengil yugurish bilan shug'ullanaman.",
+      "Sog'lig'im uchun har kuni kechqurun bir soatdan yugurib turaman.",
+      "Muntazam yugurish yurak va o'pka faoliyatini yaxshilashga hamda stressni kamaytirishga yordam beradi."
+    ],
+    "조르다": [
+      "Bola o'yinchoq olib berishni so'rab xarxasha qilyapti.",
+      "Ukam tinmay xarxasha qilyapti.",
+      "Bola ota-onasiga istirohat bog'iga boraylik deb xarxasha qildi.",
+      "Kamarni haddan tashqari qattiq tortib bog'lasangiz, ovqat yaxshi hazm bo'lmay, o'zingizni noqulay his qilishingiz mumkin."
+    ],
+    "조리": [
+      "Pishirish vaqti qisqa.",
+      "Ovqat tayyorlashni boshlayman.",
+      "Ovqat tayyorlashdan oldin qo'lni yaxshilab yuvish kerak.",
+      "Oshxonada gigiyena maqsadida ovqat tayyorlash anjomlari va masalliqlar qat'iy ravishda alohida saqlanadi."
+    ],
+    "조리법": [
+      "Retseptini aytib bering.",
+      "Bu taomning retsepti oddiy.",
+      "Internetdan kimchi-jjigae retseptini topib, tayyorlab ko'rdim.",
+      "Bu kitobda Koreyaning an'anaviy taomlarini tayyorlashning turli retseptlari rasmlar bilan batafsil berilgan."
+    ],
+    "조림": [
+      "Kartoshka dimlamasini yaxshi ko'raman.",
+      "Dimlangan baliq mazali.",
+      "Onam tayyorlab bergan sousda dimlangan mayda baliq guruch uchun eng zo'r gazak.",
+      "Jorim - bu soya sousi yoki ziravorlar qo'shib, masalliqlarga ta'm singib ketguncha qaynatib dimlab tayyorlanadigan taomdir."
+    ],
+    "조만간": [
+      "Yaqin orada ko'rishamiz.",
+      "Yaqin orada bog'lanaman.",
+      "Yaqin orada vaqt topib, birga ovqatlanaylik.",
+      "Hukumat yaqin orada ko'chmas mulk bo'yicha yangi choralarni e'lon qilishini ma'lum qildi."
+    ],
+    "조명": [
+      "Yoritish yorqin.",
+      "Bu xonaning yoritilishi chiroyli.",
+      "Kafening yoritilishi iliq bo'lgani uchun muhit juda yoqimli.",
+      "Sahna chiroqlari o'chishi bilan tomoshabinlar nafaslarini ichlariga yutib, spektakl boshlanishini kutishdi."
+    ],
+    "조미료": [
+      "Ziravor qo'shaman.",
+      "Ziravor yo'q.",
+      "Aytishlaricha, bu restoran kimyoviy ta'm beruvchi qo'shimchalardan foydalanmas ekan.",
+      "Salomatlikni o'ylab, sun'iy ta'm beruvchi qo'shimchalar o'rniga tabiiy masalliqlar bilan ta'm beradigan oilalar ko'paymoqda."
+    ],
+    "조상": [
+      "Ajdodlarga ta'zim qilaman.",
+      "Ajdodlarimiz dehqon bo'lgan.",
+      "Seollalda oila a'zolari yig'ilib, ajdodlarga minnatdorlik izhor qiladi.",
+      "Bu qishloq aholisi bundan bir necha yuz yil oldin bitta ajdoddan tarqalgan qarindoshlardir."
+    ],
+    "조심": [
+      "Ehtiyot bo'ling.",
+      "Yo'l sirpanchiq, ehtiyot bo'ling.",
+      "Sho'rva issiq, kuyib qolmaslik uchun ehtiyot bo'lib iching.",
+      "Bitta so'z ham ko'ngilni yaralashi mumkin, shuning uchun ayniqsa ilk bor uchrashgan odam bilan ehtiyot bo'lish kerak."
+    ],
+    "조절": [
+      "Haroratni rostlayman.",
+      "Ovozni sozlab bering.",
+      "Konditsioner haroratini rostlab, xonani salqin qildim.",
+      "U ovqat miqdorini me'yorlab, muntazam sport bilan shug'ullanib, bir necha oy ichida vaznini ancha kamaytirdi."
+    ],
+    "족발": [
+      "Jokbal yegim kelyapti.",
+      "Jokbal mazali.",
+      "Do'stlar bilan birga yetkazib berishdan buyurtma qilingan jokbalni yeb, futbol tomosha qildik.",
+      "Jokbal - cho'chqa oyog'ini soya sousi va ziravorlar bilan yaxshilab qaynatib, yupqa qilib to'g'rab yeyiladigan Koreyaning mashhur kechki taomidir."
+    ],
+    "존경": [
+      "Men ustozimni hurmat qilaman.",
+      "Hurmatli bobomga xat yozdim.",
+      "Men qiyin ahvoldagi odamlarga yordam beradigan shifokorlarni hurmat qilaman.",
+      "U butun umrini xayriya ishlariga bag'ishlagani uchun ko'pchilikning chuqur hurmatiga sazovor bo'ldi."
+    ],
+    "졸다": [
+      "Dars paytida mudrab qoldim.",
+      "Avtobusda mudramang.",
+      "Kecha kechasi uxlay olmaganim uchun yig'ilish paytida qayta-qayta mudrab qoldim.",
+      "U zerikarli ma'ruzani tinglab o'tirib, o'zi ham sezmagan holda mudrab qoldi."
+    ],
+    "졸리다": [
+      "Uyqum kelyapti.",
+      "Ovqat yesam, uyqum keladi.",
+      "Kecha kech yotganim uchun bugun kun bo'yi uyqum keldi.",
+      "Tushlikni ko'p yeb qo'ysa, uyqu bosib, tushdan keyingi ishga diqqatni jamlash oson bo'lmaydi."
+    ],
+    "졸업식": [
+      "Bitiruv marosimiga boraman.",
+      "Bitiruv marosimi kuni suratga tushdik.",
+      "Ota-onam bitiruv marosimimga guldasta ko'tarib kelishdi.",
+      "Bitiruv marosimi kuni o'quvchilar o'tgan kunlar xotiralarini yodga olib, bir-birlari bilan afsus-nadomat ichida xayrlashdilar."
+    ],
+    "졸음": [
+      "Uyqu bosyapti.",
+      "Uyquga qarshi tura olmayapman.",
+      "Kofe ichsam ham uyqu bosib, ko'zimni ochishga qiynaldim.",
+      "Haydovchining mudrashi yirik yo'l-transport hodisalarining asosiy sabablaridan biri bo'lgani uchun uzoq yo'lda tez-tez dam olish kerak."
+    ],
+    "좀처럼": [
+      "U oson-osonlik bilan jahli chiqmaydi.",
+      "Yomg'ir hech yog'ay demayapti.",
+      "Shamollashim hech tuzalavermagani uchun kasalxonaga bordim.",
+      "U odatda ichidagi gapni deyarli oshkor qilmagani uchun do'stlari ham uning tashvishlarini bilishi qiyin."
+    ],
+    "좁히다": [
+      "Oraliqni qisqartiraman.",
+      "Masofani qisqartiring.",
+      "Do'stim bilan yaqinlashish uchun oramizdagi masofani asta-sekin qisqartirdik.",
+      "Muzokarachilar o'zaro pozitsiyalaridagi farqni qisqartirish uchun kechgacha muloqotni davom ettirishdi."
+    ],
+    "종교": [
+      "Mening dinim yo'q.",
+      "Din har bir odamda har xil.",
+      "Do'stim bilan dinimiz boshqa-boshqa bo'lgani uchun bir-birimizning bayramlarimizni birga nishonlaymiz.",
+      "Koreyada buddizm, protestantlik, katoliklik kabi turli dinlar yonma-yon mavjud bo'lib, bir-birini hurmat qiladi."
+    ],
+    "종이컵": [
+      "Qog'oz stakanda suv ichaman.",
+      "Qog'oz stakan yo'q.",
+      "Ishxonada atrof-muhitni asrash uchun qog'oz stakan o'rniga shaxsiy chashkalardan foydalanamiz.",
+      "Bir martalik qog'oz stakanlar foydalanilgandan keyin to'g'ri saralab tashlangandagina qayta ishlanishi mumkin."
+    ],
+    "종종": [
+      "Ba'zan kino ko'raman.",
+      "Ba'zan do'stlarim bilan uchrashaman.",
+      "Men dam olish kunlari ba'zan yaqin atrofdagi tog'larga sayrga chiqaman.",
+      "U band bo'lishiga qaramay, vaqti-vaqti bilan ona yurtidagi ota-onasiga qo'ng'iroq qilib, hol-ahvol so'rab turardi."
+    ],
+    "종합": [
+      "Ko'p tarmoqli kasalxonaga boraman.",
+      "Aralash sovg'a to'plamini sotib oldim.",
+      "Isitmam baland bo'lgani uchun ko'p tarmoqli kasalxonada tekshiruvdan o'tdim.",
+      "Mutaxassislar turli ma'lumotlarni umumlashtirib, kelajakdagi iqtisodiy istiqbolni sinchkovlik bilan tahlil qilishdi."
+    ],
+    "좌석": [
+      "O'rindiqlar ko'p.",
+      "O'rindiqni band qildim.",
+      "Poyezd o'rindiqlari qulay bo'lgani uchun yo'l bo'yi maza qilib uxladim.",
+      "Teatrda tomoshabinlarni oldindan band qilgan o'rindiq raqamlariga ko'ra tartib bilan kirishga yo'naltirishmoqda."
+    ],
+    "좌우": [
+      "Chap va o'ngga qarang.",
+      "Chapga va o'ngga silkitaman.",
+      "Ko'chani kesib o'tishdan oldin chap va o'ngga yaxshilab qarash kerak.",
+      "Kema to'lqinlarda u yoqdan-bu yoqqa qattiq chayqalganda, yo'lovchilar xavotirli yuz bilan panjaraga yopishib olishdi."
+    ],
+    "좌회전": [
+      "Chapga buriling.",
+      "Shu yerdan chapga buriling.",
+      "Chorrahadan chapga burilsangiz, bizning uyimiz ko'rinadi.",
+      "Bu chorrahada faqat svetofor almashgandan keyingina chapga burilish mumkin, shuning uchun haydovchilardan ehtiyotkorlik talab etiladi."
+    ]
+  },
+  "0128": {
+    "주거": [
+      "Yashash sharoiti yaxshi.",
+      "Turar joy xarajatlari qimmat.",
+      "Universitetlar atrofida talabalarning turar joy muammosi ancha jiddiy.",
+      "Hukumat yoshlarning uy-joy barqarorligini ta'minlash uchun ijara haqi arzon bo'lgan davlat uylarini ko'paytirishga qaror qildi."
+    ],
+    "주고받다": [
+      "Salomlashamiz.",
+      "Bir-birimizga xat yozishib turamiz.",
+      "Do'stim bilan sovg'alar almashib, maroqli vaqt o'tkazdik.",
+      "Ikki davlat rahbari uchrashuvda o'z mamlakatlarining pozitsiyalari haqida ochiqchasiga fikr almashib, hamkorlik yo'llarini muhokama qildi."
+    ],
+    "주년": [
+      "Turmush qurganimizga o'n yil to'ldi.",
+      "Bugun maktab tashkil topganining ellik yilligi.",
+      "Do'konimiz ochilganiga besh yil to'lgani munosabati bilan chegirma aksiyasi o'tkazyapmiz.",
+      "Kompaniya tashkil topganining o'ttiz yilligi munosabati bilan barcha xodimlarga maxsus mukofot puli berdi."
+    ],
+    "주름": [
+      "Yuzida ajinlar bor.",
+      "Kiyimim g'ijim bo'lib qoldi.",
+      "Buvijonimning kulib turgan yuzida chuqur ajinlar bor.",
+      "Aytishlaricha, ko'p stress olinsa, teri tez qariydi va ajinlar osongina paydo bo'ladi."
+    ],
+    "주먹": [
+      "Mushtimni tugaman.",
+      "Eshikni musht bilan taqillatdim.",
+      "Jahlim chiqib, o'zim ham bilmagan holda mushtimni qattiq tugdim.",
+      "U mushtini qattiq siqib, bu safar imtihondan albatta o'taman, deb ahd qildi."
+    ],
+    "주문서": [
+      "Buyurtma varaqasini to'ldirdim.",
+      "Buyurtma varaqasini yuborib bering.",
+      "Do'konda mijoz buyurtma varaqasiga yemoqchi bo'lgan taomlarini yozdi.",
+      "Zavod hamkorlardan qabul qilingan buyurtma varaqalarini ko'rib chiqib, ishlab chiqarish jadvalini qaytadan tuzib chiqdi."
+    ],
+    "주민": [
+      "Men shu mahalla aholisiman.",
+      "Aholi yig'ildi.",
+      "Ko'p qavatli uy aholisi yig'ilib, yangi qoidalarni belgilab oldi.",
+      "Shahar hokimiyati mahalliy aholining fikrlarini to'plab, bog' barpo etish rejasini to'ldirishga qaror qildi."
+    ],
+    "주방": [
+      "Oshxona toza.",
+      "Oshxonada ovqat pishiraman.",
+      "Onam oshxonada mazali kechki ovqat tayyorlayaptilar.",
+      "Restoran oshxonasida gigiyena maqsadida barcha xodimlar bosh kiyim va fartuk kiyishlari shart."
+    ],
+    "주식회사": [
+      "Aksiyadorlik jamiyatida ishlayman.",
+      "Bu kompaniya aksiyadorlik jamiyati.",
+      "Otam kichik bir aksiyadorlik jamiyatini o'zlari tashkil qilganlar.",
+      "Aksiyadorlik jamiyati aksiyadorlar kiritgan kapital asosida boshqariladi, aksiyadorlar esa faqat o'zlari kiritgan mablag' miqdorida javobgar bo'ladilar."
+    ],
+    "주어지다": [
+      "Imkoniyat berildi.",
+      "Vaqt berildi.",
+      "Bu imtihonda bir soat vaqt berildi.",
+      "Har bir insonga o'z qobiliyatini ko'rsatish imkoniyati teng berilishi kerak."
+    ],
+    "주유소": [
+      "Yoqilg'i quyish shoxobchasi qayerda?",
+      "Yoqilg'i quyish shoxobchasida benzin quyaman.",
+      "Mashinada benzin qolmagani uchun yoqilg'i quyish shoxobchasiga kirdim.",
+      "Bu yoqilg'i quyish shoxobchasida narx arzon bo'lgani uchun ertalab ishga ketish paytida mashinalar uzun navbatga turadi."
+    ],
+    "주의": [
+      "Diqqat qiling.",
+      "Ehtiyot bo'lish kerak.",
+      "Yo'l sirpanchiq, yurganda ehtiyot bo'lish kerak.",
+      "Haydash paytida mobil telefondan foydalanilsa, diqqat chalg'iydi va avariya xavfi ortadi."
+    ],
+    "주인공": [
+      "U shu filmning bosh qahramoni.",
+      "Bosh qahramon ajoyib.",
+      "Menga o'sha romanning bosh qahramoni yoqadi.",
+      "Bu serialda oddiy ofis xodimining bosh qahramon sifatida ulg'ayib borish jarayoni hayotiy tarzda tasvirlangan."
+    ],
+    "주장": [
+      "Uning fikri to'g'ri.",
+      "Men jamoamizning sardoriman.",
+      "Do'stim faqat o'z fikrini qayta-qayta takrorlab gapiradi.",
+      "U o'z fikrini quvvatlaydigan xolis dalillar keltirib, mantiqiy tarzda ishontirdi."
+    ],
+    "주제": [
+      "Bugungi mavzu atrof-muhit.",
+      "Bu matnning mavzusi nima?",
+      "Taqdimot mavzusini belgilash uchun do'stlarim bilan birga maslahatlashdik.",
+      "Bu roman inson yolg'izligi va muloqotning uzilishi kabi og'ir mavzuni nozik tarzda yoritadi."
+    ],
+    "주택": [
+      "Hovli uyda yashayman.",
+      "Bu atrofda turar-joy uylari ko'p.",
+      "Menga ko'p qavatli uydan ko'ra hovlisi bor uy yoqadi.",
+      "Hukumat oddiy aholining uy-joy barqarorligini ta'minlash uchun davlat ijara uylarini ommaviy ravishda taqdim etishga qaror qildi."
+    ],
+    "주택가": [
+      "Turar-joy mahallasi tinch.",
+      "Turar-joy mahallasida yashayman.",
+      "Bizning uyimiz maktab yaqinidagi sokin turar-joy hududida joylashgan.",
+      "Turar-joy mahallalarida kechasi shovqin bo'lmasligi uchun qo'shnilar bir-birini hurmat qilishi kerak."
+    ],
+    "죽음": [
+      "O'lim qo'rqinchli.",
+      "Buvimning vafoti meni qayg'uga soldi.",
+      "Filmni tomosha qilib, hayot va o'lim haqida o'ylab ko'rdim.",
+      "U yaqin kishisining o'limini boshdan kechirgach, hayotning qadrini yangicha anglay boshlaganini e'tirof etdi."
+    ],
+    "죽이다": [
+      "Chivinni o'ldirdim.",
+      "Hasharotlarni o'ldirmang.",
+      "Dehqonlar zararkunandalarni yo'q qilish uchun dalaga dori sepishdi.",
+      "U lahzalik g'azabini yenga olmay, qadrli munosabatlarni o'z qo'li bilan barbod qilish ahmoqligiga yo'l qo'ydi."
+    ],
+    "준비물": [
+      "Kerakli narsalarni olib oling.",
+      "Nimalarni olib kelish kerak?",
+      "Ertangi sayr uchun olib kelinadigan narsalar tushlik ovqat va suv.",
+      "O'qituvchi tajriba darsi uchun kerakli narsalarni oldindan aytib, hech birini unutib qoldirmaslikni tayinladi."
+    ],
+    "줄거리": [
+      "Filmning syujeti qiziqarli.",
+      "Syujetini aytib bering.",
+      "Bu romanning syujetini qisqacha xulosalab, taqdimot qildim.",
+      "U serial qahramonlar orasidagi murakkab munosabatlar tufayli syujetini tushunish biroz qiyin, degan baho oldi."
+    ],
+    "줄무늬": [
+      "Yo'l-yo'l kiyim kiydim.",
+      "Yo'lbarsning yo'l-yo'l chiziqlari bor.",
+      "Menga ko'k rangli yo'l-yo'l futbolka yoqadi.",
+      "Zebralar oq-qora yo'l-yo'l chiziqlari tufayli yirtqichlarning ko'zini chalg'itishi ma'lum."
+    ],
+    "줄어들다": [
+      "Mijozlar kamayib qoldi.",
+      "Suv kamayib qoldi.",
+      "Kirni issiq suvda yuvgan edim, kiyim kirishib qoldi.",
+      "Tug'ilishning kamayishi ta'sirida maktab yoshidagi aholi keskin qisqarib, yopilayotgan maktablar soni ortib bormoqda."
+    ],
+    "줄이다": [
+      "Ovozni pasaytiring.",
+      "Shakarni kamaytiring.",
+      "Sog'lig'im uchun sho'r taomlarni kamaytirishga harakat qilyapman.",
+      "Kompaniya xarajatlarni kamaytirish uchun keraksiz sarf-xarajatlarni tekshirib, ofis maydonini qisqartirishga qaror qildi."
+    ],
+    "줍다": [
+      "Hamyon topib oldim.",
+      "Yerdan pul topib oldim.",
+      "Bog'da axlat terish bo'yicha ko'ngillilar tadbirida qatnashdim.",
+      "U ko'chadan topib olgan hamyonni egasiga qaytarib bergani uchun politsiya bo'limidan tashakkurnoma oldi."
+    ],
+    "중간": [
+      "O'rtada o'tiring.",
+      "Ma'ruzaning o'rtasida dam oldik.",
+      "Film o'rtasida bir zumga hojatxonaga borib keldim.",
+      "U fikrlari ikkiga ajralgan ikki kishi o'rtasida betaraf pozitsiyani egallab, nizoni hal qilishga urindi."
+    ],
+    "중개소": [
+      "Ko'chmas mulk agentligiga bordim.",
+      "Ko'chmas mulk agentligi qayerda?",
+      "Uy topish uchun yaqin atrofdagi ko'chmas mulk agentligiga kirdim.",
+      "Agentlik orqali shartnoma tuzishdan oldin vositachining litsenziyasini albatta tekshirish kerak."
+    ],
+    "중고": [
+      "Ishlatilgan kitob sotib oldim.",
+      "Ishlatilgan buyumlar do'koniga bordim.",
+      "Pulni tejash uchun internetdan ishlatilgan noutbuk sotib oldim.",
+      "Ishlatilgan buyumlar savdosi platformalari faollashgani sari narsalardan qayta foydalanish madaniyati keng tarqalmoqda."
+    ],
+    "중고차": [
+      "Ishlatilgan mashina sotib oldim.",
+      "Ishlatilgan mashinalarning narxi arzon.",
+      "Akam yangi mashina o'rniga ishlatilgan mashina sotib olib, unda ishga qatnaydi.",
+      "Ishlatilgan avtomobil sotib olayotganda avariya tarixi va bosib o'tgan masofasini sinchiklab tekshirgandagina zarar ko'rishning oldini olish mumkin."
+    ],
+    "중고품": [
+      "Ishlatilgan buyumlarni sotaman.",
+      "Ishlatilgan buyumlar ko'p.",
+      "Ishlatmaydigan narsalarimni ikkinchi qo'l buyumlar do'koniga olib borib sotdim.",
+      "Bu bozorda yaroqli ishlatilgan buyumlarni arzon narxda topish mumkinligi uchun talabalar tez-tez kelib turadi."
+    ]
+  },
+  "0129": {
+    "중급": [
+      "Men o'rta darajadagi guruhdaman.",
+      "Bu semestrda koreys tilining o'rta darajadagi darsiga qatnay boshladim.",
+      "Boshlang'ich darajani tugatgan talabalar imtihon topshirib, o'rta daraja kursiga o'tishlari mumkin.",
+      "O'rta darajadagi so'z boyligini yetarlicha o'zlashtirmasangiz, gazeta maqolalarini o'qishda qiyinchilikka duch kelasiz."
+    ],
+    "중단": [
+      "Qurilish to'xtatildi.",
+      "Yomg'ir kuchli yog'gani uchun o'yin vaqtincha to'xtatildi.",
+      "Kompaniya zarar ko'rgani sababli yangi mahsulot ishlab chiqishni to'xtatishga qaror qildi.",
+      "Hukumat xavfsizlik muammolari hal etilmaguncha mazkur loyihani amalga oshirishni butunlay to'xtatish niyatida ekanini ma'lum qildi."
+    ],
+    "중부": [
+      "Dejon Koreyaning markaziy qismida joylashgan.",
+      "Bu dam olish kunlari markaziy hududlarda yomg'ir yog'adi.",
+      "Markaziy hududlarda qishda qor ko'p yog'adi, shuning uchun haydash paytida ehtiyot bo'lish kerak.",
+      "Meteorologiya xizmati ertaga markaziy hududlarning ichki qismida kuchli shamol esishini bashorat qildi."
+    ],
+    "중소기업": [
+      "Men kichik korxonada ishlayman.",
+      "Kichik va o'rta korxonalarda yirik kompaniyalarga qaraganda xodimlar kamroq.",
+      "Otam kichik bir korxonani o'zlari boshqaradilar.",
+      "Hukumat kichik va o'rta korxonalarning raqobatbardoshligini oshirish uchun turli qo'llab-quvvatlash choralarini ishlab chiqmoqda."
+    ],
+    "중심지": [
+      "Seul Koreyaning markazi.",
+      "Bu mahalla xarid qilish markazi hisoblanadi.",
+      "Pusan qadimdan savdo markazi sifatida mashhur shahardir.",
+      "Bu hudud transport jihatidan qulay bo'lgani uchun savdo va madaniyat markaziga aylandi."
+    ],
+    "중심": [
+      "Park qishloq markazida joylashgan.",
+      "Uyimiz shahar markaziga yaqin.",
+      "Bu muammoni hal qilish uchun talabani markazga qo'yib fikrlash kerak.",
+      "U jamoaning o'zagi sifatida o'yinchilarni bir butun qilib birlashtirish vazifasini zimmasiga oldi."
+    ],
+    "중요성": [
+      "Sog'liqning ahamiyatini bilaman.",
+      "O'qituvchi vaqtning ahamiyati haqida gapirdilar.",
+      "Biz atrof-muhitni muhofaza qilishning ahamiyati haqida yana bir bor o'ylab ko'rishimiz kerak.",
+      "Mutaxassislar bolalikdagi kitob o'qish odatining ahamiyatini qayta-qayta ta'kidlashmoqda."
+    ],
+    "쥐": [
+      "Sichqon bor!",
+      "Oshxonadan sichqonning ovozi eshitilyapti.",
+      "Mushuk sichqonni tutish uchun burchakda poylab turibdi.",
+      "Omborni kalamushlar bosib, don zarar ko'rgach, aholi chora ko'ra boshladi."
+    ],
+    "즉": [
+      "Bir soat, ya'ni 60 daqiqa.",
+      "U mening akam, ya'ni katta amakimning o'g'li.",
+      "Bu va'da, ya'ni bir-birimizga ishonib, unga amal qilaylik degan ma'noni anglatadi.",
+      "Aholining qarishi, ya'ni keksalar ulushining ortib borishi jamiyatning barcha sohalariga ta'sir ko'rsatadi."
+    ],
+    "즐거움": [
+      "Musiqa mening quvonchim.",
+      "Bolalarning o'ynashini tomosha qilish katta quvonch.",
+      "Men sayohatda yangi odamlar bilan tanishishdan zavq olaman.",
+      "U ishdan keyin gitara chalib, kichik quvonchlar topishini aytdi."
+    ],
+    "증가": [
+      "Aholi soni o'syapti.",
+      "Bu yil sayyohlar soni ancha oshdi.",
+      "Narxlar to'xtovsiz o'sib borgani uchun turmush xarajatlari yuki og'irlashdi.",
+      "So'nggi paytlarda yolg'iz yashovchi xonadonlarning ko'payishi sababli kichik uylarga bo'lgan talab sezilarli darajada oshmoqda."
+    ],
+    "증명서": [
+      "Ma'lumotnoma kerak.",
+      "Maktabdan bitiruv haqida ma'lumotnoma oldim.",
+      "Vizaga ariza berish uchun ish joyidan ma'lumotnoma topshirish kerak.",
+      "U bankka topshirish uchun daromad to'g'risidagi ma'lumotnoma olish maqsadida tuman hokimiyatiga bordi."
+    ],
+    "증상": [
+      "Shamollash belgilari bor.",
+      "Isitma ko'tarilish alomati ikkinchi kundan beri davom etyapti.",
+      "Yo'tal va bosh og'rig'i kabi alomatlar bo'lsa, kasalxonaga borib ko'ring.",
+      "Shifokor bemorning alomatlarini batafsil tinglab bo'lgach, chuqur tekshiruvdan o'tishni maslahat berdi."
+    ],
+    "지겹다": [
+      "Bu qo'shiq jonimga tegdi.",
+      "Har kuni bir xil ovqat yeyaverib bezor bo'ldim.",
+      "Yomg'irli kunlar davom etavergani uchun endi jonimga tegdi.",
+      "Bir xil ishni necha yillardan beri takrorlayverganim sababli hatto ishga borishning o'zi ham jonga tegdi."
+    ],
+    "지구": [
+      "Yer yumaloq.",
+      "Biz Yer sayyorasida yashaymiz.",
+      "Global isish tufayli muzliklar tez erib bormoqda.",
+      "Olimlar Yerga o'xshash sharoitga ega sayyorani topish uchun koinot tadqiqotlarini davom ettirmoqda."
+    ],
+    "지나가다": [
+      "Avtobus o'tib ketyapti.",
+      "Uyimiz oldidan o't o'chirish mashinasi o'tib ketdi.",
+      "Yo'lda ketayotib, tasodifan eski do'stimning yonidan o'tib ketdim.",
+      "Inqiroz lahzasi kutilganidan tezroq o'tib ketdi va odamlar kundalik hayotlariga qaytishdi."
+    ],
+    "지나치다": [
+      "Haddan oshmang.",
+      "Hazil haddan oshib ketgani uchun do'stim jahli chiqdi.",
+      "Shoshib turganim uchun do'stimning uyi yonidan o'tib ketib qoldim.",
+      "Uning xatti-harakati hazil deb qarashga haddan oshgan jihatlari bo'lgani uchun atrofdagilar o'zlarini noqulay his qilishdi."
+    ],
+    "지난해": [
+      "O'tgan yili Koreyaga keldim.",
+      "Bu yil o'tgan yilga qaraganda issiqroq.",
+      "Men o'tgan yili qishda birinchi marta chang'i uchdim.",
+      "Kompaniyamizning savdo hajmi o'tgan yilga nisbatan taxminan yigirma foizga oshdi."
+    ],
+    "지루하다": [
+      "Film zerikarli.",
+      "Dars juda zerikarli bo'lgani uchun uyqum kelyapti.",
+      "Kutish vaqti uzoq bo'lgani uchun rosa zerikdim.",
+      "Bu kitobning boshlanishi zerikarli, lekin oxiriga borgan sari voqealar tobora qiziqarli tus oladi."
+    ],
+    "지붕": [
+      "Tom qizil rangda.",
+      "Mushuk tomning ustida o'tiribdi.",
+      "Tomga qor yog'ib qolgani uchun otam uni tozalayaptilar.",
+      "To'fon o'tib ketgach, qishloqdagi bir nechta uyning tomi uchib ketib, katta zarar ko'rdi."
+    ],
+    "지식": [
+      "Bilimim yetarli emas.",
+      "Kitob o'qisangiz, bilimingiz oshadi.",
+      "Internetdan olgan bilimlarimni do'stlarim bilan baham ko'rdim.",
+      "U boy bilimiga tayanib, talabalarga ma'ruzani tushunarli va qiziqarli tarzda o'qidi."
+    ],
+    "지역": [
+      "Bu hudud tinch.",
+      "Bizning hududimizda katta bog' bor.",
+      "Bu hududda yetishtiriladigan olmalar juda mazali.",
+      "Hukumat tabiiy ofat yuz bergan hududga favqulodda yordam puli ajratishga qaror qildi."
+    ],
+    "지옥": [
+      "Do'zax qo'rqinchli.",
+      "Dushanba kuni ishga borish yo'li xuddi do'zaxga o'xshaydi.",
+      "Imtihon davrida o'qish bilan band bo'lib, go'yo do'zaxni boshdan kechirayotgandek bo'laman.",
+      "Ishdan qaytish vaqtidagi metro odamga shu qadar to'la bo'ladiki, uning do'zaxdan farqi yo'q."
+    ],
+    "지우다": [
+      "Doskani o'chiraman.",
+      "Qalam bilan yozilgan yozuvni o'chirg'ich bilan o'chirdim.",
+      "Men suratni adashib o'chirib yuborganim uchun qaytadan suratga oldim.",
+      "U telefonidan ajrashgan sevgilisining raqamini o'chirib, hayotni yangidan boshlashga ahd qildi."
+    ],
+    "지원": [
+      "Yordam va qo'llab-quvvatlash kerak.",
+      "Ota-onam meni qo'llab-quvvatlaydilar.",
+      "Bu kompaniyaga nima uchun ariza topshirganingizni aytib bering.",
+      "Hukumat kam ta'minlangan oilalar uchun uy-joy bo'yicha yangi yordam siyosatini e'lon qildi."
+    ],
+    "지원자": [
+      "Nomzodlar ko'p.",
+      "Suhbat xonasida nomzodlar o'tirishibdi.",
+      "Bu galgi tanlovga yuzdan ortiq nomzod ariza topshirdi.",
+      "Kompaniya hujjatlar saralashidan o'tgan nomzodlar bilan kelasi hafta suhbat o'tkazishni rejalashtirgan."
+    ],
+    "지위": [
+      "U yuqori lavozimda.",
+      "Ayollarning jamiyatdagi mavqei ancha oshdi.",
+      "U direktor lavozimini suiiste'mol qilmay, xodimlar bilan birga ishlaydi.",
+      "Qonun oldida har kim ijtimoiy mavqeidan qat'i nazar teng munosabatda bo'lishi kerak."
+    ],
+    "지저분하다": [
+      "Xona iflos.",
+      "Stol juda tartibsiz bo'lgani uchun yig'ishtirdim.",
+      "Ukamning kiyimlari kir bo'lgani uchun ularni yuvish kerak.",
+      "Ko'chalarda axlat tashlab ketilgani uchun mahalla iflos ko'rinardi."
+    ],
+    "지점": [
+      "O'sha joy shu yer.",
+      "Bankimizning Seulda filiali bor.",
+      "Ikki yo'l kesishadigan joyda do'stimni kutib turaman.",
+      "Kompaniya bu yil Pusan va Tegu shaharlarida yangi filiallar ochishni rejalashtirmoqda."
+    ],
+    "지진": [
+      "Zilzila bo'ldi.",
+      "Kecha kichik zilzila bo'ldi.",
+      "Zilzila bo'lsa, stol ostiga kirib olish kerak.",
+      "Bu galgi zilzila tufayli ko'plab binolar qulab, qutqaruvchilar tun bo'yi qutqaruv ishlarini olib borishdi."
+    ]
+  },
+  "0130": {
+    "지출": [
+      "Bu oy xarajatlar katta.",
+      "Har kuni xarajatlarni oilaviy daftarga yozib boraman.",
+      "Ovqatga ketadigan xarajatlarni kamaytirish uchun uydan ovqat olib yuraman.",
+      "Maosh o'sha-o'sha, ammo ta'lim xarajatlari oshgani uchun turmush tang bo'lib qoldi."
+    ],
+    "지치다": [
+      "Men juda charchadim.",
+      "Kun bo'yi ishlaganim uchun juda charchadim.",
+      "Uzoq yurganim uchun oyoqlarim ham og'riydi, ko'nglim ham charchadi.",
+      "U to'xtovsiz kechki ishlardan holdan toyib, dam olish kunlari bo'yi faqat uxladi."
+    ],
+    "지켜보다": [
+      "Bolani kuzatib turaman.",
+      "Ota-onam taqdimotimni kuzatib turdilar.",
+      "Onasi bolasining yolg'iz o'zi yurishini indamay kuzatib turdi.",
+      "Biz vaziyat qanday rivojlanishini yana biroz kuzatib turishga qaror qildik."
+    ],
+    "지퍼": [
+      "Molniya buzilib qoldi.",
+      "Sumkaning molniyasini yopib qo'ying.",
+      "Shim molniyasi tiqilib qolib, yaxshi yopilmayapti.",
+      "Sovuq bo'lgani uchun paltoning zamogini bo'ynimgacha oxirigacha tortdim."
+    ],
+    "지휘자": [
+      "Dirijyor chiqdi.",
+      "Dirijyor qo'lini ko'tarishi bilan musiqa boshlandi.",
+      "Men katta bo'lganimda orkestr dirijyori bo'lmoqchiman.",
+      "U dirijyor orkestr a'zolarining har bir ijrosiga quloq solib, mashg'ulotlarni sinchkovlik bilan olib bordi."
+    ],
+    "직선": [
+      "To'g'ri chiziq chizaman.",
+      "Chizg'ich bilan to'g'ri chiziq chizdim.",
+      "Uyimizdan maktabgacha bo'lgan yo'l deyarli to'g'ri chiziq bo'ylab davom etadi.",
+      "Matematika darsida ikki nuqtani tutashtiruvchi eng qisqa masofa to'g'ri chiziq ekanini o'rgandik."
+    ],
+    "직장인": [
+      "Men ofis xodimiman.",
+      "Ishchi-xizmatchilar ertalab erta turishadi.",
+      "Ko'plab ofis xodimlari ishdan keyin sport bilan shug'ullanadi yoki kurslarga qatnaydi.",
+      "Ushbu so'rovnomaga ko'ra, ishchi xodimlarning yarmidan ko'pi ishdagi stressdan shikoyat qilmoqda."
+    ],
+    "직접적": [
+      "To'g'ridan-to'g'ri ayting.",
+      "O'sha baxtsiz hodisaning bevosita sababi bor.",
+      "Men to'g'ridan-to'g'ri ifodadan ko'ra aylantirib gapirishni ko'proq yoqtiraman.",
+      "Koreyslar rad javobi berganda ko'pincha buni to'g'ridan-to'g'ri aytmaydilar."
+    ],
+    "직진": [
+      "U yerdan to'g'riga yuring.",
+      "Svetofordan to'g'riga yursangiz, bank chiqadi.",
+      "Mashina to'satdan to'g'riga yurib ketgani uchun cho'chib tushdim.",
+      "Bu yo'lda chapga burilish taqiqlangani uchun faqat to'g'riga yurish mumkin."
+    ],
+    "직후": [
+      "Hozirgina ovqatlandim.",
+      "Darsdan keyin darhol kutubxonaga bordim.",
+      "O'qishni bitirganimdan so'ng darhol Seuldagi bir kompaniyaga ishga joylashdim.",
+      "Baxtsiz hodisadan so'ng darhol tez yordam xodimlari yetib kelib, jarohatlanganlarni kasalxonaga olib ketishdi."
+    ],
+    "진실": [
+      "Haqiqatni aytaman.",
+      "Men haqiqatni bilmoqchiman.",
+      "Do'stimga haqiqatni aytish oson bo'lmadi.",
+      "Jurnalist voqeaning haqiqatini ochish uchun bir necha oy davomida surishtiruv olib bordi."
+    ],
+    "진심": [
+      "Chin yurakdan aytyapman.",
+      "Sizdan chin yurakdan minnatdorman.",
+      "Unga chin yurakdan xat yozdim.",
+      "Uning kechirim so'rashida samimiyat sezilgani uchun hamma uni kechirishga qaror qildi."
+    ],
+    "진짜": [
+      "Haqiqatan ham mazali.",
+      "Bu sumka haqiqiy charmdan.",
+      "Bugun rostdan ham charchadim, erta yotgim kelyapti.",
+      "Bu gap rostmi yoki yo'qmi, buni faqat o'zingiz tekshirib ko'rgandagina bila olasiz."
+    ],
+    "진찰": [
+      "Shifokor ko'rigidan o'taman.",
+      "Shifokor meni ko'rikdan o'tkazdi.",
+      "Isitmam chiqqani uchun kasalxonada shifokor ko'rigidan o'tib, dori ichdim.",
+      "Shifokor ko'rigi natijasida bemorga yengil gastrit tashxisi qo'yildi."
+    ],
+    "진통제": [
+      "Og'riq qoldiruvchi dori ichaman.",
+      "Boshim og'rigani uchun og'riq qoldiruvchi dori sotib oldim.",
+      "Tishim juda qattiq og'rigani uchun dorixonadan og'riq qoldiruvchi dori olib ichdim.",
+      "Shifokor operatsiyadan keyingi og'riqni kamaytirish uchun bemorga og'riq qoldiruvchi dori yozib berdi."
+    ],
+    "진하다": [
+      "Qahva quyuq.",
+      "Men to'q ranglarni yoqtiraman.",
+      "Quyuq sho'rva shunchalik mazali ediki, yana bir kosa yedim.",
+      "U ko'zga tashlanmaslik uchun quyuq pardoz qilmay, faqat mayin ranglarni surtdi."
+    ],
+    "진학": [
+      "Universitetga o'qishga kiraman.",
+      "Kelasi yil litseyga o'qishga kiraman.",
+      "Akam magistraturaga o'qishga kirish uchun astoydil tayyorlanyapti.",
+      "O'quvchilar o'qishni davom ettirish bo'yicha maslahatlar orqali o'z layoqatiga mos keladigan o'quv yurtini tanlaydilar."
+    ],
+    "진행": [
+      "Qurilish yaxshi ketyapti.",
+      "Majlis tartib bo'yicha o'tkazildi.",
+      "Hozir ish qanday ketayotganini menga xabar qiling.",
+      "Loyiha reja bo'yicha amalga oshishi uchun barcha bo'limlarning yaqin hamkorligi zarur."
+    ],
+    "진행자": [
+      "Boshlovchi gapiryapti.",
+      "Anavi boshlovchining ovozi yoqimli.",
+      "Do'stim radio dasturida boshlovchi bo'lib ishlaydi.",
+      "U boshlovchi ishtirokchilar bemalol gaplasha olishlari uchun samimiy muhit yaratdi."
+    ],
+    "질병": [
+      "Kasallik qo'rqinchli.",
+      "Sog'lom bo'lsangiz, kasallikka kam chalinasiz.",
+      "Sport bilan shug'ullansangiz, turli kasalliklarning oldini olishingiz mumkin.",
+      "Jahon sog'liqni saqlash tashkiloti yangi kasallik tez tarqalayotganini aytib, barcha davlatlarni tayyor turishga chaqirdi."
+    ],
+    "질서": [
+      "Tartibga rioya qilaman.",
+      "Navbatga turib, tartib bilan kiramiz.",
+      "Kutubxonada tartibga rioya qilib, jim turish kerak.",
+      "Baxtsiz hodisa yuz berganda fuqarolar xotirjamlik bilan tartibni saqlagan holda evakuatsiya qilindi."
+    ],
+    "질투": [
+      "Rashkim keladi.",
+      "Do'stim mukofot olgani uchun unga hasad qildim.",
+      "Ukamning maqtov olayotganini ko'rib, rashkim keldi.",
+      "U hamkasbining tez lavozimga ko'tarilganidan hasad qilsa ham, sirtdan uni tabrikladi."
+    ],
+    "질환": [
+      "Yurak kasalligim bor.",
+      "Bobom ancha yillik xastalikdan aziyat chekmoqdalar.",
+      "Qishda nafas yo'llari kasalliklariga chalinadigan odamlar ko'p bo'ladi.",
+      "Bu shifoxona keksalik bilan bog'liq kasalliklarni davolash va reabilitatsiya qilish bo'yicha ixtisoslashgan."
+    ],
+    "짐승": [
+      "Hayvon bo'kiryapti.",
+      "Tog' ichidan yovvoyi hayvonning ovozi eshitildi.",
+      "Kechasi o'rmonda yovvoyi hayvonlar chiqib qolishi mumkin, ehtiyot bo'ling.",
+      "Dehqonlar yovvoyi hayvonlar ekinzorni payhon qilmasligi uchun atrofini devor bilan o'rab chiqishdi."
+    ],
+    "집값": [
+      "Uy narxi qimmat.",
+      "Seulda uy narxlari juda oshib ketdi.",
+      "Uy narxlari oshib ketgani uchun yoshlarga uy sotib olish qiyin.",
+      "Hukumat osmon qadar oshib borayotgan uy narxlarini jilovlash uchun kredit berish cheklovlarini kuchaytirdi."
+    ],
+    "집다": [
+      "Cho'p bilan olaman.",
+      "Pechenyeni qo'lim bilan olib yedim.",
+      "Men cho'p tayoqchalar bilan loviya donalarini olishni mashq qilyapman.",
+      "U yerga tushib ketgan tangalarni birma-bir terib, cho'ntagiga soldi."
+    ],
+    "집들이": [
+      "Yangi uy to'yiga keladi.",
+      "Do'stim ko'chib o'tgani uchun uning uy to'yiga bordim.",
+      "Bu dam olish kunlari uyimizda yangi uyga ko'chganimiz munosabati bilan ziyofat beramiz.",
+      "Uy to'yiga odatda tualet qog'ozi yoki yuvish vositasi kabi sovg'alar olib borish Koreyaning an'anasidir."
+    ],
+    "집세": [
+      "Uy ijara haqi qimmat.",
+      "Bu oyning uy ijara haqini to'ladim.",
+      "Ijara haqi oshgani uchun arzonroq uyga ko'chib o'tmoqchiman.",
+      "U maoshining yarmidan ko'pini uy ijarasiga to'lagani uchun pul jamg'arishi qiyin."
+    ],
+    "집안": [
+      "Bizning oilamiz ahil.",
+      "Bizning oiladagilarning hammasi bo'yi baland.",
+      "Men san'atkorlar oilasida o'sganim uchun musiqani yaxshi ko'raman.",
+      "Bizning oilamizda har bayramda butun oila yig'ilib, birgalikda ajdodlarni yod etish marosimini o'tkazamiz."
+    ],
+    "집안일": [
+      "Uy ishlarini qilaman.",
+      "Dam olish kunlari oila bilan birga uy ishlarini qilamiz.",
+      "Erim bilan uy ishlarini teng yarmidan bo'lib bajaramiz.",
+      "Er-xotinning ikkalasi ham ishlaydigan oilalar ko'payishi bilan uy ishlarini taqsimlash madaniyati asta-sekin qaror topmoqda."
+    ]
+  },
+  "0131": {
+    "집주인": [
+      "Uy egasi keldi.",
+      "Uy egasiga ijara haqini jo'natdim.",
+      "Uy egasi ta'mirlab berishga va'da berdi.",
+      "Biz uy egasi bilan shartnoma muddatini uzaytirish masalasida gaplashdik."
+    ],
+    "집중": [
+      "O'qishga diqqatimni jamlayman.",
+      "Shovqin bo'lgani uchun diqqatimni jamlay olmayapman.",
+      "Men odatda sokin kutubxonada ishimga diqqatimni jamlayman.",
+      "Taqdimot davomida barcha tinglovchilar ma'ruzachining so'zlariga diqqatini qaratib turishdi."
+    ],
+    "집중력": [
+      "Diqqatim yetishmaydi.",
+      "Ertalab diqqatni jamlash qobiliyatim yaxshi bo'ladi.",
+      "Kofe ichsam, bir muddat diqqatimni jamlash qobiliyatim oshgandek bo'ladi.",
+      "Bolaning diqqatini jamlash qobiliyatini rivojlantirish uchun unga qisqa vaqt davomida bitta mashg'ulotga to'liq berilishiga yordam bergan ma'qul."
+    ],
+    "짙다": [
+      "Pardoz qalin.",
+      "Osmonni quyuq bulutlar qopladi.",
+      "Ertalab quyuq tuman tushgani uchun oldinda hech narsa yaxshi ko'rinmadi.",
+      "U to'q ko'k rangli ko'ylak kiyib, ziyofatga bordi."
+    ],
+    "짜증": [
+      "Asabim buzilyapti.",
+      "Avtobus kelmagani uchun asabim buzildi.",
+      "Ukam qayta-qayta xalaqit bergani uchun jahlim chiqib, asabiylashdim.",
+      "Issiq havoda konditsioner ham buzilib qolgani uchun butun oila asabiylashdi."
+    ],
+    "짝": [
+      "Paypoqning bir tayi yo'q.",
+      "Mening sherigim bor.",
+      "Darsda sherigim bilan birga suhbat mashqini qildik.",
+      "Qo'lqopning bir tayini yo'qolib qolgani uchun yangisini sotib olishga to'g'ri keldi."
+    ],
+    "짝사랑": [
+      "Men bir tomonlama sevaman.",
+      "U uzoq vaqt davomida uni bir tomonlama sevib yurdi.",
+      "Men maktabdagi yuqori sinf o'quvchisini bir tomonlama sevaman, lekin unga aytolmadim.",
+      "U serial bir o'smirning beg'ubor bir tomonlama sevgisini nozik tasvirlagani uchun ko'pchilikning mehrini qozondi."
+    ],
+    "짝수": [
+      "Juft son ikkiga bo'linadi.",
+      "Bu raqam juft son.",
+      "Juft raqamli talabalar o'ng tomonda turishsin.",
+      "Bu ko'chada mashinalarni faqat juft sanali kunlardagina to'xtatib qo'yish mumkin."
+    ],
+    "쫓기다": [
+      "O'g'ri ta'qib qilinyapti.",
+      "Quyonni it quvlab kelyapti.",
+      "Muddat siqib qolgani uchun shoshganimdan tushlik ham qila olmadim.",
+      "U politsiya tomonidan ta'qib qilinib, oxir-oqibat tor ko'chada qo'lga tushdi."
+    ],
+    "쫓다": [
+      "Mushuk sichqonni quvyapti.",
+      "Bola kaptarlarni quvladi.",
+      "It to'pning orqasidan quvib, jon-jahdi bilan yugurdi.",
+      "Politsiya qochayotgan jinoyatchini oxirigacha ta'qib qilib, nihoyat uni qo'lga oldi."
+    ],
+    "쫓아내다": [
+      "Mehmonni haydab chiqaraman.",
+      "Egasi mushukni uydan haydab chiqardi.",
+      "Shovqin solib gaplashgan talabalar kutubxonadan haydab chiqarildi.",
+      "Uy egasi oylik ijara haqini to'lay olmagan ijarachini uydan haydab chiqarishini ma'lum qildi."
+    ],
+    "쫓아다니다": [
+      "Bola orqamdan ergashib yuradi.",
+      "Kuchukcha egasining orqasidan ergashib yuradi.",
+      "Bolaligimda akamning ortidan ergashib yurardim.",
+      "U bir yil davomida qizning ortidan yurib, sevgisini izhor qildi, ammo rad javobini oldi."
+    ],
+    "쭉": [
+      "To'g'riga yuravering.",
+      "Bu yo'ldan to'g'ri ketaversangiz, metro bekati bor.",
+      "Men bolaligimdan beri shu mahallada yashab kelaman.",
+      "U universitetni tamomlagandan keyin ham shu paytgacha uzluksiz bir sohada ishlab keladi."
+    ],
+    "찌다": [
+      "Semiryapman.",
+      "Hozir semirib ketganim uchun kiyimlarim kichik bo'lib qoldi.",
+      "Ta'til davomida ko'p ovqat yeb, semirib qoldim.",
+      "U tunda tez-tez ovqatlangani sababli bir necha oy ichida vazni besh kilogrammga ortdi."
+    ],
+    "찜질": [
+      "Issiq kompress qilaman.",
+      "Yelkam og'rigani uchun issiq kompress qo'ydim.",
+      "Dam olish kuni oilam bilan jjimjilbangga borib, issiq xonada terladik.",
+      "Mushaklar qotib qolganda iliq kompress qo'yish qon aylanishiga yordam beradi."
+    ],
+    "찜통더위": [
+      "Havo dim va bo'g'uvchi issiq.",
+      "Dim issiq tufayli uxlay olmadim.",
+      "Dim jaziramada salqin tarvuz yegan eng zo'ri.",
+      "Bu yoz dim jazirama davom etgani sababli konditsionerlardan foydalanish keskin ko'paydi."
+    ],
+    "찢다": [
+      "Qog'ozni yirtaman.",
+      "Bola kitobni yirtib tashladi.",
+      "Jahlim chiqqanidan xatni yirtib tashladim.",
+      "U esdalik sovg'a qutisini ochish uchun o'ramni kuch bilan yirtdi."
+    ],
+    "찢어지다": [
+      "Shim yirtilib qoldi.",
+      "Sumkam yirtilib ketgani uchun yangisini sotib oldim.",
+      "Mixga ilinib, kiyimim yirtilib ketdi.",
+      "Uzoq kiyilgan jinsi shimning tizza qismi yirtilib ketgani uchun uni boshqa kiyib bo'lmasdi."
+    ],
+    "차라리": [
+      "Undan ko'ra uxlay qolay.",
+      "Kutib turgandan ko'ra, yaxshisi piyoda ketaman.",
+      "U filmni ko'rgandan ko'ra, uyda dam olganim yaxshi.",
+      "Ishni bunday usulda qilgandan ko'ra, yaxshisi boshidan qaytadan boshlagan ma'qul."
+    ],
+    "차례": [
+      "Mening navbatim.",
+      "Endi sizning navbatingiz.",
+      "Navbat raqamini olib, o'z navbatimni kutib turibman.",
+      "Odamlar navbat bilan saf tortib, avtobusga chiqishdi."
+    ],
+    "차분하다": [
+      "U vazmin odam.",
+      "Osoyishta musiqa tinglayman.",
+      "U har qanday vaziyatda ham xotirjam gapiradi.",
+      "U intervyu oluvchilar oldida ham hayajonlanmay, xotirjam ovozda javob berdi."
+    ],
+    "차이": [
+      "Farq katta.",
+      "Ikkovining yoshida katta farq bor.",
+      "Koreya va O'zbekiston o'rtasidagi madaniy farqlar qiziq.",
+      "Akam bilan mening fe'l-atvorimizda katta farq bo'lgani uchun tez-tez janjallashib turardik."
+    ],
+    "차이점": [
+      "Farqli jihati bor.",
+      "Ikki til o'rtasidagi farqlarni topamiz.",
+      "Bu ikki mahsulot o'rtasidagi farqlarni tushuntirib bering.",
+      "Bu maqolada Sharq va G'arb falsafasining o'xshash va farqli jihatlari qiyosiy tahlil qilingan."
+    ],
+    "착각": [
+      "Men adashibman.",
+      "Men bugunni dushanba deb adashibman.",
+      "Do'stimni boshqa odam deb o'ylab, adashib salom berdim.",
+      "U o'zini hamma narsani yaxshi biladi deb xato o'ylab, boshqalarning maslahatiga quloq solmadi."
+    ],
+    "찬물": [
+      "Sovuq suv ichaman.",
+      "Issiq bo'lgani uchun sovuq suv bilan yuvindim.",
+      "Sovuq suvda dush qabul qilgan edim, darhol hushim joyiga keldi.",
+      "U to'satdan quyilgan sovuq suvdan cho'chib, qichqirgancha orqaga tisarildi."
+    ],
+    "찬성": [
+      "Men qo'llab-quvvatlayman.",
+      "O'sha fikrga qo'shiladiganlar ko'p.",
+      "Oilamizda hamma ko'chib o'tishga rozi bo'ldi.",
+      "Majlisda ishtirokchilarning ko'pchiligi yangi rejani yoqlab ovoz bergach, masala qabul qilindi."
+    ],
+    "참가": [
+      "Musobaqada ishtirok etaman.",
+      "Men marafonda qatnashdim.",
+      "Sinfimiz hammasi bo'lib qo'shiq tanloviga qatnashishga qaror qildi.",
+      "Bu galgi tadbirda dunyoning ellikta davlatidan sportchilar ishtirok etdi."
+    ],
+    "참고": [
+      "Ma'lumot uchun foydalaning.",
+      "Bu kitobdan foydalanib o'qiyman.",
+      "Hisobot yozayotganda turli manbalardan foydalandim.",
+      "Taqdimot materiallarini o'qituvchi bergan kitobga tayangan holda tayyorladim."
+    ],
+    "참기름": [
+      "Kunjut moyi qo'shaman.",
+      "Bibimbapga kunjut moyi qo'shdim.",
+      "Ko'katli salatni aralashtirayotganda ozgina kunjut moyi qo'shsangiz, xushbo'y bo'ladi.",
+      "Buvim o'zlari siqib bergan kunjut moyining hidi o'tkir bo'lgani uchun taomning ta'mini ancha yaxshilaydi."
+    ],
+    "참다": [
+      "Biroz sabr qiling.",
+      "Qornim og'risa ham, chidadim.",
+      "Kulgimni tiyib turaman deb yuzim qizarib ketdi.",
+      "U jahli chiqqan bo'lsa ham, odamlar oldida bo'lgani uchun oxirigacha sabr qilib, hech narsa demadi."
+    ]
+  },
+  "0132": {
+    "참석": [
+      "Majlisda qatnashaman.",
+      "Do'stimning to'yida qatnashdim.",
+      "Bu galgi uchrashuvda albatta qatnashing.",
+      "Barcha xodimlar yil yakuni tadbirida ishtirok etib, bir yillik mehnatlari uchun bir-birlarini rag'batlantirishdi."
+    ],
+    "참여": [
+      "Ishtirok etib ko'ring.",
+      "Hammamiz tadbirda ishtirok etdik.",
+      "Men ko'ngillilik faoliyatida ishtirok etishni yoqtiraman.",
+      "Fuqarolarning siyosiy qarorlar qabul qilish jarayonida faol ishtirok etishlari uchun tizim yaratildi."
+    ],
+    "참치": [
+      "Tunetsni yaxshi ko'raman.",
+      "Tunetsli kimbap yedim.",
+      "Tushlikka tunetsli sendvich tayyorlab yedim.",
+      "Bu restoran yangi tunets ishlatgani uchun xom baliq taomi juda mazali."
+    ],
+    "찻집": [
+      "Choyxonaga boraman.",
+      "An'anaviy choyxonada choy ichdik.",
+      "Do'stim bilan sokin choyxonada suhbatlashdik.",
+      "Insadongda eski hanok uylarni qayta jihozlab ochilgan, o'ziga xos muhitga ega choyxonalar ko'p."
+    ],
+    "창": [
+      "Derazani ochaman.",
+      "Deraza tashqarisida qor yog'yapti.",
+      "Issiq bo'lgani uchun derazani ochgan edim, salqin shamol kirdi.",
+      "U deraza yonida o'tirib, o'tib ketayotgan odamlarga uzoq tikilib qoldi."
+    ],
+    "창피": [
+      "Uyalaman.",
+      "Odamlar oldida yiqilib tushib, uyalib ketdim.",
+      "Taqdimot paytida xato qilib, rosa uyaldim.",
+      "U uchrashuvga kechikkanidan uyalib, boshini ko'tara olmay joyiga o'tirdi."
+    ],
+    "찾아내다": [
+      "Kalitni topib oldim.",
+      "Politsiya o'g'rini topdi.",
+      "Yo'qolgan hamyonimni sumkam ichidan topib oldim.",
+      "Tadqiqot guruhi uzoq tajribalardan so'ng kasallikka sabab bo'ladigan genni aniqladi."
+    ],
+    "찾아다니다": [
+      "Mazali restoranlarni izlab yuraman.",
+      "Kun bo'yi uy qidirib yurdim.",
+      "Men har dam olish kunlari yangi kafelarni izlab yurishni yoqtiraman.",
+      "U ish topish uchun bir necha oy davomida u yerdan-bu yerga qatnab yurdi."
+    ],
+    "찾아보다": [
+      "Lug'atdan qidirib ko'raman.",
+      "Bilmagan so'zlarimni internetdan qidirib ko'rdim.",
+      "Bu ta'tilda ona yurtimga borib, buvimni yo'qlab kelaman.",
+      "U yechim topish maqsadida kutubxonadagi barcha tegishli materiallarni titkilab chiqdi."
+    ],
+    "채널": [
+      "Kanalni almashtiraman.",
+      "Men bu kanalni tez-tez ko'raman.",
+      "Hozirgi kunda YouTube kanali orqali koreys tilini o'rganyapman.",
+      "U pazandachilik kanalini yuritib, bir million obunachiga erishdi."
+    ],
+    "채식": [
+      "Men faqat o'simlik ovqati yeyman.",
+      "Vegetarian restoranga bordim.",
+      "Sog'lig'im uchun haftada bir kun faqat o'simlik taomlarini iste'mol qilaman.",
+      "U hayvonlarni himoya qilish maqsadida besh yil avval go'sht yeyishni tashlab, vegetarian taomlarga o'tdi."
+    ],
+    "채식주의자": [
+      "Men vegetarianman.",
+      "Do'stim vegetarian bo'lgani uchun go'sht yemaydi.",
+      "Vegetarianlar uchun menyu bor-yo'qligini so'radim.",
+      "U axloqiy sabablarga ko'ra vegetarian bo'lishga qaror qilib, ovqatlanish ratsionini o'zgartirdi."
+    ],
+    "채용": [
+      "Xodimni ishga qabul qilamiz.",
+      "Kompaniya yangi xodimlarni ishga qabul qilmoqda.",
+      "Shu oy yangi dizaynerni ishga qabul qilish rejalashtirilgan.",
+      "Kompaniya adolatli ishga qabul qilish jarayoni orqali qobiliyatli mutaxassislarni tanlab olmoqda."
+    ],
+    "채우다": [
+      "Suv to'ldiraman.",
+      "Stakanni suvga to'ldirdim.",
+      "Men bo'sh daftarni har kuni kundalik yozib to'ldirib boraman.",
+      "U yetishmayotgan kreditlarni to'ldirish uchun ta'til davomida yozgi semestrga yozildi."
+    ],
+    "채팅": [
+      "Chatda yozishaman.",
+      "Do'stim bilan chatda yozishdim.",
+      "Men har kecha chet ellik do'stlarim bilan chatda yozishib, ingliz tilini mashq qilaman.",
+      "U onlayn o'yin o'ynayotganda chat oynasi orqali jamoadoshlari bilan strategiya haqida gaplashdi."
+    ],
+    "책임지다": [
+      "Mas'uliyatni o'z zimmamga olaman.",
+      "O'sha ish uchun men javob beraman.",
+      "Har kim o'z aytgan gapi uchun oxirigacha javob berishi kerak.",
+      "Baxtsiz hodisa yuz berganda jamoa rahbari barcha aybni o'z zimmasiga olishini aytdi."
+    ],
+    "챙기다": [
+      "Sumkamni yig'aman.",
+      "Pasportingizni oldingizmi?",
+      "Onam har kuni ertalab menga tushlik ovqatimni tayyorlab beradilar.",
+      "Sayohatga jo'nashdan oldin kerakli narsalarni birortasini ham qoldirmay yig'ib, yukimni joyladim."
+    ],
+    "처녀": [
+      "Qiz qo'shiq aytyapti.",
+      "Qishloq qizlari raqs tushishyapti.",
+      "Qadim zamonda bir qiz quduq bo'yida suv olayotgan ekan.",
+      "U romanda kambag'al qishloq qizining shaharga borib boshidan kechirgan mashaqqatlari tasvirlangan."
+    ],
+    "처리": [
+      "Ishni hal qilaman.",
+      "Hujjatlarni rasmiylashtirish tugadi.",
+      "Bu masalani men tezda hal qilaman.",
+      "Mas'ul xodim qabul qilingan murojaatlarni bir kun ichida ko'rib chiqishi belgilangan."
+    ],
+    "처방": [
+      "Dori buyuraman.",
+      "Shifokor menga dori yozib berdi.",
+      "Shifokor shamollashga qarshi dori yozib bergani uchun uni ichdim.",
+      "Shifokor bemorning ahvoliga mos dorini yozib berib, uni qanday qabul qilish kerakligini tushuntirdi."
+    ],
+    "처방전": [
+      "Retseptni olib keldim.",
+      "Dorixonada retseptni berib, dori oldim.",
+      "Shifokordan olgan retseptimni yo'qotib qo'yib, kasalxonaga qaytadan bordim.",
+      "Farmatsevt retseptda yozilganlarni sinchiklab tekshirib bo'lgach, bemorga dorini tayyorlab berdi."
+    ],
+    "천국": [
+      "Jannat go'zal.",
+      "Bu orol dam oluvchilar uchun jannat.",
+      "Men ta'tilda jannatdek dengiz sohilida dam oldim.",
+      "U shahar xaridorlar uchun jannat deb atalishga arziydigan darajada turli-tuman do'konlarga boy."
+    ],
+    "천사": [
+      "Chaqaloq farishtaga o'xshaydi.",
+      "U qalbi pok farishta.",
+      "Uxlab yotgan bolaning yuzi xuddi farishtanikidek osoyishta.",
+      "Rasmdagi farishta oppoq qanotlarini yoyib, odamlarga yuqoridan qarab turardi."
+    ],
+    "천장": [
+      "Shift baland.",
+      "Shiftda chiroq bor.",
+      "Uyimizning shiftidan suv o'tayotgani uchun ta'mirchi chaqirdik.",
+      "Eski binoning shiftini mog'or bosgani uchun uni tozalash kerak edi."
+    ],
+    "천재": [
+      "U daho.",
+      "Motsart musiqa dahosi edi.",
+      "U bolani matematika dahosi deb gap tarqaldi.",
+      "U yoshligida universitetga o'qishga kirgan daho sifatida matbuotning diqqat markazida bo'ldi."
+    ],
+    "철학": [
+      "Men falsafani o'rganaman.",
+      "Falsafa darsi qiyin.",
+      "Universitetda falsafa yo'nalishida o'qigan akam chuqur fikrlaydi.",
+      "Bu kitob murakkab falsafiy tushunchalarni kundalik til bilan oson qilib tushuntirib beradi."
+    ],
+    "첫날": [
+      "Bugun birinchi kun.",
+      "Maktabning birinchi kunida do'st orttirdim.",
+      "Sayohatning birinchi kunidan yomg'ir yog'gani uchun mehmonxonada dam oldik.",
+      "Ishga kirgan birinchi kunim shu qadar hayajonlandimki, tushlikni ham tuzukroq yeya olmadim."
+    ],
+    "첫눈": [
+      "Birinchi qor yog'yapti!",
+      "Kecha bu yilning birinchi qori yog'di.",
+      "Birinchi qor yoqqan kuni do'stim bilan birga sayr qildim.",
+      "Odamlar birinchi qor yog'sa, sevgan insoni bilan birga o'tkazishni xohlab, yuraklari hapqirishini aytishadi."
+    ],
+    "첫사랑": [
+      "Birinchi sevgim esimga tushyapti.",
+      "Men birinchi muhabbatimni unuta olmayman.",
+      "Odamlar birinchi sevgi ko'pincha amalga oshmaydi, deyishadi.",
+      "U tasodifan ko'chada birinchi muhabbati bilan to'qnash kelib, bir muddat gapira olmay qoldi."
+    ],
+    "첫인상": [
+      "Birinchi taassurot yaxshi.",
+      "U haqidagi ilk taassurot shuki, u xushmuomala edi.",
+      "Ish suhbatida birinchi taassurot juda muhim.",
+      "U ilk taassurotdan farqli o'laroq, gaplashgan sari hazil-mutoyiba tuyg'usi kuchli inson ekani ma'lum bo'ldi."
+    ]
+  },
+  "0133": {
+    "청구서": [
+      "Hisob-faktura keldi.",
+      "Bu oy uchun elektr to'lovi hisobini oldim.",
+      "Mehmonxonadan chiqayotganda qabulxonada hisobni tekshirib ko'rdim.",
+      "Kompaniya hamkor tashkilotga tovarlar haqini to'lashni talab qiluvchi hisob-faktura jo'natdi."
+    ],
+    "청년": [
+      "U ajoyib yigit.",
+      "Qishloqda yoshlar ko'p emas.",
+      "O'sha yigit astoydil mehnat qilib, kichik bir do'kon ochdi.",
+      "Hukumat ish qidirayotgan yoshlar uchun yangi qo'llab-quvvatlash loyihasini boshladi."
+    ],
+    "청소년": [
+      "O'smirlar ko'p.",
+      "O'smirlar bog'da o'ynashyapti.",
+      "Men o'smirlar kutubxonasidan kitob oldim.",
+      "Bu filmda zo'ravonlik sahnalari ko'p bo'lgani uchun o'smirlar tomosha qilishiga cheklov qo'yildi."
+    ],
+    "청첩장": [
+      "To'y taklifnomasini oldim.",
+      "Do'stim menga to'y taklifnomasini berdi.",
+      "Kelasi oy turmush qurayotganim uchun do'stlarimga to'y taklifnomasini yubordim.",
+      "U uzoq vaqtdan beri ko'rmagan katta hamkasbiga e'tibor bilan yozilgan to'y taklifnomasini topshirdi."
+    ],
+    "청혼": [
+      "U turmush qurishni taklif qildi.",
+      "Yigitim menga turmush qurishni taklif qildi.",
+      "U uzuk tayyorlab, sevgilisiga turmush qurishni taklif qildi.",
+      "U dengiz sohilida gul dastasi bilan unga ta'sirli tarzda turmush qurishni taklif qildi."
+    ],
+    "체격": [
+      "Gavdasi katta.",
+      "Uning gavdasi baquvvat.",
+      "Ukamning gavdasi kichkina bo'lsa ham, juda kuchli.",
+      "U sportchi g'arblik sportchilardan qolishmaydigan baquvvat qomatga ega."
+    ],
+    "체온": [
+      "Tana harorati yuqori.",
+      "Tana haroratini o'lchayman.",
+      "Bolaning isitmasi chiqqani uchun tana haroratini o'lchagan edim, o'ttiz to'qqiz daraja ekan.",
+      "Kasalxona kiraverishida barcha tashrif buyuruvchilarning tana harorati o'lchangandan keyingina ichkariga kiritildi."
+    ],
+    "체육": [
+      "Jismoniy tarbiyani yaxshi ko'raman.",
+      "Bugun jismoniy tarbiya darsida futbol o'ynadik.",
+      "Men jismoniy tarbiya o'qituvchisi bo'lmoqchiman.",
+      "Bu maktab o'quvchilar salomatligi uchun jismoniy tarbiya darslari soatini ko'paytirdi."
+    ],
+    "체육관": [
+      "Sport zaliga boraman.",
+      "Sport zalida basketbol o'ynaymiz.",
+      "Men ishdan keyin uyim yaqinidagi sport zalida shug'ullanaman.",
+      "Yangi qurilgan sport zalida shu dam olish kunlari badminton musobaqasi o'tkazilishi rejalashtirilgan."
+    ],
+    "체조": [
+      "Ertalab badantarbiya qilaman.",
+      "Bobom bog'da badantarbiya qiladilar.",
+      "Mashg'ulotdan oldin yengil badantarbiya qilsangiz, tanangiz bo'shashadi.",
+      "U sportchi Olimpiada gimnastika musobaqalarida oltin medalni qo'lga kiritdi."
+    ],
+    "체중": [
+      "Vaznim oshdi.",
+      "Har kuni ertalab vaznimni o'lchayman.",
+      "Sog'lig'im uchun vaznimni biroz kamaytirmoqchiman.",
+      "Shifokor uning vazni me'yordan ancha ortiq ekanini aytib, ovqatlanishni nazorat qilish kerakligini maslahat berdi."
+    ],
+    "체험": [
+      "Sinab ko'raman.",
+      "Hanbok kiyib ko'rdim.",
+      "Dam olish kunlari oilam bilan qishloq hayotini sinab ko'rish mumkin bo'lgan qishloqqa borib keldik.",
+      "O'quvchilar kasblar bilan tanishish tadbirida o't o'chiruvchi va oshpazning ishini o'zlari bajarib ko'rishdi."
+    ],
+    "쳐다보다": [
+      "Menga tikilib qaramang.",
+      "Bola osmonga tikilib qaradi.",
+      "Odamlar menga g'alati tikilib qarashgani uchun biroz uyaldim.",
+      "U indamay uzoq vaqt faqat derazadan tashqariga tikilib, xayolga cho'mib o'tirdi."
+    ],
+    "초급": [
+      "Men boshlang'ich darajadagi guruhdaman.",
+      "Boshlang'ich darajadagi koreys tili kitobini sotib oldim.",
+      "Bu o'quv markazida boshlang'ich darajadan yuqori darajagacha turli darslar bor.",
+      "Boshlang'ich bosqichda asosiy grammatika va kundalik so'zlarni puxta o'zlashtirish eng muhimidir."
+    ],
+    "초기": [
+      "Dastlab qiyin bo'ldi.",
+      "Bu kasallikni dastlabki bosqichda davolasa, hech narsa qilmaydi.",
+      "Kompaniyaning dastlabki davrida bor-yo'g'i uchta xodim bor edi.",
+      "Choson davrining boshlarida madaniyat konfutsiylik g'oyalari asosida yangidan shakllana boshladi."
+    ],
+    "초대장": [
+      "Taklifnoma yubordim.",
+      "Do'stimdan tug'ilgan kunga taklifnoma oldim.",
+      "Ziyofat taklifnomasida vaqt va joy yozilgan.",
+      "U do'kon ochilish marosimiga taklif qiluvchi taklifnomalarni hamkorlariga birma-bir topshirib chiqdi."
+    ],
+    "초보자": [
+      "Men yangi boshlovchiman.",
+      "Yangi boshlovchilar ham bemalol qila oladi.",
+      "Bu dars suzishni endi o'rganayotgan boshlovchilar uchun mo'ljallangan guruh.",
+      "Yangi haydovchi mashina boshqarganda tezlikni kamaytirib, atrofga qarab, sekin yurishi kerak."
+    ],
+    "초청장": [
+      "Rasmiy taklifnoma keldi.",
+      "Elchixona taklifnoma yubordi.",
+      "Anjumanga rasmiy taklifnoma olganim uchun kelasi hafta Seulga boraman.",
+      "U xorijdagi ilmiy anjumandan yuborilgan rasmiy taklifnoma bilan vizaga ariza topshirdi."
+    ],
+    "총": [
+      "Qurol qo'rqinchli.",
+      "Politsiyachining quroli bor.",
+      "Filmda askar qo'lida miltiq bilan yugurdi.",
+      "Ovchi o'rmonda hayvonni mo'ljalga olib, ehtiyotkorlik bilan miltig'ini ko'tardi."
+    ],
+    "총무과": [
+      "Umumiy ishlar bo'limiga boraman.",
+      "Umumiy ishlar bo'limidan hujjatlarni oldim.",
+      "Kantselyariya buyumlari kerak bo'lsa, umumiy ishlar bo'limiga ayting.",
+      "U ishga kirganidan keyin uch yil davomida ma'muriy bo'limda kompaniyaning xo'jalik ishlarini to'liq boshqardi."
+    ],
+    "촬영장": [
+      "Syomka maydonchasi katta.",
+      "Serial suratga olinayotgan maydonchaga bordim.",
+      "Men film suratga olish maydonchasida mashhur aktyorni ko'rdim.",
+      "Suratga olish maydonida ko'plab xodimlar u yoqdan-bu yoqqa yugurib, jihozlarni o'rnatishayotgan edi."
+    ],
+    "촬영지": [
+      "Syomka joyi chiroyli.",
+      "O'sha serial suratga olingan joyga bordim.",
+      "Men sevimli filmim suratga olingan joylarga sayohat qilmoqchiman.",
+      "Serial mashhur bo'lgach, suratga olingan joy sifatida tanilgan kichik qishloqqa sayyohlar oqib kela boshladi."
+    ],
+    "최근": [
+      "Yaqinda ko'chib o'tdim.",
+      "Yaqinda qanday film ko'rdingiz?",
+      "So'nggi paytlarda ishim ko'p bo'lib, juda band bo'ldim.",
+      "So'nggi bir necha yil ichida mahallamizda ko'plab yangi binolar qad rostladi."
+    ],
+    "최대": [
+      "Iloji boricha tezroq keling.",
+      "Bu xonaga ko'pi bilan o'n kishi sig'adi.",
+      "Bugun havo harorati eng ko'pi bilan o'ttiz darajagacha ko'tariladi.",
+      "Bu liftning maksimal yuk ko'tarish quvvati sakkiz yuz kilogramm."
+    ],
+    "최선": [
+      "Qo'limdan kelganicha harakat qilaman.",
+      "Men imtihonda qo'limdan kelganining hammasini qildim.",
+      "Natija qanday bo'lishidan qat'i nazar, qo'limdan kelganini qildim, shuning uchun afsuslanmayman.",
+      "U musobaqada g'olib bo'lmagan bo'lsa ham, oxirigacha bor kuchini sarflagani uchun olqishlarga sazovor bo'ldi."
+    ],
+    "최신": [
+      "Bu eng yangi qo'shiq.",
+      "Eng so'nggi rusumdagi telefon sotib oldim.",
+      "Bu do'konda eng so'nggi modadagi kiyimlar ko'p.",
+      "U kompaniya har yili eng so'nggi texnologiyalar qo'llanilgan mahsulotlarni taqdim etib, bozorda yetakchilik qilmoqda."
+    ],
+    "최저": [
+      "Bu eng past narx.",
+      "Bugun ertalab havo harorati eng past bo'ldi.",
+      "Bu do'kon shahar markazidagi eng past narxlarda sotadi.",
+      "Ertaga ertalab eng past harorat minus o'n darajagacha tushishi kutilmoqda."
+    ],
+    "최종": [
+      "Bu yakuniy imtihon.",
+      "Yakuniy natijani aytib bering.",
+      "Yakuniy suhbat kelasi hafta juma kuni bo'ladi.",
+      "Kompaniya uchta nomzod orasidan yakuniy saralangan nomzodni e'lon qildi."
+    ],
+    "최초": [
+      "U eng birinchi.",
+      "Bu bino Koreyadagi birinchi univermag.",
+      "Bu maktabda ilk bor mukofot olgan men bo'ldim.",
+      "U ayollar orasida birinchi bo'lib o'sha universitetning rektori etib tayinlandi."
+    ],
+    "최후": [
+      "Oxirgi g'olib kim bo'larkin?",
+      "O'sha filmning oxiri qayg'uli edi.",
+      "Oxirigacha taslim bo'lmay yugurgan sportchiga qarsak chaldik.",
+      "Bosh qahramon film so'ngida oxir-oqibat o'zi himoya qilmoqchi bo'lgan qishloqni qutqarib qoldi."
+    ]
+  },
+  "0134": {
+    "추가": [
+      "Qo'shib qo'ying.",
+      "Qo'shimcha garnir buyurtma qildim.",
+      "Menyuga yangi taom qo'shishga qaror qildik.",
+      "Bu xizmatdan foydalanish uchun oyiga besh ming von qo'shimcha to'lov to'lash kerak."
+    ],
+    "추위": [
+      "Sovuq kelyapti.",
+      "Men sovuqqa juda chidamsizman.",
+      "Bugun sovuq tufayli qalin kiyim kiydim.",
+      "Buvim sovuqqa chidamsiz bo'lgani uchun qish kelishi bilan deyarli tashqariga chiqmaydilar."
+    ],
+    "추천": [
+      "Tavsiya qilib bering.",
+      "Do'stim bu kitobni tavsiya qildi.",
+      "Mazali restoran tavsiya qila olasizmi?",
+      "O'qituvchim tavsiya qilgan usulda o'qiganimdan keyin baholarim ancha ko'tarildi."
+    ],
+    "추천서": [
+      "Tavsiyanoma kerak.",
+      "Professordan tavsiyanoma yozib berishni so'radim.",
+      "Chet elda o'qish uchun o'qituvchimdan tavsiyanoma yozib berishlarini so'radim.",
+      "U magistraturaga kirish uchun ilmiy rahbari yozib bergan tavsiyanomani topshirdi."
+    ],
+    "추첨": [
+      "Qur'a tashlaymiz.",
+      "Bugun kechqurun qur'a tashlanadi.",
+      "Tadbir ishtirokchilari orasidan qur'a orqali sovg'a beriladi.",
+      "Bu galgi konsert chiptalari uchun g'oliblar ishtirokchilar orasidan qur'a tashlash yo'li bilan aniqlanadi."
+    ],
+    "추측": [
+      "Bu taxmin.",
+      "Taxminim to'g'ri chiqdi.",
+      "Bu shunchaki taxmin, shuning uchun ishonib qolmang.",
+      "U faqat yuz ifodasiga qarab, qizning jahli chiqqanini taxmin qildi va so'zlariga ehtiyot bo'ldi."
+    ],
+    "출국": [
+      "Chet elga ketyapman.",
+      "Ertaga ertalab chet elga jo'nab ketaman.",
+      "Chet elga chiqishdan oldin pasportingizni albatta tekshiring.",
+      "Viza muammosi hal bo'lgani uchun u rejaga ko'ra shu dam olish kunlari chet elga jo'nab ketishga qaror qildi."
+    ],
+    "출근길": [
+      "Ishga boradigan yo'l tirband.",
+      "Ishga ketayotib qahva sotib oldim.",
+      "Yomg'ir yoqqani uchun ishga borish odatdagidan ancha qiyin bo'ldi.",
+      "Ertalab ishga ketish paytidagi metroda odam shunchalik ko'p ediki, hatto tik turish ham qiyin edi."
+    ],
+    "출력": [
+      "Chop etib bering.",
+      "Hujjatlarni chop etdim.",
+      "Printer buzilib qolgani uchun chop etib bo'lmayapti.",
+      "Bu avtomobilning dvigatel quvvati yuqori bo'lgani uchun qiyalikda ham kuchli yuradi."
+    ],
+    "출산": [
+      "Tug'ish vaqti yaqin.",
+      "Opam kasalxonada farzand ko'rdi.",
+      "Tug'ruqdan keyin onam bir oy davomida uyda dam oldi.",
+      "U tug'ruq yaqinlashgani sababli ishxonasiga dekret ta'tili uchun ariza berdi."
+    ],
+    "출산율": [
+      "Tug'ilish darajasi past.",
+      "Koreyada tug'ilish darajasi kamaymoqda.",
+      "Tug'ilish darajasi pasaysa, maktabga qatnaydigan bolalar soni ham kamayadi.",
+      "Statistika qo'mitasi bu yil umumiy tug'ilish koeffitsienti tarixdagi eng past ko'rsatkichni qayd etganini e'lon qildi."
+    ],
+    "출생": [
+      "Tug'ilganlik haqida ro'yxatdan o'tkazaman.",
+      "U Seulda tug'ilgan.",
+      "Pasport olish uchun tug'ilganlik haqidagi guvohnoma bo'lishi kerak.",
+      "Farzand tug'ilgach, ota-onalar bir oy ichida tuman hokimiyatida tug'ilganlikni ro'yxatdan o'tkazishlari kerak."
+    ],
+    "출석": [
+      "Davomatni tekshiraman.",
+      "Bugun davomatni tekshirdik.",
+      "Bu darsda davomat bahoga katta ta'sir qiladi.",
+      "U shamollab qolgani uchun afsuski, bu galgi majlisda qatnasha olmadi."
+    ],
+    "출신": [
+      "Qayerdansiz?",
+      "Men Pusanlikman.",
+      "U Seul universitetining bitiruvchisi ekanini bilib, hamma hayron qoldi.",
+      "Bu galgi musobaqada turli mamlakatlardan kelgan sportchilar ishtirok etib, qizg'in kurash olib borishdi."
+    ],
+    "출입": [
+      "Kirish taqiqlangan.",
+      "Bu eshikdan faqat xodimlar kirib-chiqishi mumkin.",
+      "Qurilish ishlari ketayotgani uchun bu yerga kirish mumkin emas.",
+      "Xavfsizlik maqsadida kompaniya binosiga faqat ruxsat berilgan shaxslargina kira olishi nazorat qilinmoqda."
+    ],
+    "출입국": [
+      "Migratsiya idorasiga boraman.",
+      "Chegara nazoratidan o'tdim.",
+      "Vizamni uzaytirish uchun migratsiya idorasiga bordim.",
+      "Aeroportda chegara nazorati xodimi pasportni tekshirib, mamlakatga kelish maqsadini so'radi."
+    ],
+    "출퇴근": [
+      "Ishga borib kelish qiyin.",
+      "Men ishga metroda borib kelaman.",
+      "Uyim uzoq bo'lgani uchun ishga borib kelishga ikki soat vaqt ketadi.",
+      "Ko'plab ishchi xodimlar ishga borib-kelish vaqtida kitob o'qib yoki musiqa tinglab vaqt o'tkazadilar."
+    ],
+    "출판사": [
+      "Nashriyotda ishlayman.",
+      "O'sha kitob mashhur nashriyotda chiqqan.",
+      "Men qo'lyozmamni nashriyotga yubordim.",
+      "Bu nashriyot har yili yangi yozuvchilarning asarlarini topib, ularni kitob holida nashr etib kelmoqda."
+    ],
+    "충격": [
+      "Bu zarba bo'ldi.",
+      "O'sha xabardan qattiq larzaga keldim.",
+      "To'satdan kelgan baxtsiz hodisa xabari hamma uchun katta zarba bo'ldi.",
+      "Avtomobillar to'qnashgan lahzada haydovchi kuchli zarba olib, hushidan ketdi."
+    ],
+    "충고": [
+      "Maslahat beraman.",
+      "Do'stimning maslahatiga quloq soldim.",
+      "Ota-onamning nasihatiga quloq solmay, keyin pushaymon bo'lgan paytlarim bo'lgan.",
+      "U katta hamkasbining nasihatini qalbiga jo qilib, yanada ehtiyotkorona harakat qilishga ahd qildi."
+    ],
+    "충돌": [
+      "Mashinalar to'qnashdi.",
+      "Ikkovining fikrlari to'qnash keldi.",
+      "Velosiped va mototsikl to'qnashib ketgan baxtsiz hodisa yuz berdi.",
+      "Chorrahada svetofor qoidasini buzgan avtomobil boshqa mashina bilan to'qnashib ketgan hodisa yuz berdi."
+    ],
+    "충분하다": [
+      "Vaqt yetarli.",
+      "Shuncha bo'lsa yetarli.",
+      "Ovqat yetarli, yana olib yeyavering.",
+      "Biz bu loyihani yakunlash uchun yetarli vaqt va ishchi kuchini ta'minladik."
+    ],
+    "충분히": [
+      "Yetarlicha uxladim.",
+      "Yetarlicha suv iching.",
+      "Yetarlicha o'ylab ko'rganingizdan keyin qaror qiling.",
+      "U imtihonga yetarlicha tayyorlangani uchun natijadan ko'ngli to'q edi."
+    ],
+    "취업": [
+      "Ishga joylashishga tayyorlanyapman.",
+      "Men bu yil ishga joylashdim.",
+      "O'qishni bitirgandan keyin yaxshi kompaniyaga ishga joylashmoqchiman.",
+      "U bir necha oylik ish qidirishdan so'ng yirik kompaniyaga ishga kirishga muvaffaq bo'ldi."
+    ],
+    "취업난": [
+      "Ish topish juda qiyin.",
+      "Hozir yoshlar ish topishdagi qiyinchiliklardan qiynalishyapti.",
+      "Ish topish qiyinligi sababli o'qishni bitirgandan keyin ham ish topa olmagan do'stlarim ko'p.",
+      "Ishsizlik muammosi jiddiyligi sababli ko'plab yoshlar bitiruvni kechiktirib, universitetda qolayotgani rost."
+    ],
+    "취침": [
+      "Uxlash vaqti bo'ldi.",
+      "Uxlashdan oldin tishimni yuvaman.",
+      "Men odatda soat o'n birda uxlashga yotaman.",
+      "Armiyada barcha askarlar belgilangan vaqtda uyquga yotishi qoida qilib belgilangan."
+    ],
+    "취하다": [
+      "Mast bo'lib qoldim.",
+      "U juda mast bo'lgani uchun yura olmayapti.",
+      "Men ichimlik ichsam, tezda mast bo'lib, yuzim qizarib ketadi.",
+      "U vinodan mast bo'lib, odatda aytolmaydigan ichki gaplarini to'kib soldi."
+    ],
+    "측": [
+      "Bu bizning tomon.",
+      "Ikkala tomon kelishib oldi.",
+      "Kompaniya tomonidan uzr so'rash bayonoti e'lon qilindi.",
+      "Muzokaralarda kasaba uyushmasi tomoni ish haqini oshirishni talab qildi, kompaniya tomoni esa bunga norozilik bildirdi."
+    ],
+    "치료제": [
+      "Davolovchi dori ichaman.",
+      "Yangi davolovchi dori chiqdi.",
+      "Bu kasallikning hali samarali davosi yo'q.",
+      "Tadqiqot guruhi saraton bilan og'rigan bemorlar uchun yangi davo vositasining klinik sinovlarini boshladi."
+    ],
+    "치수": [
+      "O'lchamni o'lchayman.",
+      "Kiyimning o'lchami to'g'ri kelmayapti.",
+      "Yangi kiyim sotib olish uchun ko'krak o'lchamimni o'lchadim.",
+      "Tikuvchi mijozning tana o'lchamlarini aniq o'lchab, buyurtma asosida kostyum tikib berdi."
+    ]
+  },
+  "0135": {
+    "치우다": [
+      "Men xonani yig'ishtiraman.",
+      "Ovqatdan keyin dasturxonni yig'ishtirdim.",
+      "Yo'lda to'planib qolgan qorni kurab, ertalabdan qiynaldim.",
+      "Majlis tugashi bilanoq xodimlar barcha stul va stollarni yig'ishtirib qo'yishdi."
+    ],
+    "치즈": [
+      "Men pishloqni yaxshi ko'raman.",
+      "Ertalab nonga pishloq qo'yib yedim.",
+      "Bu do'kon pitsani o'zlari tayyorlagan pishloqdan pishiradi, shuning uchun juda mashhur.",
+      "Yevropa pishloqlari orasida chuqur ta'mga ega bo'lishi uchun bir necha yil yetiltirilishi kerak bo'lganlari ham bor."
+    ],
+    "친어머니": [
+      "Bu kishi mening tug'ishgan onam.",
+      "Men o'z tug'gan onam bilan birga yashayman.",
+      "U bolaligida ajralib qolgan tug'ishgan onasi bilan voyaga yetgach qayta uchrashdi.",
+      "Asrab olingan bola bo'lgan u uzoq urinishlardan so'ng o'z tug'ishgan onasi haqida xabar topdi."
+    ],
+    "친환경": [
+      "Bu sumka ekologik toza.",
+      "Men ekologik toza sovun ishlataman.",
+      "Keyingi paytlarda ekologik toza mahsulotlarni qidiradigan odamlar tobora ko'payib bormoqda.",
+      "Bu kompaniya qadoqlash idishlarini faqat ekologik toza materiallardan tayyorlaydi."
+    ],
+    "침": [
+      "So'lagim oqyapti.",
+      "Mazali ovqatni ko'rsam, so'lagim oqadi.",
+      "Ko'chaga tupurish odobsizlikdir.",
+      "U hayajonlanganidan quruq tupugini yutib, intervyu oluvchining navbatdagi savolini kutdi."
+    ],
+    "침실": [
+      "Yotoqxona ikkinchi qavatda.",
+      "Men yotoqxonada kitob o'qiyman.",
+      "Uyimizdagi yotoqxona kichkina bo'lsa ham, quyosh nuri yaxshi tushgani uchun juda iliq.",
+      "Er-xotin farzandli bo'lgach, yotoqxonani bolalar xonasiga aylantirishga qaror qilishdi."
+    ],
+    "칭찬": [
+      "Ustoz meni maqtadilar.",
+      "Maqtov eshitsam, kayfiyatim ko'tariladi.",
+      "Bola uchun koyishdan ko'ra kichkina bir og'iz maqtov ancha katta kuch bo'ladigan paytlar ko'p.",
+      "Rahbarining maqtovidan ko'ngli ko'tarilgan u odatdagidan ham astoydil ishlay boshladi."
+    ],
+    "카네이션": [
+      "Chinnigul chiroyli.",
+      "Ota-onalar kunida chinnigul sotib oldim.",
+      "Men onamning ko'kragiga qizil chinnigul taqib qo'ydim.",
+      "Koreyada Ustozlar kunida ham o'qituvchilarga chinnigul sovg'a qilish odati bor."
+    ],
+    "카세트": [
+      "Eski kasseta bor.",
+      "Men qo'shiqlarni kassetada tinglayman.",
+      "Otam yoshligida to'plagan audiokassetalarini hanuzgacha avaylab saqlaydilar.",
+      "Hozir kamdan-kam uchraydi, lekin ilgari ingliz tilida tinglab tushunishni kasseta orqali o'rganardik."
+    ],
+    "카센터": [
+      "Avtoservisga boraman.",
+      "Mashinam buzilib qolgani uchun avtoservisga bordim.",
+      "Shinamning havosi chiqib ketgani uchun yaqin atrofdagi avtoservisda ta'mirlatdim.",
+      "Bu avtoservisning narxlari halol va ta'mirlash muddati qisqa bo'lgani uchun doimiy mijozlari ko'p."
+    ],
+    "카페인": [
+      "Men kofeinli ichimlik ichmayman.",
+      "Qahvada kofein ko'p.",
+      "Kechqurun kofeinli ichimlik ichsam, kechasi uyqum yaxshi kelmaydi.",
+      "Shifokor homilador ayolga kofein iste'molini kuniga bir piyoladan kamgacha qisqartirishni maslahat berdi."
+    ],
+    "카펫": [
+      "Polda gilam bor.",
+      "Uyimizdagi gilam ko'k rangda.",
+      "Gilam ustiga ichimlik to'kib yuborib, uni tozalash bilan ancha ovora bo'ldim.",
+      "Bu mehmonxonaning butun yo'lagiga qalin gilam to'shalgani uchun qadam tovushlari deyarli eshitilmaydi."
+    ],
+    "칸": [
+      "Bo'sh kataklarni to'ldiring.",
+      "Ismingizni shu katakka yozing.",
+      "Imtihon varag'idagi bo'sh joylarga mos so'zni qo'yish topshirig'i eng qiyini bo'ldi.",
+      "Poyezdning oxirgi vagonida deyarli odam yo'q edi, shuning uchun tinchgina dam olsa bo'lardi."
+    ],
+    "칼국수": [
+      "Men kalguksuni yaxshi ko'raman.",
+      "Yomg'irli kunlarda kalguksu yegim keladi.",
+      "Bu restoranning kalguksusi sho'rvasi yoqimli, lag'moni esa elastik bo'lgani uchun doim navbat bo'ladi.",
+      "Buvim xamirni o'zlari qorib, kalguksu uchun lag'mon ugrasini qo'lda kesib berardilar."
+    ],
+    "캄캄하다": [
+      "Xona qop-qorong'i.",
+      "Kechasi bo'lgani uchun tashqari qop-qorong'i.",
+      "To'satdan svet o'chib, uy ichi qop-qorong'i bo'lib qolgani uchun qattiq qo'rqib ketdim.",
+      "Tunnel ichi birorta ham chiroqsiz qop-qorong'i edi, shuning uchun oldingi mashinaning orqa chiroqlariga qarab ergashishdan boshqa ilojimiz yo'q edi."
+    ],
+    "캠퍼스": [
+      "Bizning universitet kampusimiz keng.",
+      "Men do'stim bilan kampusda uchrashdim.",
+      "Bahor kelganda kampusning har yerida olcha gullari ochilib, sayr qilish uchun juda yoqimli bo'ladi.",
+      "U universitet Seulning chekkasida ikkinchi kampusni yangi qurib, o'sha yerga ko'chishga qaror qildi."
+    ],
+    "캠프": [
+      "Yozgi lagerga boraman.",
+      "Men lagerda do'stlar orttirdim.",
+      "Bolalar ta'til davomida ingliz tili lageriga qatnashib, chet ellik o'qituvchi bilan birga vaqt o'tkazishdi.",
+      "Bu galgi lagerda jamoalarga bo'linib ovqat pishirdik, kechasi esa yulduzlarni tomosha qilib suhbatlashdik."
+    ],
+    "커다랗다": [
+      "Katta it bor.",
+      "Men katta sumka sotib oldim.",
+      "Bog'ga borsam, katta daraxt ostida odamlar dam olayotgan ekan.",
+      "U kattakon qutini ikki qo'llab zo'rg'a ko'tarib, zinadan chiqdi."
+    ],
+    "커지다": [
+      "Ovoz kattalashyapti.",
+      "Bola ancha katta bo'lib qolibdi.",
+      "Biznes tobora kengayib, ko'proq xodim yollashga to'g'ri keldi.",
+      "Muammoga e'tibor bermay qo'ygan edim, tushunmovchilik qor ko'chkisidek kattalashib, uni bartaraf etish qiyin bo'lgan holatga yetdi."
+    ],
+    "커튼": [
+      "Pardani ochaman.",
+      "Parda juda kalta.",
+      "Ertalabki quyosh nuri ko'zni qamashtirgani uchun derazaga qalin parda osdim.",
+      "U yangi uyga ko'chib o'tar ekan, mehmonxonaga mos keladigan och sariq rangli parda tanladi."
+    ],
+    "커플": [
+      "Anavi juftlik baxtli ko'rinadi.",
+      "Biz juft uzuk sotib oldik.",
+      "Bog'da qo'l ushlashib sayr qilayotgan juftliklar ko'p bo'lib, ularni ko'rish juda yoqimli edi.",
+      "U juftlik besh yil uchrashib yurganidan so'ng shu kuzda turmush qurishga qaror qildi."
+    ],
+    "컴퓨터실": [
+      "Kompyuter xonasi uchinchi qavatda.",
+      "Men uy vazifasini kompyuter xonasida bajaraman.",
+      "Darsdan keyin kompyuter xonasida ma'lumot qidirib, hisobot yozdim.",
+      "Maktabning kompyuter xonasi dars bo'lmagan vaqtlarda o'quvchilar uchun erkin ochiq bo'ladi."
+    ],
+    "켜지다": [
+      "Chiroq yonyapti.",
+      "Televizor birdan yonib qoldi.",
+      "Kech kirishi bilan ko'chadagi chiroqlar birin-ketin yona boshladi.",
+      "Kompyuter o'z-o'zidan yonib qolgani sababli nima bo'layotganini tushunmay, ancha vaqt sarosimaga tushdim."
+    ],
+    "코끼리": [
+      "Fil katta.",
+      "Hayvonot bog'ida fil ko'rdim.",
+      "Fil uzun xartumi bilan suv ichadi va yemishini ham ushlab yeydi.",
+      "Tailandda fil mingan holda o'rmon bo'ylab sayr qiladigan sayyohlik dasturi mashhur edi."
+    ],
+    "코너": [
+      "Ana u burchakdan buriling.",
+      "Kitob do'konida kitoblar bo'limi bor.",
+      "Supermarketda meva bo'limini qidirib, ancha adashib yurdim.",
+      "O'sha ko'rsatuvda tomoshabinlarning hikoyalarini tanishtiradigan ruknlar eng mashhuri hisoblanadi."
+    ],
+    "코미디": [
+      "Komediyani yaxshi ko'raman.",
+      "Kecha komediya film ko'rdim.",
+      "Do'stim bilan komediya ko'rsatuvini tomosha qilib, qorinimizni ushlab kuldik.",
+      "Bu aktyor jiddiy rollarni ham yaxshi o'ynaydi, ammo ayniqsa komediya janrida yorqin namoyon bo'ladi."
+    ],
+    "코미디언": [
+      "Anavi odam komik aktyor.",
+      "Komik aktyor juda kulgili.",
+      "Mening orzuim sahnada odamlarni kuldiradigan hajvchi bo'lish.",
+      "U komik aktyor og'ir kunlardagi tajribasini hazil orqali hikoya qilib, ko'pchilikning hamdardligini qozondi."
+    ],
+    "콘서트": [
+      "Konsertga boraman.",
+      "Men konsertga chipta sotib oldim.",
+      "Sevimli qo'shiqchimning konsertida qo'shiqlarga jo'r bo'lib, rosa maza qildim.",
+      "Shu dam olish kunlari Olimpiya bog'ida o'tadigan ochiq havodagi konsertga o'n minglab odam yig'ilishi kutilmoqda."
+    ],
+    "콘센트": [
+      "Rozetka qayerda?",
+      "Vilkani rozetkaga ulayman.",
+      "Kafeda telefonimni quvvatlash uchun rozetkasi bor joyga o'tirdim.",
+      "Bino eski bo'lgani uchun har bir xonada rozetkalar yetishmas, shu sababli bir nechta uzaytirgichdan foydalanishga to'g'ri kelardi."
+    ],
+    "콩나물": [
+      "Soya nihollarini sotib oldim.",
+      "Soya nihollaridan qilingan sho'rva ichaman.",
+      "Men har kuni ertalab soya nihollari qo'shib tayyorlangan haejangguk sho'rvasini maza qilib ichaman.",
+      "Soya maysasi arzon va to'yimli bo'lgani uchun koreys oilalarining dasturxonida tez-tez bo'ladi."
+    ]
+  },
+  "0136": {
+    "퀴즈": [
+      "Viktorina savollarini yechaman.",
+      "Bugun darsda viktorina o'tkazdik.",
+      "Televizordagi viktorina ko'rsatuvida g'olib bo'lib, pul mukofoti oldim.",
+      "O'qituvchi takrorlash uchun har juma kuni qisqa viktorina o'tkazadilar."
+    ],
+    "큰길": [
+      "Katta yo'ldan boring.",
+      "Katta ko'chada avtobusga chiqdim.",
+      "Tor ko'chadan o'tib katta yo'lga chiqsangiz, metro bekati darhol ko'rinadi.",
+      "Katta ko'cha bo'yidagi do'konlarning ijara haqi qimmat bo'lsa-da, xaridorlar ko'p keladi."
+    ],
+    "큰돈": [
+      "Menda katta pul yo'q.",
+      "Katta pul topmoqchiman.",
+      "Bu mashinani sotib olish uchun katta pul kerak bo'lgani sababli bir necha yil jamg'ardim.",
+      "U aksiyalar orqali katta pul ishlab topdi, ammo ko'p o'tmay hammasini yo'qotib qo'ydi."
+    ],
+    "큰소리": [
+      "Baland ovozda o'qiyman.",
+      "Bola baland ovozda yig'layapti.",
+      "Kutubxonada baland ovozda gaplashish mumkin emas.",
+      "U imtihondan albatta o'taman deb maqtanib gapirgan bo'lsa-da, natija yaxshi chiqmadi."
+    ],
+    "큰일": [
+      "Katta muammo bo'ldi!",
+      "Ertaga muhim ishim bor.",
+      "Hamyonimni yo'qotib qo'ydim, bu katta muammo, endi nima qilaman?",
+      "Qizining to'yi kabi muhim tadbir yaqinlashib qolgani uchun onasi bir necha kundan beri tunlari uxlay olmadi."
+    ],
+    "클래식": [
+      "Men klassik musiqa tinglayman.",
+      "Klassik musiqa konsertiga bordim.",
+      "Dars qilayotganda so'zsiz klassik musiqa tinglasam, diqqatimni yaxshi jamlay olaman.",
+      "Bu do'konning klassik dizayndagi sumkalari modaga bog'liq bo'lmagani uchun ularni uzoq vaqt ishlatish mumkin."
+    ],
+    "클릭": [
+      "Shu yerni bosing.",
+      "Tugmani bosdim.",
+      "Havolani bossangiz, ariza to'ldiriladigan sahifaga o'tasiz.",
+      "Reklamani adashib bosib yuborganim uchun g'alati saytga kirib qoldim."
+    ],
+    "키우다": [
+      "Men mushuk boqaman.",
+      "Bola tarbiyalash qiyin.",
+      "Oilamiz kichkina hovlimizda sabzavotlarni o'zimiz yetishtirib yeymiz.",
+      "U bolaligidan xonanda bo'lish orzusini qalbida parvarishlab, har kuni qo'shiq aytishni mashq qildi."
+    ],
+    "타입": [
+      "Bu tur yaxshi.",
+      "Men kamgap odamman.",
+      "Do'stim bir ishni boshlasa, uni oxiriga yetkazadigan toifadagi odam.",
+      "U oldinga chiqishdan ko'ra, orqada turib ishga ko'maklashadigan toifadagi inson."
+    ],
+    "탈": [
+      "Niqob kiyaman.",
+      "Bu niqob qo'rqinchli.",
+      "Koreyaning an'anaviy niqoblari yuz shakli ham, rangi ham har xil bo'lgani uchun qiziqarli.",
+      "U mehribon odam niqobini kiyib, odamlarga yaqinlashib, ularning pullarini o'zlashtirib oldi."
+    ],
+    "탈의실": [
+      "Kiyinish xonasi qayerda?",
+      "Kiyinish xonasida kiyim kiyaman.",
+      "Kiyim do'konining kiyinish xonasida shimni kiyib ko'rib, o'lchami to'g'ri kelishini tekshirdim.",
+      "Basseynning yechinish xonasida shaxsiy buyumlarni qo'yish uchun shkafchalar mavjud."
+    ],
+    "탈춤": [
+      "Niqobli raqsni tomosha qildim.",
+      "Men talchum raqsini o'rganyapman.",
+      "Andongda har yili kuz kelganda xalqaro niqobli raqs festivali o'tkaziladi.",
+      "Talchum - aslzodalarni masxara qilib, oddiy xalqning dard-alamlarini yengillashtirgan an'anaviy niqobli raqs tomoshasidir."
+    ],
+    "탑승구": [
+      "Samolyotga chiqish eshigi qayerda?",
+      "Samolyotga chiqish eshigi oldida kutaman.",
+      "Aeroportda samolyotga chiqish eshigini topa olmay, xodimdan yo'l so'radim.",
+      "Samolyot uchishidan o'ttiz daqiqa oldin chiqish eshigi yopiladi, shuning uchun shoshilib kelishingiz kerak."
+    ],
+    "탕": [
+      "Men sho'rva ichaman.",
+      "Bugun tushlikda tovuq sho'rva yedim.",
+      "Sovuq kunlarda issiq galbitang ichsangiz, tanangiz isiydi.",
+      "Bu restoran mol suyagini uzoq qaynatib tayyorlanadigan seolleongtang sho'rvasi bilan mashhur."
+    ],
+    "태도": [
+      "Uning xulq-atvori yaxshi.",
+      "Uning xulq-atvori yomon.",
+      "Aytishlaricha, ish suhbatida javobning mazmuni qanchalik muhim bo'lsa, gapirish odobi ham shunchalik muhim ekan.",
+      "U xatosini tan olgan halol munosabati bilan odamlarning ishonchini qayta qozondi."
+    ],
+    "태양": [
+      "Quyosh chiqyapti.",
+      "Quyosh issiq.",
+      "Yer Quyosh atrofini bir marta aylanib chiqishi uchun bir yil vaqt ketadi.",
+      "Yozda kuchli quyosh ostida uzoq ishlash salomatlikka zarar yetkazishi mumkin."
+    ],
+    "태양열": [
+      "Quyosh issiqligi kuchli.",
+      "Suvni quyosh issiqligi bilan isitamiz.",
+      "Uyimizning tomida quyosh issiqligidan elektr ishlab chiqaradigan qurilma bor.",
+      "Bu qishloq quyosh energiyasidan foydalanadigan isitish tizimini o'rnatib, yoqilg'i xarajatlarini ancha qisqartirdi."
+    ],
+    "태우다": [
+      "Qog'ozni yoqaman.",
+      "Go'shtni kuydirib qo'ydim.",
+      "Ovqat pishirayotib telefonga javob berganim tufayli jjigaeni kuydirib qo'ydim.",
+      "U eski xatlarni hovlida yoqib, o'tgan kunlar bilan xayrlashdi."
+    ],
+    "택배": [
+      "Posilka keldi.",
+      "Posilkani kuryer orqali jo'natdim.",
+      "Internetdan sotib olgan kiyimim bugun kuryer orqali yetib keldi.",
+      "Bayram arafasida ona yurtimdagi ota-onamga sovg'ani kuryerlik xizmati orqali jo'natdim."
+    ],
+    "택배비": [
+      "Yetkazib berish narxi qimmat.",
+      "Yetkazib berish narxi qancha?",
+      "Bu do'konda ellik ming vondan ortiq xarid qilsangiz, yetkazib berish uchun pul olinmaydi.",
+      "Yuk og'ir bo'lgani uchun yetkazib berish haqi narsaning o'z narxidan ham qimmatroq chiqdi."
+    ],
+    "터지다": [
+      "Shar yorilib ketdi.",
+      "Kulgi qo'yib yuboryapman.",
+      "Suv quvuri yorilib, uyning ichi butunlay suvga to'lib ketdi.",
+      "Urush boshlanib ketgach, ko'plab odamlar ona yurtlarini tashlab, qochqinlikka yo'l oldi."
+    ],
+    "털다": [
+      "Changni qoqaman.",
+      "Kiyimni qoqib tozaladim.",
+      "Qor bosgan kiyimimni eshik oldida qoqib, keyin uyga kirdim.",
+      "U o'g'riga bor pulini o'g'irlatib, bir kechada qip-yalang'och qoldi."
+    ],
+    "테이프": [
+      "Skotch bering.",
+      "Qutiga skotch yopishtiraman.",
+      "Yirtilgan plakatni shaffof skotch bilan yopishtirib, qayta osib qo'ydim.",
+      "Ko'chish uchun yuklarni yig'ar ekanman, har bir qutiga bir necha qavat skotch yopishtirib, mahkam qadoqladim."
+    ],
+    "텐트": [
+      "Chodir tikaman.",
+      "Mening chodirim bor.",
+      "Dam olish kunlari oilam bilan toqqa borib, chodirda bir kecha tunadik.",
+      "Shamol juda kuchli bo'lgani uchun chodir tikishga bir soat vaqt ketdi."
+    ],
+    "토끼": [
+      "Quyonning qulog'i uzun.",
+      "Quyon sabzi yeyapti.",
+      "Farzandimiz oq quyon boqmoqchi ekanini tez-tez aytadi.",
+      "Ezop masalida quyon o'ziga haddan tashqari ishonib, poygada toshbaqaga yutqazib qo'yadi."
+    ],
+    "토론": [
+      "Biz munozara qilamiz.",
+      "Darsda munozara o'tkazdik.",
+      "Men do'stlarim bilan ekologik muammolar haqida bahslashishni yoqtiraman.",
+      "Bu universitet talabalar erkin fikr almashadigan munozara darslariga katta ahamiyat beradi."
+    ],
+    "토하다": [
+      "Men qusib yubordim.",
+      "Bola tinmay qusyapti.",
+      "Mashinada uzoq yurib, ko'nglim aynigani uchun yo'l chetida qusib yubordim.",
+      "Aynigan ovqat yedimmi, tun bo'yi qayt qilib, isitmam chiqqani uchun kasalxonaga bordim."
+    ],
+    "통계": [
+      "Statistikani ko'raman.",
+      "Bu statistika aniq.",
+      "Yangiliklarda e'lon qilingan statistikaga ko'ra, Koreyada tug'ilish darajasi pasayishda davom etmoqda.",
+      "Tadqiqotchi so'rovnoma natijalarini statistik dastur yordamida tahlil qilib, hisobot tayyorladi."
+    ],
+    "통신": [
+      "Aloqa yo'q.",
+      "Aloqa kompaniyamni almashtirdim.",
+      "Tog' ichida aloqa yaxshi ulanmagani uchun qo'ng'iroq qila olmadim.",
+      "Har oy aloqa xizmatlari uchun to'lov juda ko'p chiqqani sababli arzonroq tarifga o'tishga qaror qildim."
+    ],
+    "통역": [
+      "Tarjimon kerak.",
+      "Men og'zaki tarjimon bo'lib ishlayman.",
+      "Yig'ilishda koreys va ingliz tillaridan sinxron tarjima qilib beradigan kishi bor edi.",
+      "U tarjimonlik magistraturasini tamomlab, xalqaro tadbirlarda og'zaki tarjimon bo'lib ishlamoqda."
+    ]
+  },
+  "0137": {
+    "통일": [
+      "Birlashish bo'lsa yaxshi bo'lardi.",
+      "Koreya birlashishni xohlaydi.",
+      "Janubiy va Shimoliy Koreyaning birlashishi haqida suhbatlashib, kechni o'tkazdik.",
+      "Germaniya 1990-yilda Sharqiy va G'arbiy Germaniya birlashib, yagona davlatga aylandi."
+    ],
+    "통증": [
+      "Og'riq kuchli.",
+      "Belimda og'riq bor.",
+      "Kechadan beri tizzamda og'riq sezayotganim uchun kasalxonaga bormoqchiman.",
+      "Shifokor dori ichilsa, og'riq asta-sekin kamayishini tushuntirdi."
+    ],
+    "통지서": [
+      "Xabarnoma keldi.",
+      "Xabarnoma oldim.",
+      "Pochta qutisida o'qishga qabul qilinganlik haqida xabarnoma bor ekan, butun oila xursand bo'ldi.",
+      "Soliq to'lash haqidagi xabarnomani olgan u belgilangan muddat ichida bankka borib pulni to'ladi."
+    ],
+    "통화": [
+      "Hozir telefonda gaplasha olasizmi?",
+      "Do'stim bilan telefonda gaplashdim.",
+      "Shoshilinch ishim tugashi bilan qayta telefonlashishga kelishdik.",
+      "U telefonda gaplashayotgani uchun men yuborgan xabarni hali ko'rmadi."
+    ],
+    "퇴근길": [
+      "Ishdan uyga qaytyapman.",
+      "Ishdan qaytayotganimda yomg'ir yog'yapti.",
+      "Ishdan qaytayotib supermarketga kirib, kechki ovqat uchun masalliq oldim.",
+      "Juma kuni ishdan qaytishda yo'llar tirband bo'lgani uchun odatdagidan bir soat ko'proq vaqt ketdi."
+    ],
+    "퇴원": [
+      "Ertaga kasalxonadan chiqaman.",
+      "Kasalxonadan chiqqaningiz bilan tabriklayman.",
+      "Otam sog'ayib, shu hafta kasalxonadan chiqadigan bo'ldilar.",
+      "Shifokorning ruxsati bilan bir haftadan keyin kasalxonadan chiqqan u uyda dam olib, tuzalmoqda."
+    ],
+    "퇴직": [
+      "Otam nafaqaga chiqdi.",
+      "Nafaqaga chiqqandan keyin dam olmoqchiman.",
+      "O'ttiz yil ishlagan kompaniyasidan nafaqaga chiqqach, otam tez-tez sayohat qiladilar.",
+      "U sog'lig'i bilan bog'liq muammolar tufayli pensiya yoshidan oldinroq ishdan ketishga qaror qildi."
+    ],
+    "투표": [
+      "Men ovoz berdim.",
+      "Ovoz berish ertaga.",
+      "Saylov kuni ertalab barvaqt saylov uchastkasiga borib, ovoz berib keldim.",
+      "Bu galgi sinf sardori saylovini yashirin ovoz berish orqali o'tkazishga kelishildi."
+    ],
+    "튀기다": [
+      "Tovuqni moyda qovuraman.",
+      "To'pni yerga urib sakratyapman.",
+      "Kartoshkani yog'da qovurib, gazak sifatida yedim.",
+      "Suv qaynoq yog'ga tegishi bilan har tomonga sachrab ketgani uchun qo'limni kuydirib olishimga oz qoldi."
+    ],
+    "트럭": [
+      "Yuk mashinasi o'tib ketyapti.",
+      "Otam yuk mashinasi haydaydi.",
+      "Ko'chish yuklarini yuk mashinasiga ortib, yangi uyga olib bordik.",
+      "Tor ko'chaga katta yuk mashinasi kirib kelgani uchun boshqa mashinalar na oldinga, na orqaga yura olmay qoldi."
+    ],
+    "특기": [
+      "Mening mahoratim qo'shiq aytish.",
+      "Sizning alohida mahoratingiz nima?",
+      "Mening alohida qobiliyatim rasm chizish, shuning uchun sevimli mashg'ulot sifatida har kuni rasm chizaman.",
+      "Bu o'quvchining eng kuchli tomoni suzish bo'lgani uchun u respublika musobaqasida qatnashib, mukofot oldi."
+    ],
+    "특별": [
+      "Bu alohida kun.",
+      "Bu maxsus taom.",
+      "Bugun tug'ilgan kunim bo'lgani uchun maxsus tort buyurtma qildim.",
+      "Bu galgi tadbirga maxsus mehmon sifatida taniqli yozuvchi taklif qilindi."
+    ],
+    "특별하다": [
+      "Bugun alohida kun.",
+      "Bu sovg'a alohida ahamiyatga ega.",
+      "Bu qo'shiqda men uchun alohida xotiralar mujassam bo'lgani uchun u juda qadrli.",
+      "U hech qanday alohidaligi bo'lmagan oddiy kunni ham shukr bilan qabul qiladigan insondir."
+    ],
+    "특산물": [
+      "Bu Chejudo orolining mahalliy mahsuloti.",
+      "Mahalliy mahsulot sotib oldim.",
+      "Sayohatga borsam, o'sha hududning o'ziga xos mahsulotlarini albatta olib kelib, oilamga sovg'a qilaman.",
+      "Bu qishloqning mashhur mahsuloti olma bo'lgani uchun kuzda sayyohlar ko'plab tashrif buyuradi."
+    ],
+    "튼튼하다": [
+      "Bu stul mustahkam.",
+      "Bola baquvvat.",
+      "Bu oyoq kiyimi uzoq kiysangiz ham buzilmaydigan darajada mustahkam.",
+      "Bobomiz yoshlari ulug' bo'lishiga qaramay oyoqlari baquvvat bo'lgani uchun har kuni toqqa chiqadilar."
+    ],
+    "틀림없다": [
+      "Bunga shubha yo'q.",
+      "Xuddi o'sha odam ekanligi shubhasiz.",
+      "Men bu yo'l shubhasiz bekatga olib boradi, deb o'ylayman.",
+      "U hech qachon va'dasini buzmagan, shuning uchun bugun ham so'zida turishiga shubham yo'q."
+    ],
+    "틀림없이": [
+      "U albatta keladi.",
+      "Ertaga albatta boraman.",
+      "Uy vazifasini albatta ertagacha topshiraman.",
+      "U vaqtga oid va'dalarini hech kanda qilmay bajaradigan inson bo'lgani uchun hamma unga ishonib vazifa topshiradi."
+    ],
+    "틈": [
+      "Eshik tirqishidan shamol kiryapti.",
+      "Yoriq bor.",
+      "Bandligimga qaramay, vaqt topib do'stimga qo'ng'iroq qildim.",
+      "Devordagi tirqishdan sovuq shamol kirib turgani uchun xona oson isimadi."
+    ],
+    "티켓": [
+      "Chipta sotib oldim.",
+      "Chiptam bor.",
+      "Konsert chiptasini olish uchun ertalabdan internet qarshisida kutib o'tirdim.",
+      "Aviachiptalar ko'pincha uchish sanasi yaqinlashgan sari qimmatlashib boradi."
+    ],
+    "팀장": [
+      "Jamoa rahbari mehribon.",
+      "Men jamoa rahbariman.",
+      "Bizning jamoa rahbarimiz doim avval xodimlarning gapini tinglaydi.",
+      "U qobiliyati e'tirof etilib, ishga kirganidan besh yil o'tib jamoa rahbari lavozimiga ko'tarildi."
+    ],
+    "파다": [
+      "Yerni kovlayman.",
+      "Chuqur qazidim.",
+      "Hovliga daraxt ekish uchun yerni chuqur qazidik.",
+      "Qurilish ishchilari yo'l ostini qazib, yangi suv quvurini yotqizishdi."
+    ],
+    "파마": [
+      "Sochimni jingalak qildirdim.",
+      "Permangiz chiroyli chiqibdi.",
+      "Sartaroshxonada sochimni jingalak qilib perma qildirgan edim, qiyofam o'zgarib ketdi.",
+      "U har tongda sochini turmaklashga ketadigan vaqtni qisqartirish uchun perm qildirishga qaror qildi."
+    ],
+    "파일": [
+      "Faylni ochaman.",
+      "Faylni yubordim.",
+      "Hisobot faylini elektron xatga biriktirib, o'qituvchiga topshirdim.",
+      "Muhim faylni bexosdan o'chirib yuborganim uchun tiklash dasturining yordamiga murojaat qilishimga to'g'ri keldi."
+    ],
+    "파전": [
+      "Pajeon yeyman.",
+      "Pajeon mazali.",
+      "Yomg'irli kunda makgeolli va pajeon yegim kelib, bozorga bordim.",
+      "Onam pishirib bergan pajeon qarsildoq va ichida piyoz patlari mo'l bo'lgani uchun juda mazali edi."
+    ],
+    "판매": [
+      "Sotuvni boshladik.",
+      "Bu do'kon kiyim sotadi.",
+      "Yangi chiqqan telefonning sotuvi bugundan boshlangani uchun do'kon oldida uzun navbat bor.",
+      "U kompaniya onlayn savdoni kengaytirib, savdo hajmini ikki baravar oshirishga erishdi."
+    ],
+    "판매자": [
+      "Sotuvchi xushmuomala.",
+      "Sotuvchidan so'radim.",
+      "Internetdan narsa sotib olayotganda sotuvchi haqidagi sharhlarni albatta tekshirib ko'ring.",
+      "Mahsulotda nuqson bo'lgan taqdirda sotuvchi uni almashtirib berishi yoki pulini qaytarishi shart."
+    ],
+    "팥빙수": [
+      "Patbingsu yeyman.",
+      "Yozda patbingsu juda mazali bo'ladi.",
+      "Issiq kunda salqin patbingsu yesangiz, jazirama butunlay unutiladi.",
+      "Bu kafening patbingsusi muzi qordek mayin va qizil loviyasi shirin bo'lgani uchun juda mashhur."
+    ],
+    "패션쇼": [
+      "Moda namoyishini tomosha qildim.",
+      "Moda namoyishi o'tkaziladi.",
+      "Do'stim model bo'lib chiqadigan moda namoyishiga taklif olib, tomosha qilgani bordim.",
+      "Dizayner yangi mavsum kiyimlarini namoyish qilish uchun Parijda moda ko'rgazmasi o'tkazdi."
+    ],
+    "패스트푸드": [
+      "Men fast-fudni yaxshi ko'raman.",
+      "Fast-fud tez tayyorlanadi.",
+      "Band bo'lganim uchun tushlikka fast-fuddan yengilgina gamburger yedim.",
+      "Tez tayyorlanadigan taomlarni tez-tez iste'mol qilish semizlik va surunkali kasalliklarga chalinish ehtimolini oshiradi."
+    ],
+    "팩스": [
+      "Faks yuboraman.",
+      "Faks kelmayapti.",
+      "Kompaniyadan shartnomani faks orqali yuborishimni so'rashdi.",
+      "Bu idora bilan hamon hujjatlarni faks orqali almashadigan bir nechta hamkor tashkilot bor."
+    ]
+  },
+  "0138": {
+    "팬": [
+      "Men o'sha qo'shiqchining muxlisiman.",
+      "Muxlislari ko'p.",
+      "Men bu aktyorning qadimiy muxlisiman, shuning uchun uning filmi chiqsa, albatta ko'raman.",
+      "U sportchi o'yin tugagach, muxlislariga birma-bir dastxat berib chiqdi."
+    ],
+    "퍼지다": [
+      "Mish-mish tarqalyapti.",
+      "Hid tarqaldi.",
+      "Gripp maktabda tez tarqalib, ko'plab o'quvchilar darsga kelmadi.",
+      "Non yopilayotganining yoqimli hidi butun ko'chaga taralgach, odamlar do'kon oldiga to'plana boshladi."
+    ],
+    "편리": [
+      "Qulay.",
+      "Bu ilova qulay.",
+      "Metro bekati yaqin bo'lgani uchun ishga borib kelish juda qulay.",
+      "U faqat qulaylik va tezlikka intiladigan zamonaviy insonlarning turmush tarziga shubha bilan qaradi."
+    ],
+    "편식": [
+      "Ovqatni tanlab yemang.",
+      "Bola ovqat tanlaydi.",
+      "Bolaligimda sabzavotlarni yoqtirmaganim uchun ovqat tanlashim juda kuchli edi.",
+      "Ovqat tanlab yeyish oziq moddalar muvozanatining buzilishiga olib kelib, o'sish davridagi bolalar salomatligiga zarar yetkazishi mumkin."
+    ],
+    "편안하다": [
+      "Stul qulay.",
+      "Ko'nglim xotirjam.",
+      "Uyga qaytgach, tanam ham, ko'nglim ham orom olib, tezda uxlab qoldim.",
+      "Bu kiyimning materiali yumshoq bo'lgani uchun uni kiysangiz, kun bo'yi o'zingizni qulay his qilasiz."
+    ],
+    "편의점": [
+      "Do'konga boraman.",
+      "Do'kon yaqin.",
+      "Kechasi qornim ochib, minimarketdan ramyon olib yedim.",
+      "Bu mahallada yigirma to'rt soat ishlaydigan uchta minimarket bor."
+    ],
+    "편히": [
+      "Bemalol o'tiring.",
+      "Bemalol dam oling.",
+      "Bugun ishdan erta chiqib, uyda bemalol dam olmoqchiman.",
+      "Mehmon o'zini noqulay his qilmasligi uchun unga ko'rpacha berib, bemalol o'tirishini taklif qildim."
+    ],
+    "펼치다": [
+      "Kitobni ochaman.",
+      "Xaritani yoydim.",
+      "Maysazorga palos yozib o'tirib, olib kelgan ovqatimizni yedik.",
+      "U qanotlarini keng yoygan qushdek qo'llarini ochib, dengizga qarab turardi."
+    ],
+    "평가": [
+      "Baho yaxshi.",
+      "Imtihon bahosini oldim.",
+      "Bu restoranning taom ta'mi haqida mijozlarning baholari juda yaxshi.",
+      "O'qituvchi o'quvchilarning harakati va baholarini umumlashtirib, adolatli baho qo'ydi."
+    ],
+    "평균": [
+      "O'rtacha ball yetmish.",
+      "O'rtacha yosh katta.",
+      "Bu imtihonda sinfimizning o'rtacha bali sakson ball bo'ldi.",
+      "Koreyslarning o'rtacha umr ko'rish davomiyligi muntazam ortib, endilikda sakson yoshdan oshdi."
+    ],
+    "평등": [
+      "Biz tengmiz.",
+      "Erkaklar va ayollar teng.",
+      "Qonun oldida hamma teng ekanini maktabda o'rganganmiz.",
+      "U mamlakat jinsidan qat'i nazar barcha fuqarolar teng imkoniyatlardan foydalana olishi uchun tizim yaratdi."
+    ],
+    "평범하다": [
+      "Men oddiy odamman.",
+      "Oddiy bir kun edi.",
+      "U oddiy ofis xodimi bo'lsa ham, har dam olish kuni ko'ngillilik ishlarida qatnashadi.",
+      "Oddiy ko'ringan odamning kutilmagan iste'dodga ega bo'lishi ham ko'p uchraydi."
+    ],
+    "평생": [
+      "Butun umr unutmayman.",
+      "U mening umrbod do'stim.",
+      "Buvim butun umr dehqonchilik qilib, oilasini boqib kelganlar.",
+      "U umr bo'yi to'plagan mol-mulkini universitetga xayriya qilishga qaror qildi."
+    ],
+    "평소": [
+      "Odatda erta uxlayman.",
+      "Odatdagidek maktabga bordim.",
+      "Men odatdagidan bir soat erta turib, badantarbiya qildim.",
+      "Odatda sog'lig'iga e'tibor bermaydigan u shifoxonada tekshiruvdan o'tgandan keyingina pushaymon bo'ldi."
+    ],
+    "평화": [
+      "Bu tinch qishloq.",
+      "Biz tinchlikni xohlaymiz.",
+      "Bu bog' sokin va osoyishta bo'lgani uchun sayr qilishga juda mos.",
+      "U butun umri davomida urushga qarshi chiqib, dunyo tinchligi yo'lida faoliyat olib bordi."
+    ],
+    "포근하다": [
+      "Ko'rpa mayin va iliq.",
+      "Bugun havo iliq va yoqimli.",
+      "Qish bo'lishiga qaramay havo iliq bo'lgani uchun qalin palto kerak bo'lmadi.",
+      "Onamning bag'ri doimo shu qadar iliq ediki, uning quchog'iga kirishning o'zi ko'nglimni xotirjam qilardi."
+    ],
+    "포기": [
+      "Taslim bo'lmang.",
+      "Men taslim bo'lmayman.",
+      "Imtihon juda qiyin bo'lsa ham, oxirigacha taslim bo'lmay yechdim.",
+      "U bir necha marta muvaffaqiyatsizlikka uchragan bo'lsa ham, orzusidan voz kechmay, urinishda davom etdi."
+    ],
+    "포도주": [
+      "Vino ichaman.",
+      "Vino qizil rangda.",
+      "Kechki ovqatga mos keladigan bir shisha qizil vino sotib oldim.",
+      "Fransuzlar ko'pincha ovqatlanayotganda yoniga vino qo'shib ichishadi."
+    ],
+    "포인트": [
+      "Ball yig'aman.",
+      "Bu muhim jihat.",
+      "Bu do'konda har safar xarid qilganingizda ballar to'planib boradi.",
+      "Taqdimot qilayotganda asosiy nuqtalarni qisqacha jamlab aytgan ma'qul."
+    ],
+    "포장지": [
+      "O'rash qog'ozi chiroyli.",
+      "Sovg'a o'raydigan qog'oz sotib oldim.",
+      "Do'stimning tug'ilgan kuniga sovg'ani chiroyli o'rash qog'oziga ehtiyotkorlik bilan o'radim.",
+      "Pechenye o'ramini ochishim bilan xonaga shirin hid taraldi."
+    ],
+    "폭발": [
+      "Portlash ovozi eshitildi.",
+      "Gaz portladi.",
+      "Zavodda kuchli portlash sodir bo'lib, yaqin atrofdagi aholi evakuatsiya qilindi.",
+      "Vulqon otilishi bilan quyuq tutun va vulqon kuli osmonni qopladi."
+    ],
+    "폭설": [
+      "Qalin qor yog'di.",
+      "Kuchli qor yog'yapti.",
+      "Tun bo'yi qalin qor yog'gani uchun ertalab maktabga bora olmadim.",
+      "Kuchli qor sababli yo'llar yopilib, ko'plab mashinalar avtomagistralda bir necha soat qamalib qoldi."
+    ],
+    "폭식": [
+      "Ortiqcha ovqat yeyish zararli.",
+      "Kecha haddan tashqari ko'p ovqat yeb qo'ydim.",
+      "Stressga tushsam, o'zim ham bilmagan holda me'yoridan ortiq ovqat yeb qo'yaman.",
+      "U parhez qilib yurgan paytda chiday olmay, yarim tunda me'yoridan ortiq ovqatlanib qo'ydi."
+    ],
+    "폭우": [
+      "Jala quyyapti.",
+      "Jala tufayli kechikdim.",
+      "Kechagi kuchli jala tufayli yo'llarni suv bosib, avtobuslar qatnay olmadi.",
+      "To'satdan yoqqan jala tufayli daryo toshib, yaqin atrofdagi qishloqlar aholisini evakuatsiya qilish haqida buyruq berildi."
+    ],
+    "폭포": [
+      "Sharshara katta.",
+      "Sharsharani ko'rdim.",
+      "Yozda oilam bilan salqin sharsharani tomosha qilgani bordik.",
+      "Bu tog'dagi sharsharaning balandligi ellik metrga yetgani uchun ko'plab sayyohlar tashrif buyuradi."
+    ],
+    "표시": [
+      "Belgi bor.",
+      "Shu yerga belgi qo'ying.",
+      "Xaritada bormoqchi bo'lgan joylarimni qizil rang bilan belgilab qo'ydim.",
+      "Bu mahsulotning yaroqlilik muddati o'ramda aniq ko'rsatilgan."
+    ],
+    "표정": [
+      "Yuz ifodasi quvnoq.",
+      "Uning yuzi xo'mraygan.",
+      "Do'stim yaxshi xabar eshitib, xursand qiyofada jilmaydi.",
+      "U hech narsa demagan bo'lsa ham, qovog'i solinib turgan yuz ifodasidan uning jahli chiqqanini bilish mumkin edi."
+    ],
+    "표지판": [
+      "Yo'l belgisiga qarayman.",
+      "Yo'l belgisi bor.",
+      "Adashib qolganimda yo'l ko'rsatkichlariga qarab yo'nalishni topdim.",
+      "Yo'llardagi belgilar haydovchilar xavfsiz harakatlanishi uchun muhim ma'lumotlarni yetkazadi."
+    ],
+    "푸르다": [
+      "Osmon ko'm-ko'k.",
+      "Dengiz ko'm-ko'k.",
+      "Bahor kelib, tog'lar va dalalar yam-yashil tusga kirgani uchun ko'zni quvontiradi.",
+      "Tiniq kuz osmoni shunchalik moviy ediki, ko'zni qamashtiradigan darajada baland va shaffof edi."
+    ],
+    "풀리다": [
+      "Tugun yechilib ketdi.",
+      "Muammo hal bo'ldi.",
+      "Iliq choy ichgan edim, asabim bo'shashib, ko'nglim tinchidi.",
+      "Qish o'tib, havo iliqlashgach, muzlab qolgan daryo suvi ham oqa boshladi."
+    ]
+  },
+  "0139": {
+    "풀이": [
+      "Masala yechaman.",
+      "O'qituvchi yechimni tushuntirib berdilar.",
+      "Matematika masalasining yechilish jarayonini daftarga batafsil yozib qo'ydim.",
+      "Bu kitob murakkab mumtoz asarlar mazmunini sodda tilda sharhlab bergani uchun yangi boshlovchilar ham uni oson o'qiy oladi."
+    ],
+    "품질": [
+      "Sifati yaxshi.",
+      "Bu kiyimning sifati yomon.",
+      "Narxi biroz qimmat bo'lsa ham, sifati yaxshi bo'lgani uchun uzoq ishlatish mumkin.",
+      "Kompaniya mahsulot sifatini oshirish uchun qat'iy tekshiruv jarayonini joriy qildi."
+    ],
+    "풍경": [
+      "Manzara go'zal.",
+      "Derazadan ko'rinadigan manzara chiroyli.",
+      "Tog' tepasiga chiqib, shahar manzarasini bir qarashda ko'zdan kechirdim.",
+      "Sayohatda ko'rgan qishloq manzarasi uzoq vaqtgacha xotiramda saqlanib qoldi."
+    ],
+    "풍부하다": [
+      "Bu davlat resurslarga boy.",
+      "Bu mevada vitamin ko'p.",
+      "O'sha o'qituvchining tajribasi boy bo'lgani uchun o'quvchilarga yaxshi maslahatlar beradi.",
+      "Bu hudud suv va yerga boy bo'lgani uchun qadimdan dehqonchilik rivojlangan."
+    ],
+    "풍선": [
+      "Havo shari katta.",
+      "Havo sharini puflab shishiraman.",
+      "Bola tug'ilgan kun ziyofatida olgan qizil havo sharini qo'yib yuborib, yig'lab yubordi.",
+      "Sharga haddan tashqari ko'p havo damlasangiz, u to'satdan \"pag'\" etib yorilib ketishi mumkin."
+    ],
+    "프라이팬": [
+      "Tova issiq.",
+      "Tovada tuxum qovuraman.",
+      "Tovaga yog' surtib, sabzavotlarni qovurdim.",
+      "Yangi sotib olingan tovaning qoplamasi sifatli bo'lgani uchun ovqat unga yopishib qolmaydi."
+    ],
+    "프로그래머": [
+      "Men dasturchiman.",
+      "Dasturchilar kompyuterni yaxshi bilishadi.",
+      "Akam katta kompaniyada ishlaydigan dasturchi bo'lgani uchun har kuni kechgacha ishlaydi.",
+      "U universitetda kompyuter fanlari bo'yicha tahsil olib, dasturchi bo'lib ishga kirdi."
+    ],
+    "프린터": [
+      "Printer buzilib qoldi.",
+      "Printerda chop etaman.",
+      "Hisobotni chop etmoqchi edim, lekin printerda qog'oz yo'q ekan.",
+      "Ofisdagi printerning siyohi tugab qolgani uchun uni yangi kartrij bilan almashtirishga to'g'ri keldi."
+    ],
+    "플라스틱": [
+      "Bu plastik.",
+      "Plastik butilkani tashlayman.",
+      "Men atrof-muhitni asrash uchun plastik stakan o'rniga termostakandan foydalanaman.",
+      "Plastmassa yengil va arzon bo'lsa-da, chirishi uchun yuzlab yillar kerak bo'lgani sababli ekologik muammolarni keltirib chiqaradi."
+    ],
+    "플러그": [
+      "Vilkani rozetkaga ulayman.",
+      "Vilkani rozetkadan sug'urib oldim.",
+      "Changyutgich vilkasini rozetkaga ulab, xonani tozaladim.",
+      "Uydan chiqishdan oldin ishlatilmayotgan elektr jihozlarining vilkasini rozetkadan sug'urib qo'yish xavfsizroq."
+    ],
+    "피로": [
+      "Charchoq to'planib qoldi.",
+      "Bugun charchadim.",
+      "Keyingi paytlarda ishim ko'p bo'lib, charchog'im chiqmagani uchun dam olish kunlari maza qilib dam oldim.",
+      "Yetarlicha uxlash kun davomida to'plangan charchoqni chiqarishning eng samarali usulidir."
+    ],
+    "피부": [
+      "Terisi oppoq.",
+      "Terim quruq.",
+      "Qishda teri tez quriydi, shuning uchun tez-tez loson surtaman.",
+      "Quyosh nuri kuchli bo'lgan kunlarda terini ultrabinafsha nurlardan himoya qilish uchun quyoshdan himoya kremi surtish kerak."
+    ],
+    "피부과": [
+      "Teri kasalliklari shifoxonasiga boraman.",
+      "Dermatolog shifokor xushmuomala.",
+      "Yuzimga ko'p husnbuzar toshgani uchun dermatologga ko'rindim.",
+      "Dermatologiya klinikasida allergiya yoki ekzema kabi turli teri kasalliklari davolanadi."
+    ],
+    "피부병": [
+      "Teri kasalligim bor.",
+      "Teri kasalligi qichishtiradi.",
+      "Itni silagandan keyin qo'limda teri kasalligi paydo bo'lib, dori surtdim.",
+      "Suvda uzoq qolsangiz, teri kasalligiga chalinish oson, shuning uchun albatta dush qabul qilish kerak."
+    ],
+    "피서": [
+      "Yozgi dam olishga boraman.",
+      "Issiqdan qochib dengizga dam olgani boramiz.",
+      "Issiq yozda oilam bilan issiqdan qochib, tog' daralariga dam olishga ketamiz.",
+      "Har yili iyul-avgust oylarida yozgi dam oluvchilar oqimi sababli Sharqiy dengiz sohilidagi plyajlar odam bilan gavjum bo'ladi."
+    ],
+    "피아니스트": [
+      "U pianinochi.",
+      "Pianinochi kuy ijro etyapti.",
+      "Do'stimning orzusi mashhur pianinochi bo'lish.",
+      "U pianinochi bolaligidan daho deb atalib, xalqaro tanlovlarda mukofotlar olgan."
+    ],
+    "피하다": [
+      "Yomg'irdan panoh topaman.",
+      "Odam ko'p joylardan qochaman.",
+      "To'satdan yomg'ir yog'ib, do'kon soyaboni ostiga kirib, yomg'irdan panalandim.",
+      "U uyalganidan do'stining ko'ziga qaramay, hech narsa deya olmadi."
+    ],
+    "피해": [
+      "Zarar katta.",
+      "To'fondan zarar ko'rdik.",
+      "Qo'shnilarimga noqulaylik tug'dirmaslik uchun kechasi ohista yuraman.",
+      "Bu galgi suv toshqini tufayli ko'plab dehqon xo'jaliklarining ekinlari zarar ko'rgani uchun hukumat yordami zarur."
+    ],
+    "피해자": [
+      "Jabrlanuvchilar ko'p.",
+      "Jabrlanuvchilarga yordam beramiz.",
+      "Firibgarlik ishi bo'yicha jabrlanuvchilar to'planib, politsiya bo'limiga ariza berishdi.",
+      "Politsiya baxtsiz hodisadan jabrlangan shaxsga voqea tafsilotlarini tushuntirib, davolanish xarajatlarini qoplab berishga qaror qildi."
+    ],
+    "필수": [
+      "Bu majburiy fan.",
+      "Suv hayotiy zarur.",
+      "Bu dars bitirish uchun albatta o'qilishi kerak bo'lgan majburiy fan.",
+      "Xorijga sayohat qilishda pasport va viza majburiy bo'lgani uchun jo'nashdan oldin ularni albatta tekshirish kerak."
+    ],
+    "필수품": [
+      "Zaruriy buyumlarni sotib oldim.",
+      "Bu kundalik hayotdagi zaruriy buyum.",
+      "Sayohat sumkamga pasport va quvvatlagich kabi zarur buyumlarni joyladim.",
+      "Bugungi kunda smartfon zamonaviy inson hayotida usiz bo'lmaydigan zaruriy buyumga aylandi."
+    ],
+    "필요성": [
+      "Zarurligini his qildim.",
+      "Sportning zarurligini bilaman.",
+      "Keyingi paytlarda sog'liq uchun sport bilan shug'ullanish zarurligini ko'p his qilyapman.",
+      "Mutaxassislar atrof-muhitni muhofaza qilish bo'yicha amaliy siyosatning zarurligini bir ovozdan ta'kidlashdi."
+    ],
+    "핑계": [
+      "Bahona qilmang.",
+      "Uning bahonasi ko'p.",
+      "Uxlab qolganimni yo'lda tirbandlik bo'ldi, degan bahona bilan niqobladim.",
+      "Uy vazifasini bajarmagan o'quvchi kasal bo'lganini bahona qilib, o'qituvchining ko'ziga qaramaslikka harakat qildi."
+    ],
+    "하도": [
+      "Juda issiq bo'lgani uchun uxlay olmayapman.",
+      "Shunchalik ko'p kuldimki, qornim og'rib ketdi.",
+      "Shunchalik band edimki, hatto tushlik qilishga ham vaqtim bo'lmadi.",
+      "Bola shunchalik ko'p yig'ladiki, onasi tun bo'yi bir lahza ham uxlay olmadi."
+    ],
+    "하루빨리": [
+      "Iloji boricha tezroq keling.",
+      "Tezroq tuzalib keting.",
+      "Iloji boricha tezroq uyga borib dam olgim keladi.",
+      "Hamma bu og'ir vaziyat imkon qadar tezroq tugashini istamoqda."
+    ],
+    "하루하루": [
+      "Har bir kun quvonchli.",
+      "Har bir kunni mehnat bilan o'tkazaman.",
+      "Chaqaloqning kundan-kunga o'sib borayotganini ko'rish juda ajoyib.",
+      "U kundan-kunga halol mehnat qilib, kichik do'konini rivojlantirib bordi."
+    ],
+    "하룻밤": [
+      "Bir kecha tunadim.",
+      "Bir kechasi yuz ming von.",
+      "Do'stimning uyida bir kecha tunab, ertasi kuni ertalab qaytdim.",
+      "Mehmonxonada bir kecha tunash narxi kutilganidan qimmat chiqdi."
+    ],
+    "하마터면": [
+      "Oz qoldi yiqilib tushishimga.",
+      "Sal bo'lmasa kechikib qolardim.",
+      "Salga qolsa hamyonimni qoldirib ketayotgan edim, xayriyatki, eshik oldida esimga tushdi.",
+      "Katta avariya yuz berishiga oz qolgan lahzada u xotirjamlik bilan rulni burib, xavfdan qutulib qoldi."
+    ],
+    "하품": [
+      "Esnayapman.",
+      "Men esnadim.",
+      "Darsda uyqum kelib, to'xtovsiz esnadim.",
+      "Majlis cho'zilib ketgach, odamlar birin-ketin esnashni to'xtata olmay, ko'zlarini ishqalay boshlashdi."
+    ],
+    "학과": [
+      "Qaysi yo'nalishda o'qiysiz?",
+      "Men koreys filologiyasi yo'nalishida o'qiyman.",
+      "Ukam universitetda menejment yo'nalishida o'qiyapti.",
+      "Bizning kafedramiz har yili kuzda talabalar va professorlar birgalikda qatnashadigan ilmiy tadbir o'tkazadi."
+    ]
+  },
+  "0140": {
+    "학력": [
+      "Ma'lumot darajasi yuqori.",
+      "Ma'lumotingizni yozing.",
+      "Ishga qabul qilish arizasida oxirgi ma'lumot darajasini aniq yozish kerak.",
+      "Hozirgi kunda ta'lim darajasidan ko'ra amaliy ko'nikmalarga ko'proq ahamiyat beradigan kompaniyalar tobora ko'paymoqda."
+    ],
+    "학문": [
+      "Men ilmni yaxshi ko'raman.",
+      "Bu qiyin fan.",
+      "U butun umrini ilmga bag'ishlab, oxir-oqibat mashhur olimga aylandi.",
+      "Falsafa barcha fanlarning asosi bo'lgan fan deb ham ataladi."
+    ],
+    "학비": [
+      "O'qish to'lovi qimmat.",
+      "O'qish to'lovini to'ladim.",
+      "Men yarim kunlik ishda ishlab, o'qish to'lovimni topyapman.",
+      "Ota-onam farzandlarining o'qish to'lovini to'plash uchun uzoq vaqt belni mahkam bog'lab, tejamkorlik bilan yashadilar."
+    ],
+    "학습": [
+      "O'qib o'rganaman.",
+      "O'qish vaqti uzoq.",
+      "Men har kuni koreys tilini o'rganish uchun bir soatdan shug'ullanaman.",
+      "Bu ilova o'quv maqsadlariga moslab, har bir foydalanuvchiga individual topshiriqlar taqdim etadi."
+    ],
+    "학자": [
+      "U olim.",
+      "Olim kitob yozyapti.",
+      "Mashhur olim maktabimizga kelib, ma'ruza o'qidi.",
+      "U olim butun umri davomida Koreyaning qadimgi tarixini o'rganib, ko'plab ilmiy maqolalar e'lon qildi."
+    ],
+    "학점": [
+      "Baholarim yaxshi.",
+      "Men kredit olaman.",
+      "Bu semestrda yaxshi baho olish uchun astoydil o'qidim.",
+      "Bitirish uchun jami bir yuz o'ttiz kredit to'plash kerak."
+    ],
+    "한가하다": [
+      "Bugun bo'shman.",
+      "Do'konda xaridor kam.",
+      "Dam olish kuni tushdan keyin bo'sh bo'lganim uchun bog'da kitob o'qidim.",
+      "Ish kunlari kunduzi kafeda mijozlar kam bo'lib, bo'sh va sokin muhit hukm surardi."
+    ],
+    "한국학": [
+      "Men koreyashunoslikni o'rganaman.",
+      "Koreyashunoslik darsi qiziqarli.",
+      "Chet ellik talabalar koreyashunoslikni o'rganish uchun universitetimizga kelishadi.",
+      "Bu magistratura Koreya tarixi va madaniyatini o'rganadigan koreyashunoslik dasturini olib boradi."
+    ],
+    "한글날": [
+      "Xangul kuni oktabrda.",
+      "Hangul kunida dam olamiz.",
+      "Hangul kunida qirol Sejong hangul alifbosini yaratganini xotirlaymiz.",
+      "Koreyada har yili 9-oktyabr, Hangul kunida turli bayram tadbirlari o'tkaziladi."
+    ],
+    "한꺼번에": [
+      "Hammasini birdaniga yeyman.",
+      "Ishlarni birdaniga qilaman.",
+      "Yuklarim ko'p bo'lgani uchun hammasini birdaniga ko'tarib ketish qiyin.",
+      "U to'planib qolgan uy vazifalarini birdaniga bajaraman deb tunni bedor o'tkazdi."
+    ],
+    "한낮": [
+      "Hozir tush payti.",
+      "Kunning o'rtasida issiq bo'ladi.",
+      "Tush paytida quyosh juda qattiq bo'lgani uchun shlyapa kiyib tashqariga chiqaman.",
+      "Yoz faslida kun tikkasida harorat o'ttiz besh darajagacha ko'tarilgani uchun ochiq havodagi mashg'ulotlardan saqlangan ma'qul."
+    ],
+    "한눈": [
+      "Bir qarashda bildim.",
+      "Bir qarashda ko'rinadi.",
+      "Toqqa chiqqanimda qishloq bir qarashda kaftdagidek ko'rindi.",
+      "U odam bir qarashdayoq odobli va mehribon ko'rinardi."
+    ],
+    "한동안": [
+      "Bir muddat dam oldim.",
+      "Bir muddat yomg'ir yog'madi.",
+      "O'tgan oy bir muddat shamollab, ancha qiynaldim.",
+      "U zarbadan bir muddat hech narsa deya olmay, garangsib o'tirib qoldi."
+    ],
+    "한두": [
+      "Bir-ikkita bering.",
+      "Bir-ikki kishi keldi.",
+      "Bir-ikkita olma olish uchun bozorga bordim.",
+      "Bir-ikki marta muvaffaqiyatsizlikka uchraganingiz uchun taslim bo'lmang, oxirigacha harakat qilib ko'ring."
+    ],
+    "한마디": [
+      "Faqat bir og'iz gapiraman.",
+      "Bir og'iz ham gapirmadi.",
+      "Do'stimga albatta bir og'iz \"rahmat\" demoqchiman.",
+      "U ayriliq lahzasigacha birorta ham bahona keltirmay, jimgina ortiga o'girildi."
+    ],
+    "한순간": [
+      "Bu bir lahzada bo'ldi.",
+      "Bir lahzada g'oyib bo'ldi.",
+      "Bir lahzalik xatoyim tufayli stakanni sindirib qo'ydim.",
+      "Baxtli onlar bir lahzada o'tib ketdi."
+    ],
+    "한숨": [
+      "Xo'rsinib qo'yaman.",
+      "U xo'rsinyapti.",
+      "Imtihon natijasini ko'rib, beixtiyor xo'rsinib qo'ydim.",
+      "Onam o'g'lining baholar varaqasini ko'rib, chuqur xo'rsindilar."
+    ],
+    "한약": [
+      "An'anaviy koreys dorisini ichaman.",
+      "Koreys o'simlik dorisi achchiq.",
+      "Shamollaganim uchun an'anaviy tabobat klinikasida o'simlik dori tayyorlatib ichdim.",
+      "Buvim tanalari zaiflashsa, har faslda sharq tabobati dori-darmonlarini damlab ichardilar."
+    ],
+    "한옥": [
+      "Hanok chiroyli.",
+      "Hanokda tunadim.",
+      "Jeonjuda hanok mahallasi bo'lgani uchun u yerga sayyohlar ko'p keladi.",
+      "Hanok uylarida ondol va yog'och pol bo'lgani uchun qishda iliq, yozda esa salqin bo'ladi."
+    ],
+    "한우": [
+      "Koreys mol go'shtini yeyman.",
+      "Hanu mol go'shti qimmat.",
+      "Oila a'zomizning tug'ilgan kunida hanu go'shtini qovurib, maza qilib yedik.",
+      "Bu restoran faqat yangi hanu mol go'shtidan foydalangani uchun mijozlar orasida juda mashhur."
+    ],
+    "한의사": [
+      "An'anaviy koreys tabobati shifokori bilan uchrashdim.",
+      "Koreys tabobati shifokori tomir urishini tekshiryapti.",
+      "Belim og'rigani uchun an'anaviy tabobat shifokoriga igna qo'ydirdim.",
+      "Sharq tabobati shifokori bemorning tana tuzilishini o'rganib, unga mos dori yozib berdi."
+    ],
+    "한정식": [
+      "Hanjeongsik yeyman.",
+      "Hanjeongsik mazali.",
+      "Ota-onamni olib, hanjeongsik restoraniga borib tushlik qildik.",
+      "Hanjeongsik dasturxoniga guruch va sho'rva asosiy o'rinda bo'lgan holda turli xil gazaklar to'ldirib tortiladi."
+    ],
+    "한지": [
+      "Hanji chiroyli.",
+      "Hanji qog'ozidan chiroq yasaymiz.",
+      "Jeonju an'anaviy hanji qog'ozi bilan mashhur, shuning uchun u yerda hanjidan buyumlar yasashni ham sinab ko'rish mumkin.",
+      "Hanji qog'ozi tut daraxti po'stlog'idan tayyorlangani uchun pishiq bo'lib, uzoq vaqt saqlanadi."
+    ],
+    "한참": [
+      "Ancha kutdim.",
+      "Ancha vaqt ketdi.",
+      "Avtobus kelmagani uchun bekatda ancha kutib qoldim.",
+      "U uzoq o'ylanib turgach, zo'rg'a og'iz ochib, haqiqatni aytib berdi."
+    ],
+    "한창": [
+      "Sakura gullari avjida.",
+      "Hozir qurilish ishlari avjida.",
+      "Bahorda gullar avjida bo'lgani uchun odamlar ko'p suratga tushishadi.",
+      "Hozir qishloqlarda sholi ko'chati ekish ayni qizg'in pallaga kirgani uchun ishchi qo'llar juda yetishmaydi."
+    ],
+    "한편": [
+      "Shu bilan birga u dam oldi.",
+      "Bir tomondan olganda, yaxshi.",
+      "Yangi ishimdan xursandman, lekin boshqa tomondan xavotirdaman ham.",
+      "Hukumat narxlarni barqarorlashtirish bilan bir qatorda oddiy aholining turmushini qo'llab-quvvatlash choralarini ham ishlab chiqdi."
+    ],
+    "할부": [
+      "Bo'lib to'lashga sotib oldim.",
+      "Bo'lib to'lash mumkinmi?",
+      "Qimmat muzlatgichni o'n ikki oyga bo'lib to'lash sharti bilan sotib oldim.",
+      "Karta orqali bo'lib to'lash sharti bilan narsa sotib olsangiz, har oy qismlarga bo'lib to'lagani uchun yuki kamroq bo'ladi."
+    ],
+    "할인점": [
+      "Chegirmali do'konga boraman.",
+      "Chegirmali do'kon arzon.",
+      "Dam olish kuni oilam bilan katta chegirmali do'kondan xarid qildik.",
+      "Bu chegirmali do'kon har hafta muayyan mahsulotlarni arzon narxda sotadigan aksiya o'tkazadi."
+    ],
+    "함부로": [
+      "O'ylamasdan ushlamang.",
+      "O'ylamasdan gapirmang.",
+      "Birovning narsasini ruxsatsiz, o'zboshimchalik bilan ishlatish mumkin emas.",
+      "U suhbatdoshining ahvolini bilmay turib, o'ylamay-netmay maslahat bermaslikka harakat qildi."
+    ],
+    "합격자": [
+      "O'tganlar ro'yxati e'lon qilindi.",
+      "Imtihondan o'tganlar o'n kishi.",
+      "Internetdan qabul qilinganlar ro'yxatini tekshirib, oilamga xabar berdim.",
+      "Bu galgi imtihondan o'tganlar kelasi haftagacha hujjatlarini topshirishlari kerak."
+    ]
+  },
+  "0141": {
+    "합치다": [
+      "Biz pulimizni birlashtiramiz.",
+      "Ikki jamoani birlashtirib, bitta jamoa tuzdik.",
+      "Do'stlar bilan kuchni birlashtirsak, qiyin ishni ham uddalay olamiz.",
+      "Ikki kompaniya texnologiyalarini birlashtirishga kelishgach, yangi mahsulot ishlab chiqish jadal tus oldi."
+    ],
+    "합하다": [
+      "Ikkalasini qo'shsa besh bo'ladi.",
+      "Sinfimizdagi barcha o'quvchilarni qo'shsak, yigirma kishi bo'ladi.",
+      "Uch kishining fikrini jamlagan edik, yaxshi reja chiqdi.",
+      "Bir nechta bo'limning byudjetlarini qo'shsak, bu yilgi umumiy xarajatlar hajmini taxminan chamalash mumkin."
+    ],
+    "항공": [
+      "Aviakompaniyada ishlayman.",
+      "Ukam aviatsiyaga oid soha bo'yicha o'qiyapti.",
+      "Aviatsiya sanoati sayohatchilar ko'payishi bilan yana o'sib bormoqda.",
+      "Ichki aviaqatnovlarga talab keskin oshgani sababli hukumat aeroportlarni kengaytirish rejasini e'lon qildi."
+    ],
+    "항공권": [
+      "Aviachipta sotib olaman.",
+      "Internetdan aviachiptani arzonga band qildim.",
+      "Ta'til mavsumida aviachipta narxlari ancha oshadi, shuning uchun oldindan sotib olib qo'ying.",
+      "Aviachiptani bekor qilish to'lovi yuqori bo'lgani uchun rejani aniq belgilab olgach sotib olgan ma'qul."
+    ],
+    "항공기": [
+      "Samolyot uchyapti.",
+      "Aeroportda katta samolyotni ko'rdim.",
+      "Samolyot bulutlar ustiga ko'tarilgach, deraza tashqarisi juda yorishib ketdi.",
+      "Ob-havo yomonlashgani sababli samolyotlar parvozi vaqtincha to'xtatilib, yo'lovchilar katta noqulayliklarga duch keldi."
+    ],
+    "항공료": [
+      "Aviachipta narxi qimmat.",
+      "Chejudoga aviachipta narxi qancha?",
+      "Ta'tilda aviachipta narxlari oshgani uchun sayohatni keyinga qoldirdim.",
+      "Neft narxi oshishi bilan aviachipta narxiga qo'shiladigan yoqilg'i ustamasi ham birga oshirildi."
+    ],
+    "항공사": [
+      "Aviakompaniyaga qo'ng'iroq qilaman.",
+      "Qaysi aviakompaniya samolyotida uchasiz?",
+      "Bu aviakompaniyaning xizmati yaxshi bo'lgani uchun u juda ommabop.",
+      "U aviakompaniya yo'nalishlarini kengaytirgani munosabati bilan ko'plab yangi styuardessa va styuardlarni ishga olishga qaror qildi."
+    ],
+    "항공편": [
+      "Samolyotda boraman.",
+      "Pusanga aviareys bormi?",
+      "Samolyotga chipta qolmagani uchun keyingi reysni bron qildim.",
+      "Kuchli qor sababli bugun tushdan keyin uchishi rejalashtirilgan barcha reyslar bekor qilindi."
+    ],
+    "해결": [
+      "Muammoni hal qilaman.",
+      "Bu ishni hal qilish oson emas.",
+      "Do'stim bilan gaplashib, tashvishim hal bo'ldi.",
+      "Ish beruvchi bilan xodimlar o'rtasidagi nizo murosa bilan hal etilmasa, ish tashlash cho'zilib ketishi ehtimoli katta."
+    ],
+    "해결책": [
+      "Yechim izlayman.",
+      "Yaxshi yechimingiz bormi?",
+      "Yig'ilishda yechim haqida birgalikda bosh qotirdik.",
+      "Mutaxassislar uy-joy muammosining yechimi sifatida taklifni ko'paytirish va ijara haqini tartibga solishni birgalikda taklif qilishdi."
+    ],
+    "해고": [
+      "Kompaniya xodimni ishdan bo'shatdi.",
+      "U kecha ishdan bo'shatildi.",
+      "Iqtisodiy ahvol yomonlashgani uchun ko'p odamlar ishdan bo'shatilib qolishdan xavotirda.",
+      "Noqonuniy ravishda ishdan bo'shatilgan xodimlar ishga qayta tiklash talabi bilan sudga da'vo arizasi berishdi."
+    ],
+    "해내다": [
+      "Men albatta uddalayman.",
+      "O'sha qiyin ishni yolg'iz o'zi uddaladi.",
+      "Qiyin bo'lsa ham, oxirigacha harakat qilib, nihoyat uddaladim.",
+      "U atrofdagilarning xavotirlariga qaramay, atigi uch oy ichida loyihani muvaffaqiyatli uddaladi."
+    ],
+    "해돋이": [
+      "Quyosh chiqishi chiroyli.",
+      "Biz quyosh chiqishini ko'rgani bordik.",
+      "Yangi yilning birinchi kuni toqqa chiqib, quyosh chiqishini tomosha qildim.",
+      "Sharqiy dengiz sohiliga quyosh chiqishini tomosha qilmoqchi bo'lgan sayyohlar oqib kelgani uchun mehmonxonalarda erta joy qolmadi."
+    ],
+    "해롭다": [
+      "Chekish sog'liq uchun zararli.",
+      "Bu ovqat sog'liq uchun zararli emas.",
+      "Juda uzoq o'yin o'ynash ko'zga zararli, shuning uchun dam oling.",
+      "Mutaxassislar mayda chang zarralari ayniqsa bolalarning nafas yo'llari salomatligiga zararli ekanidan ogohlantirmoqda."
+    ],
+    "해마다": [
+      "Har yili sayohatga boraman.",
+      "Oilamiz har yili dengizga boradi.",
+      "O'sha qo'shiqchi har yili qishda konsert beradi.",
+      "Bu hududda har yili kuz kelishi bilan katta festival o'tkazilib, ko'plab sayyohlar tashrif buyuradi."
+    ],
+    "해물": [
+      "Men dengiz mahsulotlarini yaxshi ko'raman.",
+      "Dengiz mahsulotlari qo'shilgan pajeon yedim.",
+      "Bugun kechqurun dengiz mahsulotlari solingan jjigae pishiraman.",
+      "Bozorda yangi dengiz mahsulotlari uyulib yotgani uchun xaridorlar oqimi to'xtamadi."
+    ],
+    "해보다": [
+      "Bir sinab ko'ring.",
+      "Men ham bu ishni qilib ko'rmoqchiman.",
+      "Avvaliga qiyin edi, lekin o'zim qilib ko'rganimda qiziqarli bo'ldi.",
+      "Yangi usulni sinab ham ko'rmay taslim bo'lish o'sish imkoniyatidan o'z ixtiyori bilan voz kechish demakdir."
+    ],
+    "해산물": [
+      "Dengiz mahsulotlarini yeyman.",
+      "Menda dengiz mahsulotlariga allergiya bor.",
+      "Pusanga borsangiz, yangi dengiz mahsulotlarini albatta tatib ko'ring.",
+      "Baliq bozorida endigina ovlab chiqarilgan dengiz mahsulotlarining auksion orqali sotilishini ko'rish mumkin."
+    ],
+    "해소": [
+      "Stressdan xalos bo'lish kerak.",
+      "Sport charchoqni yo'qotishga yordam beradi.",
+      "Do'stim bilan uchrashib suhbatlashsam, stressim tarqaydi.",
+      "Hukumat tirbandlikni bartaraf etish maqsadida shahar markaziga kiradigan transport vositalaridan tirbandlik to'lovini undirishga qaror qildi."
+    ],
+    "해소법": [
+      "Stressdan xalos bo'lish usulingiz qanday?",
+      "Mening stressdan xalos bo'lish usulim musiqa tinglash.",
+      "Charchoqni yo'qotish usuli sifatida iliq suvda cho'milib ko'ring.",
+      "Mutaxassis ishchi xodimlarning xavotirini kamaytirishga yordam beradigan samarali stressdan xalos bo'lish usullarini tanishtirdi."
+    ],
+    "해수욕": [
+      "Yozda dengizda cho'milaman.",
+      "Bolalar dengizda cho'milishyapti.",
+      "Dam olish kunlari oilam bilan dengizga borib, cho'milishdan zavq oldik.",
+      "Cho'milish mavsumi boshlanishi munosabati bilan har bir plyajga qutqaruvchilar joylashtirilib, baxtsiz hodisalarning oldini olishga harakat qilinmoqda."
+    ],
+    "해수욕장": [
+      "Plyajga boraman.",
+      "Bu plyaj juda keng.",
+      "Har yozda oilamiz Sharqiy dengiz bo'yidagi plyajda dam oladi.",
+      "Ochilishi arafasida turgan plyajlarda meduzalar paydo bo'lishiga qarshi tekshiruv ishlari qizg'in olib borilmoqda."
+    ],
+    "해열제": [
+      "Isitma tushiruvchi dori ichaman.",
+      "Isitmam chiqqani uchun isitma tushiruvchi dori sotib oldim.",
+      "Bolaning isitmasi baland bo'lgani uchun dorixonadan isitma tushiruvchi dori olib keldim.",
+      "Isitma tushiruvchi dori alomatlarni faqat vaqtincha yengillashtiradi, kasallik sababini davolamaydi, shuning uchun ehtiyot bo'lish kerak."
+    ],
+    "핸드백": [
+      "Qo'l sumkasi chiroyli.",
+      "Mening qo'l sumkam kichkina.",
+      "Onam menga yangi qo'l sumkasi sotib olib berganlari uchun juda xursand bo'ldim.",
+      "U nafis charm qo'l sumkasini yelkasiga osib, uchrashuv joyiga yo'l oldi."
+    ],
+    "햇곡식": [
+      "Yangi hosil donlari chiqdi.",
+      "Buvim yangi hosil donidan ovqat pishirdilar.",
+      "Kuz kelishi bilan bozorga yangi hosil donlari ko'plab chiqadi.",
+      "Dehqon xonadonlarida o'rim-yig'im tugagach, yangi hosil donini avvalo ajdodlar xotirasiga atash odati bo'lgan."
+    ],
+    "햇볕": [
+      "Quyosh nuri iliq.",
+      "Quyosh nuri juda kuchli.",
+      "Kirni quyoshga yoyib qo'ygan edim, tezda qurib qoldi.",
+      "Me'yorida quyosh nurida turish tanada D vitamini hosil bo'lishiga yordam berib, suyaklar salomatligiga foyda keltiradi."
+    ],
+    "행동": [
+      "Harakati tez.",
+      "Bolaning xatti-harakatlari yoqimli.",
+      "O'qituvchi so'zdan ko'ra amal muhimroq, dedilar.",
+      "Jamoat joylaridagi mas'uliyatsiz xatti-harakatlar boshqalarga noqulaylik tug'dirishi bilan birga jamiyatning qoralashiga ham sabab bo'ladi."
+    ],
+    "행사장": [
+      "Tadbir zali katta.",
+      "Tadbir o'tkaziladigan joy qayerda?",
+      "Tadbir o'tkaziladigan joyga ko'p odam to'plandi.",
+      "Tadbir o'tkaziladigan joy kiraverishida ishtirokchilarning tana haroratini o'lchash va ro'yxatni tekshirish tartibi o'tkazildi."
+    ],
+    "행운": [
+      "Omad tilayman.",
+      "Bugun omadli kun.",
+      "Imtihon oldidan turgan do'stimga omad tiladim.",
+      "Lotereyada yutish omadiga ega bo'lgan u darhol daromadining bir qismini xayriyaga berishini ma'lum qildi."
+    ],
+    "향": [
+      "Bu hid yoqimli.",
+      "Xonadan gul hidi kelyapti.",
+      "Ibodatxonaga borsam, tutatqi yoqib, jimgina ibodat qilaman.",
+      "Bu sovundan mayin lavanda hidi kelgani uchun har safar ishlatganda ko'ngil xotirjam tortadi."
+    ]
+  },
+  "0142": {
+    "향기": [
+      "Gul hidi kelyapti.",
+      "Qahvaning hidi yoqimli.",
+      "Bahor kelganda uyimiz oldi gullarning xushbo'y hidiga to'ladi.",
+      "Endigina yopilgan nonning yoqimli hidi ko'chaga taralgach, o'tib ketayotgan odamlar to'xtab qolishdi."
+    ],
+    "향수": [
+      "Atir sepaman.",
+      "Men bu atirni yoqtiraman.",
+      "Chet elda uzoq yashaganim uchun ona yurtimni sog'inaman.",
+      "Eski ko'chalar suratlariga qarab, bolalik davri sog'inchiga beriladigan odamlar oz emas."
+    ],
+    "향하다": [
+      "Maktab tomonga qarab yuraman.",
+      "Do'stim menga qarab qo'l silkitib turibdi.",
+      "Biz hozir aeroport tomon ketyapmiz.",
+      "Voqea joyiga yo'l olgan qutqaruvchilar yo'llarning holati sababli belgilangan vaqtdan kechroq yetib kelishdi."
+    ],
+    "허락": [
+      "Ruxsat oldim.",
+      "Oyimning ruxsati kerak.",
+      "O'qituvchidan ruxsat olib, sinfdan chiqdim.",
+      "Suratlardan ruxsatsiz foydalanmoqchi bo'lsangiz, mualliflik huquqi egasining roziligini albatta olishingiz kerak."
+    ],
+    "허리띠": [
+      "Kamar taqaman.",
+      "Kamar juda uzun.",
+      "Shimim katta bo'lgani uchun bitta kamar sotib oldim.",
+      "Iqtisodiy ahvol og'irlashgach, ko'plab oilalar belni mahkam bog'lab, xarajatlarni qisqartirishga harakat qilishdi."
+    ],
+    "험하다": [
+      "Tog' yo'li xavfli.",
+      "Yo'l juda notekis emasmi?",
+      "Yomg'ir yog'gani uchun tog' yo'li yanada xavfli bo'lib qoldi, ehtiyot bo'ling.",
+      "Joy relyefi og'ir bo'lgani sababli qutqaruvchilarga halokatga uchragan kishiga yetib borish uchun ancha vaqt kerak bo'ldi."
+    ],
+    "헤매다": [
+      "Yo'lda adashib yuribman.",
+      "Men metro bekatida adashib qoldim.",
+      "Bu shaharga birinchi marta kelganim uchun yo'lda sarson bo'lib, mehmonxonani zo'rg'a topdim.",
+      "U munosib ish topa olmay, bir necha oydan beri ko'chama-ko'cha sarson-sargardon bo'lib, kunini zo'rg'a o'tkazardi."
+    ],
+    "헤어스타일": [
+      "Soch turmagi chiroyli.",
+      "Yangi soch turmagim menga yoqdi.",
+      "Sartaroshxonada soch turmagimni qisqa qilib o'zgartirdim.",
+      "San'atkorlarning soch turmagi modaga katta ta'sir ko'rsatgani uchun yoshlar bir-biridan o'zib unga taqlid qilishadi."
+    ],
+    "헤어지다": [
+      "Do'stim bilan xayrlashaman.",
+      "Biz bekatda xayrlashdik.",
+      "U ikkisi uzoq vaqt uchrashib yurib, o'tgan oy ajrashib ketishdi.",
+      "Oilasidan ajralib, o'qish uchun yolg'iz o'zi chet elga yo'l olgan u begona yurtda yolg'izlik bilan kurashishiga to'g'ri keldi."
+    ],
+    "헤엄치다": [
+      "Baliq suzyapti.",
+      "Men basseynda suzaman.",
+      "Dengizda do'stim bilan birga ancha uzoqqacha suzib bordik.",
+      "U kuchli to'lqinlar orasida ham xotirjamlik bilan suzib, zo'rg'a qirg'oqqa yetib oldi."
+    ],
+    "헬멧": [
+      "Shlem kiyaman.",
+      "Velosiped haydaganda dubulg'a kiyaman.",
+      "Mototsiklda yurish uchun albatta shlem kiyish kerak.",
+      "Qurilish maydonida xavfsizlik maqsadida barcha ishchilarning dubulg'a kiyishi majburiy qilib belgilangan."
+    ],
+    "헬스클럽": [
+      "Fitnes klubga boraman.",
+      "Men fitnes klubda shug'ullanaman.",
+      "Ishdan keyin har kuni fitnes klubga kirib, bir soatdan shug'ullanaman.",
+      "Yangi ochilgan fitnes-klub eng zamonaviy jihozlar va professional murabbiylar bilan ta'minlangani uchun a'zolari tez ko'paymoqda."
+    ],
+    "현관": [
+      "Dahliz keng.",
+      "Dahlizda oyoq kiyimni yechamiz.",
+      "Mehmon kelgani uchun dahlizgacha chiqib, salomlashdim.",
+      "Kiraverishdagi eshik oldida turgan posilka qutisini ko'rib, u buyurtma qilgan kitobi yetib kelganini tushundi."
+    ],
+    "현관문": [
+      "Kirish eshigini ochaman.",
+      "Kirish eshigi yopiq.",
+      "Uyga kelib, kirish eshigini qulflashni unutib qo'ydim.",
+      "U kirish eshigi oldida uzoq ikkilanib turdi-yu, oxiri qo'ng'iroq tugmasini bosolmay, orqasiga qaytdi."
+    ],
+    "현대": [
+      "Zamonaviy musiqa tinglayman.",
+      "Men zamonaviy san'atni yoqtiraman.",
+      "Zamonaviy jamiyatda internet juda muhim.",
+      "Zamonaviy Koreya jamiyati qisqa vaqt ichida jadal sanoatlashtirish va demokratlashtirishni bir vaqtda amalga oshirdi."
+    ],
+    "현대식": [
+      "Bu zamonaviy uslubdagi bino.",
+      "Bu uy zamonaviy uslubda qurilgan.",
+      "Buvimning uyini zamonaviy uslubda qaytadan ta'mirladik.",
+      "An'anaviy bozor zamonaviy jihozlar bilan qayta qurilgach, tashrif buyuruvchilar uchun qulayliklar ancha yaxshilandi."
+    ],
+    "현대인": [
+      "Zamonaviy odamlar band.",
+      "Zamonaviy odamlar smartfondan ko'p foydalanadi.",
+      "Ko'plab zamonaviy odamlar harakat yetishmasligi tufayli sog'liq muammolariga duch kelmoqda.",
+      "Zamonaviy insonlarning ko'pchiligi surunkali stressdan aziyat chekayotgani haqidagi tadqiqot natijalari e'lon qilindi."
+    ],
+    "현대적": [
+      "Bu zamonaviy bino.",
+      "Bu kafe juda zamonaviy.",
+      "An'anaviy hanbokni zamonaviy uslubga moslab o'zgartirilgan kiyimlar ommabop.",
+      "An'anaviy uyni zamonaviy ruhda qayta talqin qilgan bu makon ko'plab me'morlarning e'tiborini tortdi."
+    ],
+    "현모양처": [
+      "Dono ona va yaxshi xotin bo'lish orzuim.",
+      "Qadimda dono ona va yaxshi xotin bo'lish ideal hisoblangan.",
+      "Buvim yoshligida yaxshi xotin va dono ona bo'lishga harakat qilganlar.",
+      "O'tmishda ayollarga oqila ona va vafodor rafiqa rolini majburlaydigan ijtimoiy muhit kuchli bo'lgan."
+    ],
+    "현실": [
+      "Hayot haqiqati og'ir.",
+      "Orzu va haqiqat bir xil emas.",
+      "Haqiqatni qabul qilish ba'zan juda og'ir bo'ladi.",
+      "Yoshlar duch kelayotgan voqelikni qimmat uy-joy va beqaror ish o'rinlaridan iborat ikki tomonlama qiyinchilik deb ta'riflash mumkin."
+    ],
+    "현실적": [
+      "Bu real reja.",
+      "Bu fikr real emas.",
+      "Biz pulni hisobga olib, rejani real tarzda tuzdik.",
+      "U saylovoldi va'dasi uchun mablag' topish yo'llari noaniq bo'lgani sababli uni amalda ro'yobga chiqarish qiyin, degan baho berilmoqda."
+    ],
+    "현장": [
+      "Bu baxtsiz hodisa joyi.",
+      "Men qurilish maydonchasida ishlayman.",
+      "Muxbir voqea joyidan vaziyatni bevosita xabar qilyapti.",
+      "Politsiya voqea joyidan olingan dalillar asosida gumonlanuvchini izlamoqda."
+    ],
+    "형용사": [
+      "Sifatlarni o'rganaman.",
+      "Bu so'z sifat.",
+      "Sifatlar otlarni aniqlab keladi, shu tufayli gap boyroq bo'ladi.",
+      "Koreys tilidagi sifatlar fe'llar singari tuslanib, kesim vazifasida qo'llanilishi bilan o'ziga xosdir."
+    ],
+    "형태": [
+      "Bu idishning shakli o'ziga xos.",
+      "Bulutning shakli yurakka o'xshaydi.",
+      "Mahallamizda yangi ko'rinishdagi do'kon ochildi.",
+      "Ish shakllari xilma-xil bo'lib borishi bilan masofadan ishlash va moslashuvchan ish tartibini birga qo'llaydigan kompaniyalar ko'paymoqda."
+    ],
+    "형편": [
+      "Oilaning iqtisodiy ahvoli og'ir.",
+      "Hozir ahvolim yaxshi emas.",
+      "Moddiy ahvolimiz yaxshi bo'lmagani uchun sayohatga bora olmadik.",
+      "Oilaviy sharoiti og'ir bo'lgan o'quvchilarga stipendiya beriladigan dastur bu yildan boshlab kengaytirildi."
+    ],
+    "혜택": [
+      "Chegirma imtiyozi bor.",
+      "Talabalar imtiyozlardan foydalanadi.",
+      "Bu kartadan foydalansangiz, turli imtiyozlarga ega bo'lishingiz mumkin.",
+      "Hukumat kam daromadli oilalar uchun soliq imtiyozlarini kengaytirish rejasini e'lon qildi."
+    ],
+    "호감": [
+      "U menga yoqadi.",
+      "U yoqimtoy odam.",
+      "Mehribonligi tufayli hamma o'sha odamga xayrixohlik bildirdi.",
+      "Ma'lumki, ilk tanishuvda yaxshi taassurot qoldirish uchun ochiq chehra va ozoda kiyinish muhim."
+    ],
+    "호기심": [
+      "Bola juda qiziquvchan.",
+      "Menda qiziqish paydo bo'ldi.",
+      "Qiziqishim tufayli o'sha qutini ochib ko'rdim.",
+      "Olimlar bolalikdagi qiziquvchanliklarini yo'qotmaganlari uchun buyuk kashfiyotlarni amalga oshira oldilar."
+    ],
+    "호수": [
+      "Ko'l go'zal.",
+      "Biz ko'l bo'yida sayr qildik.",
+      "Dam olish kuni ko'l bo'yidagi kafeda kofe ichdim.",
+      "Tiniq ko'l ustidan tuman ko'tarilayotgan tong manzarasini suratga olmoqchi bo'lgan fotograflar to'planishdi."
+    ],
+    "호칭": [
+      "Murojaat shakllari qiyin.",
+      "\"O'qituvchi\" degan murojaat shaklini ishlataman.",
+      "Birinchi marta ko'rishgan odamga mos murojaat shaklini qo'llash kerak.",
+      "Koreys tilida murojaat shakllari suhbatdosh bilan bo'lgan munosabatga qarab o'zgargani uchun ularni to'g'ri qo'llash muhim."
+    ]
+  },
+  "0143": {
+    "혹시": [
+      "Balki vaqtingiz bordir?",
+      "Bu kitobni o'qib ko'rganmisiz?",
+      "Agar ertaga yomg'ir yog'ib qolsa, bizning uyda uchrashaylik.",
+      "Agar biror muammo yuzaga kelsa, darhol mas'ul xodimga murojaat qilishingizni so'raymiz."
+    ],
+    "혹은": [
+      "Choy yoki qahva ichaman.",
+      "Dushanba yoki seshanba kuni uchrashamiz.",
+      "Men dam olish kunlari film ko'raman yoki uyda dam olaman.",
+      "Arizani shaxsan kelib yoki pochta orqali topshirishingiz mumkin."
+    ],
+    "혼나다": [
+      "Onamdan tanbeh eshitdim.",
+      "Ukam yolg'on gapirgani uchun tanbeh eshitdi.",
+      "Uy vazifasini qilmaganim uchun o'qituvchidan rosa tanbeh eshitdim.",
+      "Muntazam ravishda kechikib kelgan xodim rahbaridan qattiq tanbeh eshitgandan keyingina o'z munosabatini o'zgartirdi."
+    ],
+    "혼내다": [
+      "Onam meni koyiydi.",
+      "O'qituvchi o'quvchini koyidi.",
+      "Bola sho'xlik qilgani uchun dadasi uni qattiq koyidi.",
+      "Ota-onalar farzandini koyishdan oldin avval uning gapini yaxshilab tinglashlari kerak."
+    ],
+    "혼잡": [
+      "Metro gavjum.",
+      "Ertalab yo'llar tirband bo'ladi.",
+      "Ishdan qaytish vaqtida avtobus juda gavjum bo'lgani uchun o'tirib bo'lmaydi.",
+      "Uzun dam olish kunlari munosabati bilan avtomagistrallarda o'ta kuchli tirbandlik yuzaga kelib, ona yurtiga ketayotganlar bir necha soatlab yo'lda qamalib qolishdi."
+    ],
+    "홀수": [
+      "Uch toq son.",
+      "Toq raqamlarni aytib bering.",
+      "Bugun toq kun bo'lgani uchun mana bu eshikdan kiramiz.",
+      "Avtomobillar uchun juft-toq tizimi amal qiladigan kunlarda shahar markaziga faqat davlat raqami toq bo'lgan mashinalar kira oladi."
+    ],
+    "홍보": [
+      "Do'konimizni reklama qilamiz.",
+      "Reklama plakatini yopishtirdim.",
+      "Yangi chiqqan mahsulotni targ'ib qilish uchun reklama tayyorladik.",
+      "U kompaniya yangi mahsulotni chiqarishga mos ravishda ijtimoiy tarmoqlardan foydalangan holda keng ko'lamli reklama kampaniyasini o'tkazdi."
+    ],
+    "홍보물": [
+      "Reklama materiallarini tarqatamiz.",
+      "Bu reklama materiali bepul.",
+      "Maktab oldida talabalarga reklama varaqalari tarqatildi, men ham oldim.",
+      "Tuman hokimiyati yangi joriy etilayotgan tizim haqida xabardor qilish maqsadida har bir aholi markaziga targ'ibot materiallarini joylashtirdi."
+    ],
+    "홍수": [
+      "Toshqin bo'ldi.",
+      "Suv toshqini tufayli yo'l to'silib qoldi.",
+      "Kuchli yomg'ir yog'ib, qishloqda toshqin yuz berdi.",
+      "Kuchli jala tufayli suv toshqinidan zarar ko'rgan hududlar maxsus favqulodda vaziyat hududi deb e'lon qilindi."
+    ],
+    "화려하다": [
+      "Kiyim hashamatli.",
+      "Chiroqlar juda ko'zni qamashtiradigan ekan.",
+      "O'sha qo'shiqchi sahnada yarqiroq liboslar kiygan edi.",
+      "Hashamatli tashqi ko'rinishidan farqli o'laroq, u kompaniyaning moliyaviy ahvoli allaqachon jiddiy inqirozda edi."
+    ],
+    "화면": [
+      "Ekran katta.",
+      "Ekranga qarang.",
+      "Telefonimning ekrani sinib qolgani uchun ta'mirga berdim.",
+      "Video qo'ng'iroq paytida ekran to'satdan qotib qolgani uchun muhim tushuntirishni oxirigacha yetkaza olmadim."
+    ],
+    "화물": [
+      "Yuk ko'p.",
+      "Bu yuk mashinasi yuk tashiydi.",
+      "Aeroportda yukni topshirgach, ro'yxatdan o'tish jarayonini bajardim.",
+      "Portga yetib kelgan yuk kemasidan konteynerlarni tushirish ishlari tun bo'yi davom etdi."
+    ],
+    "화분": [
+      "Gul tuvagiga suv quyaman.",
+      "Deraza yonida gul tuvagi bor.",
+      "Do'stim yangi uyga ko'chganim munosabati bilan kichkina gul tuvagini sovg'a qildi.",
+      "Ayvonga qo'yilgan gul tuvaklaridagi o'simliklar qish sovug'iga bardosh berolmay so'lib qolgani achinarli bo'ldi."
+    ],
+    "화산": [
+      "Vulqon otildi.",
+      "Hallasan vulqon hisoblanadi.",
+      "Chejudo vulqon faoliyati natijasida paydo bo'lgan orol.",
+      "Vulqon otilishi natijasida chiqqan kul osmonni qoplagani sababli yaqin atrofdagi hududlarda aviaqatnovlar butunlay to'xtatildi."
+    ],
+    "화상": [
+      "Qaynoq suvdan kuyib qoldim.",
+      "Qo'lim kuyib qoldi.",
+      "Ovqat pishirayotganimda yog' sachrab, qo'limni kuydirib oldim.",
+      "Yengil kuyishda chandiq qolishini kamaytirish uchun zudlik bilan sovuq suv bilan haroratni sovitish kerak."
+    ],
+    "화장지": [
+      "Hojatxona qog'ozi yo'q.",
+      "Hojatxona qog'ozi sotib olib keling.",
+      "Supermarketdan bir bog'lam hojatxona qog'ozini arzonga oldim.",
+      "Hojatxonadagi tualet qog'ozi butunlay tugab qolgani uchun farroshdan yangisini qo'yib berishni so'radim."
+    ],
+    "화재": [
+      "Yong'in chiqdi.",
+      "Yong'in xavfli.",
+      "Binoda yong'in chiqib, o't o'chirish mashinasi keldi.",
+      "Elektr qisqa tutashuvi sababli kelib chiqqan yong'in yaqin atrofdagi savdo rastalariga tarqalib, o'nlab aholi shoshilinch evakuatsiya qilindi."
+    ],
+    "화창하다": [
+      "Havo ochiq va quyoshli.",
+      "Bugun quyoshli, musaffo kun.",
+      "Musaffo bahor kunida bog'da piknik qildik.",
+      "Quyoshli dam olish kunlari munosabati bilan butun mamlakatdagi istirohat bog'lari va sayr joylari sayr qiluvchilar bilan gavjum bo'ldi."
+    ],
+    "화해": [
+      "Biz yarashdik.",
+      "Do'stim bilan yarashmoqchiman.",
+      "Urishib qolganimizdan keyin birinchi bo'lib uzr so'rab, ukam bilan yarashdim.",
+      "Uzoq yillik ziddiyatni boshdan kechirgan ikki davlat rahbari uchrashuv orqali yarashuv sari ilk qadamni qo'yishdi."
+    ],
+    "확실하다": [
+      "Bu aniq.",
+      "Bu ishonchli ma'lumotmi?",
+      "U odam kelish-kelmasligi hali aniq emas.",
+      "Baxtsiz hodisaning aniq sababi to'liq aniqlanmaguncha shoshma-shosharlik bilan taxmin qilishdan tiyilish kerak."
+    ],
+    "환경": [
+      "Atrof-muhit toza.",
+      "Atrof-muhitni muhofaza qilamiz.",
+      "Yangi muhitga moslashish uchun vaqt kerak bo'ldi.",
+      "Kompaniyalar atrof-muhitni muhofaza qilish maqsadida bir martalik buyumlardan foydalanishni kamaytirish bo'yicha sa'y-harakatlarni jiddiy ravishda olib bormoqda."
+    ],
+    "환기": [
+      "Xonani shamollataman.",
+      "Xonani shamollatish kerak.",
+      "Har kuni ertalab derazani ochib, xonani shamollataman.",
+      "Yopiq xonalarda muntazam shamollatib turilmasa, ichkaridagi havo tezda buziladi."
+    ],
+    "환불": [
+      "Pulni qaytarib bering.",
+      "Pulni qaytarib berish mumkin emas.",
+      "Kiyim kichik kelgani uchun do'konga borib, pulimni qaytarib oldim.",
+      "Mahsulotda nuqson bo'lsa, xarid qilingandan keyin yetti kun ichida pulni to'liq qaytarishni talab qilish mumkin."
+    ],
+    "환상적": [
+      "Manzara ajoyib.",
+      "Spektakl ajoyib edi.",
+      "Chejudo dengizining rangi haqiqatan ham hayoliy darajada go'zal edi.",
+      "Tungi osmonni qutb shafag'i bezaydigan sehrli manzarani ko'rish uchun dunyoning turli burchaklaridan sayyohlar Shimoliy qutb hududiga kelishadi."
+    ],
+    "환송회": [
+      "Xayrlashuv kechasi bor.",
+      "Bugun kuzatuv ziyofatiga boraman.",
+      "Nafaqaga chiqayotgan bo'lim boshlig'imiz sharafiga xayrlashuv ziyofati uyushtirdik.",
+      "Kompaniyadagi hamkasblari xorijiy filialga tayinlangan u uchun kamtarona xayrlashuv kechasini tayyorlashdi."
+    ],
+    "환영회": [
+      "Kutib olish marosimiga boraman.",
+      "Yangi talabalarni kutib olish kechasi bor.",
+      "Bo'lim yangi kelgan xodim uchun kutib olish ziyofati uyushtirdi.",
+      "To'garakda har yili bahorda yangi a'zolarni kutib olish kechasini o'tkazish an'anasi bor."
+    ],
+    "환율": [
+      "Valyuta kursi oshdi.",
+      "Bugun valyuta kursi qancha?",
+      "Valyuta kursi qulay bo'lganda dollarga almashtirmoqchiman.",
+      "Von qadrsizlanishi natijasida valyuta kursi keskin oshgach, import mahsulotlari narxlari umuman ko'tarilish tendensiyasida."
+    ],
+    "환전": [
+      "Pul almashtiraman.",
+      "Aeroportda pul almashtirdim.",
+      "Sayohatga ketishdan oldin bankda pul almashtirdim.",
+      "Chet elga jo'nashdan oldin bank ilovasidan foydalansangiz, imtiyozli komissiya bilan valyuta ayirboshlashingiz mumkin."
+    ],
+    "환절기": [
+      "Fasllar almashinuvida shamollab qolaman.",
+      "Fasllar almashinuvi davri bo'lgani uchun charchoq his qilyapman.",
+      "Fasllar almashinuvi davrida kunduzgi va kechki harorat farqi katta bo'ladi, shuning uchun ustki kiyim olib yurgan ma'qul.",
+      "Fasllar almashinuvi paytida immunitet osongina zaiflashgani uchun muntazam turmush tarzi va yetarlicha uyqu zarur."
+    ],
+    "활동": [
+      "To'garak faoliyatida qatnashaman.",
+      "Men ko'ngillilik faoliyati bilan shug'ullanaman.",
+      "Ta'til davomida turli tadbirlarda qatnashib, ko'p narsani o'rgandim.",
+      "Ekologik tashkilot sohilni tozalash tadbirlari orqali fuqarolarni faol ishtirokka jalb qilmoqda."
+    ]
+  },
+  "0144": {
+    "활동적": [
+      "Men faol odamman.",
+      "Ukam faol fe'l-atvorli.",
+      "U harakatchan odam bo'lgani uchun dam olish kunlari ham uyda jim o'tirmaydi.",
+      "Harakatchan sevimli mashg'ulotlari bo'lgan odamlar stressdan sog'lom yo'l bilan xalos bo'lishga moyil ekanini ko'rsatgan tadqiqot e'lon qilindi."
+    ],
+    "활발하다": [
+      "U bola quvnoq.",
+      "Munozara qizg'in o'tyapti.",
+      "Ukamning fe'li quvnoq bo'lgani uchun do'stlari ko'p.",
+      "Mahalliy iqtisodiyot jonlangani sari bozorda savdo-sotiq har qachongidan ham faol olib borilmoqda."
+    ],
+    "활용": [
+      "Vaqtdan unumli foydalanaman.",
+      "Bu ilovadan foydalanish oson.",
+      "Ortib qolgan masalliqlardan foydalanib, mazali taom tayyorladim.",
+      "Chiqindi resurslardan foydalanib yangi mahsulotlar yaratadigan apsaykling sanoati e'tiborni tortmoqda."
+    ],
+    "활짝": [
+      "Gullar to'liq ochildi.",
+      "Derazani keng ochaman.",
+      "Bola sovg'ani olib, yayrab kuldi.",
+      "Bahor kelgach, bog'dagi sakura gullari yashnab ochilib, ko'plab fuqarolar gul tomosha qilishga chiqishdi."
+    ],
+    "황당하다": [
+      "Hikoya bema'ni.",
+      "Haqiqatan ham aqlga sig'maydi.",
+      "Ko'chada notanish odam g'alati gap aytgani uchun hayron bo'lib qoldim.",
+      "Asossiz mish-mishlarning haqiqatdek tarqalishi uning uchun g'oyat bema'ni holat bo'lib tuyuldi."
+    ],
+    "황사": [
+      "Sariq chang kuchli.",
+      "Bugun sariq chang bo'ronli kun.",
+      "Sariq chang kuchli bo'lgan kunlarda niqob taqib tashqariga chiqaman.",
+      "Bahorda Xitoy materigidan uchib keladigan sariq chang nafas yo'llari kasalliklarini kuchaytiradigan asosiy omillardan biri hisoblanadi."
+    ],
+    "~회": [
+      "Haftasiga ikki marta boraman.",
+      "Bu mening birinchi marotabam.",
+      "Bu serial jami o'n olti qismdan iborat.",
+      "Bu yilgi musobaqa o'ttizinchi marta o'tkazilayotgani munosabati bilan avvalgi yillarga qaraganda ancha dabdabali tarzda o'tkazildi."
+    ],
+    "회갑": [
+      "Bugun bobomning oltmish yoshlik to'yi.",
+      "Bugun otamning oltmish yoshlik yubileyi.",
+      "Butun oila yig'ilib, onamning oltmish yoshini nishonladik.",
+      "Avvallari oltmish yoshga to'lgan keksalar sharafiga qishloq ahli yig'ilib, katta to'y-tomosha berish odat bo'lgan."
+    ],
+    "회복": [
+      "Sog'lig'im tiklandi.",
+      "Tezroq sog'ayib ketishingizni tilayman.",
+      "Kasalxonada dam olganimdan keyin kuch-quvvatim ancha tiklandi.",
+      "Operatsiya qilingan bemor yetarlicha dam olish va reabilitatsiya muolajalaridan so'ng asta-sekin tuzalish bosqichiga kirdi."
+    ],
+    "회비": [
+      "A'zolik badalini to'layman.",
+      "A'zolik badali qancha?",
+      "To'garak a'zolik badalini har oyning birinchi haftasida to'layman.",
+      "Uyushma a'zolar to'lagan a'zolik badallari asosida yillik faoliyat rejasini tuzib, ish yuritmoqda."
+    ],
+    "회식": [
+      "Bugun jamoaviy ziyofat bor.",
+      "Jamoaviy kechki ovqatga borasizmi?",
+      "Jamoaviy ziyofat bo'lgani uchun bugun uyga kech qaytaman.",
+      "Loyihani muvaffaqiyatli yakunlagan jamoa mehnat qilgan xodimlarni rag'batlantirish uchun kechki jamoaviy ziyofat uyushtirdi."
+    ],
+    "회원": [
+      "Men a'zoman.",
+      "A'zolik kartangiz bormi?",
+      "Bu fitnes klubdan faqat a'zolar foydalanishi mumkin.",
+      "Kutubxona a'zo bo'lib ro'yxatdan o'tgan fuqarolarga kitob berib turadi va yangi a'zolarni ham qabul qilmoqda."
+    ],
+    "회의장": [
+      "Majlis zali katta.",
+      "Majlis zali qayerda?",
+      "Majlis zaliga allaqachon ko'p odam kelib bo'lgan.",
+      "Xalqaro anjuman o'tkazilayotgan majlislar zali atrofiga qattiq qo'riqlash ostida ko'plab jurnalistlar to'planishdi."
+    ],
+    "회장": [
+      "Bu kishi kompaniyamiz raisi.",
+      "O'sha kishi to'garak raisi.",
+      "Sinf sardori etib saylanganim uchun kayfiyatim ko'tarildi.",
+      "U kompaniyaning raisi boshqaruvdan ketish niyatini xodimlarga rasman ma'lum qildi."
+    ],
+    "횟수": [
+      "Necha marta ekanini sanayman.",
+      "Mashg'ulotlar sonini ko'paytiraman.",
+      "Bu oy kutubxonaga borgan martalarim soni ko'p bo'ldi.",
+      "O'tgan yilga nisbatan mijozlarning tashriflar soni sezilarli darajada kamaygani sababli marketing strategiyasini qayta ko'rib chiqishga qaror qilindi."
+    ],
+    "효과": [
+      "Bu dori ta'sir qiladi.",
+      "Sportning foydasi katta.",
+      "Yangi boshlagan parhezim o'z samarasini beryapti.",
+      "Hukumatning rag'batlantirish choralari qisqa muddatda samara bergan bo'lsa-da, tub yechim bo'la olmagani ta'kidlanmoqda."
+    ],
+    "효과적": [
+      "Bu samarali usul.",
+      "Bu dori samaraliroq.",
+      "So'z yodlayotganda ularni ovoz chiqarib o'qish samarali.",
+      "Mutaxassislar yuqumli kasalliklar tarqalishining oldini olishning eng samarali usuli sifatida qo'lni puxta yuvishni ko'rsatishdi."
+    ],
+    "효녀": [
+      "U ota-onasiga mehribon qiz.",
+      "Ota-onasiga mehribon qizi borlarga havasim keladi.",
+      "U kasal onasini parvarish qiladigan mehribon qiz sifatida tanilgan.",
+      "Yoshligidan ota-onasini astoydil parvarish qilib kelgan bir ayol mahalliy jamoatchilik tomonidan \"Ota-onasiga mehribon qiz\" mukofotiga sazovor bo'ldi."
+    ],
+    "효율적": [
+      "Bu unumli usul.",
+      "Bu mashina samarali ishlaydi.",
+      "Vaqtimni samarali sarflash uchun reja jadvalini tuzdim.",
+      "Ish jarayonlari samarali tarzda takomillashtirilgani tufayli ishlab chiqarish xarajatlari sezilarli darajada qisqardi."
+    ],
+    "후문": [
+      "Orqa darvozadan boraman.",
+      "Orqa darvoza qayerda?",
+      "Maktabning orqa darvozasi oldida do'stimni kutib turibman.",
+      "Asosiy darvozada ta'mirlash ishlari olib borilayotgani sababli tashrif buyuruvchilarga binoning orqa eshigidan foydalanish tavsiya qilindi."
+    ],
+    "후반": [
+      "Ikkinchi yarmi muhim.",
+      "U o'ttiz yoshlarning oxirida.",
+      "Filmning ikkinchi yarmi juda ta'sirli edi.",
+      "Bu yilning ikkinchi yarmida iqtisodiyot tiklanadi, degan nikbin prognozlar ehtiyotkorlik bilan bildirilmoqda."
+    ],
+    "후반전": [
+      "Ikkinchi bo'lim boshlanyapti.",
+      "Ikkinchi bo'limda gol urildi.",
+      "Jamoamiz ikkinchi bo'limda ikkita gol urib, g'alaba qozondi.",
+      "Birinchi bo'limni bir gol farq bilan orqada yakunlagan terma jamoa ikkinchi bo'limda hujumkor taktika qo'llab, vaziyatni o'z foydasiga o'zgartirdi."
+    ],
+    "후보": [
+      "O'sha odam nomzod.",
+      "Nomzodlar uch kishi.",
+      "Sinfimiz vakilligiga nomzod sifatida meni tavsiya qilishdi.",
+      "Turli partiyalardan prezidentlikka nomzodlar saylov arafasida bir-biridan o'zib va'dalar berishdi."
+    ],
+    "후식": [
+      "Desert yeyman.",
+      "Shirinlik sifatida meva beriladi.",
+      "Ovqatlanib bo'lgach, shirinlik sifatida muzqaymoq yedik.",
+      "Bu restoranda to'liq ovqat buyurtma qilsangiz, shirinlik sifatida sujeonggwa yoki sikhyeni bepul berishadi."
+    ],
+    "후회": [
+      "Pushaymon emasman.",
+      "Hozir afsuslanyapman.",
+      "O'shanda astoydil o'qimaganimdan afsuslanaman.",
+      "Shoshilinch qaror qabul qilingandan keyin keladigan pushaymonlik odatda vaziyatni ortga qaytarib bo'lmasligidan kelib chiqadi."
+    ],
+    "훈련": [
+      "Har kuni mashq qilaman.",
+      "Askarlar mashq qilyapti.",
+      "Sportchilar musobaqa oldidan astoydil mashg'ulot o'tkazishyapti.",
+      "O't o'chiruvchilar haqiqiy yong'in vaziyatini taxmin qilgan holda muntazam ravishda qo'shma mashg'ulotlar o'tkazib turadi."
+    ],
+    "훌륭하다": [
+      "Haqiqatan ajoyib.",
+      "O'sha o'qituvchi ajoyib inson.",
+      "A'lo baholar olganim uchun ota-onam xursand bo'lishdi.",
+      "U og'ir sharoitda ham ajoyib natijalarga erishib, o'zidan keyingi avlodga ibrat namunasi bo'ldi."
+    ],
+    "훔치다": [
+      "Hamyonni o'g'irladi.",
+      "O'g'ri pulni o'g'irlab ketdi.",
+      "Peshonasidagi terni artib, astoydil ishlayotgani juda ta'sirli edi.",
+      "U do'kondan narsa o'g'irlayotganda qo'lga tushib, politsiya bo'limida so'roq qilindi."
+    ],
+    "훨씬": [
+      "Bugun ancha iliq.",
+      "Bu uy ancha keng.",
+      "Bugun o'zimni kechagidan ancha yaxshi his qilyapman.",
+      "Bu yilgi eksport ko'rsatkichlari kutilganidan ancha yuqori bo'lgani iqtisodiyot vakillarini juda ruhlantirdi."
+    ],
+    "휘발유": [
+      "Benzin quyaman.",
+      "Benzin narxi qimmat.",
+      "Yoqilg'i quyish shoxobchasida benzinni to'la quydim.",
+      "Jahon neft narxlari oshishi bilan mamlakat ichidagi benzin narxi ham kundan-kunga ko'tarilishda davom etmoqda."
+    ]
+  },
+  "0145": {
+    "휴가철": [
+      "Ta'til mavsumi.",
+      "Ta'til mavsumida odam ko'p bo'ladi.",
+      "Ta'til mavsumi bo'lgani uchun aeroport juda gavjum edi.",
+      "Ta'tillar mavsumi munosabati bilan avtomagistrallarning ko'p joylarida poytaxtga qaytayotgan mashinalar sababli tirbandlik davom etdi."
+    ],
+    "휴게실": [
+      "Dam olish xonasida dam olaman.",
+      "Dam olish xonasida qahva bor.",
+      "Tushlik vaqtida dam olish xonasida hamkasblarim bilan suhbatlashdim.",
+      "Shifoxona bemor yaqinlari biroz mizg'ib olishlari uchun har bir qavatda dam olish xonasi tashkil etgan."
+    ],
+    "휴대": [
+      "Olib yurish qulay.",
+      "Bu soyabonni olib yurish oson.",
+      "Bu ventilyator kichkina bo'lgani uchun olib yurishga juda qulay.",
+      "Aeroportdagi xavfsizlik tekshiruvida xavfli buyumlarni salonga olib kirish qat'iy cheklanadi."
+    ],
+    "휴대폰": [
+      "Mobil telefon jiringlayapti.",
+      "Mobil telefonim yo'q.",
+      "Dars paytida mobil telefonlaringizni o'chirib qo'ying.",
+      "Mobil telefondan foydalanish vaqti oshgani sari o'smirlarda uyqu yetishmasligi muammosi jiddiy tus oldi."
+    ],
+    "휴식": [
+      "Biroz dam olaman.",
+      "Dam olish kerak.",
+      "Ko'p ishlaganim uchun dam olish kunlari uyda hordiq chiqardim.",
+      "Yetarlicha dam olish ish samaradorligini pasaytirmaydi, aksincha, diqqatni jamlash qobiliyatini tiklaydi."
+    ],
+    "휴양지": [
+      "Kurortga boraman.",
+      "Bu yer mashhur dam olish maskani.",
+      "Oilam bilan birga iliq kurortda bir hafta vaqt o'tkazdik.",
+      "Janubi-Sharqiy Osiyoning sohilbo'yi kurortlari qishda koreys sayyohlari eng ko'p boradigan sayohat manzillaridan biridir."
+    ],
+    "휴학": [
+      "Men akademik ta'til olaman.",
+      "Ukam o'qishdan akademik ta'til oldi.",
+      "Sog'lig'im yomonlashgani uchun shu semestrda akademik ta'til olishga qaror qildim.",
+      "Ko'plab talabalar til kurslari yoki ishga joylashishga tayyorgarlik ko'rish uchun akademik ta'til olishni tanlamoqda."
+    ],
+    "흐르다": [
+      "Daryo suvi oqyapti.",
+      "Vaqt tez o'tyapti.",
+      "Yuzimdan ter oqqani uchun sochiq bilan artdim.",
+      "Shaharni kesib o'tib oqadigan daryo uzoq vaqtdan beri fuqarolar hayotining tayanchi bo'lib kelgan."
+    ],
+    "흔들다": [
+      "Qo'l silkitaman.",
+      "Bayroqni hilpiratyapman.",
+      "Do'stim meni ko'rib, qo'l silkitib salomlashdi.",
+      "Kuchli shamol daraxt shoxlarini qattiq silkitib o'tganida, xazonlar shitirlab to'kildi."
+    ],
+    "흔들리다": [
+      "Daraxt chayqalyapti.",
+      "Avtobus qattiq chayqalyapti.",
+      "Zilzila bo'lib, uy qattiq silkindi.",
+      "Kuchli to'lqinlar sababli kema qattiq chayqalganda, yo'lovchilar xavotirli yuz bilan panjaraga yopishib olishdi."
+    ],
+    "흔하다": [
+      "Bu ism keng tarqalgan.",
+      "Bunday holatlar ko'p uchraydi.",
+      "Hozirgi paytda smartfoni bor odamlar juda ko'p, bu odatiy hol.",
+      "Bir vaqtlar ko'p uchraydigan an'anaviy bozorlar yirik supermarketlar tazyiqi ostida shahar markazidan tezlik bilan yo'qolib bormoqda."
+    ],
+    "흔히": [
+      "Bu tez-tez bo'lib turadigan ish.",
+      "Odatda qahva ichaman.",
+      "Koreyada qishda ko'pincha bungeoppang yeyishadi.",
+      "Bunday alomatlar fasllar almashinuvi paytida ko'p uchraydi, shuning uchun ortiqcha tashvishlanishga hojat yo'q."
+    ],
+    "흘리다": [
+      "Suvni to'kib yubordim.",
+      "Juda ko'p terlayman.",
+      "Ovqatlanayotganda sho'rvani to'kib yuborib, kiyimim kir bo'ldi.",
+      "Hamyonimni qayerdadir tushirib qoldirganimni bilmay, ancha aylanib yurdim va keyinroq yo'qolganligi haqida xabar berdim."
+    ],
+    "흙": [
+      "Tuproq yumshoq.",
+      "Bolalar tuproqda o'ynashyapti.",
+      "Gul tuvagiga tuproq solib, gul urug'larini ekdim.",
+      "Yomg'ir to'xtagach, tuproq loyga aylanib, qurilish texnikasining kirishi qiyinlashdi."
+    ],
+    "흡연": [
+      "Chekish zararli.",
+      "Bu yerda chekish taqiqlangan.",
+      "Sog'lig'im uchun chekishni tashlashga qaror qildim.",
+      "Jamoat joylarida chekish taqiqlangach, passiv chekishdan ko'riladigan zarar sezilarli darajada kamaygani haqida tadqiqot natijalari e'lon qilindi."
+    ],
+    "흥미": [
+      "Men tarixga qiziqaman.",
+      "O'sha hikoya qiziqarli.",
+      "Yangi o'yinga qiziqishim yo'qolgani uchun uni tashlab qo'ydim.",
+      "Bu hujjatli film odatda tanishish qiyin bo'lgan chuqur dengiz jonzotlari olamini ko'rsatib, tomoshabinlar qiziqishini uyg'otdi."
+    ],
+    "흥분": [
+      "Men juda hayajonlanib ketdim.",
+      "Bolalar hayajonlanib yugurishyapti.",
+      "O'yin tugashi bilan tomoshabinlar hayajonlarini yashira olmay baqirib yuborishdi.",
+      "Kutilmaganda imtihondan o'tganini eshitib, hayajonini bosa olmagan u darhol oilasiga qo'ng'iroq qildi."
+    ],
+    "희다": [
+      "Qor oppoq.",
+      "Bu kiyim oppoq.",
+      "Buvimning sochlari oppoq oqarib ketgan.",
+      "Qor yoqqan tog' cho'qqilarining oppoq bo'lib yaltirashi qishki tog' sayrining eng go'zal jihati hisoblanadi."
+    ],
+    "희망": [
+      "Mening umidim bor.",
+      "Umidingizni yo'qotmang.",
+      "Men shifokor bo'lish umidida astoydil o'qiyapman.",
+      "Og'ir vaziyatda ham umidni yo'qotmaslik inqirozni yengishdagi eng katta kuch bo'ldi."
+    ],
+    "희망자": [
+      "Xohlovchilar qo'l ko'tarsin.",
+      "Xohlovchilar ko'p.",
+      "Lagerga qatnashishni xohlovchilar ismlarini yozib qo'yishsin.",
+      "Bu galgi xorijda malaka oshirish dasturiga istak bildirganlar orasidan hujjatlar saralovi orqali tanlab olinadi."
+    ],
+    "희생자": [
+      "Qurbonlar ko'p.",
+      "Halokat qurbonlari uchun duo qilamiz.",
+      "Yong'in qurbonlari xotirasiga bag'ishlangan marosim bo'lib o'tdi.",
+      "Ofat qurbonlari va ularning oila a'zolarini qo'llab-quvvatlash bo'yicha maxsus qonun parlamentdan o'tdi."
+    ],
+    "힘껏": [
+      "Bor kuchim bilan otaman.",
+      "Bor kuchim bilan yuguraman.",
+      "Bola to'pni bor kuchi bilan tepib, uzoqqa uchirib yubordi.",
+      "Sportchilar final o'yini oldidan bor kuchlarini sarflashga ahd qilib, astoydil mashq qilishdi."
     ]
   }
 };
