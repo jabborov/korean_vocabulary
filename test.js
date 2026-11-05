@@ -192,14 +192,14 @@ async function load(url){
     assert.strictEqual(t.document.getElementById('search').value, it2.w);
     assert.ok([...t.document.querySelectorAll('.entry-word')].some(x => x.textContent === it2.w)); }
 
-  // ---- Uzbek translations: TOPIK I A1–C2, TOPIK II A1–B2 (examples_uz.js) ----
+  // ---- Uzbek translations: TOPIK I and TOPIK II A1–C2 (examples_uz.js) ----
   { store['vocab-level'] = '"A1"';
     let t = await load('topic.html?topic=0001');
     const UZ = t.VOCAB_EXAMPLES_UZ, D = t.VOCAB_DATA;
     const isII = k => /^TOPIK II\b/.test(D[k].title);
-    // every TOPIK I word has non-empty translations for all six levels; TOPIK II A1 to B2
+    // every word (TOPIK I and II) has non-empty translations for all six levels
     for (const k of Object.keys(D)) {
-      for (const it of D[k].words) for (const i of (isII(k) ? [0, 1, 2, 3] : [0, 1, 2, 3, 4, 5])) {
+      for (const it of D[k].words) for (const i of [0, 1, 2, 3, 4, 5]) {
         const v = UZ[k] && UZ[k][it.w] && UZ[k][it.w][i];
         assert.ok(v && !/[\uAC00-\uD7A3]/.test(v), 'uz ' + ['A1','A2','B1','B2','C1','C2'][i] + ' ' + k + ' ' + it.w);
       }
@@ -236,7 +236,7 @@ async function load(url){
     // no level selected (original sentence): no Uzbek line
     t.document.querySelector('.level-btn[data-level="C2"]').click();   // back to original
     assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, 0);
-    // TOPIK II with A1 / A2 / B1 / B2: Uzbek line on every word; with C1 (not translated yet): none
+    // TOPIK II with each level A1–C2: Uzbek line on every word; no level: none
     store['vocab-level'] = '"A1"';
     const kII = Object.keys(D).find(isII), itII = D[kII].words[0];
     t = await load('topic.html?topic=' + kII);
@@ -252,6 +252,12 @@ async function load(url){
     assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][3]);
     assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
     t.document.querySelector('.level-btn[data-level="C1"]').click();
+    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][4]);
+    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
+    t.document.querySelector('.level-btn[data-level="C2"]').click();
+    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][5]);
+    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
+    t.document.querySelector('.level-btn[data-level="C2"]').click();   // back to original
     assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, 0);
     store['vocab-level'] = '"A1"';
 
