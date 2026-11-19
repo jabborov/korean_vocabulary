@@ -4,6 +4,14 @@ const vc = new VirtualConsole(); vc.on('jsdomError', e => { if(!/Could not load 
 const path = require('path');
 const assert = require('assert');
 const store = {};               // shared localStorage across page loads
+// All per-topic data (topics/NNNN.js), read straight from disk for whole-data checks.
+const fs = require('fs'), vm = require('vm');
+const ALL = (() => {
+  const ctx = { window: {} }; vm.createContext(ctx);
+  for (const f of fs.readdirSync(path.join(__dirname, 'topics')).sort())
+    vm.runInContext(fs.readFileSync(path.join(__dirname, 'topics', f), 'utf8'), ctx);
+  return { EX: ctx.window.VOCAB_EXAMPLES, UZ: ctx.window.VOCAB_EXAMPLES_UZ, REL: ctx.window.VOCAB_RELATIONS };
+})();
 async function load(url){
   const dom = await JSDOM.fromFile(path.join(__dirname,url.split('?')[0]), {
     url: 'file://' + path.join(__dirname,url),
@@ -16,6 +24,7 @@ async function load(url){
     }
   });
   await new Promise(r => dom.window.addEventListener('load', r));
+  if (dom.window.VOCAB_READY) await dom.window.VOCAB_READY;     // topic page: its topics/NNNN.js is loaded
   assert.deepStrictEqual(dom.window.__errors, [], 'JS errors: ' + dom.window.__errors);
   return dom.window;
 }
@@ -110,6 +119,7 @@ async function load(url){
     const seen = new Set(); let prev = null;
     for (let n = 0; n < 400; n++) {
       if (n === 0) btn.click(); else d.getElementById('rw-next').click();
+      await w.VocabRandom.pending;
       assert.ok(d.querySelector('.rw-backdrop').classList.contains('open'));
       const word = d.getElementById('rw-word').textContent;
       assert.notStrictEqual(word, prev, 'no immediate repeat'); prev = word;
@@ -137,9 +147,10 @@ async function load(url){
   store['vocab-level'] = '"B2"';
   w = await load('index.html');
   w.document.querySelector('[data-random-word]').click();
+  await w.VocabRandom.pending;
   const rw = w.document.getElementById('rw-word').textContent;
   const k = w.document.getElementById('rw-topic').getAttribute('href').split('topic=')[1];
-  assert.strictEqual(w.document.getElementById('rw-ex').textContent, w.VOCAB_EXAMPLES[k][rw][3]);
+  assert.strictEqual(w.document.getElementById('rw-ex').textContent, ALL.EX[k][rw][3]);
   assert.strictEqual(w.document.getElementById('rw-ex-label').textContent, 'Example · B2');
   // Backdrop click closes
   w.document.querySelector('.rw-backdrop').click();
@@ -195,7 +206,7 @@ async function load(url){
   // ---- Uzbek translations: TOPIK I and TOPIK II A1–C2 (examples_uz.js) ----
   { store['vocab-level'] = '"A1"';
     let t = await load('topic.html?topic=0001');
-    const UZ = t.VOCAB_EXAMPLES_UZ, D = t.VOCAB_DATA;
+    const UZ = ALL.UZ, D = t.VOCAB_DATA;
     const isII = k => /^TOPIK II\b/.test(D[k].title);
     // every word (TOPIK I and II) has non-empty translations for all six levels
     for (const k of Object.keys(D)) {
@@ -264,6 +275,7 @@ async function load(url){
     // random card shows the Uzbek A1 line for words from both levels
     const r = await load('index.html'), rd = r.document;
     rd.querySelector('[data-random-word]').click();
+    await r.VocabRandom.pending;
     let sawI = false, sawII = false;
     for (let n = 0; n < 300 && !(sawI && sawII); n++) {
       const k = rd.getElementById('rw-topic').getAttribute('href').split('topic=')[1];
@@ -271,9 +283,80 @@ async function load(url){
       if (isII(k)) sawII = true; else sawI = true;
       assert.strictEqual(uz.textContent, UZ[k][word][0]); assert.notStrictEqual(uz.style.display, 'none');
       rd.getElementById('rw-next').click();
+      await r.VocabRandom.pending;
     }
     assert.ok(sawI && sawII, 'saw words from both levels');
     store['vocab-level'] = 'null'; }
+
+  // ---- Synonyms / opposites of nouns, verbs, adjectives and adverbs (relations.js) + scroll buttons (scroll.js) ----
+  { const t = await load('topic.html?topic=0001'), D = t.VOCAB_DATA, R = ALL.REL;
+    assert.ok(R && R['0001'], 'relations loaded');
+    // every relations entry points at a real noun, verb, adjective or adverb in that topic
+    for (const k of Object.keys(R)) for (const w of Object.keys(R[k])) {
+      const it = D[k].words.find(x => x.w === w);
+      assert.ok(it && /noun|adjective|verb/.test(it.p), 'relation for noun/verb/adjective/adverb ' + k + ' ' + w);
+    }
+    const entryOf = w => [...t.document.querySelectorAll('.entry')].find(e => e.querySelector('.entry-word').textContent === w);
+    const near = entryOf('가깝다'), rows = near.querySelectorAll('.rel-row');
+    assert.strictEqual(rows.length, 2);
+    assert.strictEqual(rows[0].querySelector('.rel-label').textContent, 'Synonyms');
+    assert.strictEqual(rows[1].querySelector('.rel-label').textContent, 'Opposites');
+    const far = [...rows[1].querySelectorAll('.rel-word')].find(a => a.textContent === '멀다');
+    assert.ok(far && far.tagName === 'A' && /topic=\d{4}&q=/.test(far.getAttribute('href')), '멀다 links to its topic');
+    // only opposites -> one row; a noun -> no block
+    assert.strictEqual(entryOf('가볍다').querySelectorAll('.rel-row').length, 1);
+    // a word without relations has no block
+    const plain = D['0001'].words.find(x => !R['0001'][x.w]);
+    assert.ok(plain && !entryOf(plain.w).querySelector('.entry-rel'), 'no synonyms block for ' + (plain && plain.w));
+    // nouns too: 가게 -> synonym 상점
+    const shop = entryOf('가게').querySelectorAll('.rel-row');
+    assert.strictEqual(shop.length, 1);
+    assert.strictEqual(shop[0].querySelector('.rel-label').textContent, 'Synonyms');
+    assert.ok([...shop[0].querySelectorAll('.rel-word')].some(x => x.textContent === '상점'), 'noun 가게 shows synonym 상점');
+    // verbs too: 가르치다 -> opposite 배우다 (linked)
+    const learn = [...entryOf('가르치다').querySelectorAll('.rel-word')].find(x => x.textContent === '배우다');
+    assert.ok(learn && learn.tagName === 'A', 'verb 가르치다 shows opposite 배우다');
+    // adverbs too: 가끔 -> synonym 때때로, opposite 자주
+    const sometimes = entryOf('가끔').querySelectorAll('.rel-row');
+    assert.strictEqual(sometimes.length, 2);
+    assert.ok([...sometimes[1].querySelectorAll('.rel-word')].some(x => x.textContent === '자주'), 'adverb 가끔 shows opposite 자주');
+    // scroll buttons on both pages
+    assert.strictEqual(t.document.querySelectorAll('.sc-wrap .sc-btn').length, 2);
+    const h = await load('index.html');
+    assert.strictEqual(h.document.querySelectorAll('.sc-wrap .sc-btn').length, 2);
+    // random card: rows shown only for words that have them
+    h.document.querySelector('[data-random-word]').click();
+    await h.VocabRandom.pending;
+    let sawRel = false, sawNone = false;
+    for (let n = 0; n < 2000 && !(sawRel && sawNone); n++) {
+      const k = h.document.getElementById('rw-topic').getAttribute('href').split('topic=')[1];
+      const r = (R[k] || {})[h.document.getElementById('rw-word').textContent];
+      const shown = id => h.document.getElementById(id).style.display !== 'none';
+      assert.strictEqual(shown('rw-syn-row'), !!(r && r.syn && r.syn.length));
+      assert.strictEqual(shown('rw-ant-row'), !!(r && r.ant && r.ant.length));
+      if (r) sawRel = true; else sawNone = true;
+      h.document.getElementById('rw-next').click();
+      await h.VocabRandom.pending;
+    }
+    assert.ok(sawRel && sawNone, 'random card showed words with and without relations'); }
+
+  // ---- Per-topic data files (topics/NNNN.js, loader.js) ----
+  { const h = await load('index.html'), D = h.VOCAB_DATA;
+    // one file per topic, each with six example levels and Uzbek translations for every word
+    assert.deepStrictEqual(Object.keys(ALL.EX).sort(), Object.keys(D).sort());
+    for (const k of Object.keys(D)) for (const it of D[k].words)
+      assert.ok(ALL.EX[k][it.w] && ALL.EX[k][it.w].length === 6 && ALL.UZ[k][it.w].length === 6, 'topic file data ' + k + ' ' + it.w);
+    // the pages no longer load the big files; the home page loads no topic data until a random word is shown
+    for (const page of ['index.html', 'topic.html'])
+      assert.ok(!/src="(examples|examples_uz|relations)\.js"/.test(fs.readFileSync(path.join(__dirname, page), 'utf8')), page);
+    assert.ok(!h.VOCAB_EXAMPLES, 'home page loads no examples up front');
+    h.document.querySelector('[data-random-word]').click();
+    await h.VocabRandom.pending;
+    assert.strictEqual(Object.keys(h.VOCAB_EXAMPLES).length, 1, 'random card loads just its topic');
+    // a topic page loads only its own topic
+    const t = await load('topic.html?topic=0057');
+    assert.deepStrictEqual(Object.keys(t.VOCAB_EXAMPLES), ['0057']);
+    assert.deepStrictEqual(Object.keys(t.VOCAB_RELATIONS), ['0057']); }
 
   console.log('ALL TESTS PASSED');
 })().catch(e => { console.error('FAIL', e.message); process.exit(1); });

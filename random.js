@@ -1,10 +1,13 @@
 // Random word: picks one word from ALL topics and shows it in a modal card.
-// Usage: load after data.js (and examples.js), then add any element with
-// the attribute data-random-word; clicking it opens a random word.
+// Usage: load after data.js and loader.js, then add any element with the attribute
+// data-random-word; clicking it opens a random word. The word's example sentences,
+// Uzbek translation and synonyms/opposites are fetched for its topic on demand (topics/NNNN.js).
 (function(){
   const DATA = window.VOCAB_DATA || {};
-  const EXAMPLES = window.VOCAB_EXAMPLES || {};
-  const EXAMPLES_UZ = window.VOCAB_EXAMPLES_UZ || {};  // Uzbek: topic -> word -> [A1, A2, ...]
+  // Filled per topic by topics/NNNN.js, so read them when needed (not once at start-up).
+  const EXAMPLES    = () => window.VOCAB_EXAMPLES    || {};   // topic -> word -> [A1 ... C2]
+  const EXAMPLES_UZ = () => window.VOCAB_EXAMPLES_UZ || {};   // Uzbek: topic -> word -> [A1 ... C2]
+  const RELATIONS   = () => window.VOCAB_RELATIONS   || {};   // topic -> word -> {syn, ant}
   const LEVELS = ['A1','A2','B1','B2','C1','C2'];
 
   // Flatten every topic into one pool: [{ topicKey, topicTitle, item }]
@@ -20,15 +23,16 @@
     const it = entry.item;
     let level = null;
     try{ level = JSON.parse(localStorage.getItem('vocab-level')); }catch(e){}
-    const set = (EXAMPLES[entry.topicKey] || {})[it.w];
+    const set = (EXAMPLES()[entry.topicKey] || {})[it.w];
     const idx = LEVELS.indexOf(level);
     const ex = (idx >= 0 && set && set[idx]) || it.ex;
-    const uzSet = (EXAMPLES_UZ[entry.topicKey] || {})[it.w];
+    const uzSet = (EXAMPLES_UZ()[entry.topicKey] || {})[it.w];
     const exUz = (idx >= 0 && set && set[idx] && uzSet && uzSet[idx]) || '';
     return {
       en: it.tr ? it.def : null,
       uz: it.tr || it.def,
-      ex, exUz, level: (idx >= 0 && set && set[idx]) ? level : null
+      ex, exUz, level: (idx >= 0 && set && set[idx]) ? level : null,
+      rel: (RELATIONS()[entry.topicKey] || {})[it.w] || null
     };
   }
 
@@ -58,6 +62,9 @@
   .rw-ex{ font-family:'Noto Sans KR','Inter',sans-serif; font-size:16.5px; line-height:1.7; color:var(--text); font-style:normal; }
   .rw-ex-uz{ font-size:14px; color:var(--accent); margin-top:4px; }
   .rw-ex::before{ content:"\\201C"; } .rw-ex::after{ content:"\\201D"; }
+  .rw-rel{ display:flex; flex-wrap:wrap; gap:4px 12px; font-size:14px; }
+  .rw-rel-word{ font-family:'Noto Sans KR','Inter',sans-serif; font-size:15px; }
+  .rw-rel-uz{ color:var(--muted); }
   .rw-missing{ font-size:14px; color:var(--muted); }
   .rw-actions{ display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;
     margin-top:18px; padding-top:14px; border-top:1px dashed var(--line); }
@@ -84,6 +91,8 @@
       </div>
       <div class="rw-row"><div class="rw-label">English meaning</div><div id="rw-en"></div></div>
       <div class="rw-row"><div class="rw-label">Uzbek translation</div><div class="rw-uz" id="rw-uz"></div></div>
+      <div class="rw-row" id="rw-syn-row"><div class="rw-label">Synonyms</div><div class="rw-rel" id="rw-syn"></div></div>
+      <div class="rw-row" id="rw-ant-row"><div class="rw-label">Opposites</div><div class="rw-rel" id="rw-ant"></div></div>
       <div class="rw-row"><div class="rw-label" id="rw-ex-label">Example</div><div class="rw-ex" id="rw-ex"></div><div class="rw-ex-uz" id="rw-ex-uz" lang="uz"></div></div>
       <div class="rw-actions">
         <button class="rw-btn" type="button" id="rw-next">↻ Another random word</button>
@@ -92,13 +101,27 @@
   document.body.appendChild(backdrop);
 
   const $ = id => backdrop.querySelector('#' + id);
-  let lastIndex = -1, opener = null;
+  let lastIndex = -1, opener = null, current = 0;
 
+  // Pick a word and show it at once; its topic data (examples, Uzbek, synonyms) is loaded
+  // if needed and the card is filled again. Returns a promise that resolves when the card is complete.
   function show(){
     let i;
     do { i = Math.floor(Math.random() * pool.length); } while(pool.length > 1 && i === lastIndex);
     lastIndex = i;
-    const entry = pool[i], it = entry.item, f = fields(entry);
+    const entry = pool[i], my = ++current;
+    fill(entry);
+    if(!backdrop.classList.contains('open')){
+      opener = document.activeElement;
+      backdrop.classList.add('open');
+      $('rw-next').focus();
+    }
+    const load = window.loadTopicData ? window.loadTopicData(entry.topicKey) : Promise.resolve();
+    api.pending = load.then(() => { if(my === current) fill(entry); });
+    return api.pending;
+  }
+  function fill(entry){
+    const it = entry.item, f = fields(entry);
 
     const topic = $('rw-topic');
     topic.textContent = `${entry.topicKey} · ${entry.topicTitle}`;
@@ -113,16 +136,21 @@
       en.textContent = 'Not in this reference yet';
     }
     $('rw-uz').textContent = f.uz;
+    [['syn', 'rw-syn'], ['ant', 'rw-ant']].forEach(([key, id]) => {
+      const list = (f.rel && f.rel[key]) || [], box = $(id);
+      box.textContent = '';
+      list.forEach(r => {
+        const span = document.createElement('span');
+        const w = document.createElement('span'); w.className = 'rw-rel-word'; w.textContent = r.w;
+        const u = document.createElement('span'); u.className = 'rw-rel-uz'; u.lang = 'uz'; u.textContent = ' ' + r.uz;
+        span.append(w, u); box.appendChild(span);
+      });
+      $(id + '-row').style.display = list.length ? '' : 'none';
+    });
     $('rw-ex-label').textContent = f.level ? `Example · ${f.level}` : 'Example';
     $('rw-ex').textContent = f.ex;
     $('rw-ex-uz').textContent = f.exUz;
     $('rw-ex-uz').style.display = f.exUz ? '' : 'none';
-
-    if(!backdrop.classList.contains('open')){
-      opener = document.activeElement;
-      backdrop.classList.add('open');
-      $('rw-next').focus();
-    }
   }
   function close(){
     backdrop.classList.remove('open');
@@ -139,5 +167,5 @@
     if(e.key === 'Escape' && backdrop.classList.contains('open')) close();
   });
 
-  window.VocabRandom = { show, close, poolSize: pool.length };
+  const api = window.VocabRandom = { show, close, poolSize: pool.length, pending: Promise.resolve() };
 })();

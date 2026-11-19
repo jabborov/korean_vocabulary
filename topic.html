@@ -135,6 +135,13 @@
   .entry-ex::before{ content: "“"; }
   .entry-ex::after{ content: "”"; }
   .entry-ex-uz{ font-size: 13.5px; color: var(--accent); margin-top: 4px; }
+  .entry-rel{ display:flex; flex-direction:column; gap:4px; margin-bottom: 10px; font-size: 13.5px; }
+  .rel-row{ display:flex; flex-wrap:wrap; align-items:baseline; gap: 4px 12px; }
+  .rel-label{ font-family:'JetBrains Mono',monospace; font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; min-width: 78px; }
+  .rel-word{ font-family:'Noto Sans KR','Inter',sans-serif; font-size: 14.5px; color: var(--text); }
+  a.rel-word{ border-bottom: 1px dashed var(--accent-dim); }
+  a.rel-word:hover{ color: var(--accent); border-color: var(--accent); }
+  .rel-uz{ color: var(--muted); }
 
   .entry-actions{
     display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap: 10px;
@@ -222,9 +229,9 @@
 </footer>
 
 <script src="data.js"></script>
-<script src="examples.js"></script>
-<script src="examples_uz.js"></script>
+<script src="loader.js"></script>
 <script src="random.js"></script>
+<script src="scroll.js"></script>
 <script>
   const params = new URLSearchParams(window.location.search);
   const keys = Object.keys(window.VOCAB_DATA);
@@ -257,7 +264,8 @@
 
   // ----- CEFR level for example sentences -----
   const LEVELS = ['A1','A2','B1','B2','C1','C2'];
-  const examples = (window.VOCAB_EXAMPLES || {})[topicKey] || {};
+  // examples / examplesUz / relations come from topics/NNNN.js, loaded after the first render (see the end).
+  let examples = {};
   let level = loadJSON('vocab-level', null);
   if(!LEVELS.includes(level)) level = null; // null = original example from data.js
 
@@ -269,10 +277,30 @@
 
   // Uzbek translation of the selected level's sentence (examples_uz.js: word -> [A1, A2, ...]).
   // Shown only for levels that have a translation.
-  const examplesUz = (window.VOCAB_EXAMPLES_UZ || {})[topicKey] || {};
+  let examplesUz = {};
   function exampleUzFor(item){
     const i = LEVELS.indexOf(level), set = examples[item.w], uz = examplesUz[item.w];
     return (i >= 0 && set && set[i] && uz && uz[i]) || '';
+  }
+
+  // ----- Synonyms / opposites of adjectives (relations.js: topic -> word -> {syn, ant}) -----
+  // A related word that is also in the vocabulary links to its topic.
+  let relations = {};
+  const wordTopic = {};
+  keys.forEach(k => window.VOCAB_DATA[k].words.forEach(it => { if(!(it.w in wordTopic)) wordTopic[it.w] = k; }));
+  function relItem(r){
+    const k = wordTopic[r.w];
+    const word = k
+      ? `<a class="rel-word" href="topic.html?topic=${k}&q=${encodeURIComponent(r.w)}">${esc(r.w)}</a>`
+      : `<span class="rel-word">${esc(r.w)}</span>`;
+    return `<span>${word} <span class="rel-uz" lang="uz">${esc(r.uz)}</span></span>`;
+  }
+  function relationsFor(item){
+    const r = relations[item.w];
+    if(!r || (!(r.syn || []).length && !(r.ant || []).length)) return '';
+    const row = (label, list) => list && list.length
+      ? `<div class="rel-row"><span class="rel-label">${label}</span>${list.map(relItem).join('')}</div>` : '';
+    return `<div class="entry-rel">${row('Synonyms', r.syn)}${row('Opposites', r.ant)}</div>`;
   }
 
   const levelBar = document.getElementById('level-bar');
@@ -354,6 +382,7 @@
           </div>
           <div class="entry-def">${esc(item.def)}</div>
           ${item.tr ? `<div class="entry-tr">${esc(item.tr)}</div>` : ''}
+          ${relationsFor(item)}
           <div class="entry-ex">${esc(exampleFor(item))}</div>
           ${exampleUzFor(item) ? `<div class="entry-ex-uz" lang="uz">${esc(exampleUzFor(item))}</div>` : ''}
           <div class="entry-actions">
@@ -373,6 +402,15 @@
   // ?q=word (from the home-page search) pre-fills the search box
   searchEl.value = params.get('q') || '';
   render(searchEl.value);
+
+  // Load this topic's example sentences, Uzbek translations and synonyms/opposites, then re-render.
+  // Until then the words show with their original example sentence from data.js.
+  window.VOCAB_READY = loadTopicData(topicKey).then(() => {
+    examples   = (window.VOCAB_EXAMPLES    || {})[topicKey] || {};
+    examplesUz = (window.VOCAB_EXAMPLES_UZ || {})[topicKey] || {};
+    relations  = (window.VOCAB_RELATIONS   || {})[topicKey] || {};
+    render(searchEl.value);
+  });
 
   // Topic switcher
   const navEl = document.getElementById('topic-nav');
