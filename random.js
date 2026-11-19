@@ -62,7 +62,10 @@
   .rw-ex{ font-family:'Noto Sans KR','Inter',sans-serif; font-size:16.5px; line-height:1.7; color:var(--text); font-style:normal; }
   .rw-ex-uz{ font-size:14px; color:var(--accent); margin-top:4px; }
   .rw-ex::before{ content:"\\201C"; } .rw-ex::after{ content:"\\201D"; }
-  .rw-rel{ display:flex; flex-wrap:wrap; gap:4px 12px; font-size:14px; }
+  .rw-relbox{ display:inline-flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; }
+  .rw-rel-label{ font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--accent);
+    text-transform:uppercase; letter-spacing:.04em; }
+  .rw-rel{ display:inline-flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; font-size:14px; }
   .rw-rel-word{ font-family:'Noto Sans KR','Inter',sans-serif; font-size:15px; }
   .rw-rel-uz{ color:var(--muted); }
   .rw-missing{ font-size:14px; color:var(--muted); }
@@ -88,11 +91,11 @@
       <div class="rw-top">
         <span class="rw-word" id="rw-word"></span>
         <span class="rw-pos" id="rw-pos"></span>
+        <span class="rw-relbox" id="rw-syn-row"><span class="rw-rel-label">Synonyms</span><span class="rw-rel" id="rw-syn"></span></span>
+        <span class="rw-relbox" id="rw-ant-row"><span class="rw-rel-label">Opposites</span><span class="rw-rel" id="rw-ant"></span></span>
       </div>
       <div class="rw-row"><div class="rw-label">English meaning</div><div id="rw-en"></div></div>
       <div class="rw-row"><div class="rw-label">Uzbek translation</div><div class="rw-uz" id="rw-uz"></div></div>
-      <div class="rw-row" id="rw-syn-row"><div class="rw-label">Synonyms</div><div class="rw-rel" id="rw-syn"></div></div>
-      <div class="rw-row" id="rw-ant-row"><div class="rw-label">Opposites</div><div class="rw-rel" id="rw-ant"></div></div>
       <div class="rw-row"><div class="rw-label" id="rw-ex-label">Example</div><div class="rw-ex" id="rw-ex"></div><div class="rw-ex-uz" id="rw-ex-uz" lang="uz"></div></div>
       <div class="rw-actions">
         <button class="rw-btn" type="button" id="rw-next">↻ Another random word</button>

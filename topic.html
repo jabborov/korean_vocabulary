@@ -135,9 +135,10 @@
   .entry-ex::before{ content: "“"; }
   .entry-ex::after{ content: "”"; }
   .entry-ex-uz{ font-size: 13.5px; color: var(--accent); margin-top: 4px; }
-  .entry-rel{ display:flex; flex-direction:column; gap:4px; margin-bottom: 10px; font-size: 13.5px; }
-  .rel-row{ display:flex; flex-wrap:wrap; align-items:baseline; gap: 4px 12px; }
-  .rel-label{ font-family:'JetBrains Mono',monospace; font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; min-width: 78px; }
+  /* Synonyms / Opposites sit on the word line, next to the part-of-speech tag */
+  .entry-rel{ display:flex; flex-wrap:wrap; align-items:baseline; gap: 4px 16px; font-size: 13.5px; }
+  .rel-row{ display:flex; flex-wrap:wrap; align-items:baseline; gap: 4px 10px; }
+  .rel-label{ font-family:'JetBrains Mono',monospace; font-size: 11.5px; color: var(--accent); text-transform: uppercase; letter-spacing: .04em; }
   .rel-word{ font-family:'Noto Sans KR','Inter',sans-serif; font-size: 14.5px; color: var(--text); }
   a.rel-word{ border-bottom: 1px dashed var(--accent-dim); }
   a.rel-word:hover{ color: var(--accent); border-color: var(--accent); }
@@ -379,10 +380,10 @@
           <div class="entry-top">
             <span class="entry-word">${esc(item.w)}</span>
             <span class="entry-pos mono">${esc(item.p)}</span>
+            ${relationsFor(item)}
           </div>
           <div class="entry-def">${esc(item.def)}</div>
           ${item.tr ? `<div class="entry-tr">${esc(item.tr)}</div>` : ''}
-          ${relationsFor(item)}
           <div class="entry-ex">${esc(exampleFor(item))}</div>
           ${exampleUzFor(item) ? `<div class="entry-ex-uz" lang="uz">${esc(exampleUzFor(item))}</div>` : ''}
           <div class="entry-actions">
