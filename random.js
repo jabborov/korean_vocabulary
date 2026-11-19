@@ -67,7 +67,6 @@
     text-transform:uppercase; letter-spacing:.04em; }
   .rw-rel{ display:inline-flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; font-size:14px; }
   .rw-rel-word{ font-family:'Noto Sans KR','Inter',sans-serif; font-size:15px; }
-  .rw-rel-uz{ color:var(--muted); }
   .rw-missing{ font-size:14px; color:var(--muted); }
   .rw-actions{ display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;
     margin-top:18px; padding-top:14px; border-top:1px dashed var(--line); }
@@ -143,10 +142,8 @@
       const list = (f.rel && f.rel[key]) || [], box = $(id);
       box.textContent = '';
       list.forEach(r => {
-        const span = document.createElement('span');
         const w = document.createElement('span'); w.className = 'rw-rel-word'; w.textContent = r.w;
-        const u = document.createElement('span'); u.className = 'rw-rel-uz'; u.lang = 'uz'; u.textContent = ' ' + r.uz;
-        span.append(w, u); box.appendChild(span);
+        box.appendChild(w);
       });
       $(id + '-row').style.display = list.length ? '' : 'none';
     });
