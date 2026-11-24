@@ -75,7 +75,10 @@
   .rw-ex{ font-family:'Noto Sans KR','Inter',sans-serif; font-size:16.5px; line-height:1.7; color:var(--text); font-style:normal; }
   .rw-ex-uz{ font-size:14px; color:var(--accent); margin-top:4px; }
   .rw-ex-item + .rw-ex-item{ margin-top:10px; }
-  .rw-ex-lv{ display:block; font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--muted); letter-spacing:.04em; }
+  .rw-ex-item > .rw-ex{ display:inline; }
+  .rw-ex-lv{ font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--muted); margin-right:6px; }
+  .rw-ex-lv::before{ content:"["; } .rw-ex-lv::after{ content:"]"; }
+  .rw-ex-item > .rw-ex-uz::before{ content:"[UZ]"; font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--muted); margin-right:6px; }
   .rw-ex::before{ content:"\\201C"; } .rw-ex::after{ content:"\\201D"; }
   .rw-relbox{ display:inline-flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; }
   .rw-rel-label{ font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--accent);

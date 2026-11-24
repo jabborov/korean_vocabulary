@@ -141,7 +141,12 @@
   .entry-ex-uz{ font-size: 13.5px; color: var(--accent); margin-top: 4px; }
   /* Several example sentences (one per level of the selected groups A / B / C) */
   .entry-ex-item + .entry-ex-item{ margin-top: 10px; }
-  .entry-ex-lv{ display:block; font-family:'JetBrains Mono',monospace; font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+  /* "[A1] sentence": the level tag sits on the sentence's line, the Uzbek line goes below */
+  .entry-ex-item > .entry-ex{ display:inline; }
+  .entry-ex-lv{ font-family:'JetBrains Mono',monospace; font-size: 12px; color: var(--muted); margin-right: 6px; }
+  .entry-ex-lv::before{ content: "["; } .entry-ex-lv::after{ content: "]"; }
+  /* "[UZ] translation" on the next line, its label styled like the level tag */
+  .entry-ex-item > .entry-ex-uz::before{ content: "[UZ]"; font-family:'JetBrains Mono',monospace; font-size: 12px; color: var(--muted); margin-right: 6px; }
   /* Synonyms / Opposites sit on the word line, next to the part-of-speech tag */
   .entry-rel{ display:flex; flex-wrap:wrap; align-items:baseline; gap: 4px 16px; font-size: 13.5px; }
   .rel-row{ display:flex; flex-wrap:wrap; align-items:baseline; gap: 4px 10px; }
