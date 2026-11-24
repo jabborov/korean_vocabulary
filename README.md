@@ -13,7 +13,7 @@ Learn Korean vocabulary for the TOPIK I and TOPIK II exams, with English meaning
 
 ## Features
 - **TOPIK I / TOPIK II filter** and a **search** across both levels: Korean words, English meanings and Uzbek translations
-- **CEFR example sentences (A1–C2)** for every word, each with an **Uzbek translation**
+- **CEFR example sentences (A1–C2)** for every word, each with an **Uzbek translation**; the **A / B / C** buttons show both levels of a group (A = A1 + A2) and can be combined (A + C)
 - **Synonyms and opposites** for nouns, verbs, adjectives and adverbs (e.g. 남자 ↔ 여자, 열다 ↔ 닫다, 가깝다 ↔ 멀다, 빨리 ↔ 천천히), with Uzbek meanings
 - **Random word** card for quick review
 - Light and dark theme
@@ -22,7 +22,7 @@ Learn Korean vocabulary for the TOPIK I and TOPIK II exams, with English meaning
 | File | Contents |
 |---|---|
 | `index.html` | Home page: topic list, TOPIK filter, search |
-| `topic.html` | Word list for one topic, with level buttons A1–C2 |
+| `topic.html` | Word list for one topic, with level buttons A, B, C |
 | `random.js` | Random-word card |
 | `scroll.js` | Scroll-to-top / scroll-to-bottom buttons |
 | `data.js` | Words: part of speech, English meaning, Uzbek translation, example sentence |

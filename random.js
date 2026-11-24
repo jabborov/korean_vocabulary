@@ -9,6 +9,7 @@
   const EXAMPLES_UZ = () => window.VOCAB_EXAMPLES_UZ || {};   // Uzbek: topic -> word -> [A1 ... C2]
   const RELATIONS   = () => window.VOCAB_RELATIONS   || {};   // topic -> word -> {syn, ant}
   const LEVELS = ['A1','A2','B1','B2','C1','C2'];
+  const GROUPS = ['A','B','C'];
 
   // Flatten every topic into one pool: [{ topicKey, topicTitle, item }]
   const pool = [];
@@ -21,17 +22,29 @@
   // If a future entry lacks `tr`, `def` is shown as the translation instead.
   function fields(entry){
     const it = entry.item;
-    let level = null;
-    try{ level = JSON.parse(localStorage.getItem('vocab-level')); }catch(e){}
+    // Level groups chosen on the topic page (A = A1+A2, B = B1+B2, C = C1+C2), e.g. ["A","C"].
+    let groups = null;
+    try{ groups = JSON.parse(localStorage.getItem('vocab-levels')); }catch(e){}
+    if(!Array.isArray(groups)){
+      let old = null;
+      try{ old = JSON.parse(localStorage.getItem('vocab-level')); }catch(e){}
+      groups = LEVELS.includes(old) ? [old[0]] : [];
+    }
+    groups = GROUPS.filter(g => groups.includes(g));
     const set = (EXAMPLES()[entry.topicKey] || {})[it.w];
-    const idx = LEVELS.indexOf(level);
-    const ex = (idx >= 0 && set && set[idx]) || it.ex;
-    const uzSet = (EXAMPLES_UZ()[entry.topicKey] || {})[it.w];
-    const exUz = (idx >= 0 && set && set[idx] && uzSet && uzSet[idx]) || '';
+    const uzSet = (EXAMPLES_UZ()[entry.topicKey] || {})[it.w] || [];
+    let exs = [];
+    if(groups.length && set){
+      LEVELS.forEach((lv, i) => {
+        if(groups.includes(lv[0]) && set[i]) exs.push({ lv, ko: set[i], uz: uzSet[i] || '' });
+      });
+    }
+    // No group selected: the original sentence from data.js, without a translation.
+    if(!exs.length) exs = [{ lv: '', ko: it.ex, uz: '' }];
     return {
       en: it.tr ? it.def : null,
       uz: it.tr || it.def,
-      ex, exUz, level: (idx >= 0 && set && set[idx]) ? level : null,
+      exs, groups: exs[0].lv ? groups : [],
       rel: (RELATIONS()[entry.topicKey] || {})[it.w] || null
     };
   }
@@ -61,6 +74,8 @@
   .rw-uz{ font-size:15px; color:var(--accent); }
   .rw-ex{ font-family:'Noto Sans KR','Inter',sans-serif; font-size:16.5px; line-height:1.7; color:var(--text); font-style:normal; }
   .rw-ex-uz{ font-size:14px; color:var(--accent); margin-top:4px; }
+  .rw-ex-item + .rw-ex-item{ margin-top:10px; }
+  .rw-ex-lv{ display:block; font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--muted); letter-spacing:.04em; }
   .rw-ex::before{ content:"\\201C"; } .rw-ex::after{ content:"\\201D"; }
   .rw-relbox{ display:inline-flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; }
   .rw-rel-label{ font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--accent);
@@ -95,7 +110,7 @@
       </div>
       <div class="rw-row"><div class="rw-label">English meaning</div><div id="rw-en"></div></div>
       <div class="rw-row"><div class="rw-label">Uzbek translation</div><div class="rw-uz" id="rw-uz"></div></div>
-      <div class="rw-row"><div class="rw-label" id="rw-ex-label">Example</div><div class="rw-ex" id="rw-ex"></div><div class="rw-ex-uz" id="rw-ex-uz" lang="uz"></div></div>
+      <div class="rw-row"><div class="rw-label" id="rw-ex-label">Example</div><div id="rw-exs"></div></div>
       <div class="rw-actions">
         <button class="rw-btn" type="button" id="rw-next">↻ Another random word</button>
       </div>
@@ -147,10 +162,16 @@
       });
       $(id + '-row').style.display = list.length ? '' : 'none';
     });
-    $('rw-ex-label').textContent = f.level ? `Example · ${f.level}` : 'Example';
-    $('rw-ex').textContent = f.ex;
-    $('rw-ex-uz').textContent = f.exUz;
-    $('rw-ex-uz').style.display = f.exUz ? '' : 'none';
+    $('rw-ex-label').textContent = f.groups.length ? `Examples · ${f.groups.join(' + ')}` : 'Example';
+    const exs = $('rw-exs');
+    exs.textContent = '';
+    f.exs.forEach(e => {
+      const row = document.createElement('div'); row.className = 'rw-ex-item';
+      if(e.lv){ const lv = document.createElement('span'); lv.className = 'rw-ex-lv'; lv.textContent = e.lv; row.appendChild(lv); }
+      const ko = document.createElement('div'); ko.className = 'rw-ex'; ko.textContent = e.ko; row.appendChild(ko);
+      if(e.uz){ const uz = document.createElement('div'); uz.className = 'rw-ex-uz'; uz.lang = 'uz'; uz.textContent = e.uz; row.appendChild(uz); }
+      exs.appendChild(row);
+    });
   }
   function close(){
     backdrop.classList.remove('open');

@@ -110,7 +110,7 @@
   .search-icon{ color: var(--muted); font-size: 15px; }
 
   .level-bar{ display:flex; align-items:center; gap:4px; flex-shrink:0; }
-  .level-bar .pill{ height: 34px; padding: 0 8px; border-radius: 8px; background: var(--bg-alt); font-size: 12px; }
+  .level-bar .pill{ height: 34px; min-width: 34px; padding: 0 10px; border-radius: 8px; background: var(--bg-alt); font-size: 12px; }
   .pill{
     font-family:'JetBrains Mono',monospace; font-size: 12.5px; color: var(--muted);
     background: none; border: 1px solid var(--line); border-radius: 6px; padding: 5px 11px; cursor: pointer;
@@ -123,9 +123,13 @@
   #count{ font-family:'JetBrains Mono',monospace; font-size: 13px; color: var(--muted); margin-bottom: 18px; }
 
   .entry{
+    position: relative;
     border: 1px solid var(--line); border-radius: 10px;
     padding: 20px 22px; margin-bottom: 12px;
   }
+  /* Word's position in the topic (stays the same while searching): small and faint, top-right corner */
+  .entry-num{ position:absolute; top: 7px; right: 10px; font-family:'JetBrains Mono',monospace;
+    font-size: 10.5px; color: var(--muted); opacity: .5; pointer-events:none; user-select:none; }
   .entry-top{ display:flex; align-items:baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
   .entry-word{ font-family:'Space Grotesk',sans-serif; font-size: 19px; font-weight: 600; }
   .entry-pos{ font-family:'JetBrains Mono',monospace; font-size: 12px; color: var(--accent); border:1px solid var(--accent-dim); border-radius:4px; padding: 2px 8px; }
@@ -135,6 +139,9 @@
   .entry-ex::before{ content: "“"; }
   .entry-ex::after{ content: "”"; }
   .entry-ex-uz{ font-size: 13.5px; color: var(--accent); margin-top: 4px; }
+  /* Several example sentences (one per level of the selected groups A / B / C) */
+  .entry-ex-item + .entry-ex-item{ margin-top: 10px; }
+  .entry-ex-lv{ display:block; font-family:'JetBrains Mono',monospace; font-size: 11px; color: var(--muted); letter-spacing: .04em; }
   /* Synonyms / Opposites sit on the word line, next to the part-of-speech tag */
   .entry-rel{ display:flex; flex-wrap:wrap; align-items:baseline; gap: 4px 16px; font-size: 13.5px; }
   .rel-row{ display:flex; flex-wrap:wrap; align-items:baseline; gap: 4px 10px; }
@@ -262,25 +269,35 @@
     try{ localStorage.setItem(key, JSON.stringify(value)); }catch(e){}
   }
 
-  // ----- CEFR level for example sentences -----
+  // ----- CEFR level groups for example sentences -----
+  // Sentences are stored per level, word -> [A1, A2, B1, B2, C1, C2]. The buttons A / B / C each
+  // show both levels of their group, and any number of groups can be on at once (e.g. A + C).
   const LEVELS = ['A1','A2','B1','B2','C1','C2'];
+  const GROUPS = ['A','B','C'];
   // examples / examplesUz / relations come from topics/NNNN.js, loaded after the first render (see the end).
   let examples = {};
-  let level = loadJSON('vocab-level', null);
-  if(!LEVELS.includes(level)) level = null; // null = original example from data.js
-
-  function exampleFor(item){
-    if(!level) return item.ex;
-    const set = examples[item.w];
-    return (set && set[LEVELS.indexOf(level)]) || item.ex;
-  }
-
-  // Uzbek translation of the selected level's sentence (examples_uz.js: word -> [A1, A2, ...]).
-  // Shown only for levels that have a translation.
   let examplesUz = {};
-  function exampleUzFor(item){
-    const i = LEVELS.indexOf(level), set = examples[item.w], uz = examplesUz[item.w];
-    return (i >= 0 && set && set[i] && uz && uz[i]) || '';
+  // Selected groups, saved as e.g. ["A","C"]. A level saved by the old six-button bar ("B2") maps to its group.
+  let groups = loadJSON('vocab-levels', null);
+  if(!Array.isArray(groups)){
+    const old = loadJSON('vocab-level', null);
+    groups = LEVELS.includes(old) ? [old[0]] : [];
+  }
+  groups = GROUPS.filter(g => groups.includes(g));   // valid, in A-B-C order, no duplicates
+
+  // Example sentences to show for a word: [{lv, ko, uz}].
+  // No group selected: the original sentence from data.js, without a translation.
+  function examplesFor(item){
+    const set = examples[item.w], uz = examplesUz[item.w] || [];
+    if(!groups.length || !set) return [{ lv: '', ko: item.ex, uz: '' }];
+    const out = [];
+    LEVELS.forEach((lv, i) => {
+      if(groups.includes(lv[0]) && set[i]) out.push({ lv, ko: set[i], uz: uz[i] || '' });
+    });
+    return out.length ? out : [{ lv: '', ko: item.ex, uz: '' }];
+  }
+  function examplesHtml(item){
+    return examplesFor(item).map(e => `<div class="entry-ex-item">${e.lv ? `<span class="entry-ex-lv">${e.lv}</span>` : ''}<div class="entry-ex">${esc(e.ko)}</div>${e.uz ? `<div class="entry-ex-uz" lang="uz">${esc(e.uz)}</div>` : ''}</div>`).join('');
   }
 
   // ----- Synonyms / opposites of adjectives (relations.js: topic -> word -> {syn, ant}) -----
@@ -304,18 +321,18 @@
   }
 
   const levelBar = document.getElementById('level-bar');
-  LEVELS.forEach(lv => {
+  GROUPS.forEach(g => {
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'pill level-btn';
-    b.dataset.level = lv;
-    b.textContent = lv;
-    b.title = `Show ${lv}-level example sentences (click again for the original)`;
+    b.dataset.level = g;
+    b.textContent = g;
+    b.title = `Show ${g}1 and ${g}2 example sentences (click again to hide them)`;
     levelBar.appendChild(b);
   });
   function syncLevelButtons(){
     levelBar.querySelectorAll('.level-btn').forEach(b => {
-      const on = b.dataset.level === level;
+      const on = groups.includes(b.dataset.level);
       b.classList.toggle('active', on);
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
@@ -323,8 +340,9 @@
   levelBar.addEventListener('click', e => {
     const b = e.target.closest('.level-btn');
     if(!b) return;
-    level = (level === b.dataset.level) ? null : b.dataset.level;
-    saveJSON('vocab-level', level);
+    const g = b.dataset.level;
+    groups = GROUPS.filter(x => x === g ? !groups.includes(g) : groups.includes(x));
+    saveJSON('vocab-levels', groups);
     syncLevelButtons();
     render(searchEl.value);
   });
@@ -376,6 +394,7 @@
         div.className = 'entry';
         div.dataset.id = statusId(item);
         div.innerHTML = `
+          <span class="entry-num" aria-hidden="true">${data.words.indexOf(item) + 1}</span>
           <div class="entry-top">
             <span class="entry-word">${esc(item.w)}</span>
             <span class="entry-pos mono">${esc(item.p)}</span>
@@ -383,8 +402,7 @@
           </div>
           <div class="entry-def">${esc(item.def)}</div>
           ${item.tr ? `<div class="entry-tr">${esc(item.tr)}</div>` : ''}
-          <div class="entry-ex">${esc(exampleFor(item))}</div>
-          ${exampleUzFor(item) ? `<div class="entry-ex-uz" lang="uz">${esc(exampleUzFor(item))}</div>` : ''}
+          <div class="entry-exs">${examplesHtml(item)}</div>
           <div class="entry-actions">
             <div class="status-group" role="group" aria-label="Learning status">
               ${STATUSES.map(s => `<button type="button" class="pill status-btn" data-status="${s.key}">${s.label}</button>`).join('')}
@@ -395,7 +413,7 @@
         entriesEl.appendChild(div);
       });
     }
-    countEl.textContent = `${filtered.length} of ${data.words.length} words` + (level ? ` · ${level} examples` : '');
+    countEl.textContent = `${filtered.length} of ${data.words.length} words` + (groups.length ? ` · ${groups.join(' + ')} examples` : '');
   }
 
   searchEl.addEventListener('input', e => render(e.target.value));

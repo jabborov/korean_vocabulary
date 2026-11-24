@@ -40,7 +40,10 @@ async function load(url){
     const t = await load(`topic.html?topic=${k}`);
     const entries = t.document.querySelectorAll('.entry');
     assert.strictEqual(entries.length, t.VOCAB_DATA[k].words.length, k);
-    assert.strictEqual(t.document.querySelectorAll('.level-btn').length, 6);
+    assert.deepStrictEqual([...t.document.querySelectorAll('.level-btn')].map(b => b.textContent), ['A', 'B', 'C']);
+    // faint sequence number in each card's corner: 1, 2, 3 ...
+    assert.deepStrictEqual([...entries].map(x => x.querySelector('.entry-num').textContent),
+      entries.length ? [...entries].map((_, i) => String(i + 1)) : []);
     assert.strictEqual(entries[0].querySelectorAll('.status-btn').length, 3);
     assert.ok(!entries[0].querySelector('.dict-link'), 'no dictionary link');
     assert.strictEqual(entries[0].querySelector('.entry-ex').textContent, t.VOCAB_DATA[k].words[0].ex);
@@ -60,22 +63,32 @@ async function load(url){
     assert.strictEqual(bar.nextElementSibling, rnd);
     assert.ok(!d.querySelector('header .level-bar'), 'removed from header'); }
 
-  // CEFR level switching + persistence + toggle off
+  // Level groups A / B / C: each shows both of its levels; several can be on at once; persisted; toggle off
+  const exOf = (doc, sel = '.entry') => [...doc.querySelector(sel).querySelectorAll('.entry-ex')].map(x => x.textContent);
+  const lvOf = doc => [...doc.querySelector('.entry').querySelectorAll('.entry-ex-lv')].map(x => x.textContent);
   w = await load('topic.html?topic=0004');
-  const first = w.VOCAB_DATA['0004'].words[0];
-  w.document.querySelector('.level-btn[data-level="B2"]').click();
-  assert.strictEqual(w.document.querySelector('.entry-ex').textContent, w.VOCAB_EXAMPLES['0004'][first.w][3]);
-  assert.match(w.document.getElementById('count').textContent, /B2 examples/);
-  w = await load('topic.html?topic=0004');                 // reload: level persisted
-  assert.ok(w.document.querySelector('.level-btn[data-level="B2"]').classList.contains('active'));
-  assert.strictEqual(w.document.querySelector('.entry-ex').textContent, w.VOCAB_EXAMPLES['0004'][first.w][3]);
-  w.document.querySelector('.level-btn[data-level="C2"]').click();
-  assert.strictEqual(w.document.querySelector('.entry-ex').textContent, w.VOCAB_EXAMPLES['0004'][first.w][5]);
-  w.document.querySelector('.level-btn[data-level="C2"]').click(); // deselect -> original
-  assert.strictEqual(w.document.querySelector('.entry-ex').textContent, first.ex);
+  const first = w.VOCAB_DATA['0004'].words[0], X4 = w.VOCAB_EXAMPLES['0004'][first.w];
+  w.document.querySelector('.level-btn[data-level="B"]').click();
+  assert.deepStrictEqual(exOf(w.document), [X4[2], X4[3]]);
+  assert.deepStrictEqual(lvOf(w.document), ['B1', 'B2']);
+  assert.match(w.document.getElementById('count').textContent, /B examples/);
+  w = await load('topic.html?topic=0004');                 // reload: groups persisted
+  assert.ok(w.document.querySelector('.level-btn[data-level="B"]').classList.contains('active'));
+  assert.deepStrictEqual(exOf(w.document), [X4[2], X4[3]]);
+  w.document.querySelector('.level-btn[data-level="B"]').click(); // B off
+  w.document.querySelector('.level-btn[data-level="C"]').click(); // C on
+  w.document.querySelector('.level-btn[data-level="A"]').click(); // A on as well -> A1, A2, C1, C2
+  assert.deepStrictEqual(exOf(w.document), [X4[0], X4[1], X4[4], X4[5]]);
+  assert.deepStrictEqual(lvOf(w.document), ['A1', 'A2', 'C1', 'C2']);
+  assert.match(w.document.getElementById('count').textContent, /A \+ C examples/);
+  assert.deepStrictEqual(JSON.parse(store['vocab-levels']), ['A', 'C']);
+  w.document.querySelector('.level-btn[data-level="C"]').click();
+  w.document.querySelector('.level-btn[data-level="A"]').click(); // all off -> original
+  assert.deepStrictEqual(exOf(w.document), [first.ex]);
+  assert.strictEqual(w.document.querySelectorAll('.entry-ex-lv').length, 0);
 
-  // search still works with a level active
-  w.document.querySelector('.level-btn[data-level="A1"]').click();
+  // search still works with a group active
+  w.document.querySelector('.level-btn[data-level="A"]').click();
   // pick a word in 0004 whose search matches exactly one entry
   const words4 = w.VOCAB_DATA['0004'].words;
   const hits = q => words4.filter(y => [y.w, y.def, y.tr || ''].some(f => f.toLowerCase().includes(q.toLowerCase()))).length;
@@ -83,7 +96,9 @@ async function load(url){
   const sid = '0004|' + target;
   const s = w.document.getElementById('search'); s.value = target; s.dispatchEvent(new w.Event('input'));
   assert.strictEqual(w.document.querySelectorAll('.entry').length, 1);
-  assert.strictEqual(w.document.querySelector('.entry-ex').textContent, w.VOCAB_EXAMPLES['0004'][target][0]);
+  assert.deepStrictEqual(exOf(w.document), w.VOCAB_EXAMPLES['0004'][target].slice(0, 2));
+  // the number is the word's position in the topic, not in the search results
+  assert.strictEqual(w.document.querySelector('.entry-num').textContent, String(words4.findIndex(x => x.w === target) + 1));
 
   // learning status: set, persist, survive search re-render, switch, clear
   let e = w.document.querySelector('.entry');
@@ -106,12 +121,20 @@ async function load(url){
   assert.strictEqual(w.document.documentElement.getAttribute('data-theme'), store['vocab-theme']);
 
   // corrupt storage must not break the page
-  store['vocab-status'] = '{bad'; store['vocab-level'] = '"Z9"';
+  store['vocab-status'] = '{bad'; store['vocab-levels'] = '{bad';
   w = await load('topic.html?topic=0001');
-  assert.strictEqual(w.document.querySelector('.entry-ex').textContent, w.VOCAB_DATA['0001'].words[0].ex);
+  assert.deepStrictEqual(exOf(w.document), [w.VOCAB_DATA['0001'].words[0].ex]);
+  store['vocab-levels'] = '["Z","C","C"]';                   // unknown / duplicate groups are dropped
+  w = await load('topic.html?topic=0001');
+  assert.deepStrictEqual(lvOf(w.document), ['C1', 'C2']);
+  // a level saved by the old six-button bar maps to its group
+  delete store['vocab-levels']; store['vocab-level'] = '"A2"';
+  w = await load('topic.html?topic=0001');
+  assert.deepStrictEqual(lvOf(w.document), ['A1', 'A2']);
+  delete store['vocab-level'];
   // ---- Random word (index + topic pages) ----
   for (const page of ['index.html', 'topic.html?topic=0003']) {
-    store['vocab-level'] = 'null';
+    store['vocab-levels'] = '[]';
     w = await load(page);
     const d = w.document, btn = d.querySelector('[data-random-word]');
     assert.ok(btn, 'random button on ' + page);
@@ -135,7 +158,8 @@ async function load(url){
       if (e.it.tr) assert.strictEqual(en.textContent, e.it.def);
       else assert.strictEqual(en.textContent, 'Not in this reference yet');
       assert.ok(!d.getElementById('rw-oxford'), 'no Oxford link in random card');
-      assert.strictEqual(d.getElementById('rw-ex').textContent, e.it.ex);
+      assert.deepStrictEqual([...d.querySelectorAll('#rw-exs .rw-ex')].map(x => x.textContent), [e.it.ex]);
+      assert.strictEqual(d.querySelectorAll('#rw-exs .rw-ex-uz').length, 0);
       assert.ok(d.getElementById('rw-topic').getAttribute('href') === 'topic.html?topic=' + e.k);
     }
     assert.ok(seen.size >= 50, 'words come from many topics: ' + seen.size);
@@ -143,15 +167,18 @@ async function load(url){
     d.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape' }));
     assert.ok(!d.querySelector('.rw-backdrop').classList.contains('open'));
   }
-  // Respects the saved CEFR level
-  store['vocab-level'] = '"B2"';
+  // Respects the saved level groups (A + C -> A1, A2, C1, C2)
+  store['vocab-levels'] = '["A","C"]';
   w = await load('index.html');
   w.document.querySelector('[data-random-word]').click();
   await w.VocabRandom.pending;
   const rw = w.document.getElementById('rw-word').textContent;
   const k = w.document.getElementById('rw-topic').getAttribute('href').split('topic=')[1];
-  assert.strictEqual(w.document.getElementById('rw-ex').textContent, ALL.EX[k][rw][3]);
-  assert.strictEqual(w.document.getElementById('rw-ex-label').textContent, 'Example · B2');
+  const X = ALL.EX[k][rw], U = ALL.UZ[k][rw];
+  assert.deepStrictEqual([...w.document.querySelectorAll('#rw-exs .rw-ex')].map(x => x.textContent), [X[0], X[1], X[4], X[5]]);
+  assert.deepStrictEqual([...w.document.querySelectorAll('#rw-exs .rw-ex-uz')].map(x => x.textContent), [U[0], U[1], U[4], U[5]]);
+  assert.deepStrictEqual([...w.document.querySelectorAll('#rw-exs .rw-ex-lv')].map(x => x.textContent), ['A1', 'A2', 'C1', 'C2']);
+  assert.strictEqual(w.document.getElementById('rw-ex-label').textContent, 'Examples · A + C');
   // Backdrop click closes
   w.document.querySelector('.rw-backdrop').click();
   assert.ok(!w.document.querySelector('.rw-backdrop').classList.contains('open'));
@@ -204,7 +231,7 @@ async function load(url){
     assert.ok([...t.document.querySelectorAll('.entry-word')].some(x => x.textContent === it2.w)); }
 
   // ---- Uzbek translations: TOPIK I and TOPIK II A1–C2 (examples_uz.js) ----
-  { store['vocab-level'] = '"A1"';
+  { store['vocab-levels'] = '["A"]';
     let t = await load('topic.html?topic=0001');
     const UZ = ALL.UZ, D = t.VOCAB_DATA;
     const isII = k => /^TOPIK II\b/.test(D[k].title);
@@ -215,78 +242,49 @@ async function load(url){
         assert.ok(v && !/[\uAC00-\uD7A3]/.test(v), 'uz ' + ['A1','A2','B1','B2','C1','C2'][i] + ' ' + k + ' ' + it.w);
       }
     }
-    const it0 = D['0001'].words[0], e0 = t.document.querySelector('.entry');
-    assert.strictEqual(e0.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][0]);
-    assert.strictEqual(e0.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][0]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
-    // A2: Korean A2 sentence + its Uzbek translation
-    t.document.querySelector('.level-btn[data-level="A2"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][1]);
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][1]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
-    // B1: Korean B1 sentence + its Uzbek translation
-    t.document.querySelector('.level-btn[data-level="B1"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][2]);
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][2]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
-    // B2: Korean B2 sentence + its Uzbek translation
-    t.document.querySelector('.level-btn[data-level="B2"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][3]);
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][3]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
-    // C1: Korean C1 sentence + its Uzbek translation
-    t.document.querySelector('.level-btn[data-level="C1"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][4]);
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][4]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
-    // C2: Korean C2 sentence + its Uzbek translation
-    t.document.querySelector('.level-btn[data-level="C2"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex').textContent, t.VOCAB_EXAMPLES['0001'][it0.w][5]);
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ['0001'][it0.w][5]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D['0001'].words.length);
-    // no level selected (original sentence): no Uzbek line
-    t.document.querySelector('.level-btn[data-level="C2"]').click();   // back to original
+    // each group: both of its sentences, each followed by its Uzbek line, on every word
+    const uzOf = doc => [...doc.querySelector('.entry').querySelectorAll('.entry-ex-uz')].map(x => x.textContent);
+    const btn = (doc, g) => doc.querySelector(`.level-btn[data-level="${g}"]`).click();
+    const checkGroups = (doc, k, idx) => {
+      const it = D[k].words[0];
+      assert.deepStrictEqual(exOf(doc), idx.map(i => t.VOCAB_EXAMPLES[k][it.w][i]));
+      assert.deepStrictEqual(uzOf(doc), idx.map(i => UZ[k][it.w][i]));
+      assert.strictEqual(doc.querySelectorAll('.entry-ex-uz').length, D[k].words.length * idx.length);
+    };
+    checkGroups(t.document, '0001', [0, 1]);                                  // A
+    btn(t.document, 'A'); btn(t.document, 'B'); checkGroups(t.document, '0001', [2, 3]);   // B
+    btn(t.document, 'B'); btn(t.document, 'C'); checkGroups(t.document, '0001', [4, 5]);   // C
+    btn(t.document, 'A'); checkGroups(t.document, '0001', [0, 1, 4, 5]);                    // A + C
+    btn(t.document, 'B'); checkGroups(t.document, '0001', [0, 1, 2, 3, 4, 5]);              // A + B + C
+    btn(t.document, 'A'); btn(t.document, 'B'); btn(t.document, 'C');                       // none: original, no Uzbek line
     assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, 0);
-    // TOPIK II with each level A1–C2: Uzbek line on every word; no level: none
-    store['vocab-level'] = '"A1"';
-    const kII = Object.keys(D).find(isII), itII = D[kII].words[0];
+    // TOPIK II: the same
+    store['vocab-levels'] = '["A"]';
+    const kII = Object.keys(D).find(isII);
     t = await load('topic.html?topic=' + kII);
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][0]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
-    t.document.querySelector('.level-btn[data-level="A2"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][1]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
-    t.document.querySelector('.level-btn[data-level="B1"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][2]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
-    t.document.querySelector('.level-btn[data-level="B2"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][3]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
-    t.document.querySelector('.level-btn[data-level="C1"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][4]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
-    t.document.querySelector('.level-btn[data-level="C2"]').click();
-    assert.strictEqual(t.document.querySelector('.entry-ex-uz').textContent, UZ[kII][itII.w][5]);
-    assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, D[kII].words.length);
-    t.document.querySelector('.level-btn[data-level="C2"]').click();   // back to original
+    checkGroups(t.document, kII, [0, 1]);
+    btn(t.document, 'A'); btn(t.document, 'B'); checkGroups(t.document, kII, [2, 3]);
+    btn(t.document, 'B'); btn(t.document, 'C'); checkGroups(t.document, kII, [4, 5]);
+    btn(t.document, 'A'); checkGroups(t.document, kII, [0, 1, 4, 5]);
+    btn(t.document, 'A'); btn(t.document, 'C');
     assert.strictEqual(t.document.querySelectorAll('.entry-ex-uz').length, 0);
-    store['vocab-level'] = '"A1"';
+    store['vocab-levels'] = '["A"]';
 
-    // random card shows the Uzbek A1 line for words from both levels
+    // random card shows the Uzbek A1 and A2 lines for words from both levels
     const r = await load('index.html'), rd = r.document;
     rd.querySelector('[data-random-word]').click();
     await r.VocabRandom.pending;
     let sawI = false, sawII = false;
     for (let n = 0; n < 300 && !(sawI && sawII); n++) {
       const k = rd.getElementById('rw-topic').getAttribute('href').split('topic=')[1];
-      const word = rd.getElementById('rw-word').textContent, uz = rd.getElementById('rw-ex-uz');
+      const word = rd.getElementById('rw-word').textContent;
       if (isII(k)) sawII = true; else sawI = true;
-      assert.strictEqual(uz.textContent, UZ[k][word][0]); assert.notStrictEqual(uz.style.display, 'none');
+      assert.deepStrictEqual([...rd.querySelectorAll('#rw-exs .rw-ex-uz')].map(x => x.textContent), UZ[k][word].slice(0, 2));
       rd.getElementById('rw-next').click();
       await r.VocabRandom.pending;
     }
     assert.ok(sawI && sawII, 'saw words from both levels');
-    store['vocab-level'] = 'null'; }
+    store['vocab-levels'] = '[]'; }
 
   // ---- Synonyms / opposites of nouns, verbs, adjectives and adverbs (relations.js) + scroll buttons (scroll.js) ----
   { const t = await load('topic.html?topic=0001'), D = t.VOCAB_DATA, R = ALL.REL;
